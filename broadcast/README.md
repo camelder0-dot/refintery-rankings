@@ -20,7 +20,7 @@ The [press kit](dist/press-kit.md) includes an opening script, team rundown, sou
 
 Ready-to-use 1920 × 1080 graphics: [FRC Top 10](dist/exports/nei-top10-2026.png), [North Side spotlight](dist/exports/team-spotlight-9119.png), and [FTC features](dist/exports/ftc-features.png). The same browser export produces each graphic; dates and role qualifications remain on screen.
 
-Small school and robotics team marks appear together in the rankings and profiles, and are embedded in PNG exports. All ten FRC teams and both FTC features have verified team marks. PhyXTGears is a community team without a single school logo; R.Amp has no verified published team mark. The [logo manifest](data/logos.json) records source pages, asset URLs, retrieval dates, and checksums; [readable credits](dist/logo-credits.md) travel with the site.
+School marks appear before the identity text and team marks after it. List thumbnails are compact; team details and spotlights use larger images. Logos are also embedded in PNG exports. All ten FRC teams and both FTC features have verified team marks. PhyXTGears is a community team without a single school logo; R.Amp has no verified published team mark. The [logo manifest](data/logos.json) records source pages, asset URLs, retrieval dates, and checksums; [readable credits](dist/logo-credits.md) travel with the site.
 
 ## What the ranking means
 
