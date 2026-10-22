@@ -1,5 +1,343 @@
 {
   "title": "The REFINERY · NEI Robotics Top 10",
+  "seasonPreview": {
+    "seasonLabel": "2026–27 season preview",
+    "asOf": "2026-10-22",
+    "title": "Last season set the bar. This season starts here.",
+    "intro": "The FRC Top 10 below is a rewind of 2026 performance and our preseason baseline. Here is the proposed coverage road from fall events to BIOBUZZ, the live build, spring competition, and Houston.",
+    "countdown": {
+      "targetDate": "2026-12-05",
+      "endDate": "2026-12-06",
+      "label": "Indiana FTC opening weekend",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINWEQ1",
+      "note": "BIOBUZZ kicked off Sept 12. The first listed Indiana qualifiers are Dec 5–6; FIRST calls that Week 12 since kickoff."
+    },
+    "localFtcTeams": [
+      {
+        "number": 22331,
+        "name": "random()",
+        "school": "Canterbury High School",
+        "profileUrl": "https://ftc-events.firstinspires.org/2026/team/22331",
+        "isNew": false
+      },
+      {
+        "number": 25638,
+        "name": "MG (Microchips & Guac)",
+        "school": "Madison-Grant Jr./Sr. High School",
+        "profileUrl": "https://ftc-events.firstinspires.org/2026/team/25638",
+        "isNew": false
+      },
+      {
+        "number": 36124,
+        "name": "R.Amp Robotics",
+        "school": "Amp Lab at The REFINERY",
+        "profileUrl": "https://ftc-events.firstinspires.org/2026/team/36124",
+        "isNew": true
+      }
+    ],
+    "milestones": [
+      {
+        "id": "boiler-bot-battle",
+        "startDate": "2026-10-23",
+        "endDate": "2026-10-24",
+        "dateLabel": "Oct 23–24, 2026",
+        "program": "FRC",
+        "status": "Confirmed event",
+        "title": "Boiler Bot Battle",
+        "description": "This weekend: last season’s robots, fresh ideas, and a first look at the teams to watch.",
+        "location": "Tippecanoe County Fairgrounds · Lafayette",
+        "linkUrl": "https://frc-events.firstinspires.org/2026/INLAF1",
+        "linkLabel": "Event details",
+        "note": "2026 offseason competition; part of our 2027 preseason coverage."
+      },
+      {
+        "id": "monster-match",
+        "startDate": "2026-10-31",
+        "endDate": "2026-10-31",
+        "dateLabel": "Oct 31, 2026",
+        "program": "FRC",
+        "status": "Confirmed event",
+        "title": "Monster Match",
+        "description": "Robots, Halloween, and hometown energy. Bring the family for the competition and college and career fair.",
+        "location": "Wayne High School · Fort Wayne",
+        "linkUrl": "https://refineryrobotics.org/programs-events/monster-match/",
+        "linkLabel": "Event details",
+        "note": "Competition 8:15 a.m.–6 p.m. ET; career fair 10 a.m.–2 p.m. Free spectator admission."
+      },
+      {
+        "id": "november-recap",
+        "startDate": "2026-11-03",
+        "endDate": "2026-11-03",
+        "dateLabel": "Nov 3, 2026",
+        "program": "Show",
+        "status": "Planned coverage",
+        "title": "The preseason film room",
+        "description": "Our proposed November postgame show: what Boiler Bot Battle and Monster Match reveal, the highlights, and the people behind the robots.",
+        "location": "Proposed episode · time and watch link TBA",
+        "linkUrl": "https://refineryrobotics.org/programs-events/",
+        "linkLabel": "REFINERY event hub",
+        "note": ""
+      },
+      {
+        "id": "ftc-preview",
+        "startDate": "2026-11-17",
+        "endDate": "2026-11-17",
+        "dateLabel": "Nov 17, 2026",
+        "program": "FTC",
+        "status": "Planned coverage",
+        "title": "Three teams. One new chapter.",
+        "description": "Meet random(), Microchips & Guac, and rookie R.Amp Robotics from Amp Lab. BIOBUZZ is underway; Indiana’s first qualifiers are next.",
+        "location": "Proposed FTC preview · time and watch link TBA",
+        "linkUrl": "https://ftc-events.firstinspires.org/2026/region/USIN",
+        "linkLabel": "Current FTC teams and calendar",
+        "note": ""
+      },
+      {
+        "id": "ftc-opening",
+        "startDate": "2026-12-05",
+        "endDate": "2026-12-06",
+        "dateLabel": "Dec 5–6, 2026",
+        "program": "FTC",
+        "status": "Confirmed event",
+        "title": "Indiana FTC opening weekend",
+        "description": "Two Westfield qualifiers start Indiana’s listed competition calendar. We’ll follow results, student stories, and the regional teams as assignments are announced.",
+        "location": "Westfield Middle School · Westfield",
+        "linkUrl": "https://ftc-events.firstinspires.org/2026/USINWEQ1",
+        "linkLabel": "Event details",
+        "note": "Local team assignments are not yet published. This is FIRST’s Week 12 since kickoff, rather than official Week 1."
+      },
+      {
+        "id": "ramp-profile",
+        "startDate": "2026-12-08",
+        "endDate": "2026-12-09",
+        "dateLabel": "Within 72 hours of debut",
+        "program": "FTC",
+        "status": "Planned coverage",
+        "title": "Meet R.Amp after match one",
+        "description": "A rookie team’s first real test: the students, their robot, and what Amp Lab is learning through competition.",
+        "location": "Debut date and event assignment TBA",
+        "linkUrl": "https://ftc-events.firstinspires.org/2026/team/36124",
+        "linkLabel": "R.Amp official profile",
+        "note": "Target Dec 8–9 only if R.Amp debuts on opening weekend; otherwise follow its first official match by 2–3 days."
+      },
+      {
+        "id": "ri3d",
+        "startDate": "2027-01-09",
+        "endDate": "2027-01-12",
+        "dateLabel": "Jan 9–12, 2027",
+        "program": "FRC",
+        "status": "Planned coverage",
+        "title": "One robot. Three days. Build it live.",
+        "description": "The REFINERY takes on the global Robot in 3 Days challenge. Follow the live build, the tradeoffs, the failures, and the first working machine.",
+        "location": "Planned 72-hour build after the Jan 9 noon ET kickoff",
+        "linkUrl": "https://refineryrobotics.org/what-we-do/",
+        "linkLabel": "About Robot in 3 Days",
+        "note": "Proposed build window. Livestream times, platform, and link TBA."
+      },
+      {
+        "id": "frc-week-zero",
+        "startDate": "2027-02-20",
+        "endDate": "2027-02-28",
+        "dateLabel": "Late February 2027",
+        "program": "FRC",
+        "status": "Target window",
+        "title": "Week 0: the first full-field test",
+        "description": "New robots meet the field before the standings start. We’ll preview readiness, early strategies, and the teams finding their rhythm.",
+        "location": "Local REFINERY scrimmage date TBA",
+        "linkUrl": "https://www.firstinspires.org/programs/calendar",
+        "linkLabel": "Official FIRST calendar",
+        "note": "FIRST’s official FRC Week Zero is Feb 20. The local REFINERY scrimmage date is not yet announced."
+      },
+      {
+        "id": "frc-week-one",
+        "startDate": "2027-03-03",
+        "endDate": "2027-03-07",
+        "dateLabel": "Mar 3–7, 2027",
+        "program": "FRC",
+        "status": "Confirmed event",
+        "title": "The new FRC season takes the field",
+        "description": "Week 1 starts the spring race. Our first proposed Monday show is March 8, with results, standings, highlights, and our next-week winner picks.",
+        "location": "Global FRC Week 1 · Indiana events begin Mar 12",
+        "linkUrl": "https://www.firstinspires.org/programs/calendar",
+        "linkLabel": "FRC season calendar",
+        "note": ""
+      },
+      {
+        "id": "ftc-state",
+        "startDate": "2027-03-06",
+        "endDate": "2027-03-06",
+        "dateLabel": "Mar 6, 2027",
+        "program": "FTC",
+        "status": "Confirmed event",
+        "title": "FTC: the Indiana state stage",
+        "description": "The postseason arrives for BIOBUZZ. Follow the state contenders and the teams earning the next step toward Houston.",
+        "location": "Nicoson Hall · University of Indianapolis",
+        "linkUrl": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/",
+        "linkLabel": "Event details",
+        "note": "Proposed state review show: Mar 9. Date and venue are from FIRST Indiana’s listing."
+      },
+      {
+        "id": "fort-wayne",
+        "startDate": "2027-04-01",
+        "endDate": "2027-04-03",
+        "dateLabel": "Apr 1–3, 2027",
+        "program": "FRC",
+        "status": "Confirmed event",
+        "title": "Home-field robotics",
+        "description": "The FIRST Indiana district circuit comes to Homestead. A local spotlight weekend, followed by our proposed April 5 show.",
+        "location": "Homestead High School · Fort Wayne",
+        "linkUrl": "https://frc-events.firstinspires.org/2027/district/FIN",
+        "linkLabel": "Indiana FRC event calendar",
+        "note": ""
+      },
+      {
+        "id": "frc-state",
+        "startDate": "2027-04-16",
+        "endDate": "2027-04-18",
+        "dateLabel": "Apr 16–18, 2027",
+        "program": "FRC",
+        "status": "Confirmed event",
+        "title": "FRC: the road runs through state",
+        "description": "Indiana’s district championship brings the season’s strongest stories together. We’ll break down the bracket, highlights, and Houston qualifiers.",
+        "location": "Center Grove High School · Greenwood",
+        "linkUrl": "https://frc-events.firstinspires.org/2027/INCMP",
+        "linkLabel": "Event details",
+        "note": "Proposed state recap: Monday, Apr 19."
+      },
+      {
+        "id": "houston-preview",
+        "startDate": "2027-04-26",
+        "endDate": "2027-04-26",
+        "dateLabel": "Apr 26, 2027",
+        "program": "Show",
+        "status": "Planned coverage",
+        "title": "Texas-bound: the Houston preview",
+        "description": "Meet the qualifiers, study the field, and make our picks before the biggest stage of the season.",
+        "location": "Proposed preview episode · watch link TBA",
+        "linkUrl": "https://www.firstinspires.org/programs/first-championship",
+        "linkLabel": "FIRST Championship",
+        "note": ""
+      },
+      {
+        "id": "worlds",
+        "startDate": "2027-04-28",
+        "endDate": "2027-05-01",
+        "dateLabel": "Apr 28–May 1, 2027",
+        "program": "FTC + FRC",
+        "status": "Confirmed event",
+        "title": "The world stage. Houston, Texas.",
+        "description": "Follow the teams that qualify for FIRST Championship and the stories they bring from Northeast Indiana to a worldwide field.",
+        "location": "George R. Brown Convention Center · Houston, Texas",
+        "linkUrl": "https://www.firstinspires.org/programs/first-championship",
+        "linkLabel": "Event details",
+        "note": "Proposed season-wrap show: Monday, May 3. Team participation depends on qualification."
+      }
+    ],
+    "shows": {
+      "ftc": [
+        {
+          "date": "2026-12-08",
+          "title": "FTC opening weekend review",
+          "summary": "Standings, match highlights, student stories, and predictions for the next event.",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINWEQ1"
+        },
+        {
+          "date": "2027-02-09",
+          "title": "FTC Greenwood review",
+          "summary": "Standings, match highlights, student stories, and predictions for the next event.",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINGRQ"
+        },
+        {
+          "date": "2027-02-16",
+          "title": "FTC Shoals review",
+          "summary": "Standings, match highlights, student stories, and predictions for the next event.",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINSHQ"
+        },
+        {
+          "date": "2027-02-23",
+          "title": "FTC Avon review",
+          "summary": "Standings, match highlights, student stories, and predictions for the next event.",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINAVQ"
+        },
+        {
+          "date": "2027-03-02",
+          "title": "FTC Mishawaka review",
+          "summary": "Standings, match highlights, student stories, and predictions for the next event.",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINMIQ"
+        },
+        {
+          "date": "2027-03-09",
+          "title": "FTC Indiana State review",
+          "summary": "State results, the highlights, and the qualifiers headed toward Houston.",
+          "sourceUrl": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/"
+        }
+      ],
+      "frc": [
+        {
+          "date": "2027-03-08",
+          "title": "FRC Week 1 review",
+          "summary": "Results, standings, game highlights, and our winner picks for the next competition weekend.",
+          "sourceUrl": "https://www.firstinspires.org/programs/calendar"
+        },
+        {
+          "date": "2027-03-15",
+          "title": "FRC Week 2 review",
+          "summary": "Results, standings, game highlights, and our winner picks for the next competition weekend.",
+          "sourceUrl": "https://www.firstinspires.org/programs/calendar"
+        },
+        {
+          "date": "2027-03-22",
+          "title": "FRC Week 3 review",
+          "summary": "Results, standings, game highlights, and our winner picks for the next competition weekend.",
+          "sourceUrl": "https://www.firstinspires.org/programs/calendar"
+        },
+        {
+          "date": "2027-03-29",
+          "title": "FRC Week 4 review",
+          "summary": "Results, standings, game highlights, and our winner picks for the next competition weekend.",
+          "sourceUrl": "https://www.firstinspires.org/programs/calendar"
+        },
+        {
+          "date": "2027-04-05",
+          "title": "FRC Week 5 review",
+          "summary": "Results, standings, game highlights, and our winner picks for the next competition weekend.",
+          "sourceUrl": "https://www.firstinspires.org/programs/calendar"
+        },
+        {
+          "date": "2027-04-12",
+          "title": "FRC Week 6 review",
+          "summary": "Results, standings, game highlights, and our winner picks for the next competition weekend.",
+          "sourceUrl": "https://www.firstinspires.org/programs/calendar"
+        },
+        {
+          "date": "2027-04-19",
+          "title": "FRC Indiana State review",
+          "summary": "State results, match highlights, and the Indiana teams headed toward Houston.",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/INCMP"
+        },
+        {
+          "date": "2027-04-26",
+          "title": "Houston preview",
+          "summary": "Meet the qualifiers, scout the field, and make our championship picks.",
+          "sourceUrl": "https://www.firstinspires.org/programs/first-championship"
+        },
+        {
+          "date": "2027-05-03",
+          "title": "The season wrap",
+          "summary": "Worlds results, standout matches, and the Northeast Indiana stories to remember.",
+          "sourceUrl": "https://www.firstinspires.org/programs/first-championship"
+        }
+      ]
+    },
+    "weeklyPromise": "After each competition week: the standings, the game highlights, the student stories, and our predictions for who wins next.",
+    "notes": [
+      "Confirmed event dates link to organizer calendars. Planned coverage dates are editorial targets; show times and watch links will follow.",
+      "FTC recaps target Tuesdays after Indiana qualifier weekends; FRC weekly shows target Mondays.",
+      "The three FTC features are the REFINERY-area programs. Their 2026–27 event assignments, including R.Amp’s debut, are not yet published.",
+      "Each team competes on its own assigned weekends. Future predictions are editorial picks; they remain separate from official standings and the frozen 2026 EPA ordering.",
+      "Schedule checked October 22, 2026. Local Week 0 and livestream details await organizer announcements."
+    ]
+  },
   "hero": {
     "headline": "THE ONLY SPORT WHERE EVERYONE CAN GO PRO",
     "subhead": "Friday-night energy. Skills for a lifetime. Meet the students building their future in engineering, software, manufacturing and business.",
@@ -13,7 +351,7 @@
     "label": "2026 FRC",
     "researchDate": "2026-10-22",
     "rankingsDate": "2026-06-12",
-    "note": "Independent performance ranking by Statbotics EPA. Frozen June 12, 2026 values; research preserved October 22. This is not a voted poll or a live scoreboard."
+    "note": "2027 preseason baseline: a rewind of 2026 FRC performance, independently ordered by Statbotics EPA. Frozen June 12, 2026 values; research preserved October 22. This is not a voted poll or a live scoreboard."
   },
   "scope": {
     "label": "The REFINERY region · 12 counties",

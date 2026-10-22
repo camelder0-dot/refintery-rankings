@@ -84,11 +84,12 @@ def main():
         })
     result = {
         "title": "The REFINERY · NEI Robotics Top 10",
+        "seasonPreview": load(HERE / "data/season-preview.json"),
         "hero": {"headline": "THE ONLY SPORT WHERE EVERYONE CAN GO PRO", "subhead": "Friday-night energy. Skills for a lifetime. Meet the students building their future in engineering, software, manufacturing and business.",
                  "attribution": "Career-focused campaign message from FIRST Global", "attributionUrl": "https://first.global/sport/",
                  "image": "assets/refinery-shop.jpeg", "logo": "assets/refinery-logo.svg"},
         "edition": {"season": 2026, "label": "2026 FRC", "researchDate": "2026-10-22", "rankingsDate": "2026-06-12",
-                    "note": "Independent performance ranking by Statbotics EPA. Frozen June 12, 2026 values; research preserved October 22. This is not a voted poll or a live scoreboard."},
+                    "note": "2027 preseason baseline: a rewind of 2026 FRC performance, independently ordered by Statbotics EPA. Frozen June 12, 2026 values; research preserved October 22. This is not a voted poll or a live scoreboard."},
         "scope": {"label": "The REFINERY region · 12 counties", "counties": editorial["counties"],
                   "cohortCount": len(regional), "note": editorial["scope_recommendation"]},
         "formatExplainer": {"headline": "Two formats. The same team spirit.",
@@ -115,7 +116,15 @@ def main():
              "## Explain the divisions", "", result["formatExplainer"]["analogy"], "", result["formatExplainer"]["ftc"], "", result["formatExplainer"]["frc"], "", result["formatExplainer"]["note"], "",
              "## Ranking and source line", "", "**2026 FRC · Statbotics EPA · Snapshot June 12, 2026.** Local ranks are computed within the 13 teams in The REFINERY's 12-county region found in the official FIRST Indiana district roster. Hometowns establish the county reference; workshops and student residences were not surveyed. The list is independent of FIRST and is not a voted poll or a live October scoreboard.", "",
              "EPA is modeled scoring contribution, not a record of wins or an educational-quality score. The top two values are almost tied relative to their uncertainty. FTC OPR is separate. Retain dates on broadcast graphics and identify historical or undated leadership evidence accurately.", "",
-             "## Team rundown", ""]
+             "## Coming up: the 2026–27 coverage plan", ""]
+    preview = result["seasonPreview"]
+    press.extend([preview["intro"], "", "Confirmed events retain organizer dates. Show dates and local build/practice windows are planning targets; times and watch links are still to come.", "", "| Date / window | Program | Teaser | Status | Details |", "|---|---|---|---|---|"])
+    for item in preview["milestones"]:
+        press.append(f"| {item['dateLabel']} | {item['program']} | {item['title']} | {item['status']} | {item['description']} {item['note']} [Source / details]({item['linkUrl']}) |")
+    press.extend(["", "### Weekly show promise", "", preview["weeklyPromise"], "", "All episode dates below are **planned coverage**, rather than confirmed broadcasts.", "", "| Proposed date | Episode | Focus |", "|---|---|---|"])
+    for show in sorted(preview["shows"]["ftc"] + preview["shows"]["frc"], key=lambda r: (r["date"], r["title"])):
+        press.append(f"| {show['date']} | {show['title']} | {show['summary']} |")
+    press.extend(["", *["- " + note for note in preview["notes"]], "", "## Team rundown", ""])
     for t in teams:
         press.extend([f"### {t['rank']}. {t['name']} · FRC {t['number']}", "", f"{t['school']} · {t['city']}, {t['county']} County", "",
                       f"EPA {t['epa']:.2f}; Indiana {t['stateRank']}/{t['stateCount']}; world {t['worldRank']}/{t['worldCount']}.", "", *["- " + s for s in t["talkingPoints"]], ""])

@@ -2,6 +2,8 @@
 
 A broadcast-style screen and media rundown for introducing regional robotics teams to football and baseball audiences. The hero message leads into a 2026 FRC Top 10, individual team profiles, and separate FTC features. Student and adult names retain their exact published roles and evidence dates.
 
+The 2026–27 season preview teases the upcoming calendar while keeping the ranking screen a rewind of last season. Its [coverage plan](data/season-preview.json) separates confirmed events from proposed show dates and local planning windows. [Source checks](data/season-sources) retain the FIRST, FIRST Indiana, and REFINERY calendar evidence. The Indiana FTC countdown uses the current date in Fort Wayne and targets December 5, 2026 (44 days from the October 22 research date). R.Amp’s profile follows its first official match; the team’s debut assignment is not yet published.
+
 ## Use the screen
 
 [Open the public interactive site](https://horner.github.io/refintery-rankings/). Visitors can select a team in the Top 10, switch to its spotlight, explore FTC features, and open presenter notes and sources. Direct profile links work, for example [North Side / 9119](https://horner.github.io/refintery-rankings/#team/9119) and [FTC features](https://horner.github.io/refintery-rankings/#ftc).

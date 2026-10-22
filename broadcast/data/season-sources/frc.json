@@ -1,0 +1,34 @@
+{
+  "researchedDate": "2026-10-22",
+  "confirmed": {
+    "kickoff": {"start": "2027-01-09", "time": "12:00 p.m. Eastern", "source": "https://www.firstinspires.org/programs/frc/game-and-season"},
+    "officialFrcWeekZero": {"start": "2027-02-20", "note": "FIRST's official field-test event; not a confirmed local REFINERY scrimmage.", "source": "https://www.firstinspires.org/programs/calendar"},
+    "competitionWeeks": [
+      {"week": 1, "start": "2027-03-03", "end": "2027-03-07", "showTarget": "2027-03-08"},
+      {"week": 2, "start": "2027-03-10", "end": "2027-03-14", "showTarget": "2027-03-15"},
+      {"week": 3, "start": "2027-03-17", "end": "2027-03-21", "showTarget": "2027-03-22"},
+      {"week": 4, "start": "2027-03-24", "end": "2027-03-28", "showTarget": "2027-03-29"},
+      {"week": 5, "start": "2027-03-31", "end": "2027-04-04", "showTarget": "2027-04-05"},
+      {"week": 6, "start": "2027-04-07", "end": "2027-04-11", "showTarget": "2027-04-12"},
+      {"week": 7, "start": "2027-04-14", "end": "2027-04-18", "showTarget": "2027-04-19"}
+    ],
+    "competitionWeeksSource": "https://www.firstinspires.org/programs/calendar",
+    "indianaEvents": [
+      {"name": "Mishawaka", "start": "2027-03-12", "end": "2027-03-14", "venue": "Penn High School"},
+      {"name": "Sellersburg", "start": "2027-03-19", "end": "2027-03-21", "venue": "Silver Creek High School"},
+      {"name": "Lafayette", "start": "2027-03-25", "end": "2027-03-27", "venue": "Jefferson High School"},
+      {"name": "Fort Wayne", "start": "2027-04-01", "end": "2027-04-03", "venue": "Homestead High School"}
+    ],
+    "indianaEventsSource": "https://frc-events.firstinspires.org/2027/district/FIN",
+    "indianaState": {"start": "2027-04-16", "end": "2027-04-18", "venue": "Center Grove High School, Greenwood", "source": "https://frc-events.firstinspires.org/2027/INCMP"},
+    "championship": {"start": "2027-04-28", "end": "2027-05-01", "venue": "George R. Brown Convention Center, Houston, Texas", "source": "https://www.firstinspires.org/programs/first-championship", "venueSource": "https://community.firstinspires.org/first-championship-updates-2025-beyond"}
+  },
+  "editorialTargets": {
+    "ri3d": {"start": "2027-01-09", "end": "2027-01-12", "label": "Planned 72-hour build and live stream", "note": "Built around the confirmed kickoff. Exact stream dates and link TBA. Public REFINERY description supports a rapid documented build and sharing with FIRST teams worldwide; no evidence of a formal global Ri3D tournament.", "source": "https://refineryrobotics.org/what-we-do/"},
+    "localWeekZero": {"window": "Late February 2027", "label": "Local scrimmage watch", "note": "REFINERY hosted a Week0 scrimmage in 2026, but a 2027 local date is not published.", "source": "https://refineryrobotics.org/news/a-year-building-the-refinery/"},
+    "stateRecap": "2027-04-19",
+    "houstonPreview": "2027-04-26",
+    "worldsWrap": "2027-05-03",
+    "showNote": "Monday show dates are proposed editorial targets, not official event dates. Each show can recap results, standings and highlights, then preview the next weekend with clearly labeled predictions. Do not imply every NEI team competes every week."
+  }
+}

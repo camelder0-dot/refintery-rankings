@@ -4,27 +4,36 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#143d2c">
-  <meta name="description" content="Northeast Indiana robotics, in the spotlight. A Top 10, team profiles, and a broadcast-ready guide to the students building what comes next.">
-  <title>Northeast Indiana Robotics Top 10 · The REFINERY</title>
-  <link rel="stylesheet" href="styles.css?v=20261022-autocycle-1">
-  <script src="app.js?v=20261022-autocycle-1" defer></script>
+  <meta name="description" content="Northeast Indiana robotics: the 2026–27 season preview, upcoming events, planned weekly coverage, and last season’s FRC Top 10 and FTC team stories.">
+  <title>NEI Robotics Season Preview & Top 10 · The REFINERY</title>
+  <link rel="stylesheet" href="styles.css?v=20261022-season-preview-1">
+  <script src="app.js?v=20261022-season-preview-1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#broadcast">Skip to rankings</a>
   <header class="site-header">
     <a class="wordmark" href="https://refineryrobotics.org/" target="_blank" rel="noopener"><img class="brand-logo" src="assets/refinery-logo.svg" alt="The REFINERY"><span class="sr-only">Youth robotics · Northeast Indiana</span></a>
-    <nav aria-label="Main"><a href="#broadcast">The rankings <span aria-hidden="true">↗</span></a><a href="#formats">Know the sport</a><a class="header-cta" href="https://refineryrobotics.org/get-involved/" target="_blank" rel="noopener">Get in the game <span aria-hidden="true">↗</span></a></nav>
+    <nav aria-label="Main"><a href="#season-preview">Coming up <span aria-hidden="true">↓</span></a><a href="#broadcast">The rankings</a><a href="#formats">Know the sport</a><a class="header-cta" href="https://refineryrobotics.org/get-involved/" target="_blank" rel="noopener">Get in the game <span aria-hidden="true">↗</span></a></nav>
   </header>
 
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <div class="hero-grid" aria-hidden="true"></div>
-      <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> BUILT HERE. READY FOR WHAT’S NEXT.</div><h1 id="hero-title">THE ONLY SPORT<br>WHERE EVERYONE<br>CAN <em>GO PRO.</em></h1><p>The competition is robotics.<br>The next chapter could be anything.</p><div class="hero-bottom"><a class="hero-link" href="#broadcast">MEET NORTHEAST INDIANA’S TEAMS <span aria-hidden="true">↓</span></a><span>Engineering. Coding. Design. Leadership.<br>Skills that travel far beyond the field.</span></div><p class="slogan-attribution">Career-focused campaign message from <a href="https://first.global/sport/" target="_blank" rel="noopener">FIRST Global</a>.</p></div>
+      <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> BUILT HERE. READY FOR WHAT’S NEXT.</div><h1 id="hero-title">THE ONLY SPORT<br>WHERE EVERYONE<br>CAN <em>GO PRO.</em></h1><p>The competition is robotics.<br>The next chapter could be anything.</p><div class="hero-season-tag">2026–27 SEASON PREVIEW <span>Last season’s form. Next season’s stories.</span></div><div class="hero-bottom"><a class="hero-link" href="#season-preview">SEE WHAT’S COMING <span aria-hidden="true">↓</span></a><span>Engineering. Coding. Design. Leadership.<br>Skills that travel far beyond the field.</span></div><p class="slogan-attribution">Career-focused campaign message from <a href="https://first.global/sport/" target="_blank" rel="noopener">FIRST Global</a>.</p></div>
       <div class="hero-art"><img class="hero-photo" src="assets/refinery-shop.jpeg" alt="Robots on the practice field at The REFINERY in Fort Wayne"><div class="technical-label art-label">THE NEXT GENERATION / MADE IN NEI</div><div class="hero-photo-caption"><span class="photo-cross" aria-hidden="true">＋</span><span>OUR FIELD.<br>YOUR FUTURE.</span><small>THE REFINERY / FORT WAYNE, IN</small></div></div>
     </section>
 
+    <section class="season-preview" id="season-preview" aria-labelledby="season-title" hidden>
+      <div class="section-heading"><div><div class="eyebrow dark" id="season-label">2026–27 / THE NEXT CHAPTER</div><h2 id="season-title">THE SEASON AHEAD.</h2></div><p id="season-intro"></p></div>
+      <div class="season-opening"><div class="season-countdown" id="season-countdown"></div><div class="season-ftc" id="season-ftc"></div></div>
+      <div class="season-schedule-heading"><h3>MARK THE CALENDAR.</h3><p>Event dates and our coverage plans, clearly labeled.</p></div>
+      <div class="season-timeline" id="season-timeline"></div>
+      <div class="season-shows" id="season-shows"></div>
+      <div class="season-notes" id="season-notes"></div>
+    </section>
+
     <section class="broadcast-section" id="broadcast" aria-labelledby="broadcast-title">
-      <div class="section-heading"><div><div class="eyebrow dark">THE REGIONAL RUNDOWN</div><h2 id="broadcast-title">BIG LEAGUE ENERGY.<br>HOMEGROWN TALENT.</h2></div><p>A Top 10 made for the spotlight.<br>Choose a team. Find the story. Put it on screen.</p></div>
+      <div class="section-heading"><div><div class="eyebrow dark">2026 PERFORMANCE REWIND / PRESEASON BASELINE</div><h2 id="broadcast-title">LAST SEASON’S FORM.<br>NEXT SEASON’S STORIES.</h2></div><p>Revisit last season’s performance and public team stories.<br>Choose a team. Find the story. Put it on screen.</p></div>
       <div class="studio-toolbar" aria-label="Broadcast controls"><div class="view-tabs" role="tablist" aria-label="Screen view"><button id="tab-board" role="tab" aria-selected="true" data-view="board">Top 10</button><button id="tab-team" role="tab" aria-selected="false" data-view="team">Team spotlight</button><button id="tab-ftc" role="tab" aria-selected="false" data-view="ftc">FTC features</button></div><div class="studio-actions"><button id="notes-button" aria-pressed="false" title="Presenter notes (P)"><span aria-hidden="true">☷</span> <span class="action-label">Presenter notes</span></button><button id="export-button" title="Download a 1920 × 1080 image"><span aria-hidden="true">↓</span> <span class="action-label">Export PNG</span></button><button id="fullscreen-button" title="Full screen (F)"><span aria-hidden="true">⛶</span> <span class="action-label">Full screen</span></button><a class="github-source-link" href="https://github.com/horner/refintery-rankings/tree/main/broadcast" target="_blank" rel="noopener">GitHub source <span aria-hidden="true">↗</span></a></div></div>
       <div class="stage" id="stage"><div class="presentation-controls"><button id="presentation-notes-button" aria-pressed="false">Notes <kbd>P</kbd></button><button id="presentation-exit-button">Exit <kbd>Esc</kbd></button></div><div class="on-air-frame" id="on-air-frame" aria-label="Northeast Indiana robotics broadcast screen" aria-busy="true"><div class="loading-state"><span class="screen-brand">THE REFINERY</span><h3>LOADING THE RUNDOWN</h3><p>Preparing the preserved research snapshot.</p></div></div></div>
       <div class="below-stage"><div><span class="keyboard-hint"><kbd>←</kbd> <kbd>→</kbd> select a team</span><span class="keyboard-hint"><kbd>1</kbd>–<kbd>0</kbd> jump to rank</span><span class="keyboard-hint"><kbd>F</kbd> full screen</span><span class="keyboard-hint"><kbd>P</kbd> notes</span></div><label class="cycle-control"><input id="cycle-toggle" type="checkbox" checked> Auto-cycle teams <span>12s</span></label></div>

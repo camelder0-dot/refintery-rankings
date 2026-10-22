@@ -7,6 +7,7 @@ import hashlib
 from pathlib import Path
 import re
 import struct
+from datetime import date, timedelta
 
 HERE = Path(__file__).resolve().parents[1]
 ROOT = HERE.parent
@@ -54,6 +55,42 @@ def main():
     require([r["number"] for r in data["ftc"]["newTeams"]] == [36124], "New-season watch changed")
     require(data["hero"]["attributionUrl"] == "https://first.global/sport/", "Hero attribution lost")
     require("not assigned by school enrollment" in data["formatExplainer"]["analogy"], "Enrollment distinction lost")
+    preview = load(HERE / "data/season-preview.json")
+    require(data["seasonPreview"] == preview, "Season preview did not reach the browser data")
+    local = load(HERE / "data/season-sources/refinery.json")
+    future_frc = load(HERE / "data/season-sources/frc.json")
+    future_ftc = load(HERE / "data/season-sources/ftc.json")
+    opening = future_ftc["openingWeekend"]
+    require(preview["countdown"]["targetDate"] == opening["startDate"] and preview["countdown"]["endDate"] == opening["endDate"], "Countdown is not the official Indiana opening weekend")
+    require((date.fromisoformat(opening["startDate"]) - date.fromisoformat(preview["asOf"])).days == 44, "Opening countdown baseline is incorrect")
+    require({r["number"] for r in preview["localFtcTeams"]} == {r["number"] for r in future_ftc["localTeams"]} == {22331, 25638, 36124}, "Current three-team FTC teaser changed")
+    milestones = {r["id"]: r for r in preview["milestones"]}
+    require(len(milestones) == len(preview["milestones"]), "Duplicate season milestone")
+    require([r["startDate"] for r in preview["milestones"]] == sorted(r["startDate"] for r in preview["milestones"]), "Season milestones are out of order")
+    expected_events = {
+        "boiler-bot-battle": (local["events"][0]["start_date"], local["events"][0]["end_date"]),
+        "monster-match": (local["events"][1]["start_date"], local["events"][1]["end_date"]),
+        "ftc-opening": (opening["startDate"], opening["endDate"]),
+        "frc-week-one": (future_frc["confirmed"]["competitionWeeks"][0]["start"], future_frc["confirmed"]["competitionWeeks"][0]["end"]),
+        "ftc-state": (future_ftc["state"]["date"], future_ftc["state"]["date"]),
+        "fort-wayne": (future_frc["confirmed"]["indianaEvents"][3]["start"], future_frc["confirmed"]["indianaEvents"][3]["end"]),
+        "frc-state": (future_frc["confirmed"]["indianaState"]["start"], future_frc["confirmed"]["indianaState"]["end"]),
+        "worlds": (future_ftc["world"]["startDate"], future_ftc["world"]["endDate"]),
+    }
+    for key, expected in expected_events.items():
+        item = milestones[key]
+        require((item["startDate"], item["endDate"]) == expected and item["status"] == "Confirmed event", f"Official date/status changed: {key}")
+    for item in preview["milestones"]:
+        require(date.fromisoformat(item["startDate"]) <= date.fromisoformat(item["endDate"]), "Milestone dates reversed")
+        require(item["status"] in {"Confirmed event", "Planned coverage", "Target window"} and item["linkUrl"].startswith("https://"), "Milestone missing status or source")
+    require(milestones["ramp-profile"]["status"] == "Planned coverage" and "only if" in milestones["ramp-profile"]["note"], "R.Amp debut incorrectly presented as assigned")
+    require(milestones["frc-week-zero"]["status"] == "Target window" and "not yet announced" in milestones["frc-week-zero"]["note"], "Local Week 0 presented as confirmed")
+    require(milestones["ri3d"]["status"] == "Planned coverage" and date.fromisoformat(milestones["ri3d"]["endDate"]) - date.fromisoformat(milestones["ri3d"]["startDate"]) == timedelta(days=3), "RI3D planning window changed")
+    for show in preview["shows"]["ftc"]:
+        require(date.fromisoformat(show["date"]).weekday() == 1, "FTC editorial target is not Tuesday")
+    for show, week in zip(preview["shows"]["frc"], future_frc["confirmed"]["competitionWeeks"]):
+        require(date.fromisoformat(show["date"]) == date.fromisoformat(week["end"]) + timedelta(days=1), "FRC recap is not after its competition week")
+    require(all(date.fromisoformat(s["date"]).weekday() == 0 for s in preview["shows"]["frc"]), "FRC editorial target is not Monday")
     for name in ("index.html", "styles.css", "app.js", "press-kit.md", "assets/refinery-logo.svg", "assets/refinery-shop.jpeg"):
         require((HERE / "dist" / name).is_file(), f"Missing static asset: {name}")
     for asset in load(HERE / "data/asset-manifest.json")["assets"]:

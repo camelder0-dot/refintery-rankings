@@ -1,0 +1,265 @@
+{
+  "retrievedDate": "2026-10-22",
+  "season": "2026–27 BIOBUZZ",
+  "kickoff": {
+    "date": "2026-09-12",
+    "status": "confirmed_past_event",
+    "sourceUrl": "https://www.firstinspires.org/first-canopy"
+  },
+  "openingWeekend": {
+    "startDate": "2026-12-05",
+    "endDate": "2026-12-06",
+    "daysFromResearchDate": 44,
+    "label": "Indiana FTC opening weekend",
+    "status": "confirmed_event_dates",
+    "note": "Avoid official Week 1: FIRST labels the December 5 event Week 12 since kickoff. Team assignments have not been published.",
+    "sourceUrls": [
+      "https://ftc-events.firstinspires.org/2026/USINWEQ1",
+      "https://ftc-events.firstinspires.org/2026/USINWEQ2"
+    ]
+  },
+  "qualifiers": [
+    {
+      "id": "USINWEQ1",
+      "name": "Westfield 1 QT",
+      "date": "2026-12-05",
+      "city": "Westfield",
+      "venue": "Westfield Middle School",
+      "address": "345 W Hoover Street, Westfield, IN",
+      "status": "confirmed_event_date",
+      "teamAssignmentStatus": "not_yet_assigned",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINWEQ1"
+    },
+    {
+      "id": "USINWEQ2",
+      "name": "Westfield 2 QT",
+      "date": "2026-12-06",
+      "city": "Westfield",
+      "venue": "Westfield Middle School",
+      "address": "345 W Hoover Street, Westfield, IN",
+      "status": "confirmed_event_date",
+      "teamAssignmentStatus": "not_yet_assigned",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINWEQ2"
+    },
+    {
+      "id": "USINGRQ",
+      "name": "Greenwood QT",
+      "date": "2027-02-06",
+      "city": "Greenwood",
+      "venue": "Greenwood Middle School",
+      "address": "1584 Averitt Rd, Greenwood, IN",
+      "status": "confirmed_event_date",
+      "teamAssignmentStatus": "not_yet_assigned",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINGRQ"
+    },
+    {
+      "id": "USINSHQ",
+      "name": "Shoals QT",
+      "date": "2027-02-13",
+      "city": "Shoals",
+      "venue": "Shoals Jr/Sr High School",
+      "address": "7900 US-50, Shoals, IN",
+      "status": "confirmed_event_date",
+      "teamAssignmentStatus": "not_yet_assigned",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINSHQ"
+    },
+    {
+      "id": "USINAVQ",
+      "name": "Avon QT",
+      "date": "2027-02-20",
+      "city": "Avon",
+      "venue": "Avon High School",
+      "address": "7575 E County Rd 150 S, Avon, IN",
+      "status": "confirmed_event_date",
+      "teamAssignmentStatus": "not_yet_assigned",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINAVQ"
+    },
+    {
+      "id": "USINMIQ",
+      "name": "Mishawaka QT",
+      "date": "2027-02-28",
+      "city": "Mishawaka",
+      "venue": "Penn High School",
+      "address": "56100 Bittersweet Rd, Mishawaka, IN",
+      "status": "confirmed_event_date",
+      "teamAssignmentStatus": "not_yet_assigned",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USINMIQ"
+    }
+  ],
+  "reviewShows": [
+    {
+      "date": "2026-12-08",
+      "title": "FTC opening weekend review",
+      "status": "planned_editorial_target",
+      "events": [
+        "USINWEQ1",
+        "USINWEQ2"
+      ],
+      "coverage": [
+        "Updated Indiana standings and regional team results",
+        "Postweek match highlights",
+        "Student and mentor stories",
+        "Predictions for the next competition weekend"
+      ],
+      "sourceUrls": [
+        "https://ftc-events.firstinspires.org/2026/USINWEQ1",
+        "https://ftc-events.firstinspires.org/2026/USINWEQ2"
+      ],
+      "note": "Proposed Tuesday coverage date; no published show time or livestream has been confirmed."
+    },
+    {
+      "date": "2027-02-09",
+      "title": "FTC Greenwood review",
+      "status": "planned_editorial_target",
+      "events": [
+        "USINGRQ"
+      ],
+      "coverage": [
+        "Updated Indiana standings and regional team results",
+        "Postweek match highlights",
+        "Student and mentor stories",
+        "Predictions for the next competition weekend"
+      ],
+      "sourceUrls": [
+        "https://ftc-events.firstinspires.org/2026/USINGRQ"
+      ],
+      "note": "Proposed Tuesday coverage date; no published show time or livestream has been confirmed."
+    },
+    {
+      "date": "2027-02-16",
+      "title": "FTC Shoals review",
+      "status": "planned_editorial_target",
+      "events": [
+        "USINSHQ"
+      ],
+      "coverage": [
+        "Updated Indiana standings and regional team results",
+        "Postweek match highlights",
+        "Student and mentor stories",
+        "Predictions for the next competition weekend"
+      ],
+      "sourceUrls": [
+        "https://ftc-events.firstinspires.org/2026/USINSHQ"
+      ],
+      "note": "Proposed Tuesday coverage date; no published show time or livestream has been confirmed."
+    },
+    {
+      "date": "2027-02-23",
+      "title": "FTC Avon review",
+      "status": "planned_editorial_target",
+      "events": [
+        "USINAVQ"
+      ],
+      "coverage": [
+        "Updated Indiana standings and regional team results",
+        "Postweek match highlights",
+        "Student and mentor stories",
+        "Predictions for the next competition weekend"
+      ],
+      "sourceUrls": [
+        "https://ftc-events.firstinspires.org/2026/USINAVQ"
+      ],
+      "note": "Proposed Tuesday coverage date; no published show time or livestream has been confirmed."
+    },
+    {
+      "date": "2027-03-02",
+      "title": "FTC Mishawaka review",
+      "status": "planned_editorial_target",
+      "events": [
+        "USINMIQ"
+      ],
+      "coverage": [
+        "Updated Indiana standings and regional team results",
+        "Postweek match highlights",
+        "Student and mentor stories",
+        "Predictions for the next competition weekend"
+      ],
+      "sourceUrls": [
+        "https://ftc-events.firstinspires.org/2026/USINMIQ"
+      ],
+      "note": "Proposed Tuesday coverage date; no published show time or livestream has been confirmed."
+    },
+    {
+      "date": "2027-03-09",
+      "title": "FTC Indiana State review",
+      "status": "planned_editorial_target",
+      "events": [
+        "Indiana FTC State Championship"
+      ],
+      "coverage": [
+        "State championship results and match highlights",
+        "Qualifying teams and the road to Houston"
+      ],
+      "sourceUrls": [
+        "https://www.firstindianarobotics.org/event/ftc-state-championship-3/"
+      ],
+      "note": "Proposed Tuesday coverage date following confirmed Saturday state event."
+    }
+  ],
+  "state": {
+    "date": "2027-03-06",
+    "venue": "University of Indianapolis Nicoson Hall",
+    "city": "Indianapolis, Indiana",
+    "status": "confirmed_partner_calendar_date",
+    "sourceUrl": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/",
+    "sourceCaution": "Use date and venue only. Descriptive body still discusses prior DECODE season; state event not yet in FTC Events Indiana list."
+  },
+  "world": {
+    "startDate": "2027-04-28",
+    "endDate": "2027-05-01",
+    "venue": "George R. Brown Convention Center",
+    "city": "Houston, Texas",
+    "status": "confirmed_event_dates",
+    "sourceUrls": [
+      "https://www.firstinspires.org/programs/first-championship",
+      "https://community.firstinspires.org/first-championship-updates-2025-beyond"
+    ]
+  },
+  "localTeams": [
+    {
+      "number": 22331,
+      "name": "random()",
+      "school": "Canterbury High School",
+      "status": "registered_current_season",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/22331"
+    },
+    {
+      "number": 25638,
+      "name": "MG (Microchips & Guac)",
+      "school": "Madison-Grant",
+      "status": "registered_current_season",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/25638"
+    },
+    {
+      "number": 36124,
+      "name": "R.Amp Robotics",
+      "school": "Amp Lab at Electric Works",
+      "status": "registered_current_season_rookie",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/36124"
+    }
+  ],
+  "rAmpProfile": {
+    "status": "planned_after_debut_assignment_pending",
+    "date": null,
+    "cadence": "2–3 days after the first match",
+    "conditionalOpeningWeekendTarget": "2026-12-08 to 2026-12-09 only if R.Amp debuts Dec 5–6",
+    "note": "Official team profile has no events; Westfield events have zero assigned participants as of retrieval.",
+    "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/36124"
+  },
+  "week0": {
+    "date": null,
+    "status": "local_date_unverified",
+    "proposedWindow": "November 2026",
+    "note": "No local FTC Week 0 date was found in public REFINERY/FIN calendars. If a local practice preview is intended, retain date TBA; do not present as confirmed. Official FTC Preview Event already occurred Oct 2–3 in Saline, Michigan.",
+    "pastPreview": {
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-03",
+      "name": "Saline Preview Event",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/USMISAS"
+    }
+  },
+  "calendarSources": [
+    "https://ftc-events.firstinspires.org/2026/region/USIN",
+    "https://www.firstindianarobotics.org/all-events/category/ftc/"
+  ]
+}

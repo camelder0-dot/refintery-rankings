@@ -251,7 +251,7 @@ The [complete leadership findings](leadership-findings.md) include all qualifyin
     write_text("docs/sources.md", "\n".join(source_lines))
     readme = f"""# FIRST Robotics teams around Fort Wayne
 
-[Explore the interactive NEI Robotics Top 10](https://horner.github.io/refintery-rankings/) — choose teams, browse student and adult profiles, view separate FTC features, and open the research sources. Public access; no sign-in required.
+[Explore the NEI Robotics season preview and Top 10](https://horner.github.io/refintery-rankings/) — follow the 2026–27 event and proposed show calendar, revisit last season’s rankings, browse student and adult profiles, and open the research sources. Public access; no sign-in required.
 
 ## New to robotics? A guide for football and baseball fans
 

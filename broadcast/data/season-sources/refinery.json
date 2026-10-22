@@ -1,0 +1,96 @@
+{
+  "checked_date": "2026-10-22",
+  "events": [
+    {
+      "id": "boiler-bot-battle-2026",
+      "name": "Boiler Bot Battle",
+      "program": "FRC",
+      "classification": "2026 offseason competition / 2027 preseason story",
+      "start_date": "2026-10-23",
+      "end_date": "2026-10-24",
+      "location": "Tippecanoe County Fairgrounds",
+      "address": "1406 Teal Rd, Lafayette, IN",
+      "time_note": "No public match hours verified; do not copy 2025 hours.",
+      "source_urls": [
+        "https://frc-events.firstinspires.org/2026/INLAF1",
+        "https://refineryrobotics.org/news/re-blitz-summer-build-kickoff/"
+      ],
+      "refinery_connection": "REFINERY July 30 story says the summer Re-Blitz clone is registered to compete at Boiler Bot Battle. Its imprecise mid-October description is superseded by FIRST official October 23\u201324 event dates.",
+      "status": "confirmed event dates and venue"
+    },
+    {
+      "id": "monster-match-2026",
+      "name": "Monster Match",
+      "program": "FRC",
+      "classification": "2026 offseason competition / 2027 preseason story",
+      "start_date": "2026-10-31",
+      "end_date": "2026-10-31",
+      "start_time": "08:15",
+      "end_time": "18:00",
+      "timezone": "America/Indiana/Indianapolis",
+      "location": "Wayne High School",
+      "address": "9100 Winchester Rd, Fort Wayne, IN 46819",
+      "admission": "Free and open to public; no spectator registration needed",
+      "career_fair_start": "10:00",
+      "career_fair_end": "14:00",
+      "source_urls": [
+        "https://refineryrobotics.org/programs-events/monster-match/",
+        "https://teamconvene.org/event/the-refinery/monster-match"
+      ],
+      "status": "confirmed event dates, match hours, venue and fair hours"
+    },
+    {
+      "id": "kit-to-career-2026",
+      "name": "From Kit to Career: A Lunch & Learn on FIRST Robotics and Workforce-Ready Students",
+      "program": "community / FIRST introduction",
+      "classification": "community event, not robot competition",
+      "start_date": "2026-10-23",
+      "start_time": "11:00",
+      "end_time": "13:00",
+      "timezone": "America/Indiana/Indianapolis",
+      "location": "The REFINERY",
+      "address": "1750 Broadway, Fort Wayne, IN 46802",
+      "admission": "Free lunch; registration requested, limited seats",
+      "source_urls": [
+        "https://refineryrobotics.org/programs-events/from-kit-to-career/",
+        "https://www.zeffy.com/en-US/ticketing/from-kit-to-career-a-lunch-and-learn-on-first-robotics-and-workforce-ready-students",
+        "https://raw.githubusercontent.com/BioNanomics/REFINERY-site/main/src/content/events/from-kit-to-career.mdx"
+      ],
+      "status": "confirmed optional community item"
+    }
+  ],
+  "ri3d": {
+    "confirmed": "Annual documented rapid build after the FRC game reveal. July 2026 retrospective describes hosting Ri3D and KBi3D at prior kickoff weekend.",
+    "unverified": [
+      "2027 local dates and build timetable",
+      "2027 global event or competition details",
+      "2027 livestream platform and URL"
+    ],
+    "source_urls": [
+      "https://refineryrobotics.org/what-we-do/",
+      "https://refineryrobotics.org/news/a-year-building-the-refinery/"
+    ]
+  },
+  "week_zero": {
+    "confirmed": "Prior local scrimmage described in REFINERY July 2026 retrospective involved its FRC teams.",
+    "unverified": [
+      "2027 local Week 0 date",
+      "FTC Week 0 schedule or program confirmation"
+    ],
+    "source_urls": [
+      "https://refineryrobotics.org/news/a-year-building-the-refinery/"
+    ]
+  },
+  "ftc_local_teams": {
+    "confirmed": [
+      "FTC 22331 random() \u2014 Canterbury High School",
+      "FTC 25638 MG (Microchips & Guac) \u2014 Madison-Grant Jr/Sr High School",
+      "FTC 36124 R.Amp Robotics \u2014 Amp Lab at The REFINERY"
+    ],
+    "scope_note": "These are the three FTC teams listed by The REFINERY in its supported-teams section; broader 60-mile geography includes other states and teams.",
+    "source_urls": [
+      "https://refineryrobotics.org/about/"
+    ]
+  },
+  "source_note": "Official website event content inventory lists only Lunch & Learn and Monster Match; Boiler Bot Battle is connected via REFINERY summer-build news and verified on FIRST event page."
+}

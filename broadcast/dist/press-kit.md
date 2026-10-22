@@ -34,6 +34,59 @@ A large school can compete in FTC, a small school can compete in FRC, and a scho
 
 EPA is modeled scoring contribution, not a record of wins or an educational-quality score. The top two values are almost tied relative to their uncertainty. FTC OPR is separate. Retain dates on broadcast graphics and identify historical or undated leadership evidence accurately.
 
+## Coming up: the 2026–27 coverage plan
+
+The FRC Top 10 below is a rewind of 2026 performance and our preseason baseline. Here is the proposed coverage road from fall events to BIOBUZZ, the live build, spring competition, and Houston.
+
+Confirmed events retain organizer dates. Show dates and local build/practice windows are planning targets; times and watch links are still to come.
+
+| Date / window | Program | Teaser | Status | Details |
+|---|---|---|---|---|
+| Oct 23–24, 2026 | FRC | Boiler Bot Battle | Confirmed event | This weekend: last season’s robots, fresh ideas, and a first look at the teams to watch. 2026 offseason competition; part of our 2027 preseason coverage. [Source / details](https://frc-events.firstinspires.org/2026/INLAF1) |
+| Oct 31, 2026 | FRC | Monster Match | Confirmed event | Robots, Halloween, and hometown energy. Bring the family for the competition and college and career fair. Competition 8:15 a.m.–6 p.m. ET; career fair 10 a.m.–2 p.m. Free spectator admission. [Source / details](https://refineryrobotics.org/programs-events/monster-match/) |
+| Nov 3, 2026 | Show | The preseason film room | Planned coverage | Our proposed November postgame show: what Boiler Bot Battle and Monster Match reveal, the highlights, and the people behind the robots.  [Source / details](https://refineryrobotics.org/programs-events/) |
+| Nov 17, 2026 | FTC | Three teams. One new chapter. | Planned coverage | Meet random(), Microchips & Guac, and rookie R.Amp Robotics from Amp Lab. BIOBUZZ is underway; Indiana’s first qualifiers are next.  [Source / details](https://ftc-events.firstinspires.org/2026/region/USIN) |
+| Dec 5–6, 2026 | FTC | Indiana FTC opening weekend | Confirmed event | Two Westfield qualifiers start Indiana’s listed competition calendar. We’ll follow results, student stories, and the regional teams as assignments are announced. Local team assignments are not yet published. This is FIRST’s Week 12 since kickoff, rather than official Week 1. [Source / details](https://ftc-events.firstinspires.org/2026/USINWEQ1) |
+| Within 72 hours of debut | FTC | Meet R.Amp after match one | Planned coverage | A rookie team’s first real test: the students, their robot, and what Amp Lab is learning through competition. Target Dec 8–9 only if R.Amp debuts on opening weekend; otherwise follow its first official match by 2–3 days. [Source / details](https://ftc-events.firstinspires.org/2026/team/36124) |
+| Jan 9–12, 2027 | FRC | One robot. Three days. Build it live. | Planned coverage | The REFINERY takes on the global Robot in 3 Days challenge. Follow the live build, the tradeoffs, the failures, and the first working machine. Proposed build window. Livestream times, platform, and link TBA. [Source / details](https://refineryrobotics.org/what-we-do/) |
+| Late February 2027 | FRC | Week 0: the first full-field test | Target window | New robots meet the field before the standings start. We’ll preview readiness, early strategies, and the teams finding their rhythm. FIRST’s official FRC Week Zero is Feb 20. The local REFINERY scrimmage date is not yet announced. [Source / details](https://www.firstinspires.org/programs/calendar) |
+| Mar 3–7, 2027 | FRC | The new FRC season takes the field | Confirmed event | Week 1 starts the spring race. Our first proposed Monday show is March 8, with results, standings, highlights, and our next-week winner picks.  [Source / details](https://www.firstinspires.org/programs/calendar) |
+| Mar 6, 2027 | FTC | FTC: the Indiana state stage | Confirmed event | The postseason arrives for BIOBUZZ. Follow the state contenders and the teams earning the next step toward Houston. Proposed state review show: Mar 9. Date and venue are from FIRST Indiana’s listing. [Source / details](https://www.firstindianarobotics.org/event/ftc-state-championship-3/) |
+| Apr 1–3, 2027 | FRC | Home-field robotics | Confirmed event | The FIRST Indiana district circuit comes to Homestead. A local spotlight weekend, followed by our proposed April 5 show.  [Source / details](https://frc-events.firstinspires.org/2027/district/FIN) |
+| Apr 16–18, 2027 | FRC | FRC: the road runs through state | Confirmed event | Indiana’s district championship brings the season’s strongest stories together. We’ll break down the bracket, highlights, and Houston qualifiers. Proposed state recap: Monday, Apr 19. [Source / details](https://frc-events.firstinspires.org/2027/INCMP) |
+| Apr 26, 2027 | Show | Texas-bound: the Houston preview | Planned coverage | Meet the qualifiers, study the field, and make our picks before the biggest stage of the season.  [Source / details](https://www.firstinspires.org/programs/first-championship) |
+| Apr 28–May 1, 2027 | FTC + FRC | The world stage. Houston, Texas. | Confirmed event | Follow the teams that qualify for FIRST Championship and the stories they bring from Northeast Indiana to a worldwide field. Proposed season-wrap show: Monday, May 3. Team participation depends on qualification. [Source / details](https://www.firstinspires.org/programs/first-championship) |
+
+### Weekly show promise
+
+After each competition week: the standings, the game highlights, the student stories, and our predictions for who wins next.
+
+All episode dates below are **planned coverage**, rather than confirmed broadcasts.
+
+| Proposed date | Episode | Focus |
+|---|---|---|
+| 2026-12-08 | FTC opening weekend review | Standings, match highlights, student stories, and predictions for the next event. |
+| 2027-02-09 | FTC Greenwood review | Standings, match highlights, student stories, and predictions for the next event. |
+| 2027-02-16 | FTC Shoals review | Standings, match highlights, student stories, and predictions for the next event. |
+| 2027-02-23 | FTC Avon review | Standings, match highlights, student stories, and predictions for the next event. |
+| 2027-03-02 | FTC Mishawaka review | Standings, match highlights, student stories, and predictions for the next event. |
+| 2027-03-08 | FRC Week 1 review | Results, standings, game highlights, and our winner picks for the next competition weekend. |
+| 2027-03-09 | FTC Indiana State review | State results, the highlights, and the qualifiers headed toward Houston. |
+| 2027-03-15 | FRC Week 2 review | Results, standings, game highlights, and our winner picks for the next competition weekend. |
+| 2027-03-22 | FRC Week 3 review | Results, standings, game highlights, and our winner picks for the next competition weekend. |
+| 2027-03-29 | FRC Week 4 review | Results, standings, game highlights, and our winner picks for the next competition weekend. |
+| 2027-04-05 | FRC Week 5 review | Results, standings, game highlights, and our winner picks for the next competition weekend. |
+| 2027-04-12 | FRC Week 6 review | Results, standings, game highlights, and our winner picks for the next competition weekend. |
+| 2027-04-19 | FRC Indiana State review | State results, match highlights, and the Indiana teams headed toward Houston. |
+| 2027-04-26 | Houston preview | Meet the qualifiers, scout the field, and make our championship picks. |
+| 2027-05-03 | The season wrap | Worlds results, standout matches, and the Northeast Indiana stories to remember. |
+
+- Confirmed event dates link to organizer calendars. Planned coverage dates are editorial targets; show times and watch links will follow.
+- FTC recaps target Tuesdays after Indiana qualifier weekends; FRC weekly shows target Mondays.
+- The three FTC features are the REFINERY-area programs. Their 2026–27 event assignments, including R.Amp’s debut, are not yet published.
+- Each team competes on its own assigned weekends. Future predictions are editorial picks; they remain separate from official standings and the frozen 2026 EPA ordering.
+- Schedule checked October 22, 2026. Local Week 0 and livestream details await organizer announcements.
+
 ## Team rundown
 
 ### 1. Team THRUST · FRC 1501
