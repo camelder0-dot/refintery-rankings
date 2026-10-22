@@ -625,8 +625,24 @@ button:disabled {
   line-height:1
 }
 .row-identity {
-  min-width:0
+  min-width:0;
+  display:flex;
+  align-items:center;
+  gap:.6cqw
 }
+.row-copy { min-width:0; }
+.identity-badges { display:inline-flex; align-items:flex-start; gap:.4cqw; flex:none; }
+.identity-badge { display:flex; flex-direction:column; align-items:center; gap:.25cqw; }
+.logo-tile { display:flex; align-items:center; justify-content:center; width:2.6cqw; height:2.6cqw; padding:.2cqw; background:#fff; border:1px solid #d8dfce; border-radius:.25cqw; box-sizing:border-box; }
+.logo-tile img { display:block; max-width:100%; max-height:100%; width:100%; height:100%; object-fit:contain; }
+.logo-caption { font-size:.47cqw; letter-spacing:.06cqw; line-height:1; color:#c8d6b8; }
+.compact-badges { gap:.2cqw; }
+.compact-badges .logo-tile { width:1.65cqw; height:1.65cqw; padding:.1cqw; border-radius:.16cqw; }
+.identity-meta { display:flex; align-items:flex-start; justify-content:space-between; gap:1cqw; margin-bottom:1.1cqw; }
+.identity-meta .spotlight-place { margin-bottom:0; }
+.ftc-identity-meta { display:flex; justify-content:space-between; align-items:center; gap:.8cqw; }
+.ftc-identity-meta .logo-tile { width:2cqw; height:2cqw; }
+.ftc-identity-meta .logo-caption { font-size:.43cqw; }
 .row-school {
   display:block;
   font-size:1.3cqw;
@@ -2049,3 +2065,5 @@ body.presenting { overflow: hidden; }
 .ftc-story .ftc-new {
   padding-top: .8cqw;
 }
+
+.logo-tile.dark-logo { background:#103b57; }

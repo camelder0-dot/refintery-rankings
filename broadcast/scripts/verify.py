@@ -58,6 +58,17 @@ def main():
         require((HERE / "dist" / name).is_file(), f"Missing static asset: {name}")
     for asset in load(HERE / "data/asset-manifest.json")["assets"]:
         require(hashlib.sha256((HERE / asset["file"]).read_bytes()).hexdigest() == asset["sha256"], "Official asset checksum changed")
+    marks = load(HERE / "data/logos.json")["logos"]
+    require(len({(r["program"], r["number"], r["kind"]) for r in marks}) == len(marks), "Duplicate logo identity")
+    for mark in marks:
+        if mark.get("file"):
+            require(mark["status"] == "verified" and mark["sourceUrl"].startswith("https://"), "Logo source is unverified")
+            require(hashlib.sha256((HERE / "dist" / mark["file"]).read_bytes()).hexdigest() == mark["sha256"], "Logo checksum changed")
+    for program, teams in (("frc", data["top10"]), ("ftc", data["ftc"]["teams"] + data["ftc"]["newTeams"])):
+        for team in teams:
+            expected = {r["kind"]: r for r in marks if r["program"] == program and r["number"] == team["number"]}
+            require(team["logos"] == expected, "Logo joined to the wrong team or program")
+    require(not data["top10"][1]["logos"]["school"].get("file"), "Community team incorrectly assigned a school mark")
     for name in ("nei-top10-2026.png", "team-spotlight-9119.png", "ftc-features.png"):
         raw = (HERE / "dist/exports" / name).read_bytes()
         require(raw[:8] == b"\x89PNG\r\n\x1a\n" and struct.unpack(">II", raw[16:24]) == (1920, 1080), f"Broadcast graphic has incorrect dimensions: {name}")

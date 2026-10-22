@@ -28,6 +28,9 @@ def main():
     frc = load(ROOT / "data/teams.json")
     ftc = load(ROOT / "ftc/data/teams.json")
     editorial = load(HERE / "data/editorial.json")
+    logo_rows = load(HERE / "data/logos.json")["logos"]
+    def logos(number, program="frc"):
+        return {r["kind"]: r for r in logo_rows if r["number"] == number and r["program"] == program}
     selected = {r["team_number"]: r for r in editorial["top_10"]}
     regional = sorted([r for r in frc["teams"] if r["scope_group"] == "northeast_indiana"],
                       key=lambda r: (-r["rankings"]["epa_mean"], r["team_number"]))
@@ -46,6 +49,7 @@ def main():
         ]
         teams.append({
             "rank": rank, "number": number, "name": r["team_name"],
+            "logos": logos(number),
             "school": r["school_or_organization"], "city": r["city"], "county": e["county"],
             "epa": k["epa_mean"], "epaStandardDeviation": k["epa_standard_deviation"],
             "stateRank": k["state_rank"], "stateCount": k["state_team_count"],
@@ -69,6 +73,7 @@ def main():
         l, k = r["leadership"], r["rankings"]
         features.append({
             "number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"],
+            "logos": logos(r["team_number"], "ftc"),
             "city": r["city"], "opr": k["value"], "worldRank": k["world_rank"], "worldCount": k["world_team_count"],
             "regionalOpr": k["regional_value"], "regionalRank": k["regional_rank"],
             "regionalCount": k["regional_team_count"], "regionalCode": k["regional_code"],
@@ -94,7 +99,7 @@ def main():
                             "sources": ["https://www.firstinspires.org/programs/ftc/", "https://www.firstinspires.org/programs/frc/"]},
         "top10": teams,
         "ftc": {"season": "2025–26 DECODE", "note": "Separate FTC features, using peak event non-penalty OPR captured October 22, 2026. USIN is an assigned event-region cohort, not a home-state rank. FTC OPR and FRC EPA are different models and games.",
-                "teams": features, "newTeams": [{"number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"], "note": r["notes"]} for r in ftc["current_season_only_teams"]]},
+                "teams": features, "newTeams": [{"number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"], "note": r["notes"], "logos": logos(r["team_number"], "ftc")} for r in ftc["current_season_only_teams"]]},
         "links": {"refinery": "https://refineryrobotics.org/", "about": "https://refineryrobotics.org/about/", "involved": "https://refineryrobotics.org/get-involved/", "repo": "https://github.com/horner/refintery-rankings", "pressKit": "press-kit.md"},
         "producerNotes": ["Use the documented title and evidence date; do not announce an unconfirmed current captain or head coach.",
                           "The first two EPA values differ by 0.19 points, much less than their model uncertainty. A numbered ordering is not evidence of a meaningful performance gap.",
@@ -128,6 +133,10 @@ def main():
                   "## Source and asset credits", "", "- Research and raw captures: https://github.com/horner/refintery-rankings", "- The REFINERY: https://refineryrobotics.org/", "- About / people / region: https://refineryrobotics.org/about/", "- Get involved: https://refineryrobotics.org/get-involved/", "- Hero campaign: https://first.global/sport/", "- Logo and practice-field photograph: The REFINERY website / BioNanomics REFINERY-site repository. The photo illustrates the shared practice facility, not an individual team profile.", "",
                   "This is a prepared media package; no station, school, student, or coach was contacted as part of its creation."])
     (HERE / "dist/press-kit.md").write_text("\n".join(press).rstrip() + "\n")
+    credits = ["# School and team logo sources", "", "Marks identify the named school or robotics team. Original proportions and colors are preserved. No endorsement or new license is asserted.", ""]
+    for r in logo_rows:
+        credits.extend([f"- {r['program'].upper()} {r['number']} / {r['kind']}: {r['label']}. {r['status']}. {r['note']} Source page: {r['pageUrl']}" + (f" Asset: {r['sourceUrl']}" if r.get("file") else "")])
+    (HERE / "dist/logo-credits.md").write_text("\n".join(credits) + "\n")
     print(f"Built broadcast data: {len(teams)} FRC teams, {len(features)} FTC features, one current-season watch.")
 
 
