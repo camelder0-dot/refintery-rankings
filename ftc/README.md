@@ -2,6 +2,8 @@
 
 **2025–26 DECODE · research date 2026-10-22**
 
+New to robotics? Our [introduction for football and baseball fans](../README.md#new-to-robotics-a-guide-for-football-and-baseball-fans) explains FTC, FRC, alliances, and how to read the ratings. [The REFINERY](https://refineryrobotics.org/) supports local teams; learn how to [find a team or get involved](https://refineryrobotics.org/get-involved/).
+
 8 season-rostered teams in the study area, with school/community affiliations, geographic qualifications, recorded FIRST seasons, and public leadership evidence. Current-season additions are listed separately.
 
 Rankings use FTCScout peak event non-penalty OPR for 2025–26 DECODE, captured October 22, 2026. World and event-region best OPR are shown separately. USIN and USOH rank teams that competed in events assigned those region codes, regardless of home state; they are not home-state rankings. Values display two decimals; JSON and CSV preserve the source numbers.

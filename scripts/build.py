@@ -251,6 +251,31 @@ The [complete leadership findings](leadership-findings.md) include all qualifyin
     write_text("docs/sources.md", "\n".join(source_lines))
     readme = f"""# FIRST Robotics teams around Fort Wayne
 
+## New to robotics? A guide for football and baseball fans
+
+If you follow football or baseball, much of competitive robotics will feel familiar: a team has an identity, students and coaches, practices, scouting, a season, and tournaments. Students design, build, program, and drive the robot their team brings to the field. Success takes preparation and contributions from the whole team, including the people organizing events, raising funds, and keeping equipment ready.
+
+**FIRST Tech Challenge (FTC)** and **FIRST Robotics Competition (FRC)** are two robotics sports under the FIRST umbrella. They share engineering and teamwork, while using different robots, fields, and game rules. Both are full competition programs, with overlapping student ages and their own championships.
+
+| What to know | FTC | FRC |
+|---|---|---|
+| Students | Grades 7–12; ages 12–18 | Grades 9–12; ages 14–18 |
+| Robots and playing space | Compact robots and a smaller playing field; reusable robot kits | Larger, industrial-sized robots and a larger playing field |
+| New game announced | September | January |
+| What students do | Build, code, drive, scout, organize, and work with mentors | Build, code, drive, scout, organize, and work with mentors |
+
+Official program guides: [FIRST Tech Challenge](https://www.firstinspires.org/programs/ftc/) and [FIRST Robotics Competition](https://www.firstinspires.org/programs/frc/).
+
+One difference from football or baseball is the **alliance**: several robotics teams join forces for a match. During qualification matches, partners change, so a team you face in one match may be your partner in another. Students prepare strategies with other teams and help one another keep robots running, even while competing for tournament success.
+
+Read the ratings here as you might read **yards per play in football or batting average in baseball**: a useful view of performance alongside the win column and championship results. FRC's EPA and FTC's OPR estimate robot scoring contributions; they do not measure every engineering achievement, student contribution, or community impact. The two programs use different games and models, so an FTC OPR number and an FRC EPA number cannot be compared directly.
+
+## Meet The REFINERY
+
+[The REFINERY](https://refineryrobotics.org/) helps youth robotics teams in Fort Wayne and Northeast Indiana with funding, parts, tools, facilities, and training. Think of the shared support behind a sports program: access to practice space, equipment, and experienced people helps teams develop. Learn [how The REFINERY supports teams](https://refineryrobotics.org/what-we-do/), [meet its teams and people](https://refineryrobotics.org/about/), or [find a team, volunteer, partner, or help start a program](https://refineryrobotics.org/get-involved/).
+
+## Explore the local teams
+
 Research directories for two FIRST programs within 60 straight-line miles of Citizens Square in downtown Fort Wayne. Each program retains its own season, ranking metric, evidence, and qualifications.
 
 | Program | Season | Directory and downloads | Ranking metric |
@@ -258,7 +283,7 @@ Research directories for two FIRST programs within 60 straight-line miles of Cit
 | FIRST Robotics Competition (FRC) | 2026 | [FRC directory](docs/team-directory.md), [JSON](data/teams.json), [CSV](data/teams.csv) | Statbotics EPA; June 12, 2026 snapshot |
 | FIRST Tech Challenge (FTC) | 2025–26 DECODE | [FTC research](ftc/README.md), [directory](ftc/docs/team-directory.md), [JSON](ftc/data/teams.json), [CSV](ftc/data/teams.csv) | FTCScout peak event non-penalty OPR; dated capture |
 
-FRC EPA and FTC OPR describe different games and models. Read each program's methodology before comparing results. FTC's current-season additions and teams without ranking data are identified separately.
+Read each program's methodology for the details behind its ratings. FTC's current-season additions and teams without ranking data are identified separately.
 
 ## FRC research
 

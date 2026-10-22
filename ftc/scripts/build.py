@@ -182,6 +182,7 @@ def main():
     source_lines.extend(f"| {s['source_id']} | {link(s['url'], s['url'])} | {', '.join(map(str, s['teams'])) or 'Method / scope'} |" for s in sources)
     save_text("docs/sources.md", "\n".join(source_lines))
     readme = ["# FIRST Tech Challenge around Fort Wayne", "", f"**{config['season_label']} · research date {config['research_date']}**", "",
+              "New to robotics? Our [introduction for football and baseball fans](../README.md#new-to-robotics-a-guide-for-football-and-baseball-fans) explains FTC, FRC, alliances, and how to read the ratings. [The REFINERY](https://refineryrobotics.org/) supports local teams; learn how to [find a team or get involved](https://refineryrobotics.org/get-involved/).", "",
               f"{len(combined)} season-rostered teams in the study area, with school/community affiliations, geographic qualifications, recorded FIRST seasons, and public leadership evidence. Current-season additions are listed separately.", "",
               rankings["method"]["display_note"], "", "| Resource | Contents |", "|---|---|",
               "| [Team directory](docs/team-directory.md) | Rankings, schools/programs, distances, seasons, and leadership |",
