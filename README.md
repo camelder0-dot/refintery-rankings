@@ -1,6 +1,6 @@
 # FIRST Robotics teams around Fort Wayne
 
-[Explore the NEI Robotics season preview and Top 10](https://horner.github.io/refintery-rankings/) — follow the 2026–27 event and proposed show calendar, revisit last season’s rankings, browse student and adult profiles, and open the research sources. Public access; no sign-in required.
+[Explore the NEI Robotics season preview and Top 10](https://horner.github.io/refintery-rankings/) — follow the 2026–27 event and proposed show calendar, revisit last season’s rankings, browse student and adult profiles, explore the DNF invitation for schools ready to start a team, and open the research sources. Public access; no sign-in required.
 
 ## New to robotics? A guide for football and baseball fans
 

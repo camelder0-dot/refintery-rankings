@@ -1,0 +1,1 @@
+Direct HTTP returned a PDF document; automatic HTML text extraction was discarded. See leaders-indiana-current-checks.json for the attempted source URL. Final leader evidence uses a different current district page and is preserved in verified-source-extracts.json.

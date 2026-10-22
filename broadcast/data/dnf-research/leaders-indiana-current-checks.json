@@ -1,0 +1,1436 @@
+{
+  "asOf": "2026-10-22",
+  "records": [
+    {
+      "districtName": "MSD Southwest Allen County Schls",
+      "leaId": "1800030",
+      "stateDistrictId": "0125",
+      "name": "Joshua St John",
+      "role": "Superintendent",
+      "county": "Allen",
+      "website": "http://www.sacs.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.sacs.k12.in.us/",
+        "https://www.sacs.k12.in.us/18823_2"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.sacs.k12.in.us/",
+          "evidence": "fo\nYour browser does not support the video tag.\nSACS is known for high-quality programs, extraordinary teachers, supportive learning environments, and strong parental and community support.\nEnroll Today!\nLatest News\nA Fall Break Message From Dr. St. John\nCelebrating Students and Our Community A message from Dr. St. John Dear SACS Families and Caregivers, As fall break approaches, I hope your family has time to rest, recharge and enjoy being togethe...\nUNDER THE LIGHTS is a GO!\nSACS Families,Today\u2019s the day \u2014 Under the Lights is here!We are excited to welcome our SACS families and community tonight for an evening celebrating our incredible students, schools and the many o...\nFLEX Day\nREMINDER: Friday, September 18 is a districtwide FLEX Day!",
+          "file": "leader-sources/1800030-0.txt"
+        },
+        {
+          "url": "https://www.sacs.k12.in.us/18823_2",
+          "evidence": "Southwest Allen County Schools - Leadership\nSkip to main content\n\u00d7\nClose\n\u00d7\nClose\nLeadership\nLeadership\nJoshua D. St. John, Ph.D.\nSuperintendent\n260 431-2010\njstjohn@sacs.k12.in.us\nJeanine Kleber\nAssistant Superintendent\n260 431-2020\njkleber@sacs.k12.in.us\nKent DeKoninck, Ph.D.\nChief Adminstrative Officer\n260 431-2010\nkdekoninck@sacs.k12.in.us\nRandi Libby\nChief Operating Officer\n260 431-2030\nrlibby@sacs.k12.in.us\nDavid Parker\nChief Personnel Officer\n260 431-2050\ndparker@sacs.k12.in.us\nOur Team\nPatty Hartman, Ed.D.\nDirector of Special Education\n260 431-2040\nphartman@sacs.k12.in.us\nStacey Fleming\nDirector of Dist",
+          "file": "leader-sources/1800030-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Adams Central Community Schools",
+      "leaId": "1800060",
+      "stateDistrictId": "0015",
+      "name": "Aaron McClure",
+      "role": "Superintendent",
+      "county": "Adams",
+      "website": "http://www.accs.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.accs.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Smith Academy for Excellence",
+      "leaId": "1800131",
+      "stateDistrictId": "9760",
+      "name": "Corey Smith",
+      "role": "Superintendent",
+      "county": "Allen",
+      "website": "http://www.fwsafe.com",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.fwsafe.com/",
+        "https://www.fwsafe.com/administration"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.fwsafe.com/",
+          "evidence": "Smith Academy For Excellence | Fort Wayne\ntop of page\nExcellence\nin Education\n2012\nsince\nNow Enrolling\n2026-2027\nEnrollment Info\nFree Tuition\nCollege and\npost-secondary prep\nFree Tutoring\nService Learning\nCharacter Education\nHolistic, individualized\ninstruction\nSmith Academy for Excellence (SAFE)\nis a tuition-free charter school designed to strategically develop elite scholars who exhibit responsibility, dignity, character, and an instinct of service.\n\u200b\nOur school is distinctive \u2014 designed speci",
+          "file": "leader-sources/1800131-0.txt"
+        },
+        {
+          "url": "https://www.fwsafe.com/administration",
+          "evidence": "Administration | Smith Academy For Excellence | Fort Wayne\ntop of page\nAdministration\nSmith Academy for Excellence is led by an administrative team consisting of a School Leader and an Assistant School Leader. Together, these administrators ensure that the school operates productively and efficiently.\nCorey Smith\nCo-Founder and School Leader\nAs School Leader, Corey Smith oversees and manages organizational, fiscal, and employment matters. He establishes a school culture of success supported by a climate that is ",
+          "file": "leader-sources/1800131-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Argos Community Schools",
+      "leaId": "1800180",
+      "stateDistrictId": "5470",
+      "name": "Kerry Johnson",
+      "role": "Superintendent",
+      "county": "Marshall",
+      "website": "http://www.argos.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.argos.k12.in.us/",
+        "https://resources.finalsite.net/images/v1747152320/argosk12inus/vruacxekopxzmoar09m5/SuperintendentPressRelease.pdf"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.argos.k12.in.us/",
+          "evidence": "os.\nThank you for visiting our website. I invite you to explore all that Argos Community Schools has to offer and see for yourself how Dragon pride is alive in every classroom, every program, and every student we serve.\nWith Pride and Purpose,\nKerry Johnson\nSuperintendent of Schools\nWed\nOct\n28\nPicture Retakes\nall day\nArgos Elementary Hosts First-Ever Literacy Night!\nArgos Elementary Principal Named New District Superintendent\n(opens in new window/tab)\nLoad More",
+          "file": "leader-sources/1800180-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Excel Center - Elkhart",
+      "leaId": "1800232",
+      "stateDistrictId": "9539",
+      "name": "Christopher Alber",
+      "role": "Superintendent",
+      "county": "Elkhart",
+      "website": " ",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No district homepage in directory"
+    },
+    {
+      "districtName": "Baugo Community Schools",
+      "leaId": "1800420",
+      "stateDistrictId": "2260",
+      "name": "Byron Sanders II",
+      "role": "Superintendent",
+      "county": "Elkhart",
+      "website": "http://www.baugo.org",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.baugo.org/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Blackford County Schools",
+      "leaId": "1800570",
+      "stateDistrictId": "0515",
+      "name": "Chad Yencer",
+      "role": "Superintendent",
+      "county": "Blackford",
+      "website": "http://www.bcs.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.bcs.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "MSD Bluffton-Harrison",
+      "leaId": "1800720",
+      "stateDistrictId": "8445",
+      "name": "Bradley Yates",
+      "role": "Superintendent",
+      "county": "Wells",
+      "website": "http://bhmsd.org",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.bhmsd.org/",
+        "https://www.bhmsd.org/about/district-leadership-operations"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.bhmsd.org/about/district-leadership-operations",
+          "evidence": "District Leadership & Operations - Bluffton-Harrison MSD\nSkip To Main Content\nClose Menu\nSearch\nClear\nSearch\nDistrict Leadership & Operations\nEducational Leadership Team\nDr. Brad Yates\nSuperintendent\nJulie Meitzler\nAssistant Superintendent\nStacy Morrison\nPrincipal Bluffton High School\nStacy Herrold\nPrincipal Bluffton-Harrison Middle School\nPaige Walker\nPrincipal Bluffton-Harrison Elementary School\nBrent Kunkel\nAssistant Principal Bluffton High School\nChad Grieser\nAssistant Principal Bluffton-Harrison Middle School\nErin\u00a0Roush\nAssistant Principal Bluffton-Harrison Elementary School\nAbi West\nAdams Wells Special Services Executive Director\nScott Ribich\nDirector of Technology",
+          "file": "leader-sources/1800720-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Bremen Public Schools",
+      "leaId": "1800900",
+      "stateDistrictId": "5480",
+      "name": "Hope Amor",
+      "role": "Superintendent",
+      "county": "Marshall",
+      "website": "http://www.bps.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.bps.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "DeKalb Co Ctl United Sch Dist",
+      "leaId": "1801590",
+      "stateDistrictId": "1835",
+      "name": "Steven Teders",
+      "role": "Superintendent",
+      "county": "Dekalb",
+      "website": "https://www.dekalbcentral.net/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.dekalbcentral.net/",
+        "https://www.dekalbcentral.net/163946_2"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.dekalbcentral.net/",
+          "evidence": "t Makes Us Great!\nThe mission of DeKalb Central Schools is to develop students as critical thinkers, communicators, and collaborators who can adapt and persevere with empathy and integrity in an ever-changing world.\nWelcome from Superintendent Steve Teders\nTogether, we are preparing students today for the world of tomorrow. We are proud of our students, staff, families, and community! We Are DeKalb!\nLearn More About This Here\nPortrait of a Baron Graduate\nThe Portrait of a Baron Graduate guides students to develop seven key competencies, preparing them to meet challenges, grow, and succeed in life.\nLearn More About This Here\nState-of-the-Art Facilities\nOur state-of-the-art facilities feature modern classrooms, labs, and resources that inspir",
+          "file": "leader-sources/1801590-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Central Noble Com School Corp",
+      "leaId": "1801710",
+      "stateDistrictId": "6055",
+      "name": "Barry Younghans",
+      "role": "Superintendent",
+      "county": "Noble",
+      "website": "http://www.centralnoble.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.centralnoble.k12.in.us/",
+        "https://www.centralnoble.k12.in.us/cncsc/school-board/supt-contract/file"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.centralnoble.k12.in.us/",
+          "evidence": " is a wonderful opportunity to make a positive impact on students while collaborating with a dedicated team.\nIf you are interested in joining The Boys & Girls Club of Elkhart County for this summer program, please notify your district contact, Barry Younghans,\nyounghansb@\ncentralnoble.k12.in.us\nor Shawn Hoover,\nhoovers@centralnoble.\nk12.in.us.\nTweet\nPublic Hearing Announced\nMonday, 01 December 2025\nCentral Noble Community School News\nCentral Noble Jr/Sr HS News\nCentral Noble Elementary News\nCentral Noble Primary News\nThe Central Noble School Board of Trustees will hold a public hearing on the proposed Superintendent's contract between CNCSC and Dr. Barry Younghans.\nThe agenda can be found here:\nhttps://www.centralnoble.k12.in.us/cncsc/schoo",
+          "file": "leader-sources/1801710-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Whitley County Con Schools",
+      "leaId": "1802280",
+      "stateDistrictId": "8665",
+      "name": "Laura McDermott",
+      "role": "Superintendent",
+      "county": "Whitley",
+      "website": "http://www.wccs.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "HTTPSConnectionPool(host='www.wccs.k12.in.us', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x10a6685e0>: Failed to resolve 'www.wccs.k12.in.us' ([Errno 8] nodename nor servname provided, or not known)\"))"
+    },
+    {
+      "districtName": "Concord Community Schools",
+      "leaId": "1802400",
+      "stateDistrictId": "2270",
+      "name": "Daniel Funston",
+      "role": "Superintendent",
+      "county": "Elkhart",
+      "website": "http://www.concord.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.concord.k12.in.us/",
+        "https://www.concord.k12.in.us/leadership",
+        "https://www.concord.k12.in.us/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=90440470",
+        "https://www.concord.k12.in.us/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=87283439"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.concord.k12.in.us/leadership",
+          "evidence": "Concord Community Schools - Leadership\nSkip to main content\n\u00d7\nClose\n\u00d7\nClose\nLeadership\nWho to Contact\nSuperintendent\nDAN FUNSTON\nEmail Mr. Funston\nDirector of Curriculum & Instruction\nKENDRA DIVINE\nEmail Ms. Divine\nDirector of Operations\nJACLYN COURT\nEmail Ms. Court\nK-6 Curriculum Coordinator\nMaggie Bronkema\nK-12 Director of Student Services\nBetsy McEachern\nDirector of Exceptional Learners\nJoel Sienicki\nDEPARTMENT DIRECTORS\nDirector of State and Federal Grant Programs\nCarrie McGuire\nDirector of English Learners and Academic Intervention\nJena Kennedy\nDirector of Technology\nTyler Stevens\nDirector of Safety and\nChief",
+          "file": "leader-sources/1802400-1.txt"
+        },
+        {
+          "url": "https://www.concord.k12.in.us/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=90440470",
+          "evidence": "ants complete training focused on areas including student achievement, fiscal oversight, public transparency and effective board leadership.\n\u201cSchool board service is one of the most important leadership roles in a community,\u201d said Superintendent Dan Funston. \u201cWe appreciate Mrs. Davis' willingness to devote additional time and effort to professional development that benefits our schools and the families we serve.\u201d\nAs Board President, Mrs. Davis works alongside fellow board members and district leadership to help guide the school corporation, support responsible stewardship of resources and advance opportunities for Concord students.",
+          "file": "leader-sources/1802400-2.txt"
+        },
+        {
+          "url": "https://www.concord.k12.in.us/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=87283439",
+          "evidence": "tics official and the countless relationships he built throughout the Concord community.\n\u201cGeorge Dyer dedicated much of his life to Concord Community Schools, and his influence can still be felt throughout our district today,\u201d Superintendent Dr. Dan Funston said. \u201cFollowing his recent passing, this recognition carries even greater meaning. Naming the Education Center in his honor is a lasting tribute to his leadership, service and commitment to generations of Concord students and staff.\u201d\nThe building, located at 59040 Minuteman Way, will now be known as the George S. Dyer Education Center.\nA link to the resolution approved by the school board can be found\nhere\n.",
+          "file": "leader-sources/1802400-3.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Delaware Community School Corp",
+      "leaId": "1802660",
+      "stateDistrictId": "1875",
+      "name": "Greg Kile",
+      "role": "Superintendent",
+      "county": "Delaware",
+      "website": "http://www.delcomschools.org/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.delcomschools.org/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "East Allen County Schools",
+      "leaId": "1802850",
+      "stateDistrictId": "0255",
+      "name": "Marilyn Hissong",
+      "role": "Superintendent",
+      "county": "Allen",
+      "website": "http://www.eacs.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.eacs.k12.in.us/"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.eacs.k12.in.us/",
+          "evidence": "d families!\nGood communication is crucial to the success of our students and our school system.  We will continue to do our best to keep you informed.  If you have questions or suggestions, I am always willing to listen.\nDream it. Do It.!\nMarilyn S. Hissong, Superintendent\nEnd of Gallery\nCanvas\nClever\nEACS Portal\nEdmentum\nEmployment Opportunities\ne-Funds  Payments\nSkyward\nLINQ Connect\nEACS District Data\n93.08%\nAverage graduation rate of EACS's five high schools for the  class of 2025\n9,996.2 miles daily\nAnd over 1.7 million miles driven by EACS buses per year\n10,220\nStudents Enrolled, \nas of May 21, 2025\n344\nSquare miles encompassed within the district\n38\nLanguages spoken by EACS students K-12\nStudent Ethnicity:\nAfrican American: 16%\nAsian:",
+          "file": "leader-sources/1802850-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "East Noble School Corporation",
+      "leaId": "1802970",
+      "stateDistrictId": "6060",
+      "name": "Steven Vore",
+      "role": "Superintendent",
+      "county": "Noble",
+      "website": "http://www.eastnoble.net/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.eastnoble.net/",
+        "https://www.eastnoble.net/page/superintendent-survey-results",
+        "https://www.eastnoble.net/page/district-administration",
+        "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/1056/Ensc/fc933d51-4979-4c68-af4c-60069e6cefd8/Superintendent_Contract_Advertisement_2025.pdf?disposition=inline"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Eastbrook Community Sch Corp",
+      "leaId": "1803030",
+      "stateDistrictId": "2815",
+      "name": "Stephan Darnell",
+      "role": "Superintendent",
+      "county": "Grant",
+      "website": "http://www.eastbrook.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.eastbrook.k12.in.us/",
+        "https://www.eastbrook.k12.in.us/superintendents-message",
+        "https://www.eastbrook.k12.in.us/district-leadership"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "DeKalb Co Eastern Com Sch Dist",
+      "leaId": "1803060",
+      "stateDistrictId": "1805",
+      "name": "Ryan Abbott",
+      "role": "Superintendent",
+      "county": "Dekalb",
+      "website": "http://www.dekalbeastern.com/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://dekalbeastern.com/",
+        "https://dekalbeastern.com/about/meet-our-administration"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://dekalbeastern.com/about/meet-our-administration",
+          "evidence": "Meet our Administration | DeKalb County Eastern Schools\nSearch\nClose\nHome\nAbout\nMeet our Administration\nMeet our Administration\nDistrict\nMr. Ryan Abbott, Superintendent\nPhone: 260-868-2125\nEmail:\nrabbott@dkeschools.com\nEastside Junior/Senior High School\nMr. Foster, Principal\nPhone: 260-868-2186\nEmail:\nofoster@dkeschools.com\nMr. Sprunger, Asst. Principal\nPhone: 260-868-2186\nEmail:\ntsprunger@dkeschools.com\nMr. Kitchen, Athletic Director\nPhone: 260-868-2186\nEmail:\nbkitchen@dkeschools.com\nButler Elementary School\nMr. Cooper, Principal\nPhone: 260-868-2186\nEmail:\nlcooper@dkeschools.com\nMrs. Moughler, Assistant Principal\nPhone: 260-868-2123\nEmai",
+          "file": "leader-sources/1803060-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Fairfield Community Schools",
+      "leaId": "1803480",
+      "stateDistrictId": "2155",
+      "name": "Carrie Cannon",
+      "role": "Superintendent",
+      "county": "Elkhart",
+      "website": "http://www.fairfield.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.fairfield.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Fort Wayne Community Schools",
+      "leaId": "1803630",
+      "stateDistrictId": "0235",
+      "name": "Mark Daniel",
+      "role": "Superintendent",
+      "county": "Allen",
+      "website": "https://www.fortwayneschools.org/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.fortwayneschools.org/",
+        "https://www.fortwayneschools.org/about-us/district-leadership"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.fortwayneschools.org/",
+          "evidence": "ntary schools and Whitney Young Early Childhood Center.\n\u201cPartnerships like this create opportunities for our students and provide our teachers with additional resources to bring learning to life,\u201d Fort Wayne Community Schools Superintendent Dr. Mark Daniel said. \u201cWe appreciate MidWest America\u2019s investment in our schools and, most importantly, its commitment to the students and families we serve.\u201d\nCheck presentations will take place Wednesday, Oct. 7, beginning at 8 a.m. at Memorial Park, 2200 Maumee Ave., followed by Weisser Park, 902 Colerick St., at 9 a.m. and Whitney Young, 1026 E. Pontiac St., at 10 a.m.\nMidWest America is also supporting the Memorial Park music program and Big Noise, helping provide jackets for FWCS Student Ambassadors",
+          "file": "leader-sources/1803630-0.txt"
+        },
+        {
+          "url": "https://www.fortwayneschools.org/about-us/district-leadership",
+          "evidence": "District Leadership - Fort Wayne Community School District\nSkip To Main Content\nClose Menu\nSearch\nClear\nSearch\nDistrict Leadership\nSuperintendent\nMark D. Daniel, Ph.D.\nDr. Mark Daniel joined Fort Wayne Community Schools as the 15th Superintendent of FWCS on July 1, 2020.\nDr. Daniel is a 1979 graduate of North Side High School, making him the second FWCS alumni to become FWCS superintendent in the District\u2019s history. His first teaching job was at North Side High School, where he taught advanced algebra, geometry, business law, accounting and skills for living. He also coached football, basketball, baseball, track and golf.\nHe left North Side to be",
+          "file": "leader-sources/1803630-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Fremont Community Schools",
+      "leaId": "1803780",
+      "stateDistrictId": "7605",
+      "name": "William Stitt",
+      "role": "Superintendent",
+      "county": "Steuben",
+      "website": "http://fremontschoolsin.com",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://fremontschoolsin.com/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Garrett-Keyser-Butler Com Sch Corp",
+      "leaId": "1803840",
+      "stateDistrictId": "1820",
+      "name": "Daniel Durrwachter",
+      "role": "Superintendent",
+      "county": "Dekalb",
+      "website": "http://www.gkb.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.gkb.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Goshen Community Schools",
+      "leaId": "1803930",
+      "stateDistrictId": "2315",
+      "name": "James DuBois",
+      "role": "Superintendent",
+      "county": "Elkhart",
+      "website": "http://www.goshenschools.org/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.goshenschools.org/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Hamilton Community Schools",
+      "leaId": "1804230",
+      "stateDistrictId": "7610",
+      "name": "William Reichhart",
+      "role": "Superintendent",
+      "county": "Steuben",
+      "website": "http://www.hcs.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.hcs.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Wes-Del Community Schools",
+      "leaId": "1804500",
+      "stateDistrictId": "1885",
+      "name": "Andy Stover",
+      "role": "Superintendent",
+      "county": "Delaware",
+      "website": "http://www.wes-del.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.wes-del.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Huntington Co Com Sch Corp",
+      "leaId": "1804710",
+      "stateDistrictId": "3625",
+      "name": "Charles Brimbury",
+      "role": "Superintendent",
+      "county": "Huntington",
+      "website": "http://www.hccsc.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.hccsc.k12.in.us/",
+        "https://www.hccsc.k12.in.us/careers/administration",
+        "https://www.hccsc.k12.in.us/services/administration-business1",
+        "https://www.hccsc.k12.in.us/services/administration-business1/administration-business"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.hccsc.k12.in.us/",
+          "evidence": "w window/tab)\nApr\n17\n2026\nHuntington North Green Team Leaders present to the School Board in proposing a tree nursery at the Huntington North Learning Center in partnership with the City of Huntington.\nHuntington County Community Schools Names Chuck Brimbury as Superintendent\nMar\n24\n2026\nBoard of Trustees Appoints Longtime Educator and Community Champion to Lead Huntington County Community Schools\nAfter an exhaustive nationwide search, the HCCS Board of Trustees has named Chuck Brimbury \u2014 a 30-year educator with deep roots in Huntington \u2014 as the district's 10th superintendent, reaffirming its commitment to putting every student first, every day.\nFrom Viking to Entrepreneur\nMar\n13\n2026\nHuntington North Alum Max Robrock credits high school ex",
+          "file": "leader-sources/1804710-0.txt"
+        },
+        {
+          "url": "https://www.hccsc.k12.in.us/services/administration-business1/administration-business",
+          "evidence": "ship. Through transparent communication and collaborative decision-making, the Superintendent's office ensures that all stakeholders work together toward the shared mission of preparing every student for success in college, career, and life.\nCharles Brimbury\nTitles:\nSuperintendent\nEmail:\nSheryl Hippensteel\nTitles:\nReceptionist/Assist. to Exec. Secretary\nEmail:\nAdministrator Contract\nAgreements\nNotice\nContract for Employment of Superintendent\nAdministrator Contract\nOutline for Superintendent Contract Terms\nTentative Agreement 2025-2027\nHCCSC Strategic Plan 2024-29\nNotice of Public Hearing Superintendent Contract\nArchive\nAdministrator Contracts\nJT_Regular Teachers Contract\nEmployment Contract of Superintendent",
+          "file": "leader-sources/1804710-3.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Jay School Corporation",
+      "leaId": "1804980",
+      "stateDistrictId": "3945",
+      "name": "Jeremy Gulley",
+      "role": "Superintendent",
+      "county": "Jay",
+      "website": "http://www.jayschools.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "HTTPSConnectionPool(host='www.jayschools.k12.in.us', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x10b6943d0>, 'Connection to www.jayschools.k12.in.us timed out. (connect timeout=12)'))"
+    },
+    {
+      "districtName": "Lakeland School Corporation",
+      "leaId": "1805520",
+      "stateDistrictId": "4535",
+      "name": "Traci Blaize",
+      "role": "Superintendent",
+      "county": "LaGrange",
+      "website": "http://www.lakelandlakers.org/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.lakelandlakers.org/"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.lakelandlakers.org/",
+          "evidence": " for that. We are a district looking forward, toward the future and working to make it happen for our students, staff, and community! If you aren't a Laker, I hope you'll consider joining us. If you're already a Laker, thank you for choosing us!\nDr. Blaize,\nSuperintendent\nNews & Events\nStay up to date on exciting news, events and more with the\nParentSquare app\n!\nSeptember 17, 2026\nOctober 3rd Golf Outing to support Lakeland Boys Basketball and the Terry Schmidt Scholarship Fund\nSave the date for the Schmidt/Sirk Memorial Golf Outing supporting the Lakeland Boys Basketball team and the Terry Schmidt Scholarship Fund! Presented by Hartz Law Office and Bontrager Insurance Se...\nAugust 7, 2026\nWhat Lakers need to know about the new Indiana Pers",
+          "file": "leader-sources/1805520-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Wawasee Community School Corp",
+      "leaId": "1805550",
+      "stateDistrictId": "4345",
+      "name": "Diane Woodworth",
+      "role": "Superintendent",
+      "county": "Kosciusko",
+      "website": "https://www.wawaseeschools.org/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.wawaseeschools.org/",
+        "https://www.wawaseeschools.org/superintendent-message",
+        "https://www.wawaseeschools.org/district-leadership"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Maconaquah School Corp",
+      "leaId": "1806090",
+      "stateDistrictId": "5615",
+      "name": "Craig Jernagan",
+      "role": "Superintendent",
+      "county": "Miami",
+      "website": "http://www.maconaquah.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.maconaquah.k12.in.us/"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.maconaquah.k12.in.us/",
+          "evidence": " level of achievement. \u00a0We look forward to partnering with all families during their child\u2019s educational journey.\nI urge each student to get involved in their education. Make learning fun and challenge yourself to grow in everything you do.\nCraig E. Jernagan\nSuperintendent\nRead More",
+          "file": "leader-sources/1806090-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Madison-Grant United School Corp",
+      "leaId": "1806240",
+      "stateDistrictId": "2825",
+      "name": "Bengamin Mann",
+      "role": "Superintendent",
+      "county": "Grant",
+      "website": "http://www.mgusc.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.mgusc.k12.in.us/",
+        "https://www.mgusc.k12.in.us/superintendents-message",
+        "https://www.mgusc.k12.in.us/district-leadership"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Manchester Community Schools",
+      "leaId": "1806270",
+      "stateDistrictId": "8045",
+      "name": "Anthony Cassel",
+      "role": "Superintendent",
+      "county": "Wabash",
+      "website": "http://www.mcs.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.mcs.k12.in.us/en-US"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Marion Community Schools",
+      "leaId": "1806390",
+      "stateDistrictId": "2865",
+      "name": "Stephanie Lockwood",
+      "role": "Superintendent",
+      "county": "Grant",
+      "website": "http://www.marion.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.marion.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Middlebury Community Schools",
+      "leaId": "1806600",
+      "stateDistrictId": "2275",
+      "name": "Jayson Snyder",
+      "role": "Superintendent",
+      "county": "Elkhart",
+      "website": "http://www.mcsin-k12.org",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.mcsin-k12.org/",
+        "https://www.mcsin-k12.org/index.php?pageID=smartSiteFeed&psqFeed=true&articleID=92515066"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Mississinewa Community School Corp",
+      "leaId": "1806870",
+      "stateDistrictId": "2855",
+      "name": "Jeremy Fewell",
+      "role": "Superintendent",
+      "county": "Grant",
+      "website": "http://www.olemiss.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.olemiss.k12.in.us/",
+        "https://www.olemiss.k12.in.us/community/superintendent-newsletter",
+        "https://olemissk12inus-22-us-east1-01.preview.finalsitecdn.com/community/superintendent-newsletter",
+        "https://mhs.olemiss.k12.in.us/for-staff/staff-training/administration-first-day-training"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "North Adams Community Schools",
+      "leaId": "1807680",
+      "stateDistrictId": "0025",
+      "name": "Kimberly Hiatt",
+      "role": "Superintendent",
+      "county": "Adams",
+      "website": "http://www.nadams.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.nadams.k12.in.us/",
+        "https://www.nadams.k12.in.us/districtt/health-services-1/medication-administration-consent"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "North Miami Community Schools",
+      "leaId": "1807890",
+      "stateDistrictId": "5620",
+      "name": "Kenneth Hanson",
+      "role": "Superintendent",
+      "county": "Miami",
+      "website": "http://www.nmcs.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.nmcs.k12.in.us/",
+        "https://www.nmcs.k12.in.us/229689_2"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Norwell Community Schools",
+      "leaId": "1808220",
+      "stateDistrictId": "8435",
+      "name": "Michael Springer",
+      "role": "Superintendent",
+      "county": "Wells",
+      "website": "http://www.nwcs.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.nwcs.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Northwest Allen County Schools",
+      "leaId": "1808250",
+      "stateDistrictId": "0225",
+      "name": "Ernest Barker",
+      "role": "Superintendent",
+      "county": "Allen",
+      "website": "http://www.nacs.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.nacs.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Oak Hill United School Corp",
+      "leaId": "1808340",
+      "stateDistrictId": "5625",
+      "name": "Sheri Hardman",
+      "role": "Superintendent",
+      "county": "Grant",
+      "website": "http://www.ohusc.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.ohusc.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Peru Community Schools",
+      "leaId": "1808850",
+      "stateDistrictId": "5635",
+      "name": "Trent McCormick",
+      "role": "Superintendent",
+      "county": "Miami",
+      "website": "http://www.peru.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.peru.k12.in.us/",
+        "https://www.peru.k12.in.us/apps/pages/index.jsp?uREC_ID=4428810&type=d&pREC_ID=2666548"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.peru.k12.in.us/apps/pages/index.jsp?uREC_ID=4428810&type=d&pREC_ID=2666548",
+          "evidence": " opportunities we offer to explore the arts, athletics, technology, and leadership.\nThank you for checking us out, and we look forward to seeing you on campus for one of our many school events.\nWe are stronger when we work together!\nSincerely,\nTrent McCormick\nSuperintendent\nCalendar\nOct 22, 2026\nElmwood 1st Grade Field Trip\nElmwood Preschool Field Trip\nOct 23, 2026\nElmwood 1st Grade Field Trip\nJSH 8TH GRADE VISION SCREENINGS\n- 8 am - 12 pm\nNov 4, 2026\nJSH/Hearing Screening Retakes for 7th and 10th\n- 8:30 am - 12 pm\nNov 5, 2026\nJHS Picture Retake Day\nNov 9, 2026\nBlair Pointe Mobile Dentist\nBlair Pointe Mobile Dentist\nBlair Pointe Mobile Dentist\nBlair Pointe Mobile Dentist\nBlair Pointe Mobile Dentist\nNov 24, 2026\nBlair Pointe 3rd Grade Native",
+          "file": "leader-sources/1808850-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Prairie Heights Community Sch Corp",
+      "leaId": "1809300",
+      "stateDistrictId": "4515",
+      "name": "Jeff Reed",
+      "role": "Superintendent",
+      "county": "LaGrange",
+      "website": "http://www.ph.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.ph.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Rochester Community School Corp",
+      "leaId": "1809630",
+      "stateDistrictId": "2645",
+      "name": "Jana Vance",
+      "role": "Superintendent",
+      "county": "Fulton",
+      "website": "http://www.zebras.net",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.zebras.net/",
+        "https://www.zebras.net/testimonials-1/~board/testimonials/post/jana-vance"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.zebras.net/",
+          "evidence": "og in to Canvas, IXL, etc.\nLearn More\nabout Clever (opens in new window/tab)\nDistinguished Alumni Forms\n(opens in new window/tab)\nForms to Nominate a Distinguished Individual\nLearn More\nabout Distinguished Alumni Forms (opens in new window/tab)\nJana Vance, RCSC Superintendent\nJana Vance serves as the superintendent\u00a0of the Rochester Community School Corporation.\nRHS Order Your Yearbook NOW!\nRead More\nabout RHS Order Your Yearbook NOW!\nJoin Riddle PTO's Trunk or Treat!\nRead More\nabout Join Riddle PTO's Trunk or Treat!\nArtist in Residency Program\nArtist in Residency Students for March 2026\nRead More\nabout Artist in Residency Program\nLearn More Indiana's Indiana529 Contest\nRead More\nabout Learn More Indiana's Indiana529 Contest\nRMS National Rec",
+          "file": "leader-sources/1809630-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Smith-Green Community Schools",
+      "leaId": "1810230",
+      "stateDistrictId": "8625",
+      "name": "Paul Voigt",
+      "role": "Superintendent",
+      "county": "Whitley",
+      "website": "http://www.sgcs.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.sgcs.k12.in.us/",
+        "https://www.sgcs.k12.in.us/administration"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.sgcs.k12.in.us/administration",
+          "evidence": "Smith-Green Community Schools - Administration\nSkip to main content\n\u00d7\nClose\n\u00d7\nClose\nAdministration\nAdministration\nDr. Paul Voigt, Superintendent\nVoigtP@sgcs.k12.in.us\n260-693-2007\nDee Boyle, Administrative Assistant\nBoyleD@sgcs.k12.in.us\n260-693-2007\nSchool Board Meetings and Minutes",
+          "file": "leader-sources/1810230-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "South Adams Schools",
+      "leaId": "1810260",
+      "stateDistrictId": "0035",
+      "name": "Michelle Clouser Penrod",
+      "role": "Superintendent",
+      "county": "Adams",
+      "website": "http://www.southadams.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.southadams.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Southern Wells Com Schools",
+      "leaId": "1810770",
+      "stateDistrictId": "8425",
+      "name": "Trent Lehman",
+      "role": "Superintendent",
+      "county": "Wells",
+      "website": "http://www.swraiders.com",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.swraiders.com/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "MSD Steuben County",
+      "leaId": "1811100",
+      "stateDistrictId": "7615",
+      "name": "Matthew Widenhoefer",
+      "role": "Superintendent",
+      "county": "Steuben",
+      "website": "http://www.msdsteuben.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.msdsteuben.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Tippecanoe Valley School Corp",
+      "leaId": "1811370",
+      "stateDistrictId": "4445",
+      "name": "Blaine Conley",
+      "role": "Superintendent",
+      "county": "Kosciusko",
+      "website": "http://www.tvsc.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.tvsc.k12.in.us/",
+        "https://www.tvsc.k12.in.us/apps/staff/",
+        "https://www.tvsc.k12.in.us/apps/spotlightmessages/13132"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.tvsc.k12.in.us/",
+          "evidence": " takes to equip ALL students to be successful today, tomorrow, and beyond.\nThank you for your continued support of Tippecanoe Valley Schools. I look forward to an outstanding year filled with learning, growth, and student success!!\nSincerely,\nBlaine Conley Ed.S.\nSuperintendent\nTippecanoe Valley School Corporation\n#VALLEYFAMILY #VALLEYFOREVER\nFull Message\nAt A Glance\nInnovative Education\nThriving Rural Communities\nPositive Culture and Climate\nK-12 1:1 Technology\nRobust Community Assets\nCommunity & Business Partnerships\nStudent-Centered\nHome Page Lower Shuffle",
+          "file": "leader-sources/1811370-0.txt"
+        },
+        {
+          "url": "https://www.tvsc.k12.in.us/apps/staff/",
+          "evidence": "taff Directory | Tippecanoe Valley School Corporation\nDistrict Administration\nSearch for people on this page\nDawson Bradley\nSIS Administrator\nEmail Dawson Bradley\n574.598.2764\nBrad Carter\nDirector of Maintenance\nEmail Brad Carter\n574-598-2762\nBlaine Conley\nSuperintendent\nEmail Blaine Conley\n(574) 598-2765\nThomas Craig\nTVSC Transportation Specialist\nEmail Thomas Craig\n574-598-2522\nBilly Gillman\nNetwork Administraitor\nEmail Billy Gillman\nSherrill Hamman\nTVSC Administration Assistant\nEmail Sherrill Hamman\n574-598-2761\nMelinda Kamp\nTVSC Deputy Treasurer\nEmail Melinda Kamp\n574-598-2763\nInga Omondi\nDirector of Curriculum, Instruction, and Assessment\nEmail Inga Omondi\n574-598-2767\nJeff Phillips\nDirector of Technology\nEmail Jeff Phillips\nAshlie Sch",
+          "file": "leader-sources/1811370-1.txt"
+        },
+        {
+          "url": "https://www.tvsc.k12.in.us/apps/spotlightmessages/13132",
+          "evidence": " takes to equip ALL students to be successful today, tomorrow, and beyond.\nThank you for your continued support of Tippecanoe Valley Schools. I look forward to an outstanding year filled with learning, growth, and student success!!\nSincerely,\nBlaine Conley Ed.S.\nSuperintendent\nTippecanoe Valley School Corporation\n#VALLEYFAMILY #VALLEYFOREVER",
+          "file": "leader-sources/1811370-2.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Triton School Corporation",
+      "leaId": "1811490",
+      "stateDistrictId": "5495",
+      "name": "Jeremy Riffle",
+      "role": "Superintendent",
+      "county": "Marshall",
+      "website": "http://www.triton.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.triton.k12.in.us/",
+        "https://www.triton.k12.in.us/administration",
+        "https://www.triton.k12.in.us/administration/administration-contracts"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.triton.k12.in.us/",
+          "evidence": "learning environment for students of Bourbon, Etna Green, Tippecanoe, and surrounding communities. It is my goal at Triton to instill a sense of PRIDE in our school, community, and work ethic that will represent Triton in a positive light.\nJeremy K. Riffle, Superintendent\nGet in Touch\nQuick Links\neFunds Login\nHarmony 3 Parent Access\nTriton Athletics\nTriton Branding Guide\nCalendar\nSearch\nElementary\nAcademics\nWeekly Newsletter\nAfter School Care\nPreschool\nElementary PTO\nDyslexia\nBullying\nClassroom Websites\nTES Videos\nStaff Contacts\nJr/Sr High\nAcademics\nGuidance\nClubs\nTHS Videos\nStaff Contacts\nAdministration\nEmployment Opportunities\nAdministration Contracts\nPublic Documentation\nBoard Meetings\nTransportation\nMaintenance\nStaff Contacts\nResources\n",
+          "file": "leader-sources/1811490-0.txt"
+        },
+        {
+          "url": "https://www.triton.k12.in.us/administration",
+          "evidence": "fe learning environment for students of Bourbon, Etna Green, Tippecanoe, and surrounding communities. It is my goal at Triton to instill a sense of PRIDE in our school, community, and work ethic that will represent Triton in a positive light.\nJeremy Riffle, Superintendent\nTriton School Corporation\nAdministration Office\n100 Triton Drive\nBourbon, IN 46504\n574-342-2255 Phone\n574-342-8165 Fax\nTriton Elementary School\n200 Triton Drive\nBourbon, IN 46504\n574-342-2355 Phone\n574-342-0053 Fax\nTriton Jr/Sr High School\n300 Triton Drive\nBourbon, IN 46504\n574-342-6505 Phone\n574-342-8175 Fax\nSchool Board Members\nTheresa Barnhart, President\nKevin Boyer, Vice President\nSteve Stichter, Secretary\nAustin Davis, Member\nWes Rettinger, Member\nQuick Links\nOnline E",
+          "file": "leader-sources/1811490-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Heartland Career Center",
+      "leaId": "1811930",
+      "stateDistrictId": "8065",
+      "name": "Floyd McWhirt",
+      "role": "Superintendent",
+      "county": "Wabash",
+      "website": "http://www.hcc.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.hcc.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Wabash City Schools",
+      "leaId": "1812150",
+      "stateDistrictId": "8060",
+      "name": "Amy Sivley",
+      "role": "Superintendent",
+      "county": "Wabash",
+      "website": "http://apaches.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.apaches.k12.in.us/",
+        "https://www.apaches.k12.in.us/post/new-press-release-dr-daughtry-hired-as-wabash-city-schools-next-superintendent"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.apaches.k12.in.us/post/new-press-release-dr-daughtry-hired-as-wabash-city-schools-next-superintendent",
+          "evidence": "earch\nWabash City Schools Press Release Alert!\nThe Wabash City Schools Board of Education has officially appointed Dr. Christopher E. Daughtry as the district\u2019s next Superintendent of Schools, effective July 1, 2026. Dr. Daughtry succeeds Dr. Amy K. Sivley following her retirement. A seasoned educator, Dr. Daughtry brings 28 years of experience in public education to the role, including 16 years as a superintendent\u2014most recently leading Lewis Cass schools. His extensive background also includes serving as an elementary school principal and an 8-year tenure as a medic in the U.S. Air Force Reserve.\nThis appointment marks a meaningful homecoming for Dr. Daughtry, who served as the principal of Wabash's O. J. Neighbours Elementary School from ",
+          "file": "leader-sources/1812150-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "MSD Wabash County Schools",
+      "leaId": "1812180",
+      "stateDistrictId": "8050",
+      "name": "Christopher Kuhn",
+      "role": "Superintendent",
+      "county": "Wabash",
+      "website": "https://www.msdwc.org/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.msdwc.org/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Wa-Nee Community Schools",
+      "leaId": "1812240",
+      "stateDistrictId": "2285",
+      "name": "Scot Croner",
+      "role": "Superintendent",
+      "county": "Elkhart",
+      "website": "http://www.wanee.org",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.wanee.org/"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.wanee.org/",
+          "evidence": "ructional leadership, rigorous instruction, and collaboration, we are preparing today\u00e2\u0080\u0099s students for tomorrow\u00e2\u0080\u0099s challenges and to become our next generation of leaders.\nWelcome to Wa-Nee Schools where Our Tradition is Excellence.\nSincerely,\nScot Croner, PhD\nSuperintendent of Schools\n\u00a9 2026. Wa-Nee Community Schools. All Rights Reserved.\nSchool CMS Created by LINQ\nView text-based website",
+          "file": "leader-sources/1812240-0.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Warsaw Community Schools",
+      "leaId": "1812420",
+      "stateDistrictId": "4415",
+      "name": "David Hoffert",
+      "role": "Superintendent",
+      "county": "Kosciusko",
+      "website": "http://www.warsaw.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://www.warsaw.k12.in.us/",
+        "https://www.warsaw.k12.in.us/superintendent-of-schools",
+        "https://www.warsaw.k12.in.us/district-leadership",
+        "https://www.google.com/maps/place/1+Administration+Dr+Warsaw+IN+46580"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://www.warsaw.k12.in.us/superintendent-of-schools",
+          "evidence": "Warsaw Community Schools - Superintendent of Schools\nSkip to main content\n\u00d7\nClose\n\u00d7\nClose\nSuperintendent of Schools\nSuperintendent of Schools\nDr. David Hoffert\nDr. David Hoffert serves as the Superintendent (2014-current) in the Warsaw Community Schools.\nPrior to his current position, he served as the Assistant Superintendent/Chief Academic Officer in the Warsaw Community Schools (2011-2014), principal of Northfield Jr./Sr. High (2009-2011) in Wabash, IN, and as a history teacher and boys track coach at Warsaw Community High School (2002-2009).\nEDUCATION\nDavid graduated from Warsaw Community High School, received his undergraduate degree in sec",
+          "file": "leader-sources/1812420-1.txt"
+        },
+        {
+          "url": "https://www.warsaw.k12.in.us/district-leadership",
+          "evidence": "Warsaw Community Schools - District Leadership\nSkip to main content\n\u00d7\nClose\n\u00d7\nClose\nDistrict Leadership\nDistrict Leadership\nName\nRole\nDr. David Hoffert\nSuperintendent\nTracy Horrell\nAssistant Superintendent of Secondary\nSteven Boyer\nChief Financial Officer\nKyle Carter\nChief Accountability Officer\nAimee Lunsford\nChief Academic Officer\nKrista Polston\nChief Communications and Strategic Partnerships Officer\nKelly Meeks\nDirector of Special Services",
+          "file": "leader-sources/1812420-2.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "West Noble School Corporation",
+      "leaId": "1812900",
+      "stateDistrictId": "6065",
+      "name": "Nathan Lowe",
+      "role": "Superintendent",
+      "county": "Noble",
+      "website": "https://westnoble.k12.in.us",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.westnoble.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Westview School Corporation",
+      "leaId": "1813110",
+      "stateDistrictId": "4525",
+      "name": "Jaime Carroll",
+      "role": "Superintendent",
+      "county": "LaGrange",
+      "website": "http://www.westview.k12.in.us/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No surname match; inspect captured pages",
+      "currentPages": [
+        "https://www.westview.k12.in.us/"
+      ],
+      "currentEvidence": []
+    },
+    {
+      "districtName": "Whitko Community School Corp",
+      "leaId": "1813230",
+      "stateDistrictId": "4455",
+      "name": "Amy Korus",
+      "role": "Superintendent",
+      "county": "Whitley",
+      "website": "http://www.whitko.org/",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "Matched surname on official district page",
+      "currentPages": [
+        "https://whitko.org/",
+        "https://whitko.org/2026/10/october-newsletter-a-word-from-our-superintendent/",
+        "https://whitko.org/contact/"
+      ],
+      "currentEvidence": [
+        {
+          "url": "https://whitko.org/",
+          "evidence": "amilies, our staff, and the communities that we call home. That's why we are committed to excellence in everything we do while providing you with multiple educational opportunities in a small school atmosphere. That's the Whitko advantage.\n- Dr. Amy Korus, Superintendent\nCONTACT US\nLATEST NEWS\nVIEW ALL NEWS\nFacebook\nYoutube\nNational Principals Month Recognition\nOctober 21, 2026\nOctober is National Principals Month, and Whitko Community Schools is proud to recognize the outstanding leaders who make a difference in our schools every day! Thank you principals for your hard work, leadership, and dedication to our students, staff, and\nRead More \u00bb\nNOTICE OF ADOPTION OF PRELIMINARY DETERMINATION\nOctober 21, 2026\nNotice is hereby given pursuant to ",
+          "file": "leader-sources/1813230-0.txt"
+        },
+        {
+          "url": "https://whitko.org/2026/10/october-newsletter-a-word-from-our-superintendent/",
+          "evidence": "category:\nLittle Cats Early Learning Center\n/\nPierceton Elementary School\n/\nSouth Whitley Elementary School\n/\nWhitko Career Academy\n/\nWhitko Community Schools\n/\nWhitko Jr/Sr High School\nAn update from Whitko Community School\u2019s superintendent Dr. Amy Korus. Click on the link below to learn about the exciting things happening throughout our school district!\nOctober 2026 Newsletter\nYou Might Also Like\nNOTICE OF EXECUTIVE SESSION\nOctober 5, 2026\nSummer School 2022\nMay 17, 2022\nSouth Whitley Elementary Supply List\nJune 21, 2023\n2-HOUR DELAY\nWhitko Community Schools is on a two-hour delay to the start of classes\nThursday, August 13, 2026,\ndue to foggy conditions.",
+          "file": "leader-sources/1813230-1.txt"
+        }
+      ]
+    },
+    {
+      "districtName": "Excel Center - Grant County",
+      "leaId": "1813241",
+      "stateDistrictId": "9059",
+      "name": "Betsy Stafford-Delgado",
+      "role": "Superintendent",
+      "county": "Adams",
+      "website": " ",
+      "state": "IN",
+      "sourceUrl": "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx",
+      "sourceLabel": "Indiana Department of Education 2025\u201326 directory (updated April 1, 2026)",
+      "evidence": "CORP worksheet superintendent fields",
+      "retrievedOn": "2026-10-22",
+      "schoolYear": "2025-2026",
+      "verifiedCurrent": false,
+      "currentCheck": "No district homepage in directory"
+    }
+  ]
+}

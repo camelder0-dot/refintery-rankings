@@ -1,0 +1,30 @@
+{
+  "program": "FRC",
+  "teamNumber": 4568,
+  "season": 2027,
+  "sourceUrl": "https://frc-events.firstinspires.org/2027/team/4568",
+  "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+  "sourceSha256": "0ab0ae357d0b50f80321ce517af29b58937465969ce51583a25a3fbc76f76c57",
+  "sourceBytes": 24401,
+  "heading": "Team 4568 - Robot Commander (2027)",
+  "registeredLocation": "North Adams, Michigan, USA",
+  "schoolAffiliationHeadline": "North Adams-Jerome High School",
+  "sponsorsAndAffiliations": "Hardy-Reed Machine and Tool Company/State of Michigan/Cambria Tool and Machine/Jonesville Lumber/North Adams-Jerome Public Schools/Hillsdale Optometry/Lomar Machine and Tool/Colin Mayers, DDS&North Adams-Jerome High School",
+  "listedOtherSeasons": [
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2022,
+    2024,
+    2025,
+    2026,
+    2027
+  ],
+  "screeningDistanceMiles": 69.25691971094476,
+  "noEventsStatement": false
+}

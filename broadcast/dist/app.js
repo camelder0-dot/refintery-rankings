@@ -50,6 +50,34 @@
     $('season-notes').innerHTML = `<span class="schedule-asof">SCHEDULE CHECKED ${esc(date(preview.asOf))}</span><ul>${(preview.notes || []).map((note) => `<li>${esc(note)}</li>`).join('')}</ul>`;
     $('season-preview').hidden = false;
   }
+  function renderDnf() {
+    const dnf = state.data?.dnf;
+    if (!dnf || !$('dnf')) return;
+    const interestUrl = (school = '') => `mailto:${dnf.contactEmail}?subject=${encodeURIComponent(`Interested in starting a robotics team${school ? ` — ${school}` : ''}`)}&body=${encodeURIComponent(`Hello The REFINERY,\n\nWe’re interested in exploring an FTC or FRC team${school ? ` at ${school}` : ' at our school'}. Please help us understand the first steps.\n\nSchool / organization: ${school}\nMy name and role: \n`)}`;
+    $('dnf-interest').href = interestUrl();
+    $('dnf-summary').textContent = `${dnf.schools.length} schools to invite. One conversation to begin.`;
+    $('dnf-qualification').textContent = dnf.qualification;
+    $('dnf-source-note').innerHTML = `<p>${esc(dnf.scopeNote)}</p><p>Checked ${esc(date(dnf.asOf))}. ${link(dnf.methodologyUrl, 'School roster, team screening, and leadership sources')}.</p>`;
+    let limit = 20;
+    const update = () => {
+      const query = $('dnf-search').value.trim().toLocaleLowerCase();
+      const region = $('dnf-state').value;
+      const sector = $('dnf-sector').value;
+      const schools = dnf.schools.filter((school) => (!region || school.state === region) && (!sector || school.sector === sector) && (!query || [school.name, school.district, school.city, school.county, school.leader?.name].join(' ').toLocaleLowerCase().includes(query)));
+      $('dnf-schools').innerHTML = schools.slice(0, limit).map((school) => `<tr><td data-label="School"><strong>${link(school.schoolUrl, school.name)}</strong><span>${esc(school.city)}, ${esc(school.state)} · ${esc(school.sector)}</span><small>${esc(school.district || '')}</small>${school.schoolStatusNote ? `<small>${esc(school.schoolStatusNote)}</small>` : ''}</td><td data-label="Superintendent / school contact">${school.leader?.name ? `<strong>${link(school.leader.sourceUrl, school.leader.name)}</strong><span>${esc(school.leader.role)}</span>${school.leader.evidenceLabel ? `<small>${esc(school.leader.evidenceLabel)}</small>` : ''}` : `<strong>Name not verified</strong><span>${link(school.schoolUrl, 'See school source')}</span>`}</td><td data-label="From downtown"><strong>${num(school.distanceMiles, 1)} mi</strong><span>Straight line</span></td><td data-label="Take the first step"><a class="dnf-school-interest" href="${esc(interestUrl(school.name))}">We’re interested <span aria-hidden="true">↗</span><span class="sr-only"> in starting a team at ${esc(school.name)}</span></a></td></tr>`).join('') || '<tr><td colspan="4">No schools match those filters. Try a school, district, leader, or town.</td></tr>';
+      $('dnf-results').textContent = `Showing ${Math.min(limit, schools.length)} of ${schools.length} schools${schools.length === dnf.schools.length ? '' : ` (${dnf.schools.length} total)`}.`;
+      $('dnf-more').hidden = limit >= schools.length;
+    };
+    ['dnf-search', 'dnf-state', 'dnf-sector'].forEach((id) => $(id).addEventListener(id === 'dnf-search' ? 'input' : 'change', () => { limit = 20; update(); }));
+    $('dnf-more').addEventListener('click', () => { limit += 20; update(); });
+    if ($('dnf-review')) {
+      $('dnf-review').hidden = !(dnf.reviewSchools || []).length;
+      $('dnf-review-summary').textContent = `${(dnf.reviewSchools || []).length} former-team and community connections to check`;
+      $('dnf-review-schools').innerHTML = (dnf.reviewSchools || []).map((school) => `<article><h4>${esc(school.name)} <small>${esc(school.state)}</small></h4><p>${esc(school.teamNote)}</p><p>${school.leader?.name ? `${esc(school.leader.name)} · ${esc(school.leader.role)}. ` : ''}${link(dnf.methodologyUrl, 'Affiliation and leadership sources')}</p><a href="${esc(interestUrl(school.name))}">Talk about the next step ↗</a></article>`).join('');
+    }
+    update();
+    $('dnf').hidden = false;
+  }
   const schoolName = (team) => team.school || team.name;
   const identityBadge = (team, kind, compact = false) => {
     const logo = team.logos?.[kind];
@@ -255,6 +283,8 @@
   });
   document.addEventListener('keydown', (event) => {
     if (!state.data || /INPUT|TEXTAREA|SELECT/.test(event.target.tagName) || event.target.isContentEditable || event.ctrlKey || event.metaKey || event.altKey) return;
+    const bounds = frame.getBoundingClientRect();
+    if (!state.presentation && !event.target.closest('#broadcast') && (bounds.bottom < 0 || bounds.top > innerHeight)) return;
     if (['ArrowLeft', 'ArrowUp', 'ArrowRight', 'ArrowDown'].includes(event.key)) { event.preventDefault(); selectTeam(state.selected + (['ArrowLeft', 'ArrowUp'].includes(event.key) ? -1 : 1)); }
     else if (/^[0-9]$/.test(event.key)) { event.preventDefault(); selectTeam(event.key === '0' ? 9 : Number(event.key) - 1); }
     else if (event.key.toLowerCase() === 'f') { event.preventDefault(); toggleFullscreen(); }
@@ -271,12 +301,14 @@
     if (!Array.isArray(data.top10) || !data.top10.length || !data.edition || !data.scope || !data.ftc || !data.links) throw new Error('The broadcast dataset is incomplete.');
     state.data = data;
     renderSeasonPreview();
+    renderDnf();
     if (data.links.pressKit) $('press-kit-link').href = data.links.pressKit;
     if (data.links.repo) $('research-link').href = data.links.repo;
     readHash();
     setAutoCycle($('cycle-toggle').checked);
     if (/^#(?:board|ftc|team\/\d+)$/.test(location.hash)) $('broadcast').scrollIntoView({ behavior: 'auto', block: 'start' });
     if (location.hash === '#season-preview' && data.seasonPreview) $('season-preview').scrollIntoView({ behavior: 'auto', block: 'start' });
+    if (location.hash === '#dnf' && data.dnf) $('dnf').scrollIntoView({ behavior: 'auto', block: 'start' });
   }).catch((error) => {
     console.warn('Broadcast dataset:', error);
     frame.innerHTML = '<div class="loading-state"><span class="screen-brand">THE REFINERY</span><h3>THE RUNDOWN IS TAKING A TIMEOUT.</h3><p>The research snapshot could not be loaded.<br>Refresh the page, or open the full research below.</p></div>';

@@ -1,0 +1,57 @@
+{
+  "researchDate": "2026-10-22",
+  "pssFormatsSource": "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_sas.zip",
+  "pssFormatFile": "Create PU 2023-24 PSS SAS Formats.sas",
+  "gradeCodes": {
+    "1": "All ungraded",
+    "2": "Prekindergarten",
+    "3": "Kindergarten",
+    "4": "Transitional kindergarten",
+    "5": "Transitional first grade",
+    "6": "1",
+    "7": "2",
+    "8": "3",
+    "9": "4",
+    "10": "5",
+    "11": "6",
+    "12": "7",
+    "13": "8",
+    "14": "9",
+    "15": "10",
+    "16": "11",
+    "17": "12"
+  },
+  "gradeSelection": "PSS HIGR2024 codes14\u201317 decode to grades9\u201312. Do not interpret code9 as9thgrade. CCD GSHI uses literalgradecode09\u201312.",
+  "programTypeP415": {
+    "1": "Regular",
+    "2": "Montessori",
+    "3": "Special program emphasis",
+    "4": "Special education",
+    "5": "Career/technical/vocational",
+    "6": "Alternative/other",
+    "7": "Early childhood"
+  },
+  "geocodePublicCurrentYear": "2024\u201325",
+  "geocodePrivateCurrentYear": "2023\u201324",
+  "bbox": [
+    -86.5,
+    40.0,
+    -83.8,
+    42.1
+  ],
+  "earthRadiusMiles": 3958.7613,
+  "downtownOrigin": {
+    "latitude": 41.079467666017,
+    "longitude": -85.137939575106
+  },
+  "boundaryNote": "Membership uses unrounded haversine. Jimtown59.991588mi is inside; TheCrossing corporateoffice60.030456mi outside. Survey/addressinterpolation uncertainverynearboundary; no claimroof-top precision. SchoolcampusCrossingFW1.656643mi andGoshen53.476436mi inside.",
+  "limitations": [
+    "NCES public geocodes2024\u201325 and private PSS2023\u201324 are lagged. Current Indiana2025\u201326 directory and school-site supplements were added.",
+    "Michigan May2026 approved nonpublic entries in Branch, Hillsdale, and St. Joseph ISDs were compared. No additional confirmed inside-radius high school was found. This does not cover unapproved or unreported schools.",
+    "Ohio2026\u201327 NCNP entries in ten target counties were compared. Liberty Christian School was added using its own high-school statement. Four other new campuses remain grade-range-review because state instructional-hour buckets do not prove high-school offerings.",
+    "Current Ohio chartered-school directory retrieval returned403, and no current full Michigan public-school bulk directory was acquired in this bounded followup. New or unreported public/chartered campuses can remain absent.",
+    "A school absent from an accreditation, approved-school, Choice, or NCNP directory is not thereby classified as closed.",
+    "Virtual administrative addresses do not establish a local physical student campus. Adult-only Excel campuses are excluded. Each physical campus is deduplicated, retaining institutional aliases.",
+    "Describe the publication as a documented directory screen with a correction route, rather than an absolute current census or proof of no affiliated team."
+  ]
+}

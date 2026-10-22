@@ -1,0 +1,25 @@
+{
+  "program": "FTC",
+  "teamNumber": 5501,
+  "season": 2026,
+  "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/5501",
+  "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+  "sourceSha256": "f6057a8d9e9e4d607f91ef87a8198b0b15a99077b00f594ccd5bdcdc0ac320a1",
+  "sourceBytes": 12419,
+  "heading": "Team 5501 - VW Robotics (2026)",
+  "registeredLocation": "Van Wert, OH, USA",
+  "schoolAffiliationHeadline": "",
+  "sponsorsAndAffiliations": "Van Wert High School",
+  "listedOtherSeasons": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "screeningDistanceMiles": 32.27230739421337,
+  "noEventsStatement": true
+}

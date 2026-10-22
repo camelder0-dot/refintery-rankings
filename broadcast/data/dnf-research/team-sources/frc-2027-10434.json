@@ -1,0 +1,20 @@
+{
+  "program": "FRC",
+  "teamNumber": 10434,
+  "season": 2027,
+  "sourceUrl": "https://frc-events.firstinspires.org/2027/team/10434",
+  "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+  "sourceSha256": "ea27f80798c262ef784cbf8f3e61d35dbb35e751223384adcb434921060eb987",
+  "sourceBytes": 26153,
+  "heading": "Team 10434 - CYBEARS (2027)",
+  "registeredLocation": "Fort Wayne, Indiana, USA",
+  "schoolAffiliationHeadline": "Northrop High School",
+  "sponsorsAndAffiliations": "BioNanomics/The REFINERY/FWCS/Argosy Foundation/BAE Systems &Northrop High School",
+  "listedOtherSeasons": [
+    2025,
+    2026,
+    2027
+  ],
+  "screeningDistanceMiles": 0.6536665354024795,
+  "noEventsStatement": false
+}

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.0",
+  "researchDate": "2026-10-22",
+  "records": [
+    {
+      "schoolId": "OH-NCNP-BALDWIN",
+      "schoolName": "Baldwin Academy",
+      "state": "OH",
+      "name": "April Johnson",
+      "role": "School Contact",
+      "sourceUrl": "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US",
+      "evidence": "The current 2026\u201327 Ohio NCNP list names this person in its School Contact field. No principal or superintendent title is inferred.",
+      "schoolYear": "2026\u201327",
+      "verifiedCurrent": true,
+      "website": null,
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "schoolUniverseStatus": "grade-range-review",
+      "publishAsHighSchoolCandidate": false,
+      "gradeCaution": "State Grades 7\u201312 / 1001 hours is a reporting-hours category. It does not establish that the school serves grades 9\u201312. Keep in review, outside the main high-school table until actual high-school grades are confirmed.",
+      "officialDirectoryRole": "School Contact",
+      "officialDirectoryName": "April Johnson",
+      "additionalSources": [],
+      "sourceRow": {
+        "schoolName": "Baldwin Academy",
+        "county": "Defiance",
+        "schoolAddress": "406 Fales St., Defiance, OH 43512",
+        "gradesHoursCategory": "Grades 7-12 - 1001 hours;",
+        "publicDistrictReference": "Defiance",
+        "schoolContact": "April Johnson"
+      }
+    },
+    {
+      "schoolId": "OH-NCNP-BIG-OAK",
+      "schoolName": "Big Oak Academy",
+      "state": "OH",
+      "name": "Robert Schmersal",
+      "role": "School Contact",
+      "sourceUrl": "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US",
+      "evidence": "The current 2026\u201327 Ohio NCNP list names this person in its School Contact field. No principal or superintendent title is inferred.",
+      "schoolYear": "2026\u201327",
+      "verifiedCurrent": true,
+      "website": null,
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "schoolUniverseStatus": "grade-range-review",
+      "publishAsHighSchoolCandidate": false,
+      "gradeCaution": "State Grades 7\u201312 / 1001 hours is a reporting-hours category. It does not establish that the school serves grades 9\u201312. Keep in review, outside the main high-school table until actual high-school grades are confirmed.",
+      "officialDirectoryRole": "School Contact",
+      "officialDirectoryName": "Robert Schmersal",
+      "additionalSources": [],
+      "sourceRow": {
+        "schoolName": "Big Oak Academy",
+        "county": "Putnam",
+        "schoolAddress": "16354 STATE ROUTE 694, Ottawa, OH 45875",
+        "gradesHoursCategory": "Grades 7-12 - 1001 hours;",
+        "publicDistrictReference": "Ottawa Glandorf  LSD",
+        "schoolContact": "Robert Schmersal"
+      }
+    },
+    {
+      "schoolId": "OH-NCNP-HILLCREST",
+      "schoolName": "Hillcrest School",
+      "state": "OH",
+      "name": "Jennifer French",
+      "role": "School Contact",
+      "sourceUrl": "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US",
+      "evidence": "The current 2026\u201327 Ohio NCNP list names this person in its School Contact field. No principal or superintendent title is inferred.",
+      "schoolYear": "2026\u201327",
+      "verifiedCurrent": true,
+      "website": null,
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "schoolUniverseStatus": "grade-range-review",
+      "publishAsHighSchoolCandidate": false,
+      "gradeCaution": "State Grades 7\u201312 / 1001 hours is a reporting-hours category. It does not establish that the school serves grades 9\u201312. Keep in review, outside the main high-school table until actual high-school grades are confirmed.",
+      "officialDirectoryRole": "School Contact",
+      "officialDirectoryName": "Jennifer French",
+      "additionalSources": [],
+      "sourceRow": {
+        "schoolName": "Hillcrest School",
+        "county": "Williams",
+        "schoolAddress": "351 East Circle Dr., Montpelier, OH 43543",
+        "gradesHoursCategory": "Grades 7-12 - 1001 hours;",
+        "publicDistrictReference": "Millcreek-West Unity",
+        "schoolContact": "Jennifer French"
+      }
+    },
+    {
+      "schoolId": "OH-NCNP-NORTH-STAR",
+      "schoolName": "North Star Academy",
+      "state": "OH",
+      "name": "Meghan Moniaci",
+      "role": "School Contact",
+      "sourceUrl": "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US",
+      "evidence": "The current 2026\u201327 Ohio NCNP list names this person in its School Contact field. No principal or superintendent title is inferred.",
+      "schoolYear": "2026\u201327",
+      "verifiedCurrent": true,
+      "website": null,
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "schoolUniverseStatus": "grade-range-review",
+      "publishAsHighSchoolCandidate": false,
+      "gradeCaution": "State Grades 7\u201312 / 1001 hours is a reporting-hours category. It does not establish that the school serves grades 9\u201312. Keep in review, outside the main high-school table until actual high-school grades are confirmed.",
+      "officialDirectoryRole": "School Contact",
+      "officialDirectoryName": "Meghan Moniaci",
+      "additionalSources": [],
+      "sourceRow": {
+        "schoolName": "North Star Academy",
+        "county": "Auglaize",
+        "schoolAddress": "09471 Monroe Rd., Wapakoneta, OH 45895",
+        "gradesHoursCategory": "Kindergarten (Half-Day) - 455 hours;Grades 1-6 - 910 hours;Grades 7-12 - 1001 hours;",
+        "publicDistrictReference": "Wapakoneta CSD",
+        "schoolContact": "Meghan Moniaci"
+      }
+    },
+    {
+      "schoolId": "A9300714",
+      "schoolName": "Liberty Christian School",
+      "state": "OH",
+      "name": "Cheryl Lawrence-Jones",
+      "role": "Administrator",
+      "sourceUrl": "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US",
+      "evidence": "The current 2026\u201327 Ohio NCNP list names Cheryl Lawrence-Jones as School Contact at the same school/address. The official school about page identifies Cheryl Jones as Administrator and the homepage explicitly offers high school.",
+      "schoolYear": "2026\u201327",
+      "verifiedCurrent": true,
+      "website": "https://libertychristianschool.org/",
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "schoolUniverseStatus": "confirmed-grade9plus",
+      "publishAsHighSchoolCandidate": true,
+      "gradeCaution": null,
+      "officialDirectoryRole": "School Contact",
+      "officialDirectoryName": "Cheryl Lawrence-Jones",
+      "additionalSources": [
+        {
+          "sourceUrl": "https://libertychristianschool.org/about-us",
+          "evidence": "School about page identifies Mrs. Cheryl Jones as Administrator."
+        },
+        {
+          "sourceUrl": "https://libertychristianschool.org/",
+          "evidence": "Official homepage states the school offers kindergarten through high school."
+        }
+      ],
+      "sourceRow": {
+        "schoolName": "Liberty Christian School",
+        "county": "Allen",
+        "schoolAddress": "801 Bellefontaine Ave., Lima, OH 45801",
+        "gradesHoursCategory": "Kindergarten (Half-Day) - 455 hours;Kindergarten (All-Day) - 910 hours;Grades 1-6 - 910 hours;Grades 7-12 - 1001 hours;",
+        "publicDistrictReference": "Lima CSD",
+        "schoolContact": "Cheryl Lawrence-Jones"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "sourceUrl": "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US",
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "httpStatus": 200,
+      "sha256": "6baf1923bd802a681a484b05c480e18417b526d92c687c5186d6d94d7fc32719",
+      "bytes": 44825
+    },
+    {
+      "sourceUrl": "https://education.ohio.gov/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information",
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "httpStatus": 200,
+      "sha256": "9f26ec329b61cd1a158205c42f199c847cca35059bbf70d84b0301a9e38609c6",
+      "bytes": 33139
+    },
+    {
+      "sourceUrl": "https://libertychristianschool.org/about-us",
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "httpStatus": 200,
+      "sha256": "7507ee9cd36233ce69cdb16c91f3304b362b7d1adca6a35f1407b88d48d7ff61",
+      "bytes": 19707
+    },
+    {
+      "sourceUrl": "https://libertychristianschool.org/",
+      "retrievedAt": "2026-10-22T08:44:23.422856+00:00",
+      "httpStatus": 200,
+      "sha256": "4d50113d52342861d189ba13928a9b6831927b67bff29c09d15b8a4322fd9782",
+      "bytes": 19703
+    }
+  ],
+  "firstAffiliationScreen": {
+    "reviewedSchoolIds": [
+      "OH-NCNP-BALDWIN",
+      "OH-NCNP-BIG-OAK",
+      "OH-NCNP-HILLCREST",
+      "OH-NCNP-NORTH-STAR",
+      "A9300714",
+      "IN-A740"
+    ],
+    "reviewedSchoolNames": [
+      "Baldwin Academy",
+      "Big Oak Academy",
+      "Hillcrest School",
+      "North Star Academy",
+      "Liberty Christian School",
+      "Lakewood Park Christian School"
+    ],
+    "status": "No school-affiliated FTC/FRC team verified",
+    "sourceDate": "2026-10-22",
+    "method": "Compared the named schools against the nearby official FRC 2023\u20132027/FTC 2024\u20132026 profile and registration screen, plus targeted school-name/FIRST/FTC/FRC searches. No positive named affiliation found. Grade-review schools remain outside the published high-school universe.",
+    "officialRosterUrls": [
+      "https://frc-events.firstinspires.org/2027/allteams",
+      "https://ftc-events.firstinspires.org/2026/region/USOH",
+      "https://ftc-events.firstinspires.org/2026/region/USIN"
+    ],
+    "artifact": "team-screen.json",
+    "qualification": "This is a public-source screening result, not proof that no team, informal robotics activity, community-team student or new registration exists."
+  },
+  "notes": [
+    "Only Liberty Christian School is a confirmed high-school addition. The four other school contacts are retained solely for grade-range review.",
+    "The state primary source is an XLSX linked from its official NCNP page, not a PDF. Preserve the actual source URL.",
+    "School Contact is the exact state column title; do not relabel these contacts as principal, head of school or superintendent."
+  ]
+}

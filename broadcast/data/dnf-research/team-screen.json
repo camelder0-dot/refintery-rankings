@@ -1,0 +1,2201 @@
+{
+  "schemaVersion": "1.0",
+  "researchDate": "2026-10-22",
+  "retrievedAt": "2026-10-22T08:34:03.040315+00:00",
+  "publicAbsenceLabel": "No school-affiliated FTC/FRC team verified",
+  "method": [
+    "Screened official FRC all-team rosters 2023\u20132027 for Indiana, Michigan and Ohio; checked local candidate team profiles, including registered teams without match statistics.",
+    "Screened official FTC regional rosters 2024, 2025, 2026 for USIN, USMI and USOH and official school affiliations for nearby candidates. 2026 FTC means 2026\u201327 BIOBUZZ.",
+    "Town internal points screened a 75-mile buffer; geography of schools is independently determined by the school-universe data. Profiles beyond 60 miles retained for boundary checking.",
+    "Named positive school affiliations and documented community-team participants are retained; a nearby community team does not establish that every local school has a team.",
+    "Only matching named school/campus is assigned affiliation. A district-level team, co-located virtual academy, sponsor, or career center does not automatically receive the school affiliation.",
+    "The absence label describes this public-record screen and is not proof that a team, informal program or new registration does not exist. Robotics activities outside FIRST are outside this screen."
+  ],
+  "classificationDefinitions": {
+    "exclude-active/recent": "School named in current 2027 FRC, 2026 FRC or current/recent 2026/2025 FTC registration; excluded even if no matches.",
+    "former-review": "Known former school-affiliated team; disclose prior team and seek current/relaunch confirmation.",
+    "community-participation-review": "Named student participation in a community team; current school affiliation or separate team operation unverified.",
+    "no-school-affiliation-verified-in-roster-screen": "No named positive match in screened rosters and supporting research; qualified candidate status, not proof of absence."
+  },
+  "rosterSources": [
+    {
+      "program": "FRC",
+      "seasons": [
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "sourceUrlTemplate": "https://frc-events.firstinspires.org/{season}/allteams",
+      "artifacts": "team-sources/frc-allteams-{season}.json"
+    },
+    {
+      "program": "FTC",
+      "seasons": [
+        2024,
+        2025,
+        2026
+      ],
+      "regions": [
+        "USIN",
+        "USMI",
+        "USOH"
+      ],
+      "sourceUrlTemplate": "https://ftc-events.firstinspires.org/{season}/region/{region}",
+      "artifact": "../../../../ftc/artifacts/first/official_region_rosters.json"
+    }
+  ],
+  "positiveSchoolAffiliations": [
+    {
+      "schoolName": "Huntington North High School",
+      "state": "IN",
+      "aliases": [
+        "Huntington North High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Community 4-H team; the school connection is documented separately. Do not infer all Huntington County schools are affiliated.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 1501,
+          "season": 2027,
+          "heading": "Team 1501 - Team THRUST (2027)",
+          "registeredLocation": "Huntington, Indiana, USA",
+          "schoolAffiliationHeadline": "4-H",
+          "sponsorsAndAffiliations": "PHD, Inc./Carrier/Medical Informatics Engineering/Indiana Department of Education/Ecolab/Duke Energy/Don Wood Foundation/Huntington County Community Learning Center/BAE Systems/Raytheon/Rockwell Automation/Gene Haas Foundation/Beacon Credit Union/YRG Robotics/Community Link FCU/Shuttleworth/Northern Indiana Anodize/Huntington County 4H&4-H",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/1501",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "f81c49aa6f6a9e51842600435e3dbc5c9946c131fcb09a466c82078be6c5e382"
+        }
+      ],
+      "additionalSources": [
+        {
+          "sourceUrl": "https://huntingtonnhs.ss13.sharpschool.com/get_involved/clubs/robotics",
+          "evidence": "Huntington North school robotics page establishes connection to Team THRUST.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        },
+        {
+          "sourceUrl": "https://refineryrobotics.org/about/",
+          "evidence": "REFINERY identifies Huntington North Team THRUST among local teams.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        }
+      ],
+      "ncesIds": [
+        "180471000786"
+      ]
+    },
+    {
+      "schoolName": "North Side High School",
+      "state": "IN",
+      "aliases": [
+        "North Side High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 9119,
+          "season": 2027,
+          "heading": "Team 9119 - Iron Legends (2027)",
+          "registeredLocation": "Fort Wayne, Indiana, USA",
+          "schoolAffiliationHeadline": "North Side High School",
+          "sponsorsAndAffiliations": "Steel Dynamics&North Side High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/9119",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "9394f22f1d254a1f1113b28e4af835c4f61d2ca38004d8b1df4df7687f21932f"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180363000550"
+      ]
+    },
+    {
+      "schoolName": "R Nelson Snider High School",
+      "state": "IN",
+      "aliases": [
+        "R. Nelson Snider High School",
+        "R Nelson Snider High School",
+        "Snider High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 9431,
+          "season": 2027,
+          "heading": "Team 9431 - Snider Panthers- \"The Gold Standard\" (2027)",
+          "registeredLocation": "Fort Wayne, Indiana, USA",
+          "schoolAffiliationHeadline": "R Nelson Snider High School",
+          "sponsorsAndAffiliations": "Fort Wayne Medical Informatics Engineering/IN-MAC Education and Workforce/Haas Foundation/Argosy Grant/Doug Horner/American Electric Power/Don Wood Foundation/Ft. Wayne Komets/Go Engineers/Lincoln Coders&R Nelson Snider High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/9431",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "b34fac6f969c9f91dd6ecaa76cf0bde442c22d88508fb28bba893bf54387e22e"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180363000556"
+      ]
+    },
+    {
+      "schoolName": "Homestead High School",
+      "state": "IN",
+      "aliases": [
+        "Homestead High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 4982,
+          "season": 2027,
+          "heading": "Team 4982 - Olympus Robotics (2027)",
+          "registeredLocation": "Fort Wayne, Indiana, USA",
+          "schoolAffiliationHeadline": "Homestead High School",
+          "sponsorsAndAffiliations": "The Refinery/Fort Wayne Metals/Lassus Brothers Oil/BAE Systems/FIRST Indiana Robotics/Alliance Winding Joyal Newtech Family of Companies&Homestead High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/4982",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "ff0bc30319b6cf64d8509d51ea3b4fba94f67af7471048d39edbefcdb1f49490"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180003000002"
+      ]
+    },
+    {
+      "schoolName": "Northrop High School",
+      "state": "IN",
+      "aliases": [
+        "Northrop High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 10434,
+          "season": 2027,
+          "heading": "Team 10434 - CYBEARS (2027)",
+          "registeredLocation": "Fort Wayne, Indiana, USA",
+          "schoolAffiliationHeadline": "Northrop High School",
+          "sponsorsAndAffiliations": "BioNanomics/The REFINERY/FWCS/Argosy Foundation/BAE Systems &Northrop High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/10434",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "ea27f80798c262ef784cbf8f3e61d35dbb35e751223384adcb434921060eb987"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180363000552"
+      ]
+    },
+    {
+      "schoolName": "East Noble High School",
+      "state": "IN",
+      "aliases": [
+        "East Noble High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 8103,
+          "season": 2027,
+          "heading": "Team 8103 - Knight Robotics (2027)",
+          "registeredLocation": "Kendallville, Indiana, USA",
+          "schoolAffiliationHeadline": "East Noble High School",
+          "sponsorsAndAffiliations": "Robert Bosch LLC/Parker Hannifin/Be Noble Inc./Freedom Academy&East Noble High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/8103",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "ea2da68389e2c41e30d76ef8a84597e76298b62947220e70ea46cdb1b9ce0560"
+        },
+        {
+          "program": "FRC",
+          "teamNumber": 8431,
+          "season": 2027,
+          "heading": "Team 8431 - Robo-Knights (2027)",
+          "registeredLocation": "Kendallville, Indiana, USA",
+          "schoolAffiliationHeadline": "East Noble High School",
+          "sponsorsAndAffiliations": "East Noble High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/8431",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "1940cc886c64424f65a3a7a552ac0f59ddd8c737b8d25d70d6a6c14ce26444ff"
+        },
+        {
+          "program": "FRC",
+          "teamNumber": 8432,
+          "season": 2027,
+          "heading": "Team 8432 - Cyber Knights (2027)",
+          "registeredLocation": "Kendallville, Indiana, USA",
+          "schoolAffiliationHeadline": "East Noble High School",
+          "sponsorsAndAffiliations": "East Noble High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/8432",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "028090af13f30f3da80c31e8d191fb00013ddb3cf7b646622d1ebd80fafe8ae1"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180297000389"
+      ]
+    },
+    {
+      "schoolName": "Carroll High School",
+      "state": "IN",
+      "aliases": [
+        "Carroll High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 10332,
+          "season": 2027,
+          "heading": "Team 10332 - Carroll Charger Robotics (2027)",
+          "registeredLocation": "Fort Wayne, Indiana, USA",
+          "schoolAffiliationHeadline": "Family/Community & Carroll High School",
+          "sponsorsAndAffiliations": "NACS/BioNanomics/The REFINERY/Don Wood Foundation/Indiana Department of Education/Gene Haas Foundation/Argosy Foundation/FIRST Indiana/Reboot/Fill-Rite/Nucor&Carroll High School&Family/Community",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/10332",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "afef7e78290f545df7cec1cec8e773ad5279396ead9e7ffcf917c661224437f5"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180825001414"
+      ]
+    },
+    {
+      "schoolName": "Madison-Grant Jr./Sr. High School",
+      "state": "IN",
+      "aliases": [
+        "Madison-Grant Jr./Sr. High School",
+        "Madison-Grant Jr Sr High Sch",
+        "Madison-Grant High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 8742,
+          "season": 2027,
+          "heading": "Team 8742 - Argyll Attack (2027)",
+          "registeredLocation": "Fairmount, Indiana, USA",
+          "schoolAffiliationHeadline": "Madison-Grant Jr Sr High Sch",
+          "sponsorsAndAffiliations": "The REFINERY by Bionanomics/R&R Engineering&Madison-Grant Jr Sr High Sch",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/8742",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "eaee2706065d8679b572adab07cadf0ff9fcdcbe6baba655e12c4511b08f2faa"
+        },
+        {
+          "program": "FTC",
+          "teamNumber": 25638,
+          "season": 2026,
+          "heading": "Team 25638 - MG (Microchips & Guac) (2026)",
+          "registeredLocation": "Fairmount, IN, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "Madison-Grant Jr Sr High Sch",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/25638",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "67fa737690fe3e77bb58c242590d65fe9050e68381b46c6bedd25a8d9e124dee"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180624001097"
+      ]
+    },
+    {
+      "schoolName": "South Side High School",
+      "state": "IN",
+      "aliases": [
+        "South Side High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 10172,
+          "season": 2027,
+          "heading": "Team 10172 - Apex Archers (2027)",
+          "registeredLocation": "Fort Wayne, Indiana, USA",
+          "schoolAffiliationHeadline": "South Side High School",
+          "sponsorsAndAffiliations": "The REFINERY/Bionanomics/Don Wood Foundation&South Side High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/10172",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "7a56dcf2faec03d162d1ff2faf4e7211aa8f203b96b4c9ba02e5f42f2dc16ad4"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180363000562"
+      ]
+    },
+    {
+      "schoolName": "Wayne High School",
+      "state": "IN",
+      "aliases": [
+        "Wayne High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2027 FRC registration and named school affiliation; played matches are not required to establish a registered team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 10411,
+          "season": 2027,
+          "heading": "Team 10411 - G-Code Generals (2027)",
+          "registeredLocation": "Fort Wayne, Indiana, USA",
+          "schoolAffiliationHeadline": "Wayne High School",
+          "sponsorsAndAffiliations": "Symmetry 3D&Wayne High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/10411",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "c75850e0d03d3ff3c4923376b7b71502558863550a92f6c43b15c7903f14360c"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180363000568"
+      ]
+    },
+    {
+      "schoolName": "Canterbury High School",
+      "state": "IN",
+      "aliases": [
+        "Canterbury High School",
+        "Canterbury School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2026\u201327 FTC registration names Canterbury High School.",
+      "teamEvidence": [
+        {
+          "program": "FTC",
+          "teamNumber": 22331,
+          "season": 2026,
+          "heading": "Team 22331 - random() (2026)",
+          "registeredLocation": "Fort Wayne, IN, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "Bionanomics/Don Wood Foundation/Gene Haas Foundation/Mae Designs/Bridge of Grace Ministries/BAE Systems&Canterbury High School",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/22331",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "11b227df660aca821cebbf0b6099a991ca731e46d946a437f8cf8628781da263"
+        }
+      ],
+      "additionalSources": []
+    },
+    {
+      "schoolName": "Amp Lab at Electric Works",
+      "state": "IN",
+      "aliases": [
+        "Amp Lab at Electric Works",
+        "Amp Lab"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "New 2026\u201327 FTC registration explicitly names Amp Lab at Electric Works. No official matches yet does not imply no team.",
+      "teamEvidence": [
+        {
+          "program": "FTC",
+          "teamNumber": 36124,
+          "season": 2026,
+          "heading": "Team 36124 - R.Amp Robotics (2026)",
+          "registeredLocation": "Fort Wayne, IN, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "BioNanomics/The REFINERY/Indiana Department of Education&Family/Community&Amp Lab at Electric Works",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/36124",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "bd3096514870c3dada368ccd86023f2d63fe5d15e30f16b0bbd121a5fec0647e"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180363002781"
+      ]
+    },
+    {
+      "schoolName": "CamdenFrontier K12 School",
+      "state": "MI",
+      "aliases": [
+        "CamdenFrontier K12 School",
+        "Camden-Frontier School",
+        "Camden-Frontier K-12 School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Named school affiliation in the latest official FRC season profile.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 5559,
+          "season": 2026,
+          "heading": "Team 5559 - Gear Grinders (2026)",
+          "registeredLocation": "Camden, Michigan, USA",
+          "schoolAffiliationHeadline": "Camden-Frontier School",
+          "sponsorsAndAffiliations": "Wieland Chase&Camden-Frontier School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2026/team/5559",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "582673aedeb4db4d3f35d6309f7abc01c165a5b6b125d871e16813c2f2e3b0ff"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "260771004355"
+      ]
+    },
+    {
+      "schoolName": "Waldron Area Schools",
+      "state": "MI",
+      "aliases": [
+        "Waldron Area Schools",
+        "Waldron School",
+        "Waldron High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Named school affiliation in the latest official FRC season profile.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 6556,
+          "season": 2027,
+          "heading": "Team 6556 - Spartan Robotics 6556 (2027)",
+          "registeredLocation": "Waldron, Michigan, USA",
+          "schoolAffiliationHeadline": "Waldron School",
+          "sponsorsAndAffiliations": "Hillsdale Dental Associates/G & G Glass/First&Waldron School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/6556",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "53654331371a5f8ac1497fdf059cbeea57d7c78660ae7c295e8bf3813503541a"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "263504007069"
+      ]
+    },
+    {
+      "schoolName": "Sturgis High School",
+      "state": "MI",
+      "aliases": [
+        "Sturgis High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Named school affiliation in the latest official FRC season profile.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 11407,
+          "season": 2027,
+          "heading": "Team 11407 - Sturgis Trojans (2027)",
+          "registeredLocation": "Sturgis, Michigan, USA",
+          "schoolAffiliationHeadline": "Sturgis High School",
+          "sponsorsAndAffiliations": "Sturgis High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/11407",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "ceccf3343f9827d292505adf18699b0aacfdf7e9fbd9c74ea11757ea34bd4799"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "263309006864"
+      ]
+    },
+    {
+      "schoolName": "Burr Oak High School",
+      "state": "MI",
+      "aliases": [
+        "Burr Oak High School",
+        "Burr Oak Cmty School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Registered for the 2026 FRC season or 2027 season. Burr Oak 5501 has no recorded 2026 district matches; registration is still positive affiliation evidence.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 5501,
+          "season": 2026,
+          "heading": "Team 5501 - Bobcats (2026)",
+          "registeredLocation": "Burr Oak, Michigan, USA",
+          "schoolAffiliationHeadline": "Burr Oak Cmty School",
+          "sponsorsAndAffiliations": "Burr Oak High School / Abbott / Bayer / Burr Oak Tool & Burr Oak Cmty School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2026/team/5501",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "d1613a7a8aef976d17f6e42e15d49dbf3d464c93014ac36d4f81ec127c6527a1"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "260741004327"
+      ]
+    },
+    {
+      "schoolName": "Van Wert High School",
+      "state": "OH",
+      "aliases": [
+        "Van Wert High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Two current 2026\u201327 FTC registrations; also retained former FRC 8037 history.",
+      "teamEvidence": [
+        {
+          "program": "FTC",
+          "teamNumber": 14174,
+          "season": 2026,
+          "heading": "Team 14174 - Cougar Robotics (2026)",
+          "registeredLocation": "Van Wert, OH, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "Van Wert High School",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/14174",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "52a9469f0d0cd7699fed2846784fe9f5282ecd327789cc204a66f035549cb12c"
+        },
+        {
+          "program": "FTC",
+          "teamNumber": 5501,
+          "season": 2026,
+          "heading": "Team 5501 - VW Robotics (2026)",
+          "registeredLocation": "Van Wert, OH, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "Van Wert High School",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/5501",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "f6057a8d9e9e4d607f91ef87a8198b0b15a99077b00f594ccd5bdcdc0ac320a1"
+        },
+        {
+          "program": "FRC",
+          "teamNumber": 8037,
+          "season": 2023,
+          "heading": "Team 8037 - VW Cougar Robotics (2023)",
+          "registeredLocation": "Van Wert, Ohio, USA",
+          "schoolAffiliationHeadline": "Van Wert High School",
+          "sponsorsAndAffiliations": "GeneHaas/Alliance Automation/Central Insurance Companies/Van Wert County Foundation/1st Federal of Van Wert/Vancrest Health Care Centers/Van Wert Federal/Wal-Mart/Tenneco/Ohio Northern University (ONU)/Citizens National Bank/Statewide Ford/Vantage Career Center&Van Wert High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2023/team/8037",
+          "retrievedAt": "2026-10-22T08:32:26.709801+00:00",
+          "sourceSha256": "b681c7745692d7a027b8ba7ca761449da9b1d17d9febfc52c84511c4b1b77ce0"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "391002301888"
+      ]
+    },
+    {
+      "schoolName": "Coldwater High School",
+      "state": "OH",
+      "aliases": [
+        "Coldwater High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Current 2026\u201327 FTC registration names Coldwater High School in Ohio; distinguish Coldwater, Michigan middle-school teams.",
+      "teamEvidence": [
+        {
+          "program": "FTC",
+          "teamNumber": 12802,
+          "season": 2026,
+          "heading": "Team 12802 - We Will Bot You (2026)",
+          "registeredLocation": "Coldwater, OH, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "Coldwater High School",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/12802",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "1508fc0da7648171da2349f913ff402219407103e3381389a8e7a97747d4f026"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "390453102171"
+      ]
+    },
+    {
+      "schoolName": "Celina High School",
+      "state": "OH",
+      "aliases": [
+        "Celina High School"
+      ],
+      "classification": "exclude-active/recent",
+      "note": "Recent 2025\u201326 FTC school-affiliated team. Not currently found in 2026\u201327 roster, so do not present as a school with no team.",
+      "teamEvidence": [
+        {
+          "program": "FTC",
+          "teamNumber": 30782,
+          "season": 2025,
+          "heading": "Team 30782 - ROBO DOGS  (2025)",
+          "registeredLocation": "Celina, OH, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "Celina High School",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/30782",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "e7cf008272bc2a2f4cb086217936bf46e21eaa1371b394d504ae6ea9a64c70cc"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "391003000263"
+      ]
+    },
+    {
+      "schoolName": "Bronson JrSr High School",
+      "state": "MI",
+      "aliases": [
+        "Bronson JrSr High School",
+        "Bronson Jr Sr High School",
+        "Bronson Junior/Senior High School"
+      ],
+      "classification": "former-review",
+      "note": "Latest located official FTC affiliation is 2024\u201325. Not in the 2025 or 2026 regional roster. Recheck for relaunch or current affiliation; absence of a current roster row is not proof of closure.",
+      "teamEvidence": [
+        {
+          "program": "FTC",
+          "teamNumber": 20101,
+          "season": 2024,
+          "heading": "Team 20101 - Triple B (2024)",
+          "registeredLocation": "Bronson, MI, USA",
+          "schoolAffiliationHeadline": "",
+          "sponsorsAndAffiliations": "Bronson Jr Sr High School",
+          "sourceUrl": "https://ftc-events.firstinspires.org/2024/team/20101",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "df2a5336f86e3ee49b065ae408dd571b476fb899c20aa4f053f55cf4bce68424"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "260696004294"
+      ]
+    },
+    {
+      "schoolName": "Rochester Community High School",
+      "state": "IN",
+      "aliases": [
+        "Rochester Community High School",
+        "Rochester Cmty High School"
+      ],
+      "classification": "former-review",
+      "note": "Latest located official FRC season is 2024, with named Rochester school affiliation. No 2025\u201327 registration in screened rosters; invite a restart conversation with history shown.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 2909,
+          "season": 2024,
+          "heading": "Team 2909 - Zebra Bots (2024)",
+          "registeredLocation": "Rochester, Indiana, USA",
+          "schoolAffiliationHeadline": "Rochester Cmty High School",
+          "sponsorsAndAffiliations": "Craigs Welding/Rochester Robotics&Rochester Cmty High School",
+          "sourceUrl": "https://frc-events.firstinspires.org/2024/team/2909",
+          "retrievedAt": "2026-10-22T08:32:26.709801+00:00",
+          "sourceSha256": "354247d942c20935005bd72e75c62cea99218d2c87f93616aca9f10e327c8bea"
+        }
+      ],
+      "additionalSources": [],
+      "ncesIds": [
+        "180963001576"
+      ]
+    },
+    {
+      "schoolName": "Ayersville High School",
+      "state": "OH",
+      "aliases": [
+        "Ayersville High School"
+      ],
+      "classification": "community-participation-review",
+      "note": "NSCC March 24, 2025 release explicitly lists students from this school on community FRC 6181. This establishes recent student participation, not a separately school-run team. Current affiliation needs confirmation.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 6181,
+          "season": 2025,
+          "heading": "Team 6181 - Cryptic Cyborgs (2025)",
+          "registeredLocation": "Archbold, Ohio, USA",
+          "schoolAffiliationHeadline": "Family/Community",
+          "sponsorsAndAffiliations": "Northwest State Community College/Allied Moulded Products /HAAS Automation/Spangler Candy /Wieland Chase/North Star BlueScope Steel/Worthington Industries/Steel Dynamics/Advanced Manufacturing Consortium  & Family/Community",
+          "sourceUrl": "https://frc-events.firstinspires.org/2025/team/6181",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "6297e532ad1d64fea5812cb0bca140f246d717b412df58eccddd39a1a874e248"
+        }
+      ],
+      "additionalSources": [
+        {
+          "sourceUrl": "https://northweststate.edu/wp-content/uploads/2025/04/NSCC-Led-Team-to-Compete-in-State-First-Robotics-Comp.pdf",
+          "evidenceDate": "2025-03-24",
+          "publisher": "Northwest State Community College",
+          "evidence": "College release names Ayersville, Central Local (Fairview), Delta, Liberty Center, Napoleon, Wauseon and Four County Career Center as schools of team members.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        }
+      ],
+      "ncesIds": [
+        "390467002626"
+      ]
+    },
+    {
+      "schoolName": "Fairview High School",
+      "state": "OH",
+      "aliases": [
+        "Fairview High School"
+      ],
+      "classification": "community-participation-review",
+      "note": "NSCC March 24, 2025 release explicitly lists students from this school on community FRC 6181. This establishes recent student participation, not a separately school-run team. Current affiliation needs confirmation.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 6181,
+          "season": 2025,
+          "heading": "Team 6181 - Cryptic Cyborgs (2025)",
+          "registeredLocation": "Archbold, Ohio, USA",
+          "schoolAffiliationHeadline": "Family/Community",
+          "sponsorsAndAffiliations": "Northwest State Community College/Allied Moulded Products /HAAS Automation/Spangler Candy /Wieland Chase/North Star BlueScope Steel/Worthington Industries/Steel Dynamics/Advanced Manufacturing Consortium  & Family/Community",
+          "sourceUrl": "https://frc-events.firstinspires.org/2025/team/6181",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "6297e532ad1d64fea5812cb0bca140f246d717b412df58eccddd39a1a874e248"
+        }
+      ],
+      "additionalSources": [
+        {
+          "sourceUrl": "https://northweststate.edu/wp-content/uploads/2025/04/NSCC-Led-Team-to-Compete-in-State-First-Robotics-Comp.pdf",
+          "evidenceDate": "2025-03-24",
+          "publisher": "Northwest State Community College",
+          "evidence": "College release names Ayersville, Central Local (Fairview), Delta, Liberty Center, Napoleon, Wauseon and Four County Career Center as schools of team members.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        }
+      ],
+      "ncesIds": [
+        "390467102628"
+      ]
+    },
+    {
+      "schoolName": "Napoleon Junior/Senior High School",
+      "state": "OH",
+      "aliases": [
+        "Napoleon Junior/Senior High School",
+        "Napoleon High School"
+      ],
+      "classification": "community-participation-review",
+      "note": "NSCC March 24, 2025 release explicitly lists students from this school on community FRC 6181. This establishes recent student participation, not a separately school-run team. Current affiliation needs confirmation.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 6181,
+          "season": 2025,
+          "heading": "Team 6181 - Cryptic Cyborgs (2025)",
+          "registeredLocation": "Archbold, Ohio, USA",
+          "schoolAffiliationHeadline": "Family/Community",
+          "sponsorsAndAffiliations": "Northwest State Community College/Allied Moulded Products /HAAS Automation/Spangler Candy /Wieland Chase/North Star BlueScope Steel/Worthington Industries/Steel Dynamics/Advanced Manufacturing Consortium  & Family/Community",
+          "sourceUrl": "https://frc-events.firstinspires.org/2025/team/6181",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "6297e532ad1d64fea5812cb0bca140f246d717b412df58eccddd39a1a874e248"
+        }
+      ],
+      "additionalSources": [
+        {
+          "sourceUrl": "https://northweststate.edu/wp-content/uploads/2025/04/NSCC-Led-Team-to-Compete-in-State-First-Robotics-Comp.pdf",
+          "evidenceDate": "2025-03-24",
+          "publisher": "Northwest State Community College",
+          "evidence": "College release names Ayersville, Central Local (Fairview), Delta, Liberty Center, Napoleon, Wauseon and Four County Career Center as schools of team members.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        }
+      ],
+      "ncesIds": [
+        "390444301364"
+      ]
+    },
+    {
+      "schoolName": "Four County Career Center",
+      "state": "OH",
+      "aliases": [
+        "Four County Career Center"
+      ],
+      "classification": "community-participation-review",
+      "note": "NSCC March 24, 2025 release explicitly lists students from this school on community FRC 6181. This establishes recent student participation, not a separately school-run team. Current affiliation needs confirmation.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 6181,
+          "season": 2025,
+          "heading": "Team 6181 - Cryptic Cyborgs (2025)",
+          "registeredLocation": "Archbold, Ohio, USA",
+          "schoolAffiliationHeadline": "Family/Community",
+          "sponsorsAndAffiliations": "Northwest State Community College/Allied Moulded Products /HAAS Automation/Spangler Candy /Wieland Chase/North Star BlueScope Steel/Worthington Industries/Steel Dynamics/Advanced Manufacturing Consortium  & Family/Community",
+          "sourceUrl": "https://frc-events.firstinspires.org/2025/team/6181",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "6297e532ad1d64fea5812cb0bca140f246d717b412df58eccddd39a1a874e248"
+        }
+      ],
+      "additionalSources": [
+        {
+          "sourceUrl": "https://northweststate.edu/wp-content/uploads/2025/04/NSCC-Led-Team-to-Compete-in-State-First-Robotics-Comp.pdf",
+          "evidenceDate": "2025-03-24",
+          "publisher": "Northwest State Community College",
+          "evidence": "College release names Ayersville, Central Local (Fairview), Delta, Liberty Center, Napoleon, Wauseon and Four County Career Center as schools of team members.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        }
+      ],
+      "ncesIds": [
+        "390509604060"
+      ]
+    },
+    {
+      "schoolName": "Lima Senior High School",
+      "state": "OH",
+      "aliases": [
+        "Lima Senior High School"
+      ],
+      "classification": "community-participation-review",
+      "note": "Local TV reporting March 17, 2026 identifies a Lima Senior student on the Lima Family YMCA community team. Hold for affiliation confirmation; this is not a separately school-operated team.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 3777,
+          "season": 2027,
+          "heading": "Team 3777 - Bean City Bots (2027)",
+          "registeredLocation": "Lima, Ohio, USA",
+          "schoolAffiliationHeadline": "Lima Family YMCA",
+          "sponsorsAndAffiliations": "United Way of Greater Lima/PPG&Lima Family YMCA",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/3777",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "d6163ccc79a7b3631f5a575b41ffb37505728720cd69b4519a8a7864f1e99470"
+        }
+      ],
+      "additionalSources": [
+        {
+          "sourceUrl": "https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html",
+          "evidenceDate": "2026-03-17",
+          "publisher": "WLIO/Hometown Stations",
+          "evidence": "Report names a Lima Senior senior as a Bean City Bots participant. Secondary reporting; not official district affiliation.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        }
+      ],
+      "ncesIds": [
+        "390442205325"
+      ]
+    },
+    {
+      "schoolName": "Delta High School",
+      "state": "IN",
+      "aliases": [
+        "Delta High School"
+      ],
+      "classification": "community-participation-review",
+      "note": "A 2018 report written by the team media group explicitly names Delta High School members. Evidence is historical; current participation is unverified. Keep out of a clean no-team-found assertion unless the historical connection is disclosed.",
+      "teamEvidence": [
+        {
+          "program": "FRC",
+          "teamNumber": 1720,
+          "season": 2027,
+          "heading": "Team 1720 - PhyXTGears (2027)",
+          "registeredLocation": "Matthews, Indiana, USA",
+          "schoolAffiliationHeadline": "Family/Community",
+          "sponsorsAndAffiliations": "East Central Indiana Robotics/Avis Foundation/Boren Foundation/Don Wood Foundation/Community Foundation of Grant County/Caterpillar/Progress Rail/NearSpace Launch&Family/Community",
+          "sourceUrl": "https://frc-events.firstinspires.org/2027/team/1720",
+          "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+          "sourceSha256": "0c7bead80d9dcfe3a77eb69d0aaebd3177df8cdd9edb9ab6c287675fb64fe72d"
+        }
+      ],
+      "additionalSources": [
+        {
+          "sourceUrl": "https://www.munciejournal.com/2018/04/phyxtgears-headed-to-world-championship/",
+          "evidenceDate": "2018-04-23",
+          "publisher": "Muncie Journal; by PhyXTGears Media Team",
+          "evidence": "Team-authored article identifies two Delta High School students as PhyXTGears members.",
+          "retrievedAt": "2026-10-22T08:34:03.040315+00:00"
+        }
+      ],
+      "ncesIds": [
+        "180266000320"
+      ]
+    }
+  ],
+  "candidateScreen": [
+    {
+      "ncesId": "180006000007",
+      "schoolName": "Adams Central High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363002781",
+      "schoolName": "Amp Lab at Electric Works",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Amp Lab at Electric Works"
+    },
+    {
+      "ncesId": "181110001797",
+      "schoolName": "Angola High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363000528",
+      "schoolName": "Anthis Career Center",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180018000048",
+      "schoolName": "Argos Comm Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A9701438",
+      "schoolName": "BASHOR ALTERNATIVE SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "00424857",
+      "schoolName": "BETHANY CHRISTIAN SCHOOLS",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A9302937",
+      "schoolName": "BETHANY FELLOWSHIP SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "00422689",
+      "schoolName": "BISHOP DWENGER HIGH SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "00422703",
+      "schoolName": "BISHOP LUERS HIGH SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A0792095",
+      "schoolName": "BLACKHAWK CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1901884",
+      "schoolName": "BOURBON CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180624002847",
+      "schoolName": "Beacon Online Academy of Indiana at Madison-Grant",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180768001314",
+      "schoolName": "Bellmont Senior High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180057000102",
+      "schoolName": "Blackford Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180072000146",
+      "schoolName": "Bluffton High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180090000168",
+      "schoolName": "Bremen Senior High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1901893",
+      "schoolName": "CHRISTIAN LIFE ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "00424835",
+      "schoolName": "CLINTON CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "02159782",
+      "schoolName": "CONCORDIA LUTHERAN HIGH SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A9302953",
+      "schoolName": "CORNERSTONE CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1701689",
+      "schoolName": "CROSSROAD ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "02026162",
+      "schoolName": "CUBA MENNONITE SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180825001414",
+      "schoolName": "Carroll High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Carroll High School"
+    },
+    {
+      "ncesId": "180171000230",
+      "schoolName": "Central Noble Junior Senior HS",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180393002784",
+      "schoolName": "Chandler Innovation Academy",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181023001638",
+      "schoolName": "Churubusco Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180228000267",
+      "schoolName": "Columbia City High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180240000269",
+      "schoolName": "Concord Community High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A2400075",
+      "schoolName": "DARUL ULOOM AL ANSAAR",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180159000220",
+      "schoolName": "DeKalb High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180266000320",
+      "schoolName": "Delta High School",
+      "state": "IN",
+      "classification": "community-participation-review",
+      "positiveSchoolName": "Delta High School"
+    },
+    {
+      "ncesId": "A9302967",
+      "schoolName": "EMMANUEL CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180228002801",
+      "schoolName": "Eagleview Online",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180285002532",
+      "schoolName": "East Allen University",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180297000389",
+      "schoolName": "East Noble High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "East Noble High School"
+    },
+    {
+      "ncesId": "180303000399",
+      "schoolName": "Eastbrook High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180306000405",
+      "schoolName": "Eastside Junior-Senior High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180023202737",
+      "schoolName": "Excel Center - Elkhart",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181324102802",
+      "schoolName": "Excel Center - Grant County",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A2192726",
+      "schoolName": "FAITH CHRISTIAN ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180348000491",
+      "schoolName": "Fairfield Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363002712",
+      "schoolName": "Fort Wayne Virtual Academy",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180378000601",
+      "schoolName": "Fremont High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A0301470",
+      "schoolName": "GATEWAY WOODS SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180384000605",
+      "schoolName": "Garrett High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180393000654",
+      "schoolName": "Goshen High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180639002150",
+      "schoolName": "Grant Regional Career Center",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "01902085",
+      "schoolName": "HARLAN CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180423000724",
+      "schoolName": "Hamilton Community High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181193001880",
+      "schoolName": "Heartland Career Center",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180285000344",
+      "schoolName": "Heritage Jr/Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180003000002",
+      "schoolName": "Homestead High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Homestead High School"
+    },
+    {
+      "ncesId": "180471000786",
+      "schoolName": "Huntington North High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Huntington North High School"
+    },
+    {
+      "ncesId": "A2101740",
+      "schoolName": "INTERNATIONAL LEADERSHIP SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180306000842",
+      "schoolName": "Impact Institutue",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1701721",
+      "schoolName": "JAY COUNTY CHRISTIAN ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180498000914",
+      "schoolName": "Jay County Jr/Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180042000090",
+      "schoolName": "Jimtown High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A9701532",
+      "schoolName": "KING'S ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1901938",
+      "schoolName": "KINWELL ACADEMY INC",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "00424813",
+      "schoolName": "LAKELAND CHRISTIAN ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180552000996",
+      "schoolName": "Lakeland Jr/Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180285000349",
+      "schoolName": "Leo Junior/Senior High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A9102717",
+      "schoolName": "MORNING STAR SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180609001078",
+      "schoolName": "Maconaquah High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180624001097",
+      "schoolName": "Madison-Grant Jr./Sr. High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Madison-Grant Jr./Sr. High School"
+    },
+    {
+      "ncesId": "180627001103",
+      "schoolName": "Manchester Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180639001117",
+      "schoolName": "Marion High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180687001189",
+      "schoolName": "Mississinewa High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180285000353",
+      "schoolName": "New Haven Jr/Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180789001351",
+      "schoolName": "North Miami Middle/High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363000550",
+      "schoolName": "North Side High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "North Side High School"
+    },
+    {
+      "ncesId": "181224001956",
+      "schoolName": "North Wood High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181218001945",
+      "schoolName": "Northfield Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180660001165",
+      "schoolName": "Northridge High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363000552",
+      "schoolName": "Northrop High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Northrop High School"
+    },
+    {
+      "ncesId": "180822001410",
+      "schoolName": "Norwell High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A0103278",
+      "schoolName": "OAK FARM SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180834001429",
+      "schoolName": "Oak Hill High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1901971",
+      "schoolName": "PADDOCK VIEW RESIDENTIAL CENTER",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A2101755",
+      "schoolName": "PIERCETON WOODS ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180885001476",
+      "schoolName": "Peru Jr/Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180930001526",
+      "schoolName": "Prairie Heights Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363000556",
+      "schoolName": "R Nelson Snider High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "R Nelson Snider High School"
+    },
+    {
+      "ncesId": "A1901986",
+      "schoolName": "REDEEMER CLASSICAL SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A2101767",
+      "schoolName": "ROANOKE BAPTIST SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180963001576",
+      "schoolName": "Rochester Community High School",
+      "state": "IN",
+      "classification": "former-review",
+      "positiveSchoolName": "Rochester Community High School"
+    },
+    {
+      "ncesId": "180013102539",
+      "schoolName": "Smith Academy for Excellence",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181026001642",
+      "schoolName": "South Adams High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363000562",
+      "schoolName": "South Side High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "South Side High School"
+    },
+    {
+      "ncesId": "181077001765",
+      "schoolName": "Southern Wells Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181218001948",
+      "schoolName": "Southwood Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1701776",
+      "schoolName": "T.R.O.Y. CENTER",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A2301208",
+      "schoolName": "THREE OAKS CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181137001839",
+      "schoolName": "Tippecanoe Valley High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181149001856",
+      "schoolName": "Triton Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "00425839",
+      "schoolName": "UNITED CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180624002719",
+      "schoolName": "Virtual Preparatory Academy of Indiana at Madison-Grant 9-12",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1701782",
+      "schoolName": "WESLEYAN HERITAGE ACADEMY",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A9102792",
+      "schoolName": "WOODLAWN CHRISTIAN SCHOOL",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181215001940",
+      "schoolName": "Wabash High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181242001999",
+      "schoolName": "Warsaw Community High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180555001007",
+      "schoolName": "Wawasee High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180363000568",
+      "schoolName": "Wayne High School",
+      "state": "IN",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Wayne High School"
+    },
+    {
+      "ncesId": "180450000761",
+      "schoolName": "Wes-Del Middle/Senior High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181290002058",
+      "schoolName": "West Noble High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181311002079",
+      "schoolName": "Westview Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181218001951",
+      "schoolName": "White's Jr-Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181323002697",
+      "schoolName": "Whitko Career Academy",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "181323002089",
+      "schoolName": "Whitko Jr/Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180285000361",
+      "schoolName": "Woodlan Jr/Sr High School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "180003002710",
+      "schoolName": "eSACS Virtual School",
+      "state": "IN",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "260696004294",
+      "schoolName": "Bronson JrSr High School",
+      "state": "MI",
+      "classification": "former-review",
+      "positiveSchoolName": "Bronson JrSr High School"
+    },
+    {
+      "ncesId": "260741004327",
+      "schoolName": "Burr Oak High School",
+      "state": "MI",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Burr Oak High School"
+    },
+    {
+      "ncesId": "260741008787",
+      "schoolName": "Burr Oak Virtual Academy",
+      "state": "MI",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "260771004355",
+      "schoolName": "CamdenFrontier K12 School",
+      "state": "MI",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "CamdenFrontier K12 School"
+    },
+    {
+      "ncesId": "261075007891",
+      "schoolName": "Constantine Alternative Education",
+      "state": "MI",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "261075004540",
+      "schoolName": "Constantine High School",
+      "state": "MI",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A9303515",
+      "schoolName": "LAKE AREA CHRISTIAN SCHOOL",
+      "state": "MI",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "268096000990",
+      "schoolName": "Pathfinder Educational Center",
+      "state": "MI",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "262940006520",
+      "schoolName": "Reading High School",
+      "state": "MI",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "263309006864",
+      "schoolName": "Sturgis High School",
+      "state": "MI",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Sturgis High School"
+    },
+    {
+      "ncesId": "263504007069",
+      "schoolName": "Waldron Area Schools",
+      "state": "MI",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Waldron Area Schools"
+    },
+    {
+      "ncesId": "263612007210",
+      "schoolName": "White Pigeon JrSr High School",
+      "state": "MI",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390489903468",
+      "schoolName": "Antwerp Local High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390507704051",
+      "schoolName": "Apollo Career Center",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390470402757",
+      "schoolName": "Archbold High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390467002626",
+      "schoolName": "Ayersville High School",
+      "state": "OH",
+      "classification": "community-participation-review",
+      "positiveSchoolName": "Ayersville High School"
+    },
+    {
+      "ncesId": "A1502799",
+      "schoolName": "BIBLE BELIEVERS CHRISTIAN SCHOOL",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390436700212",
+      "schoolName": "Bryan Middle School/High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "391003000263",
+      "schoolName": "Celina High School",
+      "state": "OH",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Celina High School"
+    },
+    {
+      "ncesId": "390453102171",
+      "schoolName": "Coldwater High School",
+      "state": "OH",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Coldwater High School"
+    },
+    {
+      "ncesId": "390493103559",
+      "schoolName": "Columbus Grove High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390493203562",
+      "schoolName": "Continental Local High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390503503919",
+      "schoolName": "Crestview High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "01060794",
+      "schoolName": "DELPHOS ST. JOHNS",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390438600841",
+      "schoolName": "Defiance High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390506104007",
+      "schoolName": "Edgerton High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390506204009",
+      "schoolName": "Edon High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390457702339",
+      "schoolName": "Elida High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390467102628",
+      "schoolName": "Fairview High School",
+      "state": "OH",
+      "classification": "community-participation-review",
+      "positiveSchoolName": "Fairview High School"
+    },
+    {
+      "ncesId": "390470602767",
+      "schoolName": "Fayette Jr/Sr High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390493303564",
+      "schoolName": "Fort Jennings High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390485903309",
+      "schoolName": "Fort Recovery High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390509604060",
+      "schoolName": "Four County Career Center",
+      "state": "OH",
+      "classification": "community-participation-review",
+      "positiveSchoolName": "Four County Career Center"
+    },
+    {
+      "ncesId": "A1702905",
+      "schoolName": "HIGH ROAD SCHOOL OF LIMA",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1903506",
+      "schoolName": "HIGH ROAD SCHOOL OF LIMA",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A2302063",
+      "schoolName": "HIGH ROAD SCHOOL OF LIMA",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390454102207",
+      "schoolName": "Hicksville High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390506304012",
+      "schoolName": "Hilltop High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390475702919",
+      "schoolName": "Holgate High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390438800852",
+      "schoolName": "Jefferson High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390493403566",
+      "schoolName": "Kalida High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "01060965",
+      "schoolName": "LIMA CENTRAL CATHOLIC HIGH SCHOOL",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390493503568",
+      "schoolName": "Leipsic High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390442205325",
+      "schoolName": "Lima Senior High School",
+      "state": "OH",
+      "classification": "community-participation-review",
+      "positiveSchoolName": "Lima Senior High School"
+    },
+    {
+      "ncesId": "391002203922",
+      "schoolName": "Lincolnview Jr/Sr High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "391003103298",
+      "schoolName": "Marion Local High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390493603570",
+      "schoolName": "Miller City High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390455202262",
+      "schoolName": "Montpelier High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390444301364",
+      "schoolName": "Napoleon Junior/Senior High School",
+      "state": "OH",
+      "classification": "community-participation-review",
+      "positiveSchoolName": "Napoleon Junior/Senior High School"
+    },
+    {
+      "ncesId": "390459602392",
+      "schoolName": "New Knoxville High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390506404016",
+      "schoolName": "North Central Junior/High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390493703574",
+      "schoolName": "Ottawa-Glandorf High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390493803576",
+      "schoolName": "Ottoville High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "A1502950",
+      "schoolName": "PILGRIM CHRISTIAN SCHOOL",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390485703303",
+      "schoolName": "Parkway High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390455702284",
+      "schoolName": "Paulding High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390470702769",
+      "schoolName": "Pettisville High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390457902345",
+      "schoolName": "Shawnee High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390458002349",
+      "schoolName": "Spencerville High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390485803305",
+      "schoolName": "St Henry High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390447201585",
+      "schoolName": "St Marys Memorial High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390506504019",
+      "schoolName": "Stryker High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "01614916",
+      "schoolName": "TEMPLE CHRISTIAN SCHOOL",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "01064788",
+      "schoolName": "THE LIMA CHRISTIAN ACADEMY",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390467202636",
+      "schoolName": "Tinora High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "391003006006",
+      "schoolName": "Tri Star Career Compact",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "391002301888",
+      "schoolName": "Van Wert High School",
+      "state": "OH",
+      "classification": "exclude-active/recent",
+      "positiveSchoolName": "Van Wert High School"
+    },
+    {
+      "ncesId": "390516704093",
+      "schoolName": "Vantage Career Center",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390490303471",
+      "schoolName": "Wayne Trace High School",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    },
+    {
+      "ncesId": "390027604816",
+      "schoolName": "West Central Learning Academy II",
+      "state": "OH",
+      "classification": "no-school-affiliation-verified-in-roster-screen",
+      "positiveSchoolName": null
+    }
+  ],
+  "boundaryAndOtherProgramsNotes": [
+    "New Bremen FTC12166/32403 names New Bremen High School, but the school reference is beyond 60 miles in the earlier geography audit; do not silently include by town point.",
+    "Michigan FTC32341 is Legg Middle School, 13028 is St Charles Borromeo School, 22601 is Jonesville Middle School; do not transfer these to an unrelated high school.",
+    "FRC5402 Logansport/Lewis Cass school affiliation is outside the 60-mile school universe; current 2027 listing uses a nonstandard city string.",
+    "Community FTC32552 NSCC Cryptic Cyborgs only names Family/Community, and its number/name do not establish it inherits FRC6181 former student-school list.",
+    "Sponsorship by Vantage Career Center of FRC8037 does not establish school team affiliation."
+  ]
+}

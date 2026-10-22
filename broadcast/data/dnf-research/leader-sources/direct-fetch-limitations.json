@@ -1,0 +1,60 @@
+{
+  "asOf": "2026-10-22",
+  "records": [
+    {
+      "districtName": "Crestview Local",
+      "url": "https://www.crestviewknights.com/district/superintendents_message",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "Coldwater Exempted Village",
+      "url": "https://www.coldwatercavs.org/superintendent-message",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "Parkway Local",
+      "url": "https://www.parkwayschools.org/contact_us/principals_and_admin_contacts",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "Baugo Community Schools",
+      "url": "https://www.baugo.org/about/superintendents_welcome",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "North Adams Community Schools",
+      "url": "https://area18.org/about/",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "South Adams Schools",
+      "url": "https://www.southadams.k12.in.us/district/homepage",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "Jay School Corporation",
+      "url": "https://area18.org/about/",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "Norwell Community Schools",
+      "url": "https://area18.org/about/",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "Southern Wells Com Schools",
+      "url": "https://www.swraiders.com/staff",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "Middlebury Community Schools",
+      "url": "https://www.mcsin-k12.org/documents",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    },
+    {
+      "districtName": "St Henry Consolidated Local",
+      "url": "https://reportcard.education.ohio.gov/district/048587",
+      "reason": "Direct HTTP returned a short/error body; normalized web source evidence is preserved separately."
+    }
+  ]
+}

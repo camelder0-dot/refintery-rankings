@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0",
+  "researchDate": "2026-10-22",
+  "records": [
+    {
+      "schoolId": "A1502799",
+      "name": "Rapp Crook",
+      "role": "Principal",
+      "sourceUrl": "https://bbcschool.org/about/",
+      "evidence": "The current official Our Team page identifies Rapp Crook as Principal. School page states its initial state charter was received in 2025.",
+      "schoolYear": null,
+      "verifiedCurrent": true,
+      "website": "https://bbcschool.org/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": []
+    },
+    {
+      "schoolId": "01060794",
+      "name": "Nathan Stant",
+      "role": "Head of School",
+      "sourceUrl": "https://delphosstjohns.org/faculty",
+      "evidence": "Current official faculty page identifies Nathan Stant as Head of School. The Junior High/High School page separately names Adam Lee as principal.",
+      "schoolYear": null,
+      "verifiedCurrent": true,
+      "website": "https://delphosstjohns.org/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": [
+        {
+          "name": "Adam Lee",
+          "role": "Junior High/High School Principal",
+          "sourceUrl": "https://delphosstjohns.org/high-school",
+          "evidence": "Current official secondary-school principal introduction."
+        },
+        {
+          "name": "Kyle Kubik",
+          "role": "Senior Director of Catholic Education, Diocese of Toledo",
+          "sourceUrl": "https://toledodiocese.org/catholic-schools-office-staff",
+          "evidence": "Current diocesan department staff list; exact published title is Senior Director of Catholic Education."
+        }
+      ]
+    },
+    {
+      "schoolId": "A1702905",
+      "name": "Karis Thines",
+      "role": "School Director",
+      "sourceUrl": "https://sesischools.com/location/high-road-school-of-lima/",
+      "evidence": "The operator school page names Karis Thines as School Director and links a 2026\u20132027 school calendar. The three NCES IDs share the High Road Lima campus; one published leader applies to that campus.",
+      "schoolYear": "2026\u201327 calendar on current page",
+      "verifiedCurrent": true,
+      "website": "https://sesischools.com/location/high-road-school-of-lima/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": []
+    },
+    {
+      "schoolId": "A1903506",
+      "name": "Karis Thines",
+      "role": "School Director",
+      "sourceUrl": "https://sesischools.com/location/high-road-school-of-lima/",
+      "evidence": "The operator school page names Karis Thines as School Director and links a 2026\u20132027 school calendar. The three NCES IDs share the High Road Lima campus; one published leader applies to that campus.",
+      "schoolYear": "2026\u201327 calendar on current page",
+      "verifiedCurrent": true,
+      "website": "https://sesischools.com/location/high-road-school-of-lima/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": []
+    },
+    {
+      "schoolId": "A2302063",
+      "name": "Karis Thines",
+      "role": "School Director",
+      "sourceUrl": "https://sesischools.com/location/high-road-school-of-lima/",
+      "evidence": "The operator school page names Karis Thines as School Director and links a 2026\u20132027 school calendar. The three NCES IDs share the High Road Lima campus; one published leader applies to that campus.",
+      "schoolYear": "2026\u201327 calendar on current page",
+      "verifiedCurrent": true,
+      "website": "https://sesischools.com/location/high-road-school-of-lima/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": []
+    },
+    {
+      "schoolId": "01060965",
+      "name": "Stephanie Williams",
+      "role": "Head of School",
+      "sourceUrl": "https://www.lcchs.edu/o/district/staff?page_no=1",
+      "evidence": "Current official staff directory lists Stephanie Williams as Head of School and Katie Krieg as Principal. A February 13, 2026 principal newsletter confirms Krieg in that role.",
+      "schoolYear": null,
+      "verifiedCurrent": true,
+      "website": "https://www.lcchs.edu/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": [
+        {
+          "name": "Katie Krieg",
+          "role": "Principal",
+          "sourceUrl": "https://www.lcchs.edu/o/district/staff?page_no=1",
+          "evidence": "Current official staff directory; dated 2026 newsletter separately confirms role."
+        },
+        {
+          "name": "Kyle Kubik",
+          "role": "Senior Director of Catholic Education, Diocese of Toledo",
+          "sourceUrl": "https://toledodiocese.org/catholic-schools-office-staff",
+          "evidence": "Current diocesan department staff list; exact published title retained."
+        }
+      ]
+    },
+    {
+      "schoolId": "A1502950",
+      "name": "Stephanie Burley",
+      "role": "Principal",
+      "sourceUrl": "https://www.pilgrimchristianschoollima.com/team-1",
+      "evidence": "Current official staff page identifies Stephanie Burley as Principal and Upper Learning Center Supervisor. Founder Donald Nichols is separately Pastor/Administrator.",
+      "schoolYear": null,
+      "verifiedCurrent": true,
+      "website": "https://www.pilgrimchristianschoollima.com/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": [
+        {
+          "name": "Donald Nichols",
+          "role": "Founder and Pastor/Administrator",
+          "sourceUrl": "https://www.pilgrimchristianschoollima.com/team-1",
+          "evidence": "Current official staff page identifies this role separately from principal."
+        }
+      ]
+    },
+    {
+      "schoolId": "01614916",
+      "name": "Bruce Bowman",
+      "role": "Superintendent",
+      "sourceUrl": "https://www.tcspioneers.org/about/staff-directory/",
+      "evidence": "Current official Lima school staff directory names Bruce Bowman as Superintendent. This is the Lima Pioneers school; unrelated Temple schools were excluded.",
+      "schoolYear": null,
+      "verifiedCurrent": true,
+      "website": "https://www.tcspioneers.org/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": []
+    },
+    {
+      "schoolId": "01064788",
+      "name": "Keith Hamblen",
+      "role": "School Superintendent",
+      "sourceUrl": "https://cbclima.org/lima-christian-academy/",
+      "evidence": "Current sponsoring church school page identifies Pastor Keith Hamblen as School Superintendent. The site links a 2026\u201327 school calendar.",
+      "schoolYear": "2026\u201327 calendar linked from current site",
+      "verifiedCurrent": true,
+      "website": "https://cbclima.org/lima-christian-academy/",
+      "state": "OH",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_official_website_undated",
+      "additionalLeaders": []
+    },
+    {
+      "schoolId": "A9303515",
+      "name": null,
+      "role": "Head of school not verified",
+      "sourceUrl": "https://www.lakeareachristianschool.org/staff-1",
+      "evidence": "Official staff page lists teachers, Business Manager Jaime Hypes and board members, with no named principal or head of school. Site retains a 2023\u201324 calendar and Sturgis address, so it does not establish a current 2026\u201327 leader. Secondary directory Ruby Miller was not accepted without official corroboration.",
+      "schoolYear": null,
+      "verifiedCurrent": false,
+      "website": "https://www.lakeareachristianschool.org/",
+      "state": "MI",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "evidenceStatus": "current_head_not_verified",
+      "additionalLeaders": []
+    }
+  ],
+  "sources": [
+    {
+      "sourceUrl": "https://bbcschool.org/about/",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://bbcschool.org/about/",
+      "sha256": "bc9c020e47c951b213c53c16a86300fbd57fdb1ccc41254320b188f53cb14e61",
+      "bytes": 174510
+    },
+    {
+      "sourceUrl": "https://cbclima.org/lima-christian-academy/",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://cbclima.org/lima-christian-academy/",
+      "sha256": "ce81b4e17476683e8e67d7ac240b42e162de12f42e6ed88b9d28b34d59bdd2e4",
+      "bytes": 60732
+    },
+    {
+      "sourceUrl": "https://delphosstjohns.org/faculty",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 403,
+      "resolvedUrl": "https://delphosstjohns.org/faculty",
+      "sha256": "cda4a2836c1e53d1971c8a57e6970f7f19a6a67c409ade04483a867b0fdcec2c",
+      "bytes": 5440
+    },
+    {
+      "sourceUrl": "https://delphosstjohns.org/high-school",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 403,
+      "resolvedUrl": "https://delphosstjohns.org/high-school",
+      "sha256": "9a1d052fa4d72fb96f5ccd3dd6154fa7626be598d4b4b9fb65d2690cb2c25734",
+      "bytes": 5452
+    },
+    {
+      "sourceUrl": "https://sesischools.com/location/high-road-school-of-lima/",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://sesischools.com/location/high-road-school-of-lima/",
+      "sha256": "eae9e1b676e7c01a134fefd6e349c85bfaf6e8a2a22bdbf5010552d90ee90d15",
+      "bytes": 535949
+    },
+    {
+      "sourceUrl": "https://toledodiocese.org/catholic-schools-office-staff",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://toledodiocese.org/catholic-schools-office-staff",
+      "sha256": "8b072350e2572392998eebac990edbb722529f7e4d59f66712d75b6766fe0a76",
+      "bytes": 21189
+    },
+    {
+      "sourceUrl": "https://www.lakeareachristianschool.org/staff-1",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://www.lakeareachristianschool.org/staff-1",
+      "sha256": "c48729449ed62bbbc76bac47e24839b505c5109f8d89a4257106e9d67caf8b20",
+      "bytes": 375780
+    },
+    {
+      "sourceUrl": "https://www.lcchs.edu/o/district/staff?page_no=1",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://www.lcchs.edu/o/district/staff?page_no=1",
+      "sha256": "7b7fc4d3b5cc5d6ce2bb7f23a0bcc161bbcf52cef1e62f7e92fcf3ecefd4eac1",
+      "bytes": 1411863
+    },
+    {
+      "sourceUrl": "https://www.pilgrimchristianschoollima.com/team-1",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://www.pilgrimchristianschoollima.com/team-1",
+      "sha256": "dc763e1c7ec7a727196a68d321fa8557a5e33cb6f50eca8802bea7633dfa6e29",
+      "bytes": 608353
+    },
+    {
+      "sourceUrl": "https://www.tcspioneers.org/about/staff-directory/",
+      "retrievedAt": "2026-10-22T08:36:48.075729+00:00",
+      "status": 200,
+      "resolvedUrl": "https://www.tcspioneers.org/about/staff-directory/",
+      "sha256": "ef838deb6b6ec94d30e56581ea3c452272a4963c351c8d570028b600ebb96d86",
+      "bytes": 31746
+    }
+  ],
+  "notes": [
+    "Official current staff pages identify the published roles as of retrieval; an undated page does not separately verify a contract or 2026\u201327 appointment.",
+    "Catholic school heads and principals are distinguished from the Diocese of Toledo Senior Director of Catholic Education. Do not relabel every private-school leader as a superintendent.",
+    "High Road School of Lima has three co-located NCES records in the source universe; campus merging is a separate publication step.",
+    "Lake Area remains explicitly unverified; no guessed leader is supplied."
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "researchDate": "2026-10-22",
+  "records": [
+    {
+      "id": "IN-MICRO-KAINOS",
+      "name": "Kainos Microschool",
+      "sector": "private",
+      "gradesLow": "1",
+      "gradesHigh": "12",
+      "address": "4516 Parnell Avenue",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "zip": "46825",
+      "county": "Allen County",
+      "schoolType": "Microschool",
+      "sources": [
+        "https://www.kainosmicroschool.com/",
+        "https://www.kainosmicroschool.com/contact",
+        "https://www.kainosmicroschool.com/faqs"
+      ],
+      "geocoder": {
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4516+Parnell+Ave%2C+Fort+Wayne+IN46825&benchmark=Public_AR_Current&format=json",
+        "response": {
+          "result": {
+            "input": {
+              "address": {
+                "address": "4516 Parnell Ave, Fort Wayne IN46825"
+              },
+              "benchmark": {
+                "isDefault": true,
+                "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+                "id": "4",
+                "benchmarkName": "Public_AR_Current"
+              }
+            },
+            "addressMatches": [
+              {
+                "tigerLine": {
+                  "side": "R",
+                  "tigerLineId": "6378382"
+                },
+                "coordinates": {
+                  "x": -85.125844828744,
+                  "y": 41.119193577282
+                },
+                "addressComponents": {
+                  "zip": "46825",
+                  "streetName": "PARNELL",
+                  "preType": "",
+                  "city": "FORT WAYNE",
+                  "preDirection": "",
+                  "suffixDirection": "",
+                  "fromAddress": "4514",
+                  "state": "IN",
+                  "suffixType": "AVE",
+                  "toAddress": "4520",
+                  "suffixQualifier": "",
+                  "preQualifier": ""
+                },
+                "matchedAddress": "4516 PARNELL AVE, FORT WAYNE, IN, 46825"
+              }
+            ]
+          }
+        }
+      },
+      "note": "CurrentofficialFAQ explicitlyaccepts grades1\u201312; fulltimeschoolages7\u201318 andhybridages11\u201318; absentlatestPSS/EDGE andIndianaChoiceDirectory."
+    },
+    {
+      "id": "IN-PRIVATE-CANTERBURY",
+      "name": "Canterbury High School",
+      "sector": "private",
+      "gradesLow": "9",
+      "gradesHigh": "12",
+      "address": "3210 Smith Road",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "zip": "46804",
+      "county": "Allen County",
+      "schoolType": "Regular School",
+      "sources": [
+        "https://www.canterburyschool.org/academics/high-school",
+        "https://www.canterburyschool.org/contact-us"
+      ],
+      "latitude": 41.054028252809,
+      "longitude": -85.209763440107,
+      "geocodeSource": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3210+Smith+Road%2C+Fort+Wayne%2C+IN+46804&benchmark=Public_AR_Current&format=json",
+      "note": "AbsentlatestPSS/EDGE. OfficialhighschoolconfirmedandexistingFTCteam22331known; includeuniverseandpositiveteamexclusion."
+    },
+    {
+      "id": "IN-CROSSING-FW",
+      "name": "The Crossing \u2014 Fort Wayne Campus",
+      "sector": "private",
+      "gradesLow": "9",
+      "gradesHigh": "12",
+      "address": "2260 Lake Avenue",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "zip": "46805",
+      "county": "Allen County",
+      "schoolType": "Alternative School",
+      "sources": [
+        "https://crossingeducation.com/campuses/fort-wayne-2/",
+        "https://crossingeducation.com/enrollment-faq/",
+        "https://crossingeducation.com/locations/"
+      ],
+      "geocoder": {
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2260+Lake+Avenue%2C+Fort+Wayne%2C+IN+46805&benchmark=Public_AR_Current&format=json",
+        "response": {
+          "result": {
+            "input": {
+              "address": {
+                "address": "2260 Lake Avenue, Fort Wayne, IN 46805"
+              },
+              "benchmark": {
+                "isDefault": true,
+                "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+                "id": "4",
+                "benchmarkName": "Public_AR_Current"
+              }
+            },
+            "addressMatches": [
+              {
+                "tigerLine": {
+                  "side": "R",
+                  "tigerLineId": "6380198"
+                },
+                "coordinates": {
+                  "x": -85.109170351673,
+                  "y": 41.089698550131
+                },
+                "addressComponents": {
+                  "zip": "46805",
+                  "streetName": "LAKE",
+                  "preType": "",
+                  "city": "FORT WAYNE",
+                  "preDirection": "",
+                  "suffixDirection": "",
+                  "fromAddress": "2100",
+                  "state": "IN",
+                  "suffixType": "AVE",
+                  "toAddress": "2298",
+                  "suffixQualifier": "",
+                  "preQualifier": ""
+                },
+                "matchedAddress": "2260 LAKE AVE, FORT WAYNE, IN, 46805"
+              }
+            ]
+          }
+        }
+      },
+      "note": "Official campus site; TheCrossing enrollmentFAQservesgrades9\u201312ages14\u201320. CorporateofficeIDOEaddressisnotthiscampus."
+    },
+    {
+      "id": "IN-CROSSING-GOSHEN",
+      "name": "The Crossing \u2014 Elkhart County Campus",
+      "sector": "private",
+      "gradesLow": "9",
+      "gradesHigh": "12",
+      "address": "1824 Reliance Road",
+      "city": "Goshen",
+      "state": "IN",
+      "zip": "46526",
+      "county": "Elkhart County",
+      "schoolType": "Alternative School",
+      "sources": [
+        "https://crossingeducation.com/locations/elkhart-county-campus/",
+        "https://crossingeducation.com/enrollment-faq/",
+        "https://crossingeducation.com/locations/"
+      ],
+      "geocoder": {
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1824+Reliance+Road%2C+Goshen%2C+IN+46526&benchmark=Public_AR_Current&format=json",
+        "response": {
+          "result": {
+            "input": {
+              "address": {
+                "address": "1824 Reliance Road, Goshen, IN 46526"
+              },
+              "benchmark": {
+                "isDefault": true,
+                "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+                "id": "4",
+                "benchmarkName": "Public_AR_Current"
+              }
+            },
+            "addressMatches": [
+              {
+                "tigerLine": {
+                  "side": "R",
+                  "tigerLineId": "617164202"
+                },
+                "coordinates": {
+                  "x": -85.887201947048,
+                  "y": 41.611101058777
+                },
+                "addressComponents": {
+                  "zip": "46526",
+                  "streetName": "RELIANCE",
+                  "preType": "",
+                  "city": "GOSHEN",
+                  "preDirection": "",
+                  "suffixDirection": "",
+                  "fromAddress": "1818",
+                  "state": "IN",
+                  "suffixType": "RD",
+                  "toAddress": "1898",
+                  "suffixQualifier": "",
+                  "preQualifier": ""
+                },
+                "matchedAddress": "1824 RELIANCE RD, GOSHEN, IN, 46526"
+              }
+            ]
+          }
+        }
+      },
+      "note": "Official campus site; TheCrossing enrollmentFAQservesgrades9\u201312ages14\u201320. CorporateofficeIDOEaddressisnotthiscampus."
+    },
+    {
+      "id": "IN-CROSSING-MUNCIE",
+      "name": "The Crossing \u2014 Muncie Campus",
+      "sector": "private",
+      "gradesLow": "9",
+      "gradesHigh": "12",
+      "address": "2500 N Elgin Street",
+      "city": "Muncie",
+      "state": "IN",
+      "zip": "47303",
+      "county": "Delaware County",
+      "schoolType": "Alternative School",
+      "sources": [
+        "https://crossingeducation.com/locations/muncie-campus/",
+        "https://crossingeducation.com/enrollment-faq/",
+        "https://crossingeducation.com/locations/"
+      ],
+      "geocoder": {
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2500+N+Elgin+Street%2C+Muncie%2C+IN+47303&benchmark=Public_AR_Current&format=json",
+        "response": {
+          "result": {
+            "input": {
+              "address": {
+                "address": "2500 N Elgin Street, Muncie, IN 47303"
+              },
+              "benchmark": {
+                "isDefault": true,
+                "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+                "id": "4",
+                "benchmarkName": "Public_AR_Current"
+              }
+            },
+            "addressMatches": [
+              {
+                "tigerLine": {
+                  "side": "R",
+                  "tigerLineId": "30851621"
+                },
+                "coordinates": {
+                  "x": -85.365447718366,
+                  "y": 40.215310092706
+                },
+                "addressComponents": {
+                  "zip": "47303",
+                  "streetName": "ELGIN",
+                  "preType": "",
+                  "city": "MUNCIE",
+                  "preDirection": "N",
+                  "suffixDirection": "",
+                  "fromAddress": "2500",
+                  "state": "IN",
+                  "suffixType": "ST",
+                  "toAddress": "2700",
+                  "suffixQualifier": "",
+                  "preQualifier": ""
+                },
+                "matchedAddress": "2500 N ELGIN ST, MUNCIE, IN, 47303"
+              }
+            ]
+          }
+        }
+      },
+      "note": "Official campus site; TheCrossing enrollmentFAQservesgrades9\u201312ages14\u201320. CorporateofficeIDOEaddressisnotthiscampus."
+    }
+  ]
+}

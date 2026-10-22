@@ -1,0 +1,61 @@
+{
+  "researchDate": "2026-10-22",
+  "type": "Bounded current MI/OH directory completeness check",
+  "result": {
+    "previousCampusCandidates": 192,
+    "currentCampusCandidates": 193,
+    "definiteAddition": {
+      "id": "A9300714",
+      "school": "Liberty Christian School",
+      "city": "Lima",
+      "distanceMiles": 59.3588,
+      "reason": "Official school website explicitly offers high school; older PSS grade8 ceiling is superseded for this screen."
+    },
+    "newReviewOnly": [
+      "OH-NCNP-BALDWIN",
+      "OH-NCNP-BIG-OAK",
+      "OH-NCNP-HILLCREST",
+      "OH-NCNP-NORTH-STAR"
+    ],
+    "michiganNewConfirmedCampuses": 0
+  },
+  "michigan": {
+    "sources": [
+      "https://www.michigan.gov/mde/Services/flexible-learning/options/nonpub-home",
+      "https://www.michigan.gov/mde/-/media/Project/Websites/mde/OFM/Grants/NonPublic--Home-Schools/2025-2026-Docs/FINAL-Approved-NPS-Listing-20252026-by-ISD.pdf?hash=3145FD2EF2610FBFE2087D3C976354F9&rev=b8695b9f159d45f1a0acf6e3147cee1b"
+    ],
+    "coverage": "Compared all nine approved nonpublic schools in Branch (ISD12), Hillsdale (ISD30), and St. Joseph (ISD75) against NCES campus locations. Separately geocoded Hillsdale Academy and Spring Branch Academy; both are outside 60 miles. The current state list confirms Lake Area Christian School approval.",
+    "snapshotDate": "May2026 final2025\u201326 listing",
+    "outcome": "No additional confirmed high school campus inside 60 miles was identified in the current approved-school list.",
+    "remainingLimit": "This approved-school comparison does not cover every unapproved or unreported microschool. Michigan public-school coverage remains the NCES2024\u201325 directory plus current district website checks conducted elsewhere."
+  },
+  "ohio": {
+    "sources": [
+      "https://education.ohio.gov/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information",
+      "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US",
+      "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/Non-Chartered-Nonpublic-Annual-Certification-to-Parents-2025-26.pdf.aspx?lang=en-US"
+    ],
+    "coverage": "Screened 11 unique schools in the current 2026\u201327 NCNP list across Williams, Defiance, Paulding, Van Wert, Putnam, Mercer, Allen, Fulton, Henry, and Auglaize counties. Geocoded each reported physical address. The source landing page was updated October6,2026.",
+    "gradeSemantics": "Question17 on the state annual certification form asks which yearly instructional-hour requirements apply. The Grades7\u201312/1001hours checkbox can include only grades7\u20138. It does not establish that any grade9\u201312 is offered. Baldwin, BigOak, Hillcrest, and NorthStar therefore remain grade-range-review records.",
+    "outcome": "Liberty Christian School is a definite addition because its own site explicitly offers high school. Lima Christian Academy and Pilgrim Christian School were already included. Four new inside-radius schools remain outside the confirmed high-school candidate list pending grade verification. Four other target-county records are outside 60 miles.",
+    "charteredDirectoryAttempt": {
+      "url": "https://oeds.ode.state.oh.us/SearchOrg",
+      "result": "403 Forbidden during read-only retrieval; no bulk currentcharteredpublic/nonpublicdirectory acquired in thisboundedfollowup."
+    },
+    "remainingLimit": "The current Ohio chartered-school directory could not be retrieved in this bounded review. New chartered or unreported schools may remain absent from the NCES baseline. Absence from NCNP is not proof of closure."
+  },
+  "unresolvedLeads": [
+    {
+      "school": "Mennonite Christian Day School",
+      "address": "3666GrubRoadNDelphosOH45833",
+      "sourceUrl": "https://wocap.org/wp-content/uploads/2026/01/2025-WOCAP-COMMUNITY-ASSESSMENT-ALLEN-COUNTY-.pdf",
+      "reason": "The regional community assessment lists grades1\u201312. The school was not found in the current2026\u201327 NCNP target-county list or latest NCES PSS geocodes. No current primary school source established high-school operation in this bounded review. It was neither added silently nor described as closed."
+    },
+    {
+      "school": "Nottawa Christian Day School / Nottawa Christian School",
+      "address": "26239 M-86, Sturgis/Nottawa, MI",
+      "reason": "Third-party directories suggest gradesK\u201310, but the school is absent from the current Michigan approved-school list and latest PSS geocodes. Actual current operation, grade span, and radius membership were not verified; retain as a correction lead rather than a confirmed campus."
+    }
+  ],
+  "publicationGuidance": "Describe scope as a documented directory screen with a correction/contact route. Do not claim a complete2026\u201327 census or proof of no school-affiliatedteam."
+}

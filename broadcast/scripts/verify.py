@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 import struct
 from datetime import date, timedelta
+import math
 
 HERE = Path(__file__).resolve().parents[1]
 ROOT = HERE.parent
@@ -91,6 +92,35 @@ def main():
     for show, week in zip(preview["shows"]["frc"], future_frc["confirmed"]["competitionWeeks"]):
         require(date.fromisoformat(show["date"]) == date.fromisoformat(week["end"]) + timedelta(days=1), "FRC recap is not after its competition week")
     require(all(date.fromisoformat(s["date"]).weekday() == 0 for s in preview["shows"]["frc"]), "FRC editorial target is not Monday")
+    dnf = load(HERE / "data/dnf.json")
+    universe = load(HERE / "data/dnf-research/school-universe.json")
+    require(data["dnf"] == dnf, "DNF directory did not reach the browser data")
+    groups = (dnf["schools"], dnf["excludedSchools"], dnf["reviewSchools"])
+    all_schools = [school for group in groups for school in group]
+    require(len({school["id"] for school in all_schools}) == len(all_schools) == len(universe["schools"]), "DNF join duplicated or dropped a campus")
+    require({school["id"] for school in all_schools} == {school["id"] for school in universe["schools"]}, "DNF universe join lost school identities")
+    require(dnf["origin"] == load(ROOT / "data/geography.json")["origin"] and dnf["radiusMiles"] == 60, "DNF origin or radius changed")
+    origin = dnf["origin"]["coordinates"]
+    for school in all_schools:
+        lat1, lon1, lat2, lon2 = map(math.radians, (origin["latitude"], origin["longitude"], school["latitude"], school["longitude"]))
+        hav = math.sin((lat2-lat1)/2)**2 + math.cos(lat1)*math.cos(lat2)*math.sin((lon2-lon1)/2)**2
+        miles = 3958.7613 * 2 * math.asin(math.sqrt(hav))
+        require(miles <= 60 and abs(miles-school["distanceMiles"]) < .00001, f"DNF radius or distance is wrong: {school['name']}")
+        require(str(school["gradesHigh"]).isdigit() and int(school["gradesHigh"]) >= 9, "DNF school does not offer high-school grades")
+        require(school["schoolUrl"].startswith(("http://", "https://")) and school["sourceUrls"], "DNF school has no source")
+        leader = school["leader"]
+        require(school["sector"] == "Private" or bool(leader), f"Public superintendent/school leader missing: {school['name']}")
+        if leader:
+            require(leader["name"] and leader["role"] and leader["sourceUrl"].startswith("https://"), "DNF leader has no documented role/source")
+    invited_ids = {school["id"] for school in dnf["schools"]}
+    team_screen = load(HERE / "data/dnf-research/team-screen.json")
+    for positive in team_screen["positiveSchoolAffiliations"]:
+        require(not invited_ids.intersection(positive.get("ncesIds", [])), f"Known team school incorrectly invited as DNF: {positive['schoolName']}")
+    require(all(school["teamClassification"] == "no-school-affiliation-verified-in-roster-screen" for school in dnf["schools"]), "DNF treats a known affiliation as absence")
+    require(all(school["teamClassification"] == "exclude-active/recent" for school in dnf["excludedSchools"]), "DNF existing-team classification changed")
+    require(dnf["counts"]["invited"] == len(dnf["schools"]) and dnf["counts"]["leadersNamed"] == sum(bool(school["leader"]) for school in dnf["schools"]), "DNF visible counts are incorrect")
+    require("no school-affiliated FTC or FRC team verified" in dnf["qualification"] and "another robotics program" in dnf["qualification"], "DNF team-absence qualification lost")
+    require(dnf["contactEmail"] == "info@refineryrobotics.org" and (HERE / "dist/dnf-methodology.md").is_file(), "DNF interest destination or evidence missing")
     for name in ("index.html", "styles.css", "app.js", "press-kit.md", "assets/refinery-logo.svg", "assets/refinery-shop.jpeg"):
         require((HERE / "dist" / name).is_file(), f"Missing static asset: {name}")
     for asset in load(HERE / "data/asset-manifest.json")["assets"]:

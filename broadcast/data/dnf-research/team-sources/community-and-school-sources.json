@@ -1,0 +1,42 @@
+[
+  {
+    "sourceUrl": "https://huntingtonnhs.ss13.sharpschool.com/get_involved/clubs/robotics",
+    "retrievedAt": "2026-10-22T08:34:03.040315+00:00",
+    "httpStatus": 403,
+    "sha256": "09bb183386821ea959e2742bd18ab37af40068fd73687e4d999c234117e66355",
+    "bytes": 5580,
+    "evidence": "Huntington North school robotics page establishes connection to Team THRUST."
+  },
+  {
+    "sourceUrl": "https://northweststate.edu/wp-content/uploads/2025/04/NSCC-Led-Team-to-Compete-in-State-First-Robotics-Comp.pdf",
+    "retrievedAt": "2026-10-22T08:34:03.040315+00:00",
+    "httpStatus": 200,
+    "sha256": "aab93f09a7febb8221672cb2c1bc89b09f11851ff63565e7d73a7b0cc1271976",
+    "bytes": 539629,
+    "evidence": "College release names Ayersville, Central Local (Fairview), Delta, Liberty Center, Napoleon, Wauseon and Four County Career Center as schools of team members."
+  },
+  {
+    "sourceUrl": "https://refineryrobotics.org/about/",
+    "retrievedAt": "2026-10-22T08:34:03.040315+00:00",
+    "httpStatus": 200,
+    "sha256": "3e51e031cb2d0503455c88ea20811cc5ac56c9d4665dc1a4fa540bfc71197f5e",
+    "bytes": 162325,
+    "evidence": "REFINERY identifies Huntington North Team THRUST among local teams."
+  },
+  {
+    "sourceUrl": "https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html",
+    "retrievedAt": "2026-10-22T08:34:03.040315+00:00",
+    "httpStatus": 404,
+    "sha256": "86da454913572e31daa9e6d63cac1cc4258bb7dc76ff322316b9c3298feef02b",
+    "bytes": 77137,
+    "evidence": "Report names a Lima Senior senior as a Bean City Bots participant. Secondary reporting; not official district affiliation."
+  },
+  {
+    "sourceUrl": "https://www.munciejournal.com/2018/04/phyxtgears-headed-to-world-championship/",
+    "retrievedAt": "2026-10-22T08:34:03.040315+00:00",
+    "httpStatus": 200,
+    "sha256": "06458ff9d29b8d9b2029d934e243a1aabfe6baa38dff82486ab2681ab61757bb",
+    "bytes": 65804,
+    "evidence": "Team-authored article identifies two Delta High School students as PhyXTGears members."
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "program": "FRC",
+  "teamNumber": 8103,
+  "season": 2027,
+  "sourceUrl": "https://frc-events.firstinspires.org/2027/team/8103",
+  "retrievedAt": "2026-10-22T08:31:19.327376+00:00",
+  "sourceSha256": "ea2da68389e2c41e30d76ef8a84597e76298b62947220e70ea46cdb1b9ce0560",
+  "sourceBytes": 27172,
+  "heading": "Team 8103 - Knight Robotics (2027)",
+  "registeredLocation": "Kendallville, Indiana, USA",
+  "schoolAffiliationHeadline": "East Noble High School",
+  "sponsorsAndAffiliations": "Robert Bosch LLC/Parker Hannifin/Be Noble Inc./Freedom Academy&East Noble High School",
+  "listedOtherSeasons": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026,
+    2027
+  ],
+  "screeningDistanceMiles": 25.90628385923915,
+  "noEventsStatement": false
+}

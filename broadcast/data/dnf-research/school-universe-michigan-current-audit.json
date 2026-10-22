@@ -1,0 +1,196 @@
+{
+  "researchDate": "2026-10-22",
+  "sourceUrl": "https://www.michigan.gov/mde/-/media/Project/Websites/mde/OFM/Grants/NonPublic--Home-Schools/2025-2026-Docs/FINAL-Approved-NPS-Listing-20252026-by-ISD.pdf?hash=3145FD2EF2610FBFE2087D3C976354F9&rev=b8695b9f159d45f1a0acf6e3147cee1b",
+  "sourceLabel": "2025\u201326 final approved nonpublic school listing by ISD, May2026",
+  "targetISDs": {
+    "12": "Branch",
+    "30": "Hillsdale",
+    "75": "StJoseph"
+  },
+  "additionalGeocodes": [
+    {
+      "name": "Hillsdale Academy",
+      "address": "1 Academy Lane Hillsdale MI49242",
+      "geocoder": {
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1+Academy+Lane+Hillsdale+MI49242&benchmark=Public_AR_Current&format=json",
+        "response": {
+          "result": {
+            "input": {
+              "address": {
+                "address": "1 Academy Lane Hillsdale MI49242"
+              },
+              "benchmark": {
+                "isDefault": true,
+                "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+                "id": "4",
+                "benchmarkName": "Public_AR_Current"
+              }
+            },
+            "addressMatches": [
+              {
+                "tigerLine": {
+                  "side": "L",
+                  "tigerLineId": "639200895"
+                },
+                "coordinates": {
+                  "x": -84.627458075649,
+                  "y": 41.930197183129
+                },
+                "addressComponents": {
+                  "zip": "49242",
+                  "streetName": "ACADEMY",
+                  "preType": "",
+                  "city": "HILLSDALE",
+                  "preDirection": "",
+                  "suffixDirection": "",
+                  "fromAddress": "1",
+                  "state": "MI",
+                  "suffixType": "LN",
+                  "toAddress": "99",
+                  "suffixQualifier": "",
+                  "preQualifier": ""
+                },
+                "matchedAddress": "1 ACADEMY LN, HILLSDALE, MI, 49242"
+              }
+            ]
+          }
+        }
+      },
+      "distanceMiles": 64.441762,
+      "disposition": "outside-radius"
+    },
+    {
+      "name": "Spring Branch Academy",
+      "address": "1651 E Litchfield Rd Jonesville MI49250",
+      "geocoder": {
+        "sourceUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1651+E+Litchfield+Rd+Jonesville+MI49250&benchmark=Public_AR_Current&format=json",
+        "response": {
+          "result": {
+            "input": {
+              "address": {
+                "address": "1651 E Litchfield Rd Jonesville MI49250"
+              },
+              "benchmark": {
+                "isDefault": true,
+                "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+                "id": "4",
+                "benchmarkName": "Public_AR_Current"
+              }
+            },
+            "addressMatches": [
+              {
+                "tigerLine": {
+                  "side": "L",
+                  "tigerLineId": "8287522"
+                },
+                "coordinates": {
+                  "x": -84.626982474179,
+                  "y": 42.043721273578
+                },
+                "addressComponents": {
+                  "zip": "49250",
+                  "streetName": "LITCHFIELD",
+                  "preType": "",
+                  "city": "JONESVILLE",
+                  "preDirection": "E",
+                  "suffixDirection": "",
+                  "fromAddress": "1689",
+                  "state": "MI",
+                  "suffixType": "RD",
+                  "toAddress": "1651",
+                  "suffixQualifier": "",
+                  "preQualifier": ""
+                },
+                "matchedAddress": "1651 E LITCHFIELD RD, JONESVILLE, MI, 49250"
+              }
+            ]
+          }
+        }
+      },
+      "distanceMiles": 71.66895,
+      "disposition": "outside-radius"
+    }
+  ],
+  "schoolsScreened": [
+    {
+      "name": "Bowen Creek Amish School",
+      "stateAgreementId": "120406915",
+      "isd": "12",
+      "matchedNcesId": "A9103430",
+      "distanceMiles": 64.792443,
+      "gradesHigh": "8",
+      "disposition": "outside-radius"
+    },
+    {
+      "name": "St. Charles Borromeo",
+      "stateAgreementId": "120108676",
+      "isd": "12",
+      "matchedNcesId": "A0105016",
+      "distanceMiles": 60.036504,
+      "gradesHigh": "8",
+      "disposition": "outside-radius"
+    },
+    {
+      "name": "St. Mary's Assumption School",
+      "stateAgreementId": "120203903",
+      "isd": "12",
+      "matchedNcesId": "00639647",
+      "distanceMiles": 54.888534,
+      "gradesHigh": "8",
+      "disposition": "below-grade-9"
+    },
+    {
+      "name": "Howardsville Christian School",
+      "stateAgreementId": "750801662",
+      "isd": "75",
+      "matchedNcesId": "02036567",
+      "distanceMiles": 71.619592,
+      "gradesHigh": "12",
+      "disposition": "outside-radius"
+    },
+    {
+      "name": "Immaculate Conception School",
+      "stateAgreementId": "750801820",
+      "isd": "75",
+      "matchedNcesId": "00639603",
+      "distanceMiles": 64.745004,
+      "gradesHigh": "8",
+      "disposition": "outside-radius"
+    },
+    {
+      "name": "Lake Area Christian School",
+      "stateAgreementId": "750304703",
+      "isd": "75",
+      "matchedNcesId": "A9303515",
+      "distanceMiles": 56.987196,
+      "gradesHigh": "12",
+      "disposition": "already-in-universe"
+    },
+    {
+      "name": "Trinity Lutheran School",
+      "stateAgreementId": "750100197",
+      "isd": "75",
+      "matchedNcesId": "02038189",
+      "distanceMiles": 51.463799,
+      "gradesHigh": "8",
+      "disposition": "below-grade-9"
+    },
+    {
+      "name": "Hillsdale Academy",
+      "address": "1 Academy Lane Hillsdale MI49242",
+      "distanceMiles": 64.441762,
+      "disposition": "outside-radius"
+    },
+    {
+      "name": "Spring Branch Academy",
+      "address": "1651 E Litchfield Rd Jonesville MI49250",
+      "distanceMiles": 71.66895,
+      "disposition": "outside-radius"
+    }
+  ],
+  "result": "All9approvednonpublicschoolsinBranch,Hillsdale,andStJosephISDswerecompared.Nophysicalhighschoolcampusinside60wasnewlyidentified.LakeAreaChristianSchoolisalreadypresentandcurrentstateapprovalconfirmsoperation; StMaryandTrinityinsidebutbelowgrade9. Allothersoutside60.",
+  "limitations": [
+    "Approved-school list is currentMay2026, not a guarantee that unapproved/unlisted microschools or new2026\u201327 campuses do notexist.",
+    "Michigan current public-school administrative directory was not bulk downloaded; public campus universe remainsNCES2024\u201325 with currentdistrictwebsitechecks elsewhere."
+  ]
+}

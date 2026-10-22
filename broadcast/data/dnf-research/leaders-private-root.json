@@ -1,0 +1,109 @@
+{
+  "asOf": "2026-10-22",
+  "records": [
+    {
+      "schoolId": "00422689",
+      "state": "IN",
+      "schoolName": "Bishop Dwenger High School",
+      "name": "David Maugel",
+      "role": "Superintendent of Catholic Schools",
+      "sourceUrl": "https://diocesefwsb.org/catholic-schools-office",
+      "evidence": "Superintendent: David Maugel",
+      "sourceLabel": "Official school or diocesan website",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    },
+    {
+      "schoolId": "00422703",
+      "state": "IN",
+      "schoolName": "Bishop Luers High School",
+      "name": "David Maugel",
+      "role": "Superintendent of Catholic Schools",
+      "sourceUrl": "https://diocesefwsb.org/catholic-schools-office",
+      "evidence": "Superintendent: David Maugel",
+      "sourceLabel": "Official school or diocesan website",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    },
+    {
+      "schoolId": "02159782",
+      "state": "IN",
+      "schoolName": "Concordia Lutheran High School",
+      "name": "Jacob Pennekamp",
+      "role": "Head of School",
+      "sourceUrl": "https://www.clhscadets.com/apps/pages/school-leadership",
+      "evidence": "Jacob Pennekamp — Head of School; school board page current as of September 16, 2026.",
+      "sourceLabel": "Official school or diocesan website",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    },
+    {
+      "schoolId": "A0792095",
+      "state": "IN",
+      "schoolName": "Blackhawk Christian School",
+      "name": "Kevin Newbry",
+      "role": "Head of Schools",
+      "sourceUrl": "https://www.blackhawkchristian.org/apps/pages/index.jsp?pREC_ID=1982623&type=d&uREC_ID=1821348",
+      "evidence": "Kevin Newbry — Head of Schools",
+      "sourceLabel": "Official school or diocesan website",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    },
+    {
+      "schoolId": "A0103278",
+      "state": "IN",
+      "schoolName": "Oak Farm School",
+      "name": "Candice Holbrook",
+      "role": "Head of School",
+      "sourceUrl": "https://www.oakfarm.org/team",
+      "evidence": "Candice Holbrook — Head of School",
+      "sourceLabel": "Official school or diocesan website",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    },
+    {
+      "schoolId": "00424857",
+      "state": "IN",
+      "schoolName": "Bethany Christian Schools",
+      "name": "Tim Lehman",
+      "role": "Head of School",
+      "sourceUrl": "https://www.bethanycs.net/about-us/board-of-trustees",
+      "evidence": "Tim Lehman Ed.D. Head of School, ex-officio",
+      "sourceLabel": "Official school or diocesan website",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    },
+    {
+      "schoolId": "00424813",
+      "schoolName": "Lakeland Christian Academy",
+      "state": "IN",
+      "name": "Joe Elrod",
+      "role": "Superintendent",
+      "sourceUrl": "https://www.lcacougars.com/about-lca",
+      "evidence": "Meet Our Team: Joe Elrod — Superintendent; A Word from our Superintendent signed In Christ, Joe Elrod.",
+      "sourceLabel": "Official school website",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    },
+    {
+      "schoolId": "00424835",
+      "schoolName": "Clinton Christian School",
+      "state": "IN",
+      "name": "Michele Vigil and Gail Schrock",
+      "role": "Co-Head Administrators",
+      "sourceUrl": "https://www.ccsgoshen.org/leadership",
+      "evidence": "Michele Vigil — Co-Head Administrator; Gail Schrock — Co-Head Administrator.",
+      "sourceLabel": "Official school leadership page",
+      "retrievedOn": "2026-10-22",
+      "verifiedCurrent": true,
+      "schoolYear": "Current official website"
+    }
+  ]
+}

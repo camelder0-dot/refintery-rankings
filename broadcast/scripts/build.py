@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+from build_dnf import build_dnf
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
@@ -85,6 +86,7 @@ def main():
     result = {
         "title": "The REFINERY · NEI Robotics Top 10",
         "seasonPreview": load(HERE / "data/season-preview.json"),
+        "dnf": build_dnf(),
         "hero": {"headline": "THE ONLY SPORT WHERE EVERYONE CAN GO PRO", "subhead": "Friday-night energy. Skills for a lifetime. Meet the students building their future in engineering, software, manufacturing and business.",
                  "attribution": "Career-focused campaign message from FIRST Global", "attributionUrl": "https://first.global/sport/",
                  "image": "assets/refinery-shop.jpeg", "logo": "assets/refinery-logo.svg"},
