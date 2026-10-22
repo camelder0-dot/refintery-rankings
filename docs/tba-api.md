@@ -57,6 +57,7 @@ TBA endpoints used, all read-only:
 python scripts/fetch_calendar.py
 python scripts/fetch_tba.py --season 2026 --output broadcast/data/tba/results-2026.json
 python scripts/build.py && python ftc/scripts/build.py && python broadcast/scripts/build.py
+python broadcast/scripts/build_share_images.py && python broadcast/scripts/build.py   # redraw team share cards (needs Pillow)
 python scripts/verify.py --write-checksums
 python scripts/verify.py && python ftc/scripts/verify.py && python broadcast/scripts/verify.py
 ```

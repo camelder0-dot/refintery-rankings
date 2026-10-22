@@ -7,6 +7,7 @@ import re
 from datetime import date, timedelta
 from build_dnf import build_dnf
 from build_matches import build_matches
+from build_pages import write_pages
 from build_press import write_press
 from pathlib import Path
 
@@ -233,6 +234,7 @@ def main():
     dnf = build_dnf()
     (HERE / "dist/dnf.json").write_text(json.dumps(dnf, ensure_ascii=False, separators=(",", ":")) + "\n")
     write_press(result, len(dnf["schools"]))
+    write_pages(result, dnf)
     press = ["# The REFINERY — NEI Robotics Top 10", "", "## Segment concept", "",
              "Bring the energy of a college football rankings reveal to local student robotics: reveal the regional FRC Top 10, select a team, and introduce the students and adults behind the robot. FTC appears in its own feature segment.", "",
              "Hero line: **The only sport where everyone can go pro.** The career-focused campaign phrase is attributed to [FIRST Global](https://first.global/sport/). Engineering, software, manufacturing, design, and business skills give the line its meaning.", "",

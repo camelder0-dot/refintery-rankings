@@ -10,6 +10,7 @@ import struct
 from datetime import date, timedelta
 import math
 from verify_matches import verify_matches
+from share_facts import card_facts, fingerprint, home_facts
 
 HERE = Path(__file__).resolve().parents[1]
 ROOT = HERE.parent
@@ -148,6 +149,16 @@ def main():
     require(all(link["url"].startswith(("https://", "http://")) and link["source"] for t in standings for link in t["teamLinks"]), "Team link without a source")
     require(all(t["logos"].get("team", {}).get("file") or t["logos"].get("school", {}).get("file") for t in standings if t["number"] != 1720) and standings, "A standings team has no logo")
     require(".md\"" not in (HERE / "dist/index.html").read_text(encoding="utf-8"), "The site links a raw Markdown file")
+    cards = load(HERE / "data/share-images.json")["cards"]
+    require(cards["home"]["fingerprint"] == fingerprint(home_facts(data)) and (HERE / "dist" / cards["home"]["file"]).is_file(), "Home share card is stale; rerun build_share_images.py")
+    for program, teams in (("FRC", standings), ("FTC", data["ftc"]["teams"] + data["ftc"]["newTeams"])):
+        for team in teams:
+            card = cards.get(str(team["number"]))
+            require(card and card["fingerprint"] == fingerprint(card_facts(team, program)) and (HERE / "dist" / card["file"]).is_file(), f"Share card for {team['number']} is stale; rerun build_share_images.py")
+            page = (HERE / f"dist/team/{team['number']}/index.html").read_text(encoding="utf-8")
+            require(card["file"] in page and f"/team/{team['number']}/" in page, f"Team page for {team['number']} is missing or lacks its share tags")
+    index = (HERE / "dist/index.html").read_text(encoding="utf-8")
+    require("<!--@" not in index and all(f'id="team-{t["number"]}"' in index for t in standings), "Home page was not pre-rendered")
     calendar = load(HERE / "data/calendar-2026-27.json")
     require(data["calendar"] == calendar and calendar["events"], "Calendar did not reach the browser data")
     require([e["startDate"] for e in calendar["events"]] == sorted(e["startDate"] for e in calendar["events"]), "Calendar is out of order")

@@ -34,8 +34,11 @@ jobs:
         run: python3 scripts/fetch_tba.py --season 2026 --output broadcast/data/tba/results-2026.json
       - name: Rebuild and verify
         run: |
+          python3 -m pip install --quiet pillow
           python3 scripts/build.py
           python3 ftc/scripts/build.py
+          python3 broadcast/scripts/build.py
+          python3 broadcast/scripts/build_share_images.py
           python3 broadcast/scripts/build.py
           python3 scripts/verify.py --write-checksums
           python3 scripts/verify.py

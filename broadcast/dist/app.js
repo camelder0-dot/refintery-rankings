@@ -9,7 +9,7 @@
   const num = (value, decimals = 0) => Number.isFinite(Number(value)) && value !== null ? Number(value).toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals }) : '—';
   const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const parts = (iso) => { const [y, m, d] = String(iso).split('-').map(Number); return { y, m, d }; };
-  const shortDate = (iso) => { const { y, m, d } = parts(iso); return `${MONTHS[m - 1]} ${d}, ${y}`; };
+  const shortDate = (iso) => { if (!/^\d{4}-\d{2}-\d{2}$/.test(String(iso))) return String(iso); const { y, m, d } = parts(iso); return `${MONTHS[m - 1]} ${d}, ${y}`; };
   const dateRange = (start, end) => {
     const a = parts(start), b = parts(end || start);
     if (start === end || !end) return shortDate(start);
@@ -91,7 +91,7 @@
     const facts = `<details><summary>Team facts</summary><ul class="people"><li>Rookie year ${t.rookieYear} · ${t.seasons} seasons through 2026</li><li>${esc(t.county)} County · ${esc(t.affiliationNote)}</li><li>Indiana EPA rank ${t.stateEpaRank} of ${t.stateEpaCount} · world ${num(t.worldEpaRank)} of ${num(t.worldEpaCount)}</li><li>District points ${num(t.district.points)} · Indiana district rank ${t.district.rank} of ${t.district.teamCount}</li></ul></details>`;
     const links = `<ul class="link-list"><li>${ext(t.links.tba, 'The Blue Alliance', 'text-link')}</li><li>${ext(t.links.statbotics, 'Statbotics', 'text-link')}</li><li>${ext(t.links.first, 'FIRST profile', 'text-link')}</li>${t.links.school ? `<li>${ext(t.links.school, 'School site', 'text-link')}</li>` : ''}</ul>`;
     const followHtml = t.teamLinks?.length ? `<h4>Follow the team</h4>${follow(t.teamLinks)}` : '';
-    return `<div><h4>2026 season</h4>${events}${awards}${peopleHtml}${facts}</div><div>${followHtml}${closest}${fig}${news}<h4>Stats &amp; profiles</h4>${links}<p class="muted small">Interview requests: <a href="mailto:celder@bionanomics.com?subject=${encodeURIComponent(`Media request: ${t.name} (${t.number})`)}">celder@bionanomics.com</a></p></div>`;
+    return `<div><h4>2026 season</h4>${events}${awards}${peopleHtml}${facts}</div><div>${followHtml}${closest}${fig}${news}<h4>Stats &amp; profiles</h4>${links}<p><a class="text-link page-link" href="team/${t.number}/">Full team page</a></p><p class="muted small">Interview requests: <a href="mailto:celder@bionanomics.com?subject=${encodeURIComponent(`Media request: ${t.name} (${t.number})`)}">celder@bionanomics.com</a></p></div>`;
   }
 
   function renderStandings() {
@@ -130,7 +130,7 @@
     const card = (t, rookie) => {
       const s = stories(t.number);
       const stats = rookie ? '<p class="muted">Rookie team for 2026–27. First matches this season.</p>' : `<div class="card-stats"><div><strong>${num(t.opr, 1)}</strong><span>Best OPR, 2025–26</span></div><div><strong>${t.regionalRank}<small class="muted">/${t.regionalCount}</small></strong><span>Rank at Indiana events</span></div></div>`;
-      return `<article class="card"><span class="label ${rookie ? 'new' : 'ftc'}">${rookie ? 'New this season' : 'FTC'} · ${t.number}</span><div class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)}</strong><small>${esc(t.school)}${t.city ? ` · ${esc(t.city)}` : ''}</small></span></div>${stats}${s.length ? `<details><summary>In the news (${s.length})</summary><ul class="news-list">${s.map((x) => `<li>${ext(x.url, x.title)}<small>${esc(x.outlet)} · ${esc(shortDate(x.date))}</small></li>`).join('')}</ul></details>` : ''}${follow(t.teamLinks)}<ul class="link-list"><li>${ext(`https://ftcscout.org/teams/${t.number}`, 'FTCScout', 'text-link')}</li>${t.profileUrl ? `<li>${ext(t.profileUrl, 'FIRST profile', 'text-link')}</li>` : ''}</ul></article>`;
+      return `<article class="card"><span class="label ${rookie ? 'new' : 'ftc'}">${rookie ? 'New this season' : 'FTC'} · ${t.number}</span><div class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)}</strong><small>${esc(t.school)}${t.city ? ` · ${esc(t.city)}` : ''}</small></span></div>${stats}${s.length ? `<details><summary>In the news (${s.length})</summary><ul class="news-list">${s.map((x) => `<li>${ext(x.url, x.title)}<small>${esc(x.outlet)} · ${esc(shortDate(x.date))}</small></li>`).join('')}</ul></details>` : ''}${follow(t.teamLinks)}<p><a class="text-link page-link" href="team/${t.number}/">Team page</a></p><ul class="link-list"><li>${ext(`https://ftcscout.org/teams/${t.number}`, 'FTCScout', 'text-link')}</li>${t.profileUrl ? `<li>${ext(t.profileUrl, 'FIRST profile', 'text-link')}</li>` : ''}</ul></article>`;
     };
     $('ftc-grid').innerHTML = ftc.teams.map((t) => card(t, false)).join('') + ftc.newTeams.map((t) => card(t, true)).join('');
   }
@@ -144,7 +144,7 @@
       const { m, d } = parts(e.startDate);
       const place = [e.venue, [e.city, e.state].filter(Boolean).join(', ')].filter(Boolean).join(' · ');
       const ftcOnly = e.program === 'FTC';
-      return `<li class="${e.endDate < now ? 'past' : ''}"><div class="date-block"><span class="m">${MONTHS[m - 1]}</span><span class="d">${d}</span></div><div><span class="label${ftcOnly ? ' ftc' : ''}">${esc(e.program)} · ${esc(e.type)}${e.week ? ` · Week ${e.week}` : ''}</span><h3>${esc(e.name)}</h3><p>${esc(dateRange(e.startDate, e.endDate))}${place ? ` · ${esc(place)}` : ''}</p>${e.description ? `<p class="desc">${esc(e.description)}</p>` : ''}<ul class="link-list"><li>${ext(e.url, 'Event details', 'text-link')}</li><li>${ext(google(e), 'Google Calendar', 'text-link')}</li></ul></div></li>`;
+      return `<li class="${e.endDate < now ? 'past' : ''}"><div class="date-block"><span class="m">${MONTHS[m - 1]}</span><span class="d">${d}</span></div><div><span class="label${ftcOnly ? ' ftc' : ''}">${esc(e.program)} · ${esc(e.type)}${e.week ? ` · Week ${e.week}` : ''}</span><h3>${esc(e.name)}</h3><p>${esc(dateRange(e.startDate, e.endDate))}${place ? ` · ${esc(place)}` : ''}</p>${e.description ? `<p class="desc">${esc(e.description)}</p>` : ''}${e.entrants ? `<div class="region-teams"><span class="rt-label">REFINERY-region teams</span>${regionTeams(e)}</div>` : ''}<ul class="link-list"><li>${ext(e.url, 'Event details', 'text-link')}</li><li>${ext(google(e), 'Google Calendar', 'text-link')}</li></ul></div></li>`;
     };
     const draw = () => {
       const events = cal.events.filter((e) => (!state.program || e.program.includes(state.program)) && (state.showPast || e.endDate >= now));
@@ -167,6 +167,20 @@
   }
 
   // The next event, front and center: when, where, how to watch, and which local teams are in.
+  // The REFINERY-region teams entered in an event, from its posted entry list.
+  function regionTeams(e, muted = 'muted') {
+    const entry = e.entrants;
+    if (!entry) return '';
+    if (!entry.posted) {
+      return e.type === 'Championship'
+        ? `<p class="${muted}">Teams qualify during the season. Region qualifiers will be listed here.</p>`
+        : `<p class="${muted}">Entry list not posted yet. Region teams will be listed here when it is.</p>`;
+    }
+    if (!entry.local.length) return `<p class="${muted}">${entry.count} teams entered; none from The REFINERY’s region yet.</p>`;
+    const roster = new Map([...state.data.standings, ...state.data.ftc.teams, ...state.data.ftc.newTeams].map((t) => [t.number, t]));
+    return `<ul class="entered">${entry.local.map((n) => { const t = roster.get(n); return `<li>${t ? logo(t.logos, n) : ''}<span><strong>${t?.name ? (state.data.standings.some((s) => s.number === n) ? `<a href="team/${n}/">${esc(t.name)}</a>` : esc(t.name)) : `Team ${n}`}</strong><small>${n}${t?.school ? ` · ${esc(t.school)}` : ''}</small></span></li>`; }).join('')}</ul><p class="${muted}">${entry.local.length} of ${entry.count} teams entered are from The REFINERY’s region.</p>`;
+  }
+
   function renderNextEvent(e, google) {
     if (!e) return;
     const days = daysUntil(e.startDate);
@@ -174,13 +188,7 @@
     const when = live ? 'Happening now' : days === 1 ? 'Tomorrow' : `In ${days} days`;
     const place = [e.venue, e.address || [e.city, e.state].filter(Boolean).join(', ')].filter(Boolean).join(' · ');
     const map = e.address || e.venue ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue, e.address || `${e.city}, ${e.state}`].filter(Boolean).join(', '))}` : '';
-    const roster = new Map([...state.data.standings, ...state.data.ftc.teams, ...state.data.ftc.newTeams].map((t) => [t.number, t]));
-    const entry = e.entrants;
-    const teams = !entry ? '<p class="muted-light">Entries aren’t tracked for this event.</p>' : !entry.posted
-      ? '<p class="muted-light">Entry list not posted yet. Local teams will show here when it is.</p>'
-      : entry.local.length
-        ? `<ul class="entered">${entry.local.map((n) => { const t = roster.get(n); return `<li>${t ? logo(t.logos, n) : ''}<span><strong>${esc(t?.name || `Team ${n}`)}</strong><small>${n}${t?.school ? ` · ${esc(t.school)}` : ''}</small></span></li>`; }).join('')}</ul><p class="muted-light">${entry.local.length} of ${entry.count} teams entered are from Northeast Indiana.</p>`
-        : `<p class="muted-light">${entry.count} teams entered; none from Northeast Indiana.</p>`;
+    const teams = regionTeams(e, 'muted-light') || '<p class="muted-light">Entries aren’t tracked for this event.</p>';
     const watch = e.watch?.length ? e.watch.map((w) => ext(w.url, w.label, 'text-link')).join(' ') : '<span class="muted-light">No livestream announced yet.</span>';
     $('next-event').hidden = false;
     $('next-event').innerHTML = `<div class="next-main"><span class="next-when">${esc(when)}</span><span class="label">${esc(e.program)} · ${esc(e.type)}</span><h3>${esc(e.name)}</h3><p class="next-date">${esc(dateRange(e.startDate, e.endDate))}</p>${place ? `<p>${map ? ext(map, place) : esc(place)}</p>` : ''}${e.admission ? `<p><strong>Admission:</strong> ${esc(e.admission)}</p>` : ''}${e.description ? `<p class="muted-light">${esc(e.description)}</p>` : ''}<ul class="link-list"><li>${ext(e.url, 'Event details', 'text-link')}</li><li>${ext(google(e), 'Add to Google Calendar', 'text-link')}</li></ul></div><div class="next-side">${live ? '' : `<div class="next-count"><strong>${days}</strong><span>${days === 1 ? 'day' : 'days'} to go</span></div>`}<h4>Local teams entered</h4>${teams}<h4>How to watch</h4><p>${watch}</p></div>`;

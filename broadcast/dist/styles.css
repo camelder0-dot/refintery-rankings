@@ -70,6 +70,7 @@ p { margin: 0 0 1em; }
 .text-link { white-space: nowrap; font-family: var(--display); font-weight: 700; font-size: 16px; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; color: var(--green); display: inline-flex; gap: 6px; align-items: center; background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px no-repeat; transition: background-size .3s var(--ease); padding-bottom: 2px; }
 .text-link:hover { background-size: 100% 2px; color: var(--navy); }
 .text-link::after { content: '↗'; font-family: var(--font); font-size: 14px; }
+.text-link.page-link::after { content: '→'; }
 
 /* Header */
 .site-header { position: fixed; inset: 0 0 auto; z-index: 50; transition: background .3s, box-shadow .3s; }
@@ -286,6 +287,12 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .this-week .tw-go { margin-left: auto; }
 .this-week .tw-go::after { content: ' →'; font-family: var(--font); }
 .this-week:hover { background: var(--mint); color: var(--ink); }
+.region-teams { border-left: 3px solid var(--green-fill); padding: 2px 0 2px 12px; margin: 10px 0 6px; }
+.region-teams .rt-label { display: block; font-family: var(--display); font-weight: 700; font-size: 14px; letter-spacing: .1em; text-transform: uppercase; color: var(--green); margin-bottom: 4px; }
+.region-teams p { margin: 0; font-size: 14px; }
+.region-teams .entered strong { font-size: 17px; }
+.region-teams .entered small { color: var(--muted); }
+.region-teams .logo { width: 32px; height: 32px; }
 .calendar-tools { display: flex; justify-content: space-between; align-items: flex-end; gap: 18px; flex-wrap: wrap; margin-bottom: 8px; }
 .month { font-family: var(--display); font-weight: 800; font-size: 30px; text-transform: uppercase; margin: 36px 0 10px; }
 .schedule .label { display: block; margin-bottom: 4px; }
@@ -359,6 +366,39 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .footer-inner { display: grid; gap: 10px; }
 .site-footer img { height: 30px; width: auto; margin-bottom: 8px; }
 .site-footer a { color: var(--on-dark); }
+
+/* Team pages */
+.page-bar { background: var(--dark); border-bottom: 5px solid var(--green-fill); }
+.page-bar .wrap { display: flex; align-items: center; justify-content: space-between; height: 66px; }
+.page-bar .brand img { height: 32px; width: auto; }
+.page-bar .back { color: var(--on-dark); text-decoration: none; font-family: var(--display); font-weight: 700; font-size: 17px; letter-spacing: .08em; text-transform: uppercase; }
+.page-bar .back::before { content: '← '; font-family: var(--font); }
+.page-bar .back:hover { color: var(--mint); }
+.team-hero { background: var(--navy-deep); color: #fff; padding: 48px 0 8px; }
+.team-hero-grid { display: grid; grid-template-columns: auto 1fr; gap: 32px; align-items: center; margin-bottom: 28px; }
+.team-hero .hero-logo { width: 160px; height: 160px; border: 0; }
+.team-hero .hero-logo img { padding: 14px; }
+.team-hero h1 { font-family: var(--display); font-weight: 800; font-style: italic; text-transform: uppercase; font-size: clamp(48px, 8vw, 104px); line-height: .9; }
+.team-school { font-size: 18px; color: #d4dbe2; margin: 10px 0 12px; }
+.team-hero .honors { color: var(--mint); font-size: 17px; }
+.team-hero .honors .trophy { color: #e2b04a; }
+.team-hero .honors .worlds { color: #9ccbee; }
+.team-hero .stat-bar { border-top: 1px solid rgb(255 255 255 / .2); }
+.team-body { padding-top: 40px; }
+.team-columns { display: grid; grid-template-columns: 1.5fr 1fr; gap: 56px; }
+.team-body h2 { font-size: 26px; font-weight: 700; margin: 34px 0 12px; padding-bottom: 6px; border-bottom: 2px solid var(--ink); }
+.team-body h2:first-child { margin-top: 0; }
+.team-body aside h2:first-child { margin-top: 0; }
+.team-body details { margin-top: 18px; border-top: 1px solid var(--line); }
+.team-body details summary { cursor: pointer; font-family: var(--display); font-weight: 700; font-size: 17px; letter-spacing: .06em; text-transform: uppercase; padding: 12px 0 6px; }
+@media (max-width: 860px) {
+  .team-columns { grid-template-columns: 1fr; gap: 0; }
+  .team-hero-grid { grid-template-columns: 1fr; gap: 18px; }
+  .team-hero .hero-logo { width: 110px; height: 110px; }
+  .team-hero .stat-bar { grid-template-columns: repeat(2, 1fr); }
+  .team-hero .stat-bar div { border-right: 0; padding-left: 0; }
+  .team-hero .stat-bar div:nth-child(n+4) { display: flex; }
+}
 
 /* Scroll motion. Only transform, opacity and clip-path animate, so it stays smooth.
    Everything is visible without JavaScript or with reduced motion. */
