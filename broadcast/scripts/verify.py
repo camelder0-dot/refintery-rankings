@@ -120,6 +120,7 @@ def main():
         require(not invited_ids.intersection(positive.get("ncesIds", [])), f"Known team school incorrectly invited as DNF: {positive['schoolName']}")
     require(all(school["teamClassification"] == "no-school-affiliation-verified-in-roster-screen" for school in dnf["schools"]), "DNF treats a known affiliation as absence")
     require(all(school["teamClassification"] == "exclude-active/recent" for school in dnf["excludedSchools"]), "DNF existing-team classification changed")
+    require(all(school["listGroup"] == ("high-school" if school["schoolType"] in ("Regular School", "Regular") and str(school["gradesHigh"]) == "12" else "other-program") for school in dnf["schools"]), "DNF high-school list includes other programs")
     facility_ids = {row["id"] for row in load(HERE / "data/dnf-research/facility-exclusions.json")["schools"]}
     require({school["id"] for school in dnf["facilitySchools"]} == facility_ids and not invited_ids & facility_ids, "Secure or residential facility invited as DNF")
     require(dnf["counts"]["invited"] == len(dnf["schools"]) and dnf["counts"]["leadersNamed"] == sum(bool(school["leader"]) for school in dnf["schools"]), "DNF visible counts are incorrect")

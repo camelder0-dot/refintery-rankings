@@ -12,9 +12,11 @@
   <meta property="og:image" content="https://horner.github.io/refintery-rankings/assets/photos/fans-4982.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/refinery-logo.svg" type="image/svg+xml">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261022-redesign-1">
-  <script src="app.js?v=20261022-redesign-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-redesign-3">
+  <script src="app.js?v=20261022-redesign-3" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -41,7 +43,7 @@
       </picture>
       <div class="wrap hero-content">
         <p class="eyebrow">Northeast Indiana · <i>FIRST</i> Robotics</p>
-        <h1 id="hero-title">Robotics is game day here.</h1>
+        <h1 id="hero-title"><span><span>Robotics</span></span><span><span>is game day</span></span><span><span>here.</span></span></h1>
         <p class="hero-lede">Thirteen high school robotics teams in The REFINERY’s 12-county region. Here’s how the 2026 season played out, and what’s coming in 2027.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="#standings">See the 2026 standings</a>
@@ -160,6 +162,10 @@
         <p class="dnf-results" id="dnf-results"></p>
         <ul class="dnf-list" id="dnf-list"><li class="loading">Loading schools…</li></ul>
         <button class="button button-ghost more" id="dnf-more" type="button" hidden>Show more schools</button>
+        <details class="explainer dark-explainer" id="dnf-other" hidden>
+          <summary id="dnf-other-summary">Career centers &amp; other programs</summary>
+          <div class="explainer-body"><p>Career and technical centers, special-education cooperatives, alternative programs, microschools and schools that end before 12th grade. Career centers often make strong hosts for a team.</p><ul class="review-list" id="dnf-other-list"></ul></div>
+        </details>
         <details class="explainer dark-explainer" id="dnf-review" hidden>
           <summary id="dnf-review-summary">Bring back a team</summary>
           <div class="explainer-body"><ul class="review-list" id="dnf-review-list"></ul></div>
