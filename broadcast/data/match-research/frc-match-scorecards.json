@@ -1,0 +1,685 @@
+{
+  "year": 2026,
+  "sources": [
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INCOL/playoffs/10",
+      "fetchedAt": "2026-10-22T18:06:29.435193+00:00",
+      "htmlSha256": "00471865d5a4694448695e2a4457a3aef29a8a32c025d5ca383c33daa18e8eb5",
+      "officialTitle": "2026 Playoff Match 10 (R3) - FIN District Columbus Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            868,
+            292,
+            234
+          ],
+          "red": [
+            45,
+            9491,
+            9119
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 1 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+15"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "124",
+          "red": "127"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INCOL/playoffs/4",
+      "fetchedAt": "2026-10-22T18:06:29.449143+00:00",
+      "htmlSha256": "199ea0bec7b9abbbcd3b68e307373cf14b1108eb28dbf47af38e849b1b536e23",
+      "officialTitle": "2026 Playoff Match 4 (R1) - FIN District Columbus Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            45,
+            9491,
+            9119
+          ],
+          "red": [
+            1720,
+            9431,
+            8103
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "1 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+5"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "166",
+          "red": "143"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/17",
+      "fetchedAt": "2026-10-22T18:06:29.466421+00:00",
+      "htmlSha256": "dee06c343318f08286d5cc528412e342965b18a94c08832ee89629c49608ca1b",
+      "officialTitle": "2026 Qualification Match 17 - FIN District Columbus Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            4982,
+            4580,
+            1741
+          ],
+          "red": [
+            8103,
+            9491,
+            10172
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "43",
+          "red": "33"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/24",
+      "fetchedAt": "2026-10-22T18:06:29.478220+00:00",
+      "htmlSha256": "b879add7d5601c7268382931ec65ee7a99ef4986ae2e2a3f8dcdd23122aae143",
+      "officialTitle": "2026 Qualification Match 24 - FIN District Columbus Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            4982,
+            1018,
+            9431
+          ],
+          "red": [
+            3559,
+            45,
+            1720
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "105",
+          "red": "108"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/29",
+      "fetchedAt": "2026-10-22T18:06:29.689309+00:00",
+      "htmlSha256": "01ead667435330b0d772992f361885b5c233eaef0010e063d6e2679b410d690c",
+      "officialTitle": "2026 Qualification Match 29 - FIN District Columbus Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            45,
+            4926,
+            2171
+          ],
+          "red": [
+            10021,
+            10411,
+            4982
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "1 Minor • 0 Major",
+          "red": "0 Minor • 1 Major"
+        },
+        "Foul Points": {
+          "blue": "+15",
+          "red": "+5"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "96",
+          "red": "105"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INLAF/playoffs/5",
+      "fetchedAt": "2026-10-22T18:06:29.700726+00:00",
+      "htmlSha256": "c2f3654d739f35a0a138f24d0566a0fb7e51e9fcc70285f7ba07fc54a78d5f08",
+      "officialTitle": "2026 Playoff Match 5 (R2) - FIN District Lafayette Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            10332,
+            5402,
+            829
+          ],
+          "red": [
+            7617,
+            1555,
+            1646
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "1 Minor • 0 Major",
+          "red": "1 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+5",
+          "red": "+5"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "143",
+          "red": "144"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INLAF/playoffs/8",
+      "fetchedAt": "2026-10-22T18:06:29.720118+00:00",
+      "htmlSha256": "22cd0a404f90282b06b809056291c659c6652f323de778c277142afc591adc99",
+      "officialTitle": "2026 Playoff Match 8 (R2) - FIN District Lafayette Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            461,
+            4982,
+            10021
+          ],
+          "red": [
+            6956,
+            3494,
+            4272
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "2 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+10"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "281",
+          "red": "283"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INLAF/qualifications/27",
+      "fetchedAt": "2026-10-22T18:06:29.731657+00:00",
+      "htmlSha256": "f1fd1a5e8facaad36387f60ad3d23d773697548fe604a0235bf0173dacf4882e",
+      "officialTitle": "2026 Qualification Match 27 - FIN District Lafayette Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            1646,
+            10172,
+            7198
+          ],
+          "red": [
+            4485,
+            135,
+            6956
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 1 Major"
+        },
+        "Foul Points": {
+          "blue": "+15",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "102",
+          "red": "108"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INMIS/playoffs/11",
+      "fetchedAt": "2026-10-22T18:06:29.935632+00:00",
+      "htmlSha256": "43f14743c25451a855151538b3793c8e561e4635d2930fe8384c72c8f86343d4",
+      "officialTitle": "2026 Playoff Match 11 (R4) - FIN District Mishawaka Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            7457,
+            2867,
+            4272
+          ],
+          "red": [
+            10434,
+            3940,
+            1501
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "3 Minor • 0 Major",
+          "red": "4 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+20",
+          "red": "+15"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "221",
+          "red": "218"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INMIS/playoffs/6",
+      "fetchedAt": "2026-10-22T18:06:29.908115+00:00",
+      "htmlSha256": "597702100f4c9fd3f085bdfdba44479042a2cedafb04268bf527b18e192d62f3",
+      "officialTitle": "2026 Playoff Match 6 (R2) - FIN District Mishawaka Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            3176,
+            135,
+            3494
+          ],
+          "red": [
+            9431,
+            6721,
+            9119
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "2 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+10"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "117",
+          "red": "106"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INMIS/qualifications/71",
+      "fetchedAt": "2026-10-22T18:06:29.924261+00:00",
+      "htmlSha256": "80a526608e55b747062bcb07a765b5a96b9362828df33e6e5a0d3ebe296298e5",
+      "officialTitle": "2026 Qualification Match 71 - FIN District Mishawaka Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            1555,
+            8431,
+            9530
+          ],
+          "red": [
+            8432,
+            328,
+            7477
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "64",
+          "red": "66"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INWAS/playoffs/6",
+      "fetchedAt": "2026-10-22T18:06:29.916662+00:00",
+      "htmlSha256": "0268ce5aa5d192c5194aa40d67174d62a858612990684da531931d8855e68cbb",
+      "officialTitle": "2026 Playoff Match 6 (R2) - FIN District Washington Event presented by Toyota IN & VU CARA",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            8742,
+            1720,
+            4485
+          ],
+          "red": [
+            9554,
+            7617,
+            1747
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "143",
+          "red": "160"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/INWAS/qualifications/11",
+      "fetchedAt": "2026-10-22T18:06:30.218947+00:00",
+      "htmlSha256": "fb08469dfc66a6e33f14bd72b6e1d05f2bcfb20d0d0eb3c059cfd937dc0838d1",
+      "officialTitle": "2026 Qualification Match 11 - FIN District Washington Event presented by Toyota IN & VU CARA",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            9790,
+            8742,
+            6498
+          ],
+          "red": [
+            1747,
+            447,
+            2197
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "140",
+          "red": "136"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/MIBAT/qualifications/25",
+      "fetchedAt": "2026-10-22T18:06:30.209991+00:00",
+      "htmlSha256": "25004a113ddc52acae90aee08dbd42afaed3a26539b66b753834bb37f02ed2b8",
+      "officialTitle": "2026 Qualification Match 25 - FIM District Battle Creek Event presented by BlueOval Battery Park Michigan",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            9239,
+            6588,
+            4810
+          ],
+          "red": [
+            11423,
+            9205,
+            11407
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "42",
+          "red": "47"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/MIBKN/qualifications/70",
+      "fetchedAt": "2026-10-22T18:06:30.181983+00:00",
+      "htmlSha256": "33c3f9fd2c57547e90ca797725d8eb0a3de1bf1f601eb4ab87ae944e9e47a61f",
+      "officialTitle": "2026 Qualification Match 70 - FIM District Jackson at Columbia Event presented by Consumers Energy Foundation",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            4216,
+            3773,
+            5530
+          ],
+          "red": [
+            11460,
+            11386,
+            6556
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "88",
+          "red": "90"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/MILAK/playoffs/10",
+      "fetchedAt": "2026-10-22T18:06:30.198006+00:00",
+      "htmlSha256": "52dcf0064c16d53dcd4cb1bc9026f2f82c0a80f42ca77ab527587317ad4778b9",
+      "officialTitle": "2026 Playoff Match 10 (R3) - FIM District Lakeview Event",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            8126,
+            245,
+            11386
+          ],
+          "red": [
+            858,
+            3658,
+            5559
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "1 Minor • 1 Major"
+        },
+        "Foul Points": {
+          "blue": "+20",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "189",
+          "red": "187"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    },
+    {
+      "url": "https://frc-events.firstinspires.org/2026/OHCL/qualifications/6",
+      "fetchedAt": "2026-10-22T18:06:30.394469+00:00",
+      "htmlSha256": "d6c3eec683be698efbe837183527e869e167c926e7584ccb4ae9f3718d59ac19",
+      "officialTitle": "2026 Qualification Match 6 - Buckeye Regional",
+      "scorecard": {
+        "Teams": {
+          "blue": [
+            3777,
+            8145,
+            9643
+          ],
+          "red": [
+            5811,
+            10208,
+            9622
+          ]
+        },
+        "Fouls Committed": {
+          "blue": "0 Minor • 0 Major",
+          "red": "0 Minor • 0 Major"
+        },
+        "Foul Points": {
+          "blue": "+0",
+          "red": "+0"
+        },
+        "Penalties": {
+          "blue": "None",
+          "red": "None"
+        },
+        "Final Score": {
+          "blue": "19",
+          "red": "26"
+        }
+      },
+      "videoUrlsFound": [
+        "https://www.youtube.com/user/FIRSTWorldTube",
+        "https://www.twitch.tv/firstinspires"
+      ]
+    }
+  ]
+}

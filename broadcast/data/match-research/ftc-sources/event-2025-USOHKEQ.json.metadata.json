@@ -1,0 +1,7 @@
+{
+  "source": "FTCScout public REST API",
+  "url": "https://api.ftcscout.org/rest/v1/events/2025/USOHKEQ",
+  "capturedAtUtc": "2026-10-22T18:04:45.506616+00:00",
+  "httpStatus": 200,
+  "sha256": "d8a1b7f039a6a6a4266234188ce7fd6f1c9fa6637145a299cde51c0940d802a6"
+}

@@ -1,0 +1,7 @@
+{
+  "source": "FTCScout public REST API",
+  "url": "https://api.ftcscout.org/rest/v1/events/2025/USOHLOQ/matches",
+  "capturedAtUtc": "2026-10-22T18:04:47.284040+00:00",
+  "httpStatus": 200,
+  "sha256": "77b640f0b3757d3e41367a556865b9a3501352ce0fba88a867d1b1dfc6623b4b"
+}

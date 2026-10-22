@@ -1,0 +1,1336 @@
+{
+  "asOf": "2026-10-22",
+  "methodologyUrl": "match-highlights.md",
+  "policy": "Select the closest final score; equally close playoffs take priority. A different closest playoff is linked when available. Wins, losses and played ties qualify.",
+  "scoreNote": "Final scores belong to alliances and include penalties. Partners and opponents change; a close matchup does not establish a permanent rivalry.",
+  "teams": [
+    {
+      "program": "FRC",
+      "number": 1501,
+      "teamName": "Team THRUST",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season.",
+      "counts": {
+        "eligible": 60,
+        "playoff": 14
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/1501",
+      "main": {
+        "id": "2026inmis_sf11m1",
+        "eventName": "FIN District Mishawaka Event",
+        "eventCode": "INMIS",
+        "eventStartDate": "2026-03-06",
+        "eventEndDate": "2026-03-08",
+        "dateLabel": "2026-03-06–2026-03-08 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 11 (R4)",
+        "matchNumber": 11,
+        "redTeams": [
+          10434,
+          3940,
+          1501
+        ],
+        "blueTeams": [
+          7457,
+          2867,
+          4272
+        ],
+        "redScore": 218,
+        "blueScore": 221,
+        "margin": 3,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INMIS/playoffs/11",
+        "videoUrl": "https://www.youtube.com/watch?v=VGFBklDAzrE",
+        "videoTitle": "Playoffs 11 | 2026 FIN District Mishawaka Event",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 1720,
+      "teamName": "PhyXTGears",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. A different closest playoff is linked separately.",
+      "counts": {
+        "eligible": 55,
+        "playoff": 9
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/1720",
+      "main": {
+        "id": "2026incol_qm24",
+        "eventName": "FIN District Columbus Event",
+        "eventCode": "INCOL",
+        "eventStartDate": "2026-03-20",
+        "eventEndDate": "2026-03-22",
+        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 24",
+        "matchNumber": 24,
+        "redTeams": [
+          3559,
+          45,
+          1720
+        ],
+        "blueTeams": [
+          4982,
+          1018,
+          9431
+        ],
+        "redScore": 108,
+        "blueScore": 105,
+        "margin": 3,
+        "teamAlliance": "Red",
+        "outcome": "Win",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/24",
+        "videoUrl": "https://www.youtube.com/watch?v=olAjzlBnZuU",
+        "videoTitle": "Quals 24 | 2026 FIN Columbus FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": {
+        "id": "2026inwas_sf6m1",
+        "eventName": "FIN District Washington Event presented by Toyota IN & VU CARA",
+        "eventCode": "INWAS",
+        "eventStartDate": "2026-04-02",
+        "eventEndDate": "2026-04-04",
+        "dateLabel": "2026-04-02–2026-04-04 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 6 (R2)",
+        "matchNumber": 6,
+        "redTeams": [
+          9554,
+          7617,
+          1747
+        ],
+        "blueTeams": [
+          8742,
+          1720,
+          4485
+        ],
+        "redScore": 160,
+        "blueScore": 143,
+        "margin": 17,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INWAS/playoffs/6",
+        "videoUrl": "https://www.youtube.com/watch?v=RENYGmhndg8",
+        "videoTitle": "Playoffs 6 | 2026 FIN Washington FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      }
+    },
+    {
+      "program": "FRC",
+      "number": 9119,
+      "teamName": "Iron Legends",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season.",
+      "counts": {
+        "eligible": 42,
+        "playoff": 6
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/9119",
+      "main": {
+        "id": "2026incol_sf10m1",
+        "eventName": "FIN District Columbus Event",
+        "eventCode": "INCOL",
+        "eventStartDate": "2026-03-20",
+        "eventEndDate": "2026-03-22",
+        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 10 (R3)",
+        "matchNumber": 10,
+        "redTeams": [
+          45,
+          9491,
+          9119
+        ],
+        "blueTeams": [
+          868,
+          292,
+          234
+        ],
+        "redScore": 127,
+        "blueScore": 124,
+        "margin": 3,
+        "teamAlliance": "Red",
+        "outcome": "Win",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/playoffs/10",
+        "videoUrl": "https://www.youtube.com/watch?v=BEO5rK8CBAs",
+        "videoTitle": "Playoffs 10 | 2026 FIN Columbus FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 9431,
+      "teamName": "The Gold Standard",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. A different closest playoff is linked separately.",
+      "counts": {
+        "eligible": 41,
+        "playoff": 5
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/9431",
+      "main": {
+        "id": "2026incol_qm24",
+        "eventName": "FIN District Columbus Event",
+        "eventCode": "INCOL",
+        "eventStartDate": "2026-03-20",
+        "eventEndDate": "2026-03-22",
+        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 24",
+        "matchNumber": 24,
+        "redTeams": [
+          3559,
+          45,
+          1720
+        ],
+        "blueTeams": [
+          4982,
+          1018,
+          9431
+        ],
+        "redScore": 108,
+        "blueScore": 105,
+        "margin": 3,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/24",
+        "videoUrl": "https://www.youtube.com/watch?v=olAjzlBnZuU",
+        "videoTitle": "Quals 24 | 2026 FIN Columbus FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": {
+        "id": "2026inmis_sf6m1",
+        "eventName": "FIN District Mishawaka Event",
+        "eventCode": "INMIS",
+        "eventStartDate": "2026-03-06",
+        "eventEndDate": "2026-03-08",
+        "dateLabel": "2026-03-06–2026-03-08 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 6 (R2)",
+        "matchNumber": 6,
+        "redTeams": [
+          9431,
+          6721,
+          9119
+        ],
+        "blueTeams": [
+          3176,
+          135,
+          3494
+        ],
+        "redScore": 106,
+        "blueScore": 117,
+        "margin": 11,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INMIS/playoffs/6",
+        "videoUrl": "https://www.youtube.com/watch?v=I4GbUiTzZyE",
+        "videoTitle": "Playoffs 6 | 2026 FIN District Mishawaka Event",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      }
+    },
+    {
+      "program": "FRC",
+      "number": 4982,
+      "teamName": "Olympus Robotics",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season.",
+      "counts": {
+        "eligible": 49,
+        "playoff": 13
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/4982",
+      "main": {
+        "id": "2026inlaf_sf8m1",
+        "eventName": "FIN District Lafayette Event",
+        "eventCode": "INLAF",
+        "eventStartDate": "2026-03-26",
+        "eventEndDate": "2026-03-28",
+        "dateLabel": "2026-03-26–2026-03-28 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 8 (R2)",
+        "matchNumber": 8,
+        "redTeams": [
+          6956,
+          3494,
+          4272
+        ],
+        "blueTeams": [
+          461,
+          4982,
+          10021
+        ],
+        "redScore": 283,
+        "blueScore": 281,
+        "margin": 2,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INLAF/playoffs/8",
+        "videoUrl": "https://www.youtube.com/watch?v=awgnviexCt0",
+        "videoTitle": "Playoffs 8 | 2026 FIN Lafayette FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 10434,
+      "teamName": "CyBears",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season.",
+      "counts": {
+        "eligible": 48,
+        "playoff": 12
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/10434",
+      "main": {
+        "id": "2026inmis_sf11m1",
+        "eventName": "FIN District Mishawaka Event",
+        "eventCode": "INMIS",
+        "eventStartDate": "2026-03-06",
+        "eventEndDate": "2026-03-08",
+        "dateLabel": "2026-03-06–2026-03-08 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 11 (R4)",
+        "matchNumber": 11,
+        "redTeams": [
+          10434,
+          3940,
+          1501
+        ],
+        "blueTeams": [
+          7457,
+          2867,
+          4272
+        ],
+        "redScore": 218,
+        "blueScore": 221,
+        "margin": 3,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INMIS/playoffs/11",
+        "videoUrl": "https://www.youtube.com/watch?v=VGFBklDAzrE",
+        "videoTitle": "Playoffs 11 | 2026 FIN District Mishawaka Event",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 8103,
+      "teamName": "Knight Robotics",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. A different closest playoff is linked separately.",
+      "counts": {
+        "eligible": 27,
+        "playoff": 3
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/8103",
+      "main": {
+        "id": "2026incol_qm17",
+        "eventName": "FIN District Columbus Event",
+        "eventCode": "INCOL",
+        "eventStartDate": "2026-03-20",
+        "eventEndDate": "2026-03-22",
+        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 17",
+        "matchNumber": 17,
+        "redTeams": [
+          8103,
+          9491,
+          10172
+        ],
+        "blueTeams": [
+          4982,
+          4580,
+          1741
+        ],
+        "redScore": 33,
+        "blueScore": 43,
+        "margin": 10,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/17",
+        "videoUrl": "https://www.youtube.com/watch?v=R6FT3SunVq4",
+        "videoTitle": "Quals 17 | 2026 FIN Columbus FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": {
+        "id": "2026incol_sf4m1",
+        "eventName": "FIN District Columbus Event",
+        "eventCode": "INCOL",
+        "eventStartDate": "2026-03-20",
+        "eventEndDate": "2026-03-22",
+        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 4 (R1)",
+        "matchNumber": 4,
+        "redTeams": [
+          1720,
+          9431,
+          8103
+        ],
+        "blueTeams": [
+          45,
+          9491,
+          9119
+        ],
+        "redScore": 143,
+        "blueScore": 166,
+        "margin": 23,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/playoffs/4",
+        "videoUrl": "https://www.youtube.com/watch?v=d3G7kmDWP7o",
+        "videoTitle": "Playoffs 4 | 2026 FIN Columbus FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      }
+    },
+    {
+      "program": "FRC",
+      "number": 10332,
+      "teamName": "Carroll Charger Robotics",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season.",
+      "counts": {
+        "eligible": 26,
+        "playoff": 2
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/10332",
+      "main": {
+        "id": "2026inlaf_sf5m1",
+        "eventName": "FIN District Lafayette Event",
+        "eventCode": "INLAF",
+        "eventStartDate": "2026-03-26",
+        "eventEndDate": "2026-03-28",
+        "dateLabel": "2026-03-26–2026-03-28 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 5 (R2)",
+        "matchNumber": 5,
+        "redTeams": [
+          7617,
+          1555,
+          1646
+        ],
+        "blueTeams": [
+          10332,
+          5402,
+          829
+        ],
+        "redScore": 144,
+        "blueScore": 143,
+        "margin": 1,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INLAF/playoffs/5",
+        "videoUrl": "https://www.youtube.com/watch?v=1yljTlNXDUM",
+        "videoTitle": "Playoffs 5 | 2026 FIN Lafayette FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 8742,
+      "teamName": "Argyll Attack",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. A different closest playoff is linked separately.",
+      "counts": {
+        "eligible": 25,
+        "playoff": 1
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/8742",
+      "main": {
+        "id": "2026inwas_qm11",
+        "eventName": "FIN District Washington Event presented by Toyota IN & VU CARA",
+        "eventCode": "INWAS",
+        "eventStartDate": "2026-04-02",
+        "eventEndDate": "2026-04-04",
+        "dateLabel": "2026-04-02–2026-04-04 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 11",
+        "matchNumber": 11,
+        "redTeams": [
+          1747,
+          447,
+          2197
+        ],
+        "blueTeams": [
+          9790,
+          8742,
+          6498
+        ],
+        "redScore": 136,
+        "blueScore": 140,
+        "margin": 4,
+        "teamAlliance": "Blue",
+        "outcome": "Win",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INWAS/qualifications/11",
+        "videoUrl": "https://www.youtube.com/watch?v=LQt0EpMBBN8",
+        "videoTitle": "Quals 11 | 2026 FIN Washington FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": {
+        "id": "2026inwas_sf6m1",
+        "eventName": "FIN District Washington Event presented by Toyota IN & VU CARA",
+        "eventCode": "INWAS",
+        "eventStartDate": "2026-04-02",
+        "eventEndDate": "2026-04-04",
+        "dateLabel": "2026-04-02–2026-04-04 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 6 (R2)",
+        "matchNumber": 6,
+        "redTeams": [
+          9554,
+          7617,
+          1747
+        ],
+        "blueTeams": [
+          8742,
+          1720,
+          4485
+        ],
+        "redScore": 160,
+        "blueScore": 143,
+        "margin": 17,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INWAS/playoffs/6",
+        "videoUrl": "https://www.youtube.com/watch?v=RENYGmhndg8",
+        "videoTitle": "Playoffs 6 | 2026 FIN Washington FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      }
+    },
+    {
+      "program": "FRC",
+      "number": 10172,
+      "teamName": "Apex Archers",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. No played playoff match is listed in this season scope.",
+      "counts": {
+        "eligible": 24,
+        "playoff": 0
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/10172",
+      "main": {
+        "id": "2026inlaf_qm27",
+        "eventName": "FIN District Lafayette Event",
+        "eventCode": "INLAF",
+        "eventStartDate": "2026-03-26",
+        "eventEndDate": "2026-03-28",
+        "dateLabel": "2026-03-26–2026-03-28 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 27",
+        "matchNumber": 27,
+        "redTeams": [
+          4485,
+          135,
+          6956
+        ],
+        "blueTeams": [
+          1646,
+          10172,
+          7198
+        ],
+        "redScore": 108,
+        "blueScore": 102,
+        "margin": 6,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INLAF/qualifications/27",
+        "videoUrl": "https://www.youtube.com/watch?v=-vx3sFyHz3Y",
+        "videoTitle": "Quals 27 | 2026 FIN Lafayette FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 8431,
+      "teamName": "Robo-Knights",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. No played playoff match is listed in this season scope.",
+      "counts": {
+        "eligible": 24,
+        "playoff": 0
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/8431",
+      "main": {
+        "id": "2026inmis_qm71",
+        "eventName": "FIN District Mishawaka Event",
+        "eventCode": "INMIS",
+        "eventStartDate": "2026-03-06",
+        "eventEndDate": "2026-03-08",
+        "dateLabel": "2026-03-06–2026-03-08 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 71",
+        "matchNumber": 71,
+        "redTeams": [
+          8432,
+          328,
+          7477
+        ],
+        "blueTeams": [
+          1555,
+          8431,
+          9530
+        ],
+        "redScore": 66,
+        "blueScore": 64,
+        "margin": 2,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INMIS/qualifications/71",
+        "videoUrl": "https://www.youtube.com/watch?v=rO4LP-jcGqk",
+        "videoTitle": "Quals 71 | 2026 FIN District Mishawaka Event",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 10411,
+      "teamName": "G-Code Generals",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. No played playoff match is listed in this season scope.",
+      "counts": {
+        "eligible": 24,
+        "playoff": 0
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/10411",
+      "main": {
+        "id": "2026incol_qm29",
+        "eventName": "FIN District Columbus Event",
+        "eventCode": "INCOL",
+        "eventStartDate": "2026-03-20",
+        "eventEndDate": "2026-03-22",
+        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 29",
+        "matchNumber": 29,
+        "redTeams": [
+          10021,
+          10411,
+          4982
+        ],
+        "blueTeams": [
+          45,
+          4926,
+          2171
+        ],
+        "redScore": 105,
+        "blueScore": 96,
+        "margin": 9,
+        "teamAlliance": "Red",
+        "outcome": "Win",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/29",
+        "videoUrl": "https://www.youtube.com/watch?v=1zmg9zXmvOQ",
+        "videoTitle": "Quals 29 | 2026 FIN Columbus FRC",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 8432,
+      "teamName": "Cyber Knights",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. No played playoff match is listed in this season scope.",
+      "counts": {
+        "eligible": 24,
+        "playoff": 0
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/8432",
+      "main": {
+        "id": "2026inmis_qm71",
+        "eventName": "FIN District Mishawaka Event",
+        "eventCode": "INMIS",
+        "eventStartDate": "2026-03-06",
+        "eventEndDate": "2026-03-08",
+        "dateLabel": "2026-03-06–2026-03-08 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 71",
+        "matchNumber": 71,
+        "redTeams": [
+          8432,
+          328,
+          7477
+        ],
+        "blueTeams": [
+          1555,
+          8431,
+          9530
+        ],
+        "redScore": 66,
+        "blueScore": 64,
+        "margin": 2,
+        "teamAlliance": "Red",
+        "outcome": "Win",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/INMIS/qualifications/71",
+        "videoUrl": "https://www.youtube.com/watch?v=rO4LP-jcGqk",
+        "videoTitle": "Quals 71 | 2026 FIN District Mishawaka Event",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 5559,
+      "teamName": "Gear Grinders",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season.",
+      "counts": {
+        "eligible": 29,
+        "playoff": 5
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/5559",
+      "main": {
+        "id": "2026milak_sf10m1",
+        "eventName": "FIM District Lakeview Event",
+        "eventCode": "MILAK",
+        "eventStartDate": "2026-03-05",
+        "eventEndDate": "2026-03-07",
+        "dateLabel": "2026-03-05–2026-03-07 (event dates)",
+        "playedDate": null,
+        "phase": "Playoff",
+        "matchLabel": "Match 10 (R3)",
+        "matchNumber": 10,
+        "redTeams": [
+          858,
+          3658,
+          5559
+        ],
+        "blueTeams": [
+          8126,
+          245,
+          11386
+        ],
+        "redScore": 187,
+        "blueScore": 189,
+        "margin": 2,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/MILAK/playoffs/10",
+        "videoUrl": "https://www.youtube.com/watch?v=ydwtnnKmegc",
+        "videoTitle": "Match 10 (R3) - FIM District Lakeview Event",
+        "videoPublisher": "FIRSTRoboticsCompetition",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 3777,
+      "teamName": "Bean City Bots",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. No played playoff match is listed in this season scope.",
+      "counts": {
+        "eligible": 11,
+        "playoff": 0
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/3777",
+      "main": {
+        "id": "2026ohcl_qm6",
+        "eventName": "Buckeye Regional",
+        "eventCode": "OHCL",
+        "eventStartDate": "2026-03-18",
+        "eventEndDate": "2026-03-21",
+        "dateLabel": "2026-03-18–2026-03-21 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 6",
+        "matchNumber": 6,
+        "redTeams": [
+          5811,
+          10208,
+          9622
+        ],
+        "blueTeams": [
+          3777,
+          8145,
+          9643
+        ],
+        "redScore": 26,
+        "blueScore": 19,
+        "margin": 7,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/OHCL/qualifications/6",
+        "videoUrl": "https://www.youtube.com/watch?v=DRcTbfgAke0",
+        "videoTitle": "Qualification 6 - Buckeye Regional",
+        "videoPublisher": "FIRSTRoboticsCompetition",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 6556,
+      "teamName": "Spartan Robotics",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. No played playoff match is listed in this season scope.",
+      "counts": {
+        "eligible": 24,
+        "playoff": 0
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/6556",
+      "main": {
+        "id": "2026mibkn_qm70",
+        "eventName": "FIM District Jackson at Columbia Event presented by Consumers Energy Foundation",
+        "eventCode": "MIBKN",
+        "eventStartDate": "2026-03-20",
+        "eventEndDate": "2026-03-22",
+        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 70",
+        "matchNumber": 70,
+        "redTeams": [
+          11460,
+          11386,
+          6556
+        ],
+        "blueTeams": [
+          4216,
+          3773,
+          5530
+        ],
+        "redScore": 90,
+        "blueScore": 88,
+        "margin": 2,
+        "teamAlliance": "Red",
+        "outcome": "Win",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/MIBKN/qualifications/70",
+        "videoUrl": "https://www.youtube.com/watch?v=p-8qmzjMUt4",
+        "videoTitle": "Qualification 70 - FIM District Jackson at Columbia Event presented by Consumers Energy Foundation",
+        "videoPublisher": "FIRSTRoboticsCompetition",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FRC",
+      "number": 11407,
+      "teamName": "Sturgis Trojans",
+      "season": 2026,
+      "seasonLabel": "2026 REBUILT",
+      "status": "played",
+      "note": "Closest final-score match in the preserved 2026 official season. No played playoff match is listed in this season scope.",
+      "counts": {
+        "eligible": 24,
+        "playoff": 0
+      },
+      "sourceUrl": "https://frc-events.firstinspires.org/2026/team/11407",
+      "main": {
+        "id": "2026mibat_qm25",
+        "eventName": "FIM District Battle Creek Event presented by BlueOval Battery Park Michigan",
+        "eventCode": "MIBAT",
+        "eventStartDate": "2026-03-27",
+        "eventEndDate": "2026-03-29",
+        "dateLabel": "2026-03-27–2026-03-29 (event dates)",
+        "playedDate": null,
+        "phase": "Qualification",
+        "matchLabel": "Qualification 25",
+        "matchNumber": 25,
+        "redTeams": [
+          11423,
+          9205,
+          11407
+        ],
+        "blueTeams": [
+          9239,
+          6588,
+          4810
+        ],
+        "redScore": 47,
+        "blueScore": 42,
+        "margin": 5,
+        "teamAlliance": "Red",
+        "outcome": "Win",
+        "officialUrl": "https://frc-events.firstinspires.org/2026/MIBAT/qualifications/25",
+        "videoUrl": "https://www.youtube.com/watch?v=p7JdKM8cmDM",
+        "videoTitle": "Qualification 25 - FIM District Battle Creek Event presented by BlueOval Battery Park Michigan",
+        "videoPublisher": "FIRSTRoboticsCompetition",
+        "videoEvidence": "YouTube embed linked from exact TBA match result page"
+      },
+      "playoff": null
+    },
+    {
+      "program": "FTC",
+      "number": 22331,
+      "teamName": "random()",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "played",
+      "note": "Closest final-score match across all eligible played matches; the closest playoff is supplied separately when available.",
+      "counts": {
+        "eligible": 39,
+        "playoff": 11
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/22331",
+      "main": {
+        "id": "2025-USINCMP-25001",
+        "eventName": "Indiana State Championship",
+        "eventCode": "USINCMP",
+        "eventStartDate": "2026-03-14",
+        "eventEndDate": "2026-03-14",
+        "dateLabel": "2026-03-14",
+        "playedDate": "2026-03-14",
+        "phase": "Playoff",
+        "matchLabel": "Playoff Match 5",
+        "matchNumber": 5,
+        "redTeams": [
+          13414,
+          11992
+        ],
+        "blueTeams": [
+          22331,
+          11272
+        ],
+        "redScore": 142,
+        "blueScore": 138,
+        "margin": 4,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USINCMP/playoff/5/1",
+        "videoUrl": "https://www.youtube.com/watch?v=fvq4Nsd-hvY&t=23605s",
+        "videoTitle": "2026 FIN FTC State Championship (03.14.26)",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "Publisher match chapter in official FIRSTINRobotics recording description; official result page independently identifies participating teams and final score."
+      },
+      "playoff": null
+    },
+    {
+      "program": "FTC",
+      "number": 14174,
+      "teamName": "Cougar Robotics",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "played",
+      "note": "Closest final-score match across all eligible played matches; the closest playoff is supplied separately when available.",
+      "counts": {
+        "eligible": 17,
+        "playoff": 0
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/14174",
+      "main": {
+        "id": "2025-USOHLOQ-2",
+        "eventName": "Lodi Family Center Cloverleaf Qualifier",
+        "eventCode": "USOHLOQ",
+        "eventStartDate": "2026-02-13",
+        "eventEndDate": "2026-02-14",
+        "dateLabel": "2026-02-14",
+        "playedDate": "2026-02-14",
+        "phase": "Qualification",
+        "matchLabel": "Qualification 2",
+        "matchNumber": 2,
+        "redTeams": [
+          14174,
+          32228
+        ],
+        "blueTeams": [
+          4969,
+          11781
+        ],
+        "redScore": 63,
+        "blueScore": 72,
+        "margin": 9,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USOHLOQ/qualifications/2",
+        "videoUrl": null,
+        "videoTitle": null,
+        "videoPublisher": null,
+        "videoEvidence": null
+      },
+      "playoff": null
+    },
+    {
+      "program": "FTC",
+      "number": 25638,
+      "teamName": "MG (Microchips & Guac)",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "played",
+      "note": "Closest final-score match across all eligible played matches; the closest playoff is supplied separately when available.",
+      "counts": {
+        "eligible": 12,
+        "playoff": 2
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/25638",
+      "main": {
+        "id": "2025-USINSBQ-13",
+        "eventName": "South Bend QT",
+        "eventCode": "USINSBQ",
+        "eventStartDate": "2026-02-14",
+        "eventEndDate": "2026-02-14",
+        "dateLabel": "2026-02-14",
+        "playedDate": "2026-02-14",
+        "phase": "Qualification",
+        "matchLabel": "Qualification 13",
+        "matchNumber": 13,
+        "redTeams": [
+          22331,
+          24549
+        ],
+        "blueTeams": [
+          535,
+          25638
+        ],
+        "redScore": 78,
+        "blueScore": 83,
+        "margin": 5,
+        "teamAlliance": "Blue",
+        "outcome": "Win",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USINSBQ/qualifications/13",
+        "videoUrl": "https://www.youtube.com/watch?v=OXVphmaiYDo&t=10030s",
+        "videoTitle": "2026 FTC SouthBend QT (02.14.26)",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "Publisher match chapter in official FIRSTINRobotics recording description; official result page independently identifies participating teams and final score."
+      },
+      "playoff": {
+        "id": "2025-USINSBQ-26001",
+        "eventName": "South Bend QT",
+        "eventCode": "USINSBQ",
+        "eventStartDate": "2026-02-14",
+        "eventEndDate": "2026-02-14",
+        "dateLabel": "2026-02-14",
+        "playedDate": "2026-02-14",
+        "phase": "Playoff",
+        "matchLabel": "Playoff Match 6",
+        "matchNumber": 6,
+        "redTeams": [
+          21624,
+          12014
+        ],
+        "blueTeams": [
+          8272,
+          25638
+        ],
+        "redScore": 118,
+        "blueScore": 83,
+        "margin": 35,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USINSBQ/playoff/6/1",
+        "videoUrl": "https://www.youtube.com/watch?v=OXVphmaiYDo&t=21678s",
+        "videoTitle": "2026 FTC SouthBend QT (02.14.26)",
+        "videoPublisher": "FIRSTINRobotics",
+        "videoEvidence": "Publisher match chapter in official FIRSTINRobotics recording description; official result page independently identifies participating teams and final score."
+      }
+    },
+    {
+      "program": "FTC",
+      "number": 12802,
+      "teamName": "We Will Bot You",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "played",
+      "note": "Closest final-score match across all eligible played matches; the closest playoff is supplied separately when available.",
+      "counts": {
+        "eligible": 15,
+        "playoff": 0
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/12802",
+      "main": {
+        "id": "2025-USOHVWQ-5",
+        "eventName": "Van Wert Qualifier",
+        "eventCode": "USOHVWQ",
+        "eventStartDate": "2026-01-16",
+        "eventEndDate": "2026-01-17",
+        "dateLabel": "2026-01-17",
+        "playedDate": "2026-01-17",
+        "phase": "Qualification",
+        "matchLabel": "Qualification 5",
+        "matchNumber": 5,
+        "redTeams": [
+          12802,
+          28264
+        ],
+        "blueTeams": [
+          5501,
+          30687
+        ],
+        "redScore": 52,
+        "blueScore": 38,
+        "margin": 14,
+        "teamAlliance": "Red",
+        "outcome": "Win",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USOHVWQ/qualifications/5",
+        "videoUrl": null,
+        "videoTitle": null,
+        "videoPublisher": null,
+        "videoEvidence": null
+      },
+      "playoff": null
+    },
+    {
+      "program": "FTC",
+      "number": 19778,
+      "teamName": "Wire Monkeys",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "played",
+      "note": "Closest final-score match across all eligible played matches; the closest playoff is supplied separately when available.",
+      "counts": {
+        "eligible": 22,
+        "playoff": 4
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/19778",
+      "main": {
+        "id": "2025-USOHLOQ-18",
+        "eventName": "Lodi Family Center Cloverleaf Qualifier",
+        "eventCode": "USOHLOQ",
+        "eventStartDate": "2026-02-13",
+        "eventEndDate": "2026-02-14",
+        "dateLabel": "2026-02-14",
+        "playedDate": "2026-02-14",
+        "phase": "Qualification",
+        "matchLabel": "Qualification 18",
+        "matchNumber": 18,
+        "redTeams": [
+          22858,
+          8719
+        ],
+        "blueTeams": [
+          11781,
+          19778
+        ],
+        "redScore": 104,
+        "blueScore": 101,
+        "margin": 3,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USOHLOQ/qualifications/18",
+        "videoUrl": null,
+        "videoTitle": null,
+        "videoPublisher": null,
+        "videoEvidence": null
+      },
+      "playoff": {
+        "id": "2025-USOHLOQ-21001",
+        "eventName": "Lodi Family Center Cloverleaf Qualifier",
+        "eventCode": "USOHLOQ",
+        "eventStartDate": "2026-02-13",
+        "eventEndDate": "2026-02-14",
+        "dateLabel": "2026-02-14",
+        "playedDate": "2026-02-14",
+        "phase": "Playoff",
+        "matchLabel": "Playoff Match 1",
+        "matchNumber": 1,
+        "redTeams": [
+          3311,
+          4969
+        ],
+        "blueTeams": [
+          30687,
+          19778
+        ],
+        "redScore": 73,
+        "blueScore": 64,
+        "margin": 9,
+        "teamAlliance": "Blue",
+        "outcome": "Loss",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USOHLOQ/playoff/1/1",
+        "videoUrl": null,
+        "videoTitle": null,
+        "videoPublisher": null,
+        "videoEvidence": null
+      }
+    },
+    {
+      "program": "FTC",
+      "number": 5501,
+      "teamName": "VW Robotics",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "played",
+      "note": "Closest final-score match across all eligible played matches; the closest playoff is supplied separately when available.",
+      "counts": {
+        "eligible": 17,
+        "playoff": 0
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/5501",
+      "main": {
+        "id": "2025-USOHVWQ-21",
+        "eventName": "Van Wert Qualifier",
+        "eventCode": "USOHVWQ",
+        "eventStartDate": "2026-01-16",
+        "eventEndDate": "2026-01-17",
+        "dateLabel": "2026-01-17",
+        "playedDate": "2026-01-17",
+        "phase": "Qualification",
+        "matchLabel": "Qualification 21",
+        "matchNumber": 21,
+        "redTeams": [
+          12166,
+          5501
+        ],
+        "blueTeams": [
+          30782,
+          24481
+        ],
+        "redScore": 80,
+        "blueScore": 83,
+        "margin": 3,
+        "teamAlliance": "Red",
+        "outcome": "Loss",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USOHVWQ/qualifications/21",
+        "videoUrl": null,
+        "videoTitle": null,
+        "videoPublisher": null,
+        "videoEvidence": null
+      },
+      "playoff": null
+    },
+    {
+      "program": "FTC",
+      "number": 30782,
+      "teamName": "ROBO DOGS",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "played",
+      "note": "Closest final-score match across all eligible played matches; the closest playoff is supplied separately when available.",
+      "counts": {
+        "eligible": 9,
+        "playoff": 0
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/30782",
+      "main": {
+        "id": "2025-USOHVWQ-21",
+        "eventName": "Van Wert Qualifier",
+        "eventCode": "USOHVWQ",
+        "eventStartDate": "2026-01-16",
+        "eventEndDate": "2026-01-17",
+        "dateLabel": "2026-01-17",
+        "playedDate": "2026-01-17",
+        "phase": "Qualification",
+        "matchLabel": "Qualification 21",
+        "matchNumber": 21,
+        "redTeams": [
+          12166,
+          5501
+        ],
+        "blueTeams": [
+          30782,
+          24481
+        ],
+        "redScore": 80,
+        "blueScore": 83,
+        "margin": 3,
+        "teamAlliance": "Blue",
+        "outcome": "Win",
+        "officialUrl": "https://ftc-events.firstinspires.org/2025/USOHVWQ/qualifications/21",
+        "videoUrl": null,
+        "videoTitle": null,
+        "videoPublisher": null,
+        "videoEvidence": null
+      },
+      "playoff": null
+    },
+    {
+      "program": "FTC",
+      "number": 32552,
+      "teamName": "NSCC",
+      "season": 2025,
+      "seasonLabel": "2025–26 DECODE",
+      "status": "pending",
+      "note": "No eligible played 2025–26 match was returned in the preserved research; a representative match is pending.",
+      "counts": {
+        "eligible": 0,
+        "playoff": 0
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/team/32552",
+      "main": null,
+      "playoff": null
+    },
+    {
+      "program": "FTC",
+      "number": 36124,
+      "teamName": "R.Amp Robotics",
+      "season": 2026,
+      "seasonLabel": "2026–27 BIOBUZZ",
+      "status": "pending",
+      "note": "New 2026–27 team; no 2025–26 match is attributed to it. Profile to follow its first match.",
+      "counts": {
+        "eligible": 0,
+        "playoff": 0
+      },
+      "sourceUrl": "https://ftc-events.firstinspires.org/2026/team/36124",
+      "main": null,
+      "playoff": null
+    }
+  ]
+}

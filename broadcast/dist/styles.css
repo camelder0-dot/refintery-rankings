@@ -2440,3 +2440,134 @@ body.presenting { overflow: hidden; }
   #dnf-review-schools { grid-template-columns:1fr; }
 }
 @media print { .dnf-section { display:none!important; } }
+
+/* Replay links stay with the team on the broadcast frame. */
+.screen-match {
+  margin: auto 0 0;
+  padding-top: .8cqw;
+  color: #e1e7d3;
+  font-size: .94cqw;
+  line-height: 1.5;
+}
+.screen-match > span {
+  display: block;
+  color: var(--lime);
+  font-size: .7cqw;
+  font-weight: 800;
+  letter-spacing: .08cqw;
+}
+.screen-match > strong { font-size: 1.4cqw; margin-right: .3cqw; }
+.screen-match a { color: var(--lime); text-underline-offset: .2em; }
+.ftc-feature-card .screen-match {
+  padding-top: .5cqw;
+  margin: 0;
+  font-size: .78cqw;
+}
+.ftc-feature-card .screen-match > span { display: inline; margin-right: .7cqw; font-size: .6cqw; }
+.ftc-feature-card .screen-match > strong { font-size: 1.1cqw; }
+.ftc-feature-card { padding-top: .9cqw; padding-bottom: .9cqw; }
+.ftc-feature-card .ftc-feature-stat { margin-top: .5cqw; padding-top: .5cqw; }
+
+/* The film room gives viewers the final score, alliances and exact replay. */
+.film-room { margin: 30px 0 36px; }
+.film-room[hidden] { display: none; }
+.film-room-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+.film-room-heading h3 {
+  font-family: var(--condensed);
+  font-weight: 400;
+  font-size: clamp(30px, 3.2vw, 48px);
+  line-height: 1;
+  margin: 7px 0 0;
+}
+.film-room-heading > p { font-size: 12px; line-height: 1.6; margin: 0; }
+.match-grid { display: grid; grid-template-columns: 1fr; }
+.match-card { background: var(--paper); border: 1px solid var(--line); min-width: 0; }
+.match-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 24px;
+  background: var(--green);
+  color: var(--ivory);
+  font-weight: 800;
+  font-size: 12px;
+}
+.match-phase {
+  background: var(--lime);
+  color: var(--deep);
+  padding: 5px 8px;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  flex: none;
+}
+.match-card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px 32px;
+  align-items: center;
+  padding: 24px;
+}
+.match-season { font-size: 9px; font-weight: 800; letter-spacing: 1.2px; color: var(--muted); }
+.match-caption h4 { font-size: 23px; line-height: 1.15; margin: 8px 0; }
+.match-caption p { font-size: 12px; color: #52634e; line-height: 1.5; margin: 0; }
+.match-scoreboard { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; min-width: 0; }
+.match-alliance { background: #f4f3e9; padding: 12px 15px; border-top: 3px solid; min-width: 0; }
+.red-alliance { border-color: #a84332; }
+.blue-alliance { border-color: #336879; }
+.match-alliance > div { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+.match-alliance > div > span { font-size: 8px; font-weight: 800; letter-spacing: .5px; line-height: 1.5; }
+.red-alliance > div > span { color: #8b392c; }
+.blue-alliance > div > span { color: #255a6a; }
+.match-alliance > div > strong { font-family: var(--condensed); font-size: 42px; font-weight: 400; line-height: 1; }
+.match-alliance p { font-size: 11px; line-height: 1.6; margin: 10px 0 0; overflow-wrap: anywhere; }
+.match-alliance p > span { color: #8b9785; margin: 0 2px; }
+.match-alliance p > strong { background: var(--lime); padding: 3px 4px; color: var(--deep); }
+.match-outcome { display: flex; flex-direction: column; gap: 5px; }
+.match-outcome > strong { text-transform: uppercase; font-size: 15px; letter-spacing: .5px; }
+.match-outcome > span { color: #52634e; font-size: 12px; }
+.match-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
+.match-actions > a { font-size: 12px; text-underline-offset: 3px; }
+.match-actions .watch-replay { display: inline-flex; gap: 12px; align-items: center; padding: 14px 17px; background: var(--rust); color: white; text-decoration: none; font-size: 10px; font-weight: 800; letter-spacing: .8px; }
+.match-actions .watch-replay:hover { background: #964021; }
+.match-playoff { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 16px; }
+.match-playoff > summary { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; align-items: center; cursor: pointer; font-size: 10px; font-weight: 800; letter-spacing: 1px; list-style: none; }
+.match-playoff > summary::-webkit-details-marker { display: none; }
+.match-playoff > summary > strong { font-size: 11px; letter-spacing: 0; }
+.match-playoff > summary > strong > span { display: inline-block; margin-left: 15px; }
+.match-playoff[open] > summary > strong > span { transform: rotate(45deg); }
+.match-playoff > div { padding-top: 14px; max-width: 620px; }
+.match-playoff h5 { font-size: 17px; margin: 0; }
+.match-playoff p { font-size: 12px; line-height: 1.6; }
+.match-method { color: #52634e; font-size: 11px; line-height: 1.65; max-width: 900px; }
+.match-method p { margin: 12px 0 0; }
+.match-method small { display: block; margin-top: 7px; }
+.match-pending { padding: 20px 24px; border: 1px dashed #b6bca8; margin-top: 15px; }
+.match-pending h4 { margin: 8px 0; }
+.match-pending p { font-size: 12px; line-height: 1.6; margin: 0; }
+.ftc-matches { grid-template-columns: 1fr 1fr; gap: 20px; }
+.ftc-matches .match-card-body { grid-template-columns: 1fr; }
+.ftc-matches .match-caption h4 { font-size: 21px; }
+@media (max-width: 900px) {
+  .match-card-body { gap: 18px; }
+  .match-alliance { padding: 12px 10px; }
+  .match-alliance > div { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+@media (max-width: 600px) {
+  .film-room-heading { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .match-card-body, .ftc-matches { grid-template-columns: 1fr; }
+  .match-card-body { padding: 18px; }
+  .match-card-top { padding: 15px 18px; }
+  .match-alliance > div { flex-direction: row; align-items: center; }
+  .match-alliance > div > strong { font-size: 36px; }
+  .match-alliance > div > span { font-size: 7px; }
+  .match-alliance p { font-size: 10px; }
+}
+@media print { .film-room { display: none !important; } }

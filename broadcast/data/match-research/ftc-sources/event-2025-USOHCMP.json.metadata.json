@@ -1,0 +1,7 @@
+{
+  "source": "FTCScout public REST API",
+  "url": "https://api.ftcscout.org/rest/v1/events/2025/USOHCMP",
+  "capturedAtUtc": "2026-10-22T18:04:43.227595+00:00",
+  "httpStatus": 200,
+  "sha256": "ffdab8ec4e5ec078fc146218ea1c598f1ea0aae92070fa23c5eb5dd3a586f438"
+}

@@ -1,0 +1,486 @@
+{
+  "asOf": "2026-10-22T18:06:30.540026+00:00",
+  "policy": "Exact TBA match page embed association; public YouTube oEmbed verifies accessible title/publisher. No video search result treated as a replay.",
+  "records": [
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inmis_sf11m1",
+      "teams": [
+        1501,
+        10434
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inmis_sf11m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INMIS/playoffs/11",
+      "checkedAt": "2026-10-22T18:06:28.875408+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "VGFBklDAzrE",
+          "url": "https://www.youtube.com/watch?v=VGFBklDAzrE",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Playoffs 11 | 2026 FIN District Mishawaka Event",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/VGFBklDAzrE-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 11 - FIN District Mishawaka Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inmis_sf11m1.html",
+      "sha256": "ec9bef0cc6052f65ae0c882577a45f0f92fe4eb4d1d05806f3538f84903ccef5"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inwas_sf6m1",
+      "teams": [
+        1720,
+        8742
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inwas_sf6m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INWAS/playoffs/6",
+      "checkedAt": "2026-10-22T18:06:28.875798+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "RENYGmhndg8",
+          "url": "https://www.youtube.com/watch?v=RENYGmhndg8",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Playoffs 6 | 2026 FIN Washington FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/RENYGmhndg8-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 6 - FIN District Washington Event presented by Toyota IN &amp; VU CARA 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inwas_sf6m1.html",
+      "sha256": "0a62131a6fcf82a6009a717fd1eb04dbb002f06fc26b25d24ca6a407e1d68d0f"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026incol_qm24",
+      "teams": [
+        1720,
+        9431
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026incol_qm24",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/24",
+      "checkedAt": "2026-10-22T18:06:28.875972+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "olAjzlBnZuU",
+          "url": "https://www.youtube.com/watch?v=olAjzlBnZuU",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Quals 24 | 2026 FIN Columbus FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/olAjzlBnZuU-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 24 - FIN District Columbus Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026incol_qm24.html",
+      "sha256": "837b1bfec67a9662ea862f3fbbf471d1b236b1336a9c065d8b1adf25ac14408f"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026incol_sf10m1",
+      "teams": [
+        9119
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026incol_sf10m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INCOL/playoffs/10",
+      "checkedAt": "2026-10-22T18:06:28.876095+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "BEO5rK8CBAs",
+          "url": "https://www.youtube.com/watch?v=BEO5rK8CBAs",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Playoffs 10 | 2026 FIN Columbus FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/BEO5rK8CBAs-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 10 - FIN District Columbus Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026incol_sf10m1.html",
+      "sha256": "bb63d66974ebc4ddb8d80c2218f8112fe05b55baf3668484e2784973fb099071"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inmis_sf6m1",
+      "teams": [
+        9431
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inmis_sf6m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INMIS/playoffs/6",
+      "checkedAt": "2026-10-22T18:06:29.226929+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "I4GbUiTzZyE",
+          "url": "https://www.youtube.com/watch?v=I4GbUiTzZyE",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Playoffs 6 | 2026 FIN District Mishawaka Event",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/I4GbUiTzZyE-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 6 - FIN District Mishawaka Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inmis_sf6m1.html",
+      "sha256": "ca9ce81eaf691859879cd35f54900386ba5f397090501866bd4888e048db105c"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inlaf_sf8m1",
+      "teams": [
+        4982
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inlaf_sf8m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INLAF/playoffs/8",
+      "checkedAt": "2026-10-22T18:06:29.237882+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "awgnviexCt0",
+          "url": "https://www.youtube.com/watch?v=awgnviexCt0",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Playoffs 8 | 2026 FIN Lafayette FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/awgnviexCt0-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 8 - FIN District Lafayette Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inlaf_sf8m1.html",
+      "sha256": "e8488683c973b739e07c8c4225e33de25e78541e7fc36eabc908cad72ba1bc5d"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026incol_sf4m1",
+      "teams": [
+        8103
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026incol_sf4m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INCOL/playoffs/4",
+      "checkedAt": "2026-10-22T18:06:29.242800+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "d3G7kmDWP7o",
+          "url": "https://www.youtube.com/watch?v=d3G7kmDWP7o",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Playoffs 4 | 2026 FIN Columbus FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/d3G7kmDWP7o-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 4 - FIN District Columbus Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026incol_sf4m1.html",
+      "sha256": "9e50079379d118753934da44db4370a7f5744c8ee7263cb2ee3d44d29acba193"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026incol_qm17",
+      "teams": [
+        8103
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026incol_qm17",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/17",
+      "checkedAt": "2026-10-22T18:06:29.245157+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "R6FT3SunVq4",
+          "url": "https://www.youtube.com/watch?v=R6FT3SunVq4",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Quals 17 | 2026 FIN Columbus FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/R6FT3SunVq4-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 17 - FIN District Columbus Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026incol_qm17.html",
+      "sha256": "bdbc085452834e1cdc0962a86119e36f5e8b357966c06658c972b02c70cbb489"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inlaf_sf5m1",
+      "teams": [
+        10332
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inlaf_sf5m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INLAF/playoffs/5",
+      "checkedAt": "2026-10-22T18:06:29.509128+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "1yljTlNXDUM",
+          "url": "https://www.youtube.com/watch?v=1yljTlNXDUM",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Playoffs 5 | 2026 FIN Lafayette FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/1yljTlNXDUM-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 5 - FIN District Lafayette Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inlaf_sf5m1.html",
+      "sha256": "cce16d08409f7c3a271663c8cfc98ee80c8aae61349622ee33bbd8db76457fd9"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inwas_qm11",
+      "teams": [
+        8742
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inwas_qm11",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INWAS/qualifications/11",
+      "checkedAt": "2026-10-22T18:06:29.519086+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "LQt0EpMBBN8",
+          "url": "https://www.youtube.com/watch?v=LQt0EpMBBN8",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Quals 11 | 2026 FIN Washington FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/LQt0EpMBBN8-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 11 - FIN District Washington Event presented by Toyota IN &amp; VU CARA 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inwas_qm11.html",
+      "sha256": "b543031c3c3cd5768d1871f37367b2b90253545430e72810362eb5c6dd12053a"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inlaf_qm27",
+      "teams": [
+        10172
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inlaf_qm27",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INLAF/qualifications/27",
+      "checkedAt": "2026-10-22T18:06:29.643140+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "-vx3sFyHz3Y",
+          "url": "https://www.youtube.com/watch?v=-vx3sFyHz3Y",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Quals 27 | 2026 FIN Lafayette FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/-vx3sFyHz3Y-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 27 - FIN District Lafayette Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inlaf_qm27.html",
+      "sha256": "3f95ceb595ec93bc3fe82ed62323d6d0d4d12ca8b04d425d682dc67dd53ceb9c"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026inmis_qm71",
+      "teams": [
+        8431,
+        8432
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026inmis_qm71",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INMIS/qualifications/71",
+      "checkedAt": "2026-10-22T18:06:29.766190+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "rO4LP-jcGqk",
+          "url": "https://www.youtube.com/watch?v=rO4LP-jcGqk",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Quals 71 | 2026 FIN District Mishawaka Event",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/rO4LP-jcGqk-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 71 - FIN District Mishawaka Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026inmis_qm71.html",
+      "sha256": "de68dc919505b175ed348dc717d323f2f5409541744aebac8c54e80bbbd2664e"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026incol_qm29",
+      "teams": [
+        10411
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026incol_qm29",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/29",
+      "checkedAt": "2026-10-22T18:06:29.850961+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "1zmg9zXmvOQ",
+          "url": "https://www.youtube.com/watch?v=1zmg9zXmvOQ",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Quals 29 | 2026 FIN Columbus FRC",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "metadataFile": "video-sources/1zmg9zXmvOQ-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 29 - FIN District Columbus Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026incol_qm29.html",
+      "sha256": "6c7d58e05a7524d81a498a662b077028be4114c4d1d8e18efc2a1b41c068d2b3"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026milak_sf10m1",
+      "teams": [
+        5559
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026milak_sf10m1",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/MILAK/playoffs/10",
+      "checkedAt": "2026-10-22T18:06:29.922990+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "ydwtnnKmegc",
+          "url": "https://www.youtube.com/watch?v=ydwtnnKmegc",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Match 10 (R3) - FIM District Lakeview Event",
+          "author": "FIRSTRoboticsCompetition",
+          "authorUrl": "https://www.youtube.com/@FIRSTRoboticsCompetition",
+          "metadataFile": "video-sources/ydwtnnKmegc-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Playoff Match 10 - FIM District Lakeview Event 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026milak_sf10m1.html",
+      "sha256": "5588959997b759f69d9624950511819c8e9722e514088fbabd64e5168e846ecc"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026ohcl_qm6",
+      "teams": [
+        3777
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026ohcl_qm6",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/OHCL/qualifications/6",
+      "checkedAt": "2026-10-22T18:06:30.026768+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "DRcTbfgAke0",
+          "url": "https://www.youtube.com/watch?v=DRcTbfgAke0",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Qualification 6 - Buckeye Regional",
+          "author": "FIRSTRoboticsCompetition",
+          "authorUrl": "https://www.youtube.com/@FIRSTRoboticsCompetition",
+          "metadataFile": "video-sources/DRcTbfgAke0-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 6 - Buckeye Regional 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026ohcl_qm6.html",
+      "sha256": "6a99192ec81f63e7e73773e274576579091593024ab70e10f12ba1d446c4ec1a"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026mibkn_qm70",
+      "teams": [
+        6556
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026mibkn_qm70",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/MIBKN/qualifications/70",
+      "checkedAt": "2026-10-22T18:06:30.045843+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "p-8qmzjMUt4",
+          "url": "https://www.youtube.com/watch?v=p-8qmzjMUt4",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Qualification 70 - FIM District Jackson at Columbia Event presented by Consumers Energy Foundation",
+          "author": "FIRSTRoboticsCompetition",
+          "authorUrl": "https://www.youtube.com/@FIRSTRoboticsCompetition",
+          "metadataFile": "video-sources/p-8qmzjMUt4-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 70 - FIM District Jackson at Columbia Event presented by Consumers Energy Foundation 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026mibkn_qm70.html",
+      "sha256": "593a60d8f72d971830e8d4c8e737082c66cdcdce4c3084f7da27985681975b9e"
+    },
+    {
+      "program": "FRC",
+      "year": 2026,
+      "matchKey": "2026mibat_qm25",
+      "teams": [
+        11407
+      ],
+      "tbaUrl": "https://www.thebluealliance.com/match/2026mibat_qm25",
+      "officialResultsUrl": "https://frc-events.firstinspires.org/2026/MIBAT/qualifications/25",
+      "checkedAt": "2026-10-22T18:06:30.264720+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "p7JdKM8cmDM",
+          "url": "https://www.youtube.com/watch?v=p7JdKM8cmDM",
+          "evidence": "YouTube embed linked from exact TBA match result page",
+          "oembedStatus": 200,
+          "title": "Qualification 25 - FIM District Battle Creek Event presented by BlueOval Battery Park Michigan",
+          "author": "FIRSTRoboticsCompetition",
+          "authorUrl": "https://www.youtube.com/@FIRSTRoboticsCompetition",
+          "metadataFile": "video-sources/p7JdKM8cmDM-oembed.json"
+        }
+      ],
+      "httpStatus": 200,
+      "pageTitle": "Quals 25 - FIM District Battle Creek Event presented by BlueOval Battery Park Michigan 2026 - The Blue Alliance",
+      "sourceFile": "video-sources/2026mibat_qm25.html",
+      "sha256": "bf5499f305518ff91e9c5f3a301aefdf848eb49ef7c23bab32af1bc95460e9e3"
+    }
+  ]
+}

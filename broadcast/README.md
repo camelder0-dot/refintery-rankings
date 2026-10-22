@@ -18,13 +18,19 @@ Serve the static files from the repository root:
 python3 -m http.server 8765 --directory broadcast/dist
 ```
 
-Open `http://localhost:8765`. Use the on-screen controls to select a team, switch between FRC and FTC, show presenter notes, enter fullscreen, and export a 1920 × 1080 graphic. Keyboard shortcuts are listed in the interface. Auto-cycle is on by default and advances FRC teams every 12 seconds; uncheck it to stop. It pauses while the page is hidden, on FTC features, and during PNG export. The controls also link directly to the GitHub source. Presenter notes belong with the announcer; the clean frame is intended for the audience.
+Open `http://localhost:8765`. Use the on-screen controls to select a team, switch between FRC and FTC, show presenter notes, enter fullscreen, and export a 1920 × 1080 graphic. Keyboard shortcuts are listed in the interface. Auto-cycle is on by default and advances FRC teams every 12 seconds; uncheck it to stop. It pauses while the page is hidden, on FTC features, during PNG export, and while a visitor hovers or focuses in the film room or on a frame replay link. The controls also link directly to the GitHub source. Presenter notes belong with the announcer; the clean frame is intended for the audience.
 
 The [press kit](dist/press-kit.md) includes an opening script, team rundown, source qualifications, and a draft pitch. It does not send anything to a station.
 
 Ready-to-use 1920 × 1080 graphics: [FRC Top 10](dist/exports/nei-top10-2026.png), [North Side spotlight](dist/exports/team-spotlight-9119.png), and [FTC features](dist/exports/ftc-features.png). The same browser export produces each graphic; dates and role qualifications remain on screen.
 
 School marks appear before the identity text and team marks after it. List thumbnails are compact; team details and spotlights use larger images. Logos are also embedded in PNG exports. All ten FRC teams and both FTC features have verified team marks. PhyXTGears is a community team without a single school logo; R.Amp has no verified published team mark. The [logo manifest](data/logos.json) records source pages, asset URLs, retrieval dates, and checksums; [readable credits](dist/logo-credits.md) travel with the site.
+
+## Close games to watch
+
+Each featured team now has a **Watch replay** link on its broadcast profile and a **Down to the wire** card below the screen. The card shows the event, phase, final Red/Blue alliance scores, all playing team numbers, the featured team's result, and an official FIRST scorecard link. Main selections use the closest eligible final-score margin; equally close playoffs take priority. A different closest playoff is available as an alternative. Wins and losses qualify, and scores include penalties. Changing alliance opponents are a matchup rather than a claim of a permanent rivalry.
+
+The [complete match library](dist/match-highlights.md) covers all 17 FRC and 9 FTC research entries, including two pending entries without a prior-season match. All 12 played teams on the interactive screen have verified video links. FRC clips are joined to exact The Blue Alliance match pages; featured FTC replays open at official FIRSTINRobotics match chapters. [Frozen candidates, official scorecard checks, video evidence and source captures](data/match-research) make the selections inspectable. The [offline builder](scripts/build_matches.py) and [independent verifier](scripts/verify_matches.py) preserve the dated season scope and complete-field eligibility.
 
 ## What the ranking means
 

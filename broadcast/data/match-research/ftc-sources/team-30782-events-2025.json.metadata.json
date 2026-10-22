@@ -1,0 +1,7 @@
+{
+  "source": "FTCScout public REST API",
+  "url": "https://api.ftcscout.org/rest/v1/teams/30782/events/2025",
+  "capturedAtUtc": "2026-10-22T18:04:31.187358+00:00",
+  "httpStatus": 200,
+  "sha256": "341177b277a71f8bac831b0c6af946a3388826bc6123d1be1ac1c43ff4f02921"
+}

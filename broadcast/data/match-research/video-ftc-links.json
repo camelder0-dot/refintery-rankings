@@ -1,0 +1,134 @@
+{
+  "asOf": "2026-10-22T18:07:36.370831+00:00",
+  "policy": "Exact publisher-authored match chapters link into official FIRSTINRobotics full-event recordings. Timestamp positions are the published chapter starts, not guessed from wall-clock time.",
+  "records": [
+    {
+      "program": "FTC",
+      "seasonStartYear": 2025,
+      "team": 22331,
+      "eventCode": "USINWLQ2",
+      "phase": "qualification",
+      "matchNumber": 3,
+      "series": 0,
+      "matchKey": "2025-USINWLQ2-qualification-3",
+      "officialResultsUrl": "https://ftc-events.firstinspires.org/2025/USINWLQ2/qualifications/3",
+      "officialSourceFile": "video-sources/2025-USINWLQ2-qualification-3.html",
+      "officialSourceSha256": "931be98c0d827f0b5c2f138ab023ed48b93794be3af7449d9c04ab4c3ab86f99",
+      "checkedAt": "2026-10-22T18:07:36.370831+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "VQcMN3rqir4",
+          "url": "https://www.youtube.com/watch?v=VQcMN3rqir4&t=2821s",
+          "eventRecordingUrl": "https://www.youtube.com/watch?v=VQcMN3rqir4",
+          "startSeconds": 2821,
+          "timestamp": "0:47:01",
+          "chapterLabel": "Q3",
+          "title": "FIN WestLafayette#2 FTC QT (02-01-26)",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "evidence": "Publisher match chapter in official FIRSTINRobotics recording description; official result page independently identifies participating teams and final score.",
+          "metadataFile": "video-sources/VQcMN3rqir4-oembed.json",
+          "chapterSourceFile": "video-sources/VQcMN3rqir4-publisher-description.json",
+          "playabilityStatus": "OK"
+        }
+      ]
+    },
+    {
+      "program": "FTC",
+      "seasonStartYear": 2025,
+      "team": 22331,
+      "eventCode": "USINCMP",
+      "phase": "playoff",
+      "matchNumber": 1,
+      "series": 5,
+      "matchKey": "2025-USINCMP-playoff-5-1",
+      "officialResultsUrl": "https://ftc-events.firstinspires.org/2025/USINCMP/playoff/5/1",
+      "officialSourceFile": "video-sources/2025-USINCMP-playoff-5-1.html",
+      "officialSourceSha256": "0482ca45324607412ce2f8022f7a12359789a2070f89a104ad9033aff0f0c77d",
+      "checkedAt": "2026-10-22T18:07:36.370831+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "fvq4Nsd-hvY",
+          "url": "https://www.youtube.com/watch?v=fvq4Nsd-hvY&t=23605s",
+          "eventRecordingUrl": "https://www.youtube.com/watch?v=fvq4Nsd-hvY",
+          "startSeconds": 23605,
+          "timestamp": "6:33:25",
+          "chapterLabel": "P5",
+          "title": "2026 FIN FTC State Championship (03.14.26)",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "evidence": "Publisher match chapter in official FIRSTINRobotics recording description; official result page independently identifies participating teams and final score.",
+          "metadataFile": "video-sources/fvq4Nsd-hvY-oembed.json",
+          "chapterSourceFile": "video-sources/fvq4Nsd-hvY-publisher-description.json",
+          "playabilityStatus": "OK"
+        }
+      ]
+    },
+    {
+      "program": "FTC",
+      "seasonStartYear": 2025,
+      "team": 25638,
+      "eventCode": "USINSBQ",
+      "phase": "qualification",
+      "matchNumber": 13,
+      "series": 0,
+      "matchKey": "2025-USINSBQ-qualification-13",
+      "officialResultsUrl": "https://ftc-events.firstinspires.org/2025/USINSBQ/qualifications/13",
+      "officialSourceFile": "video-sources/2025-USINSBQ-qualification-13.html",
+      "officialSourceSha256": "3e8a53db056ccce5ddaaf230973e29e631d2868a5dba3ce2583ea0e2ff2a72e2",
+      "checkedAt": "2026-10-22T18:07:36.370831+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "OXVphmaiYDo",
+          "url": "https://www.youtube.com/watch?v=OXVphmaiYDo&t=10030s",
+          "eventRecordingUrl": "https://www.youtube.com/watch?v=OXVphmaiYDo",
+          "startSeconds": 10030,
+          "timestamp": "2:47:10",
+          "chapterLabel": "Q13",
+          "title": "2026 FTC SouthBend QT (02.14.26)",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "evidence": "Publisher match chapter in official FIRSTINRobotics recording description; official result page independently identifies participating teams and final score.",
+          "metadataFile": "video-sources/OXVphmaiYDo-oembed.json",
+          "chapterSourceFile": "video-sources/OXVphmaiYDo-publisher-description.json",
+          "playabilityStatus": "OK"
+        }
+      ]
+    },
+    {
+      "program": "FTC",
+      "seasonStartYear": 2025,
+      "team": 25638,
+      "eventCode": "USINSBQ",
+      "phase": "playoff",
+      "matchNumber": 1,
+      "series": 6,
+      "matchKey": "2025-USINSBQ-playoff-6-1",
+      "officialResultsUrl": "https://ftc-events.firstinspires.org/2025/USINSBQ/playoff/6/1",
+      "officialSourceFile": "video-sources/2025-USINSBQ-playoff-6-1.html",
+      "officialSourceSha256": "5caa35c6e758c647deb3d54ce80b9fd80e9c6d46c3dec54eac8c4245f4fc4455",
+      "checkedAt": "2026-10-22T18:07:36.370831+00:00",
+      "videos": [
+        {
+          "type": "youtube",
+          "id": "OXVphmaiYDo",
+          "url": "https://www.youtube.com/watch?v=OXVphmaiYDo&t=21678s",
+          "eventRecordingUrl": "https://www.youtube.com/watch?v=OXVphmaiYDo",
+          "startSeconds": 21678,
+          "timestamp": "6:01:18",
+          "chapterLabel": "P6",
+          "title": "2026 FTC SouthBend QT (02.14.26)",
+          "author": "FIRSTINRobotics",
+          "authorUrl": "https://www.youtube.com/@FIRSTINRobotics",
+          "evidence": "Publisher match chapter in official FIRSTINRobotics recording description; official result page independently identifies participating teams and final score.",
+          "metadataFile": "video-sources/OXVphmaiYDo-oembed.json",
+          "chapterSourceFile": "video-sources/OXVphmaiYDo-publisher-description.json",
+          "playabilityStatus": "OK"
+        }
+      ]
+    }
+  ]
+}

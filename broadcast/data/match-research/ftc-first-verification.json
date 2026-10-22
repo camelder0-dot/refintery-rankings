@@ -1,0 +1,142 @@
+{
+  "source": "FIRST Tech Challenge Event Web",
+  "scope": "Selected closest overall matches and separately offered closest playoff alternatives. All displayed final alliance scores and all four robot assignments agree with FTCScout.",
+  "records": [
+    {
+      "key": "2025-USINCMP-25001",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USINCMP/playoff/5/1",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:44.639894+00:00",
+      "responseSha256": "b63fed75c11dece137e2861c235e0e79d9279352a6d792c9fbbc91e9c619caf0",
+      "pageTitle": "USINCMP FTC Event Web : Lower Bracket Round 3 Match 5",
+      "redScore": 142,
+      "blueScore": 138,
+      "teams": {
+        "red1": 13414,
+        "red2": 11992,
+        "blue1": 22331,
+        "blue2": 11272
+      },
+      "matchesFtcScoutPayload": true
+    },
+    {
+      "key": "2025-USINSBQ-13",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USINSBQ/qualifications/13",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:44.895768+00:00",
+      "responseSha256": "8a63f7c7e031282810be7193c3748418be62565e909a4f6fb6bcf4717bdba166",
+      "pageTitle": "USINSBQ FTC Event Web : Qualification Match 13",
+      "redScore": 78,
+      "blueScore": 83,
+      "teams": {
+        "red1": 22331,
+        "red2": 24549,
+        "blue1": 535,
+        "blue2": 25638
+      },
+      "matchesFtcScoutPayload": true
+    },
+    {
+      "key": "2025-USINSBQ-26001",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USINSBQ/playoff/6/1",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:45.316749+00:00",
+      "responseSha256": "7ffac5a02d9a617a3fd7564b0ec5fee3403ee60bfe7cd86497a259de6140bdbc",
+      "pageTitle": "USINSBQ FTC Event Web : Lower Bracket Round 3 Match 6",
+      "redScore": 118,
+      "blueScore": 83,
+      "teams": {
+        "red1": 21624,
+        "red2": 12014,
+        "blue1": 8272,
+        "blue2": 25638
+      },
+      "matchesFtcScoutPayload": true
+    },
+    {
+      "key": "2025-USOHLOQ-2",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USOHLOQ/qualifications/2",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:45.584195+00:00",
+      "responseSha256": "3871f64a80c03a3037a1bce73bed4cbc6701063ff1f02bdd9959f8fa6b421218",
+      "pageTitle": "USOHLOQ FTC Event Web : Qualification Match 2",
+      "redScore": 63,
+      "blueScore": 72,
+      "teams": {
+        "red1": 14174,
+        "red2": 32228,
+        "blue1": 4969,
+        "blue2": 11781
+      },
+      "matchesFtcScoutPayload": true
+    },
+    {
+      "key": "2025-USOHVWQ-5",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USOHVWQ/qualifications/5",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:45.943759+00:00",
+      "responseSha256": "8f7ef1e270e4ddd2afd38af20556bc86c2bcf0e0287de3afb4f839db8ca4365f",
+      "pageTitle": "USOHVWQ FTC Event Web : Qualification Match 5",
+      "redScore": 52,
+      "blueScore": 38,
+      "teams": {
+        "red1": 12802,
+        "red2": 28264,
+        "blue1": 5501,
+        "blue2": 30687
+      },
+      "matchesFtcScoutPayload": true
+    },
+    {
+      "key": "2025-USOHLOQ-18",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USOHLOQ/qualifications/18",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:46.241157+00:00",
+      "responseSha256": "b9174dc0d114b16491a75c60fbf1347395f208ec28b348896a5e50cf93f50379",
+      "pageTitle": "USOHLOQ FTC Event Web : Qualification Match 18",
+      "redScore": 104,
+      "blueScore": 101,
+      "teams": {
+        "red1": 22858,
+        "red2": 8719,
+        "blue1": 11781,
+        "blue2": 19778
+      },
+      "matchesFtcScoutPayload": true
+    },
+    {
+      "key": "2025-USOHLOQ-21001",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USOHLOQ/playoff/1/1",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:46.579224+00:00",
+      "responseSha256": "843498f474f99f92aa8fa04d93a2851798bf7deb727479965c46b9c39d290282",
+      "pageTitle": "USOHLOQ FTC Event Web : Upper Bracket Round 1 Match 1",
+      "redScore": 73,
+      "blueScore": 64,
+      "teams": {
+        "red1": 3311,
+        "red2": 4969,
+        "blue1": 30687,
+        "blue2": 19778
+      },
+      "matchesFtcScoutPayload": true
+    },
+    {
+      "key": "2025-USOHVWQ-21",
+      "sourceUrl": "https://ftc-events.firstinspires.org/2025/USOHVWQ/qualifications/21",
+      "httpStatus": 200,
+      "retrievedAtUtc": "2026-10-22T18:07:46.832977+00:00",
+      "responseSha256": "63615fde06d680c53f9638cb96de175951f15e5b6a46f743630ecea7d13fec70",
+      "pageTitle": "USOHVWQ FTC Event Web : Qualification Match 21",
+      "redScore": 80,
+      "blueScore": 83,
+      "teams": {
+        "red1": 12166,
+        "red2": 5501,
+        "blue1": 30782,
+        "blue2": 24481
+      },
+      "matchesFtcScoutPayload": true
+    }
+  ]
+}

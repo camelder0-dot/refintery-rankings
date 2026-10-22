@@ -1,0 +1,2615 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--  PLEASE DO NOT SCRAPE WEBPAGES FOR EVENT DATA!
+We have an API that allows easy access to event and team
+data! It is easier for developers, and helps keep this server
+available for the public who are seeking basic event information.
+More info: https://frc-events.firstinspires.org/services/api
+   ____ ____ ___   ____ ______
+  / __//  _// _ \ / __//_  __/ (R)
+ / _/ _/ / / , _/_\ \   / /
+/_/  /___//_/|_|/___/  /_/
+   ___         __        __   _
+  / _ \ ___   / /  ___  / /_ (_)____ ___
+ / , _// _ \ / _ \/ _ \/ __// // __/(_-<
+/_/|_| \___//_.__/\___/\__//_/ \__//___/
+  _____                        __   _  __   _
+ / ___/___   __ _   ___  ___  / /_ (_)/ /_ (_)___   ___
+/ /__ / _ \ /  ' \ / _ \/ -_)/ __// // __// // _ \ / _ \
+\___/ \___//_/_/_// .__/\__/ \__//_/ \__//_/ \___//_//_/
+
+-->
+<head>
+    <title>
+        FRC Event Web : Team 10434 (2026)
+    </title>
+    <meta name="description" content="Information and results from FIRST Robotics Competition Team Number 10434 in the 2026 season ">
+    
+    
+        <link rel="stylesheet" href="https://frc-cdn.firstinspires.org/evtwebextfrc/app.78bef4633b63969b5204.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="sr-only" /><script>!function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["/evtwebextfrc/app.78bef4633b63969b5204.css"], "rel=\u0022stylesheet\u0022 ");</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" />
+    <link rel="icon" type="image/x-icon" href="https://frc-cdn.firstinspires.org/eventweb_common/favicon/first.ico" />
+    <link rel="apple-touch-icon" href=https://frc-cdn.firstinspires.org/eventweb_frc/apple/apple-touch-icon-72.png />
+    <link rel="apple-touch-icon" sizes="114x114" href=https://frc-cdn.firstinspires.org/eventweb_frc/apple/apple-touch-icon-114.png />
+    <link rel="apple-touch-icon" sizes="180x180" href=https://frc-cdn.firstinspires.org/eventweb_frc/apple/apple-touch-icon-180.png />
+    
+    <link rel="stylesheet" href="/FontAwesome/css/custom-icons.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/solid.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/regular.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/light.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/thin.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/duotone.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/sharp-solid.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/sharp-regular.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/sharp-thin.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/sharp-light.css" />
+    <link rel="stylesheet" href="/FontAwesome/css/brands.css" />
+
+    <script>
+        function convertUtcDateToLocal(date) {
+        if (date !== "") {
+        var convertedDate = new Date(date + " UTC");
+
+        var monthNames = ["January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+        ];
+
+        var month = monthNames[convertedDate.getMonth()];
+
+        var day = convertedDate.getDate();
+
+        var year = convertedDate.getFullYear();
+
+        var hour = convertedDate.getHours().toString();
+        if (convertedDate.getHours() < 10) hour = "0" + hour;
+
+        var minutes = convertedDate.getMinutes().toString();
+        if (convertedDate.getMinutes() < 10) minutes = "0" + minutes;
+
+        var seconds = convertedDate.getSeconds().toString();
+        if (convertedDate.getSeconds() < 10) seconds = "0" + seconds;
+
+        var regex = /\((.*)\)/;
+
+        var matches = regex.exec(convertedDate.toString());
+        var timezone = matches[0];
+
+        return month + " " + day.toString() + ", " + year + " " + hour + ":" + minutes + ":" + seconds + " " + timezone;
+        }
+        return date;
+        }
+    </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60219656-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-60219656-1');
+        </script>
+
+    <!-- Start of HubSpot Embed Code MKT -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/1747660.js"></script>
+    <!-- End of HubSpot Embed Code MKT -->
+    
+    
+        <script src="https://frc-cdn.firstinspires.org/evtwebextfrc/app.312a3b966a0c6ad61257.bundle.js"></script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022/evtwebextfrc/app.312a3b966a0c6ad61257.bundle.js\u0022\u003E\u003C/script\u003E"));</script>
+    
+    
+    <script>
+    $(document).ready(function () {
+        var tabLoaded = false;
+        showTab(window.location.hash);
+        $(".nav-tabs a").click(function () {
+            $(this).tab('show');
+            window.location.hash = this.hash;
+        });
+        $('[data-toggle="tooltip"]').tooltip();
+
+        var url = '/Teams/TeamVideos?season=2026&amp;teamNumber=10434&amp;token=MTA0MzQyOTU%3D';
+
+        $(document).on('shown.bs.tab', 'button[data-bs-toggle="tab"]', function (e) {
+			var anchor = $(e.target).attr('data-bs-target');
+            if (!tabLoaded && anchor == "#videos") {
+                $('#videoTabContent').load(url, { });
+                tabLoaded = true;//prevent multi-load
+            }
+        });
+    });
+    function showTab(hash) {
+        $('ul.nav a[href="' + hash + '"]').tab('show');
+    }
+    </script>
+ 
+</head>
+<body>
+    <script>
+        $(document).ready(function() {
+        $('[data-bs-toggle="tooltip"]').tooltip();
+        $('[data-bs-toggle="popover"]').popover();
+        });
+    </script>
+    <!-- Color Strip -->
+    <div class="color-strip">
+        <div class="fred"></div>
+        <div class="forange"></div>
+        <div class="fblue"></div>
+    </div>
+    <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="https://frc-cdn.firstinspires.org/eventweb_frc/ProgramLogos/FRC_Horz_RGB_rev_sm.png" style="max-width: 169px;"/>
+                <span class="d-none d-md-inline-block">&nbsp;&nbsp;</span>
+                <strong class="d-none d-md-inline-block">Events</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" href="#">
+                                <span>2026 Season Info</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-start">
+                                <li>
+                                    <a class="dropdown-item" href="/2026/Events/EventList">
+                                        <i class="fas fa-fw fa-calendar-alt"></i> Events
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/2026/awards">
+                                        <i class="fas fa-fw fa-award"></i> Awards
+                                    </a>
+                                </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/2026/districts">
+                                            <i class="fas fa-fw fa-globe-americas"></i> Districts
+                                        </a>
+                                    </li>
+                                <li>
+                                    <a class="dropdown-item" href="/2026/allteams">
+                                        <i class="fas fa-fw fa-users"></i> Teams
+                                    </a>
+                                </li>
+                                    <li>
+                                        <a class="dropdown-item" href=http://frc-events.firstinspires.org/ra/2026>
+                                            <i class="fas fa-fw fa-list-ol"></i> Regional Rankings
+                                        </a>
+                                    </li>
+							</ul>
+						</li>
+
+
+
+				</ul>
+                    <form class="d-flex" action="/search">
+                        <input type="hidden" name="season" value="2026" />
+                        <input type="search" class="form-control me-2" name="jump" autocomplete="off" placeholder="Team # / Event Code" width="12" maxlength="20" required>
+                        <button type="submit" class="btn btn-outline-light">Search</button>
+                    </form>
+			</div>
+		</div>
+	</nav>
+    <main role="main">
+        <div class="modal fade" id="processingModal" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content panel-warning">
+                    <div class="modal-body">
+                        <br />
+                        <div class="row d-flex text-center">
+                            <p id="processingModalMessage">Processing your request...</p>
+                        </div>
+                        <div class="row d-flex justify-content-center">
+                            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="failModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <br />
+                        <h3 class="text-danger text-center"><i class="far fa-fw fa-times-circle fa-4x"></i></h3>
+                        <br />
+                        <h3 class="text-center"><b>Whoops!</b></h3>
+                        <br />
+                        <p id="failModalTitle" class="text-center">Operation has failed. See below for more details.</p>
+                        <div id="failModalDetails" class="border text-left text-wrap overflow-auto p-2 mt-1 mb-3" style="white-space: pre-line"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="d-grid gap-2 col-10 mx-auto">
+                            <button class="btn btn-danger" data-bs-dismiss="modal" id="failModalOkBtn">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="successModal" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content panel-warning">
+                    <div class="modal-body text-center">
+                        <br />
+                        <h3 class="text-success"><i class="far fa-fw fa-check-circle fa-4x"></i></h3>
+                        <br />
+                        <h3><b>Success</b></h3>
+                        <br />
+                        <p id="successModalMessage">Operation has completed successfully!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="d-grid gap-2 col-10 mx-auto">
+                            <button class="btn btn-success" data-bs-dismiss="modal" id="successModalOkBtn">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            function ShowFailModal(message) {
+                if(message != '') {
+                    $("#failModalDetails").html(message);
+                }
+                
+                $("#failModal").modal('show');
+            }
+            
+            function HideFailModal() {
+                $("#failModal").modal('hide');
+            }
+            
+            function ShowSuccessModal(message) {
+                if (message != '') {
+                    $("#successModalMessage").html(message);
+                }
+
+                $("#successModal").modal('show');
+            }
+            
+            function HideSuccessModal() {
+                $("#successModal").modal('hide');
+            }
+            
+            function ShowProcessingModal(message) {
+                if (message != '') {
+                    $("#processingModalMessage").html(message);
+                }
+
+                $("#processingModal").modal('show');
+            }
+            
+            function HideProcessingModal() {
+                $("#processingModal").modal('hide');
+            }
+            
+            $("#successModalOkBtn").click(function () {
+                HideProcessingModal()
+            });
+            
+            $("#failModalOkBtn").click(function () {
+                HideProcessingModal()
+            });
+        </script>
+        
+        <div class="container" style="padding-left: 0; padding-right: 0; box-shadow: -12px -16px 28px 0 rgba(0,0,0,0.6),12px -16px 28px 0 rgba(0,0,0,0.6);">
+                <div class="container py-2" style="background: #eeeeee;">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-10 d-flex align-items-center">
+                            <h1 class="align-middle">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAWIQAAFiEBtq+j4gAABtdJREFUWEftln9UU1UcwOPUOdXpD0v2C0WwFAEZv0IFElMGgg6RxB9oHqMSMTNTMBM1KH9wQEUnoQEbDNjmfj82trENBjhgCGzCJAIGygb4AyxT4tfe66/u2Eu2MNFOx07n+Dnfs/Pe9u738+6933t3XzL/R7wQPzf+z2J4sBse7DL/bDSPPkS/egr+DbGpGempgft0SCsb7r8G92nRH57IPxePjo4OTjL6yy3kZh3c34L0XIG7q5GOcvh+P9KlNI/9hj76OJ5NrG1qFOam0w9vuhjvl71xLjXOEuAC3BalbIbyM/UNKvMvfYixwfzgLmKoNA/fQ1tO46nEoHNl7IKUrcs3LXVatRgXthhzImpuXpxz7hZn1o55it3zHwXno3k/fBFRVS6Ch7qRDhnSKUd669Es9sws1jU1ZCesOB/rHO5NCHTDBbk5krxwINb64qL88DEBTntD55YluNrqhZ+45ByMu91ej7RywCxYBmAaM4gl3CL69rdBrv2hhHAidoUHhuSFDV2MBZ9A/Ch2rvHlnk1WF6aJsr7kJ3pZ9Rfil3TrryJt0O/aIsR4Fc34J08SS/kM5g4XkCIjes46P9S0xhdHIuLIfoQQjz+/8XcuvpT1o1ZTJRfLxYJKCZ92IAr6/ojk6Nqz8UE/3+mHb12fXup/K27/sS132zvWdz8QNhf4JjX4EE/CAsKsYHdcpK8TyQuzxm8On0FTV8gkQnaFFFJKhBxGIfN0cv6RuKvZcZKU1fnpX6EZ7Xm8uL/PlJa4QbbLYi3cNi8mgGDt3Gpv3PseWOK8N1cQXVZ6Wnr8XfJuVblIJmDymYUCZiG7mPZTSyMjNyv/xJ6OFEfZub1ZG+eDJYfmtcFOfG9osKVBvX19GBAELpz9YSAeiJPC5kR4W7triTU+QI8PdsMseQcTuGA28/xhRmGe+Fty76FXrnwxu0J0ublWVS0X5x3aKOfkiw4ESXe5ioQ8VGDDlNjQ2dGu02jra/Z8uB7UKohof7wkwTXCG9SUI9kPtUYHOH8V5UnyIrg4vrHZ99X7qS+XpG0rzMthUym08ydZ1AuG61p1pQw6GS9OXGidKWZuFuqw4a9DPTQ0RElPXeaGDXHHJIc5Zax3jvDBBbs5RvpYRnuVFz51A/HYB8QkskfY4rdk36yU5Bws5ZTwWPQ6VbmhTavgUmWsHwopx6svZ1utIFj5FDS7DVPihw8edGhr68sY29eFgtUS5U+I9MaCCPHAAOVqIm65uyOY16NbQyj7N2fuiTmXliwr5cogrr6xVsxndbY2dbfpQIDbCgkkzT5otYo+dVWUy1CHDVPijva2gX7T+Pi4SiEND1i4bCEmeBFmnb8TmO9QLyzZDw/0vq5vnv18PWv/KuGpT8QXv1EwsjUVYi6jQK0UA2VHS2OdSi6FuPyklY+6m7nZfXh4GHXYMCUeGhocMPX2dLQlbCGHeRPIvvgNS+a874kF4sniIqzzJ3i5YPiJ7uUfv0GNfT2DPCs9dhEnO43HKKivkjfUKKUQh8cq4jLp3Hh0IwOVxbh4GhXYMyUGG3Lfja4b15tyz6VvCQ8IXoQNcsO+544Nn9wuQFmFEXHRoUFQyuqxVAfdHod7KQ6snQvolBMCFr1d19Cm1YBOC1kFRclr5YnzBQdJpSd3nPk8ZmRkBBXYY1dcg3fv3r59e6DPlEfJBJpVnhggtq6lCB880MeEBkrSyGNpDiOpDrW7XsvPSOEx6VeUEuvUCnJSBcdieckk4ZFoMaeITc8TskuMxl40uz124t+Gh42G9pttTdVS/vGv9x0/vC87K4Pk4wTEICJ9cMvc8Nz0BFXKu9Ch5ZdOJFFOn6qS8Eq5zAqIwTkWoyw4VaOUyEU8naaGx6BdUSmv61votDwwlqjABjvxY9HrW+M3RoYTJ2vbG7fU3Xnvx1s1SjGnmFacsU99NraIelGUGa8oZddWysoE7AtnTqqrKtgM+mVGEWhuMBiMRqM1lS0ziOGBVssWP9Cqqa87mvRZxJIF4D8q/gMSGEkZv8SycqSQXqOCOCXcYirtEkVXX61WKUDDiYkJHptlMpmseaYzk/iGGpwlYFOTRW9snLjT2dJyDRLwRKWQQibhc9ll4lKFvFxTV8suoWmbm6sqldTcHLAmQVuwinp6eqx5pjPTUD8cAi8PjnDm+wNIuwTu18HgeDXYhXQqzGMjSFcF0l0NDxrAg7rmq5CQDy70rS2qysrJxk9i5jm2YunxnXZ4QA+OkuZfbyE/SWGT9vdGKny3E7jN45by6b15E+y41udn5GnFKBPj5pH76Pl5dNgSYyPwvRuTvz0bzyj+93ghfm68ED83XoifE2bzH1MMQwACIv+ZAAAAAElFTkSuQmCC" alt="Team Avatar" height="60" width="60" id="teamAvatar" title="Team Avatar">&nbsp;Team 10434 - CYBEARS (2026)                            </h1>
+                        </div>
+                        <div class="hidden-xs col-sm-2">
+                                <img class="d-none d-lg-block" src="https://frc-cdn.firstinspires.org/eventweb_frc/GameLogos/2026.png" alt="Game Logo" style="max-width: 175px; max-height: 60px;" />
+                        </div>
+                    </div>
+                </div>
+            <div class="container bg-white" style="padding-bottom: 0.75rem; padding-top: 0.75rem;">
+                
+        <script>
+            $(document).ready(function () {
+                $('#teamAvatar').closest('.container').children('h1').css("margin-top", "5px");
+                $('#teamAvatar').closest('.container').children('h1').css("margin-bottom", "0px");
+                $('#teamAvatar').closest('.container').closest('jumbotron').css("margin-bottom", "10px");
+            });
+        </script>
+
+<div class="row">
+    <div class="col-lg-12">
+<script>
+	$(document).ready(function () {
+		$('.dropdown-toggle').dropdown();
+	});
+</script>
+
+<div class="row">
+	<div class="col-md-9">
+		<div class="media">
+			<div class="media-left media-middle">
+			</div>
+			<div class="media-body">
+					<h4 style="margin-bottom: -12px !important;">Northrop High School</h4><br />
+                <i class="fas fa-map-marker-alt"></i> <b><em>From: </em></b>
+                    <a href="http://maps.google.com/?q=Fort Wayne, Indiana, USA"
+                       target="_blank">Fort Wayne,&nbsp;Indiana,&nbsp;USA</a>
+				<br />
+				    <i class="fas fa-university"></i>
+					<b><em>District: </em></b>
+<a href="/2026/district/FIN">FIRST Indiana Robotics</a>					<br />
+                <i class="fas fa-star"></i> <b><em>Rookie Year: </em></b>2025<br />
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3 text-center">
+			<div class="dropdown">
+				<button id="historyDrop" type="button" class="btn btn-lg btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Other Info &nbsp;&nbsp;<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" aria-labelledby="historyDrop">
+
+						<li class="" title=""><a class="dropdown-item" href="/2027/team/10434">2027: BIOCORE&#x2122; prese...</a></li>
+						<li class="disabled" title="(Currently Viewing)"><a class="dropdown-item" href="/2026/team/10434">2026: REBUILT&#x2122; prese...</a></li>
+						<li class="" title=""><a class="dropdown-item" href="/2025/team/10434">2025: REEFSCAPE&#x2120; pre...</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+					<li><a class="dropdown-item" href="/team/10434">Team Summary</a></li>
+				</ul>
+			</div>
+	</div>
+</div>
+<br />
+<div class="row mb-3">
+	<div class="col-sm-12">
+		<br />
+        <i class="fas fa-handshake"></i> <b><em>2026 Sponsors: </em></b>BioNanomics/The REFINERY/FWCS/Argosy Foundation/BAE Systems &amp;Northrop High School <br /><br />
+        
+	</div>
+</div>
+
+
+    </div>
+</div>
+<ul class="nav nav-tabs">
+            <li class="nav-item">
+                <button class="nav-link active" data-bs-target="#INMIS" data-bs-toggle="tab">
+                    INMIS
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link " data-bs-target="#INCOL" data-bs-toggle="tab">
+                    INCOL
+                </button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link " data-bs-target="#INCMP" data-bs-toggle="tab">
+                    INCMP
+                </button>
+            </li>
+    <li class="nav-item" data-bs-toggle="tooltip" data-placement="top" title="All 2026 Awards"><button class="nav-link" data-bs-target="#awards" data-bs-toggle="tab">Awards</button></li>
+    <li class="nav-item" data-bs-toggle="tooltip" data-placement="top" title="10434 Match Videos"><button class="nav-link" data-bs-target="#videos" data-bs-toggle="tab">Videos</button></li>
+        <li class="nav-item" data-bs-toggle="tooltip" data-placement="top" title="2026 FIRST Indiana Robotics Ranking Team Detail"><button class="nav-link" data-bs-target="#district" data-bs-toggle="tab">District Ranking</button></li>
+</ul>
+
+<div class="tab-content">
+	<div id="awards" class="tab-pane fade">
+
+<br />
+<h5> Team 10434's 2026 Awards</h5>
+    <table class="table table-striped table-hover">
+        <thead>
+        <tr>
+            <th class="col-sm-6">Award</th>
+            <th class="col-sm-6">Event</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href="/2026/awards?id=611">District Event Finalist</a>
+                </td>
+                <td>
+                    <a href="/2026/INCOL" title="Winning Event">FIN District Columbus Event</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/2026/awards?id=609">District Event Winner</a>
+                </td>
+                <td>
+                    <a href="/2026/INMIS" title="Winning Event">FIN District Mishawaka Event</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <div id="videos" class="tab-pane fade">
+        <div id="videoTabContent">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <br />
+                    Loading match videos… please wait a moment
+                    <br /><br />
+                    <div class="spinner-border" style="display: inline-block; width: 3rem; height: 3rem;margin-bottom:40px;margin-top:25px;" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div id="INMIS" class="tab-pane fade show active">
+                <br />
+
+<h1 class="panel-title">FIN District Mishawaka Event</h1>
+<i>&nbsp;&nbsp;March 6 to March 8, 2026</i><br /><br />
+
+				<div class="alert alert-info" role="alert">
+					This event counted towards Team 10434's <a href="#district" onclick="showTab('#district')">District Ranking Points</a> for 2026.
+					A summary of district rankings points earned specifically at this event is shown here.
+				</div>
+				<table class="table table-striped text-center">
+					<thead>
+						<tr>
+							<th class="col-sm-2 text-center hidden-xs" title="Qualification Performance">Qualification<br />Performance</th>
+							<th class="col-sm-2 text-center" title="Alliance Selection">Alliance<br />Selection</th>
+							<th class="col-sm-2 text-center hidden-xs" title="Playoff Performance">Playoff<br />Performance</th>
+							<th class="col-sm-2 text-center" title="Awards">Awards</th>
+							<th class="col-sm-2 text-center">Event<br />Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>5</td>
+							<td>1</td>
+							<td>30</td>
+							<td>0</td>
+							<td class="keycolumn">36</td>
+						</tr>
+					</tbody>
+				</table>
+			<div class="row">
+                <div class="col-md-9">
+                    <h5>Qualification Matches</h5>
+                </div>
+                <div class="col-md-3 justify-content-end">
+                    <a href="/2026/INMIS/qualifications?team=10434"
+                       class="btn btn-primary">View Qualifications Event Page</a>
+                </div>
+			</div>
+<b>Rank:</b> 38 of 39<br />
+<b>Record: </b> 4 Wins, 8 Losses and 0 Ties - 12 Matches Played (0 Disqualifications)<br /><br />
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered text-center" id="matches">
+		<thead>
+			<tr>
+				<th class="col-2">Match</th>
+
+					<th class="col-sm-2">Start Time</th>
+<th style="white-space: nowrap">Red 1</th>
+<th style="white-space: nowrap">Red 2</th>
+<th style="white-space: nowrap">Red 3</th>
+<th style="white-space: nowrap">Blue 1</th>
+<th style="white-space: nowrap">Blue 2</th>
+<th style="white-space: nowrap">Blue 3</th>                    <th class="col-sm-1" style="white-space: nowrap">Red Final</th>
+                    <th class="col-sm-1" style="white-space: nowrap">Blue Final</th>
+			</tr>
+		</thead>
+		<tbody id="match-results" style="white-space: nowrap">
+                    <tr id="match4a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/4">Qualification 4</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 11:24 AM                        </td>
+
+        <td class="danger" id="team4_4">
+
+<a class="team-link-no-underline" href="/2026/team/9554" title="">9554</a>        </td>
+        <td class="danger" id="team5_4">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_4">
+
+<a class="team-link-no-underline" href="/2026/team/45" title="">45</a>        </td>
+
+        <td class="info" id="team1_4">
+
+<em><s><a class="team-link-no-underline" href="/2026/team/9530" title="">9530</a></s></em>        </td>
+        <td class="info" id="team2_4">
+
+<a class="team-link-no-underline" href="/2026/team/3494" title="">3494</a>        </td>
+        <td class="info" id="team3_4">
+
+<a class="team-link-no-underline" href="/2026/team/6721" title="">6721</a>        </td>
+                            <td class="text-danger fw-bold">
+29                            </td>
+                            <td class="text-primary fw-bold">
+76                            </td>
+                    </tr>
+                    <tr id="match12a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/12">Qualification 12</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 12:46 PM                        </td>
+
+        <td class="danger" id="team4_12">
+
+<a class="team-link-no-underline" href="/2026/team/5484" title="">5484</a>        </td>
+        <td class="danger" id="team5_12">
+
+<a class="team-link-no-underline" href="/2026/team/1555" title="">1555</a>        </td>
+        <td class="danger" id="team6_12">
+
+<a class="team-link-no-underline" href="/2026/team/71" title="">71</a>        </td>
+
+        <td class="info" id="team1_12">
+
+<a class="team-link-no-underline" href="/2026/team/6721" title="">6721</a>        </td>
+        <td class="info" id="team2_12">
+
+<a class="team-link-no-underline" href="/2026/team/2197" title="">2197</a>        </td>
+        <td class="info" id="team3_12">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+57                            </td>
+                            <td class="text-primary fw-bold">
+62                            </td>
+                    </tr>
+                    <tr id="match20a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/20">Qualification 20</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 2:59 PM                        </td>
+
+        <td class="danger" id="team4_20">
+
+<a class="team-link-no-underline" href="/2026/team/9453" title="">9453</a>        </td>
+        <td class="danger" id="team5_20">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="danger" id="team6_20">
+
+<a class="team-link-no-underline" href="/2026/team/8431" title="">8431</a>        </td>
+
+        <td class="info" id="team1_20">
+
+<a class="team-link-no-underline" href="/2026/team/1555" title="">1555</a>        </td>
+        <td class="info" id="team2_20">
+
+<a class="team-link-no-underline" href="/2026/team/461" title="">461</a>        </td>
+        <td class="info" id="team3_20">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+133                            </td>
+                            <td class="text-primary fw-bold">
+93                            </td>
+                    </tr>
+                    <tr id="match26a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/26">Qualification 26</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 4:07 PM                        </td>
+
+        <td class="danger" id="team4_26">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+        <td class="danger" id="team5_26">
+
+<a class="team-link-no-underline" href="/2026/team/9530" title="">9530</a>        </td>
+        <td class="danger" id="team6_26">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+
+        <td class="info" id="team1_26">
+
+<a class="team-link-no-underline" href="/2026/team/5402" title="">5402</a>        </td>
+        <td class="info" id="team2_26">
+
+<a class="team-link-no-underline" href="/2026/team/8103" title="">8103</a>        </td>
+        <td class="info" id="team3_26">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+127                            </td>
+                            <td class="text-primary fw-bold">
+87                            </td>
+                    </tr>
+                    <tr id="match32a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/32">Qualification 32</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 5:08 PM                        </td>
+
+        <td class="danger" id="team4_32">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_32">
+
+<a class="team-link-no-underline" href="/2026/team/7477" title="">7477</a>        </td>
+        <td class="danger" id="team6_32">
+
+<a class="team-link-no-underline" href="/2026/team/3147" title="">3147</a>        </td>
+
+        <td class="info" id="team1_32">
+
+<a class="team-link-no-underline" href="/2026/team/8103" title="">8103</a>        </td>
+        <td class="info" id="team2_32">
+
+<a class="team-link-no-underline" href="/2026/team/829" title="">829</a>        </td>
+        <td class="info" id="team3_32">
+
+<a class="team-link-no-underline" href="/2026/team/2197" title="">2197</a>        </td>
+                            <td class="text-danger fw-bold">
+37                            </td>
+                            <td class="text-primary fw-bold">
+110                            </td>
+                    </tr>
+                    <tr id="match37a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/37">Qualification 37</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 5:55 PM                        </td>
+
+        <td class="danger" id="team4_37">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_37">
+
+<a class="team-link-no-underline" href="/2026/team/8431" title="">8431</a>        </td>
+        <td class="danger" id="team6_37">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+
+        <td class="info" id="team1_37">
+
+<a class="team-link-no-underline" href="/2026/team/1646" title="">1646</a>        </td>
+        <td class="info" id="team2_37">
+
+<a class="team-link-no-underline" href="/2026/team/4272" title="">4272</a>        </td>
+        <td class="info" id="team3_37">
+
+<a class="team-link-no-underline" href="/2026/team/6721" title="">6721</a>        </td>
+                            <td class="text-danger fw-bold">
+181                            </td>
+                            <td class="text-primary fw-bold">
+221                            </td>
+                    </tr>
+                    <tr id="match41a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/41">Qualification 41</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 6:32 PM                        </td>
+
+        <td class="danger" id="team4_41">
+
+<a class="team-link-no-underline" href="/2026/team/45" title="">45</a>        </td>
+        <td class="danger" id="team5_41">
+
+<a class="team-link-no-underline" href="/2026/team/9453" title="">9453</a>        </td>
+        <td class="danger" id="team6_41">
+
+<a class="team-link-no-underline" href="/2026/team/8432" title="">8432</a>        </td>
+
+        <td class="info" id="team1_41">
+
+<a class="team-link-no-underline" href="/2026/team/2867" title="">2867</a>        </td>
+        <td class="info" id="team2_41">
+
+<a class="team-link-no-underline" href="/2026/team/5484" title="">5484</a>        </td>
+        <td class="info" id="team3_41">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+52                            </td>
+                            <td class="text-primary fw-bold">
+92                            </td>
+                    </tr>
+                    <tr id="match47a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/47">Qualification 47</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/7 - 7:29 PM                        </td>
+
+        <td class="danger" id="team4_47">
+
+<a class="team-link-no-underline" href="/2026/team/9431" title="">9431</a>        </td>
+        <td class="danger" id="team5_47">
+
+<a class="team-link-no-underline" href="/2026/team/9453" title="">9453</a>        </td>
+        <td class="danger" id="team6_47">
+
+<a class="team-link-no-underline" href="/2026/team/3176" title="">3176</a>        </td>
+
+        <td class="info" id="team1_47">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_47">
+
+<a class="team-link-no-underline" href="/2026/team/8432" title="">8432</a>        </td>
+        <td class="info" id="team3_47">
+
+<a class="team-link-no-underline" href="/2026/team/447" title="">447</a>        </td>
+                            <td class="text-danger fw-bold">
+113                            </td>
+                            <td class="text-primary fw-bold">
+35                            </td>
+                    </tr>
+                    <tr id="match54a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/54">Qualification 54</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 3/8 - 9:33 AM                        </td>
+
+        <td class="danger" id="team4_54">
+
+<a class="team-link-no-underline" href="/2026/team/9530" title="">9530</a>        </td>
+        <td class="danger" id="team5_54">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_54">
+
+<a class="team-link-no-underline" href="/2026/team/829" title="">829</a>        </td>
+
+        <td class="info" id="team1_54">
+
+<a class="team-link-no-underline" href="/2026/team/3147" title="">3147</a>        </td>
+        <td class="info" id="team2_54">
+
+<a class="team-link-no-underline" href="/2026/team/5402" title="">5402</a>        </td>
+        <td class="info" id="team3_54">
+
+<a class="team-link-no-underline" href="/2026/team/3176" title="">3176</a>        </td>
+                            <td class="text-danger fw-bold">
+100                            </td>
+                            <td class="text-primary fw-bold">
+217                            </td>
+                    </tr>
+                    <tr id="match62a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/62">Qualification 62</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 3/8 - 10:51 AM                        </td>
+
+        <td class="danger" id="team4_62">
+
+<a class="team-link-no-underline" href="/2026/team/3936" title="">3936</a>        </td>
+        <td class="danger" id="team5_62">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_62">
+
+<a class="team-link-no-underline" href="/2026/team/3865" title="">3865</a>        </td>
+
+        <td class="info" id="team1_62">
+
+<a class="team-link-no-underline" href="/2026/team/7477" title="">7477</a>        </td>
+        <td class="info" id="team2_62">
+
+<a class="team-link-no-underline" href="/2026/team/9119" title="">9119</a>        </td>
+        <td class="info" id="team3_62">
+
+<a class="team-link-no-underline" href="/2026/team/135" title="">135</a>        </td>
+                            <td class="text-danger fw-bold">
+55                            </td>
+                            <td class="text-primary fw-bold">
+65                            </td>
+                    </tr>
+                    <tr id="match67a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/67">Qualification 67</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 3/8 - 11:34 AM                        </td>
+
+        <td class="danger" id="team4_67">
+
+<a class="team-link-no-underline" href="/2026/team/71" title="">71</a>        </td>
+        <td class="danger" id="team5_67">
+
+<em><s><a class="team-link-no-underline" href="/2026/team/10332" title="">10332</a></s></em>        </td>
+        <td class="danger" id="team6_67">
+
+<a class="team-link-no-underline" href="/2026/team/3936" title="">3936</a>        </td>
+
+        <td class="info" id="team1_67">
+
+<a class="team-link-no-underline" href="/2026/team/10411" title="">10411</a>        </td>
+        <td class="info" id="team2_67">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team3_67">
+
+<a class="team-link-no-underline" href="/2026/team/1646" title="">1646</a>        </td>
+                            <td class="text-danger fw-bold">
+47                            </td>
+                            <td class="text-primary fw-bold">
+106                            </td>
+                    </tr>
+                    <tr id="match74a">
+                        <td class="col-2">
+                                    <a href="/2026/INMIS/qualifications/74">Qualification 74</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 3/8 - 12:39 PM                        </td>
+
+        <td class="danger" id="team4_74">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_74">
+
+<a class="team-link-no-underline" href="/2026/team/9431" title="">9431</a>        </td>
+        <td class="danger" id="team6_74">
+
+<a class="team-link-no-underline" href="/2026/team/9071" title="">9071</a>        </td>
+
+        <td class="info" id="team1_74">
+
+<a class="team-link-no-underline" href="/2026/team/10332" title="">10332</a>        </td>
+        <td class="info" id="team2_74">
+
+<a class="team-link-no-underline" href="/2026/team/3865" title="">3865</a>        </td>
+        <td class="info" id="team3_74">
+
+<a class="team-link-no-underline" href="/2026/team/8103" title="">8103</a>        </td>
+                            <td class="text-danger fw-bold">
+73                            </td>
+                            <td class="text-primary fw-bold">
+51                            </td>
+                    </tr>
+		</tbody>
+	</table>
+</div>		<div class="row">
+            <div class="col-md-9">
+                <h5>Playoff Matches</h5>
+            </div>
+            <div class="col-md-3 justify-content-end">
+                    <a href="/2026/INMIS/playoffs?team=10434"
+                       class="btn btn-primary">View Playoffs Event Page</a>
+            </div>
+		</div>
+<b>Record: </b> 0 Wins and 0 Losses<br /><b>Alliance Selection: </b> Round 2 of Alliance 1 <br /><br />
+
+<div class="table-responsive">
+    <table class="table  table-hover table-bordered text-center" id="matches">
+		<thead>
+			<tr>
+				<th class="col-2">Match</th>
+
+					<th class="col-sm-2">Start Time</th>
+<th style="white-space: nowrap">Red 1</th>
+<th style="white-space: nowrap">Red 2</th>
+<th style="white-space: nowrap">Red 3</th>
+<th style="white-space: nowrap">Blue 1</th>
+<th style="white-space: nowrap">Blue 2</th>
+<th style="white-space: nowrap">Blue 3</th>                    <th class="col-sm-1" style="white-space: nowrap">Red Final</th>
+                    <th class="col-sm-1" style="white-space: nowrap">Blue Final</th>
+			</tr>
+		</thead>
+		<tbody id="match-results" style="white-space: nowrap">
+                    <tr id="match1a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INMIS/playoffs/1">Match 1 (R1)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+Sun 3/8 - 2:40 PM                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 8
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                359
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                101
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_1">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_1">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+        <td class="danger" id="team6_1">
+
+<a class="team-link-no-underline" href="/2026/team/1501" title="">1501</a>        </td>
+
+        <td class="info" id="team1_1">
+
+<a class="team-link-no-underline" href="/2026/team/1646" title="">1646</a>        </td>
+        <td class="info" id="team2_1">
+
+<a class="team-link-no-underline" href="/2026/team/328" title="">328</a>        </td>
+        <td class="info" id="team3_1">
+
+<a class="team-link-no-underline" href="/2026/team/5484" title="">5484</a>        </td>
+                    </tr>
+                    <tr id="match7a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INMIS/playoffs/7">Match 7 (R2)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 5
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                337
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                171
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_7">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_7">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+        <td class="danger" id="team6_7">
+
+<a class="team-link-no-underline" href="/2026/team/1501" title="">1501</a>        </td>
+
+        <td class="info" id="team1_7">
+
+<a class="team-link-no-underline" href="/2026/team/447" title="">447</a>        </td>
+        <td class="info" id="team2_7">
+
+<a class="team-link-no-underline" href="/2026/team/45" title="">45</a>        </td>
+        <td class="info" id="team3_7">
+
+<a class="team-link-no-underline" href="/2026/team/829" title="">829</a>        </td>
+                    </tr>
+                    <tr id="match11a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INMIS/playoffs/11">Match 11 (R4)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                218
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                221
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_11">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_11">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+        <td class="danger" id="team6_11">
+
+<a class="team-link-no-underline" href="/2026/team/1501" title="">1501</a>        </td>
+
+        <td class="info" id="team1_11">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+        <td class="info" id="team2_11">
+
+<a class="team-link-no-underline" href="/2026/team/2867" title="">2867</a>        </td>
+        <td class="info" id="team3_11">
+
+<a class="team-link-no-underline" href="/2026/team/4272" title="">4272</a>        </td>
+                    </tr>
+                    <tr id="match13a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INMIS/playoffs/13">Match 13 (R5)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 5
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                257
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                183
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_13">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_13">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+        <td class="danger" id="team6_13">
+
+<a class="team-link-no-underline" href="/2026/team/1501" title="">1501</a>        </td>
+
+        <td class="info" id="team1_13">
+
+<a class="team-link-no-underline" href="/2026/team/447" title="">447</a>        </td>
+        <td class="info" id="team2_13">
+
+<a class="team-link-no-underline" href="/2026/team/829" title="">829</a>        </td>
+        <td class="info" id="team3_13">
+
+<a class="team-link-no-underline" href="/2026/team/45" title="">45</a>        </td>
+                    </tr>
+                    <tr id="match14a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INMIS/playoffs/14">Final 1</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                296
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                326
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_14">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+        <td class="danger" id="team5_14">
+
+<a class="team-link-no-underline" href="/2026/team/2867" title="">2867</a>        </td>
+        <td class="danger" id="team6_14">
+
+<a class="team-link-no-underline" href="/2026/team/4272" title="">4272</a>        </td>
+
+        <td class="info" id="team1_14">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_14">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+        <td class="info" id="team3_14">
+
+<a class="team-link-no-underline" href="/2026/team/1501" title="">1501</a>        </td>
+                    </tr>
+                    <tr id="match15a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INMIS/playoffs/15">Final 2</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                91
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                184
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_15">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+        <td class="danger" id="team5_15">
+
+<a class="team-link-no-underline" href="/2026/team/2867" title="">2867</a>        </td>
+        <td class="danger" id="team6_15">
+
+<a class="team-link-no-underline" href="/2026/team/4272" title="">4272</a>        </td>
+
+        <td class="info" id="team1_15">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_15">
+
+<a class="team-link-no-underline" href="/2026/team/1501" title="">1501</a>        </td>
+        <td class="info" id="team3_15">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+                    </tr>
+		</tbody>
+	</table>
+</div>            </div>
+            <div id="INCOL" class="tab-pane fade ">
+                <br />
+
+<h1 class="panel-title">FIN District Columbus Event</h1>
+<i>&nbsp;&nbsp;March 20 to March 22, 2026</i><br /><br />
+
+				<div class="alert alert-info" role="alert">
+					This event counted towards Team 10434's <a href="#district" onclick="showTab('#district')">District Ranking Points</a> for 2026.
+					A summary of district rankings points earned specifically at this event is shown here.
+				</div>
+				<table class="table table-striped text-center">
+					<thead>
+						<tr>
+							<th class="col-sm-2 text-center hidden-xs" title="Qualification Performance">Qualification<br />Performance</th>
+							<th class="col-sm-2 text-center" title="Alliance Selection">Alliance<br />Selection</th>
+							<th class="col-sm-2 text-center hidden-xs" title="Playoff Performance">Playoff<br />Performance</th>
+							<th class="col-sm-2 text-center" title="Awards">Awards</th>
+							<th class="col-sm-2 text-center">Event<br />Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>10</td>
+							<td>2</td>
+							<td>20</td>
+							<td>0</td>
+							<td class="keycolumn">32</td>
+						</tr>
+					</tbody>
+				</table>
+			<div class="row">
+                <div class="col-md-9">
+                    <h5>Qualification Matches</h5>
+                </div>
+                <div class="col-md-3 justify-content-end">
+                    <a href="/2026/INCOL/qualifications?team=10434"
+                       class="btn btn-primary">View Qualifications Event Page</a>
+                </div>
+			</div>
+<b>Rank:</b> 26 of 37<br />
+<b>Record: </b> 5 Wins, 7 Losses and 0 Ties - 12 Matches Played (0 Disqualifications)<br /><br />
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered text-center" id="matches">
+		<thead>
+			<tr>
+				<th class="col-2">Match</th>
+
+					<th class="col-sm-2">Start Time</th>
+<th style="white-space: nowrap">Red 1</th>
+<th style="white-space: nowrap">Red 2</th>
+<th style="white-space: nowrap">Red 3</th>
+<th style="white-space: nowrap">Blue 1</th>
+<th style="white-space: nowrap">Blue 2</th>
+<th style="white-space: nowrap">Blue 3</th>                    <th class="col-sm-1" style="white-space: nowrap">Red Final</th>
+                    <th class="col-sm-1" style="white-space: nowrap">Blue Final</th>
+			</tr>
+		</thead>
+		<tbody id="match-results" style="white-space: nowrap">
+                    <tr id="match4a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/4">Qualification 4</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 11:21 AM                        </td>
+
+        <td class="danger" id="team4_4">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="danger" id="team5_4">
+
+<a class="team-link-no-underline" href="/2026/team/3559" title="">3559</a>        </td>
+        <td class="danger" id="team6_4">
+
+<a class="team-link-no-underline" href="/2026/team/9491" title="">9491</a>        </td>
+
+        <td class="info" id="team1_4">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_4">
+
+<a class="team-link-no-underline" href="/2026/team/292" title="">292</a>        </td>
+        <td class="info" id="team3_4">
+
+<a class="team-link-no-underline" href="/2026/team/8431" title="">8431</a>        </td>
+                            <td class="text-danger fw-bold">
+56                            </td>
+                            <td class="text-primary fw-bold">
+77                            </td>
+                    </tr>
+                    <tr id="match12a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/12">Qualification 12</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 12:35 PM                        </td>
+
+        <td class="danger" id="team4_12">
+
+<a class="team-link-no-underline" href="/2026/team/9431" title="">9431</a>        </td>
+        <td class="danger" id="team5_12">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_12">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+
+        <td class="info" id="team1_12">
+
+<a class="team-link-no-underline" href="/2026/team/7657" title="">7657</a>        </td>
+        <td class="info" id="team2_12">
+
+<a class="team-link-no-underline" href="/2026/team/3487" title="">3487</a>        </td>
+        <td class="info" id="team3_12">
+
+<a class="team-link-no-underline" href="/2026/team/1741" title="">1741</a>        </td>
+                            <td class="text-danger fw-bold">
+172                            </td>
+                            <td class="text-primary fw-bold">
+30                            </td>
+                    </tr>
+                    <tr id="match18a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/18">Qualification 18</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 2:32 PM                        </td>
+
+        <td class="danger" id="team4_18">
+
+<a class="team-link-no-underline" href="/2026/team/1747" title="">1747</a>        </td>
+        <td class="danger" id="team5_18">
+
+<a class="team-link-no-underline" href="/2026/team/761" title="">761</a>        </td>
+        <td class="danger" id="team6_18">
+
+<a class="team-link-no-underline" href="/2026/team/7657" title="">7657</a>        </td>
+
+        <td class="info" id="team1_18">
+
+<a class="team-link-no-underline" href="/2026/team/3559" title="">3559</a>        </td>
+        <td class="info" id="team2_18">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team3_18">
+
+<a class="team-link-no-underline" href="/2026/team/8116" title="">8116</a>        </td>
+                            <td class="text-danger fw-bold">
+84                            </td>
+                            <td class="text-primary fw-bold">
+127                            </td>
+                    </tr>
+                    <tr id="match22a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/22">Qualification 22</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 3:08 PM                        </td>
+
+        <td class="danger" id="team4_22">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_22">
+
+<a class="team-link-no-underline" href="/2026/team/1747" title="">1747</a>        </td>
+        <td class="danger" id="team6_22">
+
+<a class="team-link-no-underline" href="/2026/team/10172" title="">10172</a>        </td>
+
+        <td class="info" id="team1_22">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="info" id="team2_22">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="info" id="team3_22">
+
+<a class="team-link-no-underline" href="/2026/team/3147" title="">3147</a>        </td>
+                            <td class="text-danger fw-bold">
+49                            </td>
+                            <td class="text-primary fw-bold">
+209                            </td>
+                    </tr>
+                    <tr id="match26a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/26">Qualification 26</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 3:45 PM                        </td>
+
+        <td class="danger" id="team4_26">
+
+<a class="team-link-no-underline" href="/2026/team/9790" title="">9790</a>        </td>
+        <td class="danger" id="team5_26">
+
+<a class="team-link-no-underline" href="/2026/team/868" title="">868</a>        </td>
+        <td class="danger" id="team6_26">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+
+        <td class="info" id="team1_26">
+
+<a class="team-link-no-underline" href="/2026/team/1747" title="">1747</a>        </td>
+        <td class="info" id="team2_26">
+
+<a class="team-link-no-underline" href="/2026/team/5188" title="">5188</a>        </td>
+        <td class="info" id="team3_26">
+
+<a class="team-link-no-underline" href="/2026/team/8432" title="">8432</a>        </td>
+                            <td class="text-danger fw-bold">
+56                            </td>
+                            <td class="text-primary fw-bold">
+44                            </td>
+                    </tr>
+                    <tr id="match37a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/37">Qualification 37</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 5:23 PM                        </td>
+
+        <td class="danger" id="team4_37">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+        <td class="danger" id="team5_37">
+
+<a class="team-link-no-underline" href="/2026/team/10172" title="">10172</a>        </td>
+        <td class="danger" id="team6_37">
+
+<a class="team-link-no-underline" href="/2026/team/1720" title="">1720</a>        </td>
+
+        <td class="info" id="team1_37">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_37">
+
+<a class="team-link-no-underline" href="/2026/team/4926" title="">4926</a>        </td>
+        <td class="info" id="team3_37">
+
+<a class="team-link-no-underline" href="/2026/team/4580" title="">4580</a>        </td>
+                            <td class="text-danger fw-bold">
+203                            </td>
+                            <td class="text-primary fw-bold">
+40                            </td>
+                    </tr>
+                    <tr id="match43a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/43">Qualification 43</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 6:13 PM                        </td>
+
+        <td class="danger" id="team4_43">
+
+<a class="team-link-no-underline" href="/2026/team/9431" title="">9431</a>        </td>
+        <td class="danger" id="team5_43">
+
+<a class="team-link-no-underline" href="/2026/team/2171" title="">2171</a>        </td>
+        <td class="danger" id="team6_43">
+
+<a class="team-link-no-underline" href="/2026/team/9119" title="">9119</a>        </td>
+
+        <td class="info" id="team1_43">
+
+<a class="team-link-no-underline" href="/2026/team/234" title="">234</a>        </td>
+        <td class="info" id="team2_43">
+
+<a class="team-link-no-underline" href="/2026/team/9491" title="">9491</a>        </td>
+        <td class="info" id="team3_43">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+182                            </td>
+                            <td class="text-primary fw-bold">
+155                            </td>
+                    </tr>
+                    <tr id="match47a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/47">Qualification 47</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 6:43 PM                        </td>
+
+        <td class="danger" id="team4_47">
+
+<a class="team-link-no-underline" href="/2026/team/868" title="">868</a>        </td>
+        <td class="danger" id="team5_47">
+
+<a class="team-link-no-underline" href="/2026/team/8116" title="">8116</a>        </td>
+        <td class="danger" id="team6_47">
+
+<a class="team-link-no-underline" href="/2026/team/1018" title="">1018</a>        </td>
+
+        <td class="info" id="team1_47">
+
+<a class="team-link-no-underline" href="/2026/team/9119" title="">9119</a>        </td>
+        <td class="info" id="team2_47">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="info" id="team3_47">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+122                            </td>
+                            <td class="text-primary fw-bold">
+144                            </td>
+                    </tr>
+                    <tr id="match51a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/51">Qualification 51</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 7:15 PM                        </td>
+
+        <td class="danger" id="team4_51">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="danger" id="team5_51">
+
+<a class="team-link-no-underline" href="/2026/team/8103" title="">8103</a>        </td>
+        <td class="danger" id="team6_51">
+
+<a class="team-link-no-underline" href="/2026/team/1018" title="">1018</a>        </td>
+
+        <td class="info" id="team1_51">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_51">
+
+<a class="team-link-no-underline" href="/2026/team/1720" title="">1720</a>        </td>
+        <td class="info" id="team3_51">
+
+<a class="team-link-no-underline" href="/2026/team/5188" title="">5188</a>        </td>
+                            <td class="text-danger fw-bold">
+134                            </td>
+                            <td class="text-primary fw-bold">
+36                            </td>
+                    </tr>
+                    <tr id="match58a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/58">Qualification 58</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 3/21 - 8:11 PM                        </td>
+
+        <td class="danger" id="team4_58">
+
+<a class="team-link-no-underline" href="/2026/team/8431" title="">8431</a>        </td>
+        <td class="danger" id="team5_58">
+
+<a class="team-link-no-underline" href="/2026/team/9790" title="">9790</a>        </td>
+        <td class="danger" id="team6_58">
+
+<a class="team-link-no-underline" href="/2026/team/234" title="">234</a>        </td>
+
+        <td class="info" id="team1_58">
+
+<a class="team-link-no-underline" href="/2026/team/2171" title="">2171</a>        </td>
+        <td class="info" id="team2_58">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team3_58">
+
+<a class="team-link-no-underline" href="/2026/team/8103" title="">8103</a>        </td>
+                            <td class="text-danger fw-bold">
+127                            </td>
+                            <td class="text-primary fw-bold">
+68                            </td>
+                    </tr>
+                    <tr id="match62a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/62">Qualification 62</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 3/22 - 9:50 AM                        </td>
+
+        <td class="danger" id="team4_62">
+
+<a class="team-link-no-underline" href="/2026/team/8430" title="">8430</a>        </td>
+        <td class="danger" id="team5_62">
+
+<a class="team-link-no-underline" href="/2026/team/6498" title="">6498</a>        </td>
+        <td class="danger" id="team6_62">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+
+        <td class="info" id="team1_62">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+        <td class="info" id="team2_62">
+
+<a class="team-link-no-underline" href="/2026/team/4926" title="">4926</a>        </td>
+        <td class="info" id="team3_62">
+
+<a class="team-link-no-underline" href="/2026/team/4982" title="">4982</a>        </td>
+                            <td class="text-danger fw-bold">
+79                            </td>
+                            <td class="text-primary fw-bold">
+132                            </td>
+                    </tr>
+                    <tr id="match71a">
+                        <td class="col-2">
+                                    <a href="/2026/INCOL/qualifications/71">Qualification 71</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 3/22 - 11:18 AM                        </td>
+
+        <td class="danger" id="team4_71">
+
+<a class="team-link-no-underline" href="/2026/team/1018" title="">1018</a>        </td>
+        <td class="danger" id="team5_71">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_71">
+
+<a class="team-link-no-underline" href="/2026/team/7657" title="">7657</a>        </td>
+
+        <td class="info" id="team1_71">
+
+<a class="team-link-no-underline" href="/2026/team/1720" title="">1720</a>        </td>
+        <td class="info" id="team2_71">
+
+<a class="team-link-no-underline" href="/2026/team/6956" title="">6956</a>        </td>
+        <td class="info" id="team3_71">
+
+<a class="team-link-no-underline" href="/2026/team/8103" title="">8103</a>        </td>
+                            <td class="text-danger fw-bold">
+58                            </td>
+                            <td class="text-primary fw-bold">
+163                            </td>
+                    </tr>
+		</tbody>
+	</table>
+</div>		<div class="row">
+            <div class="col-md-9">
+                <h5>Playoff Matches</h5>
+            </div>
+            <div class="col-md-3 justify-content-end">
+                    <a href="/2026/INCOL/playoffs?team=10434"
+                       class="btn btn-primary">View Playoffs Event Page</a>
+            </div>
+		</div>
+<b>Record: </b> 0 Wins and 0 Losses<br /><b>Alliance Selection: </b> Round 2 of Alliance 2 <br /><br />
+
+<div class="table-responsive">
+    <table class="table  table-hover table-bordered text-center" id="matches">
+		<thead>
+			<tr>
+				<th class="col-2">Match</th>
+
+					<th class="col-sm-2">Start Time</th>
+<th style="white-space: nowrap">Red 1</th>
+<th style="white-space: nowrap">Red 2</th>
+<th style="white-space: nowrap">Red 3</th>
+<th style="white-space: nowrap">Blue 1</th>
+<th style="white-space: nowrap">Blue 2</th>
+<th style="white-space: nowrap">Blue 3</th>                    <th class="col-sm-1" style="white-space: nowrap">Red Final</th>
+                    <th class="col-sm-1" style="white-space: nowrap">Blue Final</th>
+			</tr>
+		</thead>
+		<tbody id="match-results" style="white-space: nowrap">
+                    <tr id="match3a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INCOL/playoffs/3">Match 3 (R1)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+Sun 3/22 - 2:19 PM                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 7
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                337
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                71
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_3">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_3">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="danger" id="team6_3">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+
+        <td class="info" id="team1_3">
+
+<a class="team-link-no-underline" href="/2026/team/1747" title="">1747</a>        </td>
+        <td class="info" id="team2_3">
+
+<a class="team-link-no-underline" href="/2026/team/6956" title="">6956</a>        </td>
+        <td class="info" id="team3_3">
+
+<a class="team-link-no-underline" href="/2026/team/1741" title="">1741</a>        </td>
+                    </tr>
+                    <tr id="match8a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INCOL/playoffs/8">Match 8 (R2)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 6
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                320
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                179
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_8">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_8">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="danger" id="team6_8">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+
+        <td class="info" id="team1_8">
+
+<a class="team-link-no-underline" href="/2026/team/45" title="">45</a>        </td>
+        <td class="info" id="team2_8">
+
+<a class="team-link-no-underline" href="/2026/team/9491" title="">9491</a>        </td>
+        <td class="info" id="team3_8">
+
+<a class="team-link-no-underline" href="/2026/team/9119" title="">9119</a>        </td>
+                    </tr>
+                    <tr id="match11a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INCOL/playoffs/11">Match 11 (R4)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                367
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                306
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_11">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="danger" id="team5_11">
+
+<a class="team-link-no-underline" href="/2026/team/4982" title="">4982</a>        </td>
+        <td class="danger" id="team6_11">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+
+        <td class="info" id="team1_11">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_11">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="info" id="team3_11">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+                    </tr>
+                    <tr id="match13a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INCOL/playoffs/13">Match 13 (R5)</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 5
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                245
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                181
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_13">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_13">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="danger" id="team6_13">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+
+        <td class="info" id="team1_13">
+
+<a class="team-link-no-underline" href="/2026/team/761" title="">761</a>        </td>
+        <td class="info" id="team2_13">
+
+<a class="team-link-no-underline" href="/2026/team/8430" title="">8430</a>        </td>
+        <td class="info" id="team3_13">
+
+<a class="team-link-no-underline" href="/2026/team/8116" title="">8116</a>        </td>
+                    </tr>
+                    <tr id="match14a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INCOL/playoffs/14">Final 1</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                361
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                211
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_14">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="danger" id="team5_14">
+
+<a class="team-link-no-underline" href="/2026/team/4982" title="">4982</a>        </td>
+        <td class="danger" id="team6_14">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+
+        <td class="info" id="team1_14">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_14">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="info" id="team3_14">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+                    </tr>
+                    <tr id="match15a">
+                        <td class="col-2 align-middle" rowspan="2">
+                                <a href="/2026/INCOL/playoffs/15">Final 2</a>
+                        </td>
+                        <td class="text-start col-2 align-middle text-center" rowspan="2">
+                        </td>
+                        <td class="text-center text-danger danger fw-bold" colspan="3">
+                            Alliance 1
+                        </td>
+                        <td class="text-center text-primary info fw-bold" colspan="3">
+                            Alliance 2
+                        </td>
+                        <td class="text-danger danger fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                321
+                            </h3>
+                        </td>
+                        <td class="text-primary info fw-bold align-middle" rowspan="2">
+                            <h3 class="align-middle">
+                                299
+                            </h3>
+                        </td>
+                    </tr>
+                    <tr>
+
+        <td class="danger" id="team4_15">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="danger" id="team5_15">
+
+<a class="team-link-no-underline" href="/2026/team/4982" title="">4982</a>        </td>
+        <td class="danger" id="team6_15">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+
+        <td class="info" id="team1_15">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_15">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="info" id="team3_15">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+                    </tr>
+		</tbody>
+	</table>
+</div>            </div>
+            <div id="INCMP" class="tab-pane fade ">
+                <br />
+
+<h1 class="panel-title">FIRST Indiana State Championship</h1>
+<i>&nbsp;&nbsp;April 17 to April 19, 2026</i><br /><br />
+
+				<div class="alert alert-info" role="alert">
+					This event counted towards Team 10434's <a href="#district" onclick="showTab('#district')">District Ranking Points</a> for 2026.
+					A summary of district rankings points earned specifically at this event is shown here.
+				</div>
+				<table class="table table-striped text-center">
+					<thead>
+						<tr>
+							<th class="col-sm-2 text-center hidden-xs" title="Qualification Performance">Qualification<br />Performance</th>
+							<th class="col-sm-2 text-center" title="Alliance Selection">Alliance<br />Selection</th>
+							<th class="col-sm-2 text-center hidden-xs" title="Playoff Performance">Playoff<br />Performance</th>
+							<th class="col-sm-2 text-center" title="Awards">Awards</th>
+							<th class="col-sm-2 text-center">Event<br />Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>24</td>
+							<td>0</td>
+							<td>0</td>
+							<td>0</td>
+							<td class="keycolumn">24</td>
+						</tr>
+					</tbody>
+				</table>
+			<div class="row">
+                <div class="col-md-9">
+                    <h5>Qualification Matches</h5>
+                </div>
+                <div class="col-md-3 justify-content-end">
+                    <a href="/2026/INCMP/qualifications?team=10434"
+                       class="btn btn-primary">View Qualifications Event Page</a>
+                </div>
+			</div>
+<b>Rank:</b> 33 of 38<br />
+<b>Record: </b> 4 Wins, 8 Losses and 0 Ties - 12 Matches Played (0 Disqualifications)<br /><br />
+<div class="table-responsive">
+    <table class="table table-striped table-hover table-bordered text-center" id="matches">
+		<thead>
+			<tr>
+				<th class="col-2">Match</th>
+
+					<th class="col-sm-2">Start Time</th>
+<th style="white-space: nowrap">Red 1</th>
+<th style="white-space: nowrap">Red 2</th>
+<th style="white-space: nowrap">Red 3</th>
+<th style="white-space: nowrap">Blue 1</th>
+<th style="white-space: nowrap">Blue 2</th>
+<th style="white-space: nowrap">Blue 3</th>                    <th class="col-sm-1" style="white-space: nowrap">Red Final</th>
+                    <th class="col-sm-1" style="white-space: nowrap">Blue Final</th>
+			</tr>
+		</thead>
+		<tbody id="match-results" style="white-space: nowrap">
+                    <tr id="match6a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/6">Qualification 6</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 11:35 AM                        </td>
+
+        <td class="danger" id="team4_6">
+
+<a class="team-link-no-underline" href="/2026/team/1646" title="">1646</a>        </td>
+        <td class="danger" id="team5_6">
+
+<a class="team-link-no-underline" href="/2026/team/4272" title="">4272</a>        </td>
+        <td class="danger" id="team6_6">
+
+<a class="team-link-no-underline" href="/2026/team/5010" title="">5010</a>        </td>
+
+        <td class="info" id="team1_6">
+
+<a class="team-link-no-underline" href="/2026/team/1720" title="">1720</a>        </td>
+        <td class="info" id="team2_6">
+
+<a class="team-link-no-underline" href="/2026/team/9431" title="">9431</a>        </td>
+        <td class="info" id="team3_6">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+403                            </td>
+                            <td class="text-primary fw-bold">
+251                            </td>
+                    </tr>
+                    <tr id="match11a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/11">Qualification 11</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 12:24 PM                        </td>
+
+        <td class="danger" id="team4_11">
+
+<a class="team-link-no-underline" href="/2026/team/1501" title="">1501</a>        </td>
+        <td class="danger" id="team5_11">
+
+<a class="team-link-no-underline" href="/2026/team/3494" title="">3494</a>        </td>
+        <td class="danger" id="team6_11">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+
+        <td class="info" id="team1_11">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_11">
+
+<a class="team-link-no-underline" href="/2026/team/3940" title="">3940</a>        </td>
+        <td class="info" id="team3_11">
+
+<a class="team-link-no-underline" href="/2026/team/9491" title="">9491</a>        </td>
+                            <td class="text-danger fw-bold">
+420                            </td>
+                            <td class="text-primary fw-bold">
+242                            </td>
+                    </tr>
+                    <tr id="match15a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/15">Qualification 15</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 12:59 PM                        </td>
+
+        <td class="danger" id="team4_15">
+
+<a class="team-link-no-underline" href="/2026/team/447" title="">447</a>        </td>
+        <td class="danger" id="team5_15">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_15">
+
+<a class="team-link-no-underline" href="/2026/team/3494" title="">3494</a>        </td>
+
+        <td class="info" id="team1_15">
+
+<a class="team-link-no-underline" href="/2026/team/2867" title="">2867</a>        </td>
+        <td class="info" id="team2_15">
+
+<a class="team-link-no-underline" href="/2026/team/8116" title="">8116</a>        </td>
+        <td class="info" id="team3_15">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+                            <td class="text-danger fw-bold">
+240                            </td>
+                            <td class="text-primary fw-bold">
+339                            </td>
+                    </tr>
+                    <tr id="match22a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/22">Qualification 22</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 2:58 PM                        </td>
+
+        <td class="danger" id="team4_22">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="danger" id="team5_22">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_22">
+
+<a class="team-link-no-underline" href="/2026/team/1747" title="">1747</a>        </td>
+
+        <td class="info" id="team1_22">
+
+<a class="team-link-no-underline" href="/2026/team/461" title="">461</a>        </td>
+        <td class="info" id="team2_22">
+
+<a class="team-link-no-underline" href="/2026/team/4982" title="">4982</a>        </td>
+        <td class="info" id="team3_22">
+
+<a class="team-link-no-underline" href="/2026/team/447" title="">447</a>        </td>
+                            <td class="text-danger fw-bold">
+193                            </td>
+                            <td class="text-primary fw-bold">
+209                            </td>
+                    </tr>
+                    <tr id="match30a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/30">Qualification 30</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 4:09 PM                        </td>
+
+        <td class="danger" id="team4_30">
+
+<a class="team-link-no-underline" href="/2026/team/135" title="">135</a>        </td>
+        <td class="danger" id="team5_30">
+
+<a class="team-link-no-underline" href="/2026/team/8116" title="">8116</a>        </td>
+        <td class="danger" id="team6_30">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+
+        <td class="info" id="team1_30">
+
+<a class="team-link-no-underline" href="/2026/team/7617" title="">7617</a>        </td>
+        <td class="info" id="team2_30">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+        <td class="info" id="team3_30">
+
+<a class="team-link-no-underline" href="/2026/team/1747" title="">1747</a>        </td>
+                            <td class="text-danger fw-bold">
+67                            </td>
+                            <td class="text-primary fw-bold">
+206                            </td>
+                    </tr>
+                    <tr id="match37a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/37">Qualification 37</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 5:10 PM                        </td>
+
+        <td class="danger" id="team4_37">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_37">
+
+<a class="team-link-no-underline" href="/2026/team/868" title="">868</a>        </td>
+        <td class="danger" id="team6_37">
+
+<a class="team-link-no-underline" href="/2026/team/10021" title="">10021</a>        </td>
+
+        <td class="info" id="team1_37">
+
+<a class="team-link-no-underline" href="/2026/team/1741" title="">1741</a>        </td>
+        <td class="info" id="team2_37">
+
+<a class="team-link-no-underline" href="/2026/team/5484" title="">5484</a>        </td>
+        <td class="info" id="team3_37">
+
+<a class="team-link-no-underline" href="/2026/team/4580" title="">4580</a>        </td>
+                            <td class="text-danger fw-bold">
+329                            </td>
+                            <td class="text-primary fw-bold">
+141                            </td>
+                    </tr>
+                    <tr id="match45a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/45">Qualification 45</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 6:17 PM                        </td>
+
+        <td class="danger" id="team4_45">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team5_45">
+
+<a class="team-link-no-underline" href="/2026/team/4272" title="">4272</a>        </td>
+        <td class="danger" id="team6_45">
+
+<a class="team-link-no-underline" href="/2026/team/45" title="">45</a>        </td>
+
+        <td class="info" id="team1_45">
+
+<a class="team-link-no-underline" href="/2026/team/829" title="">829</a>        </td>
+        <td class="info" id="team2_45">
+
+<a class="team-link-no-underline" href="/2026/team/8430" title="">8430</a>        </td>
+        <td class="info" id="team3_45">
+
+<a class="team-link-no-underline" href="/2026/team/868" title="">868</a>        </td>
+                            <td class="text-danger fw-bold">
+294                            </td>
+                            <td class="text-primary fw-bold">
+248                            </td>
+                    </tr>
+                    <tr id="match51a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/51">Qualification 51</a>
+                        </td>
+                        <td class="text-start col-2">
+Sat 4/18 - 7:07 PM                        </td>
+
+        <td class="danger" id="team4_51">
+
+<a class="team-link-no-underline" href="/2026/team/6721" title="">6721</a>        </td>
+        <td class="danger" id="team5_51">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="danger" id="team6_51">
+
+<a class="team-link-no-underline" href="/2026/team/4926" title="">4926</a>        </td>
+
+        <td class="info" id="team1_51">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+        <td class="info" id="team2_51">
+
+<a class="team-link-no-underline" href="/2026/team/1024" title="">1024</a>        </td>
+        <td class="info" id="team3_51">
+
+<a class="team-link-no-underline" href="/2026/team/5402" title="">5402</a>        </td>
+                            <td class="text-danger fw-bold">
+225                            </td>
+                            <td class="text-primary fw-bold">
+445                            </td>
+                    </tr>
+                    <tr id="match57a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/57">Qualification 57</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 4/19 - 9:27 AM                        </td>
+
+        <td class="danger" id="team4_57">
+
+<a class="team-link-no-underline" href="/2026/team/7457" title="">7457</a>        </td>
+        <td class="danger" id="team5_57">
+
+<a class="team-link-no-underline" href="/2026/team/1720" title="">1720</a>        </td>
+        <td class="danger" id="team6_57">
+
+<a class="team-link-no-underline" href="/2026/team/135" title="">135</a>        </td>
+
+        <td class="info" id="team1_57">
+
+<a class="team-link-no-underline" href="/2026/team/5484" title="">5484</a>        </td>
+        <td class="info" id="team2_57">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team3_57">
+
+<a class="team-link-no-underline" href="/2026/team/7657" title="">7657</a>        </td>
+                            <td class="text-danger fw-bold">
+427                            </td>
+                            <td class="text-primary fw-bold">
+142                            </td>
+                    </tr>
+                    <tr id="match61a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/61">Qualification 61</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 4/19 - 10:05 AM                        </td>
+
+        <td class="danger" id="team4_61">
+
+<a class="team-link-no-underline" href="/2026/team/9119" title="">9119</a>        </td>
+        <td class="danger" id="team5_61">
+
+<a class="team-link-no-underline" href="/2026/team/761" title="">761</a>        </td>
+        <td class="danger" id="team6_61">
+
+<a class="team-link-no-underline" href="/2026/team/135" title="">135</a>        </td>
+
+        <td class="info" id="team1_61">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+        <td class="info" id="team2_61">
+
+<a class="team-link-no-underline" href="/2026/team/1646" title="">1646</a>        </td>
+        <td class="info" id="team3_61">
+
+<a class="team-link-no-underline" href="/2026/team/8430" title="">8430</a>        </td>
+                            <td class="text-danger fw-bold">
+185                            </td>
+                            <td class="text-primary fw-bold">
+105                            </td>
+                    </tr>
+                    <tr id="match65a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/65">Qualification 65</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 4/19 - 10:44 AM                        </td>
+
+        <td class="danger" id="team4_65">
+
+<a class="team-link-no-underline" href="/2026/team/1747" title="">1747</a>        </td>
+        <td class="danger" id="team5_65">
+
+<a class="team-link-no-underline" href="/2026/team/3176" title="">3176</a>        </td>
+        <td class="danger" id="team6_65">
+
+<a class="team-link-no-underline" href="/2026/team/5402" title="">5402</a>        </td>
+
+        <td class="info" id="team1_65">
+
+<a class="team-link-no-underline" href="/2026/team/4580" title="">4580</a>        </td>
+        <td class="info" id="team2_65">
+
+<a class="team-link-no-underline" href="/2026/team/761" title="">761</a>        </td>
+        <td class="info" id="team3_65">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+235                            </td>
+                            <td class="text-primary fw-bold">
+255                            </td>
+                    </tr>
+                    <tr id="match70a">
+                        <td class="col-2">
+                                    <a href="/2026/INCMP/qualifications/70">Qualification 70</a>
+                        </td>
+                        <td class="text-start col-2">
+Sun 4/19 - 11:30 AM                        </td>
+
+        <td class="danger" id="team4_70">
+
+<a class="team-link-no-underline" href="/2026/team/5484" title="">5484</a>        </td>
+        <td class="danger" id="team5_70">
+
+<a class="team-link-no-underline" href="/2026/team/9431" title="">9431</a>        </td>
+        <td class="danger" id="team6_70">
+
+<a class="team-link-no-underline" href="/2026/team/45" title="">45</a>        </td>
+
+        <td class="info" id="team1_70">
+
+<a class="team-link-no-underline" href="/2026/team/234" title="">234</a>        </td>
+        <td class="info" id="team2_70">
+
+<a class="team-link-no-underline" href="/2026/team/6498" title="">6498</a>        </td>
+        <td class="info" id="team3_70">
+
+<b><a class="team-link-no-underline" href="/2026/team/10434" title="">10434</a></b>        </td>
+                            <td class="text-danger fw-bold">
+230                            </td>
+                            <td class="text-primary fw-bold">
+260                            </td>
+                    </tr>
+		</tbody>
+	</table>
+</div>		<div class="row">
+            <div class="col-md-9">
+                <h5>Playoff Matches</h5>
+            </div>
+            <div class="col-md-3 justify-content-end">
+            </div>
+		</div>
+			    <div class="alert alert-info alert-dismissible" role="alert">
+                    <strong>Did Not Participate</strong> Team 10434 did not appear in, or there were not, any Playoff Matches at this Event
+                </div>
+            </div>
+        <div id="district" class="tab-pane fade">
+
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover();
+    });
+</script>
+
+<br />
+District teams are ranked against all teams in their district and the final rankings,
+once all district events have been played, are used to determine eligibility for District
+Championships and/or the <em>FIRST</em> Championship.
+<i><a href="https://www.firstinspires.org/resource-library/frc/competition-manual-qa-system" target="_blank"> More Info... </a></i>
+<br />
+<br />
+<div class="row">
+    <div class="col-sm-12 col-md-6">
+        <b>Total Points: </b>
+        97<br />
+        <b>Rank: </b>
+        28 of 77 teams in the
+        <a href="/2026/district/FIN#rankings">
+            FIRST Indiana Robotics District (Full Rankings <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>)
+        </a>
+        <br /><br />
+        <b>Qualified for District Championship: </b>
+                <span class="badge bg-success">Yes (DistrictPoints)</span>
+        <br />
+        <b>Qualified for <i>FIRST</i> Championship: </b>
+                <span class="badge bg-danger">No</span>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="row text-center">
+                    <div class="col-sm-offset-2 col-sm-8 alert alert-success text-center" role="alert">
+                        <span class="badge bg-success text-center" style="font-size:20px;">Total Score</span><br /><br />
+                        <span class="text-center" style="font-size:27px;">97</span>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="row text-center">
+                    <div class="col-sm-offset-2 col-sm-8 alert alert-warning text-center" role="alert">
+                        <span class="badge bg-warning text-center" style="font-size:20px;">Ranking</span><br /><br />
+                        <span class="text-center" style="font-size:27px;">28 of 77</span>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr />
+Team 10434 had the following district points activities in the 2026 season:
+    <table class="table table-striped table-hover text-center">
+        <thead>
+            <tr>
+                <th class="col-sm-4 col-xs-10 text-center" title="Event/Activity">Event/Activity</th>
+                <th class="col-sm-2 text-center hidden-xs" title="Qualification Performance">Qualification<br />Performance</th>
+                <th class="col-sm-1 text-center hidden-xs" title="Alliance Selection">Alliance<br />Selection</th>
+                <th class="col-sm-2 text-center hidden-xs" title="Playoff Performance">Playoff<br />Performance</th>
+                <th class="col-sm-1 text-center hidden-xs" title="Awards">Awards</th>
+                <th class="col-sm-1 text-center hidden-xs" title="Other">Other</th>
+                <th class="col-sm-1 col-xs-2 text-center">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td><a href="#INMIS" onclick="showTab('#INMIS')">FIN District Mishawaka Event</a></td>
+                    <td class="hidden-xs">5</td>
+                    <td class="hidden-xs">1</td>
+                    <td class="hidden-xs">30</td>
+                    <td class="hidden-xs">0</td>
+                    <td class="hidden-xs">--</td>
+                    <td class="keycolumn">36</td>
+                </tr>
+                <tr>
+                    <td><a href="#INCOL" onclick="showTab('#INCOL')">FIN District Columbus Event</a></td>
+                    <td class="hidden-xs">10</td>
+                    <td class="hidden-xs">2</td>
+                    <td class="hidden-xs">20</td>
+                    <td class="hidden-xs">0</td>
+                    <td class="hidden-xs">--</td>
+                    <td class="keycolumn">32</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="#INCMP" onclick="showTab('#INCMP')">FIRST Indiana State Championship</a>
+                        <a tabindex="0" class="btn btn-sm" role="button" data-toggle="popover" id="districtpop" data-trigger="focus" title="District Championship"
+                           data-content="District Championships use a slightly modified algorithm to determine district ranking points, please see the game and season
+                           manual for more information.">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                        </a>
+                    </td>
+                    <td class="hidden-xs">
+                        24
+                    </td>
+                    <td class="hidden-xs">
+                        0
+                    </td>
+                    <td class="hidden-xs">
+                        0
+                    </td>
+                    <td class="hidden-xs">
+                        0
+                    </td>
+                    <td class="hidden-xs">--</td>
+                    <td class="keycolumn">
+                        24
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Team Age
+                        <a tabindex="0" class="btn btn-sm" role="button" data-toggle="popover" id="agepop" data-trigger="focus" title="Team Age"
+                           data-content="Points are awarded to Rookie and second year Teams in recognition of the unique challenges Teams face in those early years.">
+                            <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                        </a>
+                    </td>
+                    <td class="hidden-xs">--</td>
+                    <td class="hidden-xs">--</td>
+                    <td class="hidden-xs">--</td>
+                    <td class="hidden-xs">--</td>
+                    <td class="hidden-xs">5</td>
+                    <td class="keycolumn">5</td>
+                </tr>
+        </tbody>
+    </table>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        If Team 10434 is tied with any other FIRST Indiana Robotics teams in total District Ranking Points,
+        the tie will be broken using the following criteria:<br /><br />
+    </div>
+    <div class="col-sm-12 col-md-7">
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th class="col-sm-2">Level</th>
+                    <th class="col-sm-4">Description</th>
+                    <th class="col-sm-3">Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Level 1</td>
+                    <td>Total Playoff Round Performance Points</td>
+                    <td class="center">50</td>
+                </tr>
+                <tr>
+                    <td>Level 2</td>
+                    <td>Max Playoff Round Performance Points</td>
+                    <td class="center">30</td>
+                </tr>
+                <tr>
+                    <td>Level 3</td>
+                    <td>Total Alliance Selection Points</td>
+                    <td class="center">3</td>
+                </tr>
+                <tr>
+                    <td>Level 4</td>
+                    <td>Max Alliance Selection Points</td>
+                    <td class="center">2</td>
+                </tr>
+                <tr>
+                    <td>Level 5</td>
+                    <td>Total Qualification Points</td>
+                    <td class="center">39</td>
+                </tr>
+                <tr>
+                    <td>Level 6</td>
+                    <td>Highest Match Score</td>
+                    <td class="center">359</td>
+                </tr>
+                <tr>
+                    <td>Level 7</td>
+                    <td>Second Highest Match Score</td>
+                    <td class="center">337</td>
+                </tr>
+                <tr>
+                    <td>Level 8</td>
+                    <td>Third Highest Match Score</td>
+                    <td class="center">337</td>
+                </tr>
+                <tr>
+                    <td>Level 9</td>
+                    <td>Random Sort</td>
+                    <td class="center">---</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>        </div>
+</div>
+                <div class="d-md-none text-center">
+                </div>
+                <br />
+            </div>
+        </div>
+    </main>
+
+    <div class="container-fluid footer-box" style="background-color: #231F20;">
+        <footer class="footer container py-3 footer-text" style="max-width: 1170px;">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img id="firstLogoFooter" src="https://firstfrccdn.blob.core.windows.net/cdn/eventweb_common/FIRST_Horz_OneColor_reverse.png" style="width: 350px; padding: 30px;" />
+                    <br />
+                    <nav class="nav justify-content-center">
+                        <a class="nav-link text-light" href="https://www.facebook.com/FIRSTOfficial"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a class="nav-link text-light" href="https://www.youtube.com/user/FIRSTWorldTube"><i class="fab fa-youtube fa-lg"></i></a>
+                        <a class="nav-link text-light" href="https://instagram.com/first_official_"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a class="nav-link text-light" href="https://www.twitter.com/firstweets"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a class="nav-link text-light" href="https://www.linkedin.com/company/first_2"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a class="nav-link text-light" href="https://www.twitch.tv/firstinspires"><i class="fab fa-twitch fa-lg"></i></a>
+                    </nav>
+                </div>
+                <div class="col-md-8">
+                    <div class="row text-center">
+                        <div class="col-md-4 col-sm-6">
+                            <nav class="nav flex-column">
+                                <a href="/services" class="nav-link footer-links" title="APIServices" target="_blank">API/SERVICES</a>
+                                <a href="https://www.firstinspires.org/about/vision-and-mission" class="nav-link footer-links" title="About" target="_blank">ABOUT</a>
+                                <a href="https://www.firstinspires.org/about/contact-us" class="nav-link footer-links" title="Contact" target="_blank">CONTACT US</a>
+
+                            </nav>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <nav class="nav flex-column">
+                                <a href="https://www.firstinspires.org/donate?utm_source=frc-events&utm_medium=footer&utm_campaign=donation" class="nav-link footer-links" title="Donate" target="_blank">DONATE</a>
+                                <a href="https://first.corpmerchandise.com/" class="nav-link footer-links" title="Privacy" target="_blank"><em>FIRST</em> STORE</a>
+                            </nav>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <nav class="nav flex-column">
+                                <a href="https://www.firstinspires.org/about/privacy-policy" class="nav-link footer-links" title="Privacy" target="_blank">PRIVACY POLICY</a>
+                                <a href="https://www.firstinspires.org/about/legal-notices" class="nav-link footer-links" title="" target="_blank">LEGAL NOTICES</a>
+                            </nav>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row text-center fs-6">
+                        <p class="text-muted">Copyright &copy; 2026 For Inspiration and Recognition of Science and Technology (<em>FIRST</em>)</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Syncfusion reporting script manager -->
+    <sf-script-manager></sf-script-manager>
+
+    <!-- Syncfusion Essential JS 2 ScriptManager -->
+    <ejs-scripts></ejs-scripts>
+</body>
+</html>

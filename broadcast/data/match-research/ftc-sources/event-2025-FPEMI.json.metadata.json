@@ -1,0 +1,7 @@
+{
+  "source": "FTCScout public REST API",
+  "url": "https://api.ftcscout.org/rest/v1/events/2025/FPEMI",
+  "capturedAtUtc": "2026-10-22T18:04:32.202209+00:00",
+  "httpStatus": 200,
+  "sha256": "8868c6755dff963f70a2f55911db4df63bde5e9d05596329495a7956d65d9ee0"
+}

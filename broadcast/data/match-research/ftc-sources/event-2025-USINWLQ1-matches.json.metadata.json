@@ -1,0 +1,7 @@
+{
+  "source": "FTCScout public REST API",
+  "url": "https://api.ftcscout.org/rest/v1/events/2025/USINWLQ1/matches",
+  "capturedAtUtc": "2026-10-22T18:04:41.565140+00:00",
+  "httpStatus": 200,
+  "sha256": "02885e70d41a0f5185bbeca3ffad90543c59ea5f1b3a9661274831f43f33c4e4"
+}

@@ -9,6 +9,7 @@ import re
 import struct
 from datetime import date, timedelta
 import math
+from verify_matches import verify_matches
 
 HERE = Path(__file__).resolve().parents[1]
 ROOT = HERE.parent
@@ -25,6 +26,7 @@ def require(condition, message):
 
 def main():
     data = load(HERE / "dist/data.json")
+    verify_matches(data)
     frc = load(ROOT / "data/teams.json")
     ftc = load(ROOT / "ftc/data/teams.json")
     regional = sorted([r for r in frc["teams"] if r["scope_group"] == "northeast_indiana"],

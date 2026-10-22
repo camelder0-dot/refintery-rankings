@@ -87,6 +87,14 @@ All episode dates below are **planned coverage**, rather than confirmed broadcas
 - Each team competes on its own assigned weekends. Future predictions are editorial picks; they remain separate from official standings and the frozen 2026 EPA ordering.
 - Schedule checked October 22, 2026. Local Week 0 and livestream details await organizer announcements.
 
+## Close games to watch
+
+All ten FRC Top 10 teams and both returning FTC features have a sourced closest-score match and verified replay. Select its profile to see the score and both alliances. A different closest playoff is linked as an alternative where available. FTC replays open at publisher-authored match chapters.
+
+Final scores belong to alliances and include penalties. Partners and opponents change; a close matchup does not establish a permanent rivalry.
+
+[Complete match library and selection methodology](match-highlights.md)
+
 ## Team rundown
 
 ### 1. Team THRUST · FRC 1501
@@ -104,6 +112,8 @@ EPA 118.71; Indiana 12/68; world 438/3724.
 
 Evidence gaps: Student team captain not verified. Current formally designated head coach not independently verified; the documented title is Lead Engineering Mentor.
 
+- Closest finish: FIN District Mishawaka Event, Match 11 (R4). Red 218–Blue 221 (3-point margin); 1501 on Red, loss. [Watch replay](https://www.youtube.com/watch?v=VGFBklDAzrE) · [Official result](https://frc-events.firstinspires.org/2026/INMIS/playoffs/11).
+
 ### 2. PhyXTGears · FRC 1720
 
 East Central Indiana Robotics (community team) · Matthews, Grant County
@@ -119,6 +129,8 @@ EPA 118.52; Indiana 13/68; world 440/3724.
 - Mike Koch — Mechanical mentor and co-founder. Evidence: 2026-05-15; verified dated. Official team report supplies these roles; it does not identify him as head coach. Sources: https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/
 
 Evidence gaps: Student team captain not verified. A separately designated head coach is not established by the cited team report.
+
+- Closest finish: FIN District Columbus Event, Qualification 24. Red 108–Blue 105 (3-point margin); 1720 on Red, win. [Watch replay](https://www.youtube.com/watch?v=olAjzlBnZuU) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/24).
 
 ### 3. Iron Legends · FRC 9119
 
@@ -136,6 +148,8 @@ EPA 75.10; Indiana 22/68; world 868/3724.
 - Zen Gunawardhana — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
 
 Evidence gaps: Current adult lead appointment not confirmed beyond the January 2025 reporting. Student team captain not verified; the February 2026 presentation identifies a representative.
+
+- Closest finish: FIN District Columbus Event, Match 10 (R3). Red 127–Blue 124 (3-point margin); 9119 on Red, win. [Watch replay](https://www.youtube.com/watch?v=BEO5rK8CBAs) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/playoffs/10).
 
 ### 4. The Gold Standard · FRC 9431
 
@@ -156,6 +170,8 @@ EPA 68.51; Indiana 24/68; world 984/3724.
 
 Evidence gaps: Current 2026-27 student captain not verified; Nick Sims is a documented recent captain. John Todor identification combines an undated primary partner biography with indexed public social content. A current formally designated adult lead was not independently confirmed.
 
+- Closest finish: FIN District Columbus Event, Qualification 24. Red 108–Blue 105 (3-point margin); 9431 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=olAjzlBnZuU) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/24).
+
 ### 5. Olympus Robotics · FRC 4982
 
 Homestead High School · Fort Wayne, Allen County
@@ -175,6 +191,8 @@ EPA 58.80; Indiana 27/68; world 1147/3724.
 
 Evidence gaps: Captain and assistant-captain surnames and individual title assignments require confirmation. The captain announcement is indexed account content, with no retrieved individual post permalink. A 2026-27 student captain is not verified.
 
+- Closest finish: FIN District Lafayette Event, Match 8 (R2). Red 283–Blue 281 (2-point margin); 4982 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=awgnviexCt0) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/playoffs/8).
+
 ### 6. CyBears · FRC 10434
 
 Northrop High School · Fort Wayne, Allen County
@@ -190,6 +208,8 @@ EPA 35.84; Indiana 43/68; world 1931/3724.
 - Alfy Krider — Student team representative; Northrop senior in March 2026. Evidence: 2026-02-09; verified dated. FWCS names Krider as a team representative on February 9, 2026. March 25, 2026 reporting identifies a Northrop senior and team member; neither source establishes a captain role. Current student status is unverified. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf https://www.the74million.org/article/building-a-mindset-amp-lab-makes-entrepreneurship-work-skills-its-mission/
 
 Evidence gaps: Coach Jacobs has only a partial public name and unverified current lead responsibility. Student team captain not verified. Alfy Krider is documented as a representative and 2026 senior, not as a current 2026-27 captain.
+
+- Closest finish: FIN District Mishawaka Event, Match 11 (R4). Red 218–Blue 221 (3-point margin); 10434 on Red, loss. [Watch replay](https://www.youtube.com/watch?v=VGFBklDAzrE) · [Official result](https://frc-events.firstinspires.org/2026/INMIS/playoffs/11).
 
 ### 7. Knight Robotics · FRC 8103
 
@@ -209,6 +229,8 @@ EPA 35.10; Indiana 45/68; world 1975/3724.
 
 Evidence gaps: Current 2026-27 coaching assignments not confirmed by the historical article. Student team captain not verified. Team 8103 leadership evidence does not establish individual coaching assignments for teams 8431 or 8432.
 
+- Closest finish: FIN District Columbus Event, Qualification 17. Red 33–Blue 43 (10-point margin); 8103 on Red, loss. [Watch replay](https://www.youtube.com/watch?v=R6FT3SunVq4) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/17).
+
 ### 8. Carroll Charger Robotics · FRC 10332
 
 Carroll High School · Fort Wayne, Allen County
@@ -227,6 +249,8 @@ EPA 34.76; Indiana 46/68; world 1990/3724.
 
 Evidence gaps: Current head coach not verified. Student captain for 2026-27 not verified. Mentor evidence for Mady Stricker is indexed official content rather than the full biography on the current live page.
 
+- Closest finish: FIN District Lafayette Event, Match 5 (R2). Red 144–Blue 143 (1-point margin); 10332 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=1yljTlNXDUM) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/playoffs/5).
+
 ### 9. Argyll Attack · FRC 8742
 
 Madison-Grant Jr./Sr. High School · Fairmount, Grant County
@@ -243,6 +267,8 @@ EPA 29.46; Indiana 48/68; world 2279/3724.
 
 Evidence gaps: Student team captain not verified. Ava Stanley cannot be classified as a student or adult from the cited evidence. A formal head-coach title for Eric Cale was not established.
 
+- Closest finish: FIN District Washington Event presented by Toyota IN & VU CARA, Qualification 11. Red 136–Blue 140 (4-point margin); 8742 on Blue, win. [Watch replay](https://www.youtube.com/watch?v=LQt0EpMBBN8) · [Official result](https://frc-events.firstinspires.org/2026/INWAS/qualifications/11).
+
 ### 10. Apex Archers · FRC 10172
 
 South Side High School · Fort Wayne, Allen County
@@ -257,6 +283,8 @@ EPA 21.15; Indiana 55/68; world 2889/3724.
 - David Haruna — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
 
 Evidence gaps: Adult coach or designated adult team spokesperson not verified. Student team captain not verified; the February 2026 presentation identifies a representative.
+
+- Closest finish: FIN District Lafayette Event, Qualification 27. Red 108–Blue 102 (6-point margin); 10172 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=-vx3sFyHz3Y) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/qualifications/27).
 
 ## FTC feature ideas
 

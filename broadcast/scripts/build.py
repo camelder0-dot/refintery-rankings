@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from build_dnf import build_dnf
+from build_matches import build_matches
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
@@ -87,6 +88,7 @@ def main():
         "title": "The REFINERY · NEI Robotics Top 10",
         "seasonPreview": load(HERE / "data/season-preview.json"),
         "dnf": build_dnf(),
+        "matchHighlights": build_matches(),
         "hero": {"headline": "THE ONLY SPORT WHERE EVERYONE CAN GO PRO", "subhead": "Friday-night energy. Skills for a lifetime. Meet the students building their future in engineering, software, manufacturing and business.",
                  "attribution": "Career-focused campaign message from FIRST Global", "attributionUrl": "https://first.global/sport/",
                  "image": "assets/refinery-shop.jpeg", "logo": "assets/refinery-logo.svg"},
@@ -126,7 +128,10 @@ def main():
     press.extend(["", "### Weekly show promise", "", preview["weeklyPromise"], "", "All episode dates below are **planned coverage**, rather than confirmed broadcasts.", "", "| Proposed date | Episode | Focus |", "|---|---|---|"])
     for show in sorted(preview["shows"]["ftc"] + preview["shows"]["frc"], key=lambda r: (r["date"], r["title"])):
         press.append(f"| {show['date']} | {show['title']} | {show['summary']} |")
-    press.extend(["", *["- " + note for note in preview["notes"]], "", "## Team rundown", ""])
+    press.extend(["", *["- " + note for note in preview["notes"]], "", "## Close games to watch", "",
+                  "All ten FRC Top 10 teams and both returning FTC features have a sourced closest-score match and verified replay. Select its profile to see the score and both alliances. A different closest playoff is linked as an alternative where available. FTC replays open at publisher-authored match chapters.", "",
+                  result["matchHighlights"]["scoreNote"], "", "[Complete match library and selection methodology](match-highlights.md)", "", "## Team rundown", ""])
+    match_lookup = {(r["program"], r["number"]): r for r in result["matchHighlights"]["teams"]}
     for t in teams:
         press.extend([f"### {t['rank']}. {t['name']} · FRC {t['number']}", "", f"{t['school']} · {t['city']}, {t['county']} County", "",
                       f"EPA {t['epa']:.2f}; Indiana {t['stateRank']}/{t['stateCount']}; world {t['worldRank']}/{t['worldCount']}.", "", *["- " + s for s in t["talkingPoints"]], ""])
@@ -134,6 +139,9 @@ def main():
             for p in t[category]:
                 press.append(f"- {p['name']} — {p['role']}. Evidence: {p['date'] or 'undated'}; {p['status']}. {p['note']} Sources: " + " ".join(p["sourceUrls"]))
         press.extend(["", "Evidence gaps: " + " ".join(t["gaps"]), ""])
+        match = match_lookup[("FRC", t["number"])]["main"]
+        if match:
+            press.extend([f"- Closest finish: {match['eventName']}, {match['matchLabel']}. Red {match['redScore']}–Blue {match['blueScore']} ({match['margin']}-point margin); {t['number']} on {match['teamAlliance']}, {match['outcome'].lower()}. [Watch replay]({match['videoUrl']}) · [Official result]({match['officialUrl']}).", ""])
     press.extend(["## FTC feature ideas", "", result["ftc"]["note"], ""])
     for t in features:
         press.append(f"- FTC {t['number']} {t['name']} — {t['school']}, {t['city']}. Worldwide peak NP OPR {t['opr']:.2f}; world rank {t['worldRank']}/{t['worldCount']}. USIN value {t['regionalOpr']:.2f}; rank {t['regionalRank']}/{t['regionalCount']}. See the interactive profile for exact public roles and dates.")

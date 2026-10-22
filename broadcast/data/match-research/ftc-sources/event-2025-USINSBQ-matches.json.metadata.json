@@ -1,0 +1,7 @@
+{
+  "source": "FTCScout public REST API",
+  "url": "https://api.ftcscout.org/rest/v1/events/2025/USINSBQ/matches",
+  "capturedAtUtc": "2026-10-22T18:04:39.312262+00:00",
+  "httpStatus": 200,
+  "sha256": "fd06728d23f36c5a709a5e6b1dac6c6d105cd45e7b8551f8c5bb3f3a92f10f53"
+}

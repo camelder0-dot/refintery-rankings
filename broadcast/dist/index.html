@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#143d2c">
   <meta name="description" content="Northeast Indiana robotics: the 2026–27 season preview, upcoming events, planned weekly coverage, and last season’s FRC Top 10 and FTC team stories.">
   <title>NEI Robotics Season Preview & Top 10 · The REFINERY</title>
-  <link rel="stylesheet" href="styles.css?v=20261022-dnf-1">
-  <script src="app.js?v=20261022-dnf-1" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-close-matches-1">
+  <script src="app.js?v=20261022-close-matches-1" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#broadcast">Skip to rankings</a>
@@ -29,6 +29,7 @@
       <div class="stage" id="stage"><div class="presentation-controls"><button id="presentation-notes-button" aria-pressed="false">Notes <kbd>P</kbd></button><button id="presentation-exit-button">Exit <kbd>Esc</kbd></button></div><div class="on-air-frame" id="on-air-frame" aria-label="Northeast Indiana robotics broadcast screen" aria-busy="true"><div class="loading-state"><span class="screen-brand">THE REFINERY</span><h3>LOADING THE RUNDOWN</h3><p>Preparing the preserved research snapshot.</p></div></div></div>
       <div class="below-stage"><div><span class="keyboard-hint"><kbd>←</kbd> <kbd>→</kbd> select a team</span><span class="keyboard-hint"><kbd>1</kbd>–<kbd>0</kbd> jump to rank</span><span class="keyboard-hint"><kbd>F</kbd> full screen</span><span class="keyboard-hint"><kbd>P</kbd> notes</span></div><label class="cycle-control"><input id="cycle-toggle" type="checkbox" checked> Auto-cycle teams <span>12s</span></label></div>
       <p id="app-status" class="app-status" role="status" aria-live="polite"></p>
+      <section id="match-panel" class="film-room" aria-label="Team match replays" hidden></section>
       <aside id="presenter-panel" class="presenter-panel" hidden aria-labelledby="presenter-title"></aside>
       <details class="sources-panel" id="sources-panel"><summary><span>THE RESEARCH BEHIND THE RUNDOWN</span><span class="summary-plus" aria-hidden="true">＋</span></summary><div id="sources-content" class="sources-content"><p>Source details appear when the dataset is loaded.</p></div></details>
     </section>
