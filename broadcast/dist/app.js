@@ -163,10 +163,31 @@
     $('calendar-past').addEventListener('click', () => { state.showPast = !state.showPast; draw(); });
     draw();
     $('calendar-source').innerHTML = `Dates from ${cal.sources.map(esc).join(', ')}. Checked ${esc(shortDate(cal.retrievedDate))}. Dates can change; confirm with the event before you go.`;
-    const next = cal.events.find((e) => e.endDate >= now);
-    if (next) {
-      const days = daysUntil(next.startDate);
-      $('countdown').innerHTML = `<strong>${days <= 0 ? 'Now' : days}</strong><span>${days <= 0 ? 'happening: ' : days === 1 ? 'day until ' : 'days until '}${esc(next.name)}</span>`;
+    renderNextEvent(cal.events.find((e) => e.endDate >= now && e.type !== 'Kickoff'), google);
+  }
+
+  // The next event, front and center: when, where, how to watch, and which local teams are in.
+  function renderNextEvent(e, google) {
+    if (!e) return;
+    const days = daysUntil(e.startDate);
+    const live = days <= 0;
+    const when = live ? 'Happening now' : days === 1 ? 'Tomorrow' : `In ${days} days`;
+    const place = [e.venue, e.address || [e.city, e.state].filter(Boolean).join(', ')].filter(Boolean).join(' · ');
+    const map = e.address || e.venue ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent([e.venue, e.address || `${e.city}, ${e.state}`].filter(Boolean).join(', '))}` : '';
+    const roster = new Map([...state.data.standings, ...state.data.ftc.teams, ...state.data.ftc.newTeams].map((t) => [t.number, t]));
+    const entry = e.entrants;
+    const teams = !entry ? '<p class="muted-light">Entries aren’t tracked for this event.</p>' : !entry.posted
+      ? '<p class="muted-light">Entry list not posted yet. Local teams will show here when it is.</p>'
+      : entry.local.length
+        ? `<ul class="entered">${entry.local.map((n) => { const t = roster.get(n); return `<li>${t ? logo(t.logos, n) : ''}<span><strong>${esc(t?.name || `Team ${n}`)}</strong><small>${n}${t?.school ? ` · ${esc(t.school)}` : ''}</small></span></li>`; }).join('')}</ul><p class="muted-light">${entry.local.length} of ${entry.count} teams entered are from Northeast Indiana.</p>`
+        : `<p class="muted-light">${entry.count} teams entered; none from Northeast Indiana.</p>`;
+    const watch = e.watch?.length ? e.watch.map((w) => ext(w.url, w.label, 'text-link')).join(' ') : '<span class="muted-light">No livestream announced yet.</span>';
+    $('next-event').hidden = false;
+    $('next-event').innerHTML = `<div class="next-main"><span class="next-when">${esc(when)}</span><span class="label">${esc(e.program)} · ${esc(e.type)}</span><h3>${esc(e.name)}</h3><p class="next-date">${esc(dateRange(e.startDate, e.endDate))}</p>${place ? `<p>${map ? ext(map, place) : esc(place)}</p>` : ''}${e.admission ? `<p><strong>Admission:</strong> ${esc(e.admission)}</p>` : ''}${e.description ? `<p class="muted-light">${esc(e.description)}</p>` : ''}<ul class="link-list"><li>${ext(e.url, 'Event details', 'text-link')}</li><li>${ext(google(e), 'Add to Google Calendar', 'text-link')}</li></ul></div><div class="next-side">${live ? '' : `<div class="next-count"><strong>${days}</strong><span>${days === 1 ? 'day' : 'days'} to go</span></div>`}<h4>Local teams entered</h4>${teams}<h4>How to watch</h4><p>${watch}</p></div>`;
+    // During event week, a strip under the hero points here.
+    if (days <= 7) {
+      $('this-week').hidden = false;
+      $('this-week').innerHTML = `<span class="wrap"><span class="tw-label">${live ? 'Happening now' : 'This week'}</span><strong>${esc(e.name)}</strong><span>${esc(dateRange(e.startDate, e.endDate))} · ${esc(e.city || e.venue)}</span><span class="tw-go">Details</span></span>`;
     }
   }
 
@@ -276,7 +297,7 @@
     reveal('.section .kicker', 'reveal', false);
     reveal('.section h2', 'reveal-head', false);
     reveal('.section-lede', 'reveal', false);
-    reveal('.segmented, .countdown, .dnf-count', 'reveal', false);
+    reveal('.segmented, .next-event, .dnf-count', 'reveal', false);
     reveal('.explainer', 'reveal', false);
     reveal('#standings-list .team', 'reveal-left');
     reveal('.highlight');

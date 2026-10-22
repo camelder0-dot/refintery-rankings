@@ -154,6 +154,9 @@ def main():
     for e in calendar["events"]:
         require(date.fromisoformat(e["startDate"]) <= date.fromisoformat(e["endDate"]) and e["url"].startswith("https://") and e["program"] in {"FRC", "FTC", "FTC + FRC"}, f"Calendar event incomplete: {e['id']}")
     require((HERE / "dist/calendar.ics").read_bytes().count(b"BEGIN:VEVENT") == len(calendar["events"]), "calendar.ics is out of date")
+    for e in calendar["events"]:
+        entry = e.get("entrants")
+        require(entry is None or (isinstance(entry["posted"], bool) and (not entry["posted"] or set(entry["local"]) <= {t["number"] for t in standings} | {22331, 25638, 36124})), f"Entrants for {e['id']} include a team outside the region list")
     display = load(HERE / "data/display-assets.json")["assets"]
     require(data["displayAssets"] == {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]} for r in display}, "Display assets did not reach the browser data")
     for row in display:

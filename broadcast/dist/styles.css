@@ -258,6 +258,34 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .date-block .d { font-family: var(--display); font-size: 42px; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; }
 .schedule h3 { font-family: var(--display); font-weight: 700; font-size: 26px; text-transform: uppercase; }
 .schedule p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
+/* Next-up card and the event-week strip */
+.next-event { display: grid; grid-template-columns: 1.5fr 1fr; background: var(--navy-deep); color: #fff; margin: 0 0 40px; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%); }
+.next-event[hidden] { display: none; }
+.next-main, .next-side { padding: 30px 32px 34px; }
+.next-side { background: rgb(255 255 255 / .05); border-left: 1px solid rgb(255 255 255 / .12); }
+.next-when { display: inline-block; font-family: var(--display); font-weight: 800; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; background: var(--green-fill); color: var(--ink); padding: 4px 10px; margin-bottom: 14px; }
+.next-event .label { display: block; color: var(--mint); margin-bottom: 6px; }
+.next-event h3 { font-family: var(--display); font-weight: 800; font-style: italic; font-size: clamp(36px, 5vw, 60px); text-transform: uppercase; line-height: .92; }
+.next-date { font-family: var(--display); font-weight: 700; font-size: 22px; letter-spacing: .04em; text-transform: uppercase; margin: 10px 0 6px; }
+.next-event p { margin: 0 0 8px; color: #e6e8eb; }
+.next-event a, .next-event .text-link { color: var(--mint); }
+.next-event h4 { font-family: var(--display); font-weight: 700; font-size: 15px; letter-spacing: .12em; text-transform: uppercase; color: var(--on-dark-muted); margin: 18px 0 8px; padding-bottom: 6px; border-bottom: 1px solid rgb(255 255 255 / .2); }
+.next-count { display: flex; align-items: baseline; gap: 10px; margin-bottom: 18px; }
+.next-count strong { font-family: var(--display); font-weight: 800; font-style: italic; font-size: 88px; line-height: .8; color: #fff; }
+.next-count span { font-family: var(--display); font-weight: 700; font-size: 18px; letter-spacing: .08em; text-transform: uppercase; color: var(--mint); }
+.muted-light { color: #b9c6d2 !important; font-size: 14px; }
+.entered { list-style: none; padding: 0; margin: 0 0 8px; display: grid; gap: 8px; }
+.entered li { display: flex; align-items: center; gap: 10px; }
+.entered strong { display: block; font-family: var(--display); font-size: 19px; text-transform: uppercase; }
+.entered small { color: #b9c6d2; }
+.this-week { display: block; background: var(--green-fill); color: var(--ink); text-decoration: none; font-family: var(--display); text-transform: uppercase; }
+.this-week[hidden] { display: none; }
+.this-week .wrap { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; padding: 14px 0; font-weight: 700; font-size: 18px; letter-spacing: .04em; }
+.this-week .tw-label { background: var(--ink); color: var(--mint); padding: 3px 10px; font-size: 15px; letter-spacing: .12em; }
+.this-week strong { font-weight: 800; font-size: 22px; }
+.this-week .tw-go { margin-left: auto; }
+.this-week .tw-go::after { content: ' →'; font-family: var(--font); }
+.this-week:hover { background: var(--mint); color: var(--ink); }
 .calendar-tools { display: flex; justify-content: space-between; align-items: flex-end; gap: 18px; flex-wrap: wrap; margin-bottom: 8px; }
 .month { font-family: var(--display); font-weight: 800; font-size: 30px; text-transform: uppercase; margin: 36px 0 10px; }
 .schedule .label { display: block; margin-bottom: 4px; }
@@ -410,6 +438,12 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
   .dnf-tools { grid-template-columns: 1fr 1fr; }
   .dnf-tools .search { grid-column: span 2; border-bottom: 1px solid rgb(255 255 255 / .2); }
   .countdown strong { font-size: 72px; }
+  .next-event { grid-template-columns: 1fr; }
+  .next-main, .next-side { padding: 24px 20px; }
+  .next-side { border-left: 0; border-top: 1px solid rgb(255 255 255 / .12); }
+  .this-week .wrap { gap: 8px 14px; font-size: 15px; }
+  .this-week strong { font-size: 19px; }
+  .this-week .tw-go { margin-left: 0; }
 }
 @media (max-width: 480px) {
   .hero h1 { font-size: 48px; }

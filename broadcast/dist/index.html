@@ -15,8 +15,8 @@
   <script>document.documentElement.classList.add('js');</script>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261022-redesign-9">
-  <script src="app.js?v=20261022-redesign-9" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-redesign-10">
+  <script src="app.js?v=20261022-redesign-10" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -49,6 +49,8 @@
         </div>
       </div>
     </section>
+
+    <a class="this-week" id="this-week" href="#schedule" hidden></a>
 
     <section class="stat-band" aria-label="2026 season at a glance">
       <div class="wrap">
@@ -117,8 +119,8 @@
             <h2 id="schedule-title">Calendar</h2>
             <p class="section-lede">Every Indiana FTC and FRC event this season, plus the World Championship in Houston.</p>
           </div>
-          <div class="countdown" id="countdown"></div>
         </div>
+        <article class="next-event" id="next-event" aria-live="polite" hidden></article>
         <div class="calendar-tools">
           <div class="segmented" role="group" aria-label="Show events for">
             <button type="button" data-program="" aria-pressed="true">All events</button>

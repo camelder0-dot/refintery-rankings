@@ -6239,8 +6239,10 @@
         "venue": "Avon High School",
         "city": "Avon",
         "state": "IN",
+        "address": "7575 E County Rd 150 S",
         "description": "Season launch: the new FTC game is revealed and teams start building.",
         "url": "https://ftcscout.org/events/2026/USINAVKO",
+        "watch": [],
         "source": "FTCScout"
       },
       {
@@ -6253,8 +6255,10 @@
         "venue": "IUB MESH",
         "city": "Bloomington",
         "state": "IN",
+        "address": "2425 N Milo B Sampson Ln",
         "description": "Season launch: the new FTC game is revealed and teams start building.",
         "url": "https://ftcscout.org/events/2026/USINBLKO",
+        "watch": [],
         "source": "FTCScout"
       },
       {
@@ -6267,8 +6271,10 @@
         "venue": "GEARS Youth Robotics Center",
         "city": "Osceola",
         "state": "IN",
+        "address": "200 Lincolnway W",
         "description": "Season launch: the new FTC game is revealed and teams start building.",
         "url": "https://ftcscout.org/events/2026/USINOSKO",
+        "watch": [],
         "source": "FTCScout"
       },
       {
@@ -6281,8 +6287,10 @@
         "venue": "WBI Shop",
         "city": "West Lafayette",
         "state": "IN",
+        "address": "1200 N Salisbury St",
         "description": "Season launch: the new FTC game is revealed and teams start building.",
         "url": "https://ftcscout.org/events/2026/USINWLKO",
+        "watch": [],
         "source": "FTCScout"
       },
       {
@@ -6297,7 +6305,13 @@
         "state": "IN",
         "description": "Fall offseason event: last season's robots, new drivers, and an early look at 2027.",
         "url": "https://www.thebluealliance.com/event/2026inbbb",
-        "source": "The Blue Alliance"
+        "source": "The Blue Alliance",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Add a TBA key to check FRC entries."
+        }
       },
       {
         "id": "frc-2026infor",
@@ -6309,9 +6323,16 @@
         "venue": "Wayne High School",
         "city": "Fort Wayne",
         "state": "IN",
+        "address": "9100 Winchester Rd, Fort Wayne, IN 46819",
+        "admission": "Free, no registration needed",
         "description": "The REFINERY's Halloween offseason event. Matches 8:15 a.m.–6 p.m. ET; college and career fair 10 a.m.–2 p.m. Free spectator admission; costumes encouraged.",
         "url": "https://refineryrobotics.org/programs-events/monster-match/",
-        "source": "The REFINERY (TBA lists Oct 30–31 including load-in)"
+        "source": "The REFINERY (TBA lists Oct 30–31 including load-in)",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Add a TBA key to check FRC entries."
+        }
       },
       {
         "id": "ftc-usinweq1",
@@ -6323,9 +6344,16 @@
         "venue": "Westfield Middle School",
         "city": "Westfield",
         "state": "IN",
+        "address": "345 W Hoover Street",
         "description": "Qualifying tournament. Top teams and award winners earn spots at the Indiana FTC State Championship.",
         "url": "https://ftcscout.org/events/2026/USINWEQ1",
-        "source": "FTCScout"
+        "watch": [],
+        "source": "FTCScout",
+        "entrants": {
+          "posted": false,
+          "count": 0,
+          "local": []
+        }
       },
       {
         "id": "ftc-usinweq2",
@@ -6337,9 +6365,16 @@
         "venue": "Westfield Middle School",
         "city": "Westfield",
         "state": "IN",
+        "address": "345 W Hoover Street",
         "description": "Qualifying tournament. Top teams and award winners earn spots at the Indiana FTC State Championship.",
         "url": "https://ftcscout.org/events/2026/USINWEQ2",
-        "source": "FTCScout"
+        "watch": [],
+        "source": "FTCScout",
+        "entrants": {
+          "posted": false,
+          "count": 0,
+          "local": []
+        }
       },
       {
         "id": "frc-kickoff-2027",
@@ -6353,7 +6388,9 @@
         "state": "",
         "description": "FIRST reveals the 2027 game at noon ET. Teams start designing and building.",
         "url": "https://www.firstinspires.org/programs/calendar",
-        "source": "FIRST"
+        "source": "FIRST",
+        "address": "",
+        "watch": []
       },
       {
         "id": "ftc-usingrq",
@@ -6365,9 +6402,16 @@
         "venue": "Greenwood Middle School",
         "city": "Greenwood",
         "state": "IN",
+        "address": "1584 Averitt Rd",
         "description": "Qualifying tournament. Top teams and award winners earn spots at the Indiana FTC State Championship.",
         "url": "https://ftcscout.org/events/2026/USINGRQ",
-        "source": "FTCScout"
+        "watch": [],
+        "source": "FTCScout",
+        "entrants": {
+          "posted": false,
+          "count": 0,
+          "local": []
+        }
       },
       {
         "id": "ftc-usinshq",
@@ -6379,9 +6423,16 @@
         "venue": "Shoals Jr/Sr High School",
         "city": "Shoals",
         "state": "IN",
+        "address": "7900 US-50",
         "description": "Qualifying tournament. Top teams and award winners earn spots at the Indiana FTC State Championship.",
         "url": "https://ftcscout.org/events/2026/USINSHQ",
-        "source": "FTCScout"
+        "watch": [],
+        "source": "FTCScout",
+        "entrants": {
+          "posted": false,
+          "count": 0,
+          "local": []
+        }
       },
       {
         "id": "frc-week0-2027",
@@ -6395,7 +6446,9 @@
         "state": "",
         "description": "Unofficial practice events before the season counts. A local REFINERY scrimmage date has not been announced.",
         "url": "https://www.firstinspires.org/programs/calendar",
-        "source": "FIRST"
+        "source": "FIRST",
+        "address": "",
+        "watch": []
       },
       {
         "id": "ftc-usinavq",
@@ -6407,9 +6460,16 @@
         "venue": "Avon High School",
         "city": "Avon",
         "state": "IN",
+        "address": "7575 E County Rd 150 S",
         "description": "Qualifying tournament. Top teams and award winners earn spots at the Indiana FTC State Championship.",
         "url": "https://ftcscout.org/events/2026/USINAVQ",
-        "source": "FTCScout"
+        "watch": [],
+        "source": "FTCScout",
+        "entrants": {
+          "posted": false,
+          "count": 0,
+          "local": []
+        }
       },
       {
         "id": "ftc-usinmiq",
@@ -6421,9 +6481,16 @@
         "venue": "Penn High School",
         "city": "Mishawaka",
         "state": "IN",
+        "address": "56100 Bittersweet Rd",
         "description": "Qualifying tournament. Top teams and award winners earn spots at the Indiana FTC State Championship.",
         "url": "https://ftcscout.org/events/2026/USINMIQ",
-        "source": "FTCScout"
+        "watch": [],
+        "source": "FTCScout",
+        "entrants": {
+          "posted": false,
+          "count": 0,
+          "local": []
+        }
       },
       {
         "id": "ftc-state-2027",
@@ -6437,7 +6504,13 @@
         "state": "IN",
         "description": "Indiana's FTC state championship and the path to Houston.",
         "url": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/",
-        "source": "FIRST Indiana Robotics"
+        "source": "FIRST Indiana Robotics",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Not tracked."
+        }
       },
       {
         "id": "frc-2027inmis",
@@ -6452,7 +6525,13 @@
         "week": 2,
         "description": "The first Indiana district event of 2027. THRUST (1501) and CyBears (10434) won it together in 2026.",
         "url": "https://www.thebluealliance.com/event/2027inmis",
-        "source": "The Blue Alliance"
+        "source": "The Blue Alliance",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Add a TBA key to check FRC entries."
+        }
       },
       {
         "id": "frc-2027insel",
@@ -6467,7 +6546,13 @@
         "week": 3,
         "description": "Southern Indiana district event.",
         "url": "https://www.thebluealliance.com/event/2027insel",
-        "source": "The Blue Alliance"
+        "source": "The Blue Alliance",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Add a TBA key to check FRC entries."
+        }
       },
       {
         "id": "frc-2027inlaf",
@@ -6482,7 +6567,13 @@
         "week": 4,
         "description": "THRUST (1501) won Lafayette in 2026.",
         "url": "https://www.thebluealliance.com/event/2027inlaf",
-        "source": "The Blue Alliance"
+        "source": "The Blue Alliance",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Add a TBA key to check FRC entries."
+        }
       },
       {
         "id": "frc-2027inftw",
@@ -6497,7 +6588,13 @@
         "week": 5,
         "description": "Indiana district robotics comes to Fort Wayne. The home event for most teams on this page.",
         "url": "https://www.thebluealliance.com/event/2027inftw",
-        "source": "The Blue Alliance"
+        "source": "The Blue Alliance",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Add a TBA key to check FRC entries."
+        }
       },
       {
         "id": "frc-2027incmp",
@@ -6512,7 +6609,13 @@
         "week": 7,
         "description": "Indiana's top teams by district points meet for the state title and spots at the FIRST Championship.",
         "url": "https://www.thebluealliance.com/event/2027incmp",
-        "source": "The Blue Alliance"
+        "source": "The Blue Alliance",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Add a TBA key to check FRC entries."
+        }
       },
       {
         "id": "cmp-2027",
@@ -6526,7 +6629,13 @@
         "state": "TX",
         "description": "The world championship for FRC and FTC. Teams qualify through district, state and regional results.",
         "url": "https://www.firstinspires.org/programs/first-championship",
-        "source": "FIRST"
+        "source": "FIRST",
+        "address": "",
+        "watch": [],
+        "entrants": {
+          "posted": false,
+          "note": "Not tracked."
+        }
       }
     ]
   },
