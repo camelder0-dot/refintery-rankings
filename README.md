@@ -1,5 +1,7 @@
 # FIRST Robotics teams around Fort Wayne
 
+[Explore the interactive NEI Robotics Top 10](https://horner.github.io/refintery-rankings/) — choose teams, browse student and adult profiles, view separate FTC features, and open the research sources. Public access; no sign-in required.
+
 ## New to robotics? A guide for football and baseball fans
 
 If you follow football or baseball, much of competitive robotics will feel familiar: a team has an identity, students and coaches, practices, scouting, a season, and tournaments. Students design, build, program, and drive the robot their team brings to the field. Success takes preparation and contributions from the whole team, including the people organizing events, raising funds, and keeping equipment ready.

@@ -4,6 +4,10 @@ A broadcast-style screen and media rundown for introducing regional robotics tea
 
 ## Use the screen
 
+[Open the public interactive site](https://horner.github.io/refintery-rankings/). Visitors can select a team in the Top 10, switch to its spotlight, explore FTC features, and open presenter notes and sources. Direct profile links work, for example [North Side / 9119](https://horner.github.io/refintery-rankings/#team/9119) and [FTC features](https://horner.github.io/refintery-rankings/#ftc).
+
+The [GitHub Pages workflow](../.github/workflows/pages.yml) rebuilds and verifies the research on every push to `main`, then publishes only `broadcast/dist`. The public site uses the same interactive files as the broadcast screen; PNGs remain optional downloads.
+
 Serve the static files from the repository root:
 
 ```bash
