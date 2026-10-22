@@ -141,6 +141,13 @@ def main():
     for photo in data["photos"]:
         require(hashlib.sha256((HERE / "dist" / photo["file"]).read_bytes()).hexdigest() == photo["sha256"] and photo["credit"], f"Photo missing or changed: {photo['file']}")
     require(all(s["url"].startswith("https://") and s["date"] and s["outlet"] for s in data["news"]["stories"]), "News link missing source details")
+    for name in ("press/index.html", "press/standings.html", "press/media.html", "press/press.css"):
+        require((HERE / "dist" / name).is_file(), f"Missing reporter page: {name}")
+    csv_rows = (HERE / "dist/standings-2026.csv").read_text(encoding="utf-8").strip().splitlines()
+    require(len(csv_rows) == len(standings) + 1, "Standings CSV is missing teams")
+    require(all(link["url"].startswith(("https://", "http://")) and link["source"] for t in standings for link in t["teamLinks"]), "Team link without a source")
+    require(all(t["logos"].get("team", {}).get("file") or t["logos"].get("school", {}).get("file") for t in standings if t["number"] != 1720) and standings, "A standings team has no logo")
+    require(".md\"" not in (HERE / "dist/index.html").read_text(encoding="utf-8"), "The site links a raw Markdown file")
     calendar = load(HERE / "data/calendar-2026-27.json")
     require(data["calendar"] == calendar and calendar["events"], "Calendar did not reach the browser data")
     require([e["startDate"] for e in calendar["events"]] == sorted(e["startDate"] for e in calendar["events"]), "Calendar is out of order")

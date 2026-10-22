@@ -7,6 +7,7 @@ import re
 from datetime import date, timedelta
 from build_dnf import build_dnf
 from build_matches import build_matches
+from build_press import write_press
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
@@ -70,6 +71,7 @@ def build_standings(frc, editorial, logos, matches):
     counties = {8431: "Noble", 8432: "Noble", 10411: "Allen", **{r["team_number"]: r["county"] for r in editorial["top_10"]}}
     photos = load(HERE / "data/photos.json")["photos"]
     news = load(HERE / "data/news.json")["stories"]
+    team_links = {t["teamNumber"]: t["links"] for t in load(HERE / "data/team-links.json")["teams"]}
     closest = {r["number"]: r for r in matches["teams"] if r["program"] == "FRC"}
     regional = sorted([r for r in frc["teams"] if r["scope_group"] == "northeast_indiana"],
                       key=lambda r: (-r["rankings"]["epa_mean"], r["team_number"]))
@@ -113,6 +115,7 @@ def build_standings(frc, editorial, logos, matches):
             "news": [s for s in news if f"frc{number}" in s["teams"]],
             "photos": [p["id"] for p in photos if number in p["teams"]],
             "links": {"tba": t["tbaUrl"], "statbotics": r["statbotics_url"], "first": r["first_team_url"], "school": r["school_url"]},
+            "teamLinks": team_links.get(number, []),
         })
     by_points = sorted(rows, key=lambda row: (row["district"]["rank"] or 999))
     for i, row in enumerate(by_points, 1):
@@ -172,6 +175,7 @@ def main():
             "profileUrl": r["statbotics_url"],
             "schoolUrl": r["school_url"], "affiliationNote": r["affiliation_notes"],
         })
+    ftc_links = {t["teamNumber"]: t["links"] for t in load(HERE / "data/team-links.json")["teams"]}
     # FTC features stay within the same Indiana regional frame; nearby Ohio research remains linked separately.
     features = []
     for r in ftc["teams"]:
@@ -188,6 +192,7 @@ def main():
             "adults": [person(p, True) for p in l["adult_leadership"]],
             "gaps": [l["gap"]], "sourceUrls": r["source_urls"],
             "profileUrl": r["first_team_url"], "qualification": k["qualification"],
+            "teamLinks": ftc_links.get(r["team_number"], []),
         })
     result = {
         "title": "The REFINERY · NEI Robotics Top 10",
@@ -210,8 +215,8 @@ def main():
                             "sources": ["https://www.firstinspires.org/programs/ftc/", "https://www.firstinspires.org/programs/frc/"]},
         "top10": teams,
         "ftc": {"season": "2025–26 DECODE", "note": "Separate FTC features, using peak event non-penalty OPR captured October 22, 2026. USIN is an assigned event-region cohort, not a home-state rank. FTC OPR and FRC EPA are different models and games.",
-                "teams": features, "newTeams": [{"number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"], "note": r["notes"], "logos": logos(r["team_number"], "ftc")} for r in ftc["current_season_only_teams"]]},
-        "links": {"refinery": "https://refineryrobotics.org/", "about": "https://refineryrobotics.org/about/", "involved": "https://refineryrobotics.org/get-involved/", "repo": "https://github.com/horner/refintery-rankings", "pressKit": "press-kit.md"},
+                "teams": features, "newTeams": [{"number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"], "note": r["notes"], "logos": logos(r["team_number"], "ftc"), "teamLinks": ftc_links.get(r["team_number"], [])} for r in ftc["current_season_only_teams"]]},
+        "links": {"refinery": "https://refineryrobotics.org/", "about": "https://refineryrobotics.org/about/", "involved": "https://refineryrobotics.org/get-involved/", "repo": "https://github.com/horner/refintery-rankings", "pressKit": "press/"},
         "producerNotes": ["Use the documented title and evidence date; do not announce an unconfirmed current captain or head coach.",
                           "The first two EPA values differ by 0.19 points, much less than their model uncertainty. A numbered ordering is not evidence of a meaningful performance gap.",
                           "Recorded season entries can include registrations without matches. They are not a count of winning seasons.",
@@ -225,7 +230,9 @@ def main():
     result["displayAssets"] = {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]}
                                for r in load(HERE / "data/display-assets.json")["assets"]}
     (HERE / "dist/data.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
-    (HERE / "dist/dnf.json").write_text(json.dumps(build_dnf(), ensure_ascii=False, separators=(",", ":")) + "\n")
+    dnf = build_dnf()
+    (HERE / "dist/dnf.json").write_text(json.dumps(dnf, ensure_ascii=False, separators=(",", ":")) + "\n")
+    write_press(result, len(dnf["schools"]))
     press = ["# The REFINERY — NEI Robotics Top 10", "", "## Segment concept", "",
              "Bring the energy of a college football rankings reveal to local student robotics: reveal the regional FRC Top 10, select a team, and introduce the students and adults behind the robot. FTC appears in its own feature segment.", "",
              "Hero line: **The only sport where everyone can go pro.** The career-focused campaign phrase is attributed to [FIRST Global](https://first.global/sport/). Engineering, software, manufacturing, design, and business skills give the line its meaning.", "",

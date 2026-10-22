@@ -207,6 +207,9 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .news-list li:last-child { border-bottom: 0; }
 .news-list a { font-weight: 650; }
 .news-list small { display: block; color: var(--muted); }
+.link-list.follow { margin: 0 0 4px; }
+.small { font-size: 13px; }
+.nowrap { white-space: nowrap; }
 .team-photo { margin: 16px 0 0; }
 .team-photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .team-photo figcaption { font-size: 12px; color: var(--muted); padding-top: 6px; }

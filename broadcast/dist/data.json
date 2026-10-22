@@ -3019,7 +3019,27 @@
           "https://www.canterburyschool.org/our-school/news/canterbury-robotics-earns-first-place-control-award-advances-to-state-tournament"
         ],
         "profileUrl": "https://ftc-events.firstinspires.org/2025/team/22331",
-        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV. Worldwide best comes from Michiana Premier Croft division; Indiana-region best comes from Westfield QT. Michiana Premier is physically in Indiana but assigned region FPE, so it is outside the USIN query."
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV. Worldwide best comes from Michiana Premier Croft division; Indiana-region best comes from Westfield QT. Michiana Premier is physically in Indiana but assigned region FPE, so it is outside the USIN query.",
+        "teamLinks": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/randomrobtics22331/",
+            "source": "The REFINERY",
+            "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/ftc-22331-random.mdx"
+          },
+          {
+            "type": "Facebook",
+            "url": "https://www.facebook.com/CanterburySchoolFW",
+            "source": "The REFINERY",
+            "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/ftc-22331-random.mdx"
+          },
+          {
+            "type": "Website",
+            "url": "https://sites.google.com/canterburyschool.org/robotics/home",
+            "source": "The REFINERY",
+            "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/ftc-22331-random.mdx"
+          }
+        ]
       },
       {
         "number": 25638,
@@ -3076,7 +3096,15 @@
           "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
         ],
         "profileUrl": "https://ftc-events.firstinspires.org/2025/team/25638",
-        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV."
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV.",
+        "teamLinks": [
+          {
+            "type": "Instagram",
+            "url": "https://www.instagram.com/ftcteam25638/",
+            "source": "The REFINERY",
+            "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/ftc-25638-mg.mdx"
+          }
+        ]
       }
     ],
     "newTeams": [
@@ -3098,7 +3126,8 @@
             "note": "No dedicated team logo published in the official team page or its source content as of 2026-10-22. Leave the logo slot empty; the Amp Lab school/program mark belongs in the separate school slot.",
             "retrievedDate": "2026-10-22"
           }
-        }
+        },
+        "teamLinks": []
       }
     ]
   },
@@ -3107,7 +3136,7 @@
     "about": "https://refineryrobotics.org/about/",
     "involved": "https://refineryrobotics.org/get-involved/",
     "repo": "https://github.com/horner/refintery-rankings",
-    "pressKit": "press-kit.md"
+    "pressKit": "press/"
   },
   "producerNotes": [
     "Use the documented title and evidence date; do not announce an unconfirmed current captain or head coach.",
@@ -3401,6 +3430,50 @@
         "first": "https://frc-events.firstinspires.org/2026/team/1501",
         "school": "https://hnhs.hccsc.k12.in.us/"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/teamthrust1501/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-1501-thrust.mdx"
+        },
+        {
+          "type": "Facebook",
+          "url": "https://www.facebook.com/Teamthrust1501/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-1501-thrust.mdx"
+        },
+        {
+          "type": "YouTube",
+          "url": "https://www.youtube.com/@teamthrust1501",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-1501-thrust.mdx"
+        },
+        {
+          "type": "Flickr",
+          "url": "https://www.flickr.com/photos/teamthrust1501/collections",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-1501-thrust.mdx"
+        },
+        {
+          "type": "Website",
+          "url": "http://huntingtonrobotics.org/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-1501-thrust.mdx"
+        },
+        {
+          "type": "Facebook",
+          "url": "https://www.facebook.com/team1501",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1501/2026"
+        },
+        {
+          "type": "X",
+          "url": "https://twitter.com/team1501",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1501/2026"
+        }
+      ],
       "standingsRank": 1
     },
     {
@@ -3666,6 +3739,50 @@
         "first": "https://frc-events.firstinspires.org/2026/team/1720",
         "school": "https://phyxtgears.org/"
       },
+      "teamLinks": [
+        {
+          "type": "Website",
+          "url": "https://phyxtgears.org",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
+        },
+        {
+          "type": "Facebook",
+          "url": "https://www.facebook.com/frcteam1720",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
+        },
+        {
+          "type": "Facebook",
+          "url": "https://www.facebook.com/phyxtgears",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
+        },
+        {
+          "type": "X",
+          "url": "https://twitter.com/frcteam1720",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
+        },
+        {
+          "type": "X",
+          "url": "https://twitter.com/team1720",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
+        },
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/frcteam1720",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
+        },
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/team1720",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
+        }
+      ],
       "standingsRank": 2
     },
     {
@@ -3933,6 +4050,14 @@
         "first": "https://frc-events.firstinspires.org/2026/team/9119",
         "school": "https://northside.fortwayneschools.org/about-us/robotics"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/ironlegends9119/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-9119-iron-legends.mdx"
+        }
+      ],
       "standingsRank": 5
     },
     {
@@ -4201,6 +4326,44 @@
         "first": "https://frc-events.firstinspires.org/2026/team/9431",
         "school": "https://snider.fortwayneschools.org/"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/snider_robotics9431",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-9431-snider-panthers.mdx"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://github.com/snidercs",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-9431-snider-panthers.mdx"
+        },
+        {
+          "type": "Website",
+          "url": "https://snidercs.org/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-9431-snider-panthers.mdx"
+        },
+        {
+          "type": "Facebook",
+          "url": "https://www.facebook.com/share/affc9rrkq6sqjcud",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/9431/2026"
+        },
+        {
+          "type": "YouTube",
+          "url": "https://www.youtube.com/@thegoldstandard9431",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/9431/2026"
+        },
+        {
+          "type": "X",
+          "url": "https://twitter.com/sniderrobotics",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/9431/2026"
+        }
+      ],
       "standingsRank": 6
     },
     {
@@ -4463,6 +4626,44 @@
         "first": "https://frc-events.firstinspires.org/2026/team/4982",
         "school": "https://homestead.sacs.k12.in.us/"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/4982_olympus_robotics/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-4982-olympus-robotics.mdx"
+        },
+        {
+          "type": "TikTok",
+          "url": "https://www.tiktok.com/@olympus.robotics.hhs",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-4982-olympus-robotics.mdx"
+        },
+        {
+          "type": "YouTube",
+          "url": "https://www.youtube.com/@olympusrobotics4982",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-4982-olympus-robotics.mdx"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://github.com/OlympusRobotics/Olympus_Robotics_FRC",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-4982-olympus-robotics.mdx"
+        },
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/homestead.robotics",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/4982/2026"
+        },
+        {
+          "type": "GitHub",
+          "url": "https://github.com/olympusrobotics",
+          "source": "The Blue Alliance",
+          "sourceUrl": "https://www.thebluealliance.com/team/4982/2026"
+        }
+      ],
       "standingsRank": 3
     },
     {
@@ -4680,6 +4881,20 @@
         "first": "https://frc-events.firstinspires.org/2026/team/10434",
         "school": "https://northrop.fortwayneschools.org/"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/cybears10434/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-10434-cybears.mdx"
+        },
+        {
+          "type": "Facebook",
+          "url": "https://www.facebook.com/NorthropRobotics",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-10434-cybears.mdx"
+        }
+      ],
       "standingsRank": 4
     },
     {
@@ -4918,6 +5133,20 @@
         "first": "https://frc-events.firstinspires.org/2026/team/8103",
         "school": "https://hs.eastnoble.net/"
       },
+      "teamLinks": [
+        {
+          "type": "TikTok",
+          "url": "https://www.tiktok.com/@knights.robotics.81.84",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8103-knight-robotics.mdx"
+        },
+        {
+          "type": "X",
+          "url": "https://x.com/8103En",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8103-knight-robotics.mdx"
+        }
+      ],
       "standingsRank": 9
     },
     {
@@ -5125,6 +5354,14 @@
         "first": "https://frc-events.firstinspires.org/2026/team/10332",
         "school": "https://ch.nacs.k12.in.us/"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/carrollrobotic",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-10332-carroll-charger-robotics.mdx"
+        }
+      ],
       "standingsRank": 7
     },
     {
@@ -5300,6 +5537,20 @@
         "first": "https://frc-events.firstinspires.org/2026/team/8742",
         "school": "https://mghs.mgusc.k12.in.us/"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/frcteam8742",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8742-argyll-attack.mdx"
+        },
+        {
+          "type": "X",
+          "url": "https://twitter.com/frcteam8742",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8742-argyll-attack.mdx"
+        }
+      ],
       "standingsRank": 11
     },
     {
@@ -5478,6 +5729,7 @@
         "first": "https://frc-events.firstinspires.org/2026/team/10172",
         "school": "https://southside.fortwayneschools.org/"
       },
+      "teamLinks": [],
       "standingsRank": 8
     },
     {
@@ -5487,7 +5739,23 @@
       "city": "Kendallville",
       "county": "Noble",
       "affiliationNote": "Official rookie year is 2020; recorded season history through 2026 begins in 2025.",
-      "logos": {},
+      "logos": {
+        "team": {
+          "program": "frc",
+          "number": 8431,
+          "kind": "team",
+          "file": "assets/logos/team-8431.png",
+          "sourceUrl": "https://raw.githubusercontent.com/BioNanomics/REFINERY-site/main/src/assets/teams/frc-8431-robo-knights.png",
+          "pageUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8431-robo-knights.mdx",
+          "label": "Robo-Knights logo",
+          "status": "verified",
+          "note": "Unmodified logo asset explicitly assigned to this team number in The REFINERY official website source. Used for identification; rights remain with the respective team/mark owner.",
+          "sha256": "c677fa67087b98ea2db1c5df91b8a6170581ed21560f805396eff67d75ee2e4d",
+          "retrievedDate": "2026-10-22",
+          "width": 256,
+          "height": 129
+        }
+      },
       "rookieYear": 2020,
       "seasons": 2,
       "powerRank": 11,
@@ -5601,6 +5869,20 @@
         "first": "https://frc-events.firstinspires.org/2026/team/8431",
         "school": "https://hs.eastnoble.net/"
       },
+      "teamLinks": [
+        {
+          "type": "TikTok",
+          "url": "https://www.tiktok.com/@knights.robotics.81.84",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8431-robo-knights.mdx"
+        },
+        {
+          "type": "X",
+          "url": "https://x.com/8103En",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8431-robo-knights.mdx"
+        }
+      ],
       "standingsRank": 10
     },
     {
@@ -5610,7 +5892,21 @@
       "city": "Fort Wayne",
       "county": "Allen",
       "affiliationNote": "",
-      "logos": {},
+      "logos": {
+        "team": {
+          "program": "frc",
+          "number": 10411,
+          "kind": "team",
+          "file": "assets/logos/team-10411.svg",
+          "sourceUrl": "https://raw.githubusercontent.com/BioNanomics/REFINERY-site/main/src/assets/teams/frc-10411-g-code-generals.svg",
+          "pageUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-10411-g-code-generals.mdx",
+          "label": "G-Code Generals logo",
+          "status": "verified",
+          "note": "Unmodified logo asset explicitly assigned to this team number in The REFINERY official website source. Used for identification; rights remain with the respective team/mark owner.",
+          "sha256": "662529e3c312d3bb994810b2d91541cf0990133e5438b7657edd78af93d4b3a3",
+          "retrievedDate": "2026-10-22"
+        }
+      },
       "rookieYear": 2025,
       "seasons": 2,
       "powerRank": 12,
@@ -5749,6 +6045,14 @@
         "first": "https://frc-events.firstinspires.org/2026/team/10411",
         "school": "https://wayne.fortwayneschools.org/"
       },
+      "teamLinks": [
+        {
+          "type": "Instagram",
+          "url": "https://www.instagram.com/gcode_generals/",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-10411-g-code-generals.mdx"
+        }
+      ],
       "standingsRank": 12
     },
     {
@@ -5758,7 +6062,23 @@
       "city": "Kendallville",
       "county": "Noble",
       "affiliationNote": "Official rookie year is 2020; recorded season history through 2026 begins in 2026.",
-      "logos": {},
+      "logos": {
+        "team": {
+          "program": "frc",
+          "number": 8432,
+          "kind": "team",
+          "file": "assets/logos/team-8432.png",
+          "sourceUrl": "https://raw.githubusercontent.com/BioNanomics/REFINERY-site/main/src/assets/teams/frc-8432-cyber-knights.png",
+          "pageUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8432-cyber-knights.mdx",
+          "label": "Cyber Knights logo",
+          "status": "verified",
+          "note": "Unmodified logo asset explicitly assigned to this team number in The REFINERY official website source. Used for identification; rights remain with the respective team/mark owner.",
+          "sha256": "7f7625a0e0689c03d161154165d7361d25837689406ec1418d336b1d6df8bef5",
+          "retrievedDate": "2026-10-22",
+          "width": 256,
+          "height": 141
+        }
+      },
       "rookieYear": 2020,
       "seasons": 1,
       "powerRank": 13,
@@ -5862,6 +6182,20 @@
         "first": "https://frc-events.firstinspires.org/2026/team/8432",
         "school": "https://hs.eastnoble.net/"
       },
+      "teamLinks": [
+        {
+          "type": "TikTok",
+          "url": "https://www.tiktok.com/@knights.robotics.81.84",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8432-cyber-knights.mdx"
+        },
+        {
+          "type": "X",
+          "url": "https://x.com/8103En",
+          "source": "The REFINERY",
+          "sourceUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8432-cyber-knights.mdx"
+        }
+      ],
       "standingsRank": 13
     }
   ],

@@ -45,6 +45,8 @@
     const shown = state.data.displayAssets?.[mark.file];
     return `<span class="logo${mark.background === 'dark' ? ' dark-logo' : ''}"><img src="${esc(shown?.file || mark.file)}" alt="" loading="lazy" decoding="async"${shown ? ` width="${shown.width}" height="${shown.height}"` : ''}></span>`;
   };
+  const handle = (url) => url.replace(/\/+$/, '').split('/').pop().replace(/^@/, '');
+  const follow = (links) => links?.length ? `<ul class="link-list follow">${links.map((l) => `<li>${ext(l.url, l.type === 'Website' ? 'Team website' : ['Instagram', 'X', 'YouTube', 'TikTok'].includes(l.type) ? `${l.type} @${handle(l.url)}` : l.type, 'text-link')}</li>`).join('')}</ul>` : '';
   const honorClass = (b) => /winner/i.test(b) ? 'trophy' : /World/.test(b) ? 'worlds' : '';
   const photo = (id) => state.data.photos.find((p) => p.id === id);
 
@@ -88,7 +90,8 @@
     const peopleHtml = people.length ? `<details><summary>People named in public sources (${people.length})</summary><ul class="people">${people.map((p) => `<li><strong>${esc(p.name)}</strong> · ${esc(p.role)}<br><small>${p.date ? `Source dated ${esc(shortDate(p.date))}` : 'Undated source'} · ${p.sourceUrls.slice(0, 2).map((u, i) => ext(u, `source ${i + 1}`)).join(' · ')}</small></li>`).join('')}</ul>${t.gaps.length ? `<p class="muted">${t.gaps.map(esc).join(' ')}</p>` : ''}</details>` : '';
     const facts = `<details><summary>Team facts</summary><ul class="people"><li>Rookie year ${t.rookieYear} · ${t.seasons} seasons through 2026</li><li>${esc(t.county)} County · ${esc(t.affiliationNote)}</li><li>Indiana EPA rank ${t.stateEpaRank} of ${t.stateEpaCount} · world ${num(t.worldEpaRank)} of ${num(t.worldEpaCount)}</li><li>District points ${num(t.district.points)} · Indiana district rank ${t.district.rank} of ${t.district.teamCount}</li></ul></details>`;
     const links = `<ul class="link-list"><li>${ext(t.links.tba, 'The Blue Alliance', 'text-link')}</li><li>${ext(t.links.statbotics, 'Statbotics', 'text-link')}</li><li>${ext(t.links.first, 'FIRST profile', 'text-link')}</li>${t.links.school ? `<li>${ext(t.links.school, 'School site', 'text-link')}</li>` : ''}</ul>`;
-    return `<div><h4>2026 season</h4>${events}${awards}${peopleHtml}${facts}</div><div>${closest}${fig}${news}<h4>Links</h4>${links}</div>`;
+    const followHtml = t.teamLinks?.length ? `<h4>Follow the team</h4>${follow(t.teamLinks)}` : '';
+    return `<div><h4>2026 season</h4>${events}${awards}${peopleHtml}${facts}</div><div>${followHtml}${closest}${fig}${news}<h4>Stats &amp; profiles</h4>${links}<p class="muted small">Interview requests: <a href="mailto:celder@bionanomics.com?subject=${encodeURIComponent(`Media request: ${t.name} (${t.number})`)}">celder@bionanomics.com</a></p></div>`;
   }
 
   function renderStandings() {
@@ -127,7 +130,7 @@
     const card = (t, rookie) => {
       const s = stories(t.number);
       const stats = rookie ? '<p class="muted">Rookie team for 2026–27. First matches this season.</p>' : `<div class="card-stats"><div><strong>${num(t.opr, 1)}</strong><span>Best OPR, 2025–26</span></div><div><strong>${t.regionalRank}<small class="muted">/${t.regionalCount}</small></strong><span>Rank at Indiana events</span></div></div>`;
-      return `<article class="card"><span class="label ${rookie ? 'new' : 'ftc'}">${rookie ? 'New this season' : 'FTC'} · ${t.number}</span><div class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)}</strong><small>${esc(t.school)}${t.city ? ` · ${esc(t.city)}` : ''}</small></span></div>${stats}${s.length ? `<details><summary>In the news (${s.length})</summary><ul class="news-list">${s.map((x) => `<li>${ext(x.url, x.title)}<small>${esc(x.outlet)} · ${esc(shortDate(x.date))}</small></li>`).join('')}</ul></details>` : ''}<ul class="link-list"><li>${ext(`https://ftcscout.org/teams/${t.number}`, 'FTCScout', 'text-link')}</li>${t.profileUrl ? `<li>${ext(t.profileUrl, 'FIRST profile', 'text-link')}</li>` : ''}</ul></article>`;
+      return `<article class="card"><span class="label ${rookie ? 'new' : 'ftc'}">${rookie ? 'New this season' : 'FTC'} · ${t.number}</span><div class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)}</strong><small>${esc(t.school)}${t.city ? ` · ${esc(t.city)}` : ''}</small></span></div>${stats}${s.length ? `<details><summary>In the news (${s.length})</summary><ul class="news-list">${s.map((x) => `<li>${ext(x.url, x.title)}<small>${esc(x.outlet)} · ${esc(shortDate(x.date))}</small></li>`).join('')}</ul></details>` : ''}${follow(t.teamLinks)}<ul class="link-list"><li>${ext(`https://ftcscout.org/teams/${t.number}`, 'FTCScout', 'text-link')}</li>${t.profileUrl ? `<li>${ext(t.profileUrl, 'FIRST profile', 'text-link')}</li>` : ''}</ul></article>`;
     };
     $('ftc-grid').innerHTML = ftc.teams.map((t) => card(t, false)).join('') + ftc.newTeams.map((t) => card(t, true)).join('');
   }
@@ -176,6 +179,7 @@
       <li><strong>FTC ratings:</strong> ${ext('https://ftcscout.org/', 'FTCScout')}, best event OPR excluding penalties, 2025–26 season.</li>
       <li><strong>Team-school links, hometowns, rookie years:</strong> official ${ext('https://frc-events.firstinspires.org/', 'FIRST')} team profiles.</li>
       <li><strong>Replays:</strong> official FIRST Indiana Robotics video, matched to TBA result pages.</li>
+      <li><a href="standings-2026.csv" download>Standings CSV</a> · <a href="calendar.ics" download>Season calendar (.ics)</a> · ${ext('https://github.com/horner/refintery-rankings/tree/main/data', 'All data as JSON and CSV')}</li>
       <li>${ext('https://github.com/horner/refintery-rankings', 'Full research, raw captures and methodology on GitHub')}</li></ul>`;
   }
 
@@ -201,7 +205,7 @@
       $('dnf-review-summary').textContent = `Bring back a team: ${dnf.reviewSchools.length} schools with a former team or community connection`;
       $('dnf-review-list').innerHTML = dnf.reviewSchools.map((s) => `<li><strong>${esc(s.name)}</strong> · ${esc(s.city)}, ${esc(s.state)}<br><small>${esc(s.teamNote)}</small><br><a href="${safeUrl(mail(s.name))}">Talk about a relaunch</a></li>`).join('');
     }
-    $('dnf-method').innerHTML = `<p>${esc(dnf.scopeNote)}</p><p>${esc(dnf.qualification)}</p><p>The list includes career centers, alternative and special-education programs, and private schools as well as traditional high schools. ${dnf.counts.existingTeams} schools with current teams and ${dnf.counts.facilitiesNotInvited} secure or residential facilities are left off. Checked ${esc(shortDate(dnf.asOf))}. ${ext(dnf.methodologyUrl, 'Full school list, leaders and sources')}</p><p>Already fielding a team? ${ext('mailto:info@refineryrobotics.org?subject=DNF%20correction', 'Send a correction')} and we’ll move you to the lineup.</p>`;
+    $('dnf-method').innerHTML = `<p>${esc(dnf.scopeNote)}</p><p>${esc(dnf.qualification)}</p><p>The list includes career centers, alternative and special-education programs, and private schools as well as traditional high schools. ${dnf.counts.existingTeams} schools with current teams and ${dnf.counts.facilitiesNotInvited} secure or residential facilities are left off. Checked ${esc(shortDate(dnf.asOf))}. ${ext('https://github.com/horner/refintery-rankings/blob/main/broadcast/dist/dnf-methodology.md', 'Full school list, leaders and sources')}</p><p>Already fielding a team? ${ext('mailto:info@refineryrobotics.org?subject=DNF%20correction', 'Send a correction')} and we’ll move you to the lineup.</p>`;
     update();
   }
 
