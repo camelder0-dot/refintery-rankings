@@ -1,0 +1,483 @@
+{
+  "retrieved_at": "2026-10-22",
+  "scope": "Public FTC role evidence for the 2025–26 DECODE comparison; current, undated and historical evidence remain qualified.",
+  "records": [
+    {
+      "team_number": 22331,
+      "team_name": "random()",
+      "location": "Fort Wayne, IN",
+      "adult_leadership": [
+        {
+          "name": "Ms. Randall",
+          "role": "Adult named on team roster; CS/Math/Engineering Educator",
+          "season": "2025-26",
+          "source_ids": [
+            "L01"
+          ],
+          "notes": "Exact partial name and occupation retained. Adult roster categorization is a research inference from occupation and placement above student biographies; source does not explicitly call her coach or mentor.",
+          "source_urls": [
+            "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "evidence_date": null,
+          "evidence_date_basis": "Portfolio version context 2026-03-13 from filename and document metadata; not an established publication date."
+        },
+        {
+          "name": "Mr. Delaney",
+          "role": "Adult named on team roster; BAE Systems Engineer",
+          "season": "2025-26",
+          "source_ids": [
+            "L01"
+          ],
+          "notes": "Exact partial name and occupation retained. Adult roster categorization is a research inference from occupation and placement above student biographies; source does not explicitly call him coach or mentor.",
+          "source_urls": [
+            "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "evidence_date": null,
+          "evidence_date_basis": "Portfolio version context 2026-03-13 from filename and document metadata; not an established publication date."
+        }
+      ],
+      "student_leadership": [
+        {
+          "name": "Clara Satter",
+          "role": "Lead programmer",
+          "season": "2025-26",
+          "source_ids": [
+            "L02"
+          ],
+          "notes": "School article names her senior and lead programmer after third tournament in South Bend, ahead of March 14 state. It does not call her captain.",
+          "source_urls": [
+            "https://www.canterburyschool.org/our-school/news/canterbury-robotics-earns-first-place-control-award-advances-to-state-tournament"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "evidence_date": null,
+          "evidence_date_basis": "Undated school article; 2025–26 season inferred from its named South Bend and March 14 events."
+        },
+        {
+          "name": "Gabi",
+          "role": "Team driver; manages engineering notebook; works on team organization and sustainability",
+          "season": "2025-26",
+          "source_ids": [
+            "L01"
+          ],
+          "notes": "First name only; duties are self-described in portfolio; not a captain title.",
+          "source_urls": [
+            "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "evidence_date": null,
+          "evidence_date_basis": "Portfolio version context 2026-03-13 from filename and document metadata; not an established publication date."
+        }
+      ],
+      "captain": null,
+      "gap": "No public captain found in reviewed team site, 2025-26 portfolio, school award articles or targeted captain searches. Portfolio does not assign coach or mentor titles to its named adults.",
+      "additional_context": "School news Jan 17 2025 identifies Rebekah Randall as Canterbury Computer Science teacher, consistent with portfolio Ms. Randall, but portfolio record preserves partial name as published. This teacher identity source is L03."
+    },
+    {
+      "team_number": 5501,
+      "team_name": "VW Robotics",
+      "location": "Van Wert, OH",
+      "adult_leadership": [
+        {
+          "name": "Robert Spath",
+          "role": "Coach of Van Wert's two FTC teams",
+          "season": "2025-26 confirmed / current site undated",
+          "source_ids": [
+            "L04",
+            "L05"
+          ],
+          "notes": "School Jan 20 2026 article calls him Bob Spath; team site Robert Spath.",
+          "source_urls": [
+            "https://van-wert-robotics-club.webnode.page/",
+            "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "evidence_date": "2026-01-20",
+          "evidence_date_basis": "Dated school article; additional team site is undated."
+        },
+        {
+          "name": "Noah Carter",
+          "role": "Coach of Van Wert's two FTC teams",
+          "season": "2025-26 confirmed / current site undated",
+          "source_ids": [
+            "L04",
+            "L05"
+          ],
+          "source_urls": [
+            "https://van-wert-robotics-club.webnode.page/",
+            "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 5501.",
+          "evidence_date": "2026-01-20",
+          "evidence_date_basis": "Dated school article; additional team site is undated."
+        },
+        {
+          "name": "Judy Krites",
+          "role": "Coach of Van Wert's two FTC teams",
+          "season": "2025-26 confirmed / current site undated",
+          "source_ids": [
+            "L04",
+            "L05"
+          ],
+          "source_urls": [
+            "https://van-wert-robotics-club.webnode.page/",
+            "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 5501.",
+          "evidence_date": "2026-01-20",
+          "evidence_date_basis": "Dated school article; additional team site is undated."
+        }
+      ],
+      "student_leadership": [],
+      "captain": null,
+      "gap": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 5501."
+    },
+    {
+      "team_number": 14174,
+      "team_name": "Cougar Robotics",
+      "location": "Van Wert, OH",
+      "adult_leadership": [
+        {
+          "name": "Robert Spath",
+          "role": "Coach of Van Wert's two FTC teams",
+          "season": "2025-26 confirmed / current site undated",
+          "source_ids": [
+            "L04",
+            "L05"
+          ],
+          "source_urls": [
+            "https://van-wert-robotics-club.webnode.page/",
+            "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174.",
+          "evidence_date": "2026-01-20",
+          "evidence_date_basis": "Dated school article; additional team site is undated."
+        },
+        {
+          "name": "Noah Carter",
+          "role": "Coach of Van Wert's two FTC teams",
+          "season": "2025-26 confirmed / current site undated",
+          "source_ids": [
+            "L04",
+            "L05"
+          ],
+          "source_urls": [
+            "https://van-wert-robotics-club.webnode.page/",
+            "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174.",
+          "evidence_date": "2026-01-20",
+          "evidence_date_basis": "Dated school article; additional team site is undated."
+        },
+        {
+          "name": "Judy Krites",
+          "role": "Coach of Van Wert's two FTC teams",
+          "season": "2025-26 confirmed / current site undated",
+          "source_ids": [
+            "L04",
+            "L05"
+          ],
+          "source_urls": [
+            "https://van-wert-robotics-club.webnode.page/",
+            "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174.",
+          "evidence_date": "2026-01-20",
+          "evidence_date_basis": "Dated school article; additional team site is undated."
+        }
+      ],
+      "student_leadership": [],
+      "captain": null,
+      "gap": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174."
+    },
+    {
+      "team_number": 30782,
+      "team_name": "ROBO DOGS",
+      "location": "Celina, OH",
+      "adult_leadership": [
+        {
+          "name": "Jon Gudorf",
+          "role": "Coach; Celina STEM, engineering and 3-D modeling instructor",
+          "season": "2025-26",
+          "source_ids": [
+            "L06"
+          ],
+          "source_urls": [
+            "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "notes": "No public captain found. Drivers/coders quoted in news are representatives, not evidence of a leadership title.",
+          "evidence_date": "2025-12-23",
+          "evidence_date_basis": "Dated local news article."
+        },
+        {
+          "name": "Pete Lisi",
+          "role": "Coach; Celina Middle School dean of students",
+          "season": "2025-26",
+          "source_ids": [
+            "L06"
+          ],
+          "source_urls": [
+            "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "notes": "No public captain found. Drivers/coders quoted in news are representatives, not evidence of a leadership title.",
+          "evidence_date": "2025-12-23",
+          "evidence_date_basis": "Dated local news article."
+        }
+      ],
+      "student_leadership": [],
+      "public_student_representatives": [
+        {
+          "name": "Chase Moore",
+          "role": "Driver",
+          "season": "2025-26",
+          "source_ids": [
+            "L06"
+          ],
+          "notes": "Quoted freshman participant; not presented as captain or lead driver.",
+          "source_urls": [
+            "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "evidence_date": "2025-12-23",
+          "evidence_date_basis": "Dated local news article."
+        },
+        {
+          "name": "Hunter Collins",
+          "role": "Coder",
+          "season": "2025-26",
+          "source_ids": [
+            "L06"
+          ],
+          "notes": "Quoted eighth-grade participant; not presented as captain or lead programmer.",
+          "source_urls": [
+            "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+          ],
+          "evidence_status": "public_role_evidence_with_season_qualification",
+          "evidence_date": "2025-12-23",
+          "evidence_date_basis": "Dated local news article."
+        }
+      ],
+      "captain": null,
+      "gap": "No public captain found. Drivers/coders quoted in news are representatives, not evidence of a leadership title."
+    },
+    {
+      "team_number": 12802,
+      "team_name": "We Will Bot You",
+      "location": "Coldwater, OH",
+      "adult_leadership": [
+        {
+          "name": "Becca Wenning",
+          "role": "Founding coach/mentor (self-reported public professional profile)",
+          "season": "Undated current profile; not independently season-verified",
+          "source_ids": [
+            "L07"
+          ],
+          "notes": "Profile lists FIRST Coach/Mentor Sep 2016-Present and explicitly FTC12802. Treat as a public leadership lead, not proof of 2025-26 or 2026-27 appointment.",
+          "source_urls": [
+            "https://www.linkedin.com/in/becca-wenning"
+          ],
+          "evidence_status": "undated_self_report_season_unverified",
+          "evidence_date": null,
+          "evidence_date_basis": "Undated self-reported public profile; appointment in the comparison season remains unverified."
+        }
+      ],
+      "student_leadership": [],
+      "captain": null,
+      "gap": "No dated school/team source confirming 2025-26 coach/captain found. Ohio partner directory links team's Facebook CWFTC; web access throttled. Keep season currency uncertain."
+    },
+    {
+      "team_number": 19778,
+      "team_name": "Wire Monkeys",
+      "location": "Alvordton, OH",
+      "adult_leadership": [],
+      "student_leadership": [],
+      "captain": null,
+      "gap": "No public named coach/mentor/captain found in official season page, Feb 21 2024 local team story, or targeted coach/mentor searches. Team Facebook ftcwiremonkeys was throttled.",
+      "source_ids": [
+        "L08",
+        "L09"
+      ],
+      "affiliation_caution": "FIRST2025 lists Country Club Robotics/North Star Bluescope & Home School; do not infer Hilltop school affiliation from location."
+    },
+    {
+      "team_number": 25638,
+      "team_name": "MG (Microchips & Guac)",
+      "location": "Fairmount, IN",
+      "adult_leadership": [],
+      "student_leadership": [],
+      "captain": null,
+      "gap": "No public named coach/mentor/captain found in official FIRST season page, REFINERY description or targeted team/school searches. Do not transfer adult names from FRC8742 without FTC-specific evidence.",
+      "source_ids": [
+        "L10",
+        "L11"
+      ]
+    },
+    {
+      "team_number": 32552,
+      "team_name": "NSCC",
+      "location": "Archbold, OH",
+      "adult_leadership": [],
+      "student_leadership": [],
+      "captain": null,
+      "gap": "No FTC-specific named leaders found. FIRST2025 sponsor is only Family/Community and team has no official events. Northwest State Community College/FRC6181 results do not establish FTC32552 affiliation or leadership.",
+      "source_ids": [
+        "L12"
+      ]
+    },
+    {
+      "team_number": 36124,
+      "team_name": "R.Amp Robotics",
+      "location": "Fort Wayne, IN",
+      "adult_leadership": [],
+      "student_leadership": [],
+      "captain": null,
+      "season": "2026-27 rookie/current unranked",
+      "gap": "No team-specific named coach/mentor/captain found in FIRST2026 team page or REFINERY about page. REFINERY's general staff are not evidence of assigned FTC36124 team roles.",
+      "source_ids": [
+        "L11",
+        "L15"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "L01",
+      "url": "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing",
+      "title": "random() 2025-26 Engineering Portfolio 3-13-26.pdf",
+      "publisher": "Canterbury FTC team site linked portfolio",
+      "date": null,
+      "type": "primary team PDF",
+      "locator": "PDF page2 / printed page1 Meet the Team; PDF page14 / printed13 Professional Connections",
+      "notes": "Downloaded via public Google Drive export and extracted with pdftotext; Meet the Team page visually inspected. Source linked at https://sites.google.com/canterburyschool.org/robotics/home .",
+      "document_date_evidence": {
+        "filename_date": "2026-03-13",
+        "pdf_metadata_creation_utc": "2026-03-13T15:39:03Z",
+        "pdf_metadata_modification_utc": "2026-03-13T15:38:58Z",
+        "publication_date": null,
+        "note": "Filename date and PDF metadata establish document version/creation context, not publication date."
+      }
+    },
+    {
+      "id": "L02",
+      "url": "https://www.canterburyschool.org/our-school/news/canterbury-robotics-earns-first-place-control-award-advances-to-state-tournament",
+      "title": "Canterbury Robotics Earns First Place Control Award, Advances to State Tournament",
+      "publisher": "Canterbury School",
+      "date": null,
+      "type": "primary school news",
+      "notes": "Text explicitly names senior Clara Satter as lead programmer; season established by South Bend third event and March14 state date. FIRST22331 2025 record identifies Feb14/Mar14 2026 events. No visible publication date."
+    },
+    {
+      "id": "L03",
+      "url": "https://www.canterburyschool.org/our-school/news/canterbury-earns-ap-computer-science-diversity-award",
+      "title": "Canterbury earns AP Computer Science Diversity Award",
+      "publisher": "Canterbury School",
+      "date": "2025-01-17",
+      "type": "primary school news",
+      "notes": "Names Rebekah Randall as High School Computer Science teacher; role identity corroboration only, does not name robotics coach."
+    },
+    {
+      "id": "L04",
+      "url": "https://van-wert-robotics-club.webnode.page/",
+      "title": "Van Wert Robotics",
+      "publisher": "Van Wert High School Robotics Club",
+      "date": null,
+      "type": "primary team website",
+      "notes": "Intro explicitly identifies two FTC teams and coaches Robert Spath, Noah Carter, Judy Krites. Current retrieval2026-10-22, site undated."
+    },
+    {
+      "id": "L05",
+      "url": "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament",
+      "title": "VWHS Hosts 10th Annual Robotics Tournament",
+      "publisher": "Van Wert City Schools (article courtesy Times Bulletin)",
+      "date": "2026-01-20",
+      "type": "school republished local news",
+      "notes": "Identifies Bob Spath as Van Wert High School robotics coach and later collectively coaches Bob Spath, Noah Carter, Judy Krites. About FTC qualifier, 2025-26 game."
+    },
+    {
+      "id": "L06",
+      "url": "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games",
+      "title": "Robot Games",
+      "publisher": "The Daily Standard",
+      "date": "2025-12-23",
+      "type": "dated local news",
+      "notes": "Explicit coaches Jon Gudorf/Pete Lisi. Names Chase Moore driver and Hunter Collins coder. Does not name either student captain."
+    },
+    {
+      "id": "L07",
+      "url": "https://www.linkedin.com/in/becca-wenning",
+      "title": "Becca Wenning professional profile",
+      "publisher": "Becca Wenning (self-authored)",
+      "date": null,
+      "type": "public self-report",
+      "notes": "Volunteer section explicitly describes founding coach/mentor of FTC12802 and lists Sep2016-Present. No season-specific appointment verification. Avoid using unrelated Wenning people or sports names."
+    },
+    {
+      "id": "L08",
+      "url": "https://ftc-events.firstinspires.org/2025/team/19778",
+      "title": "Team19778 Wire Monkeys (2025)",
+      "publisher": "FIRST",
+      "date": null,
+      "type": "official team season record",
+      "notes": "2025 sponsor field Country Club Robotics/North Star Bluescope & Home School. No person names."
+    },
+    {
+      "id": "L09",
+      "url": "https://thevillagereporter.com/two-williams-county-robotics-teams-putting-in-hard-work-to-prepare-for-state-competitions/",
+      "title": "Two Williams County Robotics Teams Putting In Hard Work To Prepare For State Competitions",
+      "publisher": "The Village Reporter",
+      "date": "2024-02-21",
+      "type": "dated local news",
+      "notes": "Team based Alvordton; sister FLL Country Club Robotics; no named leaders. Facebook handle ftcwiremonkeys. Historical evidence only."
+    },
+    {
+      "id": "L10",
+      "url": "https://ftc-events.firstinspires.org/2025/team/25638",
+      "title": "Team25638 MG (Microchips & Guac) (2025)",
+      "publisher": "FIRST",
+      "date": null,
+      "type": "official team season record",
+      "notes": "Sponsor Madison-Grant Jr Sr High Sch. No person names."
+    },
+    {
+      "id": "L11",
+      "url": "https://refineryrobotics.org/about/",
+      "title": "Our Story, People & Facility | The REFINERY",
+      "publisher": "The REFINERY",
+      "date": null,
+      "type": "primary regional organization",
+      "notes": "Affiliates random with Canterbury; MG25638 with Madison-Grant;36124 with Amp Lab at REFINERY. Organization staff names cannot be assigned to team leadership without explicit evidence."
+    },
+    {
+      "id": "L12",
+      "url": "https://ftc-events.firstinspires.org/2025/team/32552",
+      "title": "Team32552 NSCC (2025)",
+      "publisher": "FIRST",
+      "date": null,
+      "type": "official team season record",
+      "notes": "Rookie2025, Family/Community, no official events. No person names or college affiliation."
+    },
+    {
+      "id": "L15",
+      "url": "https://ftc-events.firstinspires.org/2026/team/36124",
+      "title": "Team36124 R.Amp Robotics (2026)",
+      "publisher": "FIRST",
+      "date": null,
+      "type": "official current team record",
+      "notes": "Rookie2026, BioNanomics &Family/Community&Amp Lab at Electric Works. No official events yet. No person names."
+    }
+  ],
+  "methods": {
+    "identity": "Preserve exact names and partial names from role-bearing source. Do not infer coach/captain from quoted participant or staff job.",
+    "currency": "Do not propagate historic roles to2025-26 or2026-27. Undated self-reports current at retrieval are leadership leads with explicit season uncertainty.",
+    "privacy": "Only published role names; no personal contact details or outreach.",
+    "captain": "FIRST alliance Captain fields describe a team alliance selection position, never identify a student captain. All student captain gaps remain null."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "captured_at_utc": "2026-10-22T05:12:49.897140+00:00",
+  "season_start_year_cutoff": 2025,
+  "source": "FIRST Tech Challenge Events team season pages",
+  "teams": [
+    {
+      "team_number": 36124,
+      "source_url": "https://ftc-events.firstinspires.org/2026/team/36124",
+      "resolved_url": "https://ftc-events.firstinspires.org/2026/team/36124",
+      "page_season": 2026,
+      "retrieved_at_utc": "2026-10-22T05:12:49.896810+00:00",
+      "response_sha256": "5e2adb2a85e057fb52d6d4f768df38cccd439e7a048d7b28f1acf8e18f4f2894",
+      "response_bytes": 11011,
+      "response_last_modified": null,
+      "page_heading": "Team 36124 - R.Amp Robotics (2026)",
+      "page_season_sponsors_and_affiliations": "BioNanomics/The REFINERY/Indiana Department of Education&Family/Community&Amp Lab at Electric Works",
+      "official_rookie_year": 2026,
+      "all_listed_seasons": [
+        2026
+      ],
+      "season_game_labels": {
+        "2026": null
+      },
+      "recorded_seasons_through_cutoff": [],
+      "recorded_season_count": 0,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    }
+  ]
+}

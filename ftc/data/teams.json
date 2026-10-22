@@ -1,0 +1,1397 @@
+{
+  "schema_version": "1.0",
+  "publication": {
+    "schema_version": "1.0",
+    "title": "FIRST Tech Challenge teams around Fort Wayne",
+    "repository_url": "https://github.com/horner/refintery-rankings",
+    "research_date": "2026-10-22",
+    "program": "FTC",
+    "season_label": "2025–26 DECODE",
+    "season_start_year": 2025,
+    "season_history_cutoff_start_year": 2025,
+    "current_season_label": "2026–27 BIOBUZZ",
+    "radius_miles": 60,
+    "distance_definition": "Straight-line great-circle distance from Citizens Square; school/host references or qualified town screening points, not driving distance",
+    "ranking_snapshot_directory": "artifacts/ftcscout/snapshots/2026-10-22",
+    "ranking_capture_started_at_utc": "2026-10-22T05:15:39.159297+00:00",
+    "ranking_capture_completed_at_utc": "2026-10-22T05:16:58.325910+00:00",
+    "ranking_metric": "FTCScout peak event non-penalty OPR",
+    "regional_rank_definition": "Eligible event regionCode assignment, not team home state or event street address",
+    "history_definition": "Observed FIRST FTC Event Web season entries through starting year 2025; history can be incomplete for pre-2019 rookie teams",
+    "leadership_policy": "Preserve exact public roles, evidence dates, season qualifications and gaps; no inferred head coaches or student captains."
+  },
+  "ranking_method": {
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "display_precision_decimals": 2,
+    "season_start_year": 2025,
+    "world_population_count": 8368,
+    "regional_populations": {
+      "USIN": 71,
+      "USOH": 113
+    },
+    "source_code_commit": "05c44a28fe0f0a80101e63134db9a518d9d7ed6c",
+    "source_code_url": "https://github.com/ftc-scout/ftc-scout/blob/05c44a28fe0f0a80101e63134db9a518d9d7ed6c/packages/server/src/graphql/resolvers/Team.ts#L54-L151",
+    "source_freshness_note": "Retrieval times and HTTP response headers are preserved. The response does not identify a separate metric computation timestamp; HTTP Date is not treated as one. The capture spans several minutes rather than an atomic global snapshot.",
+    "display_note": "Rankings use FTCScout peak event non-penalty OPR for 2025–26 DECODE, captured October 22, 2026. World and event-region best OPR are shown separately. USIN and USOH rank teams that competed in events assigned those region codes, regardless of home state; they are not home-state rankings. Values display two decimals; JSON and CSV preserve the source numbers."
+  },
+  "teams": [
+    {
+      "team_number": 22331,
+      "team_name": "random()",
+      "school_or_organization": "Canterbury High School",
+      "affiliation_type": "school_linked",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+      "school_url": "https://www.canterburyschool.org/",
+      "notes": "School affiliation is retained from the official 2025 FIRST season record.",
+      "official_sponsors_and_affiliations": "Mae Designs/Bionanomics/Bridge of Grace Ministries/Gene Haas Foundation&Canterbury High School",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025&region=USIN",
+        "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing",
+        "https://ftc-events.firstinspires.org/2025/team/22331",
+        "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3210+Smith+Road%2C+Fort+Wayne%2C+IN+46804&benchmark=Public_AR_Current&format=json",
+        "https://www.canterburyschool.org/",
+        "https://www.canterburyschool.org/contact-us",
+        "https://www.canterburyschool.org/our-school/news/canterbury-robotics-earns-first-place-control-award-advances-to-state-tournament"
+      ],
+      "rankings": {
+        "team_number": 22331,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": 88.85441471776457,
+        "world_rank": 861,
+        "world_team_count": 8368,
+        "regional_value": 78.66573050932112,
+        "regional_rank": 13,
+        "regional_team_count": 71,
+        "regional_population": "USIN event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025&region=USIN",
+        "world_best_event_codes": [
+          "FPEMICRFT"
+        ],
+        "regional_best_event_codes": [
+          "USINWEQ"
+        ],
+        "source_event_count": 6,
+        "source_events_with_statistics": 5,
+        "status": "ranked",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025",
+        "regional_code": "USIN",
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV. Worldwide best comes from Michiana Premier Croft division; Indiana-region best comes from Westfield QT. Michiana Premier is physically in Indiana but assigned region FPE, so it is outside the USIN query."
+      },
+      "geography": {
+        "team_number": 22331,
+        "season": 2025,
+        "name": "random()",
+        "registered_location": "Fort Wayne, IN, USA",
+        "host": "Canterbury High School",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+        "sponsors_raw": "Mae Designs/Bionanomics/Bridge of Grace Ministries/Gene Haas Foundation&Canterbury High School",
+        "place_screening_miles": 0.6536665354024795,
+        "point_type": "school_address_proxy_census_interpolation",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/22331",
+          "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3210+Smith+Road%2C+Fort+Wayne%2C+IN+46804&benchmark=Public_AR_Current&format=json",
+          "https://www.canterburyschool.org/contact-us"
+        ],
+        "latitude": 41.054028252809,
+        "longitude": -85.209763440107,
+        "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3210+Smith+Road%2C+Fort+Wayne%2C+IN+46804&benchmark=Public_AR_Current&format=json",
+        "school_address_source_url": "https://www.canterburyschool.org/contact-us",
+        "distance_miles": 4.133795747762888,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 4.1,
+        "reference": "Canterbury High School",
+        "qualification": "Census address interpolation proxy for the linked school; not a surveyed workshop."
+      },
+      "season_history": {
+        "team_number": 22331,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.798867+00:00",
+        "response_sha256": "1349f291547cdd5a61757d708f95bfcd4db02ce302142419813284d538ef5e87",
+        "response_bytes": 268584,
+        "response_last_modified": null,
+        "page_heading": "Team 22331 - random() (2025)",
+        "page_season_sponsors_and_affiliations": "Mae Designs/Bionanomics/Bridge of Grace Ministries/Gene Haas Foundation&Canterbury High School",
+        "official_rookie_year": 2022,
+        "all_listed_seasons": [
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "season_game_labels": {
+          "2022": "POWERPLAY",
+          "2023": "CENTERSTAGE",
+          "2024": "INTO THE DEEP",
+          "2025": "DECODE",
+          "2026": "BIOBUZZ"
+        },
+        "recorded_seasons_through_cutoff": [
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "recorded_season_count": 4,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 22331,
+        "team_name": "random()",
+        "location": "Fort Wayne, IN",
+        "adult_leadership": [
+          {
+            "name": "Ms. Randall",
+            "role": "Adult named on team roster; CS/Math/Engineering Educator",
+            "season": "2025-26",
+            "source_ids": [
+              "L01"
+            ],
+            "notes": "Exact partial name and occupation retained. Adult roster categorization is a research inference from occupation and placement above student biographies; source does not explicitly call her coach or mentor.",
+            "source_urls": [
+              "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "evidence_date": null,
+            "evidence_date_basis": "Portfolio version context 2026-03-13 from filename and document metadata; not an established publication date."
+          },
+          {
+            "name": "Mr. Delaney",
+            "role": "Adult named on team roster; BAE Systems Engineer",
+            "season": "2025-26",
+            "source_ids": [
+              "L01"
+            ],
+            "notes": "Exact partial name and occupation retained. Adult roster categorization is a research inference from occupation and placement above student biographies; source does not explicitly call him coach or mentor.",
+            "source_urls": [
+              "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "evidence_date": null,
+            "evidence_date_basis": "Portfolio version context 2026-03-13 from filename and document metadata; not an established publication date."
+          }
+        ],
+        "student_leadership": [
+          {
+            "name": "Clara Satter",
+            "role": "Lead programmer",
+            "season": "2025-26",
+            "source_ids": [
+              "L02"
+            ],
+            "notes": "School article names her senior and lead programmer after third tournament in South Bend, ahead of March 14 state. It does not call her captain.",
+            "source_urls": [
+              "https://www.canterburyschool.org/our-school/news/canterbury-robotics-earns-first-place-control-award-advances-to-state-tournament"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "evidence_date": null,
+            "evidence_date_basis": "Undated school article; 2025–26 season inferred from its named South Bend and March 14 events."
+          },
+          {
+            "name": "Gabi",
+            "role": "Team driver; manages engineering notebook; works on team organization and sustainability",
+            "season": "2025-26",
+            "source_ids": [
+              "L01"
+            ],
+            "notes": "First name only; duties are self-described in portfolio; not a captain title.",
+            "source_urls": [
+              "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "evidence_date": null,
+            "evidence_date_basis": "Portfolio version context 2026-03-13 from filename and document metadata; not an established publication date."
+          }
+        ],
+        "captain": null,
+        "gap": "No public captain found in reviewed team site, 2025-26 portfolio, school award articles or targeted captain searches. Portfolio does not assign coach or mentor titles to its named adults.",
+        "additional_context": "School news Jan 17 2025 identifies Rebekah Randall as Canterbury Computer Science teacher, consistent with portfolio Ms. Randall, but portfolio record preserves partial name as published. This teacher identity source is L03."
+      },
+      "source_ids": [
+        "FTC-68a73ae32607",
+        "FTC-817a8c0631aa",
+        "FTC-51e3cff1c7d0",
+        "FTC-28115f55bf83",
+        "FTC-4b13c98e18db",
+        "FTC-807bd392f955",
+        "FTC-a0423daccd53",
+        "FTC-c4de57991bee"
+      ]
+    },
+    {
+      "team_number": 14174,
+      "team_name": "Cougar Robotics",
+      "school_or_organization": "Van Wert High School",
+      "affiliation_type": "school_linked",
+      "city": "Van Wert",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+      "school_url": "https://www.vwcs.net/",
+      "notes": "Van Wert program-level coaches cover both FTC teams.",
+      "official_sponsors_and_affiliations": "Van Wert High School",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025&region=USOH",
+        "https://ftc-events.firstinspires.org/2025/team/14174",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "https://van-wert-robotics-club.webnode.page/",
+        "https://www.vwcs.net/",
+        "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+      ],
+      "rankings": {
+        "team_number": 14174,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": 42.01951967316051,
+        "world_rank": 3138,
+        "world_team_count": 8368,
+        "regional_value": 42.01951967316051,
+        "regional_rank": 34,
+        "regional_team_count": 113,
+        "regional_population": "USOH event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025&region=USOH",
+        "world_best_event_codes": [
+          "USOHLOQ"
+        ],
+        "regional_best_event_codes": [
+          "USOHLOQ"
+        ],
+        "source_event_count": 3,
+        "source_events_with_statistics": 3,
+        "status": "ranked",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025",
+        "regional_code": "USOH",
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV."
+      },
+      "geography": {
+        "team_number": 14174,
+        "season": 2025,
+        "name": "Cougar Robotics",
+        "registered_location": "Van Wert, OH, USA",
+        "host": "Van Wert High School",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+        "sponsors_raw": "Van Wert High School",
+        "place_screening_miles": 32.27230739421337,
+        "point_type": "school_proxy_nces_edge",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/14174",
+          "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+        ],
+        "latitude": 40.849046,
+        "longitude": -84.60513,
+        "coordinate_source_url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "nces_id": "391002301888",
+        "school_year": "2024-2025",
+        "school_address": "10708 State Route 118",
+        "distance_miles": 32.03476435921482,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 32.0,
+        "reference": "Van Wert High School",
+        "qualification": "NCES school reference (2024-2025); estimated location, not a verified workshop."
+      },
+      "season_history": {
+        "team_number": 14174,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.237894+00:00",
+        "response_sha256": "224e393cbfe6235a06eb445a25bc2e18cc3341c593c0269b7e0e589567a4bf43",
+        "response_bytes": 95526,
+        "response_last_modified": null,
+        "page_heading": "Team 14174 - Cougar Robotics (2025)",
+        "page_season_sponsors_and_affiliations": "Van Wert High School",
+        "official_rookie_year": 2017,
+        "all_listed_seasons": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "season_game_labels": {
+          "2019": "SKYSTONE",
+          "2020": "ULTIMATE GOAL",
+          "2021": "FREIGHT FRENZY",
+          "2022": "POWERPLAY",
+          "2023": "CENTERSTAGE",
+          "2024": "INTO THE DEEP",
+          "2025": "DECODE",
+          "2026": "BIOBUZZ"
+        },
+        "recorded_seasons_through_cutoff": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "recorded_season_count": 7,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 14174,
+        "team_name": "Cougar Robotics",
+        "location": "Van Wert, OH",
+        "adult_leadership": [
+          {
+            "name": "Robert Spath",
+            "role": "Coach of Van Wert's two FTC teams",
+            "season": "2025-26 confirmed / current site undated",
+            "source_ids": [
+              "L04",
+              "L05"
+            ],
+            "source_urls": [
+              "https://van-wert-robotics-club.webnode.page/",
+              "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174.",
+            "evidence_date": "2026-01-20",
+            "evidence_date_basis": "Dated school article; additional team site is undated."
+          },
+          {
+            "name": "Noah Carter",
+            "role": "Coach of Van Wert's two FTC teams",
+            "season": "2025-26 confirmed / current site undated",
+            "source_ids": [
+              "L04",
+              "L05"
+            ],
+            "source_urls": [
+              "https://van-wert-robotics-club.webnode.page/",
+              "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174.",
+            "evidence_date": "2026-01-20",
+            "evidence_date_basis": "Dated school article; additional team site is undated."
+          },
+          {
+            "name": "Judy Krites",
+            "role": "Coach of Van Wert's two FTC teams",
+            "season": "2025-26 confirmed / current site undated",
+            "source_ids": [
+              "L04",
+              "L05"
+            ],
+            "source_urls": [
+              "https://van-wert-robotics-club.webnode.page/",
+              "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174.",
+            "evidence_date": "2026-01-20",
+            "evidence_date_basis": "Dated school article; additional team site is undated."
+          }
+        ],
+        "student_leadership": [],
+        "captain": null,
+        "gap": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 14174."
+      },
+      "source_ids": [
+        "FTC-e687f6d84ff9",
+        "FTC-e223d01f6aa4",
+        "FTC-7f6934006333",
+        "FTC-e94f7beac7ee",
+        "FTC-e6cfc89bb3f1",
+        "FTC-8f7b4b9db13f",
+        "FTC-1ea295c16a5d"
+      ]
+    },
+    {
+      "team_number": 25638,
+      "team_name": "MG (Microchips & Guac)",
+      "school_or_organization": "Madison-Grant Jr./Sr. High School",
+      "affiliation_type": "school_linked",
+      "city": "Fairmount",
+      "state": "IN",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+      "school_url": "https://mghs.mgusc.k12.in.us/",
+      "notes": "Distinct FTC team; FRC 8742 leadership is not transferred without FTC-specific evidence.",
+      "official_sponsors_and_affiliations": "Madison-Grant Jr Sr High Sch",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025&region=USIN",
+        "https://ftc-events.firstinspires.org/2025/team/25638",
+        "https://mghs.mgusc.k12.in.us/",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+      ],
+      "rankings": {
+        "team_number": 25638,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": 39.16722232844774,
+        "world_rank": 3455,
+        "world_team_count": 8368,
+        "regional_value": 39.16722232844774,
+        "regional_rank": 30,
+        "regional_team_count": 71,
+        "regional_population": "USIN event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025&region=USIN",
+        "world_best_event_codes": [
+          "USINSBQ"
+        ],
+        "regional_best_event_codes": [
+          "USINSBQ"
+        ],
+        "source_event_count": 2,
+        "source_events_with_statistics": 2,
+        "status": "ranked",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025",
+        "regional_code": "USIN",
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV."
+      },
+      "geography": {
+        "team_number": 25638,
+        "season": 2025,
+        "name": "MG (Microchips & Guac)",
+        "registered_location": "Fairmount, IN, USA",
+        "host": "Madison-Grant Jr./Sr. High School",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+        "sponsors_raw": "Madison-Grant Jr Sr High Sch",
+        "place_screening_miles": 52.966657513631425,
+        "point_type": "school_proxy_nces_edge",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/25638",
+          "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+        ],
+        "latitude": 40.3842,
+        "longitude": -85.6735,
+        "coordinate_source_url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "nces_id": "180624001097",
+        "school_year": "2024-2025",
+        "school_address": "11700 S/E 00 W",
+        "distance_miles": 55.623001851752605,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 55.6,
+        "reference": "Madison-Grant Jr./Sr. High School",
+        "qualification": "NCES school reference (2024-2025); estimated location, not a verified workshop."
+      },
+      "season_history": {
+        "team_number": 25638,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.620629+00:00",
+        "response_sha256": "a7458def3d8b42d91c4398bcd9a4e78a449f9b8b78a4f12680de62d421874461",
+        "response_bytes": 74129,
+        "response_last_modified": null,
+        "page_heading": "Team 25638 - MG (Microchips & Guac) (2025)",
+        "page_season_sponsors_and_affiliations": "Madison-Grant Jr Sr High Sch",
+        "official_rookie_year": 2024,
+        "all_listed_seasons": [
+          2024,
+          2025,
+          2026
+        ],
+        "season_game_labels": {
+          "2024": "INTO THE DEEP",
+          "2025": "DECODE",
+          "2026": "BIOBUZZ"
+        },
+        "recorded_seasons_through_cutoff": [
+          2024,
+          2025
+        ],
+        "recorded_season_count": 2,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 25638,
+        "team_name": "MG (Microchips & Guac)",
+        "location": "Fairmount, IN",
+        "adult_leadership": [],
+        "student_leadership": [],
+        "captain": null,
+        "gap": "No public named coach/mentor/captain found in official FIRST season page, REFINERY description or targeted team/school searches. Do not transfer adult names from FRC8742 without FTC-specific evidence.",
+        "source_ids": [
+          "L10",
+          "L11"
+        ]
+      },
+      "source_ids": [
+        "FTC-d4601f626f5f",
+        "FTC-c849c82f9da4",
+        "FTC-1e05acb50937",
+        "FTC-880476608a6f",
+        "FTC-e94f7beac7ee"
+      ]
+    },
+    {
+      "team_number": 12802,
+      "team_name": "We Will Bot You",
+      "school_or_organization": "Coldwater High School",
+      "affiliation_type": "school_linked",
+      "city": "Coldwater",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+      "school_url": "https://www.coldwatercavs.org/",
+      "notes": "Coldwater, Ohio; distinct from the excluded Coldwater, Michigan teams.",
+      "official_sponsors_and_affiliations": "Coldwater High School",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025&region=USOH",
+        "https://ftc-events.firstinspires.org/2025/team/12802",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=%28STATE%3D%27OH%27+AND+NAME%3D%27Coldwater+High+School%27%29+OR+%28STATE%3D%27MI%27+AND+NAME+like+%27%25Waldron%25%27%29+OR+%28STATE%3D%27IN%27+AND+NAME%3D%27Central+Catholic+Jr+Sr+High+School%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "https://www.coldwatercavs.org/",
+        "https://www.linkedin.com/in/becca-wenning"
+      ],
+      "rankings": {
+        "team_number": 12802,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": 34.65207321444321,
+        "world_rank": 4030,
+        "world_team_count": 8368,
+        "regional_value": 34.65207321444321,
+        "regional_rank": 48,
+        "regional_team_count": 113,
+        "regional_population": "USOH event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025&region=USOH",
+        "world_best_event_codes": [
+          "USOHVWQ"
+        ],
+        "regional_best_event_codes": [
+          "USOHVWQ"
+        ],
+        "source_event_count": 3,
+        "source_events_with_statistics": 3,
+        "status": "ranked",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025",
+        "regional_code": "USOH",
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV."
+      },
+      "geography": {
+        "team_number": 12802,
+        "season": 2025,
+        "name": "We Will Bot You",
+        "registered_location": "Coldwater, OH, USA",
+        "host": "Coldwater High School",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+        "sponsors_raw": "Coldwater High School",
+        "place_screening_miles": 48.94398590196138,
+        "point_type": "school_proxy_nces_edge",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/12802",
+          "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=%28STATE%3D%27OH%27+AND+NAME%3D%27Coldwater+High+School%27%29+OR+%28STATE%3D%27MI%27+AND+NAME+like+%27%25Waldron%25%27%29+OR+%28STATE%3D%27IN%27+AND+NAME%3D%27Central+Catholic+Jr+Sr+High+School%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+        ],
+        "latitude": 40.482227,
+        "longitude": -84.629821,
+        "coordinate_source_url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=%28STATE%3D%27OH%27+AND+NAME%3D%27Coldwater+High+School%27%29+OR+%28STATE%3D%27MI%27+AND+NAME+like+%27%25Waldron%25%27%29+OR+%28STATE%3D%27IN%27+AND+NAME%3D%27Central+Catholic+Jr+Sr+High+School%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "nces_id": "390453102171",
+        "school_year": "2024-2025",
+        "school_address": "310 N 2nd St",
+        "distance_miles": 49.08684904413897,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 49.1,
+        "reference": "Coldwater High School",
+        "qualification": "NCES school reference (2024-2025); estimated location, not a verified workshop."
+      },
+      "season_history": {
+        "team_number": 12802,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.098207+00:00",
+        "response_sha256": "402f5f3fc4e53a1402866b018c72881229cf1661da9ad8fee2347818e93b7e5b",
+        "response_bytes": 88913,
+        "response_last_modified": null,
+        "page_heading": "Team 12802 - We Will Bot You (2025)",
+        "page_season_sponsors_and_affiliations": "Coldwater High School",
+        "official_rookie_year": 2017,
+        "all_listed_seasons": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "season_game_labels": {
+          "2019": "SKYSTONE",
+          "2020": "ULTIMATE GOAL",
+          "2021": "FREIGHT FRENZY",
+          "2022": "POWERPLAY",
+          "2023": "CENTERSTAGE",
+          "2024": "INTO THE DEEP",
+          "2025": "DECODE",
+          "2026": "BIOBUZZ"
+        },
+        "recorded_seasons_through_cutoff": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "recorded_season_count": 7,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 12802,
+        "team_name": "We Will Bot You",
+        "location": "Coldwater, OH",
+        "adult_leadership": [
+          {
+            "name": "Becca Wenning",
+            "role": "Founding coach/mentor (self-reported public professional profile)",
+            "season": "Undated current profile; not independently season-verified",
+            "source_ids": [
+              "L07"
+            ],
+            "notes": "Profile lists FIRST Coach/Mentor Sep 2016-Present and explicitly FTC12802. Treat as a public leadership lead, not proof of 2025-26 or 2026-27 appointment.",
+            "source_urls": [
+              "https://www.linkedin.com/in/becca-wenning"
+            ],
+            "evidence_status": "undated_self_report_season_unverified",
+            "evidence_date": null,
+            "evidence_date_basis": "Undated self-reported public profile; appointment in the comparison season remains unverified."
+          }
+        ],
+        "student_leadership": [],
+        "captain": null,
+        "gap": "No dated school/team source confirming 2025-26 coach/captain found. Ohio partner directory links team's Facebook CWFTC; web access throttled. Keep season currency uncertain."
+      },
+      "source_ids": [
+        "FTC-6ce69e331fad",
+        "FTC-9cbe480e3e2d",
+        "FTC-91b8b413000f",
+        "FTC-d7af889609bb",
+        "FTC-42dbeb344bed",
+        "FTC-a04852e56b48"
+      ]
+    },
+    {
+      "team_number": 19778,
+      "team_name": "Wire Monkeys",
+      "school_or_organization": "Country Club Robotics / home-school community",
+      "affiliation_type": "home_school_community",
+      "city": "Alvordton",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+      "school_url": "https://www.countryclub.io/wire-monkeys/",
+      "notes": "Official affiliation is Country Club Robotics / Home School; no exclusive high-school affiliation is established. Location is town-based screening only.",
+      "official_sponsors_and_affiliations": "Country Club Robotics/North Star Bluescope&Home School",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025&region=USOH",
+        "https://ftc-events.firstinspires.org/2025/team/19778",
+        "https://www.countryclub.io/wire-monkeys/",
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip"
+      ],
+      "rankings": {
+        "team_number": 19778,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": 33.343523226543,
+        "world_rank": 4209,
+        "world_team_count": 8368,
+        "regional_value": 33.343523226543,
+        "regional_rank": 50,
+        "regional_team_count": 113,
+        "regional_population": "USOH event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025&region=USOH",
+        "world_best_event_codes": [
+          "USOHVWQ"
+        ],
+        "regional_best_event_codes": [
+          "USOHVWQ"
+        ],
+        "source_event_count": 3,
+        "source_events_with_statistics": 3,
+        "status": "ranked",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025",
+        "regional_code": "USOH",
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV."
+      },
+      "geography": {
+        "team_number": 19778,
+        "season": 2025,
+        "name": "Wire Monkeys",
+        "registered_location": "Alvordton, OH, USA",
+        "host": "Country Club Robotics / home-school community",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+        "sponsors_raw": "Country Club Robotics/North Star Bluescope&Home School",
+        "place_screening_miles": 54.40638361376939,
+        "point_type": "town_screening_only",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/19778",
+          "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip"
+        ],
+        "latitude": 41.663618,
+        "longitude": -84.434297,
+        "coordinate_source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip",
+        "location_precision": "Physical meeting/workshop address unconfirmed; inclusion is provisional based on registered town.",
+        "distance_miles": 54.40638361376939,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 54.4,
+        "reference": "Country Club Robotics / home-school community",
+        "qualification": "Physical meeting/workshop address unconfirmed; inclusion is provisional based on registered town."
+      },
+      "season_history": {
+        "team_number": 19778,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.415274+00:00",
+        "response_sha256": "14d9f6cd58323d4565da82de9f9763e5239f0bb818a8946d0270fd6e6a80ddd4",
+        "response_bytes": 124085,
+        "response_last_modified": null,
+        "page_heading": "Team 19778 - Wire Monkeys (2025)",
+        "page_season_sponsors_and_affiliations": "Country Club Robotics/North Star Bluescope&Home School",
+        "official_rookie_year": 2021,
+        "all_listed_seasons": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "season_game_labels": {
+          "2021": "FREIGHT FRENZY",
+          "2022": "POWERPLAY",
+          "2023": "CENTERSTAGE",
+          "2024": "INTO THE DEEP",
+          "2025": "DECODE",
+          "2026": "BIOBUZZ"
+        },
+        "recorded_seasons_through_cutoff": [
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "recorded_season_count": 5,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 19778,
+        "team_name": "Wire Monkeys",
+        "location": "Alvordton, OH",
+        "adult_leadership": [],
+        "student_leadership": [],
+        "captain": null,
+        "gap": "No public named coach/mentor/captain found in official season page, Feb 21 2024 local team story, or targeted coach/mentor searches. Team Facebook ftcwiremonkeys was throttled.",
+        "source_ids": [
+          "L08",
+          "L09"
+        ],
+        "affiliation_caution": "FIRST2025 lists Country Club Robotics/North Star Bluescope & Home School; do not infer Hilltop school affiliation from location."
+      },
+      "source_ids": [
+        "FTC-bffd3909653c",
+        "FTC-ede654291eea",
+        "FTC-09c02cde9524",
+        "FTC-8e3e80c721ad",
+        "FTC-88b6079be05c"
+      ]
+    },
+    {
+      "team_number": 5501,
+      "team_name": "VW Robotics",
+      "school_or_organization": "Van Wert High School",
+      "affiliation_type": "school_linked",
+      "city": "Van Wert",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+      "school_url": "https://www.vwcs.net/",
+      "notes": "Van Wert program-level coaches cover both FTC teams.",
+      "official_sponsors_and_affiliations": "Van Wert High School",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025&region=USOH",
+        "https://ftc-events.firstinspires.org/2025/team/5501",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "https://van-wert-robotics-club.webnode.page/",
+        "https://www.vwcs.net/",
+        "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+      ],
+      "rankings": {
+        "team_number": 5501,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": 23.1206277106756,
+        "world_rank": 5718,
+        "world_team_count": 8368,
+        "regional_value": 23.1206277106756,
+        "regional_rank": 71,
+        "regional_team_count": 113,
+        "regional_population": "USOH event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025&region=USOH",
+        "world_best_event_codes": [
+          "USOHLOQ"
+        ],
+        "regional_best_event_codes": [
+          "USOHLOQ"
+        ],
+        "source_event_count": 3,
+        "source_events_with_statistics": 3,
+        "status": "ranked",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025",
+        "regional_code": "USOH",
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV."
+      },
+      "geography": {
+        "team_number": 5501,
+        "season": 2025,
+        "name": "VW Robotics",
+        "registered_location": "Van Wert, OH, USA",
+        "host": "Van Wert High School",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+        "sponsors_raw": "Van Wert High School",
+        "place_screening_miles": 32.27230739421337,
+        "point_type": "school_proxy_nces_edge",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/5501",
+          "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+        ],
+        "latitude": 40.849046,
+        "longitude": -84.60513,
+        "coordinate_source_url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "nces_id": "391002301888",
+        "school_year": "2024-2025",
+        "school_address": "10708 State Route 118",
+        "distance_miles": 32.03476435921482,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 32.0,
+        "reference": "Van Wert High School",
+        "qualification": "NCES school reference (2024-2025); estimated location, not a verified workshop."
+      },
+      "season_history": {
+        "team_number": 5501,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.139044+00:00",
+        "response_sha256": "5cca8d0e6dd403282702f7ab4b18e9a3787d3bb433c262853e75a5646e42913c",
+        "response_bytes": 95715,
+        "response_last_modified": null,
+        "page_heading": "Team 5501 - VW Robotics (2025)",
+        "page_season_sponsors_and_affiliations": "Van Wert High School",
+        "official_rookie_year": 2011,
+        "all_listed_seasons": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "season_game_labels": {
+          "2019": "SKYSTONE",
+          "2020": "ULTIMATE GOAL",
+          "2021": "FREIGHT FRENZY",
+          "2022": "POWERPLAY",
+          "2023": "CENTERSTAGE",
+          "2024": "INTO THE DEEP",
+          "2025": "DECODE",
+          "2026": "BIOBUZZ"
+        },
+        "recorded_seasons_through_cutoff": [
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025
+        ],
+        "recorded_season_count": 7,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 5501,
+        "team_name": "VW Robotics",
+        "location": "Van Wert, OH",
+        "adult_leadership": [
+          {
+            "name": "Robert Spath",
+            "role": "Coach of Van Wert's two FTC teams",
+            "season": "2025-26 confirmed / current site undated",
+            "source_ids": [
+              "L04",
+              "L05"
+            ],
+            "notes": "School Jan 20 2026 article calls him Bob Spath; team site Robert Spath.",
+            "source_urls": [
+              "https://van-wert-robotics-club.webnode.page/",
+              "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "evidence_date": "2026-01-20",
+            "evidence_date_basis": "Dated school article; additional team site is undated."
+          },
+          {
+            "name": "Noah Carter",
+            "role": "Coach of Van Wert's two FTC teams",
+            "season": "2025-26 confirmed / current site undated",
+            "source_ids": [
+              "L04",
+              "L05"
+            ],
+            "source_urls": [
+              "https://van-wert-robotics-club.webnode.page/",
+              "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 5501.",
+            "evidence_date": "2026-01-20",
+            "evidence_date_basis": "Dated school article; additional team site is undated."
+          },
+          {
+            "name": "Judy Krites",
+            "role": "Coach of Van Wert's two FTC teams",
+            "season": "2025-26 confirmed / current site undated",
+            "source_ids": [
+              "L04",
+              "L05"
+            ],
+            "source_urls": [
+              "https://van-wert-robotics-club.webnode.page/",
+              "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "notes": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 5501.",
+            "evidence_date": "2026-01-20",
+            "evidence_date_basis": "Dated school article; additional team site is undated."
+          }
+        ],
+        "student_leadership": [],
+        "captain": null,
+        "gap": "No dated 2025-26 student captain/leadership names found. Program-level coaches explicitly cover both FTC teams; no evidence assigns a particular head coach to 5501."
+      },
+      "source_ids": [
+        "FTC-d1345b31096c",
+        "FTC-ce32f19571db",
+        "FTC-68e79415b312",
+        "FTC-e94f7beac7ee",
+        "FTC-e6cfc89bb3f1",
+        "FTC-8f7b4b9db13f",
+        "FTC-1ea295c16a5d"
+      ]
+    },
+    {
+      "team_number": 30782,
+      "team_name": "ROBO DOGS",
+      "school_or_organization": "Celina High School",
+      "affiliation_type": "school_linked",
+      "city": "Celina",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+      "school_url": "https://www.celinaschools.org/CHS.aspx",
+      "notes": "School affiliation is retained from the official 2025 FIRST season record.",
+      "official_sponsors_and_affiliations": "Celina High School",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025&region=USOH",
+        "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games",
+        "https://ftc-events.firstinspires.org/2025/team/30782",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "https://www.celinaschools.org/CHS.aspx"
+      ],
+      "rankings": {
+        "team_number": 30782,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": 14.987407286974676,
+        "world_rank": 7014,
+        "world_team_count": 8368,
+        "regional_value": 14.987407286974676,
+        "regional_rank": 92,
+        "regional_team_count": 113,
+        "regional_population": "USOH event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025&region=USOH",
+        "world_best_event_codes": [
+          "USOHVWQ"
+        ],
+        "regional_best_event_codes": [
+          "USOHVWQ"
+        ],
+        "source_event_count": 2,
+        "source_events_with_statistics": 2,
+        "status": "ranked",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025",
+        "regional_code": "USOH",
+        "qualification": "World and event-region maxima are separate metrics. Event-region population is determined by the event's assigned regionCode, not team home state. Frozen source retrieval; values retain source precision in JSON/CSV."
+      },
+      "geography": {
+        "team_number": 30782,
+        "season": 2025,
+        "name": "ROBO DOGS ",
+        "registered_location": "Celina, OH, USA",
+        "host": "Celina High School",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+        "sponsors_raw": "Celina High School",
+        "place_screening_miles": 47.11095143188416,
+        "point_type": "school_proxy_nces_edge",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/30782",
+          "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+        ],
+        "latitude": 40.5557,
+        "longitude": -84.5583,
+        "coordinate_source_url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+        "nces_id": "391003000263",
+        "school_year": "2024-2025",
+        "school_address": "715 E Wayne St",
+        "distance_miles": 47.20436762956247,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 47.2,
+        "reference": "Celina High School",
+        "qualification": "NCES school reference (2024-2025); estimated location, not a verified workshop."
+      },
+      "season_history": {
+        "team_number": 30782,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.608243+00:00",
+        "response_sha256": "a3d1841850b3ec953bf3b87bf6701778a5cc308a9eda6ed861da382db1ddb557",
+        "response_bytes": 64675,
+        "response_last_modified": null,
+        "page_heading": "Team 30782 - ROBO DOGS (2025)",
+        "page_season_sponsors_and_affiliations": "Celina High School",
+        "official_rookie_year": 2025,
+        "all_listed_seasons": [
+          2025
+        ],
+        "season_game_labels": {
+          "2025": null
+        },
+        "recorded_seasons_through_cutoff": [
+          2025
+        ],
+        "recorded_season_count": 1,
+        "excluded_later_seasons": [],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 30782,
+        "team_name": "ROBO DOGS",
+        "location": "Celina, OH",
+        "adult_leadership": [
+          {
+            "name": "Jon Gudorf",
+            "role": "Coach; Celina STEM, engineering and 3-D modeling instructor",
+            "season": "2025-26",
+            "source_ids": [
+              "L06"
+            ],
+            "source_urls": [
+              "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "notes": "No public captain found. Drivers/coders quoted in news are representatives, not evidence of a leadership title.",
+            "evidence_date": "2025-12-23",
+            "evidence_date_basis": "Dated local news article."
+          },
+          {
+            "name": "Pete Lisi",
+            "role": "Coach; Celina Middle School dean of students",
+            "season": "2025-26",
+            "source_ids": [
+              "L06"
+            ],
+            "source_urls": [
+              "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "notes": "No public captain found. Drivers/coders quoted in news are representatives, not evidence of a leadership title.",
+            "evidence_date": "2025-12-23",
+            "evidence_date_basis": "Dated local news article."
+          }
+        ],
+        "student_leadership": [],
+        "public_student_representatives": [
+          {
+            "name": "Chase Moore",
+            "role": "Driver",
+            "season": "2025-26",
+            "source_ids": [
+              "L06"
+            ],
+            "notes": "Quoted freshman participant; not presented as captain or lead driver.",
+            "source_urls": [
+              "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "evidence_date": "2025-12-23",
+            "evidence_date_basis": "Dated local news article."
+          },
+          {
+            "name": "Hunter Collins",
+            "role": "Coder",
+            "season": "2025-26",
+            "source_ids": [
+              "L06"
+            ],
+            "notes": "Quoted eighth-grade participant; not presented as captain or lead programmer.",
+            "source_urls": [
+              "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games"
+            ],
+            "evidence_status": "public_role_evidence_with_season_qualification",
+            "evidence_date": "2025-12-23",
+            "evidence_date_basis": "Dated local news article."
+          }
+        ],
+        "captain": null,
+        "gap": "No public captain found. Drivers/coders quoted in news are representatives, not evidence of a leadership title."
+      },
+      "source_ids": [
+        "FTC-c7d5411173f6",
+        "FTC-3738c7703c3d",
+        "FTC-fbccf49a0f44",
+        "FTC-7f3b32295ea9",
+        "FTC-e94f7beac7ee",
+        "FTC-24d6b52fb39f"
+      ]
+    },
+    {
+      "team_number": 32552,
+      "team_name": "NSCC",
+      "school_or_organization": "Family/Community; school or physical host unconfirmed",
+      "affiliation_type": "community_host_unverified",
+      "city": "Archbold",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+      "school_url": null,
+      "notes": "Family/Community affiliation only. College affiliation and physical host are unconfirmed. Official season page reports no official events; ranking is unavailable.",
+      "official_sponsors_and_affiliations": "Family/Community",
+      "source_urls": [
+        "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025",
+        "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025&region=USOH",
+        "https://ftc-events.firstinspires.org/2025/team/32552",
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip"
+      ],
+      "rankings": {
+        "team_number": 32552,
+        "source": "FTCScout",
+        "metric": "Peak event non-penalty OPR",
+        "season_start_year": 2025,
+        "value": null,
+        "world_rank": null,
+        "world_team_count": null,
+        "regional_value": null,
+        "regional_rank": null,
+        "regional_team_count": null,
+        "regional_population": "USOH event cohort",
+        "world_source_url": "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025",
+        "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025&region=USOH",
+        "world_best_event_codes": [],
+        "regional_best_event_codes": [],
+        "source_event_count": 0,
+        "source_events_with_statistics": 0,
+        "status": "no_quick_stats_http_404",
+        "source_url": "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025",
+        "regional_code": "USOH",
+        "qualification": "Registered team with no official events. FTCScout event list is empty and both quick-stat requests return HTTP 404; metric, ranks and denominators remain unavailable."
+      },
+      "geography": {
+        "team_number": 32552,
+        "season": 2025,
+        "name": "NSCC",
+        "registered_location": "Archbold, OH, USA",
+        "host": "Family/Community; school or physical host unconfirmed",
+        "affiliation_source_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+        "sponsors_raw": "Family/Community",
+        "place_screening_miles": 52.76036501196663,
+        "point_type": "town_screening_only",
+        "source_urls": [
+          "https://ftc-events.firstinspires.org/2025/team/32552",
+          "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip"
+        ],
+        "latitude": 41.516531,
+        "longitude": -84.304482,
+        "coordinate_source_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip",
+        "location_precision": "Physical meeting/workshop address unconfirmed; inclusion is provisional based on registered town.",
+        "distance_miles": 52.76036501196663,
+        "within_60_reference_point": true,
+        "distance_miles_rounded_1dp": 52.8,
+        "season_status": "Registered 2025 team; official FIRST page reports no official events. Do not give competitive ranking.",
+        "reference": "Family/Community; school or physical host unconfirmed",
+        "qualification": "Physical meeting/workshop address unconfirmed; inclusion is provisional based on registered town."
+      },
+      "season_history": {
+        "team_number": 32552,
+        "source_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+        "resolved_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+        "page_season": 2025,
+        "retrieved_at_utc": "2026-10-22T05:12:48.888107+00:00",
+        "response_sha256": "4ab89a21658697602f71a5e402e01c2a6b0506b1e690ff3561a0db251804557a",
+        "response_bytes": 11417,
+        "response_last_modified": null,
+        "page_heading": "Team 32552 - NSCC (2025)",
+        "page_season_sponsors_and_affiliations": "Family/Community",
+        "official_rookie_year": 2025,
+        "all_listed_seasons": [
+          2025,
+          2026
+        ],
+        "season_game_labels": {
+          "2025": "DECODE",
+          "2026": "BIOBUZZ"
+        },
+        "recorded_seasons_through_cutoff": [
+          2025
+        ],
+        "recorded_season_count": 1,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 32552,
+        "team_name": "NSCC",
+        "location": "Archbold, OH",
+        "adult_leadership": [],
+        "student_leadership": [],
+        "captain": null,
+        "gap": "No FTC-specific named leaders found. FIRST2025 sponsor is only Family/Community and team has no official events. Northwest State Community College/FRC6181 results do not establish FTC32552 affiliation or leadership.",
+        "source_ids": [
+          "L12"
+        ]
+      },
+      "source_ids": [
+        "FTC-ed915dc3d2a2",
+        "FTC-e68c3e53387d",
+        "FTC-90c8dca2de11",
+        "FTC-88b6079be05c"
+      ]
+    }
+  ],
+  "current_season_only_teams": [
+    {
+      "team_number": 36124,
+      "team_name": "R.Amp Robotics",
+      "school_or_organization": "Amp Lab at The REFINERY",
+      "affiliation_type": "school_community_partnership",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "first_team_url": "https://ftc-events.firstinspires.org/2026/team/36124",
+      "school_url": "https://refineryrobotics.org/about/",
+      "notes": "2026–27 rookie registration; no 2025–26 ranking or inferred team-specific leaders.",
+      "source_urls": [
+        "https://refineryrobotics.org/about/",
+        "https://ftc-events.firstinspires.org/2026/team/36124"
+      ],
+      "geography": {
+        "team_number": 36124,
+        "reference": "The REFINERY, 1750 Broadway, Fort Wayne",
+        "latitude": 41.069892127648,
+        "longitude": -85.150472977356,
+        "distance_miles": 0.9294601040963888,
+        "within_60_reference_point": true,
+        "point_type": "community_host_address_proxy_census_interpolation",
+        "qualification": "The REFINERY identifies the Amp Lab partnership; its published facility address is a host reference, not independent confirmation of the team workshop. Current-season-only registration.",
+        "source_urls": [
+          "https://refineryrobotics.org/about/",
+          "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1750+Broadway%2C+Fort+Wayne%2C+IN+46802&benchmark=Public_AR_Current&format=json",
+          "https://ftc-events.firstinspires.org/2026/team/36124"
+        ]
+      },
+      "season_history": {
+        "team_number": 36124,
+        "source_url": "https://ftc-events.firstinspires.org/2026/team/36124",
+        "resolved_url": "https://ftc-events.firstinspires.org/2026/team/36124",
+        "page_season": 2026,
+        "retrieved_at_utc": "2026-10-22T05:12:49.896810+00:00",
+        "response_sha256": "5e2adb2a85e057fb52d6d4f768df38cccd439e7a048d7b28f1acf8e18f4f2894",
+        "response_bytes": 11011,
+        "response_last_modified": null,
+        "page_heading": "Team 36124 - R.Amp Robotics (2026)",
+        "page_season_sponsors_and_affiliations": "BioNanomics/The REFINERY/Indiana Department of Education&Family/Community&Amp Lab at Electric Works",
+        "official_rookie_year": 2026,
+        "all_listed_seasons": [
+          2026
+        ],
+        "season_game_labels": {
+          "2026": null
+        },
+        "recorded_seasons_through_cutoff": [],
+        "recorded_season_count": 0,
+        "excluded_later_seasons": [
+          2026
+        ],
+        "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+        "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+      },
+      "leadership": {
+        "team_number": 36124,
+        "team_name": "R.Amp Robotics",
+        "location": "Fort Wayne, IN",
+        "adult_leadership": [],
+        "student_leadership": [],
+        "captain": null,
+        "season": "2026-27 rookie/current unranked",
+        "gap": "No team-specific named coach/mentor/captain found in FIRST2026 team page or REFINERY about page. REFINERY's general staff are not evidence of assigned FTC36124 team roles.",
+        "source_ids": [
+          "L11",
+          "L15"
+        ]
+      },
+      "ranking_status": "Outside 2025–26 comparison; current-season registration"
+    }
+  ]
+}

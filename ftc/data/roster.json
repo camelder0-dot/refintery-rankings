@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "season_start_year": 2025,
+  "teams": [
+    {
+      "team_number": 22331,
+      "team_name": "random()",
+      "school_or_organization": "Canterbury High School",
+      "affiliation_type": "school_linked",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+      "school_url": "https://www.canterburyschool.org/",
+      "notes": "School affiliation is retained from the official 2025 FIRST season record.",
+      "official_sponsors_and_affiliations": "Mae Designs/Bionanomics/Bridge of Grace Ministries/Gene Haas Foundation&Canterbury High School",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/22331",
+        "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3210+Smith+Road%2C+Fort+Wayne%2C+IN+46804&benchmark=Public_AR_Current&format=json",
+        "https://www.canterburyschool.org/contact-us"
+      ]
+    },
+    {
+      "team_number": 25638,
+      "team_name": "MG (Microchips & Guac)",
+      "school_or_organization": "Madison-Grant Jr./Sr. High School",
+      "affiliation_type": "school_linked",
+      "city": "Fairmount",
+      "state": "IN",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+      "school_url": "https://mghs.mgusc.k12.in.us/",
+      "notes": "Distinct FTC team; FRC 8742 leadership is not transferred without FTC-specific evidence.",
+      "official_sponsors_and_affiliations": "Madison-Grant Jr Sr High Sch",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/25638",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+      ]
+    },
+    {
+      "team_number": 5501,
+      "team_name": "VW Robotics",
+      "school_or_organization": "Van Wert High School",
+      "affiliation_type": "school_linked",
+      "city": "Van Wert",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+      "school_url": "https://www.vwcs.net/",
+      "notes": "Van Wert program-level coaches cover both FTC teams.",
+      "official_sponsors_and_affiliations": "Van Wert High School",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/5501",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+      ]
+    },
+    {
+      "team_number": 14174,
+      "team_name": "Cougar Robotics",
+      "school_or_organization": "Van Wert High School",
+      "affiliation_type": "school_linked",
+      "city": "Van Wert",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+      "school_url": "https://www.vwcs.net/",
+      "notes": "Van Wert program-level coaches cover both FTC teams.",
+      "official_sponsors_and_affiliations": "Van Wert High School",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/14174",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+      ]
+    },
+    {
+      "team_number": 12802,
+      "team_name": "We Will Bot You",
+      "school_or_organization": "Coldwater High School",
+      "affiliation_type": "school_linked",
+      "city": "Coldwater",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+      "school_url": "https://www.coldwatercavs.org/",
+      "notes": "Coldwater, Ohio; distinct from the excluded Coldwater, Michigan teams.",
+      "official_sponsors_and_affiliations": "Coldwater High School",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/12802",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=%28STATE%3D%27OH%27+AND+NAME%3D%27Coldwater+High+School%27%29+OR+%28STATE%3D%27MI%27+AND+NAME+like+%27%25Waldron%25%27%29+OR+%28STATE%3D%27IN%27+AND+NAME%3D%27Central+Catholic+Jr+Sr+High+School%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+      ]
+    },
+    {
+      "team_number": 30782,
+      "team_name": "ROBO DOGS",
+      "school_or_organization": "Celina High School",
+      "affiliation_type": "school_linked",
+      "city": "Celina",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+      "school_url": "https://www.celinaschools.org/CHS.aspx",
+      "notes": "School affiliation is retained from the official 2025 FIRST season record.",
+      "official_sponsors_and_affiliations": "Celina High School",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/30782",
+        "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326"
+      ]
+    },
+    {
+      "team_number": 19778,
+      "team_name": "Wire Monkeys",
+      "school_or_organization": "Country Club Robotics / home-school community",
+      "affiliation_type": "home_school_community",
+      "city": "Alvordton",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+      "school_url": "https://www.countryclub.io/wire-monkeys/",
+      "notes": "Official affiliation is Country Club Robotics / Home School; no exclusive high-school affiliation is established. Location is town-based screening only.",
+      "official_sponsors_and_affiliations": "Country Club Robotics/North Star Bluescope&Home School",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/19778",
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip"
+      ]
+    },
+    {
+      "team_number": 32552,
+      "team_name": "NSCC",
+      "school_or_organization": "Family/Community; school or physical host unconfirmed",
+      "affiliation_type": "community_host_unverified",
+      "city": "Archbold",
+      "state": "OH",
+      "first_team_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+      "school_url": null,
+      "notes": "Family/Community affiliation only. College affiliation and physical host are unconfirmed. Official season page reports no official events; ranking is unavailable.",
+      "official_sponsors_and_affiliations": "Family/Community",
+      "source_urls": [
+        "https://ftc-events.firstinspires.org/2025/team/32552",
+        "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip"
+      ]
+    }
+  ],
+  "current_season_only_teams": [
+    {
+      "team_number": 36124,
+      "team_name": "R.Amp Robotics",
+      "school_or_organization": "Amp Lab at The REFINERY",
+      "affiliation_type": "school_community_partnership",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "first_team_url": "https://ftc-events.firstinspires.org/2026/team/36124",
+      "school_url": "https://refineryrobotics.org/about/",
+      "notes": "2026–27 rookie registration; no 2025–26 ranking or inferred team-specific leaders.",
+      "source_urls": [
+        "https://refineryrobotics.org/about/",
+        "https://ftc-events.firstinspires.org/2026/team/36124"
+      ]
+    }
+  ]
+}

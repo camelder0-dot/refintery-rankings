@@ -1,0 +1,190 @@
+[
+  {
+    "team_number": 22331,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": 88.85441471776457,
+    "world_rank": 861,
+    "world_team_count": 8368,
+    "regional_value": 78.66573050932112,
+    "regional_rank": 13,
+    "regional_team_count": 71,
+    "regional_population": "USIN event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025&region=USIN",
+    "world_best_event_codes": [
+      "FPEMICRFT"
+    ],
+    "regional_best_event_codes": [
+      "USINWEQ"
+    ],
+    "source_event_count": 6,
+    "source_events_with_statistics": 5,
+    "status": "ranked"
+  },
+  {
+    "team_number": 25638,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": 39.16722232844774,
+    "world_rank": 3455,
+    "world_team_count": 8368,
+    "regional_value": 39.16722232844774,
+    "regional_rank": 30,
+    "regional_team_count": 71,
+    "regional_population": "USIN event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025&region=USIN",
+    "world_best_event_codes": [
+      "USINSBQ"
+    ],
+    "regional_best_event_codes": [
+      "USINSBQ"
+    ],
+    "source_event_count": 2,
+    "source_events_with_statistics": 2,
+    "status": "ranked"
+  },
+  {
+    "team_number": 5501,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": 23.1206277106756,
+    "world_rank": 5718,
+    "world_team_count": 8368,
+    "regional_value": 23.1206277106756,
+    "regional_rank": 71,
+    "regional_team_count": 113,
+    "regional_population": "USOH event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025&region=USOH",
+    "world_best_event_codes": [
+      "USOHLOQ"
+    ],
+    "regional_best_event_codes": [
+      "USOHLOQ"
+    ],
+    "source_event_count": 3,
+    "source_events_with_statistics": 3,
+    "status": "ranked"
+  },
+  {
+    "team_number": 14174,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": 42.01951967316051,
+    "world_rank": 3138,
+    "world_team_count": 8368,
+    "regional_value": 42.01951967316051,
+    "regional_rank": 34,
+    "regional_team_count": 113,
+    "regional_population": "USOH event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025&region=USOH",
+    "world_best_event_codes": [
+      "USOHLOQ"
+    ],
+    "regional_best_event_codes": [
+      "USOHLOQ"
+    ],
+    "source_event_count": 3,
+    "source_events_with_statistics": 3,
+    "status": "ranked"
+  },
+  {
+    "team_number": 12802,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": 34.65207321444321,
+    "world_rank": 4030,
+    "world_team_count": 8368,
+    "regional_value": 34.65207321444321,
+    "regional_rank": 48,
+    "regional_team_count": 113,
+    "regional_population": "USOH event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025&region=USOH",
+    "world_best_event_codes": [
+      "USOHVWQ"
+    ],
+    "regional_best_event_codes": [
+      "USOHVWQ"
+    ],
+    "source_event_count": 3,
+    "source_events_with_statistics": 3,
+    "status": "ranked"
+  },
+  {
+    "team_number": 19778,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": 33.343523226543,
+    "world_rank": 4209,
+    "world_team_count": 8368,
+    "regional_value": 33.343523226543,
+    "regional_rank": 50,
+    "regional_team_count": 113,
+    "regional_population": "USOH event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025&region=USOH",
+    "world_best_event_codes": [
+      "USOHVWQ"
+    ],
+    "regional_best_event_codes": [
+      "USOHVWQ"
+    ],
+    "source_event_count": 3,
+    "source_events_with_statistics": 3,
+    "status": "ranked"
+  },
+  {
+    "team_number": 30782,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": 14.987407286974676,
+    "world_rank": 7014,
+    "world_team_count": 8368,
+    "regional_value": 14.987407286974676,
+    "regional_rank": 92,
+    "regional_team_count": 113,
+    "regional_population": "USOH event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025&region=USOH",
+    "world_best_event_codes": [
+      "USOHVWQ"
+    ],
+    "regional_best_event_codes": [
+      "USOHVWQ"
+    ],
+    "source_event_count": 2,
+    "source_events_with_statistics": 2,
+    "status": "ranked"
+  },
+  {
+    "team_number": 32552,
+    "source": "FTCScout",
+    "metric": "Peak event non-penalty OPR",
+    "season_start_year": 2025,
+    "value": null,
+    "world_rank": null,
+    "world_team_count": null,
+    "regional_value": null,
+    "regional_rank": null,
+    "regional_team_count": null,
+    "regional_population": "USOH event cohort",
+    "world_source_url": "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025",
+    "regional_source_url": "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025&region=USOH",
+    "world_best_event_codes": [],
+    "regional_best_event_codes": [],
+    "source_event_count": 0,
+    "source_events_with_statistics": 0,
+    "status": "no_quick_stats_http_404"
+  }
+]

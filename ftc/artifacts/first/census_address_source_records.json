@@ -1,0 +1,107 @@
+{
+  "canterbury": {
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3210+Smith+Road%2C+Fort+Wayne%2C+IN+46804&benchmark=Public_AR_Current&format=json",
+    "retrieved_utc": "2026-10-22T05:11:36.086565+00:00",
+    "input_address": "3210 Smith Road, Fort Wayne, IN 46804",
+    "matched_address": "3210 SMITH RD, FORT WAYNE, IN, 46804",
+    "benchmark": {
+      "isDefault": true,
+      "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+      "id": "4",
+      "benchmarkName": "Public_AR_Current"
+    },
+    "tiger_line": {
+      "side": "R",
+      "tigerLineId": "633619939"
+    },
+    "coordinates": {
+      "latitude": 41.054028252809,
+      "longitude": -85.209763440107
+    },
+    "precision_note": "Census street-address-range interpolation, not a building location."
+  },
+  "vanwert": {
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=10708+State+Route+118+South%2C+Van+Wert%2C+OH+45891&benchmark=Public_AR_Current&format=json",
+    "retrieved_utc": "2026-10-22T05:11:36.330091+00:00",
+    "input_address": "10708 State Route 118 South, Van Wert, OH 45891",
+    "matched_address": "10708 STATE RTE 118, VAN WERT, OH, 45891",
+    "benchmark": {
+      "isDefault": true,
+      "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+      "id": "4",
+      "benchmarkName": "Public_AR_Current"
+    },
+    "tiger_line": {
+      "side": "L",
+      "tigerLineId": "647372520"
+    },
+    "coordinates": {
+      "latitude": 40.848354171389,
+      "longitude": -84.602679670055
+    },
+    "precision_note": "Census street-address-range interpolation, not a building location."
+  },
+  "stcharles": {
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=79+Harrison+St%2C+Coldwater%2C+MI+49036&benchmark=Public_AR_Current&format=json",
+    "retrieved_utc": "2026-10-22T05:11:36.073743+00:00",
+    "input_address": "79 Harrison St, Coldwater, MI 49036",
+    "matched_address": "79 HARRISON ST, COLDWATER, MI, 49036",
+    "benchmark": {
+      "isDefault": true,
+      "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+      "id": "4",
+      "benchmarkName": "Public_AR_Current"
+    },
+    "tiger_line": {
+      "side": "L",
+      "tigerLineId": "8211806"
+    },
+    "coordinates": {
+      "latitude": 41.942641943119,
+      "longitude": -85.005353391989
+    },
+    "precision_note": "Census street-address-range interpolation, not a building location."
+  },
+  "newbremen": {
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+East+Monroe+Street%2C+New+Bremen%2C+OH+45869&benchmark=Public_AR_Current&format=json",
+    "retrieved_utc": "2026-10-22T05:11:36.077090+00:00",
+    "input_address": "901 East Monroe Street, New Bremen, OH 45869",
+    "matched_address": "901 E MONROE ST, NEW BREMEN, OH, 45869",
+    "benchmark": {
+      "isDefault": true,
+      "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+      "id": "4",
+      "benchmarkName": "Public_AR_Current"
+    },
+    "tiger_line": {
+      "side": "R",
+      "tigerLineId": "656891595"
+    },
+    "coordinates": {
+      "latitude": 40.437078976313,
+      "longitude": -84.367509821104
+    },
+    "precision_note": "Census street-address-range interpolation, not a building location."
+  },
+  "legg": {
+    "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=175+Green+St%2C+Coldwater%2C+MI+49036&benchmark=Public_AR_Current&format=json",
+    "retrieved_utc": "2026-10-22T05:11:36.087380+00:00",
+    "input_address": "175 Green St, Coldwater, MI 49036",
+    "matched_address": "175 GREEN ST, COLDWATER, MI, 49036",
+    "benchmark": {
+      "isDefault": true,
+      "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+      "id": "4",
+      "benchmarkName": "Public_AR_Current"
+    },
+    "tiger_line": {
+      "side": "L",
+      "tigerLineId": "8211695"
+    },
+    "coordinates": {
+      "latitude": 41.950165607785,
+      "longitude": -85.014590953905
+    },
+    "precision_note": "Census street-address-range interpolation, not a building location."
+  }
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+    "retrieved_utc": "2026-10-22T05:13:40.919920+00:00",
+    "http_status": 200,
+    "sha256_response": "d28a71a982c41d003b072d25dd8d2468921cc6d7295046da5915f4e039222b3f",
+    "facts": {
+      "season": 2025,
+      "team_number": 22331,
+      "heading": "Team 22331 - random() (2025)",
+      "location": "Fort Wayne, IN, USA",
+      "region": "Indiana",
+      "rookie_year": 2022,
+      "sponsors_raw": "Mae Designs/Bionanomics/Bridge of Grace Ministries/Gene Haas Foundation&Canterbury High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+    "retrieved_utc": "2026-10-22T05:13:42.015184+00:00",
+    "http_status": 200,
+    "sha256_response": "57b9500c53c433d6c4d3ca2d47c86cd1fc6995a7eb1303be310c94f165836128",
+    "facts": {
+      "season": 2025,
+      "team_number": 25638,
+      "heading": "Team 25638 - MG (Microchips & Guac) (2025)",
+      "location": "Fairmount, IN, USA",
+      "region": "Indiana",
+      "rookie_year": 2024,
+      "sponsors_raw": "Madison-Grant Jr Sr High Sch",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+    "retrieved_utc": "2026-10-22T05:13:42.067462+00:00",
+    "http_status": 200,
+    "sha256_response": "88fc07fb6be41ccb8ca094f5f89186269c3b41c427c2020d8e06546c026692ec",
+    "facts": {
+      "season": 2025,
+      "team_number": 5501,
+      "heading": "Team 5501 - VW Robotics (2025)",
+      "location": "Van Wert, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2011,
+      "sponsors_raw": "Van Wert High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+    "retrieved_utc": "2026-10-22T05:13:42.059934+00:00",
+    "http_status": 200,
+    "sha256_response": "bae80152f86f4730b910bb7a712529440c2e6b501ef0f4142bd56a92caff2115",
+    "facts": {
+      "season": 2025,
+      "team_number": 14174,
+      "heading": "Team 14174 - Cougar Robotics (2025)",
+      "location": "Van Wert, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2017,
+      "sponsors_raw": "Van Wert High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+    "retrieved_utc": "2026-10-22T05:13:40.837970+00:00",
+    "http_status": 200,
+    "sha256_response": "fab0d1bb1da1696e37377b974159722781c0351e139a1cc197bcf43aca707c18",
+    "facts": {
+      "season": 2025,
+      "team_number": 12802,
+      "heading": "Team 12802 - We Will Bot You (2025)",
+      "location": "Coldwater, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2017,
+      "sponsors_raw": "Coldwater High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+    "retrieved_utc": "2026-10-22T05:13:40.951091+00:00",
+    "http_status": 200,
+    "sha256_response": "4769e11b8223cbf2aa9434abfec3187ea2f852b255040145ad6fafb54fc5eea9",
+    "facts": {
+      "season": 2025,
+      "team_number": 19778,
+      "heading": "Team 19778 - Wire Monkeys (2025)",
+      "location": "Alvordton, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2021,
+      "sponsors_raw": "Country Club Robotics/North Star Bluescope&Home School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+    "retrieved_utc": "2026-10-22T05:13:42.605065+00:00",
+    "http_status": 200,
+    "sha256_response": "7a61a7b13a12820ac14c97d9cc466bd3a5effb028f7c014eedb804b77dddbd7c",
+    "facts": {
+      "season": 2025,
+      "team_number": 30782,
+      "heading": "Team 30782 - ROBO DOGS  (2025)",
+      "location": "Celina, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2025,
+      "sponsors_raw": "Celina High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+    "retrieved_utc": "2026-10-22T05:13:41.404937+00:00",
+    "http_status": 200,
+    "sha256_response": "6301390f09170e5dddb620235f994eb4cfd8840ab078f2fe73248d932e6ae9a9",
+    "facts": {
+      "season": 2025,
+      "team_number": 32552,
+      "heading": "Team 32552 - NSCC (2025)",
+      "location": "Archbold, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2025,
+      "sponsors_raw": "Family/Community",
+      "official_no_events_statement": true,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/12166",
+    "retrieved_utc": "2026-10-22T05:13:41.619204+00:00",
+    "http_status": 200,
+    "sha256_response": "93439b81812d9eca170f3c3966a5b0284eaac5912fcd7c5238bbe8752e2c068c",
+    "facts": {
+      "season": 2025,
+      "team_number": 12166,
+      "heading": "Team 12166 - New Bremen Techno Birds - Crimson (2025)",
+      "location": "New Bremen, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2016,
+      "sponsors_raw": "Crown Equipment Corporation & New Bremen High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/32403",
+    "retrieved_utc": "2026-10-22T05:13:41.770410+00:00",
+    "http_status": 200,
+    "sha256_response": "b1fb6fe58e9c4fba166269d22cba2d96492625fc5f732cedf1f982d1c3bf1ad5",
+    "facts": {
+      "season": 2025,
+      "team_number": 32403,
+      "heading": "Team 32403 - New Bremen Techno Birds - Gold (2025)",
+      "location": "New Bremen, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2025,
+      "sponsors_raw": "New Bremen High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/13028",
+    "retrieved_utc": "2026-10-22T05:13:42.076366+00:00",
+    "http_status": 200,
+    "sha256_response": "bda4f69dfaa3867b932f051ad155c81f55ffb379c843f98687c62bfcee8c01f3",
+    "facts": {
+      "season": 2025,
+      "team_number": 13028,
+      "heading": "Team 13028 - Cougar-Bots (2025)",
+      "location": "Coldwater, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2017,
+      "sponsors_raw": "St Charles Borromeo School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/32341",
+    "retrieved_utc": "2026-10-22T05:13:42.268747+00:00",
+    "http_status": 200,
+    "sha256_response": "fc458b1625e29de24379bdfe605080b0b76fa5d0788afe4d65bce9678f7a9410",
+    "facts": {
+      "season": 2025,
+      "team_number": 32341,
+      "heading": "Team 32341 - Iron Talons  (2025)",
+      "location": "Coldwater, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2025,
+      "sponsors_raw": "Legg Middle School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/24051",
+    "retrieved_utc": "2026-10-22T05:13:43.523000+00:00",
+    "http_status": 200,
+    "sha256_response": "e62993ce757f21b1661c6f7475e810d86ca6b9dd59fb64724f05bdfcf2efc9d9",
+    "facts": {
+      "season": 2025,
+      "team_number": 24051,
+      "heading": "Team 24051 - Technopups (2025)",
+      "location": "Centreville, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2023,
+      "sponsors_raw": "Google.org/Centreville JR/SR High School/Toyota&Centreville Jr/Sr High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/22601",
+    "retrieved_utc": "2026-10-22T05:13:43.497875+00:00",
+    "http_status": 200,
+    "sha256_response": "34ea5de04cf0aab4f0ea6fe9923a7179574f2e1a51794549efbfad039e0195d7",
+    "facts": {
+      "season": 2025,
+      "team_number": 22601,
+      "heading": "Team 22601 - RoboComets Jr.  (2025)",
+      "location": "Jonesville, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2022,
+      "sponsors_raw": "Jonesville Middle School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/14279",
+    "retrieved_utc": "2026-10-22T05:13:42.524844+00:00",
+    "http_status": 200,
+    "sha256_response": "00aa1569715c30eaa492594f57aa031d5304d11714912a45c825d7d36e283d24",
+    "facts": {
+      "season": 2025,
+      "team_number": 14279,
+      "heading": "Team 14279 - FLRC - Circuit Breakers (2025)",
+      "location": "Fort Loramie, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2017,
+      "sponsors_raw": "Ft Loramie Jr Sr High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2025/team/32814",
+    "retrieved_utc": "2026-10-22T05:13:43.736619+00:00",
+    "http_status": 200,
+    "sha256_response": "4bfea9f97a60e69abf5b607f6ccb17359a98121e751a3c74c77ca578155f33f0",
+    "facts": {
+      "season": 2025,
+      "team_number": 32814,
+      "heading": "Team 32814 - CC Skraps (2025)",
+      "location": "IN, IN, USA",
+      "region": "Indiana",
+      "rookie_year": 2025,
+      "sponsors_raw": "Central Catholic Jr Sr High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2024/team/10540",
+    "retrieved_utc": "2026-10-22T05:13:42.806369+00:00",
+    "http_status": 200,
+    "sha256_response": "168824a29ab590bd7e6d4e3c52843c890c59792a2a366aa1286d7c3139fea477",
+    "facts": {
+      "season": 2024,
+      "team_number": 10540,
+      "heading": "Team 10540 - Gear Grinders Junior (2024)",
+      "location": "Camden, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2015,
+      "sponsors_raw": "Chase Brass and Copper&Camden-Frontier School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2024/team/20101",
+    "retrieved_utc": "2026-10-22T05:13:44.503236+00:00",
+    "http_status": 200,
+    "sha256_response": "81a7433911c92b34dfe949a66d73db2d65195165fba6307540d15f8162d00486",
+    "facts": {
+      "season": 2024,
+      "team_number": 20101,
+      "heading": "Team 20101 - Triple B (2024)",
+      "location": "Bronson, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2021,
+      "sponsors_raw": "Bronson Jr Sr High School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2024/team/11714",
+    "retrieved_utc": "2026-10-22T05:13:43.009564+00:00",
+    "http_status": 200,
+    "sha256_response": "cb913acc7fd16523b49095f61767411e9bcc7c3213ac5aa4ff53c29b4cd5846b",
+    "facts": {
+      "season": 2024,
+      "team_number": 11714,
+      "heading": "Team 11714 - Burr Oak BossCats (2024)",
+      "location": "Burr Oak, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2016,
+      "sponsors_raw": "Burr Oak Cmty School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2024/team/15322",
+    "retrieved_utc": "2026-10-22T05:13:44.126025+00:00",
+    "http_status": 200,
+    "sha256_response": "d04c64806a4ead0bcdb3839d16e4c84d1311ce4f27d43db17c1b51898f4215a4",
+    "facts": {
+      "season": 2024,
+      "team_number": 15322,
+      "heading": "Team 15322 - Bosscats 2.0 (2024)",
+      "location": "Burr Oak, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2018,
+      "sponsors_raw": "Burr Oak Cmty School",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2024/team/26536",
+    "retrieved_utc": "2026-10-22T05:13:43.353204+00:00",
+    "http_status": 200,
+    "sha256_response": "1bbb9c6e69587791b0b1113801019da08cb1cd70a071ca162c13584ff45cce9d",
+    "facts": {
+      "season": 2024,
+      "team_number": 26536,
+      "heading": "Team 26536 - Waldron Spartans (2024)",
+      "location": "WALDRON, MI, USA",
+      "region": "Michigan - FiM",
+      "rookie_year": 2024,
+      "sponsors_raw": "Waldron Area Schools",
+      "official_no_events_statement": false,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2026/team/36124",
+    "retrieved_utc": "2026-10-22T05:13:44.108557+00:00",
+    "http_status": 200,
+    "sha256_response": "a4737eec113de6d3875ec3cb0afba809b109ac46553b54ba58490e3573cc5a85",
+    "facts": {
+      "season": 2026,
+      "team_number": 36124,
+      "heading": "Team 36124 - R.Amp Robotics (2026)",
+      "location": "Fort Wayne, IN, USA",
+      "region": "Indiana",
+      "rookie_year": 2026,
+      "sponsors_raw": "BioNanomics/The REFINERY/Indiana Department of Education&Family/Community&Amp Lab at Electric Works",
+      "official_no_events_statement": true,
+      "website_urls": [
+        "https://refineryrobotics.org/teams/ftc36124/"
+      ]
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2026/team/8710",
+    "retrieved_utc": "2026-10-22T05:13:44.409972+00:00",
+    "http_status": 200,
+    "sha256_response": "73790f49ae0e7127cefa68274676778698377802b92ce2de65f2a2f05c23a4eb",
+    "facts": {
+      "season": 2026,
+      "team_number": 8710,
+      "heading": "Team 8710 - Frostbyte (2026)",
+      "location": "Elkhart, IN, USA",
+      "region": "Indiana",
+      "rookie_year": 2014,
+      "sponsors_raw": "E3 Robotics Center&E3 Robotics Center",
+      "official_no_events_statement": true,
+      "website_urls": []
+    }
+  },
+  {
+    "source_url": "https://ftc-events.firstinspires.org/2026/team/32552",
+    "retrieved_utc": "2026-10-22T05:13:43.906176+00:00",
+    "http_status": 200,
+    "sha256_response": "959de116a04af12005c518b2e6a28d7fbdd6b0f62692603389c561b43fefdf00",
+    "facts": {
+      "season": 2026,
+      "team_number": 32552,
+      "heading": "Team 32552 - NSCC Cryptic Cyborgs (2026)",
+      "location": "Archbold, OH, USA",
+      "region": "Ohio",
+      "rookie_year": 2025,
+      "sponsors_raw": "Wieland&Family/Community",
+      "official_no_events_statement": true,
+      "website_urls": []
+    }
+  }
+]

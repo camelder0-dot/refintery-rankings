@@ -251,6 +251,17 @@ The [complete leadership findings](leadership-findings.md) include all qualifyin
     write_text("docs/sources.md", "\n".join(source_lines))
     readme = f"""# FIRST Robotics teams around Fort Wayne
 
+Research directories for two FIRST programs within 60 straight-line miles of Citizens Square in downtown Fort Wayne. Each program retains its own season, ranking metric, evidence, and qualifications.
+
+| Program | Season | Directory and downloads | Ranking metric |
+|---|---|---|---|
+| FIRST Robotics Competition (FRC) | 2026 | [FRC directory](docs/team-directory.md), [JSON](data/teams.json), [CSV](data/teams.csv) | Statbotics EPA; June 12, 2026 snapshot |
+| FIRST Tech Challenge (FTC) | 2025–26 DECODE | [FTC research](ftc/README.md), [directory](ftc/docs/team-directory.md), [JSON](ftc/data/teams.json), [CSV](ftc/data/teams.csv) | FTCScout peak event non-penalty OPR; dated capture |
+
+FRC EPA and FTC OPR describe different games and models. Read each program's methodology before comparing results. FTC's current-season additions and teams without ranking data are identified separately.
+
+## FRC research
+
 School-linked **2026 Statbotics rankings, recorded FIRST seasons, and public coach/student leadership evidence** for 17 FRC teams in the Fort Wayne study area: 13 Indiana teams and four nearby Michigan/Ohio teams.
 
 **Research date:** October 22, 2026. **Ranking snapshot:** June 12, 2026, 02:51:19 UTC. Rankings are preserved historical values, not a live leaderboard.
@@ -293,6 +304,8 @@ The analysis build and checks use Python 3.10+ and the standard library. They ru
 ```bash
 python scripts/build.py
 node scripts/export_csv.mjs --stdlib
+python ftc/scripts/build.py
+python ftc/scripts/verify.py
 python scripts/verify.py
 ```
 

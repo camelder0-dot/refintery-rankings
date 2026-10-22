@@ -1,0 +1,471 @@
+{
+  "schema_version": "1.0",
+  "captured_at_utc": "2026-10-22T05:12:48.974454+00:00",
+  "season_start_year_cutoff": 2025,
+  "source": "FIRST Tech Challenge Events team season pages",
+  "teams": [
+    {
+      "team_number": 5501,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/5501",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.139044+00:00",
+      "response_sha256": "5cca8d0e6dd403282702f7ab4b18e9a3787d3bb433c262853e75a5646e42913c",
+      "response_bytes": 95715,
+      "response_last_modified": null,
+      "page_heading": "Team 5501 - VW Robotics (2025)",
+      "page_season_sponsors_and_affiliations": "Van Wert High School",
+      "official_rookie_year": 2011,
+      "all_listed_seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2019": "SKYSTONE",
+        "2020": "ULTIMATE GOAL",
+        "2021": "FREIGHT FRENZY",
+        "2022": "POWERPLAY",
+        "2023": "CENTERSTAGE",
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "recorded_season_count": 7,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 12166,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/12166",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/12166",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.004601+00:00",
+      "response_sha256": "d6c35d9c733955b62ef55fca1a1f2e2ff51b657eb5d4140ed5ce155f3d585871",
+      "response_bytes": 67056,
+      "response_last_modified": null,
+      "page_heading": "Team 12166 - New Bremen Techno Birds - Crimson (2025)",
+      "page_season_sponsors_and_affiliations": "Crown Equipment Corporation & New Bremen High School",
+      "official_rookie_year": 2016,
+      "all_listed_seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2019": "SKYSTONE",
+        "2020": "ULTIMATE GOAL",
+        "2021": "FREIGHT FRENZY",
+        "2022": "POWERPLAY",
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2024,
+        2025
+      ],
+      "recorded_season_count": 6,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 12802,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/12802",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.098207+00:00",
+      "response_sha256": "402f5f3fc4e53a1402866b018c72881229cf1661da9ad8fee2347818e93b7e5b",
+      "response_bytes": 88913,
+      "response_last_modified": null,
+      "page_heading": "Team 12802 - We Will Bot You (2025)",
+      "page_season_sponsors_and_affiliations": "Coldwater High School",
+      "official_rookie_year": 2017,
+      "all_listed_seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2019": "SKYSTONE",
+        "2020": "ULTIMATE GOAL",
+        "2021": "FREIGHT FRENZY",
+        "2022": "POWERPLAY",
+        "2023": "CENTERSTAGE",
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "recorded_season_count": 7,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 13028,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/13028",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/13028",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:47.805506+00:00",
+      "response_sha256": "690e16e6da838fc0bcc6ecc78ec3bec0e774a4887273c5014bdef186d4a1ba50",
+      "response_bytes": 37143,
+      "response_last_modified": null,
+      "page_heading": "Team 13028 - Cougar-Bots (2025)",
+      "page_season_sponsors_and_affiliations": "St Charles Borromeo School",
+      "official_rookie_year": 2017,
+      "all_listed_seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "season_game_labels": {
+        "2019": "SKYSTONE",
+        "2020": "ULTIMATE GOAL",
+        "2021": "FREIGHT FRENZY",
+        "2022": "POWERPLAY",
+        "2023": "CENTERSTAGE",
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE"
+      },
+      "recorded_seasons_through_cutoff": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "recorded_season_count": 7,
+      "excluded_later_seasons": [],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 14174,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/14174",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.237894+00:00",
+      "response_sha256": "224e393cbfe6235a06eb445a25bc2e18cc3341c593c0269b7e0e589567a4bf43",
+      "response_bytes": 95526,
+      "response_last_modified": null,
+      "page_heading": "Team 14174 - Cougar Robotics (2025)",
+      "page_season_sponsors_and_affiliations": "Van Wert High School",
+      "official_rookie_year": 2017,
+      "all_listed_seasons": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2019": "SKYSTONE",
+        "2020": "ULTIMATE GOAL",
+        "2021": "FREIGHT FRENZY",
+        "2022": "POWERPLAY",
+        "2023": "CENTERSTAGE",
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "recorded_season_count": 7,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 19778,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/19778",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.415274+00:00",
+      "response_sha256": "14d9f6cd58323d4565da82de9f9763e5239f0bb818a8946d0270fd6e6a80ddd4",
+      "response_bytes": 124085,
+      "response_last_modified": null,
+      "page_heading": "Team 19778 - Wire Monkeys (2025)",
+      "page_season_sponsors_and_affiliations": "Country Club Robotics/North Star Bluescope&Home School",
+      "official_rookie_year": 2021,
+      "all_listed_seasons": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2021": "FREIGHT FRENZY",
+        "2022": "POWERPLAY",
+        "2023": "CENTERSTAGE",
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "recorded_season_count": 5,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 22331,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/22331",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.798867+00:00",
+      "response_sha256": "1349f291547cdd5a61757d708f95bfcd4db02ce302142419813284d538ef5e87",
+      "response_bytes": 268584,
+      "response_last_modified": null,
+      "page_heading": "Team 22331 - random() (2025)",
+      "page_season_sponsors_and_affiliations": "Mae Designs/Bionanomics/Bridge of Grace Ministries/Gene Haas Foundation&Canterbury High School",
+      "official_rookie_year": 2022,
+      "all_listed_seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2022": "POWERPLAY",
+        "2023": "CENTERSTAGE",
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "recorded_season_count": 4,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 25638,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/25638",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.620629+00:00",
+      "response_sha256": "a7458def3d8b42d91c4398bcd9a4e78a449f9b8b78a4f12680de62d421874461",
+      "response_bytes": 74129,
+      "response_last_modified": null,
+      "page_heading": "Team 25638 - MG (Microchips & Guac) (2025)",
+      "page_season_sponsors_and_affiliations": "Madison-Grant Jr Sr High Sch",
+      "official_rookie_year": 2024,
+      "all_listed_seasons": [
+        2024,
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2024": "INTO THE DEEP",
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2024,
+        2025
+      ],
+      "recorded_season_count": 2,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 30782,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/30782",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.608243+00:00",
+      "response_sha256": "a3d1841850b3ec953bf3b87bf6701778a5cc308a9eda6ed861da382db1ddb557",
+      "response_bytes": 64675,
+      "response_last_modified": null,
+      "page_heading": "Team 30782 - ROBO DOGS (2025)",
+      "page_season_sponsors_and_affiliations": "Celina High School",
+      "official_rookie_year": 2025,
+      "all_listed_seasons": [
+        2025
+      ],
+      "season_game_labels": {
+        "2025": null
+      },
+      "recorded_seasons_through_cutoff": [
+        2025
+      ],
+      "recorded_season_count": 1,
+      "excluded_later_seasons": [],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 32341,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/32341",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/32341",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.915103+00:00",
+      "response_sha256": "460f4b8855ed9ec664ab7fa6808c5f2a874db92d8c1295e66744c3ceaad32991",
+      "response_bytes": 37116,
+      "response_last_modified": null,
+      "page_heading": "Team 32341 - Iron Talons (2025)",
+      "page_season_sponsors_and_affiliations": "Legg Middle School",
+      "official_rookie_year": 2025,
+      "all_listed_seasons": [
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2025
+      ],
+      "recorded_season_count": 1,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 32403,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/32403",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/32403",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.973849+00:00",
+      "response_sha256": "1f27c234327fc5d028bfc7b04469e2ec1f4b3f049edf26f7fee83afd8173030a",
+      "response_bytes": 65298,
+      "response_last_modified": null,
+      "page_heading": "Team 32403 - New Bremen Techno Birds - Gold (2025)",
+      "page_season_sponsors_and_affiliations": "New Bremen High School",
+      "official_rookie_year": 2025,
+      "all_listed_seasons": [
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2025
+      ],
+      "recorded_season_count": 1,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    },
+    {
+      "team_number": 32552,
+      "source_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+      "resolved_url": "https://ftc-events.firstinspires.org/2025/team/32552",
+      "page_season": 2025,
+      "retrieved_at_utc": "2026-10-22T05:12:48.888107+00:00",
+      "response_sha256": "4ab89a21658697602f71a5e402e01c2a6b0506b1e690ff3561a0db251804557a",
+      "response_bytes": 11417,
+      "response_last_modified": null,
+      "page_heading": "Team 32552 - NSCC (2025)",
+      "page_season_sponsors_and_affiliations": "Family/Community",
+      "official_rookie_year": 2025,
+      "all_listed_seasons": [
+        2025,
+        2026
+      ],
+      "season_game_labels": {
+        "2025": "DECODE",
+        "2026": "BIOBUZZ"
+      },
+      "recorded_seasons_through_cutoff": [
+        2025
+      ],
+      "recorded_season_count": 1,
+      "excluded_later_seasons": [
+        2026
+      ],
+      "count_definition": "Season entries linked in FIRST FTC Events Other Seasons menu, plus the verified current page, through the starting-year cutoff; not a count of years with played matches, and not rookie-year subtraction.",
+      "history_coverage_note": "FIRST FTC Event Web season lists in these captures begin no earlier than 2019. A rookie year before the first listed season does not establish which missing seasons had activity."
+    }
+  ]
+}

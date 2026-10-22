@@ -1,0 +1,46 @@
+{
+  "factual_extracts": [
+    {
+      "source_id": "L01",
+      "fact": "Ms. Randall is listed as CS/Math/Engineering Educator and Mr. Delaney as BAE Systems Engineer on the Meet the Team page. Coach and mentor titles are not assigned to either name.",
+      "locator": "PDF page2, printed1, Meet the Team",
+      "inference": "Adult roster grouping inferred from occupation and placement above student biographies; exact coach/mentor title unverified."
+    },
+    {
+      "source_id": "L02",
+      "fact": "School article identifies senior Clara Satter as lead programmer. No captain title.",
+      "locator": "Body paragraph beginning Senior Clara Satter",
+      "date_note": "No publication date visible; season context derives from South Bend third tournament and March14 state in2026."
+    },
+    {
+      "source_id": "L03",
+      "fact": "School identifies Rebekah Randall as Computer Science teacher. This corroborates teacher identity but does not assign robotics role.",
+      "locator": "First article paragraph",
+      "date_note": "VisibleJan17,2025 date."
+    },
+    {
+      "source_id": "L04",
+      "fact": "Van Wert Robotics Club homepage identifies Robert Spath, Noah Carter and Judy Krites as coaches of its twoFTC teams.",
+      "locator": "Homepage introduction",
+      "date_note": "Undated site; retrieval timestamp recorded in source manifest."
+    },
+    {
+      "source_id": "L05",
+      "fact": "School news calls Bob Spath Van Wert High School robotics coach; closing thanks names coaches Bob Spath,Noah Carter,Judy Krites.",
+      "locator": "First and last article body paragraphs",
+      "date_note": "HTML time element2026-01-20T11:17:00-05:00."
+    },
+    {
+      "source_id": "L06",
+      "fact": "Celina Robo Dogs coaches are Jon Gudorf and Pete Lisi. Chase Moore is a driver and Hunter Collins a coder; neither has captain or lead title.",
+      "locator": "Article body and Moving forward section",
+      "date_note": "Article datedDec23,2025."
+    },
+    {
+      "source_id": "L07",
+      "fact": "Becca Wenning self-reports founding coach/mentor of Coldwater FTC12802 in a public professional profile.",
+      "locator": "Search-visible Volunteer Experience, FIRST Coach/Mentor",
+      "date_note": "Undated self-report showingSep2016-Present; source crawl reported last month, which does not verify2025-26 appointment."
+    }
+  ]
+}

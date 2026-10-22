@@ -1,0 +1,49 @@
+{
+  "source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1750+Broadway%2C+Fort+Wayne%2C+IN+46802&benchmark=Public_AR_Current&format=json",
+  "address_source_url": "https://refineryrobotics.org/about/",
+  "retrieved_at_utc": "2026-10-22T05:16:04.740298+00:00",
+  "response_sha256": "2078f173fb9603521214efd32e000f4337bdc8830ea09257a909fc6013323306",
+  "response_bytes": 648,
+  "response": {
+    "result": {
+      "input": {
+        "address": {
+          "address": "1750 Broadway, Fort Wayne, IN 46802"
+        },
+        "benchmark": {
+          "isDefault": true,
+          "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+          "id": "4",
+          "benchmarkName": "Public_AR_Current"
+        }
+      },
+      "addressMatches": [
+        {
+          "tigerLine": {
+            "side": "R",
+            "tigerLineId": "6377941"
+          },
+          "coordinates": {
+            "x": -85.150472977356,
+            "y": 41.069892127648
+          },
+          "addressComponents": {
+            "zip": "46802",
+            "streetName": "BROADWAY",
+            "preType": "",
+            "city": "FORT WAYNE",
+            "preDirection": "",
+            "suffixDirection": "",
+            "fromAddress": "1626",
+            "state": "IN",
+            "suffixType": "",
+            "toAddress": "1798",
+            "suffixQualifier": "",
+            "preQualifier": ""
+          },
+          "matchedAddress": "1750 BROADWAY, FORT WAYNE, IN, 46802"
+        }
+      ]
+    }
+  }
+}

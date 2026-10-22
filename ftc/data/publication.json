@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "title": "FIRST Tech Challenge teams around Fort Wayne",
+  "repository_url": "https://github.com/horner/refintery-rankings",
+  "research_date": "2026-10-22",
+  "program": "FTC",
+  "season_label": "2025–26 DECODE",
+  "season_start_year": 2025,
+  "season_history_cutoff_start_year": 2025,
+  "current_season_label": "2026–27 BIOBUZZ",
+  "radius_miles": 60,
+  "distance_definition": "Straight-line great-circle distance from Citizens Square; school/host references or qualified town screening points, not driving distance",
+  "ranking_snapshot_directory": "artifacts/ftcscout/snapshots/2026-10-22",
+  "ranking_capture_started_at_utc": "2026-10-22T05:15:39.159297+00:00",
+  "ranking_capture_completed_at_utc": "2026-10-22T05:16:58.325910+00:00",
+  "ranking_metric": "FTCScout peak event non-penalty OPR",
+  "regional_rank_definition": "Eligible event regionCode assignment, not team home state or event street address",
+  "history_definition": "Observed FIRST FTC Event Web season entries through starting year 2025; history can be incomplete for pre-2019 rookie teams",
+  "leadership_policy": "Preserve exact public roles, evidence dates, season qualifications and gaps; no inferred head coaches or student captains."
+}

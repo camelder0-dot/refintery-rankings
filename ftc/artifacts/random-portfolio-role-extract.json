@@ -1,0 +1,27 @@
+{
+  "source_id": "L01",
+  "source_url": "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing",
+  "title": "random() 2025-26 Engineering Portfolio",
+  "locator": {
+    "pdf_page_one_based": 2,
+    "printed_page_label": "1",
+    "section": "Meet the Team"
+  },
+  "verbatim_adult_labels": [
+    "Ms. Randall - CS/Math/Engineering Educator",
+    "Mr. Delaney - BAE Systems Engineer"
+  ],
+  "factual_student_duties": {
+    "Gabi": "Senior; driver and engineering-notebook manager; works on team organization and sustainability.",
+    "Clara": "Senior; programmer who works on sensing. Full name and lead programmer title come from L02, not this page."
+  },
+  "inference_boundary": "The adults are listed above student biographies with educator/engineer occupations. Their adult roster grouping is inferential; the page does not explicitly assign either person a coach or mentor title. The 45 combined years statement excludes mentors but does not label a specific name as mentor.",
+  "date_evidence": {
+    "filename_date": "2026-03-13",
+    "pdf_metadata_creation_utc": "2026-03-13T15:39:03Z",
+    "pdf_metadata_modification_utc": "2026-03-13T15:38:58Z",
+    "publication_date": null,
+    "note": "Filename date and PDF metadata establish document version/creation context, not publication date."
+  },
+  "visual_verification": "Meet the Team page rendered to PNG and inspected; exact labels verified."
+}

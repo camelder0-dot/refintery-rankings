@@ -1,0 +1,40 @@
+{
+  "source": "FTCScout",
+  "requested_url": "https://api.ftcscout.org/rest/v1/events/2025/USOHVWQ",
+  "request_method": "GET",
+  "request_headers": {
+    "Host": "api.ftcscout.org",
+    "User-agent": "Refintery FTC regional research (non-commercial snapshot)",
+    "Accept": "application/json",
+    "Content-type": "application/json"
+  },
+  "started_at_utc": "2026-10-22T05:17:43.404483+00:00",
+  "completed_at_utc": "2026-10-22T05:17:43.587423+00:00",
+  "http_status": 200,
+  "response_headers": {
+    "Date": "Thu, 22 Oct 2026 05:17:43 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "665",
+    "Connection": "close",
+    "etag": "W/\"299-KOK19H9Wk+4fBbmjdSL0GqLi2xo\"",
+    "vary": "Origin, Accept-Encoding",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Accept-Ranges": "bytes",
+    "x-xss-protection": "1; mode=block",
+    "Cache-Control": "max-age=120",
+    "cf-cache-status": "MISS",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=lxdqwPzFbrusMutOGT8XcxZyN2ke4%2BN0E0Zg%2FiCZ%2F1cYQQpfEqIuonWRKb%2FZfuaDhauDu0myVnFbC1A7igxCiO95CqmW6Z9sHGBciJBv5YDqZYg%2BHduYvVMs27tupDqxaA7E\"}]}",
+    "expect-ct": "max-age=86400, enforce",
+    "referrer-policy": "same-origin",
+    "x-frame-options": "SAMEORIGIN",
+    "Server": "cloudflare",
+    "CF-RAY": "a4e6098aab851910-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "error": null,
+  "raw_file": "event-2025-USOHVWQ.json",
+  "byte_count": 665,
+  "sha256": "7e42e7d81d1574aaa967b56b3385898e967161d929ab5944ca2acb62efcdfcf1"
+}

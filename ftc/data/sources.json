@@ -1,0 +1,415 @@
+{
+  "source_count": 63,
+  "sources": [
+    {
+      "source_id": "FTC-6ce69e331fad",
+      "url": "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025",
+      "teams": [
+        12802
+      ]
+    },
+    {
+      "source_id": "FTC-9cbe480e3e2d",
+      "url": "https://api.ftcscout.org/rest/v1/teams/12802/quick-stats?season=2025&region=USOH",
+      "teams": [
+        12802
+      ]
+    },
+    {
+      "source_id": "FTC-e687f6d84ff9",
+      "url": "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025",
+      "teams": [
+        14174
+      ]
+    },
+    {
+      "source_id": "FTC-e223d01f6aa4",
+      "url": "https://api.ftcscout.org/rest/v1/teams/14174/quick-stats?season=2025&region=USOH",
+      "teams": [
+        14174
+      ]
+    },
+    {
+      "source_id": "FTC-bffd3909653c",
+      "url": "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025",
+      "teams": [
+        19778
+      ]
+    },
+    {
+      "source_id": "FTC-ede654291eea",
+      "url": "https://api.ftcscout.org/rest/v1/teams/19778/quick-stats?season=2025&region=USOH",
+      "teams": [
+        19778
+      ]
+    },
+    {
+      "source_id": "FTC-68a73ae32607",
+      "url": "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-817a8c0631aa",
+      "url": "https://api.ftcscout.org/rest/v1/teams/22331/quick-stats?season=2025&region=USIN",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-d4601f626f5f",
+      "url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025",
+      "teams": [
+        25638
+      ]
+    },
+    {
+      "source_id": "FTC-c849c82f9da4",
+      "url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025&region=USIN",
+      "teams": [
+        25638
+      ]
+    },
+    {
+      "source_id": "FTC-c7d5411173f6",
+      "url": "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025",
+      "teams": [
+        30782
+      ]
+    },
+    {
+      "source_id": "FTC-3738c7703c3d",
+      "url": "https://api.ftcscout.org/rest/v1/teams/30782/quick-stats?season=2025&region=USOH",
+      "teams": [
+        30782
+      ]
+    },
+    {
+      "source_id": "FTC-ed915dc3d2a2",
+      "url": "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025",
+      "teams": [
+        32552
+      ]
+    },
+    {
+      "source_id": "FTC-e68c3e53387d",
+      "url": "https://api.ftcscout.org/rest/v1/teams/32552/quick-stats?season=2025&region=USOH",
+      "teams": [
+        32552
+      ]
+    },
+    {
+      "source_id": "FTC-d1345b31096c",
+      "url": "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025",
+      "teams": [
+        5501
+      ]
+    },
+    {
+      "source_id": "FTC-ce32f19571db",
+      "url": "https://api.ftcscout.org/rest/v1/teams/5501/quick-stats?season=2025&region=USOH",
+      "teams": [
+        5501
+      ]
+    },
+    {
+      "source_id": "FTC-fbccf49a0f44",
+      "url": "https://dailystandard.com/archive/2025-12-23/stories/53917/robot-games",
+      "teams": [
+        30782
+      ]
+    },
+    {
+      "source_id": "FTC-51e3cff1c7d0",
+      "url": "https://drive.google.com/file/d/1gk7J5Ye7xhbHflPDrvAK7R2gJ9jCgsat/view?usp=sharing",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-338e99a0d2b8",
+      "url": "https://ftc-events.firstinspires.org/2024/team/10540",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-3da82b62ce70",
+      "url": "https://ftc-events.firstinspires.org/2024/team/11714",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-c1a985f08e0c",
+      "url": "https://ftc-events.firstinspires.org/2024/team/15322",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-4e36c0c3e665",
+      "url": "https://ftc-events.firstinspires.org/2024/team/20101",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-18c032fe2d3e",
+      "url": "https://ftc-events.firstinspires.org/2024/team/26536",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-b018da3b0e96",
+      "url": "https://ftc-events.firstinspires.org/2025/team/12166",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-91b8b413000f",
+      "url": "https://ftc-events.firstinspires.org/2025/team/12802",
+      "teams": [
+        12802
+      ]
+    },
+    {
+      "source_id": "FTC-7efcd1fa286c",
+      "url": "https://ftc-events.firstinspires.org/2025/team/13028",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-7f6934006333",
+      "url": "https://ftc-events.firstinspires.org/2025/team/14174",
+      "teams": [
+        14174
+      ]
+    },
+    {
+      "source_id": "FTC-09c02cde9524",
+      "url": "https://ftc-events.firstinspires.org/2025/team/19778",
+      "teams": [
+        19778
+      ]
+    },
+    {
+      "source_id": "FTC-28115f55bf83",
+      "url": "https://ftc-events.firstinspires.org/2025/team/22331",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-910b4e6fe1ad",
+      "url": "https://ftc-events.firstinspires.org/2025/team/22601",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-089be1d279db",
+      "url": "https://ftc-events.firstinspires.org/2025/team/24051",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-1e05acb50937",
+      "url": "https://ftc-events.firstinspires.org/2025/team/25638",
+      "teams": [
+        25638
+      ]
+    },
+    {
+      "source_id": "FTC-7f3b32295ea9",
+      "url": "https://ftc-events.firstinspires.org/2025/team/30782",
+      "teams": [
+        30782
+      ]
+    },
+    {
+      "source_id": "FTC-e3bbf5803c46",
+      "url": "https://ftc-events.firstinspires.org/2025/team/32341",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-09feb583d209",
+      "url": "https://ftc-events.firstinspires.org/2025/team/32403",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-90c8dca2de11",
+      "url": "https://ftc-events.firstinspires.org/2025/team/32552",
+      "teams": [
+        32552
+      ]
+    },
+    {
+      "source_id": "FTC-68e79415b312",
+      "url": "https://ftc-events.firstinspires.org/2025/team/5501",
+      "teams": [
+        5501
+      ]
+    },
+    {
+      "source_id": "FTC-508cb3fb0ea9",
+      "url": "https://ftc-events.firstinspires.org/2026/team/36124",
+      "teams": [
+        36124
+      ]
+    },
+    {
+      "source_id": "FTC-45830f0e9098",
+      "url": "https://ftc-events.firstinspires.org/2026/team/8710",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-d2996f271100",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1750+Broadway%2C+Fort+Wayne%2C+IN+46802&benchmark=Public_AR_Current&format=json",
+      "teams": [
+        36124
+      ]
+    },
+    {
+      "source_id": "FTC-4b13c98e18db",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3210+Smith+Road%2C+Fort+Wayne%2C+IN+46804&benchmark=Public_AR_Current&format=json",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-d734e7c88fb9",
+      "url": "https://github.com/ftc-scout/ftc-scout/blob/05c44a28fe0f0a80101e63134db9a518d9d7ed6c/packages/server/src/graphql/resolvers/Team.ts#L54-L151",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-d1220b9d07fb",
+      "url": "https://github.com/horner/refintery-rankings",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-880476608a6f",
+      "url": "https://mghs.mgusc.k12.in.us/",
+      "teams": [
+        25638
+      ]
+    },
+    {
+      "source_id": "FTC-30d1e0053fde",
+      "url": "https://refineryrobotics.org/about/",
+      "teams": [
+        36124
+      ]
+    },
+    {
+      "source_id": "FTC-00a0e0124b52",
+      "url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Private_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27IN%27%2C%27MI%27%29+AND+%28CITY+like+%27%25Coldwater%25%27+OR+NAME+like+%27%25Canterbury%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-d7af889609bb",
+      "url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=%28STATE%3D%27OH%27+AND+NAME%3D%27Coldwater+High+School%27%29+OR+%28STATE%3D%27MI%27+AND+NAME+like+%27%25Waldron%25%27%29+OR+%28STATE%3D%27IN%27+AND+NAME%3D%27Central+Catholic+Jr+Sr+High+School%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+      "teams": [
+        12802
+      ]
+    },
+    {
+      "source_id": "FTC-e94f7beac7ee",
+      "url": "https://services1.arcgis.com/Ua5sjt3LWTPigjyD/arcgis/rest/services/Public_School_Locations_Current/FeatureServer/0/query?f=json&where=STATE+in+%28%27OH%27%2C%27MI%27%2C%27IN%27%29+AND+%28NAME+like+%27%25Bremen%25%27+OR+NAME+like+%27%25Legg%25%27+OR+NAME+like+%27%25Grant%25%27+OR+NAME+like+%27%25Celina%25%27+OR+NAME+like+%27%25Van+Wert%25%27+OR+NAME+like+%27%25Centreville%25%27+OR+NAME+like+%27%25Jonesville%25%27+OR+NAME+like+%27%25Burr+Oak%25%27+OR+NAME+like+%27%25Camden%25%27+OR+NAME+like+%27%25Bronson%25%27%29&outFields=%2A&returnGeometry=true&outSR=4326",
+      "teams": [
+        5501,
+        14174,
+        25638,
+        30782
+      ]
+    },
+    {
+      "source_id": "FTC-0e6a99baf97f",
+      "url": "https://thevillagereporter.com/two-williams-county-robotics-teams-putting-in-hard-work-to-prepare-for-state-competitions/",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-e6cfc89bb3f1",
+      "url": "https://van-wert-robotics-club.webnode.page/",
+      "teams": [
+        5501,
+        14174
+      ]
+    },
+    {
+      "source_id": "FTC-807bd392f955",
+      "url": "https://www.canterburyschool.org/",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-a0423daccd53",
+      "url": "https://www.canterburyschool.org/contact-us",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-92be5e3f3a0e",
+      "url": "https://www.canterburyschool.org/our-school/news/canterbury-earns-ap-computer-science-diversity-award",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-c4de57991bee",
+      "url": "https://www.canterburyschool.org/our-school/news/canterbury-robotics-earns-first-place-control-award-advances-to-state-tournament",
+      "teams": [
+        22331
+      ]
+    },
+    {
+      "source_id": "FTC-24d6b52fb39f",
+      "url": "https://www.celinaschools.org/CHS.aspx",
+      "teams": [
+        30782
+      ]
+    },
+    {
+      "source_id": "FTC-8983bb448084",
+      "url": "https://www.cityoffortwayne.in.gov/1109/Contact-Us",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-970016fefafc",
+      "url": "https://www.cityoffortwayne.org/publicworks/52-mayors-office/neighborhoods/196-customer-service.html",
+      "teams": []
+    },
+    {
+      "source_id": "FTC-42dbeb344bed",
+      "url": "https://www.coldwatercavs.org/",
+      "teams": [
+        12802
+      ]
+    },
+    {
+      "source_id": "FTC-8e3e80c721ad",
+      "url": "https://www.countryclub.io/wire-monkeys/",
+      "teams": [
+        19778
+      ]
+    },
+    {
+      "source_id": "FTC-a04852e56b48",
+      "url": "https://www.linkedin.com/in/becca-wenning",
+      "teams": [
+        12802
+      ]
+    },
+    {
+      "source_id": "FTC-8f7b4b9db13f",
+      "url": "https://www.vwcs.net/",
+      "teams": [
+        5501,
+        14174
+      ]
+    },
+    {
+      "source_id": "FTC-1ea295c16a5d",
+      "url": "https://www.vwcs.net/post-panel/news/~board/van-wert-city-schools/post/vwhs-hosts-10th-annual-robotics-tournament",
+      "teams": [
+        5501,
+        14174
+      ]
+    },
+    {
+      "source_id": "FTC-88b6079be05c",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2025_Gazetteer/2025_Gaz_place_national.zip",
+      "teams": [
+        19778,
+        32552
+      ]
+    }
+  ]
+}

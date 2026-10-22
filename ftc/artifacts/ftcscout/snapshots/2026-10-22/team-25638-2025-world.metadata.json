@@ -1,0 +1,42 @@
+{
+  "source": "FTCScout",
+  "requested_url": "https://api.ftcscout.org/rest/v1/teams/25638/quick-stats?season=2025",
+  "request_method": "GET",
+  "request_headers": {
+    "Host": "api.ftcscout.org",
+    "User-agent": "Refintery FTC regional research (non-commercial snapshot)",
+    "Accept": "application/json",
+    "Content-type": "application/json"
+  },
+  "started_at_utc": "2026-10-22T05:16:51.425032+00:00",
+  "completed_at_utc": "2026-10-22T05:16:51.585328+00:00",
+  "http_status": 200,
+  "response_headers": {
+    "Date": "Thu, 22 Oct 2026 05:16:51 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "228",
+    "Connection": "close",
+    "etag": "W/\"e4-Xuf8zCvPnZBIwLnNRkDZpbZ47PE\"",
+    "vary": "Origin, Accept-Encoding",
+    "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "Accept-Ranges": "bytes",
+    "x-xss-protection": "1; mode=block",
+    "Age": "69",
+    "Cache-Control": "max-age=120",
+    "cf-cache-status": "HIT",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=duad79kcMrMPtApi0%2Btz37ptkWKAwVaGbv6XipCEOZFeM9riyvNC2RbiIQDY85nanljb7d4%2FbJXlzlw38%2FBmxkDE3IQCuBvKIg0%2FMN8pkC6qawVtp%2FHS6k%2BAYztgEoDQIY2p\"}]}",
+    "expect-ct": "max-age=86400, enforce",
+    "referrer-policy": "same-origin",
+    "x-frame-options": "SAMEORIGIN",
+    "Server": "cloudflare",
+    "CF-RAY": "a4e6084638e5eaf1-ORD",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "error": null,
+  "raw_file": "team-25638-2025-world.json",
+  "byte_count": 228,
+  "sha256": "82d4f10837c8d6bc0555ea744d156aa4d18caeb8613162272d3e722be93e99d9",
+  "payload_shape_validated": true
+}
