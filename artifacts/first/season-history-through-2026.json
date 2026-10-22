@@ -1,0 +1,652 @@
+{
+  "schema_version": "1.0",
+  "captured_at_utc": "2026-10-22T04:30:21.197708+00:00",
+  "through_year": 2026,
+  "source": "FIRST Robotics Competition Events team history",
+  "extraction_method": "Cross-check season accordion heading years against season-specific team links; parse rookie year separately; exclude future years.",
+  "teams": [
+    {
+      "team_number": 1501,
+      "source_url": "https://frc-events.firstinspires.org/team/1501",
+      "resolved_url": "https://frc-events.firstinspires.org/team/1501",
+      "retrieved_at_utc": "2026-10-22T04:30:15.738069+00:00",
+      "response_sha256": "9f3f39aedd822c7b9b9f5d64ee6305db72ed5cb8ac46f2e5ed36b73d0217e44d",
+      "response_bytes": 113137,
+      "response_last_modified": null,
+      "official_rookie_year": 2005,
+      "source_headline_seasons_competed": 23,
+      "all_listed_seasons": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 22,
+      "first_recorded_season": 2005,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 1720,
+      "source_url": "https://frc-events.firstinspires.org/team/1720",
+      "resolved_url": "https://frc-events.firstinspires.org/team/1720",
+      "retrieved_at_utc": "2026-10-22T04:30:15.809910+00:00",
+      "response_sha256": "91f26d6145426933c4244e92e4caccb8d4b75842ac4bf389a57e1283798f5416",
+      "response_bytes": 78787,
+      "response_last_modified": null,
+      "official_rookie_year": 2006,
+      "source_headline_seasons_competed": 22,
+      "all_listed_seasons": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 21,
+      "first_recorded_season": 2006,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 9119,
+      "source_url": "https://frc-events.firstinspires.org/team/9119",
+      "resolved_url": "https://frc-events.firstinspires.org/team/9119",
+      "retrieved_at_utc": "2026-10-22T04:30:15.825642+00:00",
+      "response_sha256": "dc84dedc0d722f3aea4ae36182eae087968a06e2226fec56e308a90c75c165cd",
+      "response_bytes": 27176,
+      "response_last_modified": null,
+      "official_rookie_year": 2023,
+      "source_headline_seasons_competed": 5,
+      "all_listed_seasons": [
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 4,
+      "first_recorded_season": 2023,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 9431,
+      "source_url": "https://frc-events.firstinspires.org/team/9431",
+      "resolved_url": "https://frc-events.firstinspires.org/team/9431",
+      "retrieved_at_utc": "2026-10-22T04:30:15.829770+00:00",
+      "response_sha256": "4270d0e8a4da0d483d13316dd01a28a59b0237fd2ddadc30f56f1a6f02ab8e4d",
+      "response_bytes": 27778,
+      "response_last_modified": null,
+      "official_rookie_year": 2024,
+      "source_headline_seasons_competed": 4,
+      "all_listed_seasons": [
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 3,
+      "first_recorded_season": 2024,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 4982,
+      "source_url": "https://frc-events.firstinspires.org/team/4982",
+      "resolved_url": "https://frc-events.firstinspires.org/team/4982",
+      "retrieved_at_utc": "2026-10-22T04:30:18.513440+00:00",
+      "response_sha256": "663ca26681facdb2ec2f47fd88a0735a7255d478e3c04a63c800d94af729f550",
+      "response_bytes": 49364,
+      "response_last_modified": null,
+      "official_rookie_year": 2014,
+      "source_headline_seasons_competed": 14,
+      "all_listed_seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 13,
+      "first_recorded_season": 2014,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [
+        2020,
+        2021
+      ],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 10434,
+      "source_url": "https://frc-events.firstinspires.org/team/10434",
+      "resolved_url": "https://frc-events.firstinspires.org/team/10434",
+      "retrieved_at_utc": "2026-10-22T04:30:18.473330+00:00",
+      "response_sha256": "7f59157b4cc4738e97f558067cb47ff5348725506cedc098382dcedfb143903c",
+      "response_bytes": 24380,
+      "response_last_modified": null,
+      "official_rookie_year": 2025,
+      "source_headline_seasons_competed": 3,
+      "all_listed_seasons": [
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2025,
+        2026
+      ],
+      "recorded_season_count": 2,
+      "first_recorded_season": 2025,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 8103,
+      "source_url": "https://frc-events.firstinspires.org/team/8103",
+      "resolved_url": "https://frc-events.firstinspires.org/team/8103",
+      "retrieved_at_utc": "2026-10-22T04:30:15.971664+00:00",
+      "response_sha256": "29f6287e2a355dff52a9e26c60d95e2367b6b98eab0517f37a839155dc7f264f",
+      "response_bytes": 32500,
+      "response_last_modified": null,
+      "official_rookie_year": 2020,
+      "source_headline_seasons_competed": 8,
+      "all_listed_seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 7,
+      "first_recorded_season": 2020,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 10332,
+      "source_url": "https://frc-events.firstinspires.org/team/10332",
+      "resolved_url": "https://frc-events.firstinspires.org/team/10332",
+      "retrieved_at_utc": "2026-10-22T04:30:15.905497+00:00",
+      "response_sha256": "9aa5ab23eaf0e7079033624cba858b662474e39c97acbd732f9c37b47c91c76e",
+      "response_bytes": 25088,
+      "response_last_modified": null,
+      "official_rookie_year": 2025,
+      "source_headline_seasons_competed": 3,
+      "all_listed_seasons": [
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2025,
+        2026
+      ],
+      "recorded_season_count": 2,
+      "first_recorded_season": 2025,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 8742,
+      "source_url": "https://frc-events.firstinspires.org/team/8742",
+      "resolved_url": "https://frc-events.firstinspires.org/team/8742",
+      "retrieved_at_utc": "2026-10-22T04:30:18.478236+00:00",
+      "response_sha256": "e513ab64e2ab66002aeac058626901a1889b73ce36b9afe103191e8fda2beaf1",
+      "response_bytes": 32305,
+      "response_last_modified": null,
+      "official_rookie_year": 2022,
+      "source_headline_seasons_competed": 6,
+      "all_listed_seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 5,
+      "first_recorded_season": 2022,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 10172,
+      "source_url": "https://frc-events.firstinspires.org/team/10172",
+      "resolved_url": "https://frc-events.firstinspires.org/team/10172",
+      "retrieved_at_utc": "2026-10-22T04:30:18.482867+00:00",
+      "response_sha256": "4e7543decc33acfab0f571e25efdc201b791ec3ca913d83e6e142dc0ad1d0eff",
+      "response_bytes": 23750,
+      "response_last_modified": null,
+      "official_rookie_year": 2025,
+      "source_headline_seasons_competed": 3,
+      "all_listed_seasons": [
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2025,
+        2026
+      ],
+      "recorded_season_count": 2,
+      "first_recorded_season": 2025,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 8431,
+      "source_url": "https://frc-events.firstinspires.org/team/8431",
+      "resolved_url": "https://frc-events.firstinspires.org/team/8431",
+      "retrieved_at_utc": "2026-10-22T04:30:18.548503+00:00",
+      "response_sha256": "22e4824a24980aeae38d994e1687486b35fcce21392c75aeb05d5d02eb6907c5",
+      "response_bytes": 23106,
+      "response_last_modified": null,
+      "official_rookie_year": 2020,
+      "source_headline_seasons_competed": 3,
+      "all_listed_seasons": [
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2025,
+        2026
+      ],
+      "recorded_season_count": 2,
+      "first_recorded_season": 2025,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 10411,
+      "source_url": "https://frc-events.firstinspires.org/team/10411",
+      "resolved_url": "https://frc-events.firstinspires.org/team/10411",
+      "retrieved_at_utc": "2026-10-22T04:30:18.551634+00:00",
+      "response_sha256": "fb79a17b9975faa32c06cd29eb7b35d7fb6ac0097ba5c6c72aee07ca9912ed36",
+      "response_bytes": 23072,
+      "response_last_modified": null,
+      "official_rookie_year": 2025,
+      "source_headline_seasons_competed": 3,
+      "all_listed_seasons": [
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2025,
+        2026
+      ],
+      "recorded_season_count": 2,
+      "first_recorded_season": 2025,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 8432,
+      "source_url": "https://frc-events.firstinspires.org/team/8432",
+      "resolved_url": "https://frc-events.firstinspires.org/team/8432",
+      "retrieved_at_utc": "2026-10-22T04:30:21.196758+00:00",
+      "response_sha256": "2502310fed7e31ac284f84bbcc77a83004d3b0756bed730ef8e3da55a6dbada7",
+      "response_bytes": 20745,
+      "response_last_modified": null,
+      "official_rookie_year": 2020,
+      "source_headline_seasons_competed": 2,
+      "all_listed_seasons": [
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2026
+      ],
+      "recorded_season_count": 1,
+      "first_recorded_season": 2026,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 5559,
+      "source_url": "https://frc-events.firstinspires.org/team/5559",
+      "resolved_url": "https://frc-events.firstinspires.org/team/5559",
+      "retrieved_at_utc": "2026-10-22T04:30:18.633036+00:00",
+      "response_sha256": "4fe8a9e3c496a85c49890c21ab2625718c184226f8301b35e40c7dbffba7e278",
+      "response_bytes": 39397,
+      "response_last_modified": null,
+      "official_rookie_year": 2015,
+      "source_headline_seasons_competed": 12,
+      "all_listed_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_seasons_through_cutoff": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 12,
+      "first_recorded_season": 2015,
+      "excluded_future_seasons": [],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 3777,
+      "source_url": "https://frc-events.firstinspires.org/team/3777",
+      "resolved_url": "https://frc-events.firstinspires.org/team/3777",
+      "retrieved_at_utc": "2026-10-22T04:30:18.627962+00:00",
+      "response_sha256": "f28ce42e548ecbdd2bce3e29d26011d4b765d5bf8812077eb082a97bb4809e60",
+      "response_bytes": 35613,
+      "response_last_modified": null,
+      "official_rookie_year": 2011,
+      "source_headline_seasons_competed": 17,
+      "all_listed_seasons": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 16,
+      "first_recorded_season": 2011,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 6556,
+      "source_url": "https://frc-events.firstinspires.org/team/6556",
+      "resolved_url": "https://frc-events.firstinspires.org/team/6556",
+      "retrieved_at_utc": "2026-10-22T04:30:18.629880+00:00",
+      "response_sha256": "7158c59895411eb4740080c5707c2a196fc864efd141c9c1480016ee99ff4048",
+      "response_bytes": 34519,
+      "response_last_modified": null,
+      "official_rookie_year": 2017,
+      "source_headline_seasons_competed": 11,
+      "all_listed_seasons": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "recorded_season_count": 10,
+      "first_recorded_season": 2017,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [
+        2021
+      ],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    },
+    {
+      "team_number": 11407,
+      "source_url": "https://frc-events.firstinspires.org/team/11407",
+      "resolved_url": "https://frc-events.firstinspires.org/team/11407",
+      "retrieved_at_utc": "2026-10-22T04:30:21.197313+00:00",
+      "response_sha256": "042316eb7ae0b765111d432a004d033b1dce98751cb26523e877006d94f35329",
+      "response_bytes": 21643,
+      "response_last_modified": null,
+      "official_rookie_year": 2026,
+      "source_headline_seasons_competed": 2,
+      "all_listed_seasons": [
+        2026,
+        2027
+      ],
+      "recorded_seasons_through_cutoff": [
+        2026
+      ],
+      "recorded_season_count": 1,
+      "first_recorded_season": 2026,
+      "excluded_future_seasons": [
+        2027
+      ],
+      "seasons_explicitly_registered_without_competition": [],
+      "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+    }
+  ]
+}

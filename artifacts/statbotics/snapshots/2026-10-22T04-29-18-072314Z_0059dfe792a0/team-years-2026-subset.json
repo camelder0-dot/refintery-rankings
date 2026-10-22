@@ -1,0 +1,1682 @@
+{
+  "team_years": [
+    {
+      "competing": {
+        "next_event_key": "2026arc",
+        "next_event_name": "Archimedes Division",
+        "next_event_week": 8,
+        "this_week": true
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 250,
+      "district_rank": 6,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 32.65,
+          "auto_points": 41.46,
+          "auto_tower": 8.81,
+          "endgame_fuel": 9.24,
+          "endgame_points": 13.29,
+          "endgame_tower": 4.06,
+          "energized_rp": 0.2244,
+          "first_shift_fuel": 36.9,
+          "rp_1": 0.2244,
+          "rp_2": -0.0196,
+          "rp_3": -0.34206,
+          "second_shift_fuel": 18.84,
+          "supercharged_rp": -0.0196,
+          "teleop_fuel": 63.95,
+          "teleop_points": 63.95,
+          "tiebreaker_points": 118.71,
+          "total_fuel": 105.84,
+          "total_points": 118.71,
+          "total_tower": 12.87,
+          "transition_fuel": 8.22,
+          "traversal_rp": -0.34206
+        },
+        "conf": [
+          -1.02,
+          0.72
+        ],
+        "norm": 1630.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.8774,
+            "rank": 361,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.8235,
+            "rank": 12,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.8235,
+            "rank": 12,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.8824,
+            "rank": 438,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 160.27,
+          "pre_champs": 135.04,
+          "start": 87.15
+        },
+        "total_points": {
+          "mean": 118.71,
+          "sd": 30.61
+        },
+        "unitless": 1699.0
+      },
+      "name": "Team THRUST",
+      "record": {
+        "count": 60,
+        "losses": 15,
+        "ties": 0,
+        "winrate": 0.75,
+        "wins": 45
+      },
+      "rookie_year": 2005,
+      "state": "IN",
+      "team": 1501,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": "2026dal",
+        "next_event_name": "Daly Division",
+        "next_event_week": 8,
+        "this_week": true
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 189,
+      "district_rank": 11,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 26.87,
+          "auto_points": 26.87,
+          "auto_tower": -0.0,
+          "endgame_fuel": 25.9,
+          "endgame_points": 26.39,
+          "endgame_tower": 0.5,
+          "energized_rp": 0.1145,
+          "first_shift_fuel": 28.49,
+          "rp_1": 0.1145,
+          "rp_2": 0.0237,
+          "rp_3": -0.34169,
+          "second_shift_fuel": 25.62,
+          "supercharged_rp": 0.0237,
+          "teleop_fuel": 65.26,
+          "teleop_points": 65.26,
+          "tiebreaker_points": 118.52,
+          "total_fuel": 118.03,
+          "total_points": 118.52,
+          "total_tower": 0.49,
+          "transition_fuel": 11.14,
+          "traversal_rp": -0.34169
+        },
+        "conf": [
+          -1.05,
+          0.63
+        ],
+        "norm": 1630.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.8767,
+            "rank": 363,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.8088,
+            "rank": 13,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.8088,
+            "rank": 13,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.8818,
+            "rank": 440,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 131.6,
+          "pre_champs": 126.86,
+          "start": 41.34
+        },
+        "total_points": {
+          "mean": 118.52,
+          "sd": 22.26
+        },
+        "unitless": 1699.0
+      },
+      "name": "PhyXTGears",
+      "record": {
+        "count": 55,
+        "losses": 24,
+        "ties": 0,
+        "winrate": 0.5636,
+        "wins": 31
+      },
+      "rookie_year": 2006,
+      "state": "IN",
+      "team": 1720,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": true
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 89,
+      "district_rank": 32,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 9.48,
+          "auto_points": 10.39,
+          "auto_tower": 0.91,
+          "endgame_fuel": 21.78,
+          "endgame_points": 21.4,
+          "endgame_tower": -0.38,
+          "energized_rp": 0.0956,
+          "first_shift_fuel": 19.62,
+          "rp_1": 0.0956,
+          "rp_2": -0.124,
+          "rp_3": -0.34025,
+          "second_shift_fuel": 21.21,
+          "supercharged_rp": -0.124,
+          "teleop_fuel": 43.31,
+          "teleop_points": 43.31,
+          "tiebreaker_points": 75.1,
+          "total_fuel": 74.56,
+          "total_points": 75.1,
+          "total_tower": 0.54,
+          "transition_fuel": 2.49,
+          "traversal_rp": -0.34025
+        },
+        "conf": [
+          -0.81,
+          0.95
+        ],
+        "norm": 1554.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.7602,
+            "rank": 706,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.6765,
+            "rank": 22,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.6765,
+            "rank": 22,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.7669,
+            "rank": 868,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 79.7,
+          "pre_champs": 75.1,
+          "start": 26.67
+        },
+        "total_points": {
+          "mean": 75.1,
+          "sd": 24.38
+        },
+        "unitless": 1583.0
+      },
+      "name": "Iron Legends",
+      "record": {
+        "count": 42,
+        "losses": 21,
+        "ties": 0,
+        "winrate": 0.5,
+        "wins": 21
+      },
+      "rookie_year": 2023,
+      "state": "IN",
+      "team": 9119,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": true
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 84,
+      "district_rank": 33,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 11.47,
+          "auto_points": 11.75,
+          "auto_tower": 0.28,
+          "endgame_fuel": 12.57,
+          "endgame_points": 15.85,
+          "endgame_tower": 3.28,
+          "energized_rp": 0.2102,
+          "first_shift_fuel": 22.76,
+          "rp_1": 0.2102,
+          "rp_2": -0.1923,
+          "rp_3": -0.3401,
+          "second_shift_fuel": 17.57,
+          "supercharged_rp": -0.1923,
+          "teleop_fuel": 40.91,
+          "teleop_points": 40.91,
+          "tiebreaker_points": 68.51,
+          "total_fuel": 64.94,
+          "total_points": 68.51,
+          "total_tower": 3.56,
+          "transition_fuel": 0.58,
+          "traversal_rp": -0.3401
+        },
+        "conf": [
+          -0.75,
+          1.0
+        ],
+        "norm": 1542.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.7266,
+            "rank": 805,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.6471,
+            "rank": 24,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.6471,
+            "rank": 24,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.7358,
+            "rank": 984,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 72.54,
+          "pre_champs": 68.51,
+          "start": 31.96
+        },
+        "total_points": {
+          "mean": 68.51,
+          "sd": 13.69
+        },
+        "unitless": 1565.0
+      },
+      "name": "Snider Panthers- \"The Gold Standard\"",
+      "record": {
+        "count": 41,
+        "losses": 20,
+        "ties": 0,
+        "winrate": 0.5122,
+        "wins": 21
+      },
+      "rookie_year": 2024,
+      "state": "IN",
+      "team": 9431,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": true
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 136,
+      "district_rank": 21,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 15.69,
+          "auto_points": 15.59,
+          "auto_tower": -0.09,
+          "endgame_fuel": 18.44,
+          "endgame_points": 18.62,
+          "endgame_tower": 0.18,
+          "energized_rp": 0.1108,
+          "first_shift_fuel": 8.67,
+          "rp_1": 0.1108,
+          "rp_2": -0.0729,
+          "rp_3": -0.27449,
+          "second_shift_fuel": 11.31,
+          "supercharged_rp": -0.0729,
+          "teleop_fuel": 24.58,
+          "teleop_points": 24.58,
+          "tiebreaker_points": 58.8,
+          "total_fuel": 58.71,
+          "total_points": 58.8,
+          "total_tower": 0.09,
+          "transition_fuel": 4.6,
+          "traversal_rp": -0.27449
+        },
+        "conf": [
+          -0.81,
+          0.95
+        ],
+        "norm": 1524.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.6807,
+            "rank": 940,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.6029,
+            "rank": 27,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.6029,
+            "rank": 27,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.692,
+            "rank": 1147,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 58.8,
+          "pre_champs": 58.8,
+          "start": 32.3
+        },
+        "total_points": {
+          "mean": 58.8,
+          "sd": 16.78
+        },
+        "unitless": 1539.0
+      },
+      "name": "Olympus Robotics",
+      "record": {
+        "count": 49,
+        "losses": 25,
+        "ties": 0,
+        "winrate": 0.4898,
+        "wins": 24
+      },
+      "rookie_year": 2014,
+      "state": "IN",
+      "team": 4982,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": true
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 97,
+      "district_rank": 28,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 8.64,
+          "auto_points": 9.92,
+          "auto_tower": 1.28,
+          "endgame_fuel": 14.08,
+          "endgame_points": 13.84,
+          "endgame_tower": -0.24,
+          "energized_rp": -0.1187,
+          "first_shift_fuel": 0.75,
+          "rp_1": -0.1187,
+          "rp_2": -0.2474,
+          "rp_3": -0.34017,
+          "second_shift_fuel": 10.66,
+          "supercharged_rp": -0.2474,
+          "teleop_fuel": 12.08,
+          "teleop_points": 12.08,
+          "tiebreaker_points": 35.84,
+          "total_fuel": 34.8,
+          "total_points": 35.84,
+          "total_tower": 1.04,
+          "transition_fuel": 0.67,
+          "traversal_rp": -0.34017
+        },
+        "conf": [
+          -0.82,
+          0.94
+        ],
+        "norm": 1477.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.4637,
+            "rank": 1579,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.3676,
+            "rank": 43,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.3676,
+            "rank": 43,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.4815,
+            "rank": 1931,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 35.84,
+          "pre_champs": 35.84,
+          "start": 26.9
+        },
+        "total_points": {
+          "mean": 35.84,
+          "sd": 14.49
+        },
+        "unitless": 1478.0
+      },
+      "name": "CYBEARS",
+      "record": {
+        "count": 48,
+        "losses": 27,
+        "ties": 0,
+        "winrate": 0.4375,
+        "wins": 21
+      },
+      "rookie_year": 2025,
+      "state": "IN",
+      "team": 10434,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 23,
+      "district_rank": 57,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 5.3,
+          "auto_points": 5.86,
+          "auto_tower": 0.56,
+          "endgame_fuel": 11.62,
+          "endgame_points": 11.18,
+          "endgame_tower": -0.44,
+          "energized_rp": 0.1488,
+          "first_shift_fuel": 7.84,
+          "rp_1": 0.1488,
+          "rp_2": -0.2352,
+          "rp_3": -0.33822,
+          "second_shift_fuel": 8.33,
+          "supercharged_rp": -0.2352,
+          "teleop_fuel": 18.06,
+          "teleop_points": 18.06,
+          "tiebreaker_points": 35.1,
+          "total_fuel": 34.98,
+          "total_points": 35.1,
+          "total_tower": 0.12,
+          "transition_fuel": 1.89,
+          "traversal_rp": -0.33822
+        },
+        "conf": [
+          -0.69,
+          1.04
+        ],
+        "norm": 1475.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.4518,
+            "rank": 1614,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.3382,
+            "rank": 45,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.3382,
+            "rank": 45,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.4697,
+            "rank": 1975,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 35.1,
+          "pre_champs": 35.1,
+          "start": 44.23
+        },
+        "total_points": {
+          "mean": 35.1,
+          "sd": 11.66
+        },
+        "unitless": 1476.0
+      },
+      "name": "Knight Robotics",
+      "record": {
+        "count": 27,
+        "losses": 17,
+        "ties": 0,
+        "winrate": 0.3704,
+        "wins": 10
+      },
+      "rookie_year": 2020,
+      "state": "IN",
+      "team": 8103,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 35,
+      "district_rank": 49,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 10.99,
+          "auto_points": 12.41,
+          "auto_tower": 1.42,
+          "endgame_fuel": 6.38,
+          "endgame_points": 6.46,
+          "endgame_tower": 0.08,
+          "energized_rp": 0.0993,
+          "first_shift_fuel": 8.71,
+          "rp_1": 0.0993,
+          "rp_2": -0.2372,
+          "rp_3": -0.33834,
+          "second_shift_fuel": 6.1,
+          "supercharged_rp": -0.2372,
+          "teleop_fuel": 15.89,
+          "teleop_points": 15.89,
+          "tiebreaker_points": 34.76,
+          "total_fuel": 33.26,
+          "total_points": 34.76,
+          "total_tower": 1.49,
+          "transition_fuel": 1.08,
+          "traversal_rp": -0.33834
+        },
+        "conf": [
+          -0.83,
+          0.94
+        ],
+        "norm": 1474.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.4477,
+            "rank": 1626,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.3235,
+            "rank": 46,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.3235,
+            "rank": 46,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.4656,
+            "rank": 1990,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 46.68,
+          "pre_champs": 34.76,
+          "start": 22.17
+        },
+        "total_points": {
+          "mean": 34.76,
+          "sd": 21.52
+        },
+        "unitless": 1475.0
+      },
+      "name": "Carroll Charger Robotics",
+      "record": {
+        "count": 26,
+        "losses": 17,
+        "ties": 0,
+        "winrate": 0.3462,
+        "wins": 9
+      },
+      "rookie_year": 2025,
+      "state": "IN",
+      "team": 10332,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 19,
+      "district_rank": 61,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 4.97,
+          "auto_points": 5.04,
+          "auto_tower": 0.08,
+          "endgame_fuel": 6.64,
+          "endgame_points": 6.57,
+          "endgame_tower": -0.06,
+          "energized_rp": 0.2003,
+          "first_shift_fuel": 6.59,
+          "rp_1": 0.2003,
+          "rp_2": -0.237,
+          "rp_3": -0.33821,
+          "second_shift_fuel": 10.15,
+          "supercharged_rp": -0.237,
+          "teleop_fuel": 17.85,
+          "teleop_points": 17.85,
+          "tiebreaker_points": 29.46,
+          "total_fuel": 29.45,
+          "total_points": 29.46,
+          "total_tower": 0.01,
+          "transition_fuel": 1.1,
+          "traversal_rp": -0.33821
+        },
+        "conf": [
+          -0.96,
+          0.81
+        ],
+        "norm": 1461.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.3699,
+            "rank": 1855,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.2941,
+            "rank": 48,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.2941,
+            "rank": 48,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.388,
+            "rank": 2279,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 40.15,
+          "pre_champs": 29.46,
+          "start": 34.28
+        },
+        "total_points": {
+          "mean": 29.46,
+          "sd": 9.37
+        },
+        "unitless": 1461.0
+      },
+      "name": "Argyll Attack",
+      "record": {
+        "count": 25,
+        "losses": 16,
+        "ties": 0,
+        "winrate": 0.36,
+        "wins": 9
+      },
+      "rookie_year": 2022,
+      "state": "IN",
+      "team": 8742,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 28,
+      "district_rank": 55,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 3.21,
+          "auto_points": 3.41,
+          "auto_tower": 0.21,
+          "endgame_fuel": 7.63,
+          "endgame_points": 6.81,
+          "endgame_tower": -0.82,
+          "energized_rp": 0.1105,
+          "first_shift_fuel": 4.44,
+          "rp_1": 0.1105,
+          "rp_2": -0.2375,
+          "rp_3": -0.33843,
+          "second_shift_fuel": 6.14,
+          "supercharged_rp": -0.2375,
+          "teleop_fuel": 10.93,
+          "teleop_points": 10.93,
+          "tiebreaker_points": 21.15,
+          "total_fuel": 21.77,
+          "total_points": 21.15,
+          "total_tower": -0.61,
+          "transition_fuel": 0.35,
+          "traversal_rp": -0.33843
+        },
+        "conf": [
+          -0.85,
+          0.92
+        ],
+        "norm": 1435.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.2123,
+            "rank": 2319,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.1912,
+            "rank": 55,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.1912,
+            "rank": 55,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.2242,
+            "rank": 2889,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 23.76,
+          "pre_champs": 21.15,
+          "start": 22.96
+        },
+        "total_points": {
+          "mean": 21.15,
+          "sd": 8.59
+        },
+        "unitless": 1439.0
+      },
+      "name": "Apex Archers",
+      "record": {
+        "count": 24,
+        "losses": 17,
+        "ties": 0,
+        "winrate": 0.2917,
+        "wins": 7
+      },
+      "rookie_year": 2025,
+      "state": "IN",
+      "team": 10172,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 20,
+      "district_rank": 60,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 6.17,
+          "auto_points": 6.05,
+          "auto_tower": -0.12,
+          "endgame_fuel": 4.91,
+          "endgame_points": 4.35,
+          "endgame_tower": -0.56,
+          "energized_rp": 0.1224,
+          "first_shift_fuel": 2.16,
+          "rp_1": 0.1224,
+          "rp_2": -0.2369,
+          "rp_3": -0.33822,
+          "second_shift_fuel": 4.4,
+          "supercharged_rp": -0.2369,
+          "teleop_fuel": 6.79,
+          "teleop_points": 6.79,
+          "tiebreaker_points": 17.19,
+          "total_fuel": 17.87,
+          "total_points": 17.19,
+          "total_tower": -0.69,
+          "transition_fuel": 0.23,
+          "traversal_rp": -0.33822
+        },
+        "conf": [
+          -0.93,
+          0.85
+        ],
+        "norm": 1420.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.1471,
+            "rank": 2511,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.1471,
+            "rank": 58,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.1471,
+            "rank": 58,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.1571,
+            "rank": 3139,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 22.78,
+          "pre_champs": 17.19,
+          "start": 20.75
+        },
+        "total_points": {
+          "mean": 17.19,
+          "sd": 7.05
+        },
+        "unitless": 1429.0
+      },
+      "name": "Robo-Knights",
+      "record": {
+        "count": 24,
+        "losses": 15,
+        "ties": 0,
+        "winrate": 0.375,
+        "wins": 9
+      },
+      "rookie_year": 2020,
+      "state": "IN",
+      "team": 8431,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 19,
+      "district_rank": 62,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 3.81,
+          "auto_points": 4.22,
+          "auto_tower": 0.41,
+          "endgame_fuel": 8.02,
+          "endgame_points": 7.83,
+          "endgame_tower": -0.2,
+          "energized_rp": 0.054,
+          "first_shift_fuel": -1.74,
+          "rp_1": 0.054,
+          "rp_2": -0.2363,
+          "rp_3": -0.33822,
+          "second_shift_fuel": 2.87,
+          "supercharged_rp": -0.2363,
+          "teleop_fuel": 2.55,
+          "teleop_points": 2.55,
+          "tiebreaker_points": 14.6,
+          "total_fuel": 14.39,
+          "total_points": 14.6,
+          "total_tower": 0.21,
+          "transition_fuel": 1.43,
+          "traversal_rp": -0.33822
+        },
+        "conf": [
+          -0.92,
+          0.85
+        ],
+        "norm": 1409.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.1039,
+            "rank": 2638,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.0735,
+            "rank": 63,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.0735,
+            "rank": 63,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.1136,
+            "rank": 3301,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 28.0,
+          "pre_champs": 14.6,
+          "start": 27.68
+        },
+        "total_points": {
+          "mean": 14.6,
+          "sd": 10.01
+        },
+        "unitless": 1422.0
+      },
+      "name": "G-Code Generals",
+      "record": {
+        "count": 24,
+        "losses": 17,
+        "ties": 0,
+        "winrate": 0.2917,
+        "wins": 7
+      },
+      "rookie_year": 2025,
+      "state": "IN",
+      "team": 10411,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fin",
+      "district_points": 17,
+      "district_rank": 63,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 3.27,
+          "auto_points": 3.28,
+          "auto_tower": 0.01,
+          "endgame_fuel": 2.45,
+          "endgame_points": 2.05,
+          "endgame_tower": -0.4,
+          "energized_rp": -0.0325,
+          "first_shift_fuel": 0.15,
+          "rp_1": -0.0325,
+          "rp_2": -0.2364,
+          "rp_3": -0.33822,
+          "second_shift_fuel": 2.58,
+          "supercharged_rp": -0.2364,
+          "teleop_fuel": 3.5,
+          "teleop_points": 3.5,
+          "tiebreaker_points": 8.84,
+          "total_fuel": 9.22,
+          "total_points": 8.84,
+          "total_tower": -0.38,
+          "transition_fuel": 0.78,
+          "traversal_rp": -0.33822
+        },
+        "conf": [
+          -0.93,
+          0.84
+        ],
+        "norm": 1382.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.0418,
+            "rank": 2821,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.0294,
+            "rank": 66,
+            "team_count": 68
+          },
+          "state": {
+            "percentile": 0.0294,
+            "rank": 66,
+            "team_count": 68
+          },
+          "total": {
+            "percentile": 0.047,
+            "rank": 3549,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 17.49,
+          "pre_champs": 8.84,
+          "start": 23.74
+        },
+        "total_points": {
+          "mean": 8.84,
+          "sd": 10.37
+        },
+        "unitless": 1406.0
+      },
+      "name": "Cyber Knights",
+      "record": {
+        "count": 24,
+        "losses": 16,
+        "ties": 0,
+        "winrate": 0.3333,
+        "wins": 8
+      },
+      "rookie_year": 2020,
+      "state": "IN",
+      "team": 8432,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fim",
+      "district_points": 56,
+      "district_rank": 208,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 9.84,
+          "auto_points": 9.73,
+          "auto_tower": -0.11,
+          "endgame_fuel": 16.27,
+          "endgame_points": 16.04,
+          "endgame_tower": -0.23,
+          "energized_rp": 0.2224,
+          "first_shift_fuel": 17.97,
+          "rp_1": 0.2224,
+          "rp_2": -0.1806,
+          "rp_3": -0.33819,
+          "second_shift_fuel": 14.38,
+          "supercharged_rp": -0.1806,
+          "teleop_fuel": 32.27,
+          "teleop_points": 32.27,
+          "tiebreaker_points": 58.04,
+          "total_fuel": 58.39,
+          "total_points": 58.04,
+          "total_tower": -0.34,
+          "transition_fuel": -0.08,
+          "traversal_rp": -0.33819
+        },
+        "conf": [
+          -0.87,
+          0.89
+        ],
+        "norm": 1523.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.6736,
+            "rank": 961,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.6585,
+            "rank": 181,
+            "team_count": 530
+          },
+          "state": {
+            "percentile": 0.6585,
+            "rank": 181,
+            "team_count": 530
+          },
+          "total": {
+            "percentile": 0.6847,
+            "rank": 1174,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 63.28,
+          "pre_champs": 58.04,
+          "start": 25.63
+        },
+        "total_points": {
+          "mean": 58.04,
+          "sd": 20.85
+        },
+        "unitless": 1537.0
+      },
+      "name": "Gear Grinders",
+      "record": {
+        "count": 29,
+        "losses": 12,
+        "ties": 0,
+        "winrate": 0.5862,
+        "wins": 17
+      },
+      "rookie_year": 2015,
+      "state": "MI",
+      "team": 5559,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": null,
+      "district_points": null,
+      "district_rank": null,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 5.92,
+          "auto_points": 6.25,
+          "auto_tower": 0.33,
+          "endgame_fuel": 13.01,
+          "endgame_points": 13.85,
+          "endgame_tower": 0.85,
+          "energized_rp": 0.0561,
+          "first_shift_fuel": 2.87,
+          "rp_1": 0.0561,
+          "rp_2": -0.1526,
+          "rp_3": -0.33612,
+          "second_shift_fuel": 11.56,
+          "supercharged_rp": -0.1526,
+          "teleop_fuel": 16.28,
+          "teleop_points": 16.28,
+          "tiebreaker_points": 36.38,
+          "total_fuel": 35.21,
+          "total_points": 36.38,
+          "total_tower": 1.17,
+          "transition_fuel": 1.85,
+          "traversal_rp": -0.33612
+        },
+        "conf": [
+          -0.72,
+          1.27
+        ],
+        "norm": 1478.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.4738,
+            "rank": 1549,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.5642,
+            "rank": 702,
+            "team_count": 1611
+          },
+          "state": {
+            "percentile": 0.4,
+            "rank": 36,
+            "team_count": 60
+          },
+          "total": {
+            "percentile": 0.4906,
+            "rank": 1897,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 36.38,
+          "pre_champs": 36.38,
+          "start": 8.62
+        },
+        "total_points": {
+          "mean": 36.38,
+          "sd": 23.14
+        },
+        "unitless": 1480.0
+      },
+      "name": "Bean City Bots",
+      "record": {
+        "count": 11,
+        "losses": 6,
+        "ties": 0,
+        "winrate": 0.4545,
+        "wins": 5
+      },
+      "rookie_year": 2011,
+      "state": "OH",
+      "team": 3777,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fim",
+      "district_points": 15,
+      "district_rank": 507,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 6.63,
+          "auto_points": 6.87,
+          "auto_tower": 0.24,
+          "endgame_fuel": 7.16,
+          "endgame_points": 7.42,
+          "endgame_tower": 0.26,
+          "energized_rp": 0.0914,
+          "first_shift_fuel": 5.55,
+          "rp_1": 0.0914,
+          "rp_2": -0.2388,
+          "rp_3": -0.33817,
+          "second_shift_fuel": 5.47,
+          "supercharged_rp": -0.2388,
+          "teleop_fuel": 12.9,
+          "teleop_points": 12.9,
+          "tiebreaker_points": 27.19,
+          "total_fuel": 26.69,
+          "total_points": 27.19,
+          "total_tower": 0.5,
+          "transition_fuel": 1.89,
+          "traversal_rp": -0.33817
+        },
+        "conf": [
+          -0.91,
+          0.86
+        ],
+        "norm": 1454.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.3295,
+            "rank": 1974,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.3472,
+            "rank": 346,
+            "team_count": 530
+          },
+          "state": {
+            "percentile": 0.3472,
+            "rank": 346,
+            "team_count": 530
+          },
+          "total": {
+            "percentile": 0.3469,
+            "rank": 2432,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 34.83,
+          "pre_champs": 27.19,
+          "start": 7.67
+        },
+        "total_points": {
+          "mean": 27.19,
+          "sd": 13.91
+        },
+        "unitless": 1455.0
+      },
+      "name": "Spartan Robotics 6556",
+      "record": {
+        "count": 24,
+        "losses": 16,
+        "ties": 0,
+        "winrate": 0.3333,
+        "wins": 8
+      },
+      "rookie_year": 2017,
+      "state": "MI",
+      "team": 6556,
+      "year": 2026
+    },
+    {
+      "competing": {
+        "next_event_key": null,
+        "next_event_name": null,
+        "next_event_week": null,
+        "this_week": false
+      },
+      "country": "USA",
+      "district": "fim",
+      "district_points": 31,
+      "district_rank": 370,
+      "epa": {
+        "breakdown": {
+          "auto_fuel": 12.91,
+          "auto_points": 13.56,
+          "auto_tower": 0.66,
+          "endgame_fuel": 3.29,
+          "endgame_points": 3.98,
+          "endgame_tower": 0.69,
+          "energized_rp": 0.0589,
+          "first_shift_fuel": 2.29,
+          "rp_1": 0.0589,
+          "rp_2": -0.24,
+          "rp_3": -0.3382,
+          "second_shift_fuel": 2.38,
+          "supercharged_rp": -0.24,
+          "teleop_fuel": 4.39,
+          "teleop_points": 4.39,
+          "tiebreaker_points": 21.93,
+          "total_fuel": 20.59,
+          "total_points": 21.93,
+          "total_tower": 1.35,
+          "transition_fuel": -0.28,
+          "traversal_rp": -0.3382
+        },
+        "conf": [
+          -0.61,
+          1.07
+        ],
+        "norm": 1438.0,
+        "ranks": {
+          "country": {
+            "percentile": 0.2235,
+            "rank": 2286,
+            "team_count": 2944
+          },
+          "district": {
+            "percentile": 0.2264,
+            "rank": 410,
+            "team_count": 530
+          },
+          "state": {
+            "percentile": 0.2264,
+            "rank": 410,
+            "team_count": 530
+          },
+          "total": {
+            "percentile": 0.2368,
+            "rank": 2842,
+            "team_count": 3724
+          }
+        },
+        "stats": {
+          "max": 21.93,
+          "pre_champs": 21.93,
+          "start": 23.74
+        },
+        "total_points": {
+          "mean": 21.93,
+          "sd": 16.46
+        },
+        "unitless": 1441.0
+      },
+      "name": "Sturgis Trojans",
+      "record": {
+        "count": 24,
+        "losses": 16,
+        "ties": 0,
+        "winrate": 0.3333,
+        "wins": 8
+      },
+      "rookie_year": 2026,
+      "state": "MI",
+      "team": 11407,
+      "year": 2026
+    }
+  ],
+  "year": {
+    "breakdown": {
+      "auto_fuel_mean": 26.83,
+      "auto_points_mean": 27.8,
+      "auto_tower_mean": 0.98,
+      "endgame_fuel_mean": 29.84,
+      "endgame_points_mean": 31.6,
+      "endgame_tower_mean": 1.76,
+      "energized_rp_mean": 0.37,
+      "first_shift_fuel_mean": 32.42,
+      "foul_mean": 4.75,
+      "no_foul_mean": 127.5,
+      "rp_1_mean": 0.37,
+      "rp_2_mean": 0.01,
+      "rp_3_mean": 0.0,
+      "second_shift_fuel_mean": 31.09,
+      "supercharged_rp_mean": 0.01,
+      "teleop_fuel_mean": 68.09,
+      "teleop_points_mean": 68.09,
+      "tiebreaker_points_mean": 127.5,
+      "total_fuel_mean": 124.76,
+      "total_points_mean": 132.03,
+      "total_tower_mean": 2.74,
+      "transition_fuel_mean": 4.58,
+      "traversal_rp_mean": 0.0
+    },
+    "metrics": {
+      "rp_pred": {
+        "champs": {
+          "count": 1994,
+          "energized_rp": {
+            "acc": 0.6841,
+            "error": 0.2338
+          },
+          "supercharged_rp": {
+            "acc": 0.8024,
+            "error": 0.0011
+          },
+          "traversal_rp": [
+            {
+              "acc": 0.9985,
+              "error": 0.0011
+            }
+          ]
+        },
+        "season": {
+          "count": 30090,
+          "energized_rp": {
+            "acc": 0.7643,
+            "error": -0.0224
+          },
+          "supercharged_rp": {
+            "acc": 0.9294,
+            "error": -0.0367
+          },
+          "traversal_rp": [
+            {
+              "acc": 0.9988,
+              "error": 0.0012
+            }
+          ]
+        }
+      },
+      "score_pred": {
+        "champs": {
+          "count": 2270,
+          "error": 1.9703,
+          "rmse": 104.0593
+        },
+        "season": {
+          "count": 36428,
+          "error": -6.8751,
+          "rmse": 67.4348
+        }
+      },
+      "win_prob": {
+        "champs": {
+          "acc": 0.7559,
+          "conf": 0.7946,
+          "count": 1135,
+          "mse": 0.1572
+        },
+        "season": {
+          "acc": 0.7978,
+          "conf": 0.7197,
+          "count": 18214,
+          "mse": 0.1485
+        }
+      }
+    },
+    "percentiles": {
+      "auto_fuel": {
+        "p25": 5.81,
+        "p75": 13.89,
+        "p90": 24.59,
+        "p99": 53.71
+      },
+      "auto_points": {
+        "p25": 5.86,
+        "p75": 14.47,
+        "p90": 25.11,
+        "p99": 54.17
+      },
+      "auto_tower": {
+        "p25": -0.17,
+        "p75": 0.31,
+        "p90": 0.78,
+        "p99": 6.9
+      },
+      "endgame_fuel": {
+        "p25": 5.53,
+        "p75": 18.42,
+        "p90": 33.23,
+        "p99": 58.99
+      },
+      "endgame_points": {
+        "p25": 5.87,
+        "p75": 19.03,
+        "p90": 33.31,
+        "p99": 58.86
+      },
+      "endgame_tower": {
+        "p25": -0.25,
+        "p75": 0.51,
+        "p90": 1.28,
+        "p99": 6.44
+      },
+      "energized_rp": {
+        "p25": 0.0275,
+        "p75": 0.2675,
+        "p90": 0.4387,
+        "p99": 0.6975
+      },
+      "first_shift_fuel": {
+        "p25": 3.89,
+        "p75": 17.98,
+        "p90": 33.28,
+        "p99": 60.79
+      },
+      "rp_1": {
+        "p25": 0.0275,
+        "p75": 0.2675,
+        "p90": 0.4387,
+        "p99": 0.6975
+      },
+      "rp_2": {
+        "p25": -0.2358,
+        "p75": -0.1331,
+        "p90": 0.0165,
+        "p99": 0.4852
+      },
+      "rp_3": {
+        "p25": -0.33992,
+        "p75": -0.33631,
+        "p90": -0.33571,
+        "p99": -0.24887
+      },
+      "second_shift_fuel": {
+        "p25": 4.87,
+        "p75": 18.13,
+        "p90": 30.95,
+        "p99": 54.67
+      },
+      "supercharged_rp": {
+        "p25": -0.2358,
+        "p75": -0.1331,
+        "p90": 0.0165,
+        "p99": 0.4852
+      },
+      "teleop_fuel": {
+        "p25": 9.77,
+        "p75": 38.65,
+        "p90": 70.0,
+        "p99": 128.93
+      },
+      "teleop_points": {
+        "p25": 9.77,
+        "p75": 38.65,
+        "p90": 70.0,
+        "p99": 128.93
+      },
+      "total_fuel": {
+        "p25": 22.05,
+        "p75": 70.34,
+        "p90": 125.6,
+        "p99": 230.87
+      },
+      "total_points": {
+        "p25": 22.43,
+        "p75": 71.23,
+        "p90": 126.22,
+        "p99": 230.67
+      },
+      "total_tower": {
+        "p25": -0.31,
+        "p75": 0.71,
+        "p90": 1.82,
+        "p99": 12.04
+      },
+      "transition_fuel": {
+        "p25": 0.31,
+        "p75": 3.17,
+        "p90": 6.66,
+        "p99": 18.44
+      },
+      "traversal_rp": {
+        "p25": -0.33992,
+        "p75": -0.33631,
+        "p90": -0.33571,
+        "p99": -0.24887
+      }
+    },
+    "score_mean": 132.03,
+    "score_sd": 93.78,
+    "year": 2026
+  }
+}

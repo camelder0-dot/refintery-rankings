@@ -1,0 +1,320 @@
+{
+  "description": "Values preserved from the completed research before publication. New downloads must reconcile to this baseline or report an explicit change.",
+  "research_date": "2026-10-22",
+  "rankings_season": 2026,
+  "rankings_last_modified_utc": "2026-06-12T02:51:19Z",
+  "teams": [
+    {
+      "team_number": 1501,
+      "official_rookie_year": 2005,
+      "recorded_seasons": [
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 118.71,
+      "state_rank": 12,
+      "world_rank": 438,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 1720,
+      "official_rookie_year": 2006,
+      "recorded_seasons": [
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 118.52,
+      "state_rank": 13,
+      "world_rank": 440,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 9119,
+      "official_rookie_year": 2023,
+      "recorded_seasons": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 75.1,
+      "state_rank": 22,
+      "world_rank": 868,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 9431,
+      "official_rookie_year": 2024,
+      "recorded_seasons": [
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 68.51,
+      "state_rank": 24,
+      "world_rank": 984,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 4982,
+      "official_rookie_year": 2014,
+      "recorded_seasons": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 58.8,
+      "state_rank": 27,
+      "world_rank": 1147,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 10434,
+      "official_rookie_year": 2025,
+      "recorded_seasons": [
+        2025,
+        2026
+      ],
+      "epa_mean": 35.84,
+      "state_rank": 43,
+      "world_rank": 1931,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 8103,
+      "official_rookie_year": 2020,
+      "recorded_seasons": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 35.1,
+      "state_rank": 45,
+      "world_rank": 1975,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 10332,
+      "official_rookie_year": 2025,
+      "recorded_seasons": [
+        2025,
+        2026
+      ],
+      "epa_mean": 34.76,
+      "state_rank": 46,
+      "world_rank": 1990,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 8742,
+      "official_rookie_year": 2022,
+      "recorded_seasons": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 29.46,
+      "state_rank": 48,
+      "world_rank": 2279,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 10172,
+      "official_rookie_year": 2025,
+      "recorded_seasons": [
+        2025,
+        2026
+      ],
+      "epa_mean": 21.15,
+      "state_rank": 55,
+      "world_rank": 2889,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 8431,
+      "official_rookie_year": 2020,
+      "recorded_seasons": [
+        2025,
+        2026
+      ],
+      "epa_mean": 17.19,
+      "state_rank": 58,
+      "world_rank": 3139,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 10411,
+      "official_rookie_year": 2025,
+      "recorded_seasons": [
+        2025,
+        2026
+      ],
+      "epa_mean": 14.6,
+      "state_rank": 63,
+      "world_rank": 3301,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 8432,
+      "official_rookie_year": 2020,
+      "recorded_seasons": [
+        2026
+      ],
+      "epa_mean": 8.84,
+      "state_rank": 66,
+      "world_rank": 3549,
+      "state_total": 68,
+      "world_total": 3724
+    },
+    {
+      "team_number": 5559,
+      "official_rookie_year": 2015,
+      "recorded_seasons": [
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 58.04,
+      "state_rank": 181,
+      "world_rank": 1174,
+      "state_total": 530,
+      "world_total": 3724
+    },
+    {
+      "team_number": 3777,
+      "official_rookie_year": 2011,
+      "recorded_seasons": [
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 36.38,
+      "state_rank": 36,
+      "world_rank": 1897,
+      "state_total": 60,
+      "world_total": 3724
+    },
+    {
+      "team_number": 6556,
+      "official_rookie_year": 2017,
+      "recorded_seasons": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "epa_mean": 27.19,
+      "state_rank": 346,
+      "world_rank": 2432,
+      "state_total": 530,
+      "world_total": 3724
+    },
+    {
+      "team_number": 11407,
+      "official_rookie_year": 2026,
+      "recorded_seasons": [
+        2026
+      ],
+      "epa_mean": 21.93,
+      "state_rank": 410,
+      "world_rank": 2842,
+      "state_total": 530,
+      "world_total": 3724
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+[
+  {
+    "team_number": 1501,
+    "adults": [
+      {
+        "name": "Chris Elston",
+        "role": "Lead Engineering Mentor, Huntington 4-H Robotics",
+        "evidence_date": null,
+        "date_precision": "undated",
+        "source_urls": [
+          "https://www.linkedin.com/in/chriselston",
+          "https://www.linkedin.com/posts/chriselston_this-is-my-yearly-first-robotics-plug-to-activity-7302732445911527424-p7cI"
+        ],
+        "evidence_status": "self_reported_undated",
+        "notes": "Public professional profile lists July 2004 to Present. A 2025 public post corroborates his association with THRUST 1501. The profile is undated; the head-coach title and a 2026-27 appointment are not independently verified."
+      }
+    ],
+    "students": [],
+    "other_representatives": [],
+    "gaps": [
+      "Student team captain not verified.",
+      "Current formally designated head coach not independently verified; the documented title is Lead Engineering Mentor."
+    ]
+  },
+  {
+    "team_number": 1720,
+    "adults": [
+      {
+        "name": "Shawn VanNess",
+        "role": "Team president",
+        "evidence_date": "2026-05-15",
+        "date_precision": "day",
+        "source_urls": [
+          "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "Official team season report names the president. Publication date is May 15, 2026; the page also displays a May 23 update."
+      },
+      {
+        "name": "Mike Koch",
+        "role": "Mechanical mentor and co-founder",
+        "evidence_date": "2026-05-15",
+        "date_precision": "day",
+        "source_urls": [
+          "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "Official team report supplies these roles; it does not identify him as head coach."
+      }
+    ],
+    "students": [],
+    "other_representatives": [],
+    "gaps": [
+      "Student team captain not verified.",
+      "A separately designated head coach is not established by the cited team report."
+    ]
+  },
+  {
+    "team_number": 3777,
+    "adults": [
+      {
+        "name": "Skylynn Prine",
+        "role": "Teen Development Director, Lima Family YMCA; program spokesperson",
+        "evidence_date": "2026-03-17",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "Quoted about the robotics program in local reporting. The article does not identify her as the head coach."
+      }
+    ],
+    "students": [],
+    "other_representatives": [
+      {
+        "name": "Coltin Myers",
+        "role": "Quoted student team member; Lima Senior High School senior",
+        "evidence_date": "2026-03-17",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "Public student interviewee, with no formal captain or appointed spokesperson title established. Senior status belongs to March 2026; current student status is unverified."
+      }
+    ],
+    "gaps": [
+      "Head coach not verified.",
+      "Student team captain not verified."
+    ]
+  },
+  {
+    "team_number": 4982,
+    "adults": [
+      {
+        "name": "Matt Elder",
+        "role": "Lead coach / mentor",
+        "evidence_date": null,
+        "date_precision": "undated",
+        "source_urls": [
+          "https://www.linkedin.com/in/matt-elder-24b8b615a"
+        ],
+        "evidence_status": "self_reported_undated",
+        "notes": "Role appears on a public professional profile. No dated school appointment or current-season appointment was independently verified."
+      },
+      {
+        "name": "Cameron Elder",
+        "role": "Assistant coach",
+        "evidence_date": null,
+        "date_precision": "undated",
+        "source_urls": [
+          "https://refineryrobotics.org/about/"
+        ],
+        "evidence_status": "verified_undated",
+        "notes": "The REFINERY biography expressly identifies him as assistant coach of Team 4982. It also identifies him as a graduate and former student captain, so he is not listed as a current student captain."
+      }
+    ],
+    "students": [
+      {
+        "name": "Jasroop",
+        "role": "Named in the team captain / assistant captain announcement",
+        "evidence_date": "2025-2026",
+        "date_precision": "school_year",
+        "source_urls": [
+          "https://www.instagram.com/4982_olympus_robotics/"
+        ],
+        "evidence_status": "qualified_indexed",
+        "notes": "Official team account search-indexed caption pairs Jasroop and Jake with captain and assistant captain for 2025-2026, in that order. A full surname, stable post permalink, and independent confirmation of the individual title assignment were not retrieved. Do not silently convert the caption order into a verified individual appointment."
+      },
+      {
+        "name": "Jake",
+        "role": "Named in the team captain / assistant captain announcement",
+        "evidence_date": "2025-2026",
+        "date_precision": "school_year",
+        "source_urls": [
+          "https://www.instagram.com/4982_olympus_robotics/"
+        ],
+        "evidence_status": "qualified_indexed",
+        "notes": "Official team account search-indexed caption pairs Jasroop and Jake with captain and assistant captain for 2025-2026, in that order. Only the first name is verified. The individual assignment and a stable post permalink remain unverified."
+      },
+      {
+        "name": "Caleb Neely",
+        "role": "Co-Business Manager and Outreach Director",
+        "evidence_date": "2026",
+        "date_precision": "year",
+        "source_urls": [
+          "https://refineryrobotics.org/about/"
+        ],
+        "evidence_status": "verified_undated",
+        "notes": "An undated official partner biography expressly associates these roles with 2026. This establishes student leadership but does not establish the team-captain role."
+      }
+    ],
+    "other_representatives": [],
+    "gaps": [
+      "Captain and assistant-captain surnames and individual title assignments require confirmation.",
+      "The captain announcement is indexed account content, with no retrieved individual post permalink.",
+      "A 2026-27 student captain is not verified."
+    ]
+  },
+  {
+    "team_number": 5559,
+    "adults": [],
+    "students": [],
+    "other_representatives": [],
+    "gaps": [
+      "Adult coach or designated adult team spokesperson not verified.",
+      "Student team captain not verified."
+    ]
+  },
+  {
+    "team_number": 6556,
+    "adults": [
+      {
+        "name": "Mike Fuller",
+        "role": "Robotics coach; open-house contact",
+        "evidence_date": "2024-01",
+        "date_precision": "month",
+        "source_urls": [
+          "https://www.waldronspartans.org/live-feed?page_no=66",
+          "https://www.waldronspartans.org/live-feed?page_no=67"
+        ],
+        "evidence_status": "qualified_indexed_historical",
+        "notes": "Official school posts name Mike Fuller as a contact on December 13, 2023 and refer to Coach Fuller at FIRST kickoff in early January 2024. Evidence was recovered from indexed official posts; live-feed pagination changes. This is historical evidence, not a verified 2026-27 appointment."
+      }
+    ],
+    "students": [],
+    "other_representatives": [
+      {
+        "name": "Elijah",
+        "role": "Named robotics open-house contact; precise role unknown",
+        "evidence_date": "2023-12-13",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.waldronspartans.org/live-feed?page_no=67"
+        ],
+        "evidence_status": "qualified_indexed_historical",
+        "notes": "School post names Elijah alongside Mike Fuller for questions. Surname, student/adult status, and leadership position were not established; this is not evidence of a captain role."
+      }
+    ],
+    "gaps": [
+      "Current adult coaching assignment not verified beyond the 2023-24 evidence.",
+      "Student team captain not verified.",
+      "Elijah has an incomplete name and unknown student/adult and leadership status."
+    ]
+  },
+  {
+    "team_number": 8103,
+    "adults": [
+      {
+        "name": "Shawn Kimmel",
+        "role": "Coach; engineering and physics teacher",
+        "evidence_date": "2024-05-11",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+          "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html",
+          "https://www.trine.edu/news/2019/east-noble-robotics.aspx"
+        ],
+        "evidence_status": "verified_historical",
+        "notes": "KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here."
+      },
+      {
+        "name": "Jo Smith",
+        "role": "Coach",
+        "evidence_date": "2024-05-11",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+          "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
+        ],
+        "evidence_status": "verified_historical",
+        "notes": "Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified."
+      },
+      {
+        "name": "Collin Haynes",
+        "role": "Mentor",
+        "evidence_date": "2024-05-11",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+          "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
+        ],
+        "evidence_status": "verified_historical",
+        "notes": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted."
+      },
+      {
+        "name": "Tucker Martin",
+        "role": "Mentor",
+        "evidence_date": "2024-05-11",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+          "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
+        ],
+        "evidence_status": "verified_historical",
+        "notes": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted."
+      }
+    ],
+    "students": [],
+    "other_representatives": [],
+    "gaps": [
+      "Current 2026-27 coaching assignments not confirmed by the historical article.",
+      "Student team captain not verified.",
+      "Team 8103 leadership evidence does not establish individual coaching assignments for teams 8431 or 8432."
+    ]
+  },
+  {
+    "team_number": 8431,
+    "adults": [],
+    "students": [],
+    "other_representatives": [],
+    "gaps": [
+      "Individual adult coach or adult team spokesperson not verified.",
+      "Student team captain not verified.",
+      "The shared East Noble school program does not establish that the documented Team 8103 coaches also coach Team 8431."
+    ]
+  },
+  {
+    "team_number": 8432,
+    "adults": [],
+    "students": [],
+    "other_representatives": [],
+    "gaps": [
+      "Individual adult coach or adult team spokesperson not verified.",
+      "Student team captain not verified.",
+      "The shared East Noble school program does not establish that the documented Team 8103 coaches also coach Team 8432."
+    ]
+  },
+  {
+    "team_number": 8742,
+    "adults": [
+      {
+        "name": "Eric Cale",
+        "role": "Robotics and chemistry teacher; team spokesperson",
+        "evidence_date": "2026-04-07",
+        "date_precision": "day",
+        "source_urls": [
+          "https://podcasts.apple.com/ma/podcast/eric-cale-and-robotics/id1773140582?i=1000760060708"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "School-authored podcast features Cale discussing his robotics team. The documented teacher and spokesperson roles do not establish a formal head-coach appointment."
+      }
+    ],
+    "students": [],
+    "other_representatives": [
+      {
+        "name": "Ava Stanley",
+        "role": "Team spokesperson at Fairmount Town Council",
+        "evidence_date": "2025-09-08",
+        "date_precision": "day",
+        "source_urls": [
+          "https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf"
+        ],
+        "evidence_status": "verified_role_status_unknown",
+        "notes": "Official minutes identify the team spokesperson. The evidence date is the meeting date; upload timing is different. Student/adult status and captain status are not established."
+      }
+    ],
+    "gaps": [
+      "Student team captain not verified.",
+      "Ava Stanley cannot be classified as a student or adult from the cited evidence.",
+      "A formal head-coach title for Eric Cale was not established."
+    ]
+  },
+  {
+    "team_number": 9119,
+    "adults": [
+      {
+        "name": "Dennis Fisher",
+        "role": "Coach and North Side teacher",
+        "evidence_date": "2025-01-23",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence",
+          "https://resources.finalsite.net/images/v1685982230/fwcsk12inus/us2rusjsudqci2p1ltxv/03132023.pdf"
+        ],
+        "evidence_status": "verified_historical",
+        "notes": "FWCS board minutes dated March 13, 2023 explicitly identify Fisher as coach of the Iron Legends. Purdue Fort Wayne reporting on January 23, 2025 corroborates his teaching and team-guidance role. A 2026-27 appointment was not verified."
+      },
+      {
+        "name": "Drew Clem",
+        "role": "College mentor",
+        "evidence_date": "2025-01-23",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence"
+        ],
+        "evidence_status": "verified_historical",
+        "notes": "Purdue Fort Wayne identifies Clem as an electrical engineering senior assisting the school robotics team. The role is mentor; he is not identified as lead coach or a high-school student captain."
+      }
+    ],
+    "students": [],
+    "other_representatives": [
+      {
+        "name": "Zen Gunawardhana",
+        "role": "Student team representative at FWCS board presentation",
+        "evidence_date": "2026-02-09",
+        "date_precision": "day",
+        "source_urls": [
+          "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "The district presentation identifies a team representative; it does not identify a captain."
+      }
+    ],
+    "gaps": [
+      "Current adult lead appointment not confirmed beyond the January 2025 reporting.",
+      "Student team captain not verified; the February 2026 presentation identifies a representative."
+    ]
+  },
+  {
+    "team_number": 9431,
+    "adults": [
+      {
+        "name": "John Todor",
+        "role": "Founding-period coach; publicly identified coach/director",
+        "evidence_date": null,
+        "date_precision": "undated",
+        "source_urls": [
+          "https://refineryrobotics.org/about/",
+          "https://www.instagram.com/walnuthillcatering/",
+          "https://www.instagram.com/snider_robotics9431/"
+        ],
+        "evidence_status": "qualified_indexed",
+        "notes": "The REFINERY biography of Connor Rey identifies Mr. Todor as his coach during the founding period beginning in 2023. An indexed public event-host caption supplies John Todor and the coach/director title; its date and post permalink were not retrieved. Team-account references to Todor corroborate the connection, but a current 2026-27 appointment is not established."
+      },
+      {
+        "name": "Doug Horner",
+        "role": "Sponsor and adult team spokesperson",
+        "evidence_date": "2024-04-12",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/",
+          "https://refineryrobotics.org/about/"
+        ],
+        "evidence_status": "verified_historical",
+        "notes": "The 21Alive page displays publication on April 12, 2024 at 11:38 PM EDT, although its URL uses April 13. It describes his work with the club and quotes him about the program; The REFINERY biography corroborates rookie-year sponsorship. No formal head-coach appointment is asserted."
+      }
+    ],
+    "students": [
+      {
+        "name": "Nick Sims",
+        "role": "Team captain and driver, described retrospectively in interview",
+        "evidence_date": "2026-10-02",
+        "date_precision": "day",
+        "source_urls": [
+          "https://video.wfwa.org/video/science-centrals-new-planetarium-snider-robotics-and-arena-dinner-theatre-4j2kgy/"
+        ],
+        "evidence_status": "verified_dated_retrospective",
+        "notes": "In PBS Fort Wayne The 260, Sims identifies his team-captain role and separately describes driving. The interview is retrospective and mentions college plans. The broadcast date does not verify a current 2026-27 captain appointment or define an exact term."
+      }
+    ],
+    "other_representatives": [
+      {
+        "name": "Nick Sims",
+        "role": "Student team representative at FWCS board presentation",
+        "evidence_date": "2026-02-09",
+        "date_precision": "day",
+        "source_urls": [
+          "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "The district presentation identifies a team representative; it does not identify a captain."
+      },
+      {
+        "name": "Connor Rey",
+        "role": "Student team representative at FWCS board presentation",
+        "evidence_date": "2026-02-09",
+        "date_precision": "day",
+        "source_urls": [
+          "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "The district presentation identifies a team representative; it does not identify a captain."
+      }
+    ],
+    "gaps": [
+      "Current 2026-27 student captain not verified; Nick Sims is a documented recent captain.",
+      "John Todor identification combines an undated primary partner biography with indexed public social content.",
+      "A current formally designated adult lead was not independently confirmed."
+    ]
+  },
+  {
+    "team_number": 10172,
+    "adults": [],
+    "students": [],
+    "other_representatives": [
+      {
+        "name": "David Haruna",
+        "role": "Student team representative at FWCS board presentation",
+        "evidence_date": "2026-02-09",
+        "date_precision": "day",
+        "source_urls": [
+          "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "The district presentation identifies a team representative; it does not identify a captain."
+      }
+    ],
+    "gaps": [
+      "Adult coach or designated adult team spokesperson not verified.",
+      "Student team captain not verified; the February 2026 presentation identifies a representative."
+    ]
+  },
+  {
+    "team_number": 10332,
+    "adults": [
+      {
+        "name": "Mady Stricker",
+        "role": "Mentor",
+        "evidence_date": "2026",
+        "date_precision": "year",
+        "source_urls": [
+          "https://www.firstindianarobotics.org/about-first-indiana-robotics/board-of-directors/"
+        ],
+        "evidence_status": "qualified_indexed",
+        "notes": "A FIRST Indiana 2026 indexed biography associates Stricker with mentoring Team 10332. The live board page was shorter at retrieval. This is mentor evidence and does not establish a head-coach role."
+      },
+      {
+        "name": "Cameron Elder",
+        "role": "Former head coach",
+        "evidence_date": null,
+        "date_precision": "undated",
+        "source_urls": [
+          "https://www.linkedin.com/in/camelder"
+        ],
+        "evidence_status": "self_reported_historical",
+        "notes": "Public professional profile reports the Team 10332 head-coach tenure as April through October 2025. The profile itself is undated; this is a past appointment, not a current coach assignment."
+      },
+      {
+        "name": "Matt Arnold",
+        "role": "Former assistant coach",
+        "evidence_date": null,
+        "date_precision": "undated",
+        "source_urls": [
+          "https://www.linkedin.com/in/m4ttbit"
+        ],
+        "evidence_status": "self_reported_historical",
+        "notes": "Public professional profile reports an assistant-coach tenure from October 2024 through April 2025. The profile itself is undated; continued service is not established."
+      }
+    ],
+    "students": [
+      {
+        "name": "Nieng Mang",
+        "role": "Team captain; Carroll High School senior",
+        "evidence_date": "2026-01-27",
+        "date_precision": "day",
+        "source_urls": [
+          "https://chargeronline.nacs.k12.in.us/12210/sports/from-worst-to-first-how-indianas-football-program-became-the-nations-best/"
+        ],
+        "evidence_status": "verified_dated_bio",
+        "notes": "The school newspaper contributor biography identifies Mang as captain and a senior. January 27, 2026 is the article date; the biography itself has no separate timestamp and may be updated dynamically. The evidence supports the 2025-26 school-year identification, not a current 2026-27 appointment."
+      }
+    ],
+    "other_representatives": [],
+    "gaps": [
+      "Current head coach not verified.",
+      "Student captain for 2026-27 not verified.",
+      "Mentor evidence for Mady Stricker is indexed official content rather than the full biography on the current live page."
+    ]
+  },
+  {
+    "team_number": 10411,
+    "adults": [],
+    "students": [],
+    "other_representatives": [
+      {
+        "name": "Khai Phyoe",
+        "role": "Student team representative at FWCS board presentation",
+        "evidence_date": "2026-02-09",
+        "date_precision": "day",
+        "source_urls": [
+          "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "The district presentation identifies a team representative; it does not identify a captain."
+      }
+    ],
+    "gaps": [
+      "Adult coach or designated adult team spokesperson not verified.",
+      "Student team captain not verified; the February 2026 presentation identifies a representative."
+    ]
+  },
+  {
+    "team_number": 10434,
+    "adults": [
+      {
+        "name": "Coach Jacobs",
+        "role": "Coach; full identity and lead responsibility unverified",
+        "evidence_date": null,
+        "date_precision": "undated",
+        "source_urls": [
+          "https://www.facebook.com/NorthropRobotics/"
+        ],
+        "evidence_status": "qualified_indexed",
+        "notes": "An indexed official team Facebook caption uses Coach Jacobs. No first name, post date, stable post permalink, current appointment, or head-coach responsibility was verified. The surname was not matched to a school employee by inference."
+      }
+    ],
+    "students": [],
+    "other_representatives": [
+      {
+        "name": "Alfy Krider",
+        "role": "Student team representative; Northrop senior in March 2026",
+        "evidence_date": "2026-02-09",
+        "date_precision": "day",
+        "source_urls": [
+          "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf",
+          "https://www.the74million.org/article/building-a-mindset-amp-lab-makes-entrepreneurship-work-skills-its-mission/"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "FWCS names Krider as a team representative on February 9, 2026. March 25, 2026 reporting identifies a Northrop senior and team member; neither source establishes a captain role. Current student status is unverified."
+      }
+    ],
+    "gaps": [
+      "Coach Jacobs has only a partial public name and unverified current lead responsibility.",
+      "Student team captain not verified.",
+      "Alfy Krider is documented as a representative and 2026 senior, not as a current 2026-27 captain."
+    ]
+  },
+  {
+    "team_number": 11407,
+    "adults": [
+      {
+        "name": "Khanya Sigwela",
+        "role": "Coach",
+        "evidence_date": "2026-03-27",
+        "date_precision": "day",
+        "source_urls": [
+          "https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "Local reporting explicitly names Sigwela as one of the coaches. It does not rank the two coaches or designate a head coach."
+      },
+      {
+        "name": "Xandra Duelge",
+        "role": "Coach",
+        "evidence_date": "2026-03-27",
+        "date_precision": "day",
+        "source_urls": [
+          "https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/"
+        ],
+        "evidence_status": "verified_role_name_discrepancy",
+        "notes": "The article body uses Xandra Duelge; its photo caption uses Sandra Duelge. The coaching role is clear, but the first-name spelling remains unresolved."
+      }
+    ],
+    "students": [
+      {
+        "name": "Krys Johnson",
+        "role": "Drive-team captain",
+        "evidence_date": "2026-03-27",
+        "date_precision": "day",
+        "source_urls": [
+          "https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "The drive-team list identifies Krys Johnson as captain; a photo caption uses Krystina Johnson. This is evidence of the drive-team captain role only, not overall team captain. The caption variant is preserved without resolving the name independently."
+      }
+    ],
+    "other_representatives": [],
+    "gaps": [
+      "Overall student team captain not verified; the published designation is drive-team captain.",
+      "Xandra versus Sandra Duelge is an unresolved source-internal spelling discrepancy.",
+      "The source does not specify which coach, if either, holds a head-coach title."
+    ]
+  }
+]

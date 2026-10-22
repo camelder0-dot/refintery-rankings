@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "title": "FIRST Robotics teams around Fort Wayne",
+  "repository_url": "https://github.com/horner/refintery-rankings",
+  "research_date": "2026-10-22",
+  "competition_season": 2026,
+  "season_history_cutoff": 2026,
+  "radius_miles": 60,
+  "distance_definition": "Straight-line great-circle distance, not road travel distance",
+  "statbotics_snapshot_directory": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0",
+  "first_history_artifact": "artifacts/first/season-history-through-2026.json",
+  "rankings_last_modified_utc": "2026-06-12T02:51:19Z",
+  "leadership_policy": "Preserve exact documented role and evidence date. A mentor, drive-team captain, representative, former captain, or indexed first-name-only announcement is not silently upgraded to current overall captain or head coach.",
+  "artifact_preservation_note": "No report or spreadsheet file was saved in the initial chat research. The repository package is newly assembled from that research and fresh captures, with source timestamps preserved and new capture times recorded. It does not contain private conversation context or internal reasoning."
+}

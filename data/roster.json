@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-22",
+  "season": 2026,
+  "scope": "FIRST Robotics Competition teams in the 60-mile straight-line Fort Wayne study area",
+  "teams": [
+    {
+      "team_number": 1501,
+      "team_name": "Team THRUST",
+      "school_or_organization": "Huntington North High School / Huntington County 4-H",
+      "school_url": "https://hnhs.hccsc.k12.in.us/",
+      "city": "Huntington",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school_and_community",
+      "affiliation_notes": "School connection plus community 4-H program; participation is not restricted to one high school.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/1501",
+      "first_history_url": "https://frc-events.firstinspires.org/team/1501",
+      "statbotics_url": "https://www.statbotics.io/team/1501/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/1501",
+        "https://refineryrobotics.org/about/",
+        "https://huntingtonnhs.ss13.sharpschool.com/get_involved/clubs/robotics",
+        "https://huntingtonrobotics.org/faq/"
+      ]
+    },
+    {
+      "team_number": 1720,
+      "team_name": "PhyXTGears",
+      "school_or_organization": "East Central Indiana Robotics (community team)",
+      "school_url": "https://phyxtgears.org/",
+      "city": "Matthews",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "community",
+      "affiliation_notes": "Community team with no single exclusive high-school affiliation.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/1720",
+      "first_history_url": "https://frc-events.firstinspires.org/team/1720",
+      "statbotics_url": "https://www.statbotics.io/team/1720/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/1720",
+        "https://phyxtgears.org/",
+        "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
+      ]
+    },
+    {
+      "team_number": 9119,
+      "team_name": "Iron Legends",
+      "school_or_organization": "North Side High School",
+      "school_url": "https://northside.fortwayneschools.org/about-us/robotics",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/9119",
+      "first_history_url": "https://frc-events.firstinspires.org/team/9119",
+      "statbotics_url": "https://www.statbotics.io/team/9119/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/9119",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 9431,
+      "team_name": "The Gold Standard",
+      "school_or_organization": "R. Nelson Snider High School",
+      "school_url": "https://snider.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Team formed in September 2023; first official FRC season was 2024.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/9431",
+      "first_history_url": "https://frc-events.firstinspires.org/team/9431",
+      "statbotics_url": "https://www.statbotics.io/team/9431/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/9431",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 4982,
+      "team_name": "Olympus Robotics",
+      "school_or_organization": "Homestead High School",
+      "school_url": "https://homestead.sacs.k12.in.us/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "This is the Indiana Homestead program; homesteadrobotics.com describes a different school's program.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/4982",
+      "first_history_url": "https://frc-events.firstinspires.org/team/4982",
+      "statbotics_url": "https://www.statbotics.io/team/4982/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/4982",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 10434,
+      "team_name": "CyBears",
+      "school_or_organization": "Northrop High School",
+      "school_url": "https://northrop.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Team formed in fall 2024; first official FRC season was 2025.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10434",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10434",
+      "statbotics_url": "https://www.statbotics.io/team/10434/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10434",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 8103,
+      "team_name": "Knight Robotics",
+      "school_or_organization": "East Noble High School",
+      "school_url": "https://hs.eastnoble.net/",
+      "city": "Kendallville",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "One of three East Noble teams.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8103",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8103",
+      "statbotics_url": "https://www.statbotics.io/team/8103/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8103",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 10332,
+      "team_name": "Carroll Charger Robotics",
+      "school_or_organization": "Carroll High School",
+      "school_url": "https://ch.nacs.k12.in.us/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10332",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10332",
+      "statbotics_url": "https://www.statbotics.io/team/10332/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10332",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 8742,
+      "team_name": "Argyll Attack",
+      "school_or_organization": "Madison-Grant Jr./Sr. High School",
+      "school_url": "https://mghs.mgusc.k12.in.us/",
+      "city": "Fairmount",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8742",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8742",
+      "statbotics_url": "https://www.statbotics.io/team/8742/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8742",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 10172,
+      "team_name": "Apex Archers",
+      "school_or_organization": "South Side High School",
+      "school_url": "https://southside.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10172",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10172",
+      "statbotics_url": "https://www.statbotics.io/team/10172/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10172",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 8431,
+      "team_name": "Robo-Knights",
+      "school_or_organization": "East Noble High School",
+      "school_url": "https://hs.eastnoble.net/",
+      "city": "Kendallville",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Official rookie year is 2020; recorded season history through 2026 begins in 2025.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8431",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8431",
+      "statbotics_url": "https://www.statbotics.io/team/8431/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8431",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 10411,
+      "team_name": "G-Code Generals",
+      "school_or_organization": "Wayne High School",
+      "school_url": "https://wayne.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10411",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10411",
+      "statbotics_url": "https://www.statbotics.io/team/10411/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10411",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 8432,
+      "team_name": "Cyber Knights",
+      "school_or_organization": "East Noble High School",
+      "school_url": "https://hs.eastnoble.net/",
+      "city": "Kendallville",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Official rookie year is 2020; recorded season history through 2026 begins in 2026.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8432",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8432",
+      "statbotics_url": "https://www.statbotics.io/team/8432/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8432",
+        "https://refineryrobotics.org/about/"
+      ]
+    },
+    {
+      "team_number": 5559,
+      "team_name": "Gear Grinders",
+      "school_or_organization": "Camden-Frontier School",
+      "school_url": "https://www.camdenfrontier.org/",
+      "city": "Camden",
+      "state": "MI",
+      "scope_group": "nearby_border",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/5559",
+      "first_history_url": "https://frc-events.firstinspires.org/team/5559",
+      "statbotics_url": "https://www.statbotics.io/team/5559/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/5559"
+      ]
+    },
+    {
+      "team_number": 3777,
+      "team_name": "Bean City Bots",
+      "school_or_organization": "Lima Family YMCA (community team)",
+      "school_url": "https://frc-events.firstinspires.org/2026/team/3777",
+      "city": "Lima",
+      "state": "OH",
+      "scope_group": "nearby_border",
+      "affiliation_type": "community",
+      "affiliation_notes": "YMCA / University of Northwestern Ohio community program; includes students from Lima Senior but is not exclusively that school's team.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/3777",
+      "first_history_url": "https://frc-events.firstinspires.org/team/3777",
+      "statbotics_url": "https://www.statbotics.io/team/3777/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/3777"
+      ]
+    },
+    {
+      "team_number": 6556,
+      "team_name": "Spartan Robotics",
+      "school_or_organization": "Waldron School",
+      "school_url": "https://www.waldronspartans.org/",
+      "city": "Waldron",
+      "state": "MI",
+      "scope_group": "nearby_border",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/6556",
+      "first_history_url": "https://frc-events.firstinspires.org/team/6556",
+      "statbotics_url": "https://www.statbotics.io/team/6556/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/6556"
+      ]
+    },
+    {
+      "team_number": 11407,
+      "team_name": "Sturgis Trojans",
+      "school_or_organization": "Sturgis High School",
+      "school_url": "https://shs.sturgisps.org/",
+      "city": "Sturgis",
+      "state": "MI",
+      "scope_group": "nearby_border",
+      "affiliation_type": "school",
+      "affiliation_notes": "Rookie season 2026.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/11407",
+      "first_history_url": "https://frc-events.firstinspires.org/team/11407",
+      "statbotics_url": "https://www.statbotics.io/team/11407/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/11407"
+      ]
+    }
+  ]
+}

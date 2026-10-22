@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "documents": [
+    {
+      "id": "fwcs-board-robotics-2026-02-09",
+      "title": "FIRST Robotics: FWCS High Schools",
+      "publisher": "Fort Wayne Community Schools",
+      "source_date": "2026-02-09",
+      "url": "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf",
+      "relevant_pages": [
+        2,
+        7
+      ],
+      "supports": "Page 2 lists program years; page 7 names representatives for North Side, Northrop, Snider, South Side, and Wayne. The title is representative, not captain.",
+      "retrieved_at_utc": "2026-10-22T04:33:26.764951+00:00",
+      "resolved_url": "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf",
+      "response_sha256": "a9c76c1ba277e0ce3a33c6ea233ac35a482af0e9c722cd0e9d15631c797b364b",
+      "response_bytes": 507353,
+      "response_last_modified": "Tue, 10 Feb 2026 18:43:57 GMT",
+      "full_document_republished": false
+    },
+    {
+      "id": "fairmount-minutes-2025-09-08",
+      "title": "Fairmount Town Council regular meeting minutes, September 8, 2025",
+      "publisher": "Town of Fairmount, Indiana",
+      "source_date": "2025-09-08",
+      "url": "https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf",
+      "relevant_section": "Madison Grant Argyll Attack Robotics Team presentation",
+      "supports": "Names Ava Stanley as team spokesperson; does not establish student status or captain title.",
+      "retrieved_at_utc": "2026-10-22T04:33:26.983631+00:00",
+      "resolved_url": "https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf",
+      "response_sha256": "5fdca204ecb3ca725c6574107bfcf1c881d0f3567d51e369af0db1cd2ecd04b8",
+      "response_bytes": 131860,
+      "response_last_modified": null,
+      "full_document_republished": false
+    }
+  ]
+}

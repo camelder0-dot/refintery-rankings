@@ -1,0 +1,188 @@
+{
+  "expected_team_count": 17,
+  "expected_team_numbers": [
+    1501,
+    1720,
+    9119,
+    9431,
+    4982,
+    10434,
+    8103,
+    10332,
+    8742,
+    10172,
+    8431,
+    10411,
+    8432,
+    5559,
+    3777,
+    6556,
+    11407
+  ],
+  "global_team_year_count": 3724,
+  "global_team_year_count_matches": true,
+  "observed_rankings": [
+    {
+      "epa": 118.71,
+      "state": "IN",
+      "state_rank": 12,
+      "state_team_count": 68,
+      "team": 1501,
+      "world_rank": 438,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 118.52,
+      "state": "IN",
+      "state_rank": 13,
+      "state_team_count": 68,
+      "team": 1720,
+      "world_rank": 440,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 75.1,
+      "state": "IN",
+      "state_rank": 22,
+      "state_team_count": 68,
+      "team": 9119,
+      "world_rank": 868,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 68.51,
+      "state": "IN",
+      "state_rank": 24,
+      "state_team_count": 68,
+      "team": 9431,
+      "world_rank": 984,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 58.8,
+      "state": "IN",
+      "state_rank": 27,
+      "state_team_count": 68,
+      "team": 4982,
+      "world_rank": 1147,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 35.84,
+      "state": "IN",
+      "state_rank": 43,
+      "state_team_count": 68,
+      "team": 10434,
+      "world_rank": 1931,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 35.1,
+      "state": "IN",
+      "state_rank": 45,
+      "state_team_count": 68,
+      "team": 8103,
+      "world_rank": 1975,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 34.76,
+      "state": "IN",
+      "state_rank": 46,
+      "state_team_count": 68,
+      "team": 10332,
+      "world_rank": 1990,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 29.46,
+      "state": "IN",
+      "state_rank": 48,
+      "state_team_count": 68,
+      "team": 8742,
+      "world_rank": 2279,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 21.15,
+      "state": "IN",
+      "state_rank": 55,
+      "state_team_count": 68,
+      "team": 10172,
+      "world_rank": 2889,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 17.19,
+      "state": "IN",
+      "state_rank": 58,
+      "state_team_count": 68,
+      "team": 8431,
+      "world_rank": 3139,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 14.6,
+      "state": "IN",
+      "state_rank": 63,
+      "state_team_count": 68,
+      "team": 10411,
+      "world_rank": 3301,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 8.84,
+      "state": "IN",
+      "state_rank": 66,
+      "state_team_count": 68,
+      "team": 8432,
+      "world_rank": 3549,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 58.04,
+      "state": "MI",
+      "state_rank": 181,
+      "state_team_count": 530,
+      "team": 5559,
+      "world_rank": 1174,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 36.38,
+      "state": "OH",
+      "state_rank": 36,
+      "state_team_count": 60,
+      "team": 3777,
+      "world_rank": 1897,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 27.19,
+      "state": "MI",
+      "state_rank": 346,
+      "state_team_count": 530,
+      "team": 6556,
+      "world_rank": 2432,
+      "world_team_count": 3724
+    },
+    {
+      "epa": 21.93,
+      "state": "MI",
+      "state_rank": 410,
+      "state_team_count": 530,
+      "team": 11407,
+      "world_rank": 2842,
+      "world_team_count": 3724
+    }
+  ],
+  "observed_team_count": 17,
+  "ranking_differences": [],
+  "rankings_match_baseline": true,
+  "raw_bytes_match_baseline": true,
+  "raw_sha256": "0059dfe792a03f257cf20d94580daab4d669e955e8a08c409d98acf80fd790b3",
+  "review_required": false,
+  "source_last_modified": "Fri, 12 Jun 2026 02:51:19 GMT",
+  "source_last_modified_matches": true,
+  "year": 2026
+}

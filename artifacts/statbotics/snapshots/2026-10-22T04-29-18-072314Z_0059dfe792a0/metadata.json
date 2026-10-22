@@ -1,0 +1,65 @@
+{
+  "baseline_file": "artifacts/statbotics/expected-rankings-2026.json",
+  "baseline_sha256": "a2a9f9fa2faa8f5b3fa3c867141dc4405045832e4bf70e32be4d984524b146de",
+  "compression": "zlib",
+  "decoded_bytes": 4888042,
+  "decoded_sha256": "7050d91c815afaabbf58c84ff76559cf5c828c7394d83e3804cc379660e14274",
+  "endpoint_provenance": [
+    "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/constants.tsx",
+    "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/teams.tsx",
+    "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/storage.tsx",
+    "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/LICENSE"
+  ],
+  "global_team_year_count": 3724,
+  "notes": [
+    "HTTP Last-Modified is the cache object's timestamp, not this retrieval date.",
+    "Ranks are copied from EPA ranks; district_rank is a different FIRST points ranking.",
+    "No competing filter or geography filter was applied before extracting the fixed roster.",
+    "Pinned frontend source identifies this bucket; DISABLE_GCS=true at that commit means it is not proof of current live frontend use."
+  ],
+  "processed_at_utc": "2026-10-22T04:29:18.072314Z",
+  "raw_bytes": 714810,
+  "raw_sha256": "0059dfe792a03f257cf20d94580daab4d669e955e8a08c409d98acf80fd790b3",
+  "review_required": false,
+  "schema_version": 1,
+  "season": 2026,
+  "source": {
+    "effective_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+    "http_headers": {
+      "content-length": "714810",
+      "content-type": "application/octet-stream",
+      "date": "Thu, 22 Oct 2026 04:27:34 GMT",
+      "etag": "\"b37269ce7b4120dadc43e0bf76adc429\"",
+      "last-modified": "Fri, 12 Jun 2026 02:51:19 GMT",
+      "x-goog-generation": "1781232679221639",
+      "x-goog-stored-content-length": "714810"
+    },
+    "read_mode": "download",
+    "retrieved_at_utc": "2026-10-22T04:29:17.883403Z",
+    "source_kind": "official_statbotics_public_cache",
+    "url": "https://storage.googleapis.com/site_v1/team_years/2026"
+  },
+  "source_commit": "169330ecef38a4f614356ac0b0caa156f2180021",
+  "subset_bytes": 40435,
+  "subset_sha256": "5fad005ee118f7d66c081af03cc9c22404f5fceccf688b0c5c91fad9cebcff63",
+  "subset_team_count": 17,
+  "subset_team_numbers": [
+    1501,
+    1720,
+    9119,
+    9431,
+    4982,
+    10434,
+    8103,
+    10332,
+    8742,
+    10172,
+    8431,
+    10411,
+    8432,
+    5559,
+    3777,
+    6556,
+    11407
+  ]
+}

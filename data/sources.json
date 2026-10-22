@@ -1,0 +1,1859 @@
+{
+  "schema_version": "1.0",
+  "research_date": "2026-10-22",
+  "source_count": 148,
+  "note": "Source links and per-person access limitations are preserved. This catalog does not assert that every linked page is currently accessible or archived locally.",
+  "sources": [
+    {
+      "source_id": "S-c54c6e8318",
+      "title": "cdn.www.census.gov: programs surveys/geography/technical documentation/complete technical documentation/census geocoder.html",
+      "url": "https://cdn.www.census.gov/programs-surveys/geography/technical-documentation/complete-technical-documentation/census-geocoder.html",
+      "publisher_domain": "cdn.www.census.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-a5a67ec0f8",
+      "title": "ch.nacs.k12.in.us",
+      "url": "https://ch.nacs.k12.in.us/",
+      "publisher_domain": "ch.nacs.k12.in.us",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-5ad835172d",
+      "title": "ch.nacs.k12.in.us: 51740_2",
+      "url": "https://ch.nacs.k12.in.us/51740_2",
+      "publisher_domain": "ch.nacs.k12.in.us",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-5c8cb901ec",
+      "title": "Carroll school newspaper: January 27, 2026 article, Nieng Mang contributor biography",
+      "url": "https://chargeronline.nacs.k12.in.us/12210/sports/from-worst-to-first-how-indianas-football-program-became-the-nations-best/",
+      "publisher_domain": "chargeronline.nacs.k12.in.us",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-e7b4c1f560",
+      "title": "docs.elkhart.k12.in.us: board/public_packets/2024/November 12 2024   Public Board Packet.pdf",
+      "url": "https://docs.elkhart.k12.in.us/board/public_packets/2024/November%2012%202024%20-%20Public%20Board%20Packet.pdf",
+      "publisher_domain": "docs.elkhart.k12.in.us",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-4f6cea1205",
+      "title": "ehs.elkhart.k12.in.us: about/administration",
+      "url": "https://ehs.elkhart.k12.in.us/about/administration",
+      "publisher_domain": "ehs.elkhart.k12.in.us",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-ac78b7cef9",
+      "title": "FIRST 2026 team page: 10172",
+      "url": "https://frc-events.firstinspires.org/2026/team/10172",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        10172
+      ]
+    },
+    {
+      "source_id": "S-4a349fe5a8",
+      "title": "FIRST 2026 team page: 10332",
+      "url": "https://frc-events.firstinspires.org/2026/team/10332",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-45a7a5129e",
+      "title": "FIRST 2026 team page: 10411",
+      "url": "https://frc-events.firstinspires.org/2026/team/10411",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        10411
+      ]
+    },
+    {
+      "source_id": "S-e3fc00da42",
+      "title": "FIRST 2026 team page: 10434",
+      "url": "https://frc-events.firstinspires.org/2026/team/10434",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        10434
+      ]
+    },
+    {
+      "source_id": "S-a836b29392",
+      "title": "FIRST 2026 team page: 11407",
+      "url": "https://frc-events.firstinspires.org/2026/team/11407",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-ed7f97233c",
+      "title": "FIRST 2026 team page: 1501",
+      "url": "https://frc-events.firstinspires.org/2026/team/1501",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-2f92d3ab3d",
+      "title": "FIRST 2026 team page: 1555",
+      "url": "https://frc-events.firstinspires.org/2026/team/1555",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-f0abf80e10",
+      "title": "FIRST 2026 team page: 1720",
+      "url": "https://frc-events.firstinspires.org/2026/team/1720",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        1720
+      ]
+    },
+    {
+      "source_id": "S-b6852ece67",
+      "title": "FIRST 2026 team page: 3777",
+      "url": "https://frc-events.firstinspires.org/2026/team/3777",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        3777
+      ]
+    },
+    {
+      "source_id": "S-990d94976c",
+      "title": "FIRST 2026 team page: 4982",
+      "url": "https://frc-events.firstinspires.org/2026/team/4982",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-50abccde36",
+      "title": "FIRST 2026 team page: 5559",
+      "url": "https://frc-events.firstinspires.org/2026/team/5559",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        5559
+      ]
+    },
+    {
+      "source_id": "S-f629437234",
+      "title": "FIRST 2026 team page: 6556",
+      "url": "https://frc-events.firstinspires.org/2026/team/6556",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        6556
+      ]
+    },
+    {
+      "source_id": "S-926639a459",
+      "title": "FIRST 2026 team page: 8103",
+      "url": "https://frc-events.firstinspires.org/2026/team/8103",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        8103
+      ]
+    },
+    {
+      "source_id": "S-b5652e11a7",
+      "title": "FIRST 2026 team page: 8431",
+      "url": "https://frc-events.firstinspires.org/2026/team/8431",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        8431
+      ]
+    },
+    {
+      "source_id": "S-b1e5401023",
+      "title": "FIRST 2026 team page: 8432",
+      "url": "https://frc-events.firstinspires.org/2026/team/8432",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        8432
+      ]
+    },
+    {
+      "source_id": "S-e1e6130b44",
+      "title": "FIRST 2026 team page: 8742",
+      "url": "https://frc-events.firstinspires.org/2026/team/8742",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-266d196c6e",
+      "title": "FIRST 2026 team page: 9119",
+      "url": "https://frc-events.firstinspires.org/2026/team/9119",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-ed451c32bd",
+      "title": "FIRST 2026 team page: 9431",
+      "url": "https://frc-events.firstinspires.org/2026/team/9431",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-40840557b5",
+      "title": "FIRST team history: 10172",
+      "url": "https://frc-events.firstinspires.org/team/10172",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10172
+      ]
+    },
+    {
+      "source_id": "S-fab383bbea",
+      "title": "FIRST team history: 10332",
+      "url": "https://frc-events.firstinspires.org/team/10332",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-0f1d1cfa70",
+      "title": "FIRST team history: 10411",
+      "url": "https://frc-events.firstinspires.org/team/10411",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10411
+      ]
+    },
+    {
+      "source_id": "S-d7a15ab0a5",
+      "title": "FIRST team history: 10434",
+      "url": "https://frc-events.firstinspires.org/team/10434",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10434
+      ]
+    },
+    {
+      "source_id": "S-767bea01bd",
+      "title": "FIRST team history: 11407",
+      "url": "https://frc-events.firstinspires.org/team/11407",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-611d3b559d",
+      "title": "FIRST team history: 1501",
+      "url": "https://frc-events.firstinspires.org/team/1501",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-77fdc41cf1",
+      "title": "FIRST team history: 1720",
+      "url": "https://frc-events.firstinspires.org/team/1720",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        1720
+      ]
+    },
+    {
+      "source_id": "S-ac7ae8263f",
+      "title": "FIRST team history: 2867",
+      "url": "https://frc-events.firstinspires.org/team/2867",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-094f214b07",
+      "title": "FIRST team history: 3777",
+      "url": "https://frc-events.firstinspires.org/team/3777",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        3777
+      ]
+    },
+    {
+      "source_id": "S-f7e307b464",
+      "title": "FIRST team history: 4982",
+      "url": "https://frc-events.firstinspires.org/team/4982",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-108355da57",
+      "title": "FIRST team history: 5559",
+      "url": "https://frc-events.firstinspires.org/team/5559",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        5559
+      ]
+    },
+    {
+      "source_id": "S-09a28df067",
+      "title": "FIRST team history: 6556",
+      "url": "https://frc-events.firstinspires.org/team/6556",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        6556
+      ]
+    },
+    {
+      "source_id": "S-7f2297bf24",
+      "title": "FIRST team history: 8103",
+      "url": "https://frc-events.firstinspires.org/team/8103",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8103
+      ]
+    },
+    {
+      "source_id": "S-c225a09f86",
+      "title": "FIRST team history: 8431",
+      "url": "https://frc-events.firstinspires.org/team/8431",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8431
+      ]
+    },
+    {
+      "source_id": "S-d8673c1485",
+      "title": "FIRST team history: 8432",
+      "url": "https://frc-events.firstinspires.org/team/8432",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8432
+      ]
+    },
+    {
+      "source_id": "S-80227c8992",
+      "title": "FIRST team history: 8742",
+      "url": "https://frc-events.firstinspires.org/team/8742",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-fae53d86dc",
+      "title": "FIRST team history: 9119",
+      "url": "https://frc-events.firstinspires.org/team/9119",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-8a291ac5cd",
+      "title": "FIRST team history: 9431",
+      "url": "https://frc-events.firstinspires.org/team/9431",
+      "publisher_domain": "frc-events.firstinspires.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-291c020dc2",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-85f476ef60",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11700+S+E+00+W%2C+Fairmount%2C+IN+46928&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-7bea0c439b",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=13380+Waldron+Road%2C+Waldron%2C+MI+49288&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        6556
+      ]
+    },
+    {
+      "source_id": "S-7f08e88936",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=200+East+Berry+Street%2C+Fort+Wayne%2C+IN+46802&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-c7155d5363",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=216+Vinewood+Avenue%2C+Sturgis%2C+MI+49091&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-6d9efcb2b4",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2608+California+Road%2C+Elkhart%2C+IN+46514&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-856ebd146a",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=345+S+Elizabeth+Street%2C+Lima%2C+OH+45801&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        3777
+      ]
+    },
+    {
+      "source_id": "S-de5e2072bc",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3601+S+Calhoun+Street%2C+Fort+Wayne%2C+IN+46807&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        10172
+      ]
+    },
+    {
+      "source_id": "S-0a022b5eb1",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3701+Carroll+Road%2C+Fort+Wayne%2C+IN+46818&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-21e062910e",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3709+Cassopolis+Street%2C+Elkhart%2C+IN+46514&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-49193f7419",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4310+Homestead+Road%2C+Fort+Wayne%2C+IN+46814&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-a3dce023d8",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=450+MacGahan+Street%2C+Huntington%2C+IN+46750&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-61541700ef",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4600+Fairlawn+Pass%2C+Fort+Wayne%2C+IN+46815&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-b778b5dd88",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=475+E+State+Boulevard%2C+Fort+Wayne%2C+IN+46805&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-fa02c47c4d",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4971+W+Montgomery+Road%2C+Camden%2C+MI+49232&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        5559
+      ]
+    },
+    {
+      "source_id": "S-c8ef4725d5",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7001+Coldwater+Road%2C+Fort+Wayne%2C+IN+46825&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        10434
+      ]
+    },
+    {
+      "source_id": "S-4fcf5baeed",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        8103,
+        8431,
+        8432
+      ]
+    },
+    {
+      "source_id": "S-a50cf8904f",
+      "title": "U.S. Census Bureau: geocoder result or method documentation",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9100+Winchester+Road%2C+Fort+Wayne%2C+IN+46819&benchmark=Public_AR_Current&format=json",
+      "publisher_domain": "geocoding.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        10411
+      ]
+    },
+    {
+      "source_id": "S-2039de4f00",
+      "title": "hnhs.hccsc.k12.in.us",
+      "url": "https://hnhs.hccsc.k12.in.us/",
+      "publisher_domain": "hnhs.hccsc.k12.in.us",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-8b5a31fb68",
+      "title": "hnhs.hccsc.k12.in.us: services/administration/main office",
+      "url": "https://hnhs.hccsc.k12.in.us/services/administration/main-office",
+      "publisher_domain": "hnhs.hccsc.k12.in.us",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-fa8b49e950",
+      "title": "homestead.sacs.k12.in.us",
+      "url": "https://homestead.sacs.k12.in.us/",
+      "publisher_domain": "homestead.sacs.k12.in.us",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-068836fd15",
+      "title": "homestead.sacs.k12.in.us: home",
+      "url": "https://homestead.sacs.k12.in.us/home",
+      "publisher_domain": "homestead.sacs.k12.in.us",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-fd42e98c58",
+      "title": "hs.eastnoble.net",
+      "url": "https://hs.eastnoble.net/",
+      "publisher_domain": "hs.eastnoble.net",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8103,
+        8431,
+        8432
+      ]
+    },
+    {
+      "source_id": "S-1d4217eb99",
+      "title": "hs.eastnoble.net: page/contact us",
+      "url": "https://hs.eastnoble.net/page/contact-us/",
+      "publisher_domain": "hs.eastnoble.net",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        8103,
+        8431,
+        8432
+      ]
+    },
+    {
+      "source_id": "S-ae56a072c2",
+      "title": "Huntington North High School: Robotics club page",
+      "url": "https://huntingtonnhs.ss13.sharpschool.com/get_involved/clubs/robotics",
+      "publisher_domain": "huntingtonnhs.ss13.sharpschool.com",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-af435a6c0b",
+      "title": "Huntington robotics: community participation FAQ",
+      "url": "https://huntingtonrobotics.org/faq/",
+      "publisher_domain": "huntingtonrobotics.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-4811631100",
+      "title": "limaymca.net: contact us",
+      "url": "https://limaymca.net/contact-us/",
+      "publisher_domain": "limaymca.net",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        3777
+      ]
+    },
+    {
+      "source_id": "S-880476608a",
+      "title": "mghs.mgusc.k12.in.us",
+      "url": "https://mghs.mgusc.k12.in.us/",
+      "publisher_domain": "mghs.mgusc.k12.in.us",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-6625db60f2",
+      "title": "NCES: official school coordinate data or school map",
+      "url": "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0/query?where=NCESSCH+IN+%28%27180327002693%27%2C%27263309006864%27%29&outFields=%2A&returnGeometry=true&outSR=4326&f=json",
+      "publisher_domain": "nces.ed.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-b5f2587529",
+      "title": "NCES: official school coordinate data or school map",
+      "url": "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0?f=pjson",
+      "publisher_domain": "nces.ed.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-7c5ae8147f",
+      "title": "NCES: official school coordinate data or school map",
+      "url": "https://nces.ed.gov/ccd/schoolmap/",
+      "publisher_domain": "nces.ed.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-255a8abdba",
+      "title": "NCES: official school coordinate data or school map",
+      "url": "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=180327002693",
+      "publisher_domain": "nces.ed.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-d9e318b34a",
+      "title": "NCES: official school coordinate data or school map",
+      "url": "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=263309006864",
+      "publisher_domain": "nces.ed.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-22f391e180",
+      "title": "northrop.fortwayneschools.org",
+      "url": "https://northrop.fortwayneschools.org/",
+      "publisher_domain": "northrop.fortwayneschools.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        10434
+      ]
+    },
+    {
+      "source_id": "S-d1a9e9cc45",
+      "title": "northside.fortwayneschools.org: about us/robotics",
+      "url": "https://northside.fortwayneschools.org/about-us/robotics",
+      "publisher_domain": "northside.fortwayneschools.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-f7740cf161",
+      "title": "northside.fortwayneschools.org: contact us",
+      "url": "https://northside.fortwayneschools.org/contact-us",
+      "publisher_domain": "northside.fortwayneschools.org",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-c61273c831",
+      "title": "park.mgusc.k12.in.us: o/mghs/page/contact us",
+      "url": "https://park.mgusc.k12.in.us/o/mghs/page/contact-us",
+      "publisher_domain": "park.mgusc.k12.in.us",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-6ee167d98e",
+      "title": "phyxtgears.org",
+      "url": "https://phyxtgears.org/",
+      "publisher_domain": "phyxtgears.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        1720
+      ]
+    },
+    {
+      "source_id": "S-661b1d60f2",
+      "title": "PhyXTGears: 2026 season and world championship report",
+      "url": "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/",
+      "publisher_domain": "phyxtgears.org",
+      "categories": [
+        "leadership",
+        "school and team"
+      ],
+      "teams": [
+        1720
+      ]
+    },
+    {
+      "source_id": "S-3dfc1bd0a4",
+      "title": "Madison-Grant Live Wire: Eric Cale and Robotics, April 7, 2026",
+      "url": "https://podcasts.apple.com/ma/podcast/eric-cale-and-robotics/id1773140582?i=1000760060708",
+      "publisher_domain": "podcasts.apple.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-57bc48c255",
+      "title": "raw.githubusercontent.com: avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/LICENSE",
+      "url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/LICENSE",
+      "publisher_domain": "raw.githubusercontent.com",
+      "categories": [
+        "Statbotics provenance"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-3db64b86cf",
+      "title": "raw.githubusercontent.com: avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/storage.tsx",
+      "url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/storage.tsx",
+      "publisher_domain": "raw.githubusercontent.com",
+      "categories": [
+        "Statbotics provenance"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-99cde43c12",
+      "title": "raw.githubusercontent.com: avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/teams.tsx",
+      "url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/teams.tsx",
+      "publisher_domain": "raw.githubusercontent.com",
+      "categories": [
+        "Statbotics provenance"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-e747b968f3",
+      "title": "raw.githubusercontent.com: avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/constants.tsx",
+      "url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/constants.tsx",
+      "publisher_domain": "raw.githubusercontent.com",
+      "categories": [
+        "Statbotics provenance"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-30d1e0053f",
+      "title": "The REFINERY: Our Story, People & Facility",
+      "url": "https://refineryrobotics.org/about/",
+      "publisher_domain": "refineryrobotics.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "leadership",
+        "school and team"
+      ],
+      "teams": [
+        1501,
+        4982,
+        8103,
+        8431,
+        8432,
+        8742,
+        9119,
+        9431,
+        10172,
+        10332,
+        10411,
+        10434
+      ]
+    },
+    {
+      "source_id": "S-dd688d7425",
+      "title": "FWCS board minutes: March 13, 2023, Dennis Fisher coaching identification",
+      "url": "https://resources.finalsite.net/images/v1685982230/fwcsk12inus/us2rusjsudqci2p1ltxv/03132023.pdf",
+      "publisher_domain": "resources.finalsite.net",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-3842b89b7d",
+      "title": "FWCS board presentation: FIRST Robotics high schools, February 9, 2026, pages 2 and 7",
+      "url": "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf",
+      "publisher_domain": "resources.finalsite.net",
+      "categories": [
+        "leadership",
+        "linked documents"
+      ],
+      "teams": [
+        9119,
+        9431,
+        10172,
+        10411,
+        10434
+      ]
+    },
+    {
+      "source_id": "S-ccf1f8977a",
+      "title": "shs.sturgisps.org",
+      "url": "https://shs.sturgisps.org/",
+      "publisher_domain": "shs.sturgisps.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-693265d6a7",
+      "title": "shs.sturgisps.org: home",
+      "url": "https://shs.sturgisps.org/home",
+      "publisher_domain": "shs.sturgisps.org",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-2ab4eeaaa0",
+      "title": "snider.fortwayneschools.org",
+      "url": "https://snider.fortwayneschools.org/",
+      "publisher_domain": "snider.fortwayneschools.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-97bc3beb0c",
+      "title": "southside.fortwayneschools.org",
+      "url": "https://southside.fortwayneschools.org/",
+      "publisher_domain": "southside.fortwayneschools.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10172
+      ]
+    },
+    {
+      "source_id": "S-f47b94ba5d",
+      "title": "southside.fortwayneschools.org: contact us",
+      "url": "https://southside.fortwayneschools.org/contact-us",
+      "publisher_domain": "southside.fortwayneschools.org",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        10172
+      ]
+    },
+    {
+      "source_id": "S-55b3bf00e4",
+      "title": "Fairmount Town Council minutes: September 8, 2025, Argyll Attack presentation",
+      "url": "https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf",
+      "publisher_domain": "static1.squarespace.com",
+      "categories": [
+        "leadership",
+        "linked documents"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-dee2520c50",
+      "title": "storage.googleapis.com: site_v1/team_years/2026",
+      "url": "https://storage.googleapis.com/site_v1/team_years/2026",
+      "publisher_domain": "storage.googleapis.com",
+      "categories": [
+        "Statbotics provenance",
+        "rankings"
+      ],
+      "teams": [
+        1501,
+        1720,
+        3777,
+        4982,
+        5559,
+        6556,
+        8103,
+        8431,
+        8432,
+        8742,
+        9119,
+        9431,
+        10172,
+        10332,
+        10411,
+        10434,
+        11407
+      ]
+    },
+    {
+      "source_id": "S-842f7dd4f1",
+      "title": "tigerweb.geo.census.gov: tigerwebmain/Files/acs26/tigerweb_acs26_incplace_in.html",
+      "url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_incplace_in.html",
+      "publisher_domain": "tigerweb.geo.census.gov",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        1720
+      ]
+    },
+    {
+      "source_id": "S-195d71a549",
+      "title": "townofmatthews.com: phyxtgears robotics team 1720",
+      "url": "https://townofmatthews.com/phyxtgears-robotics-team-1720/",
+      "publisher_domain": "townofmatthews.com",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        1720
+      ]
+    },
+    {
+      "source_id": "S-b6bd171752",
+      "title": "PBS Fort Wayne: The 260, Snider Robotics interview and transcript, October 2, 2026",
+      "url": "https://video.wfwa.org/video/science-centrals-new-planetarium-snider-robotics-and-arena-dinner-theatre-4j2kgy/",
+      "publisher_domain": "video.wfwa.org",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-9d9e825189",
+      "title": "wayne.fortwayneschools.org",
+      "url": "https://wayne.fortwayneschools.org/",
+      "publisher_domain": "wayne.fortwayneschools.org",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10411
+      ]
+    },
+    {
+      "source_id": "S-8823a28ee4",
+      "title": "wayne.fortwayneschools.org: contact us",
+      "url": "https://wayne.fortwayneschools.org/contact-us",
+      "publisher_domain": "wayne.fortwayneschools.org",
+      "categories": [
+        "geographic method",
+        "geography"
+      ],
+      "teams": [
+        10411
+      ]
+    },
+    {
+      "source_id": "S-ebd73ec110",
+      "title": "Wilcox Newspapers: SHS robotics team receives recognition, March 27, 2026",
+      "url": "https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/",
+      "publisher_domain": "wilcoxnewspapers.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-ebb83da2ba",
+      "title": "21Alive: Snider world championship preparation; displayed publication April 12, 2024",
+      "url": "https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/",
+      "publisher_domain": "www.21alivenews.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-98c8e0b348",
+      "title": "www.camdenfrontier.org",
+      "url": "https://www.camdenfrontier.org/",
+      "publisher_domain": "www.camdenfrontier.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        5559
+      ]
+    },
+    {
+      "source_id": "S-8983bb4480",
+      "title": "www.cityoffortwayne.in.gov: 1109/Contact Us",
+      "url": "https://www.cityoffortwayne.in.gov/1109/Contact-Us",
+      "publisher_domain": "www.cityoffortwayne.in.gov",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-970016fefa",
+      "title": "www.cityoffortwayne.org: publicworks/52 mayors office/neighborhoods/196 customer service.html",
+      "url": "https://www.cityoffortwayne.org/publicworks/52-mayors-office/neighborhoods/196-customer-service.html",
+      "publisher_domain": "www.cityoffortwayne.org",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-5ae7bca438",
+      "title": "www.e3robotics.org: contact.html",
+      "url": "https://www.e3robotics.org/contact.html",
+      "publisher_domain": "www.e3robotics.org",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-788af9121a",
+      "title": "www.e3robotics.org: k 12 teams.html",
+      "url": "https://www.e3robotics.org/k-12-teams.html",
+      "publisher_domain": "www.e3robotics.org",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-7b2f1b24b1",
+      "title": "Republished KPC News Sun report: East Noble coaches, May 2024",
+      "url": "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+      "publisher_domain": "www.euvolution.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        8103
+      ]
+    },
+    {
+      "source_id": "S-6bc3ec9e37",
+      "title": "Northrop Robotics: official team Facebook, indexed Coach Jacobs mention",
+      "url": "https://www.facebook.com/NorthropRobotics/",
+      "publisher_domain": "www.facebook.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        10434
+      ]
+    },
+    {
+      "source_id": "S-fd1c2fed27",
+      "title": "FIRST Indiana: Board of Directors and mentor biographies",
+      "url": "https://www.firstindianarobotics.org/about-first-indiana-robotics/board-of-directors/",
+      "publisher_domain": "www.firstindianarobotics.org",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-d04a4a13ac",
+      "title": "WLIO: Lima Bean City Bots prepare for Buckeye Regional, March 17, 2026",
+      "url": "https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html",
+      "publisher_domain": "www.hometownstations.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        3777
+      ]
+    },
+    {
+      "source_id": "S-ae90cba4a0",
+      "title": "Olympus Robotics: official team Instagram; indexed 2025–26 captain announcement",
+      "url": "https://www.instagram.com/4982_olympus_robotics/",
+      "publisher_domain": "www.instagram.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-0395aaf5bd",
+      "title": "www.instagram.com: frc1555",
+      "url": "https://www.instagram.com/frc1555/",
+      "publisher_domain": "www.instagram.com",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-ed6399b14e",
+      "title": "Snider Robotics: official team Instagram",
+      "url": "https://www.instagram.com/snider_robotics9431/",
+      "publisher_domain": "www.instagram.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-32fd0e94e0",
+      "title": "Walnut Hill Catering & Events: indexed Snider coach identification",
+      "url": "https://www.instagram.com/walnuthillcatering/",
+      "publisher_domain": "www.instagram.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-b2f253fe7b",
+      "title": "KPC News Sun: East Noble robotics team demonstrates real-world learning",
+      "url": "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html",
+      "publisher_domain": "www.kpcnews.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        8103
+      ]
+    },
+    {
+      "source_id": "S-7510d27efd",
+      "title": "www.linkedin.com: company/e3rc",
+      "url": "https://www.linkedin.com/company/e3rc",
+      "publisher_domain": "www.linkedin.com",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-01bac52452",
+      "title": "Cameron Elder: public professional profile and historical roles",
+      "url": "https://www.linkedin.com/in/camelder",
+      "publisher_domain": "www.linkedin.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-04e10368b6",
+      "title": "Chris Elston: public professional profile",
+      "url": "https://www.linkedin.com/in/chriselston",
+      "publisher_domain": "www.linkedin.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-dcb83b6d86",
+      "title": "Matt Arnold: public professional profile and historical role",
+      "url": "https://www.linkedin.com/in/m4ttbit",
+      "publisher_domain": "www.linkedin.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-335b149918",
+      "title": "Matt Elder: public professional profile",
+      "url": "https://www.linkedin.com/in/matt-elder-24b8b615a",
+      "publisher_domain": "www.linkedin.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-a7612fc1db",
+      "title": "www.linkedin.com: posts/chriselston_this is my yearly first robotics plug to activity 7302732445911527424 p7cI",
+      "url": "https://www.linkedin.com/posts/chriselston_this-is-my-yearly-first-robotics-plug-to-activity-7302732445911527424-p7cI",
+      "publisher_domain": "www.linkedin.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-e8e6451dda",
+      "title": "Purdue Fort Wayne: North Side robotics team boosted by PFW presence",
+      "url": "https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence",
+      "publisher_domain": "www.pfw.edu",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-dcef9e15b9",
+      "title": "Statbotics 2026 profile: team 10172",
+      "url": "https://www.statbotics.io/team/10172/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10172
+      ]
+    },
+    {
+      "source_id": "S-874fa1f02b",
+      "title": "Statbotics 2026 profile: team 10332",
+      "url": "https://www.statbotics.io/team/10332/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10332
+      ]
+    },
+    {
+      "source_id": "S-76d6cae337",
+      "title": "Statbotics 2026 profile: team 10411",
+      "url": "https://www.statbotics.io/team/10411/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10411
+      ]
+    },
+    {
+      "source_id": "S-2dcbb7d4eb",
+      "title": "Statbotics 2026 profile: team 10434",
+      "url": "https://www.statbotics.io/team/10434/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        10434
+      ]
+    },
+    {
+      "source_id": "S-4ccc8048d6",
+      "title": "Statbotics 2026 profile: team 11407",
+      "url": "https://www.statbotics.io/team/11407/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        11407
+      ]
+    },
+    {
+      "source_id": "S-dbd5a14b4e",
+      "title": "Statbotics 2026 profile: team 1501",
+      "url": "https://www.statbotics.io/team/1501/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        1501
+      ]
+    },
+    {
+      "source_id": "S-6befec500f",
+      "title": "Statbotics 2026 profile: team 1720",
+      "url": "https://www.statbotics.io/team/1720/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        1720
+      ]
+    },
+    {
+      "source_id": "S-e36e7de7a3",
+      "title": "Statbotics 2026 profile: team 3777",
+      "url": "https://www.statbotics.io/team/3777/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        3777
+      ]
+    },
+    {
+      "source_id": "S-34a882e0e3",
+      "title": "Statbotics 2026 profile: team 4982",
+      "url": "https://www.statbotics.io/team/4982/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        4982
+      ]
+    },
+    {
+      "source_id": "S-02667276a5",
+      "title": "Statbotics 2026 profile: team 5559",
+      "url": "https://www.statbotics.io/team/5559/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        5559
+      ]
+    },
+    {
+      "source_id": "S-48b50774b1",
+      "title": "Statbotics 2026 profile: team 6556",
+      "url": "https://www.statbotics.io/team/6556/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        6556
+      ]
+    },
+    {
+      "source_id": "S-657af3e200",
+      "title": "Statbotics 2026 profile: team 8103",
+      "url": "https://www.statbotics.io/team/8103/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8103
+      ]
+    },
+    {
+      "source_id": "S-8cd258c2ef",
+      "title": "Statbotics 2026 profile: team 8431",
+      "url": "https://www.statbotics.io/team/8431/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8431
+      ]
+    },
+    {
+      "source_id": "S-11541033b6",
+      "title": "Statbotics 2026 profile: team 8432",
+      "url": "https://www.statbotics.io/team/8432/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8432
+      ]
+    },
+    {
+      "source_id": "S-df9bfa7206",
+      "title": "Statbotics 2026 profile: team 8742",
+      "url": "https://www.statbotics.io/team/8742/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        8742
+      ]
+    },
+    {
+      "source_id": "S-fffa50fdc8",
+      "title": "Statbotics 2026 profile: team 9119",
+      "url": "https://www.statbotics.io/team/9119/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        9119
+      ]
+    },
+    {
+      "source_id": "S-aadbb53c2f",
+      "title": "Statbotics 2026 profile: team 9431",
+      "url": "https://www.statbotics.io/team/9431/2026",
+      "publisher_domain": "www.statbotics.io",
+      "categories": [
+        "school and team"
+      ],
+      "teams": [
+        9431
+      ]
+    },
+    {
+      "source_id": "S-3c0ede0ac9",
+      "title": "The 74: Amp Lab feature, March 25, 2026, Alfy Krider identification",
+      "url": "https://www.the74million.org/article/building-a-mindset-amp-lab-makes-entrepreneurship-work-skills-its-mission/",
+      "publisher_domain": "www.the74million.org",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        10434
+      ]
+    },
+    {
+      "source_id": "S-9d4f0d8602",
+      "title": "www.thebluealliance.com: team/6181",
+      "url": "https://www.thebluealliance.com/team/6181",
+      "publisher_domain": "www.thebluealliance.com",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    },
+    {
+      "source_id": "S-d5a05044fc",
+      "title": "Trine University: East Noble robotics program and Shawn Kimmel",
+      "url": "https://www.trine.edu/news/2019/east-noble-robotics.aspx",
+      "publisher_domain": "www.trine.edu",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        8103
+      ]
+    },
+    {
+      "source_id": "S-395cb24435",
+      "title": "www.waldronspartans.org",
+      "url": "https://www.waldronspartans.org/",
+      "publisher_domain": "www.waldronspartans.org",
+      "categories": [
+        "geographic method",
+        "geography",
+        "school and team"
+      ],
+      "teams": [
+        6556
+      ]
+    },
+    {
+      "source_id": "S-5c79d99605",
+      "title": "Waldron official school feed: January 2024 Coach Fuller announcement",
+      "url": "https://www.waldronspartans.org/live-feed?page_no=66",
+      "publisher_domain": "www.waldronspartans.org",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        6556
+      ]
+    },
+    {
+      "source_id": "S-7c408e19ca",
+      "title": "Waldron official school feed: December 2023 Mike Fuller contact announcement",
+      "url": "https://www.waldronspartans.org/live-feed?page_no=67",
+      "publisher_domain": "www.waldronspartans.org",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        6556
+      ]
+    },
+    {
+      "source_id": "S-fba1e4ddb3",
+      "title": "www.weebly.com: weebly/apps/generateMap.php",
+      "url": "https://www.weebly.com/weebly/apps/generateMap.php?map=google&elementid=359455272814300973&ineditor=0&control=3&width=auto&height=250px&overviewmap=0&scalecontrol=0&typecontrol=0&zoom=14&long=-85.9749921&lat=41.7424151&domain=www&point=1&align=1&reseller=false",
+      "publisher_domain": "www.weebly.com",
+      "categories": [
+        "geographic method"
+      ],
+      "teams": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "year": 2026,
+  "description": "Frozen values independently recorded during the initial research. Review changes explicitly; never replace this baseline automatically.",
+  "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+  "source_last_modified": "Fri, 12 Jun 2026 02:51:19 GMT",
+  "raw_sha256": "0059dfe792a03f257cf20d94580daab4d669e955e8a08c409d98acf80fd790b3",
+  "global_team_year_count": 3724,
+  "teams": [
+    {"team": 1501, "epa": 118.71, "state": "IN", "state_rank": 12, "state_team_count": 68, "world_rank": 438, "world_team_count": 3724},
+    {"team": 1720, "epa": 118.52, "state": "IN", "state_rank": 13, "state_team_count": 68, "world_rank": 440, "world_team_count": 3724},
+    {"team": 9119, "epa": 75.10, "state": "IN", "state_rank": 22, "state_team_count": 68, "world_rank": 868, "world_team_count": 3724},
+    {"team": 9431, "epa": 68.51, "state": "IN", "state_rank": 24, "state_team_count": 68, "world_rank": 984, "world_team_count": 3724},
+    {"team": 4982, "epa": 58.80, "state": "IN", "state_rank": 27, "state_team_count": 68, "world_rank": 1147, "world_team_count": 3724},
+    {"team": 10434, "epa": 35.84, "state": "IN", "state_rank": 43, "state_team_count": 68, "world_rank": 1931, "world_team_count": 3724},
+    {"team": 8103, "epa": 35.10, "state": "IN", "state_rank": 45, "state_team_count": 68, "world_rank": 1975, "world_team_count": 3724},
+    {"team": 10332, "epa": 34.76, "state": "IN", "state_rank": 46, "state_team_count": 68, "world_rank": 1990, "world_team_count": 3724},
+    {"team": 8742, "epa": 29.46, "state": "IN", "state_rank": 48, "state_team_count": 68, "world_rank": 2279, "world_team_count": 3724},
+    {"team": 10172, "epa": 21.15, "state": "IN", "state_rank": 55, "state_team_count": 68, "world_rank": 2889, "world_team_count": 3724},
+    {"team": 8431, "epa": 17.19, "state": "IN", "state_rank": 58, "state_team_count": 68, "world_rank": 3139, "world_team_count": 3724},
+    {"team": 10411, "epa": 14.60, "state": "IN", "state_rank": 63, "state_team_count": 68, "world_rank": 3301, "world_team_count": 3724},
+    {"team": 8432, "epa": 8.84, "state": "IN", "state_rank": 66, "state_team_count": 68, "world_rank": 3549, "world_team_count": 3724},
+    {"team": 5559, "epa": 58.04, "state": "MI", "state_rank": 181, "state_team_count": 530, "world_rank": 1174, "world_team_count": 3724},
+    {"team": 3777, "epa": 36.38, "state": "OH", "state_rank": 36, "state_team_count": 60, "world_rank": 1897, "world_team_count": 3724},
+    {"team": 6556, "epa": 27.19, "state": "MI", "state_rank": 346, "state_team_count": 530, "world_rank": 2432, "world_team_count": 3724},
+    {"team": 11407, "epa": 21.93, "state": "MI", "state_rank": 410, "state_team_count": 530, "world_rank": 2842, "world_team_count": 3724}
+  ]
+}

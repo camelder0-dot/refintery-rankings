@@ -1,0 +1,51 @@
+{
+  "commit": "169330ecef38a4f614356ac0b0caa156f2180021",
+  "files": [
+    {
+      "line_ranges": [
+        [
+          3,
+          10
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "saved_file": "constants.excerpt.tsx",
+      "saved_sha256": "2974d590ad49d995605bc124222e0fada86a04206ae7c6d9501ba5d5c628dd26",
+      "source_url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/constants.tsx",
+      "upstream_bytes": 9839,
+      "upstream_path": "frontend/src/constants.tsx",
+      "upstream_sha256": "578393a0285477a1538aff5155a50c5ed1f163051ef6cd23ec0799fdd87365e3"
+    },
+    {
+      "line_ranges": null,
+      "saved_file": "teams.tsx",
+      "saved_sha256": "b78c42554f3235a37c57016da7fe0c26d386dc2574d9565f0439752b2bbf1c09",
+      "source_url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/teams.tsx",
+      "upstream_bytes": 983,
+      "upstream_path": "frontend/src/api/teams.tsx",
+      "upstream_sha256": "b78c42554f3235a37c57016da7fe0c26d386dc2574d9565f0439752b2bbf1c09"
+    },
+    {
+      "line_ranges": null,
+      "saved_file": "storage.tsx",
+      "saved_sha256": "30d717b5dfc5aaeaecdb9234d1e19865f0076673691e8e5a4ad870dd2f684557",
+      "source_url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/frontend/src/api/storage.tsx",
+      "upstream_bytes": 2276,
+      "upstream_path": "frontend/src/api/storage.tsx",
+      "upstream_sha256": "30d717b5dfc5aaeaecdb9234d1e19865f0076673691e8e5a4ad870dd2f684557"
+    },
+    {
+      "line_ranges": null,
+      "saved_file": "LICENSE",
+      "saved_sha256": "45914395d2c6d373794264e031ecf58c07b8995af2eed5cd8782a396c4e9911d",
+      "source_url": "https://raw.githubusercontent.com/avgupta456/statbotics/169330ecef38a4f614356ac0b0caa156f2180021/LICENSE",
+      "upstream_bytes": 1070,
+      "upstream_path": "LICENSE",
+      "upstream_sha256": "45914395d2c6d373794264e031ecf58c07b8995af2eed5cd8782a396c4e9911d"
+    }
+  ],
+  "repository": "https://github.com/avgupta456/statbotics"
+}

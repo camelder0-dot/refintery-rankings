@@ -1,0 +1,3007 @@
+{
+  "schema_version": "1.0",
+  "publication": {
+    "schema_version": "1.0",
+    "title": "FIRST Robotics teams around Fort Wayne",
+    "repository_url": "https://github.com/horner/refintery-rankings",
+    "research_date": "2026-10-22",
+    "competition_season": 2026,
+    "season_history_cutoff": 2026,
+    "radius_miles": 60,
+    "distance_definition": "Straight-line great-circle distance, not road travel distance",
+    "statbotics_snapshot_directory": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0",
+    "first_history_artifact": "artifacts/first/season-history-through-2026.json",
+    "rankings_last_modified_utc": "2026-06-12T02:51:19Z",
+    "leadership_policy": "Preserve exact documented role and evidence date. A mentor, drive-team captain, representative, former captain, or indexed first-name-only announcement is not silently upgraded to current overall captain or head coach.",
+    "artifact_preservation_note": "No report or spreadsheet file was saved in the initial chat research. The repository package is newly assembled from that research and fresh captures, with source timestamps preserved and new capture times recorded. It does not contain private conversation context or internal reasoning."
+  },
+  "distance_origin": {
+    "name": "Citizens Square (operational downtown Fort Wayne reference)",
+    "address": "200 East Berry Street, Fort Wayne, IN 46802",
+    "coordinates": {
+      "latitude": 41.079467666017,
+      "longitude": -85.137939575106
+    },
+    "source_accessed_date": "2026-10-22",
+    "address_source_urls": [
+      "https://www.cityoffortwayne.in.gov/1109/Contact-Us",
+      "https://www.cityoffortwayne.org/publicworks/52-mayors-office/neighborhoods/196-customer-service.html"
+    ],
+    "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=200+East+Berry+Street%2C+Fort+Wayne%2C+IN+46802&benchmark=Public_AR_Current&format=json",
+    "coordinate_method": "U.S. Census Bureau address-range interpolation",
+    "coordinate_evidence": {
+      "benchmark": {
+        "isDefault": true,
+        "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+        "id": "4",
+        "benchmarkName": "Public_AR_Current"
+      },
+      "matched_address": "200 E BERRY ST, FORT WAYNE, IN, 46802",
+      "tiger_line": {
+        "side": "R",
+        "tigerLineId": "6379317"
+      },
+      "returned_coordinates": {
+        "x": -85.137939575106,
+        "y": 41.079467666017
+      }
+    },
+    "note": "A fixed, documented civic address in downtown Fort Wayne. Not the city geographic centroid, an entire downtown polygon, or a recovered original study origin."
+  },
+  "distance_method": {
+    "program": "FIRST Robotics Competition (FRC)",
+    "included_team_count": 17,
+    "indiana_team_count": 13,
+    "nearby_border_team_count": 4,
+    "excluded_programs": [
+      "FIRST Tech Challenge (FTC)",
+      "FIRST LEGO League (FLL)"
+    ],
+    "radius_miles": 60,
+    "comparison": "distance_miles <= 60 using unrounded calculation",
+    "distance_type": "great-circle straight-line surface distance (haversine approximation)",
+    "earth_radius_miles": 3958.7613,
+    "driving_distance": false,
+    "location_rule": "Linked high-school campus or community-host reference point; Matthews uses a clearly labeled town representative point because a physical team address was not confirmed.",
+    "exhaustiveness_note": "This file verifies the identified roster and named exclusions. It is not a census of every FIRST program, a verified inventory of all team workshops, or proof that no unlisted community team exists."
+  },
+  "teams": [
+    {
+      "team_number": 1501,
+      "team_name": "Team THRUST",
+      "school_or_organization": "Huntington North High School / Huntington County 4-H",
+      "school_url": "https://hnhs.hccsc.k12.in.us/",
+      "city": "Huntington",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school_and_community",
+      "affiliation_notes": "School connection plus community 4-H program; participation is not restricted to one high school.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/1501",
+      "first_history_url": "https://frc-events.firstinspires.org/team/1501",
+      "statbotics_url": "https://www.statbotics.io/team/1501/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/1501",
+        "https://refineryrobotics.org/about/",
+        "https://huntingtonnhs.ss13.sharpschool.com/get_involved/clubs/robotics",
+        "https://huntingtonrobotics.org/faq/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 118.71,
+        "epa_standard_deviation": 30.61,
+        "state_rank": 12,
+        "state_team_count": 68,
+        "world_rank": 438,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 1501,
+        "source_url": "https://frc-events.firstinspires.org/team/1501",
+        "resolved_url": "https://frc-events.firstinspires.org/team/1501",
+        "retrieved_at_utc": "2026-10-22T04:30:15.738069+00:00",
+        "response_sha256": "9f3f39aedd822c7b9b9f5d64ee6305db72ed5cb8ac46f2e5ed36b73d0217e44d",
+        "response_bytes": 113137,
+        "response_last_modified": null,
+        "official_rookie_year": 2005,
+        "source_headline_seasons_competed": 23,
+        "all_listed_seasons": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2005,
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 22,
+        "first_recorded_season": 2005,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 1501,
+        "adults": [
+          {
+            "name": "Chris Elston",
+            "role": "Lead Engineering Mentor, Huntington 4-H Robotics",
+            "evidence_date": null,
+            "date_precision": "undated",
+            "source_urls": [
+              "https://www.linkedin.com/in/chriselston",
+              "https://www.linkedin.com/posts/chriselston_this-is-my-yearly-first-robotics-plug-to-activity-7302732445911527424-p7cI"
+            ],
+            "evidence_status": "self_reported_undated",
+            "notes": "Public professional profile lists July 2004 to Present. A 2025 public post corroborates his association with THRUST 1501. The profile is undated; the head-coach title and a 2026-27 appointment are not independently verified."
+          }
+        ],
+        "students": [],
+        "other_representatives": [],
+        "gaps": [
+          "Student team captain not verified.",
+          "Current formally designated head coach not independently verified; the documented title is Lead Engineering Mentor."
+        ]
+      },
+      "geography": {
+        "team_number": 1501,
+        "team_name": "Team THRUST",
+        "school_or_organization": "Huntington North High School / Huntington County 4-H",
+        "city": "Huntington",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "huntington_north",
+        "distance_miles": 23.345474,
+        "display_distance_miles": 23.3,
+        "within_radius": true,
+        "radius_margin_miles": 36.654526,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Uses the linked high school's address for a school/community 4-H program; a separate workshop was not established.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/1501",
+          "https://refineryrobotics.org/about/",
+          "https://huntingtonnhs.ss13.sharpschool.com/get_involved/clubs/robotics",
+          "https://huntingtonrobotics.org/faq/"
+        ],
+        "location": {
+          "location_id": "huntington_north",
+          "name": "Huntington North High School",
+          "reference_type": "school_address_proxy",
+          "address": "450 MacGahan Street, Huntington, IN 46750",
+          "address_source_url": "https://hnhs.hccsc.k12.in.us/services/administration/main-office",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 40.889982537463,
+            "longitude": -85.50852709779
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=450+MacGahan+Street%2C+Huntington%2C+IN+46750&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=450+MacGahan+Street%2C+Huntington%2C+IN+46750&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "450 MCGAHAN ST, HUNTINGTON, IN, 46750",
+            "tiger_line": {
+              "side": "L",
+              "tigerLineId": "6552182"
+            },
+            "returned_coordinates": {
+              "x": -85.50852709779,
+              "y": 40.889982537463
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://hnhs.hccsc.k12.in.us/services/administration/main-office",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=450+MacGahan+Street%2C+Huntington%2C+IN+46750&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-04e10368b6",
+        "S-2039de4f00",
+        "S-30d1e0053f",
+        "S-611d3b559d",
+        "S-8b5a31fb68",
+        "S-a3dce023d8",
+        "S-a7612fc1db",
+        "S-ae56a072c2",
+        "S-af435a6c0b",
+        "S-dbd5a14b4e",
+        "S-dee2520c50",
+        "S-ed7f97233c"
+      ]
+    },
+    {
+      "team_number": 1720,
+      "team_name": "PhyXTGears",
+      "school_or_organization": "East Central Indiana Robotics (community team)",
+      "school_url": "https://phyxtgears.org/",
+      "city": "Matthews",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "community",
+      "affiliation_notes": "Community team with no single exclusive high-school affiliation.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/1720",
+      "first_history_url": "https://frc-events.firstinspires.org/team/1720",
+      "statbotics_url": "https://www.statbotics.io/team/1720/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/1720",
+        "https://phyxtgears.org/",
+        "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 118.52,
+        "epa_standard_deviation": 22.26,
+        "state_rank": 13,
+        "state_team_count": 68,
+        "world_rank": 440,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 1720,
+        "source_url": "https://frc-events.firstinspires.org/team/1720",
+        "resolved_url": "https://frc-events.firstinspires.org/team/1720",
+        "retrieved_at_utc": "2026-10-22T04:30:15.809910+00:00",
+        "response_sha256": "91f26d6145426933c4244e92e4caccb8d4b75842ac4bf389a57e1283798f5416",
+        "response_bytes": 78787,
+        "response_last_modified": null,
+        "official_rookie_year": 2006,
+        "source_headline_seasons_competed": 22,
+        "all_listed_seasons": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2006,
+          2007,
+          2008,
+          2009,
+          2010,
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 21,
+        "first_recorded_season": 2006,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 1720,
+        "adults": [
+          {
+            "name": "Shawn VanNess",
+            "role": "Team president",
+            "evidence_date": "2026-05-15",
+            "date_precision": "day",
+            "source_urls": [
+              "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "Official team season report names the president. Publication date is May 15, 2026; the page also displays a May 23 update."
+          },
+          {
+            "name": "Mike Koch",
+            "role": "Mechanical mentor and co-founder",
+            "evidence_date": "2026-05-15",
+            "date_precision": "day",
+            "source_urls": [
+              "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "Official team report supplies these roles; it does not identify him as head coach."
+          }
+        ],
+        "students": [],
+        "other_representatives": [],
+        "gaps": [
+          "Student team captain not verified.",
+          "A separately designated head coach is not established by the cited team report."
+        ]
+      },
+      "geography": {
+        "team_number": 1720,
+        "team_name": "PhyXTGears",
+        "school_or_organization": "East Central Indiana Robotics (community team)",
+        "city": "Matthews",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "matthews_town",
+        "distance_miles": 51.391027,
+        "display_distance_miles": 51.4,
+        "within_radius": true,
+        "radius_margin_miles": 8.608973,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "town_screening",
+        "certainty_notes": "Included on town-based screening. The point is Matthews town, not a school or a confirmed team workshop. The approximately 8.6-mile margin is not a bound on workshop-location uncertainty.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/1720",
+          "https://phyxtgears.org/",
+          "https://townofmatthews.com/phyxtgears-robotics-team-1720/"
+        ],
+        "location": {
+          "location_id": "matthews_town",
+          "name": "Matthews town, Indiana",
+          "reference_type": "town_representative_point",
+          "address": null,
+          "address_source_url": null,
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 40.3874569,
+            "longitude": -85.4977783
+          },
+          "coordinate_method": "U.S. Census TIGERweb incorporated-place internal point",
+          "coordinate_source_url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_incplace_in.html",
+          "coordinate_evidence": {
+            "dataset": "State of Indiana Incorporated Places - Current/ACS26",
+            "data_as_of": "2026-01-01",
+            "GEOID": "1847592",
+            "NAME": "Matthews town",
+            "INTPTLAT": "+40.3874569",
+            "INTPTLON": "-085.4977783",
+            "CENTLAT": "+40.3874569",
+            "CENTLON": "-085.4977783"
+          },
+          "precision_note": "Town-based screening only. The municipal team page establishes Matthews as the team location but supplies a PO box; no physical team workshop was geocoded.",
+          "team_location_source_url": "https://townofmatthews.com/phyxtgears-robotics-team-1720/",
+          "source_urls": [
+            "https://townofmatthews.com/phyxtgears-robotics-team-1720/",
+            "https://phyxtgears.org/",
+            "https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_incplace_in.html"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-195d71a549",
+        "S-661b1d60f2",
+        "S-6befec500f",
+        "S-6ee167d98e",
+        "S-77fdc41cf1",
+        "S-842f7dd4f1",
+        "S-dee2520c50",
+        "S-f0abf80e10"
+      ]
+    },
+    {
+      "team_number": 9119,
+      "team_name": "Iron Legends",
+      "school_or_organization": "North Side High School",
+      "school_url": "https://northside.fortwayneschools.org/about-us/robotics",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/9119",
+      "first_history_url": "https://frc-events.firstinspires.org/team/9119",
+      "statbotics_url": "https://www.statbotics.io/team/9119/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/9119",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 75.1,
+        "epa_standard_deviation": 24.38,
+        "state_rank": 22,
+        "state_team_count": 68,
+        "world_rank": 868,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 9119,
+        "source_url": "https://frc-events.firstinspires.org/team/9119",
+        "resolved_url": "https://frc-events.firstinspires.org/team/9119",
+        "retrieved_at_utc": "2026-10-22T04:30:15.825642+00:00",
+        "response_sha256": "dc84dedc0d722f3aea4ae36182eae087968a06e2226fec56e308a90c75c165cd",
+        "response_bytes": 27176,
+        "response_last_modified": null,
+        "official_rookie_year": 2023,
+        "source_headline_seasons_competed": 5,
+        "all_listed_seasons": [
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 4,
+        "first_recorded_season": 2023,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 9119,
+        "adults": [
+          {
+            "name": "Dennis Fisher",
+            "role": "Coach and North Side teacher",
+            "evidence_date": "2025-01-23",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence",
+              "https://resources.finalsite.net/images/v1685982230/fwcsk12inus/us2rusjsudqci2p1ltxv/03132023.pdf"
+            ],
+            "evidence_status": "verified_historical",
+            "notes": "FWCS board minutes dated March 13, 2023 explicitly identify Fisher as coach of the Iron Legends. Purdue Fort Wayne reporting on January 23, 2025 corroborates his teaching and team-guidance role. A 2026-27 appointment was not verified."
+          },
+          {
+            "name": "Drew Clem",
+            "role": "College mentor",
+            "evidence_date": "2025-01-23",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence"
+            ],
+            "evidence_status": "verified_historical",
+            "notes": "Purdue Fort Wayne identifies Clem as an electrical engineering senior assisting the school robotics team. The role is mentor; he is not identified as lead coach or a high-school student captain."
+          }
+        ],
+        "students": [],
+        "other_representatives": [
+          {
+            "name": "Zen Gunawardhana",
+            "role": "Student team representative at FWCS board presentation",
+            "evidence_date": "2026-02-09",
+            "date_precision": "day",
+            "source_urls": [
+              "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "The district presentation identifies a team representative; it does not identify a captain."
+          }
+        ],
+        "gaps": [
+          "Current adult lead appointment not confirmed beyond the January 2025 reporting.",
+          "Student team captain not verified; the February 2026 presentation identifies a representative."
+        ]
+      },
+      "geography": {
+        "team_number": 9119,
+        "team_name": "Iron Legends",
+        "school_or_organization": "North Side High School",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "north_side",
+        "distance_miles": 1.18469,
+        "display_distance_miles": 1.2,
+        "within_radius": true,
+        "radius_margin_miles": 58.81531,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/9119",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "north_side",
+          "name": "North Side High School",
+          "reference_type": "school_address_proxy",
+          "address": "475 E State Boulevard, Fort Wayne, IN 46805",
+          "address_source_url": "https://northside.fortwayneschools.org/contact-us",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.096470344316,
+            "longitude": -85.135002263954
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=475+E+State+Boulevard%2C+Fort+Wayne%2C+IN+46805&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=475+E+State+Boulevard%2C+Fort+Wayne%2C+IN+46805&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "475 E STATE BLVD, FORT WAYNE, IN, 46805",
+            "tiger_line": {
+              "side": "L",
+              "tigerLineId": "6378864"
+            },
+            "returned_coordinates": {
+              "x": -85.135002263954,
+              "y": 41.096470344316
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://northside.fortwayneschools.org/contact-us",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=475+E+State+Boulevard%2C+Fort+Wayne%2C+IN+46805&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-266d196c6e",
+        "S-30d1e0053f",
+        "S-3842b89b7d",
+        "S-b778b5dd88",
+        "S-d1a9e9cc45",
+        "S-dd688d7425",
+        "S-dee2520c50",
+        "S-e8e6451dda",
+        "S-f7740cf161",
+        "S-fae53d86dc",
+        "S-fffa50fdc8"
+      ]
+    },
+    {
+      "team_number": 9431,
+      "team_name": "The Gold Standard",
+      "school_or_organization": "R. Nelson Snider High School",
+      "school_url": "https://snider.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Team formed in September 2023; first official FRC season was 2024.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/9431",
+      "first_history_url": "https://frc-events.firstinspires.org/team/9431",
+      "statbotics_url": "https://www.statbotics.io/team/9431/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/9431",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 68.51,
+        "epa_standard_deviation": 13.69,
+        "state_rank": 24,
+        "state_team_count": 68,
+        "world_rank": 984,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 9431,
+        "source_url": "https://frc-events.firstinspires.org/team/9431",
+        "resolved_url": "https://frc-events.firstinspires.org/team/9431",
+        "retrieved_at_utc": "2026-10-22T04:30:15.829770+00:00",
+        "response_sha256": "4270d0e8a4da0d483d13316dd01a28a59b0237fd2ddadc30f56f1a6f02ab8e4d",
+        "response_bytes": 27778,
+        "response_last_modified": null,
+        "official_rookie_year": 2024,
+        "source_headline_seasons_competed": 4,
+        "all_listed_seasons": [
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 3,
+        "first_recorded_season": 2024,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 9431,
+        "adults": [
+          {
+            "name": "John Todor",
+            "role": "Founding-period coach; publicly identified coach/director",
+            "evidence_date": null,
+            "date_precision": "undated",
+            "source_urls": [
+              "https://refineryrobotics.org/about/",
+              "https://www.instagram.com/walnuthillcatering/",
+              "https://www.instagram.com/snider_robotics9431/"
+            ],
+            "evidence_status": "qualified_indexed",
+            "notes": "The REFINERY biography of Connor Rey identifies Mr. Todor as his coach during the founding period beginning in 2023. An indexed public event-host caption supplies John Todor and the coach/director title; its date and post permalink were not retrieved. Team-account references to Todor corroborate the connection, but a current 2026-27 appointment is not established."
+          },
+          {
+            "name": "Doug Horner",
+            "role": "Sponsor and adult team spokesperson",
+            "evidence_date": "2024-04-12",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/",
+              "https://refineryrobotics.org/about/"
+            ],
+            "evidence_status": "verified_historical",
+            "notes": "The 21Alive page displays publication on April 12, 2024 at 11:38 PM EDT, although its URL uses April 13. It describes his work with the club and quotes him about the program; The REFINERY biography corroborates rookie-year sponsorship. No formal head-coach appointment is asserted."
+          }
+        ],
+        "students": [
+          {
+            "name": "Nick Sims",
+            "role": "Team captain and driver, described retrospectively in interview",
+            "evidence_date": "2026-10-02",
+            "date_precision": "day",
+            "source_urls": [
+              "https://video.wfwa.org/video/science-centrals-new-planetarium-snider-robotics-and-arena-dinner-theatre-4j2kgy/"
+            ],
+            "evidence_status": "verified_dated_retrospective",
+            "notes": "In PBS Fort Wayne The 260, Sims identifies his team-captain role and separately describes driving. The interview is retrospective and mentions college plans. The broadcast date does not verify a current 2026-27 captain appointment or define an exact term."
+          }
+        ],
+        "other_representatives": [
+          {
+            "name": "Nick Sims",
+            "role": "Student team representative at FWCS board presentation",
+            "evidence_date": "2026-02-09",
+            "date_precision": "day",
+            "source_urls": [
+              "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "The district presentation identifies a team representative; it does not identify a captain."
+          },
+          {
+            "name": "Connor Rey",
+            "role": "Student team representative at FWCS board presentation",
+            "evidence_date": "2026-02-09",
+            "date_precision": "day",
+            "source_urls": [
+              "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "The district presentation identifies a team representative; it does not identify a captain."
+          }
+        ],
+        "gaps": [
+          "Current 2026-27 student captain not verified; Nick Sims is a documented recent captain.",
+          "John Todor identification combines an undated primary partner biography with indexed public social content.",
+          "A current formally designated adult lead was not independently confirmed."
+        ]
+      },
+      "geography": {
+        "team_number": 9431,
+        "team_name": "The Gold Standard",
+        "school_or_organization": "R. Nelson Snider High School",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "snider",
+        "distance_miles": 3.42215,
+        "display_distance_miles": 3.4,
+        "within_radius": true,
+        "radius_margin_miles": 56.57785,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/9431",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "snider",
+          "name": "R. Nelson Snider High School",
+          "reference_type": "school_address_proxy",
+          "address": "4600 Fairlawn Pass, Fort Wayne, IN 46815",
+          "address_source_url": "https://snider.fortwayneschools.org/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.108642658777,
+            "longitude": -85.084830511951
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4600+Fairlawn+Pass%2C+Fort+Wayne%2C+IN+46815&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4600+Fairlawn+Pass%2C+Fort+Wayne%2C+IN+46815&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "4600 FAIRLAWN PASS, FORT WAYNE, IN, 46815",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "6385182"
+            },
+            "returned_coordinates": {
+              "x": -85.084830511951,
+              "y": 41.108642658777
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://snider.fortwayneschools.org/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4600+Fairlawn+Pass%2C+Fort+Wayne%2C+IN+46815&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-2ab4eeaaa0",
+        "S-30d1e0053f",
+        "S-32fd0e94e0",
+        "S-3842b89b7d",
+        "S-61541700ef",
+        "S-8a291ac5cd",
+        "S-aadbb53c2f",
+        "S-b6bd171752",
+        "S-dee2520c50",
+        "S-ebb83da2ba",
+        "S-ed451c32bd",
+        "S-ed6399b14e"
+      ]
+    },
+    {
+      "team_number": 4982,
+      "team_name": "Olympus Robotics",
+      "school_or_organization": "Homestead High School",
+      "school_url": "https://homestead.sacs.k12.in.us/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "This is the Indiana Homestead program; homesteadrobotics.com describes a different school's program.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/4982",
+      "first_history_url": "https://frc-events.firstinspires.org/team/4982",
+      "statbotics_url": "https://www.statbotics.io/team/4982/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/4982",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 58.8,
+        "epa_standard_deviation": 16.78,
+        "state_rank": 27,
+        "state_team_count": 68,
+        "world_rank": 1147,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 4982,
+        "source_url": "https://frc-events.firstinspires.org/team/4982",
+        "resolved_url": "https://frc-events.firstinspires.org/team/4982",
+        "retrieved_at_utc": "2026-10-22T04:30:18.513440+00:00",
+        "response_sha256": "663ca26681facdb2ec2f47fd88a0735a7255d478e3c04a63c800d94af729f550",
+        "response_bytes": 49364,
+        "response_last_modified": null,
+        "official_rookie_year": 2014,
+        "source_headline_seasons_competed": 14,
+        "all_listed_seasons": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 13,
+        "first_recorded_season": 2014,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [
+          2020,
+          2021
+        ],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 4982,
+        "adults": [
+          {
+            "name": "Matt Elder",
+            "role": "Lead coach / mentor",
+            "evidence_date": null,
+            "date_precision": "undated",
+            "source_urls": [
+              "https://www.linkedin.com/in/matt-elder-24b8b615a"
+            ],
+            "evidence_status": "self_reported_undated",
+            "notes": "Role appears on a public professional profile. No dated school appointment or current-season appointment was independently verified."
+          },
+          {
+            "name": "Cameron Elder",
+            "role": "Assistant coach",
+            "evidence_date": null,
+            "date_precision": "undated",
+            "source_urls": [
+              "https://refineryrobotics.org/about/"
+            ],
+            "evidence_status": "verified_undated",
+            "notes": "The REFINERY biography expressly identifies him as assistant coach of Team 4982. It also identifies him as a graduate and former student captain, so he is not listed as a current student captain."
+          }
+        ],
+        "students": [
+          {
+            "name": "Jasroop",
+            "role": "Named in the team captain / assistant captain announcement",
+            "evidence_date": "2025-2026",
+            "date_precision": "school_year",
+            "source_urls": [
+              "https://www.instagram.com/4982_olympus_robotics/"
+            ],
+            "evidence_status": "qualified_indexed",
+            "notes": "Official team account search-indexed caption pairs Jasroop and Jake with captain and assistant captain for 2025-2026, in that order. A full surname, stable post permalink, and independent confirmation of the individual title assignment were not retrieved. Do not silently convert the caption order into a verified individual appointment."
+          },
+          {
+            "name": "Jake",
+            "role": "Named in the team captain / assistant captain announcement",
+            "evidence_date": "2025-2026",
+            "date_precision": "school_year",
+            "source_urls": [
+              "https://www.instagram.com/4982_olympus_robotics/"
+            ],
+            "evidence_status": "qualified_indexed",
+            "notes": "Official team account search-indexed caption pairs Jasroop and Jake with captain and assistant captain for 2025-2026, in that order. Only the first name is verified. The individual assignment and a stable post permalink remain unverified."
+          },
+          {
+            "name": "Caleb Neely",
+            "role": "Co-Business Manager and Outreach Director",
+            "evidence_date": "2026",
+            "date_precision": "year",
+            "source_urls": [
+              "https://refineryrobotics.org/about/"
+            ],
+            "evidence_status": "verified_undated",
+            "notes": "An undated official partner biography expressly associates these roles with 2026. This establishes student leadership but does not establish the team-captain role."
+          }
+        ],
+        "other_representatives": [],
+        "gaps": [
+          "Captain and assistant-captain surnames and individual title assignments require confirmation.",
+          "The captain announcement is indexed account content, with no retrieved individual post permalink.",
+          "A 2026-27 student captain is not verified."
+        ]
+      },
+      "geography": {
+        "team_number": 4982,
+        "team_name": "Olympus Robotics",
+        "school_or_organization": "Homestead High School",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "homestead",
+        "distance_miles": 8.036656,
+        "display_distance_miles": 8,
+        "within_radius": true,
+        "radius_margin_miles": 51.963344,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/4982",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "homestead",
+          "name": "Homestead High School",
+          "reference_type": "school_address_proxy",
+          "address": "4310 Homestead Road, Fort Wayne, IN 46814",
+          "address_source_url": "https://homestead.sacs.k12.in.us/home",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.042988292063,
+            "longitude": -85.28441993517
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4310+Homestead+Road%2C+Fort+Wayne%2C+IN+46814&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4310+Homestead+Road%2C+Fort+Wayne%2C+IN+46814&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "4310 HOMESTEAD RD, FORT WAYNE, IN, 46814",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "657360739"
+            },
+            "returned_coordinates": {
+              "x": -85.28441993517,
+              "y": 41.042988292063
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://homestead.sacs.k12.in.us/home",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4310+Homestead+Road%2C+Fort+Wayne%2C+IN+46814&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-068836fd15",
+        "S-30d1e0053f",
+        "S-335b149918",
+        "S-34a882e0e3",
+        "S-49193f7419",
+        "S-990d94976c",
+        "S-ae90cba4a0",
+        "S-dee2520c50",
+        "S-f7e307b464",
+        "S-fa8b49e950"
+      ]
+    },
+    {
+      "team_number": 10434,
+      "team_name": "CyBears",
+      "school_or_organization": "Northrop High School",
+      "school_url": "https://northrop.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Team formed in fall 2024; first official FRC season was 2025.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10434",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10434",
+      "statbotics_url": "https://www.statbotics.io/team/10434/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10434",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 35.84,
+        "epa_standard_deviation": 14.49,
+        "state_rank": 43,
+        "state_team_count": 68,
+        "world_rank": 1931,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 10434,
+        "source_url": "https://frc-events.firstinspires.org/team/10434",
+        "resolved_url": "https://frc-events.firstinspires.org/team/10434",
+        "retrieved_at_utc": "2026-10-22T04:30:18.473330+00:00",
+        "response_sha256": "7f59157b4cc4738e97f558067cb47ff5348725506cedc098382dcedfb143903c",
+        "response_bytes": 24380,
+        "response_last_modified": null,
+        "official_rookie_year": 2025,
+        "source_headline_seasons_competed": 3,
+        "all_listed_seasons": [
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2025,
+          2026
+        ],
+        "recorded_season_count": 2,
+        "first_recorded_season": 2025,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 10434,
+        "adults": [
+          {
+            "name": "Coach Jacobs",
+            "role": "Coach; full identity and lead responsibility unverified",
+            "evidence_date": null,
+            "date_precision": "undated",
+            "source_urls": [
+              "https://www.facebook.com/NorthropRobotics/"
+            ],
+            "evidence_status": "qualified_indexed",
+            "notes": "An indexed official team Facebook caption uses Coach Jacobs. No first name, post date, stable post permalink, current appointment, or head-coach responsibility was verified. The surname was not matched to a school employee by inference."
+          }
+        ],
+        "students": [],
+        "other_representatives": [
+          {
+            "name": "Alfy Krider",
+            "role": "Student team representative; Northrop senior in March 2026",
+            "evidence_date": "2026-02-09",
+            "date_precision": "day",
+            "source_urls": [
+              "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf",
+              "https://www.the74million.org/article/building-a-mindset-amp-lab-makes-entrepreneurship-work-skills-its-mission/"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "FWCS names Krider as a team representative on February 9, 2026. March 25, 2026 reporting identifies a Northrop senior and team member; neither source establishes a captain role. Current student status is unverified."
+          }
+        ],
+        "gaps": [
+          "Coach Jacobs has only a partial public name and unverified current lead responsibility.",
+          "Student team captain not verified.",
+          "Alfy Krider is documented as a representative and 2026 senior, not as a current 2026-27 captain."
+        ]
+      },
+      "geography": {
+        "team_number": 10434,
+        "team_name": "CyBears",
+        "school_or_organization": "Northrop High School",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "northrop",
+        "distance_miles": 4.518698,
+        "display_distance_miles": 4.5,
+        "within_radius": true,
+        "radius_margin_miles": 55.481302,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/10434",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "northrop",
+          "name": "Northrop High School",
+          "reference_type": "school_address_proxy",
+          "address": "7001 Coldwater Road, Fort Wayne, IN 46825",
+          "address_source_url": "https://northrop.fortwayneschools.org/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.144858820776,
+            "longitude": -85.136525699297
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7001+Coldwater+Road%2C+Fort+Wayne%2C+IN+46825&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7001+Coldwater+Road%2C+Fort+Wayne%2C+IN+46825&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "7001 COLDWATER RD, FORT WAYNE, IN, 46825",
+            "tiger_line": {
+              "side": "L",
+              "tigerLineId": "6394824"
+            },
+            "returned_coordinates": {
+              "x": -85.136525699297,
+              "y": 41.144858820776
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://northrop.fortwayneschools.org/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7001+Coldwater+Road%2C+Fort+Wayne%2C+IN+46825&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-22f391e180",
+        "S-2dcbb7d4eb",
+        "S-30d1e0053f",
+        "S-3842b89b7d",
+        "S-3c0ede0ac9",
+        "S-6bc3ec9e37",
+        "S-c8ef4725d5",
+        "S-d7a15ab0a5",
+        "S-dee2520c50",
+        "S-e3fc00da42"
+      ]
+    },
+    {
+      "team_number": 8103,
+      "team_name": "Knight Robotics",
+      "school_or_organization": "East Noble High School",
+      "school_url": "https://hs.eastnoble.net/",
+      "city": "Kendallville",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "One of three East Noble teams.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8103",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8103",
+      "statbotics_url": "https://www.statbotics.io/team/8103/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8103",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 35.1,
+        "epa_standard_deviation": 11.66,
+        "state_rank": 45,
+        "state_team_count": 68,
+        "world_rank": 1975,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 8103,
+        "source_url": "https://frc-events.firstinspires.org/team/8103",
+        "resolved_url": "https://frc-events.firstinspires.org/team/8103",
+        "retrieved_at_utc": "2026-10-22T04:30:15.971664+00:00",
+        "response_sha256": "29f6287e2a355dff52a9e26c60d95e2367b6b98eab0517f37a839155dc7f264f",
+        "response_bytes": 32500,
+        "response_last_modified": null,
+        "official_rookie_year": 2020,
+        "source_headline_seasons_competed": 8,
+        "all_listed_seasons": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 7,
+        "first_recorded_season": 2020,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 8103,
+        "adults": [
+          {
+            "name": "Shawn Kimmel",
+            "role": "Coach; engineering and physics teacher",
+            "evidence_date": "2024-05-11",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+              "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html",
+              "https://www.trine.edu/news/2019/east-noble-robotics.aspx"
+            ],
+            "evidence_status": "verified_historical",
+            "notes": "KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here."
+          },
+          {
+            "name": "Jo Smith",
+            "role": "Coach",
+            "evidence_date": "2024-05-11",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+              "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
+            ],
+            "evidence_status": "verified_historical",
+            "notes": "Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified."
+          },
+          {
+            "name": "Collin Haynes",
+            "role": "Mentor",
+            "evidence_date": "2024-05-11",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+              "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
+            ],
+            "evidence_status": "verified_historical",
+            "notes": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted."
+          },
+          {
+            "name": "Tucker Martin",
+            "role": "Mentor",
+            "evidence_date": "2024-05-11",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
+              "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
+            ],
+            "evidence_status": "verified_historical",
+            "notes": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted."
+          }
+        ],
+        "students": [],
+        "other_representatives": [],
+        "gaps": [
+          "Current 2026-27 coaching assignments not confirmed by the historical article.",
+          "Student team captain not verified.",
+          "Team 8103 leadership evidence does not establish individual coaching assignments for teams 8431 or 8432."
+        ]
+      },
+      "geography": {
+        "team_number": 8103,
+        "team_name": "Knight Robotics",
+        "school_or_organization": "East Noble High School",
+        "city": "Kendallville",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "east_noble",
+        "distance_miles": 25.349369,
+        "display_distance_miles": 25.3,
+        "within_radius": true,
+        "radius_margin_miles": 34.650631,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Shares one school reference point with 8431 and 8432.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/8103",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "east_noble",
+          "name": "East Noble High School",
+          "reference_type": "school_address_proxy",
+          "address": "901 Garden Street, Kendallville, IN 46755",
+          "address_source_url": "https://hs.eastnoble.net/page/contact-us/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.434894483102,
+            "longitude": -85.258958497638
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "901 GARDEN ST, KENDALLVILLE, IN, 46755",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "6589223"
+            },
+            "returned_coordinates": {
+              "x": -85.258958497638,
+              "y": 41.434894483102
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://hs.eastnoble.net/page/contact-us/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-1d4217eb99",
+        "S-30d1e0053f",
+        "S-4fcf5baeed",
+        "S-657af3e200",
+        "S-7b2f1b24b1",
+        "S-7f2297bf24",
+        "S-926639a459",
+        "S-b2f253fe7b",
+        "S-d5a05044fc",
+        "S-dee2520c50",
+        "S-fd42e98c58"
+      ]
+    },
+    {
+      "team_number": 10332,
+      "team_name": "Carroll Charger Robotics",
+      "school_or_organization": "Carroll High School",
+      "school_url": "https://ch.nacs.k12.in.us/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10332",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10332",
+      "statbotics_url": "https://www.statbotics.io/team/10332/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10332",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 34.76,
+        "epa_standard_deviation": 21.52,
+        "state_rank": 46,
+        "state_team_count": 68,
+        "world_rank": 1990,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 10332,
+        "source_url": "https://frc-events.firstinspires.org/team/10332",
+        "resolved_url": "https://frc-events.firstinspires.org/team/10332",
+        "retrieved_at_utc": "2026-10-22T04:30:15.905497+00:00",
+        "response_sha256": "9aa5ab23eaf0e7079033624cba858b662474e39c97acbd732f9c37b47c91c76e",
+        "response_bytes": 25088,
+        "response_last_modified": null,
+        "official_rookie_year": 2025,
+        "source_headline_seasons_competed": 3,
+        "all_listed_seasons": [
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2025,
+          2026
+        ],
+        "recorded_season_count": 2,
+        "first_recorded_season": 2025,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 10332,
+        "adults": [
+          {
+            "name": "Mady Stricker",
+            "role": "Mentor",
+            "evidence_date": "2026",
+            "date_precision": "year",
+            "source_urls": [
+              "https://www.firstindianarobotics.org/about-first-indiana-robotics/board-of-directors/"
+            ],
+            "evidence_status": "qualified_indexed",
+            "notes": "A FIRST Indiana 2026 indexed biography associates Stricker with mentoring Team 10332. The live board page was shorter at retrieval. This is mentor evidence and does not establish a head-coach role."
+          },
+          {
+            "name": "Cameron Elder",
+            "role": "Former head coach",
+            "evidence_date": null,
+            "date_precision": "undated",
+            "source_urls": [
+              "https://www.linkedin.com/in/camelder"
+            ],
+            "evidence_status": "self_reported_historical",
+            "notes": "Public professional profile reports the Team 10332 head-coach tenure as April through October 2025. The profile itself is undated; this is a past appointment, not a current coach assignment."
+          },
+          {
+            "name": "Matt Arnold",
+            "role": "Former assistant coach",
+            "evidence_date": null,
+            "date_precision": "undated",
+            "source_urls": [
+              "https://www.linkedin.com/in/m4ttbit"
+            ],
+            "evidence_status": "self_reported_historical",
+            "notes": "Public professional profile reports an assistant-coach tenure from October 2024 through April 2025. The profile itself is undated; continued service is not established."
+          }
+        ],
+        "students": [
+          {
+            "name": "Nieng Mang",
+            "role": "Team captain; Carroll High School senior",
+            "evidence_date": "2026-01-27",
+            "date_precision": "day",
+            "source_urls": [
+              "https://chargeronline.nacs.k12.in.us/12210/sports/from-worst-to-first-how-indianas-football-program-became-the-nations-best/"
+            ],
+            "evidence_status": "verified_dated_bio",
+            "notes": "The school newspaper contributor biography identifies Mang as captain and a senior. January 27, 2026 is the article date; the biography itself has no separate timestamp and may be updated dynamically. The evidence supports the 2025-26 school-year identification, not a current 2026-27 appointment."
+          }
+        ],
+        "other_representatives": [],
+        "gaps": [
+          "Current head coach not verified.",
+          "Student captain for 2026-27 not verified.",
+          "Mentor evidence for Mady Stricker is indexed official content rather than the full biography on the current live page."
+        ]
+      },
+      "geography": {
+        "team_number": 10332,
+        "team_name": "Carroll Charger Robotics",
+        "school_or_organization": "Carroll High School",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "carroll",
+        "distance_miles": 8.235628,
+        "display_distance_miles": 8.2,
+        "within_radius": true,
+        "radius_margin_miles": 51.764372,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/10332",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "carroll",
+          "name": "Carroll High School",
+          "reference_type": "school_address_proxy",
+          "address": "3701 Carroll Road, Fort Wayne, IN 46818",
+          "address_source_url": "https://ch.nacs.k12.in.us/51740_2",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.191356452681,
+            "longitude": -85.192498062722
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3701+Carroll+Road%2C+Fort+Wayne%2C+IN+46818&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3701+Carroll+Road%2C+Fort+Wayne%2C+IN+46818&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "3701 CARROLL RD, FORT WAYNE, IN, 46818",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "6410268"
+            },
+            "returned_coordinates": {
+              "x": -85.192498062722,
+              "y": 41.191356452681
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://ch.nacs.k12.in.us/51740_2",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3701+Carroll+Road%2C+Fort+Wayne%2C+IN+46818&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-01bac52452",
+        "S-0a022b5eb1",
+        "S-30d1e0053f",
+        "S-4a349fe5a8",
+        "S-5ad835172d",
+        "S-5c8cb901ec",
+        "S-874fa1f02b",
+        "S-a5a67ec0f8",
+        "S-dcb83b6d86",
+        "S-dee2520c50",
+        "S-fab383bbea",
+        "S-fd1c2fed27"
+      ]
+    },
+    {
+      "team_number": 8742,
+      "team_name": "Argyll Attack",
+      "school_or_organization": "Madison-Grant Jr./Sr. High School",
+      "school_url": "https://mghs.mgusc.k12.in.us/",
+      "city": "Fairmount",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8742",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8742",
+      "statbotics_url": "https://www.statbotics.io/team/8742/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8742",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 29.46,
+        "epa_standard_deviation": 9.37,
+        "state_rank": 48,
+        "state_team_count": 68,
+        "world_rank": 2279,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 8742,
+        "source_url": "https://frc-events.firstinspires.org/team/8742",
+        "resolved_url": "https://frc-events.firstinspires.org/team/8742",
+        "retrieved_at_utc": "2026-10-22T04:30:18.478236+00:00",
+        "response_sha256": "e513ab64e2ab66002aeac058626901a1889b73ce36b9afe103191e8fda2beaf1",
+        "response_bytes": 32305,
+        "response_last_modified": null,
+        "official_rookie_year": 2022,
+        "source_headline_seasons_competed": 6,
+        "all_listed_seasons": [
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 5,
+        "first_recorded_season": 2022,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 8742,
+        "adults": [
+          {
+            "name": "Eric Cale",
+            "role": "Robotics and chemistry teacher; team spokesperson",
+            "evidence_date": "2026-04-07",
+            "date_precision": "day",
+            "source_urls": [
+              "https://podcasts.apple.com/ma/podcast/eric-cale-and-robotics/id1773140582?i=1000760060708"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "School-authored podcast features Cale discussing his robotics team. The documented teacher and spokesperson roles do not establish a formal head-coach appointment."
+          }
+        ],
+        "students": [],
+        "other_representatives": [
+          {
+            "name": "Ava Stanley",
+            "role": "Team spokesperson at Fairmount Town Council",
+            "evidence_date": "2025-09-08",
+            "date_precision": "day",
+            "source_urls": [
+              "https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf"
+            ],
+            "evidence_status": "verified_role_status_unknown",
+            "notes": "Official minutes identify the team spokesperson. The evidence date is the meeting date; upload timing is different. Student/adult status and captain status are not established."
+          }
+        ],
+        "gaps": [
+          "Student team captain not verified.",
+          "Ava Stanley cannot be classified as a student or adult from the cited evidence.",
+          "A formal head-coach title for Eric Cale was not established."
+        ]
+      },
+      "geography": {
+        "team_number": 8742,
+        "team_name": "Argyll Attack",
+        "school_or_organization": "Madison-Grant Jr./Sr. High School",
+        "city": "Fairmount",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "madison_grant",
+        "distance_miles": 55.543831,
+        "display_distance_miles": 55.5,
+        "within_radius": true,
+        "radius_margin_miles": 4.456169,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/8742",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "madison_grant",
+          "name": "Madison-Grant Jr./Sr. High School",
+          "reference_type": "school_address_proxy",
+          "address": "11700 S E 00 W, Fairmount, IN 46928",
+          "address_source_url": "https://park.mgusc.k12.in.us/o/mghs/page/contact-us",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 40.38473258319,
+            "longitude": -85.671705190364
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11700+S+E+00+W%2C+Fairmount%2C+IN+46928&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11700+S+E+00+W%2C+Fairmount%2C+IN+46928&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "11700 S E 00 W, FAIRMOUNT, IN, 46928",
+            "tiger_line": {
+              "side": "L",
+              "tigerLineId": "95005506"
+            },
+            "returned_coordinates": {
+              "x": -85.671705190364,
+              "y": 40.38473258319
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://park.mgusc.k12.in.us/o/mghs/page/contact-us",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=11700+S+E+00+W%2C+Fairmount%2C+IN+46928&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-30d1e0053f",
+        "S-3dfc1bd0a4",
+        "S-55b3bf00e4",
+        "S-80227c8992",
+        "S-85f476ef60",
+        "S-880476608a",
+        "S-c61273c831",
+        "S-dee2520c50",
+        "S-df9bfa7206",
+        "S-e1e6130b44"
+      ]
+    },
+    {
+      "team_number": 10172,
+      "team_name": "Apex Archers",
+      "school_or_organization": "South Side High School",
+      "school_url": "https://southside.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10172",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10172",
+      "statbotics_url": "https://www.statbotics.io/team/10172/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10172",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 21.15,
+        "epa_standard_deviation": 8.59,
+        "state_rank": 55,
+        "state_team_count": 68,
+        "world_rank": 2889,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 10172,
+        "source_url": "https://frc-events.firstinspires.org/team/10172",
+        "resolved_url": "https://frc-events.firstinspires.org/team/10172",
+        "retrieved_at_utc": "2026-10-22T04:30:18.482867+00:00",
+        "response_sha256": "4e7543decc33acfab0f571e25efdc201b791ec3ca913d83e6e142dc0ad1d0eff",
+        "response_bytes": 23750,
+        "response_last_modified": null,
+        "official_rookie_year": 2025,
+        "source_headline_seasons_competed": 3,
+        "all_listed_seasons": [
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2025,
+          2026
+        ],
+        "recorded_season_count": 2,
+        "first_recorded_season": 2025,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 10172,
+        "adults": [],
+        "students": [],
+        "other_representatives": [
+          {
+            "name": "David Haruna",
+            "role": "Student team representative at FWCS board presentation",
+            "evidence_date": "2026-02-09",
+            "date_precision": "day",
+            "source_urls": [
+              "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "The district presentation identifies a team representative; it does not identify a captain."
+          }
+        ],
+        "gaps": [
+          "Adult coach or designated adult team spokesperson not verified.",
+          "Student team captain not verified; the February 2026 presentation identifies a representative."
+        ]
+      },
+      "geography": {
+        "team_number": 10172,
+        "team_name": "Apex Archers",
+        "school_or_organization": "South Side High School",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "south_side",
+        "distance_miles": 1.856783,
+        "display_distance_miles": 1.9,
+        "within_radius": true,
+        "radius_margin_miles": 58.143217,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/10172",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "south_side",
+          "name": "South Side High School",
+          "reference_type": "school_address_proxy",
+          "address": "3601 S Calhoun Street, Fort Wayne, IN 46807",
+          "address_source_url": "https://southside.fortwayneschools.org/contact-us",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.052597295906,
+            "longitude": -85.137394227699
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3601+S+Calhoun+Street%2C+Fort+Wayne%2C+IN+46807&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3601+S+Calhoun+Street%2C+Fort+Wayne%2C+IN+46807&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "3601 S CALHOUN ST, FORT WAYNE, IN, 46807",
+            "tiger_line": {
+              "side": "L",
+              "tigerLineId": "6382325"
+            },
+            "returned_coordinates": {
+              "x": -85.137394227699,
+              "y": 41.052597295906
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://southside.fortwayneschools.org/contact-us",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3601+S+Calhoun+Street%2C+Fort+Wayne%2C+IN+46807&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-30d1e0053f",
+        "S-3842b89b7d",
+        "S-40840557b5",
+        "S-97bc3beb0c",
+        "S-ac78b7cef9",
+        "S-dcef9e15b9",
+        "S-de5e2072bc",
+        "S-dee2520c50",
+        "S-f47b94ba5d"
+      ]
+    },
+    {
+      "team_number": 8431,
+      "team_name": "Robo-Knights",
+      "school_or_organization": "East Noble High School",
+      "school_url": "https://hs.eastnoble.net/",
+      "city": "Kendallville",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Official rookie year is 2020; recorded season history through 2026 begins in 2025.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8431",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8431",
+      "statbotics_url": "https://www.statbotics.io/team/8431/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8431",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 17.19,
+        "epa_standard_deviation": 7.05,
+        "state_rank": 58,
+        "state_team_count": 68,
+        "world_rank": 3139,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 8431,
+        "source_url": "https://frc-events.firstinspires.org/team/8431",
+        "resolved_url": "https://frc-events.firstinspires.org/team/8431",
+        "retrieved_at_utc": "2026-10-22T04:30:18.548503+00:00",
+        "response_sha256": "22e4824a24980aeae38d994e1687486b35fcce21392c75aeb05d5d02eb6907c5",
+        "response_bytes": 23106,
+        "response_last_modified": null,
+        "official_rookie_year": 2020,
+        "source_headline_seasons_competed": 3,
+        "all_listed_seasons": [
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2025,
+          2026
+        ],
+        "recorded_season_count": 2,
+        "first_recorded_season": 2025,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 8431,
+        "adults": [],
+        "students": [],
+        "other_representatives": [],
+        "gaps": [
+          "Individual adult coach or adult team spokesperson not verified.",
+          "Student team captain not verified.",
+          "The shared East Noble school program does not establish that the documented Team 8103 coaches also coach Team 8431."
+        ]
+      },
+      "geography": {
+        "team_number": 8431,
+        "team_name": "Robo-Knights",
+        "school_or_organization": "East Noble High School",
+        "city": "Kendallville",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "east_noble",
+        "distance_miles": 25.349369,
+        "display_distance_miles": 25.3,
+        "within_radius": true,
+        "radius_margin_miles": 34.650631,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Shares one school reference point with 8103 and 8432.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/8431",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "east_noble",
+          "name": "East Noble High School",
+          "reference_type": "school_address_proxy",
+          "address": "901 Garden Street, Kendallville, IN 46755",
+          "address_source_url": "https://hs.eastnoble.net/page/contact-us/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.434894483102,
+            "longitude": -85.258958497638
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "901 GARDEN ST, KENDALLVILLE, IN, 46755",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "6589223"
+            },
+            "returned_coordinates": {
+              "x": -85.258958497638,
+              "y": 41.434894483102
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://hs.eastnoble.net/page/contact-us/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-1d4217eb99",
+        "S-30d1e0053f",
+        "S-4fcf5baeed",
+        "S-8cd258c2ef",
+        "S-b5652e11a7",
+        "S-c225a09f86",
+        "S-dee2520c50",
+        "S-fd42e98c58"
+      ]
+    },
+    {
+      "team_number": 10411,
+      "team_name": "G-Code Generals",
+      "school_or_organization": "Wayne High School",
+      "school_url": "https://wayne.fortwayneschools.org/",
+      "city": "Fort Wayne",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/10411",
+      "first_history_url": "https://frc-events.firstinspires.org/team/10411",
+      "statbotics_url": "https://www.statbotics.io/team/10411/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/10411",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 14.6,
+        "epa_standard_deviation": 10.01,
+        "state_rank": 63,
+        "state_team_count": 68,
+        "world_rank": 3301,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 10411,
+        "source_url": "https://frc-events.firstinspires.org/team/10411",
+        "resolved_url": "https://frc-events.firstinspires.org/team/10411",
+        "retrieved_at_utc": "2026-10-22T04:30:18.551634+00:00",
+        "response_sha256": "fb79a17b9975faa32c06cd29eb7b35d7fb6ac0097ba5c6c72aee07ca9912ed36",
+        "response_bytes": 23072,
+        "response_last_modified": null,
+        "official_rookie_year": 2025,
+        "source_headline_seasons_competed": 3,
+        "all_listed_seasons": [
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2025,
+          2026
+        ],
+        "recorded_season_count": 2,
+        "first_recorded_season": 2025,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 10411,
+        "adults": [],
+        "students": [],
+        "other_representatives": [
+          {
+            "name": "Khai Phyoe",
+            "role": "Student team representative at FWCS board presentation",
+            "evidence_date": "2026-02-09",
+            "date_precision": "day",
+            "source_urls": [
+              "https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "The district presentation identifies a team representative; it does not identify a captain."
+          }
+        ],
+        "gaps": [
+          "Adult coach or designated adult team spokesperson not verified.",
+          "Student team captain not verified; the February 2026 presentation identifies a representative."
+        ]
+      },
+      "geography": {
+        "team_number": 10411,
+        "team_name": "G-Code Generals",
+        "school_or_organization": "Wayne High School",
+        "city": "Fort Wayne",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "wayne",
+        "distance_miles": 5.449524,
+        "display_distance_miles": 5.4,
+        "within_radius": true,
+        "radius_margin_miles": 54.550476,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/10411",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "wayne",
+          "name": "Wayne High School",
+          "reference_type": "school_address_proxy",
+          "address": "9100 Winchester Road, Fort Wayne, IN 46819",
+          "address_source_url": "https://wayne.fortwayneschools.org/contact-us",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.000597384093,
+            "longitude": -85.137286171099
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9100+Winchester+Road%2C+Fort+Wayne%2C+IN+46819&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9100+Winchester+Road%2C+Fort+Wayne%2C+IN+46819&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "9100 WINCHESTER RD, FORT WAYNE, IN, 46819",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "6383999"
+            },
+            "returned_coordinates": {
+              "x": -85.137286171099,
+              "y": 41.000597384093
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://wayne.fortwayneschools.org/contact-us",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9100+Winchester+Road%2C+Fort+Wayne%2C+IN+46819&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-0f1d1cfa70",
+        "S-30d1e0053f",
+        "S-3842b89b7d",
+        "S-45a7a5129e",
+        "S-76d6cae337",
+        "S-8823a28ee4",
+        "S-9d9e825189",
+        "S-a50cf8904f",
+        "S-dee2520c50"
+      ]
+    },
+    {
+      "team_number": 8432,
+      "team_name": "Cyber Knights",
+      "school_or_organization": "East Noble High School",
+      "school_url": "https://hs.eastnoble.net/",
+      "city": "Kendallville",
+      "state": "IN",
+      "scope_group": "northeast_indiana",
+      "affiliation_type": "school",
+      "affiliation_notes": "Official rookie year is 2020; recorded season history through 2026 begins in 2026.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/8432",
+      "first_history_url": "https://frc-events.firstinspires.org/team/8432",
+      "statbotics_url": "https://www.statbotics.io/team/8432/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/8432",
+        "https://refineryrobotics.org/about/"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 8.84,
+        "epa_standard_deviation": 10.37,
+        "state_rank": 66,
+        "state_team_count": 68,
+        "world_rank": 3549,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 8432,
+        "source_url": "https://frc-events.firstinspires.org/team/8432",
+        "resolved_url": "https://frc-events.firstinspires.org/team/8432",
+        "retrieved_at_utc": "2026-10-22T04:30:21.196758+00:00",
+        "response_sha256": "2502310fed7e31ac284f84bbcc77a83004d3b0756bed730ef8e3da55a6dbada7",
+        "response_bytes": 20745,
+        "response_last_modified": null,
+        "official_rookie_year": 2020,
+        "source_headline_seasons_competed": 2,
+        "all_listed_seasons": [
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2026
+        ],
+        "recorded_season_count": 1,
+        "first_recorded_season": 2026,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 8432,
+        "adults": [],
+        "students": [],
+        "other_representatives": [],
+        "gaps": [
+          "Individual adult coach or adult team spokesperson not verified.",
+          "Student team captain not verified.",
+          "The shared East Noble school program does not establish that the documented Team 8103 coaches also coach Team 8432."
+        ]
+      },
+      "geography": {
+        "team_number": 8432,
+        "team_name": "Cyber Knights",
+        "school_or_organization": "East Noble High School",
+        "city": "Kendallville",
+        "state": "IN",
+        "scope_group": "northeast_indiana",
+        "location_id": "east_noble",
+        "distance_miles": 25.349369,
+        "display_distance_miles": 25.3,
+        "within_radius": true,
+        "radius_margin_miles": 34.650631,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Shares one school reference point with 8103 and 8431.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/8432",
+          "https://refineryrobotics.org/about/"
+        ],
+        "location": {
+          "location_id": "east_noble",
+          "name": "East Noble High School",
+          "reference_type": "school_address_proxy",
+          "address": "901 Garden Street, Kendallville, IN 46755",
+          "address_source_url": "https://hs.eastnoble.net/page/contact-us/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.434894483102,
+            "longitude": -85.258958497638
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "901 GARDEN ST, KENDALLVILLE, IN, 46755",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "6589223"
+            },
+            "returned_coordinates": {
+              "x": -85.258958497638,
+              "y": 41.434894483102
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://hs.eastnoble.net/page/contact-us/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-11541033b6",
+        "S-1d4217eb99",
+        "S-30d1e0053f",
+        "S-4fcf5baeed",
+        "S-b1e5401023",
+        "S-d8673c1485",
+        "S-dee2520c50",
+        "S-fd42e98c58"
+      ]
+    },
+    {
+      "team_number": 5559,
+      "team_name": "Gear Grinders",
+      "school_or_organization": "Camden-Frontier School",
+      "school_url": "https://www.camdenfrontier.org/",
+      "city": "Camden",
+      "state": "MI",
+      "scope_group": "nearby_border",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/5559",
+      "first_history_url": "https://frc-events.firstinspires.org/team/5559",
+      "statbotics_url": "https://www.statbotics.io/team/5559/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/5559"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 58.04,
+        "epa_standard_deviation": 20.85,
+        "state_rank": 181,
+        "state_team_count": 530,
+        "world_rank": 1174,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 5559,
+        "source_url": "https://frc-events.firstinspires.org/team/5559",
+        "resolved_url": "https://frc-events.firstinspires.org/team/5559",
+        "retrieved_at_utc": "2026-10-22T04:30:18.633036+00:00",
+        "response_sha256": "4fe8a9e3c496a85c49890c21ab2625718c184226f8301b35e40c7dbffba7e278",
+        "response_bytes": 39397,
+        "response_last_modified": null,
+        "official_rookie_year": 2015,
+        "source_headline_seasons_competed": 12,
+        "all_listed_seasons": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_seasons_through_cutoff": [
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 12,
+        "first_recorded_season": 2015,
+        "excluded_future_seasons": [],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 5559,
+        "adults": [],
+        "students": [],
+        "other_representatives": [],
+        "gaps": [
+          "Adult coach or designated adult team spokesperson not verified.",
+          "Student team captain not verified."
+        ]
+      },
+      "geography": {
+        "team_number": 5559,
+        "team_name": "Gear Grinders",
+        "school_or_organization": "Camden-Frontier School",
+        "city": "Camden",
+        "state": "MI",
+        "scope_group": "nearby_border",
+        "location_id": "camden_frontier",
+        "distance_miles": 53.366055,
+        "display_distance_miles": 53.4,
+        "within_radius": true,
+        "radius_margin_miles": 6.633945,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/5559"
+        ],
+        "location": {
+          "location_id": "camden_frontier",
+          "name": "Camden-Frontier School",
+          "reference_type": "school_address_proxy",
+          "address": "4971 W Montgomery Road, Camden, MI 49232",
+          "address_source_url": "https://www.camdenfrontier.org/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.781505864234,
+            "longitude": -84.708413166159
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4971+W+Montgomery+Road%2C+Camden%2C+MI+49232&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4971+W+Montgomery+Road%2C+Camden%2C+MI+49232&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "4971 W MONTGOMERY RD, CAMDEN, MI, 49232",
+            "tiger_line": {
+              "side": "R",
+              "tigerLineId": "636405161"
+            },
+            "returned_coordinates": {
+              "x": -84.708413166159,
+              "y": 41.781505864234
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://www.camdenfrontier.org/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4971+W+Montgomery+Road%2C+Camden%2C+MI+49232&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-02667276a5",
+        "S-108355da57",
+        "S-50abccde36",
+        "S-98c8e0b348",
+        "S-dee2520c50",
+        "S-fa02c47c4d"
+      ]
+    },
+    {
+      "team_number": 3777,
+      "team_name": "Bean City Bots",
+      "school_or_organization": "Lima Family YMCA (community team)",
+      "school_url": "https://frc-events.firstinspires.org/2026/team/3777",
+      "city": "Lima",
+      "state": "OH",
+      "scope_group": "nearby_border",
+      "affiliation_type": "community",
+      "affiliation_notes": "YMCA / University of Northwestern Ohio community program; includes students from Lima Senior but is not exclusively that school's team.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/3777",
+      "first_history_url": "https://frc-events.firstinspires.org/team/3777",
+      "statbotics_url": "https://www.statbotics.io/team/3777/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/3777"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 36.38,
+        "epa_standard_deviation": 23.14,
+        "state_rank": 36,
+        "state_team_count": 60,
+        "world_rank": 1897,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 3777,
+        "source_url": "https://frc-events.firstinspires.org/team/3777",
+        "resolved_url": "https://frc-events.firstinspires.org/team/3777",
+        "retrieved_at_utc": "2026-10-22T04:30:18.627962+00:00",
+        "response_sha256": "f28ce42e548ecbdd2bce3e29d26011d4b765d5bf8812077eb082a97bb4809e60",
+        "response_bytes": 35613,
+        "response_last_modified": null,
+        "official_rookie_year": 2011,
+        "source_headline_seasons_competed": 17,
+        "all_listed_seasons": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2011,
+          2012,
+          2013,
+          2014,
+          2015,
+          2016,
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 16,
+        "first_recorded_season": 2011,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 3777,
+        "adults": [
+          {
+            "name": "Skylynn Prine",
+            "role": "Teen Development Director, Lima Family YMCA; program spokesperson",
+            "evidence_date": "2026-03-17",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "Quoted about the robotics program in local reporting. The article does not identify her as the head coach."
+          }
+        ],
+        "students": [],
+        "other_representatives": [
+          {
+            "name": "Coltin Myers",
+            "role": "Quoted student team member; Lima Senior High School senior",
+            "evidence_date": "2026-03-17",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "Public student interviewee, with no formal captain or appointed spokesperson title established. Senior status belongs to March 2026; current student status is unverified."
+          }
+        ],
+        "gaps": [
+          "Head coach not verified.",
+          "Student team captain not verified."
+        ]
+      },
+      "geography": {
+        "team_number": 3777,
+        "team_name": "Bean City Bots",
+        "school_or_organization": "Lima Family YMCA (community team)",
+        "city": "Lima",
+        "state": "OH",
+        "scope_group": "nearby_border",
+        "location_id": "lima_ymca",
+        "distance_miles": 58.816731,
+        "display_distance_miles": 58.8,
+        "within_radius": true,
+        "radius_margin_miles": 1.183269,
+        "within_two_miles_of_boundary": true,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Uses the Lima Family YMCA host address. This community program also works with the University of Northwestern Ohio; no assertion is made that its robot workshop is at the YMCA. The reference point is only about 1.2 miles inside the radius.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/3777"
+        ],
+        "location": {
+          "location_id": "lima_ymca",
+          "name": "Lima Family YMCA",
+          "reference_type": "community_host_address_proxy",
+          "address": "345 S Elizabeth Street, Lima, OH 45801",
+          "address_source_url": "https://limaymca.net/contact-us/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 40.736962267938,
+            "longitude": -84.106753657877
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=345+S+Elizabeth+Street%2C+Lima%2C+OH+45801&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=345+S+Elizabeth+Street%2C+Lima%2C+OH+45801&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "345 S ELIZABETH ST, LIMA, OH, 45801",
+            "tiger_line": {
+              "side": "L",
+              "tigerLineId": "35567223"
+            },
+            "returned_coordinates": {
+              "x": -84.106753657877,
+              "y": 40.736962267938
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://limaymca.net/contact-us/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=345+S+Elizabeth+Street%2C+Lima%2C+OH+45801&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-094f214b07",
+        "S-4811631100",
+        "S-856ebd146a",
+        "S-b6852ece67",
+        "S-d04a4a13ac",
+        "S-dee2520c50",
+        "S-e36e7de7a3"
+      ]
+    },
+    {
+      "team_number": 6556,
+      "team_name": "Spartan Robotics",
+      "school_or_organization": "Waldron School",
+      "school_url": "https://www.waldronspartans.org/",
+      "city": "Waldron",
+      "state": "MI",
+      "scope_group": "nearby_border",
+      "affiliation_type": "school",
+      "affiliation_notes": "",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/6556",
+      "first_history_url": "https://frc-events.firstinspires.org/team/6556",
+      "statbotics_url": "https://www.statbotics.io/team/6556/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/6556"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 27.19,
+        "epa_standard_deviation": 13.91,
+        "state_rank": 346,
+        "state_team_count": 530,
+        "world_rank": 2432,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 6556,
+        "source_url": "https://frc-events.firstinspires.org/team/6556",
+        "resolved_url": "https://frc-events.firstinspires.org/team/6556",
+        "retrieved_at_utc": "2026-10-22T04:30:18.629880+00:00",
+        "response_sha256": "7158c59895411eb4740080c5707c2a196fc864efd141c9c1480016ee99ff4048",
+        "response_bytes": 34519,
+        "response_last_modified": null,
+        "official_rookie_year": 2017,
+        "source_headline_seasons_competed": 11,
+        "all_listed_seasons": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2017,
+          2018,
+          2019,
+          2020,
+          2021,
+          2022,
+          2023,
+          2024,
+          2025,
+          2026
+        ],
+        "recorded_season_count": 10,
+        "first_recorded_season": 2017,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [
+          2021
+        ],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 6556,
+        "adults": [
+          {
+            "name": "Mike Fuller",
+            "role": "Robotics coach; open-house contact",
+            "evidence_date": "2024-01",
+            "date_precision": "month",
+            "source_urls": [
+              "https://www.waldronspartans.org/live-feed?page_no=66",
+              "https://www.waldronspartans.org/live-feed?page_no=67"
+            ],
+            "evidence_status": "qualified_indexed_historical",
+            "notes": "Official school posts name Mike Fuller as a contact on December 13, 2023 and refer to Coach Fuller at FIRST kickoff in early January 2024. Evidence was recovered from indexed official posts; live-feed pagination changes. This is historical evidence, not a verified 2026-27 appointment."
+          }
+        ],
+        "students": [],
+        "other_representatives": [
+          {
+            "name": "Elijah",
+            "role": "Named robotics open-house contact; precise role unknown",
+            "evidence_date": "2023-12-13",
+            "date_precision": "day",
+            "source_urls": [
+              "https://www.waldronspartans.org/live-feed?page_no=67"
+            ],
+            "evidence_status": "qualified_indexed_historical",
+            "notes": "School post names Elijah alongside Mike Fuller for questions. Surname, student/adult status, and leadership position were not established; this is not evidence of a captain role."
+          }
+        ],
+        "gaps": [
+          "Current adult coaching assignment not verified beyond the 2023-24 evidence.",
+          "Student team captain not verified.",
+          "Elijah has an incomplete name and unknown student/adult and leadership status."
+        ]
+      },
+      "geography": {
+        "team_number": 6556,
+        "team_name": "Spartan Robotics",
+        "school_or_organization": "Waldron School",
+        "city": "Waldron",
+        "state": "MI",
+        "scope_group": "nearby_border",
+        "location_id": "waldron",
+        "distance_miles": 58.61476,
+        "display_distance_miles": 58.6,
+        "within_radius": true,
+        "radius_margin_miles": 1.38524,
+        "within_two_miles_of_boundary": true,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "The school reference point is about 1.4 miles inside the radius. A materially different origin or team facility would require recalculation.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/6556"
+        ],
+        "location": {
+          "location_id": "waldron",
+          "name": "Waldron Area Schools",
+          "reference_type": "school_address_proxy",
+          "address": "13380 Waldron Road, Waldron, MI 49288",
+          "address_source_url": "https://www.waldronspartans.org/",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.73437239757,
+            "longitude": -84.418965276607
+          },
+          "coordinate_method": "U.S. Census Bureau address-range interpolation",
+          "coordinate_source_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=13380+Waldron+Road%2C+Waldron%2C+MI+49288&benchmark=Public_AR_Current&format=json",
+          "coordinate_evidence": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=13380+Waldron+Road%2C+Waldron%2C+MI+49288&benchmark=Public_AR_Current&format=json",
+            "benchmark": {
+              "isDefault": true,
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "id": "4",
+              "benchmarkName": "Public_AR_Current"
+            },
+            "matched_address": "13380 S WALDRON RD, WALDRON, MI, 49288",
+            "tiger_line": {
+              "side": "L",
+              "tigerLineId": "8286987"
+            },
+            "returned_coordinates": {
+              "x": -84.418965276607,
+              "y": 41.73437239757
+            }
+          },
+          "precision_note": "Approximate point along a street address range. This is a school/host location proxy, not a surveyed building point or a verified team workshop.",
+          "source_urls": [
+            "https://www.waldronspartans.org/",
+            "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=13380+Waldron+Road%2C+Waldron%2C+MI+49288&benchmark=Public_AR_Current&format=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-09a28df067",
+        "S-395cb24435",
+        "S-48b50774b1",
+        "S-5c79d99605",
+        "S-7bea0c439b",
+        "S-7c408e19ca",
+        "S-dee2520c50",
+        "S-f629437234"
+      ]
+    },
+    {
+      "team_number": 11407,
+      "team_name": "Sturgis Trojans",
+      "school_or_organization": "Sturgis High School",
+      "school_url": "https://shs.sturgisps.org/",
+      "city": "Sturgis",
+      "state": "MI",
+      "scope_group": "nearby_border",
+      "affiliation_type": "school",
+      "affiliation_notes": "Rookie season 2026.",
+      "first_team_url": "https://frc-events.firstinspires.org/2026/team/11407",
+      "first_history_url": "https://frc-events.firstinspires.org/team/11407",
+      "statbotics_url": "https://www.statbotics.io/team/11407/2026",
+      "affiliation_source_urls": [
+        "https://frc-events.firstinspires.org/2026/team/11407"
+      ],
+      "rankings": {
+        "season": 2026,
+        "source_url": "https://storage.googleapis.com/site_v1/team_years/2026",
+        "snapshot_last_modified_utc": "2026-06-12T02:51:19Z",
+        "epa_mean": 21.93,
+        "epa_standard_deviation": 16.46,
+        "state_rank": 410,
+        "state_team_count": 530,
+        "world_rank": 2842,
+        "world_team_count": 3724,
+        "source_artifact": "artifacts/statbotics/snapshots/2026-10-22T04-29-18-072314Z_0059dfe792a0/team-years-2026-subset.json"
+      },
+      "season_history": {
+        "team_number": 11407,
+        "source_url": "https://frc-events.firstinspires.org/team/11407",
+        "resolved_url": "https://frc-events.firstinspires.org/team/11407",
+        "retrieved_at_utc": "2026-10-22T04:30:21.197313+00:00",
+        "response_sha256": "042316eb7ae0b765111d432a004d033b1dce98751cb26523e877006d94f35329",
+        "response_bytes": 21643,
+        "response_last_modified": null,
+        "official_rookie_year": 2026,
+        "source_headline_seasons_competed": 2,
+        "all_listed_seasons": [
+          2026,
+          2027
+        ],
+        "recorded_seasons_through_cutoff": [
+          2026
+        ],
+        "recorded_season_count": 1,
+        "first_recorded_season": 2026,
+        "excluded_future_seasons": [
+          2027
+        ],
+        "seasons_explicitly_registered_without_competition": [],
+        "count_definition": "Season entries in FIRST history through the cutoff, including registered seasons without competition; not a count of seasons with matches."
+      },
+      "leadership": {
+        "team_number": 11407,
+        "adults": [
+          {
+            "name": "Khanya Sigwela",
+            "role": "Coach",
+            "evidence_date": "2026-03-27",
+            "date_precision": "day",
+            "source_urls": [
+              "https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "Local reporting explicitly names Sigwela as one of the coaches. It does not rank the two coaches or designate a head coach."
+          },
+          {
+            "name": "Xandra Duelge",
+            "role": "Coach",
+            "evidence_date": "2026-03-27",
+            "date_precision": "day",
+            "source_urls": [
+              "https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/"
+            ],
+            "evidence_status": "verified_role_name_discrepancy",
+            "notes": "The article body uses Xandra Duelge; its photo caption uses Sandra Duelge. The coaching role is clear, but the first-name spelling remains unresolved."
+          }
+        ],
+        "students": [
+          {
+            "name": "Krys Johnson",
+            "role": "Drive-team captain",
+            "evidence_date": "2026-03-27",
+            "date_precision": "day",
+            "source_urls": [
+              "https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/"
+            ],
+            "evidence_status": "verified_dated",
+            "notes": "The drive-team list identifies Krys Johnson as captain; a photo caption uses Krystina Johnson. This is evidence of the drive-team captain role only, not overall team captain. The caption variant is preserved without resolving the name independently."
+          }
+        ],
+        "other_representatives": [],
+        "gaps": [
+          "Overall student team captain not verified; the published designation is drive-team captain.",
+          "Xandra versus Sandra Duelge is an unresolved source-internal spelling discrepancy.",
+          "The source does not specify which coach, if either, holds a head-coach title."
+        ]
+      },
+      "geography": {
+        "team_number": 11407,
+        "team_name": "Sturgis Trojans",
+        "school_or_organization": "Sturgis High School",
+        "city": "Sturgis",
+        "state": "MI",
+        "scope_group": "nearby_border",
+        "location_id": "sturgis",
+        "distance_miles": 51.437412,
+        "display_distance_miles": 51.4,
+        "within_radius": true,
+        "radius_margin_miles": 8.562588,
+        "within_two_miles_of_boundary": false,
+        "inclusion_basis": "school_or_host_reference_point",
+        "certainty_notes": "Reference point is within the radius. Physical workshop location is not independently confirmed.",
+        "affiliation_source_urls": [
+          "https://frc-events.firstinspires.org/2026/team/11407"
+        ],
+        "location": {
+          "location_id": "sturgis",
+          "name": "Sturgis High School",
+          "reference_type": "school_point_proxy",
+          "address": "216 Vinewood Avenue, Sturgis, MI 49091",
+          "address_source_url": "https://shs.sturgisps.org/home",
+          "source_accessed_date": "2026-10-22",
+          "coordinates": {
+            "latitude": 41.7975,
+            "longitude": -85.4002
+          },
+          "coordinate_method": "NCES CCD school-point latitude/longitude attributes",
+          "coordinate_source_url": "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0/query?where=NCESSCH+IN+%28%27180327002693%27%2C%27263309006864%27%29&outFields=%2A&returnGeometry=true&outSR=4326&f=json",
+          "coordinate_evidence": {
+            "source_layer": "Schools_Points_2025_CCD",
+            "source_layer_url": "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0?f=pjson",
+            "query_url": "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0/query?where=NCESSCH+IN+%28%27180327002693%27%2C%27263309006864%27%29&outFields=%2A&returnGeometry=true&outSR=4326&f=json",
+            "field_prefix": "Public_Schools_2025_CCD_Final.",
+            "returned_attributes": {
+              "NCESSCH": "263309006864",
+              "SURVYEAR": "2024-2025",
+              "SCH_NAME": "Sturgis High School",
+              "LSTREET1": "216 VINEWOOD AVE",
+              "LCITY": "STURGIS",
+              "LSTATE": "MI ",
+              "LZIP": "49091",
+              "LATCOD": 41.7975,
+              "LONCOD": -85.4002
+            }
+          },
+          "precision_note": "NCES 2024–2025 school point, checked against the school's current published street address. Represents the school rather than a verified team workshop.",
+          "failed_census_geocode": {
+            "query_url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=216+Vinewood+Avenue%2C+Sturgis%2C+MI+49091&benchmark=Public_AR_Current&format=json",
+            "address_matches": 0
+          },
+          "source_urls": [
+            "https://shs.sturgisps.org/home",
+            "https://nces.ed.gov/ccd/schoolsearch/school_detail.asp?ID=263309006864",
+            "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0/query?where=NCESSCH+IN+%28%27180327002693%27%2C%27263309006864%27%29&outFields=%2A&returnGeometry=true&outSR=4326&f=json"
+          ]
+        }
+      },
+      "source_ids": [
+        "S-4ccc8048d6",
+        "S-6625db60f2",
+        "S-693265d6a7",
+        "S-767bea01bd",
+        "S-a836b29392",
+        "S-b5f2587529",
+        "S-c7155d5363",
+        "S-ccf1f8977a",
+        "S-d9e318b34a",
+        "S-dee2520c50",
+        "S-ebd73ec110"
+      ]
+    }
+  ]
+}
