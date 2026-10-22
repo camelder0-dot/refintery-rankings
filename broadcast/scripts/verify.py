@@ -141,6 +141,12 @@ def main():
     for photo in data["photos"]:
         require(hashlib.sha256((HERE / "dist" / photo["file"]).read_bytes()).hexdigest() == photo["sha256"] and photo["credit"], f"Photo missing or changed: {photo['file']}")
     require(all(s["url"].startswith("https://") and s["date"] and s["outlet"] for s in data["news"]["stories"]), "News link missing source details")
+    calendar = load(HERE / "data/calendar-2026-27.json")
+    require(data["calendar"] == calendar and calendar["events"], "Calendar did not reach the browser data")
+    require([e["startDate"] for e in calendar["events"]] == sorted(e["startDate"] for e in calendar["events"]), "Calendar is out of order")
+    for e in calendar["events"]:
+        require(date.fromisoformat(e["startDate"]) <= date.fromisoformat(e["endDate"]) and e["url"].startswith("https://") and e["program"] in {"FRC", "FTC", "FTC + FRC"}, f"Calendar event incomplete: {e['id']}")
+    require((HERE / "dist/calendar.ics").read_bytes().count(b"BEGIN:VEVENT") == len(calendar["events"]), "calendar.ics is out of date")
     display = load(HERE / "data/display-assets.json")["assets"]
     require(data["displayAssets"] == {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]} for r in display}, "Display assets did not reach the browser data")
     for row in display:

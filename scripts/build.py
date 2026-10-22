@@ -352,6 +352,10 @@ python scripts/fetch_statbotics.py --help
 
 The Statbotics preservation script creates dated capture directories and compares fresh results with the frozen baseline. See its [documented commands](docs/statbotics-provenance.md). A new retrieval does not silently update the published dataset: review the result and explicitly change `data/publication.json` and the baseline when appropriate.
 
+## Keeping results and the calendar current
+
+FRC results and the event calendar refresh from The Blue Alliance and FTCScout with [`scripts/fetch_tba.py`](scripts/fetch_tba.py) and [`scripts/fetch_calendar.py`](scripts/fetch_calendar.py), by hand or every Monday through the [refresh workflow](.github/workflows/refresh-data.yml), which opens a pull request for review. The Blue Alliance key is **not set yet**: copy [`tba.env.example`](tba.env.example) to `tba.env` locally, or add a `TBA_AUTH_KEY` repository secret. Full setup: [docs/tba-api.md](docs/tba-api.md).
+
 ## Contributing corrections
 
 For a coach, captain, or representative correction, supply the team number, exact role, applicable season, and a public school/team source. Add the new evidence with its date; retain historical evidence as historical. Update the curated input files, rebuild the exports, and verify them. A student's quote or an award nomination alone does not establish a captain title.

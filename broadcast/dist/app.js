@@ -133,22 +133,38 @@
   }
 
   function renderSchedule() {
-    const preview = state.data.seasonPreview;
+    const cal = state.data.calendar;
     const now = today();
-    const upcoming = preview.milestones.filter((m) => m.status === 'Confirmed event' && m.endDate >= now);
-    $('schedule-list').innerHTML = upcoming.map((m) => {
-      const { m: month, d } = parts(m.startDate);
-      return `<li><div class="date-block"><span class="m">${MONTHS[month - 1]}</span><span class="d">${d}</span></div><div><h3>${esc(m.title)}</h3><p>${esc(m.dateLabel || dateRange(m.startDate, m.endDate))} · ${esc(m.location)}</p>${m.linkUrl ? `<p>${ext(m.linkUrl, m.linkLabel || 'Event details', 'text-link')}</p>` : ''}</div><span class="label${/FTC/.test(m.program) && !/FRC/.test(m.program) ? ' ftc' : ''}">${esc(m.program)}</span></li>`;
-    }).join('');
-    const next = upcoming[0];
+    const plusDay = (iso) => { const d = new Date(utc(iso) + 86400000); return d.toISOString().slice(0, 10).replace(/-/g, ''); };
+    const google = (e) => `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(e.name)}&dates=${e.startDate.replace(/-/g, '')}/${plusDay(e.endDate)}&location=${encodeURIComponent([e.venue, e.city, e.state].filter(Boolean).join(', '))}&details=${encodeURIComponent(`${e.description ? `${e.description} ` : ''}${e.url}`)}`;
+    const row = (e) => {
+      const { m, d } = parts(e.startDate);
+      const place = [e.venue, [e.city, e.state].filter(Boolean).join(', ')].filter(Boolean).join(' · ');
+      const ftcOnly = e.program === 'FTC';
+      return `<li class="${e.endDate < now ? 'past' : ''}"><div class="date-block"><span class="m">${MONTHS[m - 1]}</span><span class="d">${d}</span></div><div><span class="label${ftcOnly ? ' ftc' : ''}">${esc(e.program)} · ${esc(e.type)}${e.week ? ` · Week ${e.week}` : ''}</span><h3>${esc(e.name)}</h3><p>${esc(dateRange(e.startDate, e.endDate))}${place ? ` · ${esc(place)}` : ''}</p>${e.description ? `<p class="desc">${esc(e.description)}</p>` : ''}<ul class="link-list"><li>${ext(e.url, 'Event details', 'text-link')}</li><li>${ext(google(e), 'Google Calendar', 'text-link')}</li></ul></div></li>`;
+    };
+    const draw = () => {
+      const events = cal.events.filter((e) => (!state.program || e.program.includes(state.program)) && (state.showPast || e.endDate >= now));
+      const months = [];
+      events.forEach((e) => { const key = e.startDate.slice(0, 7); const group = months.find((g) => g.key === key) || (months.push({ key, events: [] }), months[months.length - 1]); group.events.push(e); });
+      $('calendar-list').innerHTML = months.map((g) => { const { y, m } = parts(`${g.key}-01`); return `<h3 class="month">${['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][m - 1]} ${y}</h3><ol class="schedule">${g.events.map(row).join('')}</ol>`; }).join('') || '<p class="loading">No events match.</p>';
+      const earlier = cal.events.filter((e) => e.endDate < now && (!state.program || e.program.includes(state.program))).length;
+      $('calendar-past').hidden = !earlier;
+      $('calendar-past').textContent = state.showPast ? 'Hide earlier events' : `Show earlier events (${earlier})`;
+    };
+    document.querySelectorAll('[data-program]').forEach((button) => button.addEventListener('click', () => {
+      state.program = button.dataset.program;
+      document.querySelectorAll('[data-program]').forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+      draw();
+    }));
+    $('calendar-past').addEventListener('click', () => { state.showPast = !state.showPast; draw(); });
+    draw();
+    $('calendar-source').innerHTML = `Dates from ${cal.sources.map(esc).join(', ')}. Checked ${esc(shortDate(cal.retrievedDate))}. Dates can change; confirm with the event before you go.`;
+    const next = cal.events.find((e) => e.endDate >= now);
     if (next) {
       const days = daysUntil(next.startDate);
-      $('countdown').innerHTML = `<strong>${days <= 0 ? 'Now' : days}</strong><span>${days <= 0 ? '' : days === 1 ? 'day until ' : 'days until '}${esc(next.title)}</span>`;
-      if ($('next-event-link')) $('next-event-link').textContent = `Next: ${next.title} · ${shortDate(next.startDate).replace(/, \d{4}$/, '')}`;
+      $('countdown').innerHTML = `<strong>${days <= 0 ? 'Now' : days}</strong><span>${days <= 0 ? 'happening: ' : days === 1 ? 'day until ' : 'days until '}${esc(next.name)}</span>`;
     }
-    const planned = preview.milestones.filter((m) => m.status !== 'Confirmed event' && m.endDate >= now);
-    const shows = [...preview.shows.ftc.map((s) => ({ ...s, program: 'FTC' })), ...preview.shows.frc.map((s) => ({ ...s, program: 'FRC' }))].sort((a, b) => a.date.localeCompare(b.date));
-    $('coverage-list').innerHTML = `<p>Coverage dates are editorial plans, not confirmed broadcasts. Times and watch links will follow.</p><ul class="coverage">${planned.map((m) => `<li><strong>${esc(m.dateLabel || dateRange(m.startDate, m.endDate))}</strong> · ${esc(m.title)} <span class="muted">(${esc(m.status.toLowerCase())})</span></li>`).join('')}</ul><ul class="coverage">${shows.map((s) => `<li><strong>${esc(shortDate(s.date))}</strong> · ${esc(s.title)}</li>`).join('')}</ul>`;
   }
 
   function renderMedia() {
@@ -292,6 +308,8 @@
       else if (y > lastY + 6 && !header.classList.contains('open') && innerWidth > 760) header.classList.add('tucked');
       if (Math.abs(y - lastY) > 6) lastY = y;
       progress.style.transform = `scaleX(${Math.min(1, y / Math.max(1, document.documentElement.scrollHeight - innerHeight))})`;
+      // A jump (nav link, deep link) can skip past blocks without them ever intersecting; show them.
+      document.querySelectorAll('[data-revealed]:not(.in), .rule:not(.in)').forEach((el) => { if (el.getBoundingClientRect().top < innerHeight * 0.9) { el.classList.add('in'); revealer?.unobserve(el); } });
       frame = false;
     });
   };
@@ -317,6 +335,8 @@
     renderMedia();
     animateSections();
     openFromHash();
+    // Content above a section deep link has just rendered, so jump again to land on it.
+    if (/^#[a-z]+$/.test(location.hash) && location.hash !== '#dnf') document.querySelector(location.hash)?.scrollIntoView();
     // The school directory is most of the data; fetch it when a visitor heads toward it.
     if (location.hash === '#dnf' || !('IntersectionObserver' in window)) loadDnf();
     else new IntersectionObserver((entries, observer) => { if (entries.some((e) => e.isIntersecting)) { observer.disconnect(); loadDnf(); } }, { rootMargin: '1200px 0px' }).observe($('dnf'));

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import re
+from datetime import date, timedelta
 from build_dnf import build_dnf
 from build_matches import build_matches
 from pathlib import Path
@@ -25,6 +26,34 @@ def person(row, ftc=False):
         "season": row.get("season", "Evidence from the published research; see date and notes"),
         "dateBasis": row.get("evidence_date_basis", "Undated source" if not row.get("evidence_date") else "Source publication date; not an appointment date"),
     }
+
+
+def write_ics(calendar):
+    """All-day events for newsroom calendars (RFC 5545: CRLF lines, escaped text, exclusive end date)."""
+    def text(value):
+        return str(value or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\n", "\\n")
+    def day(iso, plus=0):
+        return (date.fromisoformat(iso) + timedelta(days=plus)).strftime("%Y%m%d")
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//The REFINERY//NEI Robotics calendar//EN", "CALSCALE:GREGORIAN",
+             "X-WR-CALNAME:Northeast Indiana Robotics 2026–27", "X-WR-TIMEZONE:America/Indiana/Indianapolis"]
+    for e in calendar["events"]:
+        place = ", ".join(x for x in (e["venue"], e["city"], e["state"]) if x)
+        lines += ["BEGIN:VEVENT", f"UID:{e['id']}@refintery-rankings", f"DTSTAMP:{day(calendar['retrievedDate'])}T000000Z",
+                  f"DTSTART;VALUE=DATE:{day(e['startDate'])}", f"DTEND;VALUE=DATE:{day(e['endDate'], 1)}",
+                  f"SUMMARY:{text(e['name'] if e['name'].startswith(('FTC', 'FRC', 'FIN', 'FIRST')) else e['program'] + ' · ' + e['name'])}", f"LOCATION:{text(place)}",
+                  f"DESCRIPTION:{text((e['description'] + ' ' if e['description'] else '') + e['url'])}", f"URL:{e['url']}", "END:VEVENT"]
+    lines.append("END:VCALENDAR")
+    folded = []
+    for line in lines:  # Lines over 75 octets continue on the next line after a space.
+        raw = line.encode("utf-8")
+        while len(raw) > 75:
+            cut = 75
+            while (raw[cut] & 0xC0) == 0x80:
+                cut -= 1
+            folded.append(raw[:cut])
+            raw = b" " + raw[cut:]
+        folded.append(raw)
+    (HERE / "dist/calendar.ics").write_bytes(b"\r\n".join(folded) + b"\r\n")
 
 
 def short_award(name):
@@ -189,6 +218,8 @@ def main():
                           "No movement arrows or voting totals are shown because only one frozen ranking snapshot supports this edition."],
     }
     result["standings"], result["seasonSummary"] = build_standings(frc, editorial, logos, result["matchHighlights"])
+    result["calendar"] = load(HERE / "data/calendar-2026-27.json")
+    write_ics(result["calendar"])
     result["photos"] = load(HERE / "data/photos.json")["photos"]
     result["news"] = load(HERE / "data/news.json")
     result["displayAssets"] = {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]}

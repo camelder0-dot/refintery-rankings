@@ -15,8 +15,8 @@
   <script>document.documentElement.classList.add('js');</script>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261022-redesign-7">
-  <script src="app.js?v=20261022-redesign-7" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-redesign-8">
+  <script src="app.js?v=20261022-redesign-8" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -29,7 +29,7 @@
         <a href="#standings">Standings</a>
         <a href="#highlights">Highlights</a>
         <a href="#ftc">FTC</a>
-        <a href="#schedule">Schedule</a>
+        <a href="#schedule">Calendar</a>
         <a href="#media">Media</a>
         <a class="nav-cta" href="#dnf">Start a team</a>
       </nav>
@@ -114,15 +114,22 @@
         <div class="section-head">
           <div>
             <p class="kicker">2026–27 season</p>
-            <h2 id="schedule-title">What’s next</h2>
+            <h2 id="schedule-title">Calendar</h2>
+            <p class="section-lede">Every Indiana FTC and FRC event this season, plus the World Championship in Houston.</p>
           </div>
           <div class="countdown" id="countdown"></div>
         </div>
-        <ol class="schedule" id="schedule-list"></ol>
-        <details class="explainer" id="coverage-details">
-          <summary>Planned coverage and show dates</summary>
-          <div class="explainer-body" id="coverage-list"></div>
-        </details>
+        <div class="calendar-tools">
+          <div class="segmented" role="group" aria-label="Show events for">
+            <button type="button" data-program="" aria-pressed="true">All events</button>
+            <button type="button" data-program="FRC" aria-pressed="false">FRC</button>
+            <button type="button" data-program="FTC" aria-pressed="false">FTC</button>
+          </div>
+          <a class="text-link download" href="calendar.ics" download>Add to your calendar (.ics)</a>
+        </div>
+        <div id="calendar-list"></div>
+        <button class="button button-ghost-dark more" id="calendar-past" type="button" hidden>Show earlier events</button>
+        <p class="source-note" id="calendar-source"></p>
       </div>
     </section>
 
@@ -187,7 +194,7 @@
           <a class="media-card" href="press-kit.md" target="_blank"><strong>Press kit</strong><span>Story angles, team rundown and talking points.</span></a>
           <a class="media-card" id="media-data" href="https://github.com/horner/refintery-rankings/tree/main/data" target="_blank" rel="noopener"><strong>Data downloads</strong><span>Team records, ratings and sources as JSON and CSV.</span></a>
           <a class="media-card" href="logo-credits.md" target="_blank"><strong>Logos &amp; photos</strong><span>School and team marks with sources and credits.</span></a>
-          <a class="media-card" href="mailto:info@refineryrobotics.org?subject=Media%20request%3A%20Northeast%20Indiana%20robotics"><strong>Media contact</strong><span>info@refineryrobotics.org · The REFINERY, Fort Wayne</span></a>
+          <a class="media-card" href="mailto:celder@bionanomics.com?subject=Media%20request%3A%20Northeast%20Indiana%20robotics"><strong>Media contact</strong><span>celder@bionanomics.com · interviews, photos, team introductions</span></a>
         </div>
         <div class="faq media-faq">
           <details><summary>In the news</summary><ul class="news-list" id="news-list"></ul></details>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh broadcast/data/tba/results-<season>.json from The Blue Alliance API v3.
 
-Needs a free read key from https://www.thebluealliance.com/account in TBA_AUTH_KEY.
+Needs a free read key from https://www.thebluealliance.com/account in TBA_AUTH_KEY or tba.env (docs/tba-api.md).
 Writes to --output (default: a new file) so a refresh never silently replaces the
 published capture; review the diff, then copy it over.
 
@@ -11,10 +11,11 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import urllib.request
 from datetime import date
 from pathlib import Path
+
+from tba_key import tba_key
 
 ROOT = Path(__file__).resolve().parents[1]
 API = "https://www.thebluealliance.com/api/v3"
@@ -51,9 +52,9 @@ def main():
     parser.add_argument("--district", default="fin")
     parser.add_argument("--output", required=True)
     args = parser.parse_args()
-    key = os.environ.get("TBA_AUTH_KEY")
+    key = tba_key()
     if not key:
-        raise SystemExit("Set TBA_AUTH_KEY to a read key from https://www.thebluealliance.com/account")
+        raise SystemExit("No TBA key yet: set TBA_AUTH_KEY or fill in tba.env (see docs/tba-api.md).")
     teams = json.loads((ROOT / "data/teams.json").read_text(encoding="utf-8"))["teams"]
     numbers = [t["team_number"] for t in teams if t["scope_group"] == "northeast_indiana"]
     district = {r["team_key"]: r for r in get(f"/district/{args.season}{args.district}/rankings", key) or []}
@@ -79,12 +80,15 @@ def main():
                          "awards": [a["name"] for a in awards if a["event_key"] == event["key"]], "playoff": playoff(status),
                          "tbaUrl": f"https://www.thebluealliance.com/event/{event['key']}"})
         ranking = district.get(team_key, {})
+        profile = get(f"/team/{team_key}", key)
+        social = [{"type": m["type"], "handle": m["foreign_key"]} for m in get(f"/team/{team_key}/social_media", key)]
         out.append({"teamNumber": number, "tbaUrl": f"https://www.thebluealliance.com/team/{number}/{args.season}",
+                    "website": profile.get("website"), "social": social,
                     "officialRecord": {"wins": wins, "losses": losses, "ties": ties},
                     "district": {"key": f"{args.season}{args.district}", "rank": ranking.get("rank"), "points": ranking.get("point_total"), "teamCount": len(district)},
                     "events": rows})
     doc = {"schemaVersion": 1, "season": args.season, "source": "The Blue Alliance API v3", "retrievedDate": date.today().isoformat(),
-           "method": "TBA API v3 team events, event statuses, awards and district rankings.", "teams": out}
+           "method": "TBA API v3 team profile and social media, events, event statuses, awards and district rankings.", "teams": out}
     Path(args.output).write_text(json.dumps(doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(out)} teams to {args.output}. Review the diff before replacing broadcast/data/tba/results-{args.season}.json.")
 
