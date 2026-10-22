@@ -9,3 +9,5 @@ The FTC companion directory preserves factual FIRST, FTCScout, NCES, and Census 
 School presentations, meeting minutes, news reports, social-media posts, professional profiles, and podcasts are linked to their publishers. This repository records the relevant facts and qualifications rather than republishing those sources in full. The document manifest identifies the linked PDF versions that were checked.
 
 FIRST, Statbotics, FTCScout, school, team, and organization names belong to their respective organizations. Source links do not imply that any organization reviewed or endorsed this compilation. No new license for third-party material is asserted here.
+
+The broadcast package uses The REFINERY's logo and practice-field photograph from its public BioNanomics/REFINERY-site website repository. Original asset URLs, retrieval date, and checksums are recorded in `broadcast/data/asset-manifest.json`. The photograph illustrates the shared facility, not a selected-team portrait. The hero phrase is attributed to FIRST Global's Robotics Is a Sport campaign at https://first.global/sport/.

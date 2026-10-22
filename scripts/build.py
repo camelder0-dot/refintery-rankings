@@ -257,6 +257,8 @@ If you follow football or baseball, much of competitive robotics will feel famil
 
 **FIRST Tech Challenge (FTC)** and **FIRST Robotics Competition (FRC)** are two robotics sports under the FIRST umbrella. They share engineering and teamwork, while using different robots, fields, and game rules. Both are full competition programs, with overlapping student ages and their own championships.
 
+Football and baseball divide schools into enrollment-based classes. FTC and FRC describe different robotics competition formats, chosen by schools and community teams rather than assigned by school enrollment. A large school can compete in FTC, a small school can compete in FRC, and a school can offer both.
+
 | What to know | FTC | FRC |
 |---|---|---|
 | Students | Grades 7–12; ages 12–18 | Grades 9–12; ages 14–18 |
@@ -275,6 +277,8 @@ Read the ratings here as you might read **yards per play in football or batting 
 [The REFINERY](https://refineryrobotics.org/) helps youth robotics teams in Fort Wayne and Northeast Indiana with funding, parts, tools, facilities, and training. Think of the shared support behind a sports program: access to practice space, equipment, and experienced people helps teams develop. Learn [how The REFINERY supports teams](https://refineryrobotics.org/what-we-do/), [meet its teams and people](https://refineryrobotics.org/about/), or [find a team, volunteer, partner, or help start a program](https://refineryrobotics.org/get-involved/).
 
 ## Explore the local teams
+
+[Broadcast screen and announcer package](broadcast/README.md): a sports-style FRC Top 10, team spotlights, separate FTC features, and a source-aware media rundown.
 
 Research directories for two FIRST programs within 60 straight-line miles of Citizens Square in downtown Fort Wayne. Each program retains its own season, ranking metric, evidence, and qualifications.
 
@@ -331,6 +335,8 @@ python scripts/build.py
 node scripts/export_csv.mjs --stdlib
 python ftc/scripts/build.py
 python ftc/scripts/verify.py
+python broadcast/scripts/build.py
+python broadcast/scripts/verify.py
 python scripts/verify.py
 ```
 

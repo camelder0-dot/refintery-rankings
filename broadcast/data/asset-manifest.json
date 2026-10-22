@@ -1,0 +1,19 @@
+{
+  "assets": [
+    {
+      "file": "dist/assets/refinery-logo.svg",
+      "source_url": "https://raw.githubusercontent.com/BioNanomics/REFINERY-site/main/src/assets/logo-full-color.svg",
+      "publisher": "The REFINERY / BioNanomics",
+      "retrieved_date": "2026-10-22",
+      "sha256": "f419ef5bad336e5c7d7dbfd9c68be53aa67421acd233f1582fa41dd7a14baeaa"
+    },
+    {
+      "file": "dist/assets/refinery-shop.jpeg",
+      "source_url": "https://raw.githubusercontent.com/BioNanomics/REFINERY-site/main/src/assets/refinery-shop-1.jpeg",
+      "publisher": "The REFINERY / BioNanomics",
+      "retrieved_date": "2026-10-22",
+      "sha256": "07e5a5f2703af455b10952a554ae53112f03131dff54f082bc8eaa6b2c4f2b9d"
+    }
+  ],
+  "note": "Existing official website assets used for the REFINERY broadcast package. No new license asserted."
+}

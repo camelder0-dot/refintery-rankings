@@ -1,0 +1,577 @@
+{
+  "district_source": "https://frc-events.firstinspires.org/2026/district/FIN",
+  "retrieved_date": "2026-10-22",
+  "teams": [
+    {
+      "team_number": 45,
+      "title": "Team 45 - TechnoKats Robotics Team (2026)",
+      "location": "Kokomo, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/45",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 71,
+      "title": "Team 71 - Team Hammond (2026)",
+      "location": "Hammond, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/71",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 135,
+      "title": "Team 135 - Penn Robotics Black Knights (2026)",
+      "location": "Mishawaka, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/135",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 234,
+      "title": "Team 234 - Cyber Blue (2026)",
+      "location": "Indianapolis, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/234",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 292,
+      "title": "Team 292 - PantherTech (2026)",
+      "location": "Russiaville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/292",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 328,
+      "title": "Team 328 - Penn Robotics Golden Rooks (2026)",
+      "location": "Mishawaka, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/328",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 447,
+      "title": "Team 447 - Team Roboto (2026)",
+      "location": "Anderson, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/447",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 461,
+      "title": "Team 461 - Westside Boiler Invasion (2026)",
+      "location": "West Lafayette, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/461",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 761,
+      "title": "Team 761 - TechPUPS (2026)",
+      "location": "Carmel, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/761",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 829,
+      "title": "Team 829 - The Digital Goats (2026)",
+      "location": "Indianapolis, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/829",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 868,
+      "title": "Team 868 - TechHOUNDS (2026)",
+      "location": "Carmel, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/868",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 1018,
+      "title": "Team 1018 - Pike RoboDevils (2026)",
+      "location": "Indianapolis, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1018",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 1024,
+      "title": "Team 1024 - Kil-A-Bytes (2026)",
+      "location": "Indianapolis, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1024",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 1501,
+      "title": "Team 1501 - Team THRUST (2026)",
+      "location": "Huntington, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1501",
+      "included_in_refinery_region": true,
+      "refinery_county": "Huntington"
+    },
+    {
+      "team_number": 1555,
+      "title": "Team 1555 - CryoFrost (2026)",
+      "location": "Elkhart, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1555",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 1646,
+      "title": "Team 1646 - Precision Guessworks (2026)",
+      "location": "Lafayette, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1646",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 1720,
+      "title": "Team 1720 - PhyXTGears (2026)",
+      "location": "Matthews, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1720",
+      "included_in_refinery_region": true,
+      "refinery_county": "Grant"
+    },
+    {
+      "team_number": 1741,
+      "title": "Team 1741 - Red Alert (2026)",
+      "location": "Greenwood, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1741",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 1747,
+      "title": "Team 1747 - Harrison Boiler Robotics (2026)",
+      "location": "West Lafayette, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/1747",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 2171,
+      "title": "Team 2171 - RoboDogs (2026)",
+      "location": "Crown Point, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/2171",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 2197,
+      "title": "Team 2197 - Las Pumas (2026)",
+      "location": "New Carlisle, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/2197",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 2867,
+      "title": "Team 2867 - ElkLogics (2026)",
+      "location": "Elkhart, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/2867",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3147,
+      "title": "Team 3147 - Munster Horsepower (2026)",
+      "location": "Munster, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3147",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3176,
+      "title": "Team 3176 - Purple Precision (2026)",
+      "location": "Brownsburg, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3176",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3487,
+      "title": "Team 3487 - Red Pride Robotics (2026)",
+      "location": "Plainfield, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3487",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3494,
+      "title": "Team 3494 - The Quadrangles (2026)",
+      "location": "Bloomington, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3494",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3559,
+      "title": "Team 3559 - Thundercats (2026)",
+      "location": "Jasper, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3559",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3865,
+      "title": "Team 3865 - Riley WildBots (2026)",
+      "location": "South Bend, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3865",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3936,
+      "title": "Team 3936 - RoboBlitz 3936 (2026)",
+      "location": "Michigan City, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3936",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 3940,
+      "title": "Team 3940 - CyberTooth (2026)",
+      "location": "Kokomo, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/3940",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 4272,
+      "title": "Team 4272 - Maverick Robotics (2026)",
+      "location": "Lafayette, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/4272",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 4485,
+      "title": "Team 4485 - Tribe Tech Robotics (2026)",
+      "location": "Danville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/4485",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 4580,
+      "title": "Team 4580 - Conductors (2026)",
+      "location": "Indianapolis, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/4580",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 4926,
+      "title": "Team 4926 - GalacTech (2026)",
+      "location": "Columbus, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/4926",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 4982,
+      "title": "Team 4982 - Olympus Robotics (2026)",
+      "location": "Fort Wayne, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/4982",
+      "included_in_refinery_region": true,
+      "refinery_county": "Allen"
+    },
+    {
+      "team_number": 5010,
+      "title": "Team 5010 - Tiger Dynasty (2026)",
+      "location": "Fishers, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/5010",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 5188,
+      "title": "Team 5188 - Area 5188: Classified Robotics (2026)",
+      "location": "Terre Haute, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/5188",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 5402,
+      "title": "Team 5402 - Wreckless Robotics (2026)",
+      "location": "Loganpsport/Walton, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/5402",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 5484,
+      "title": "Team 5484 - Career Academy Robotics - Wolf Pack (2026)",
+      "location": "South Bend, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/5484",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 6498,
+      "title": "Team 6498 - Castle Robotics (2026)",
+      "location": "Newburgh, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/6498",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 6721,
+      "title": "Team 6721 - Tindley Trailblazers (2026)",
+      "location": "Indianapolis, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/6721",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 6956,
+      "title": "Team 6956 - SHAM-ROCK-BOTICS \u2618 (2026)",
+      "location": "Westfield, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/6956",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 7198,
+      "title": "Team 7198 - Fearsome Gears (2026)",
+      "location": "Monticello, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/7198",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 7457,
+      "title": "Team 7457 - suPURDUEper Robotics (2026)",
+      "location": "Indianapolis, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/7457",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 7477,
+      "title": "Team 7477 - Giddy GOATS (2026)",
+      "location": "Mishawaka, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/7477",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 7617,
+      "title": "Team 7617 - RoboBlazers (2026)",
+      "location": "Carmel, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/7617",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 7657,
+      "title": "Team 7657 - Thunderbots (2026)",
+      "location": "Evansville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/7657",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 7695,
+      "title": "Team 7695 - Trojan Thunder (2026)",
+      "location": "Highland, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/7695",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 8103,
+      "title": "Team 8103 - Knight Robotics (2026)",
+      "location": "Kendallville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/8103",
+      "included_in_refinery_region": true,
+      "refinery_county": "Noble"
+    },
+    {
+      "team_number": 8116,
+      "title": "Team 8116 - Hatchet Robotics (2026)",
+      "location": "Washington, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/8116",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 8430,
+      "title": "Team 8430 - The Hatch Batch (2026)",
+      "location": "Washington, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/8430",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 8431,
+      "title": "Team 8431 - Robo-Knights (2026)",
+      "location": "Kendallville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/8431",
+      "included_in_refinery_region": true,
+      "refinery_county": "Noble"
+    },
+    {
+      "team_number": 8432,
+      "title": "Team 8432 - Cyber Knights (2026)",
+      "location": "Kendallville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/8432",
+      "included_in_refinery_region": true,
+      "refinery_county": "Noble"
+    },
+    {
+      "team_number": 8742,
+      "title": "Team 8742 - Argyll Attack (2026)",
+      "location": "Fairmount, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/8742",
+      "included_in_refinery_region": true,
+      "refinery_county": "Grant"
+    },
+    {
+      "team_number": 9071,
+      "title": "Team 9071 - SlicerTech (2026)",
+      "location": "La Porte, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9071",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 9119,
+      "title": "Team 9119 - Iron Legends (2026)",
+      "location": "Fort Wayne, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9119",
+      "included_in_refinery_region": true,
+      "refinery_county": "Allen"
+    },
+    {
+      "team_number": 9431,
+      "title": "Team 9431 - Snider Panthers- \"The Gold Standard\" (2026)",
+      "location": "Fort Wayne, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9431",
+      "included_in_refinery_region": true,
+      "refinery_county": "Allen"
+    },
+    {
+      "team_number": 9453,
+      "title": "Team 9453 - Mount Vernon Wildcats (2026)",
+      "location": "Mount Vernon, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9453",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 9491,
+      "title": "Team 9491 - Crypto Creek (2026)",
+      "location": "Sellersburg, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9491",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 9530,
+      "title": "Team 9530 - John Adams Robotics (2026)",
+      "location": "South Bend, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9530",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 9554,
+      "title": "Team 9554 - Portage Pythons (2026)",
+      "location": "South Bend, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9554",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 9790,
+      "title": "Team 9790 - Crypto Creek II (2026)",
+      "location": "Sellersburg, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/9790",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 10021,
+      "title": "Team 10021 - Guerin Catholic Golden Gears (2026)",
+      "location": "Noblesville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/10021",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 10029,
+      "title": "Team 10029 - The Portotypes (2026)",
+      "location": "Portage, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/10029",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    },
+    {
+      "team_number": 10172,
+      "title": "Team 10172 - Apex Archers (2026)",
+      "location": "Fort Wayne, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/10172",
+      "included_in_refinery_region": true,
+      "refinery_county": "Allen"
+    },
+    {
+      "team_number": 10332,
+      "title": "Team 10332 - Carroll Charger Robotics (2026)",
+      "location": "Fort Wayne, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/10332",
+      "included_in_refinery_region": true,
+      "refinery_county": "Allen"
+    },
+    {
+      "team_number": 10411,
+      "title": "Team 10411 - G-Code Generals (2026)",
+      "location": "Fort Wayne, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/10411",
+      "included_in_refinery_region": true,
+      "refinery_county": "Allen"
+    },
+    {
+      "team_number": 10434,
+      "title": "Team 10434 - CYBEARS (2026)",
+      "location": "Fort Wayne, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/10434",
+      "included_in_refinery_region": true,
+      "refinery_county": "Allen"
+    },
+    {
+      "team_number": 10493,
+      "title": "Team 10493 - Harrison RoboWarriors (2026)",
+      "location": "Evansville, Indiana, USA",
+      "source": "https://frc-events.firstinspires.org/2026/team/10493",
+      "included_in_refinery_region": false,
+      "refinery_county": null
+    }
+  ],
+  "screening_rule": "2026 FIRST Indiana district roster; primary geography is official FIRST profile town. In-region towns are mapped using The REFINERY service-area town/county list; all 69 listed district team profiles were retrieved and screened. This is not a workshop-location or student-residence audit.",
+  "region_county_source": "https://refineryrobotics.org/about/",
+  "included_team_count": 13,
+  "included_team_numbers": [
+    1501,
+    1720,
+    4982,
+    8103,
+    8431,
+    8432,
+    8742,
+    9119,
+    9431,
+    10172,
+    10332,
+    10411,
+    10434
+  ],
+  "capture_failure_count": 0
+}
