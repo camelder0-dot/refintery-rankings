@@ -87,27 +87,28 @@ p { margin: 0 0 1em; }
 .menu-toggle span[aria-hidden] { display: block; width: 24px; height: 2px; margin: auto; background: #fff; box-shadow: 0 -8px #fff, 0 8px #fff; }
 
 /* Hero */
-.hero { position: relative; min-height: min(94vh, 900px); display: flex; flex-direction: column; justify-content: flex-end; color: #fff; background: var(--dark); overflow: hidden; padding-top: 96px; }
+.hero { position: relative; min-height: min(88vh, 820px); display: flex; flex-direction: column; justify-content: flex-end; color: #fff; background: var(--dark); overflow: hidden; padding-top: 96px; }
 .hero > .hero-bg { position: absolute; inset: -4% 0 0; z-index: 0; will-change: transform; }
 .hero-bg img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; animation: hero-in 1.6s var(--ease) both; }
 @keyframes hero-in { from { transform: scale(1.08); opacity: 0; } to { transform: scale(1); opacity: 1; } }
 .hero::before { content: ''; position: absolute; inset: 0; z-index: 1; background:
-  linear-gradient(180deg, rgb(24 24 27 / .6) 0%, rgb(24 24 27 / .3) 30%, rgb(24 24 27 / .85) 72%, rgb(24 24 27 / .98) 100%),
-  linear-gradient(90deg, rgb(19 75 112 / .78) 0%, rgb(19 75 112 / .2) 60%); }
+  linear-gradient(180deg, rgb(24 24 27 / .55) 0%, rgb(24 24 27 / .45) 45%, rgb(24 24 27 / .92) 100%),
+  linear-gradient(90deg, rgb(13 53 80 / .85) 0%, rgb(13 53 80 / .35) 70%); }
 .hero::after { content: ''; position: absolute; z-index: 1; left: 0; bottom: 0; width: 100%; height: 6px; background: linear-gradient(90deg, var(--green-fill) 0 33%, var(--navy) 33% 66%, var(--mint) 66%); }
 .hero > *:not(.hero-bg) { position: relative; z-index: 2; }
-.hero-content { padding-bottom: 40px; }
+.hero-content { padding-bottom: clamp(56px, 9vh, 96px); }
 .hero h1 { font-size: clamp(52px, 9vw, 116px); line-height: .9; font-style: italic; }
 .hero h1 > span { display: block; overflow: hidden; padding-right: .08em; }
 .hero h1 > span > span { display: block; animation: line-up .9s var(--ease) both; }
 .hero h1 > span:nth-child(2) > span { animation-delay: .12s; }
 .hero h1 > span:nth-child(3) > span { animation-delay: .24s; color: var(--mint); }
 @keyframes line-up { from { transform: translateY(105%); } to { transform: none; } }
-.hero-lede { font-size: clamp(17px, 2vw, 21px); color: #e6e8eb; max-width: 54ch; margin: 22px 0 30px; animation: fade-up .9s .35s var(--ease) both; }
+.hero-lede { font-family: var(--display); font-weight: 600; font-size: clamp(20px, 2.4vw, 26px); letter-spacing: .04em; text-transform: uppercase; color: #d9dde2; margin: 20px 0 32px; animation: fade-up .9s .35s var(--ease) both; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 14px; }
 .hero .hero-actions { animation: fade-up .9s .45s var(--ease) both; }
 @keyframes fade-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
-.stat-bar { display: grid; grid-template-columns: repeat(5, 1fr); margin: 0 0 20px; border-top: 1px solid rgb(255 255 255 / .2); }
+.stat-band { background: var(--dark); color: #fff; padding: 8px 0 26px; }
+.stat-bar { display: grid; grid-template-columns: repeat(5, 1fr); margin: 0; }
 .stat-bar div { display: flex; flex-direction: column; padding: 18px 16px 4px 0; border-right: 1px solid rgb(255 255 255 / .12); }
 .stat-bar div:last-child { border-right: 0; }
 .stat-bar div + div { padding-left: 18px; }
@@ -318,11 +319,30 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .site-footer img { height: 30px; width: auto; margin-bottom: 8px; }
 .site-footer a { color: var(--on-dark); }
 
-/* Scroll reveals: content stays visible without JavaScript or with reduced motion */
-.js .reveal { opacity: 0; transform: translateY(28px); transition: opacity .7s var(--ease), transform .7s var(--ease); transition-delay: calc(var(--i, 0) * 60ms); }
-.js .reveal.in { opacity: 1; transform: none; }
-.js .reveal-line { transform: scaleX(0); transform-origin: left; transition: transform 1s var(--ease); }
-.js .reveal-line.in { transform: scaleX(1); }
+/* Scroll motion. Only transform, opacity and clip-path animate, so it stays smooth.
+   Everything is visible without JavaScript or with reduced motion. */
+:root { --out: cubic-bezier(.16, 1, .3, 1); }
+.scroll-progress { position: fixed; inset: 0 0 auto; height: 3px; z-index: 60; background: var(--mint); transform-origin: left; transform: scaleX(0); pointer-events: none; }
+.site-header { transition: background .3s, box-shadow .3s, transform .45s var(--out); }
+.site-header.tucked { transform: translateY(-100%); }
+.js .reveal { opacity: 0; transform: translateY(24px); transition: opacity .9s var(--out), transform .9s var(--out); transition-delay: calc(var(--i, 0) * 55ms); }
+.js .reveal-left { opacity: 0; transform: translateX(-24px); transition: opacity .8s var(--out), transform .8s var(--out); transition-delay: calc(var(--i, 0) * 45ms); }
+.js .reveal-head { clip-path: inset(0 0 100% 0); transform: translateY(40%); transition: clip-path 1s var(--out), transform 1s var(--out); }
+.js .reveal-head.in { clip-path: inset(-10% -5% -15% 0); }
+.js .kicker.reveal::before, .js .eyebrow.reveal::before { transform: scaleX(0); transform-origin: left; transition: transform .8s .2s var(--out); }
+.js .kicker.reveal.in::before, .js .eyebrow.reveal.in::before { transform: none; }
+.js .reveal-img { clip-path: inset(0 100% 0 0); transition: clip-path 1.1s var(--out); transition-delay: calc(var(--i, 0) * 90ms); }
+.js .reveal-img img { transform: scale(1.12); transition: transform 1.6s var(--out); transition-delay: calc(var(--i, 0) * 90ms); }
+.js .reveal-img.in { clip-path: inset(0); }
+.js .reveal-img.in img { transform: none; }
+.js .gallery figure.reveal-img.in:hover img { transform: scale(1.04); transition-duration: .8s; transition-delay: 0s; }
+/* Heavy section rules draw left to right */
+.js .rule { position: relative; border-top-color: transparent !important; }
+.js .rule::after { content: ''; position: absolute; left: 0; right: 0; top: calc(-1 * var(--rule, 5px)); height: var(--rule, 5px); background: var(--rule-color, var(--navy)); transform: scaleX(0); transform-origin: left; transition: transform 1.2s var(--out); }
+.js .rule.in::after { transform: none; }
+.js .reveal.in, .js .reveal-left.in, .js .reveal-head.in { opacity: 1; transform: none; }
+.js .date-block.reveal { transform: translateY(24px) scale(.9); }
+.js .date-block.reveal.in { transform: none; }
 
 /* Responsive */
 @media (max-width: 1020px) {
@@ -385,5 +405,7 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
-  .js .reveal, .js .reveal-line { opacity: 1; transform: none; }
+  .js .reveal, .js .reveal-left, .js .reveal-head, .js .reveal-img, .js .reveal-img img { opacity: 1; transform: none; clip-path: none; }
+  .js .rule::after, .js .kicker.reveal::before { transform: none; }
+  .scroll-progress { display: none; }
 }

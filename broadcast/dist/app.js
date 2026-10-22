@@ -125,7 +125,7 @@
     if (next) {
       const days = daysUntil(next.startDate);
       $('countdown').innerHTML = `<strong>${days <= 0 ? 'Now' : days}</strong><span>${days <= 0 ? '' : days === 1 ? 'day until ' : 'days until '}${esc(next.title)}</span>`;
-      $('next-event-link').textContent = `Next: ${next.title} · ${shortDate(next.startDate).replace(/, \d{4}$/, '')}`;
+      if ($('next-event-link')) $('next-event-link').textContent = `Next: ${next.title} · ${shortDate(next.startDate).replace(/, \d{4}$/, '')}`;
     }
     const planned = preview.milestones.filter((m) => m.status !== 'Confirmed event' && m.endDate >= now);
     const shows = [...preview.shows.ftc.map((s) => ({ ...s, program: 'FTC' })), ...preview.shows.frc.map((s) => ({ ...s, program: 'FRC' }))].sort((a, b) => a.date.localeCompare(b.date));
@@ -187,13 +187,29 @@
 
   // Motion: reveal blocks as they scroll in, count numbers up, drift the hero photo.
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // Items that arrive together stagger by their order in that batch, so a long list never lags.
   const revealer = !calm && 'IntersectionObserver' in window
-    ? new IntersectionObserver((entries) => entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); revealer.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' })
+    ? new IntersectionObserver((entries) => {
+      entries.filter((e) => e.isIntersecting).forEach((e, i) => {
+        if (e.target.dataset.stagger) e.target.style.setProperty('--i', Math.min(i, 7));
+        e.target.classList.add('in');
+        revealer.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -10% 0px' })
     : null;
-  const reveal = (selector, stagger = true) => document.querySelectorAll(selector).forEach((el, i) => {
-    if (!revealer || el.classList.contains('reveal')) return;
-    el.classList.add('reveal');
-    if (stagger) el.style.setProperty('--i', Math.min(i, 8));
+  const reveal = (selector, kind = 'reveal', stagger = true) => document.querySelectorAll(selector).forEach((el) => {
+    if (!revealer || el.dataset.revealed) return;
+    el.dataset.revealed = kind;
+    el.classList.add(kind);
+    if (stagger) el.dataset.stagger = '1';
+    revealer.observe(el);
+  });
+  // Heavy section rules draw across instead of appearing.
+  const rule = (selector, size, color) => document.querySelectorAll(selector).forEach((el) => {
+    if (!revealer) return;
+    el.classList.add('rule');
+    el.style.setProperty('--rule', size);
+    el.style.setProperty('--rule-color', color);
     revealer.observe(el);
   });
   const countUp = (el) => {
@@ -218,22 +234,48 @@
     }, { passive: true });
   }
   const animateSections = () => {
-    reveal('.section-head', false);
-    reveal('.explainer', false);
-    reveal('#standings-list .team');
+    reveal('.section .kicker', 'reveal', false);
+    reveal('.section h2', 'reveal-head', false);
+    reveal('.section-lede', 'reveal', false);
+    reveal('.segmented, .countdown, .dnf-count', 'reveal', false);
+    reveal('.explainer', 'reveal', false);
+    reveal('#standings-list .team', 'reveal-left');
     reveal('.highlight');
-    reveal('.gallery figure');
+    reveal('.gallery figure', 'reveal-img');
     reveal('.card');
     reveal('.schedule li');
     reveal('.faq details');
     reveal('.media-card');
-    reveal('.dnf-head', false);
+    reveal('.dnf .hero-actions, .dnf-tools', 'reveal', false);
+    rule('.standings', '5px', 'var(--navy)');
+    rule('.card-grid', '5px', 'var(--green)');
+    rule('.media-grid', '5px', 'var(--navy)');
+    rule('.schedule, .faq', '2px', 'var(--ink)');
+    rule('.highlight-grid', '1px', 'var(--dark-line)');
     document.querySelectorAll('[data-count]').forEach(countUp);
   };
 
-  // Header: solid once the hero scrolls away; menu on small screens.
+  // Header: solid once the hero scrolls away, tucks away while reading down, returns on scroll up.
+  // A thin progress bar tracks how far down the page you are.
   const header = document.querySelector('.site-header');
-  const onScroll = () => header.classList.toggle('scrolled', scrollY > 40);
+  const progress = document.createElement('div');
+  progress.className = 'scroll-progress';
+  progress.setAttribute('aria-hidden', 'true');
+  document.body.append(progress);
+  let lastY = scrollY, frame = false;
+  const onScroll = () => {
+    if (frame) return;
+    frame = true;
+    requestAnimationFrame(() => {
+      const y = scrollY;
+      header.classList.toggle('scrolled', y > 40);
+      if (y < innerHeight * 0.9 || y < lastY - 6) header.classList.remove('tucked');
+      else if (y > lastY + 6 && !header.classList.contains('open')) header.classList.add('tucked');
+      if (Math.abs(y - lastY) > 6) lastY = y;
+      progress.style.transform = `scaleX(${Math.min(1, y / Math.max(1, document.documentElement.scrollHeight - innerHeight))})`;
+      frame = false;
+    });
+  };
   addEventListener('scroll', onScroll, { passive: true });
   onScroll();
   $('menu-toggle').addEventListener('click', () => { const open = header.classList.toggle('open'); $('menu-toggle').setAttribute('aria-expanded', String(open)); });

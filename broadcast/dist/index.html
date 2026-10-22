@@ -15,8 +15,8 @@
   <script>document.documentElement.classList.add('js');</script>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261022-redesign-5">
-  <script src="app.js?v=20261022-redesign-5" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-redesign-6">
+  <script src="app.js?v=20261022-redesign-6" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -42,18 +42,18 @@
         <img src="assets/photos/fans-4982.webp" width="1280" height="720" fetchpriority="high" decoding="async" alt="">
       </picture>
       <div class="wrap hero-content">
-        <p class="eyebrow">Northeast Indiana · <i>FIRST</i> Robotics</p>
         <h1 id="hero-title"><span><span>The only sport</span></span><span><span>where every kid</span></span><span><span>can go pro.</span></span></h1>
-        <p class="hero-lede">Thirteen high school robotics teams in The REFINERY’s 12-county region. Here’s how the 2026 season played out, and what’s coming in 2027.</p>
+        <p class="hero-lede">Northeast Indiana high school robotics.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#standings">See the 2026 standings</a>
-          <a class="button button-ghost" id="next-event-link" href="#schedule">Upcoming events</a>
+          <a class="button button-primary" href="#standings">See the standings</a>
         </div>
       </div>
+    </section>
+
+    <section class="stat-band" aria-label="2026 season at a glance">
       <div class="wrap">
-        <dl class="stat-bar" id="stat-bar" aria-label="2026 season at a glance"></dl>
+        <dl class="stat-bar" id="stat-bar"></dl>
       </div>
-      <p class="photo-credit wrap">Headline adapted from <a href="https://first.global/sport/" target="_blank" rel="noopener"><i>FIRST</i> Global’s “Robotics Is a Sport”</a> campaign · Olympus Robotics (4982) fans · Photo: The REFINERY</p>
     </section>
 
     <section class="section" id="standings" aria-labelledby="standings-title">
@@ -201,6 +201,7 @@
     <div class="wrap footer-inner">
       <img src="assets/refinery-logo-reversed.svg" alt="The REFINERY" width="124" height="32" loading="lazy">
       <p>An independent look at Northeast Indiana robotics from <a href="https://refineryrobotics.org/" target="_blank" rel="noopener">The REFINERY</a>, a nonprofit robotics makerspace in Fort Wayne. Not affiliated with or endorsed by <i>FIRST</i>. Results: <a href="https://www.thebluealliance.com/" target="_blank" rel="noopener">The Blue Alliance</a>; ratings: <a href="https://www.statbotics.io/" target="_blank" rel="noopener">Statbotics</a> and <a href="https://ftcscout.org/" target="_blank" rel="noopener">FTCScout</a>.</p>
+      <p>Cover photo: Olympus Robotics (4982) fans, by The REFINERY. Headline adapted from <a href="https://first.global/sport/" target="_blank" rel="noopener"><i>FIRST</i> Global’s “Robotics Is a Sport”</a> campaign.</p>
       <p><a href="https://github.com/horner/refintery-rankings" target="_blank" rel="noopener">Source &amp; research on GitHub</a></p>
     </div>
   </footer>
