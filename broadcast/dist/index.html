@@ -15,8 +15,8 @@
   <script>document.documentElement.classList.add('js');</script>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261022-redesign-3">
-  <script src="app.js?v=20261022-redesign-3" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-redesign-4">
+  <script src="app.js?v=20261022-redesign-4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -145,7 +145,7 @@
           <div>
             <p class="kicker">The next team could be yours</p>
             <h2 id="dnf-title">DNF. <span>Did not field. Yet.</span></h2>
-            <p class="section-lede">These high schools within 60 miles of downtown Fort Wayne have no school-affiliated FTC or FRC team that we could find. We want to see them on this leaderboard. The REFINERY helps new teams with funding, parts, tools, practice space and mentors.</p>
+            <p class="section-lede">These schools within 60 miles of downtown Fort Wayne serve high school students but have no school-affiliated FTC or FRC team that we could find. We want to see them on this leaderboard. The REFINERY helps new teams with funding, parts, tools, practice space and mentors.</p>
             <div class="hero-actions">
               <a class="button button-primary" id="dnf-interest" href="https://refineryrobotics.org/get-involved/#start-or-host-a-team" target="_blank" rel="noopener">We’re interested</a>
               <a class="button button-ghost" href="https://refineryrobotics.org/what-we-do/" target="_blank" rel="noopener">How The REFINERY helps</a>
@@ -162,10 +162,6 @@
         <p class="dnf-results" id="dnf-results"></p>
         <ul class="dnf-list" id="dnf-list"><li class="loading">Loading schools…</li></ul>
         <button class="button button-ghost more" id="dnf-more" type="button" hidden>Show more schools</button>
-        <details class="explainer dark-explainer" id="dnf-other" hidden>
-          <summary id="dnf-other-summary">Career centers &amp; other programs</summary>
-          <div class="explainer-body"><p>Career and technical centers, special-education cooperatives, alternative programs, microschools and schools that end before 12th grade. Career centers often make strong hosts for a team.</p><ul class="review-list" id="dnf-other-list"></ul></div>
-        </details>
         <details class="explainer dark-explainer" id="dnf-review" hidden>
           <summary id="dnf-review-summary">Bring back a team</summary>
           <div class="explainer-body"><ul class="review-list" id="dnf-review-list"></ul></div>

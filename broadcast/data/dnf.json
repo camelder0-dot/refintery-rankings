@@ -71,8 +71,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3301+E+Coliseum+Blvd%2C+Fort+Wayne%2C+IN+46805&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180006000007",
@@ -105,8 +104,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181110001797",
@@ -139,8 +137,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180363000528",
@@ -173,8 +170,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390489903468",
@@ -206,8 +202,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390507704051",
@@ -239,8 +234,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390470402757",
@@ -272,8 +266,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180018000048",
@@ -306,8 +299,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180768001314",
@@ -340,8 +332,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "00424857",
@@ -374,8 +365,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9302937",
@@ -401,8 +391,7 @@
       ],
       "schoolDirectoryYear": "2023–24",
       "schoolStatusNote": "2023–24 directory record; current campus status to confirm.",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1502799",
@@ -434,8 +423,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "00422689",
@@ -468,8 +456,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "00422703",
@@ -502,8 +489,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180057000102",
@@ -536,8 +522,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A0792095",
@@ -570,8 +555,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180072000146",
@@ -604,8 +588,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1901884",
@@ -631,8 +614,7 @@
       ],
       "schoolDirectoryYear": "2023–24",
       "schoolStatusNote": "2023–24 directory record; current campus status to confirm.",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180090000168",
@@ -665,8 +647,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390436700212",
@@ -698,8 +679,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180171000230",
@@ -732,8 +712,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180393002784",
@@ -766,8 +745,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-A171",
@@ -798,8 +776,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=426+W.+Ludwig+Rd.%2C+Fort+Wayne%2C+IN+46825&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1901893",
@@ -825,8 +802,7 @@
       ],
       "schoolDirectoryYear": "2023–24",
       "schoolStatusNote": "2023–24 directory record; current campus status to confirm.",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181023001638",
@@ -859,8 +835,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "00424835",
@@ -893,8 +868,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180228000267",
@@ -927,8 +901,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493103559",
@@ -960,8 +933,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180240000269",
@@ -994,8 +966,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "02159782",
@@ -1028,8 +999,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "261075007891",
@@ -1061,8 +1031,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "261075004540",
@@ -1094,8 +1063,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493203562",
@@ -1127,8 +1095,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9302953",
@@ -1154,8 +1121,7 @@
       ],
       "schoolDirectoryYear": "2023–24",
       "schoolStatusNote": "2023–24 directory record; current campus status to confirm.",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-A236",
@@ -1187,8 +1153,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=3501+Harris+Road%2C+Fort+Wayne%2C+IN+46857-1363&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390503503919",
@@ -1220,8 +1185,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "02026162",
@@ -1247,8 +1211,7 @@
       ],
       "schoolDirectoryYear": "2023–24",
       "schoolStatusNote": "2023–24 directory record; current campus status to confirm.",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A2400075",
@@ -1281,8 +1244,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390438600841",
@@ -1314,8 +1276,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180159000220",
@@ -1347,8 +1308,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "01060794",
@@ -1380,8 +1340,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180285002532",
@@ -1414,8 +1373,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180303000399",
@@ -1448,8 +1406,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180306000405",
@@ -1481,8 +1438,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390506104007",
@@ -1514,8 +1470,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390506204009",
@@ -1547,8 +1502,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390457702339",
@@ -1580,8 +1534,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-1752",
@@ -1613,8 +1566,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1013+Tipton+Street%2C+Elkhart%2C+IN+46516&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9302967",
@@ -1647,8 +1599,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180348000491",
@@ -1681,8 +1632,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A2192726",
@@ -1708,8 +1658,7 @@
       ],
       "schoolDirectoryYear": "2023–24",
       "schoolStatusNote": "2023–24 directory record; current campus status to confirm.",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390470602767",
@@ -1741,8 +1690,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493303564",
@@ -1774,8 +1722,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390485903309",
@@ -1807,8 +1754,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180378000601",
@@ -1841,8 +1787,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180384000605",
@@ -1874,8 +1819,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180393000654",
@@ -1908,8 +1852,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180639002150",
@@ -1942,8 +1885,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-A129",
@@ -1974,8 +1916,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5335+Bass+Rd.%2C+Fort+Wayne%2C+IN+46808&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180423000724",
@@ -2008,8 +1949,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "01902085",
@@ -2041,8 +1981,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181193001880",
@@ -2075,8 +2014,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180285000344",
@@ -2109,8 +2047,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390454102207",
@@ -2142,8 +2079,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A2302063",
@@ -2175,8 +2111,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390506304012",
@@ -2208,8 +2143,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390475702919",
@@ -2241,8 +2175,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180306000842",
@@ -2275,8 +2208,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-9352",
@@ -2307,8 +2239,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7910+S.+Anthony+Blvd.%2C+Fort+Wayne%2C+IN+46816&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A2101740",
@@ -2341,8 +2272,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1701721",
@@ -2375,8 +2305,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180498000914",
@@ -2409,8 +2338,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390438800852",
@@ -2442,8 +2370,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-MICRO-KAINOS",
@@ -2476,8 +2403,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=4516+Parnell+Ave%2C+Fort+Wayne+IN46825&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "Currentsite2026-10-22",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493403566",
@@ -2509,8 +2435,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-D875",
@@ -2542,8 +2467,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=225+Ferguson+Park+Ct%2C+Bluffton%2C+IN+46714&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1901938",
@@ -2576,8 +2500,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9303515",
@@ -2603,8 +2526,7 @@
         "https://www.michigan.gov/mde/-/media/Project/Websites/mde/OFM/Grants/NonPublic--Home-Schools/2025-2026-Docs/FINAL-Approved-NPS-Listing-20252026-by-ISD.pdf?hash=3145FD2EF2610FBFE2087D3C976354F9&rev=b8695b9f159d45f1a0acf6e3147cee1b"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "00424813",
@@ -2637,8 +2559,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180552000996",
@@ -2671,8 +2592,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-A740",
@@ -2704,8 +2624,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=5555+CR+29+S%2C+Auburn%2C+IN+46706-0507&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493503568",
@@ -2737,8 +2656,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180285000349",
@@ -2771,8 +2689,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9300714",
@@ -2806,8 +2723,7 @@
         "https://education.ohio.gov/getattachment/Topics/Ohio-Education-Options/Private-Schools/Non-Chartered-Non-Tax-School-Information/2026-2027-NCNP-List.xlsx.aspx?lang=en-US"
       ],
       "schoolDirectoryYear": "Current official school site +2026–27 Ohio NCNP filing",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "01060965",
@@ -2839,8 +2755,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "391002203922",
@@ -2872,8 +2787,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180609001078",
@@ -2906,8 +2820,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180627001103",
@@ -2940,8 +2853,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180639001117",
@@ -2974,8 +2886,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "391003103298",
@@ -3007,8 +2918,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493603570",
@@ -3040,8 +2950,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390455202262",
@@ -3073,8 +2982,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9102717",
@@ -3100,8 +3008,7 @@
       ],
       "schoolDirectoryYear": "2023–24",
       "schoolStatusNote": "2023–24 directory record; current campus status to confirm.",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180285000353",
@@ -3134,8 +3041,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390459602392",
@@ -3167,8 +3073,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-6109",
@@ -3200,8 +3105,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=19+Park+Dr%2C+Peru%2C+IN+46970&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390506404016",
@@ -3233,8 +3137,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181224001956",
@@ -3267,8 +3170,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-1337",
@@ -3300,8 +3202,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1607+E+Dowling+St%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181218001945",
@@ -3334,8 +3235,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180660001165",
@@ -3368,8 +3268,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180822001410",
@@ -3402,8 +3301,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A0103278",
@@ -3435,8 +3333,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180834001429",
@@ -3469,8 +3366,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493703574",
@@ -3502,8 +3398,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390493803576",
@@ -3535,8 +3430,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390485703303",
@@ -3568,8 +3462,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "268096000990",
@@ -3601,8 +3494,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390455702284",
@@ -3634,8 +3526,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180885001476",
@@ -3668,8 +3559,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390470702769",
@@ -3701,8 +3591,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1502950",
@@ -3734,8 +3623,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180930001526",
@@ -3768,8 +3656,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "262940006520",
@@ -3801,8 +3688,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1901986",
@@ -3834,8 +3720,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A2101767",
@@ -3867,8 +3752,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390457902345",
@@ -3900,8 +3784,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180013102539",
@@ -3934,8 +3817,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181026001642",
@@ -3968,8 +3850,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181077001765",
@@ -4002,8 +3883,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181218001948",
@@ -4036,8 +3916,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390458002349",
@@ -4069,8 +3948,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390485803305",
@@ -4102,8 +3980,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390506504019",
@@ -4135,8 +4012,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1701776",
@@ -4169,8 +4045,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "01614916",
@@ -4202,8 +4077,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-CROSSING-GOSHEN",
@@ -4236,8 +4110,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=1824+Reliance+Road%2C+Goshen%2C+IN+46526&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "Currentsite2026-10-22",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-CROSSING-FW",
@@ -4270,8 +4143,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=2260+Lake+Avenue%2C+Fort+Wayne%2C+IN+46805&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "Currentsite2026-10-22",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9701532",
@@ -4304,8 +4176,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "01064788",
@@ -4337,8 +4208,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A2301208",
@@ -4370,8 +4240,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390467202636",
@@ -4403,8 +4272,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181137001839",
@@ -4437,8 +4305,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "391003006006",
@@ -4470,8 +4337,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181149001856",
@@ -4504,8 +4370,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "00425839",
@@ -4537,8 +4402,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390516704093",
@@ -4570,8 +4434,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181215001940",
@@ -4607,8 +4470,7 @@
         "https://whs.apaches.k12.in.us/contact"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "IN-8671",
@@ -4640,8 +4502,7 @@
         "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=246+N+300+W%2C+Wabash%2C+IN+46992&benchmark=Public_AR_Current&format=json"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181242001999",
@@ -4674,8 +4535,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180555001007",
@@ -4708,8 +4568,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390490303471",
@@ -4741,8 +4600,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180450000761",
@@ -4775,8 +4633,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A1701782",
@@ -4808,8 +4665,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "390027604816",
@@ -4841,8 +4697,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181290002058",
@@ -4875,8 +4730,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181311002079",
@@ -4909,8 +4763,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "263612007210",
@@ -4942,8 +4795,7 @@
         "https://nces.ed.gov/arcgis/rest/services/CCD/CCD_Data/MapServer/0"
       ],
       "schoolDirectoryYear": "2024-2025",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181218001951",
@@ -4976,8 +4828,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181323002697",
@@ -5010,8 +4861,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "181323002089",
@@ -5044,8 +4894,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "180285000361",
@@ -5078,8 +4927,7 @@
         "https://www.in.gov/doe/files/2025-2026-school-directory-2026-03-23.xlsx"
       ],
       "schoolDirectoryYear": "2025–26 Indiana directory",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "high-school"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     },
     {
       "id": "A9102792",
@@ -5104,8 +4952,7 @@
         "https://nces.ed.gov/surveys/pss/zip/pss2324_pu_csv.zip"
       ],
       "schoolDirectoryYear": "2023–24",
-      "teamClassification": "no-school-affiliation-verified-in-roster-screen",
-      "listGroup": "other-program"
+      "teamClassification": "no-school-affiliation-verified-in-roster-screen"
     }
   ],
   "reviewSchools": [
@@ -7074,8 +6921,6 @@
     "existingTeams": 19,
     "affiliationsToConfirm": 13,
     "facilitiesNotInvited": 8,
-    "highSchools": 120,
-    "otherPrograms": 33,
     "leadersNamed": 144,
     "byState": {
       "IN": 99,

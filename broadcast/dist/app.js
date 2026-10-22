@@ -146,34 +146,27 @@
 
   function renderDnf(dnf) {
     const mail = (school = '') => `mailto:${dnf.contactEmail}?subject=${encodeURIComponent(`Interested in starting a robotics team${school ? ` — ${school}` : ''}`)}&body=${encodeURIComponent(`Hello The REFINERY,\n\nWe’re interested in exploring an FTC or FRC team${school ? ` at ${school}` : ' at our school'}. Please help us understand the first steps.\n\nSchool / organization: ${school}\nMy name and role: \n`)}`;
-    const high = dnf.schools.filter((s) => s.listGroup === 'high-school');
-    const other = dnf.schools.filter((s) => s.listGroup !== 'high-school');
-    $('dnf-count').innerHTML = `<strong data-count="${high.length}">${high.length}</strong><span>high schools without a team</span>`;
+    $('dnf-count').innerHTML = `<strong data-count="${dnf.schools.length}">${dnf.schools.length}</strong><span>schools without a team</span>`;
     countUp($('dnf-count').querySelector('strong'));
     const update = () => {
       const query = $('dnf-search').value.trim().toLocaleLowerCase();
       const region = $('dnf-state').value, sector = $('dnf-sector').value, sort = $('dnf-sort').value;
-      const schools = high.filter((s) => (!region || s.state === region) && (!sector || s.sector === sector) && (!query || [s.name, s.district, s.city, s.county, s.leader?.name].join(' ').toLocaleLowerCase().includes(query)))
+      const schools = dnf.schools.filter((s) => (!region || s.state === region) && (!sector || s.sector === sector) && (!query || [s.name, s.district, s.city, s.county, s.leader?.name].join(' ').toLocaleLowerCase().includes(query)))
         .sort((a, b) => sort === 'name' ? a.name.localeCompare(b.name) : a.distanceMiles - b.distanceMiles);
-      $('dnf-list').innerHTML = schools.slice(0, state.dnfLimit).map((s) => `<li><details class="school"><summary><span><strong>${esc(s.name)}</strong><small>${esc(s.city)}, ${esc(s.state)} · ${esc(s.sector)}</small></span><span class="miles">${num(s.distanceMiles, 1)}<small> mi</small></span></summary><div class="school-body"><p>${esc(s.district)}${s.county ? ` · ${esc(s.county)}` : ''}</p>${s.leader?.name ? `<p>${esc(s.leader.role)}: ${ext(s.leader.sourceUrl, s.leader.name)} <small>(${esc(s.leader.evidenceLabel)})</small></p>` : ''}${s.schoolStatusNote ? `<p>${esc(s.schoolStatusNote)}</p>` : ''}<p>${ext(s.schoolUrl, 'School website')} · ${num(s.distanceMiles, 1)} miles from downtown Fort Wayne</p><a class="button button-primary" href="${safeUrl(mail(s.name))}">We’re interested</a></div></details></li>`).join('') || '<li class="loading">No schools match. Try a town, district or county.</li>';
-      $('dnf-results').textContent = `Showing ${Math.min(state.dnfLimit, schools.length)} of ${schools.length} high schools`;
+      $('dnf-list').innerHTML = schools.slice(0, state.dnfLimit).map((s) => `<li><details class="school"><summary><span><strong>${esc(s.name)}</strong><small>${esc(s.city)}, ${esc(s.state)} · ${esc(s.sector)}${/^Regular/.test(s.schoolType) ? '' : ` · ${esc(s.schoolType)}`}</small></span><span class="miles">${num(s.distanceMiles, 1)}<small> mi</small></span></summary><div class="school-body"><p>${esc(s.district)}${s.county ? ` · ${esc(s.county)}` : ''}</p>${s.leader?.name ? `<p>${esc(s.leader.role)}: ${ext(s.leader.sourceUrl, s.leader.name)} <small>(${esc(s.leader.evidenceLabel)})</small></p>` : ''}${s.schoolStatusNote ? `<p>${esc(s.schoolStatusNote)}</p>` : ''}<p>${ext(s.schoolUrl, 'School website')} · ${num(s.distanceMiles, 1)} miles from downtown Fort Wayne</p><a class="button button-primary" href="${safeUrl(mail(s.name))}">We’re interested</a></div></details></li>`).join('') || '<li class="loading">No schools match. Try a town, district or county.</li>';
+      $('dnf-results').textContent = `Showing ${Math.min(state.dnfLimit, schools.length)} of ${schools.length} schools`;
       $('dnf-more').hidden = state.dnfLimit >= schools.length;
     };
     ['dnf-search', 'dnf-state', 'dnf-sector', 'dnf-sort'].forEach((id) => $(id).addEventListener(id === 'dnf-search' ? 'input' : 'change', () => { state.dnfLimit = 24; update(); }));
     $('dnf-more').addEventListener('click', () => { state.dnfLimit += 24; update(); });
     $('dnf-interest').href = mail();
     $('dnf-interest').removeAttribute('target');
-    if (other.length) {
-      $('dnf-other').hidden = false;
-      $('dnf-other-summary').textContent = `Career centers & other programs: ${other.length} more`;
-      $('dnf-other-list').innerHTML = [...other].sort((a, b) => a.distanceMiles - b.distanceMiles).map((s) => `<li><strong>${esc(s.name)}</strong> · ${esc(s.city)}, ${esc(s.state)} · ${num(s.distanceMiles, 1)} mi<br><small>${esc(s.schoolType)} · grades ${esc(s.gradesLow)}–${esc(s.gradesHigh)} · ${esc(s.sector)}</small><br><a href="${safeUrl(mail(s.name))}">We’re interested</a></li>`).join('');
-    }
     if (dnf.reviewSchools?.length) {
       $('dnf-review').hidden = false;
       $('dnf-review-summary').textContent = `Bring back a team: ${dnf.reviewSchools.length} schools with a former team or community connection`;
       $('dnf-review-list').innerHTML = dnf.reviewSchools.map((s) => `<li><strong>${esc(s.name)}</strong> · ${esc(s.city)}, ${esc(s.state)}<br><small>${esc(s.teamNote)}</small><br><a href="${safeUrl(mail(s.name))}">Talk about a relaunch</a></li>`).join('');
     }
-    $('dnf-method').innerHTML = `<p>${esc(dnf.scopeNote)}</p><p>${esc(dnf.qualification)}</p><p>The main list is regular high schools that run through 12th grade. ${dnf.counts.otherPrograms} career centers, special-education and alternative programs, microschools and schools that end before 12th grade are listed separately. ${dnf.counts.existingTeams} schools with current teams and ${dnf.counts.facilitiesNotInvited} secure or residential facilities are left off. Checked ${esc(shortDate(dnf.asOf))}. ${ext(dnf.methodologyUrl, 'Full school list, leaders and sources')}</p><p>Already fielding a team? ${ext('mailto:info@refineryrobotics.org?subject=DNF%20correction', 'Send a correction')} and we’ll move you to the lineup.</p>`;
+    $('dnf-method').innerHTML = `<p>${esc(dnf.scopeNote)}</p><p>${esc(dnf.qualification)}</p><p>The list includes career centers, alternative and special-education programs, and private schools as well as traditional high schools. ${dnf.counts.existingTeams} schools with current teams and ${dnf.counts.facilitiesNotInvited} secure or residential facilities are left off. Checked ${esc(shortDate(dnf.asOf))}. ${ext(dnf.methodologyUrl, 'Full school list, leaders and sources')}</p><p>Already fielding a team? ${ext('mailto:info@refineryrobotics.org?subject=DNF%20correction', 'Send a correction')} and we’ll move you to the lineup.</p>`;
     update();
   }
 
