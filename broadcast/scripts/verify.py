@@ -96,7 +96,7 @@ def main():
     require(all(date.fromisoformat(s["date"]).weekday() == 0 for s in preview["shows"]["frc"]), "FRC editorial target is not Monday")
     dnf = load(HERE / "data/dnf.json")
     universe = load(HERE / "data/dnf-research/school-universe.json")
-    require(data["dnf"] == dnf, "DNF directory did not reach the browser data")
+    require(data["dnf"] == {"src": "dnf.json"} and load(HERE / "dist/dnf.json") == dnf, "DNF directory did not reach the browser data")
     groups = (dnf["schools"], dnf["excludedSchools"], dnf["reviewSchools"])
     all_schools = [school for group in groups for school in group]
     require(len({school["id"] for school in all_schools}) == len(all_schools) == len(universe["schools"]), "DNF join duplicated or dropped a campus")
@@ -127,6 +127,11 @@ def main():
         require((HERE / "dist" / name).is_file(), f"Missing static asset: {name}")
     for asset in load(HERE / "data/asset-manifest.json")["assets"]:
         require(hashlib.sha256((HERE / asset["file"]).read_bytes()).hexdigest() == asset["sha256"], "Official asset checksum changed")
+    display = load(HERE / "data/display-assets.json")["assets"]
+    require(data["displayAssets"] == {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]} for r in display}, "Display assets did not reach the browser data")
+    for row in display:
+        require(hashlib.sha256((HERE / "dist" / row["source"]).read_bytes()).hexdigest() == row["sourceSha256"], f"Display copy is stale; rerun build_display_assets.py: {row['source']}")
+        require(hashlib.sha256((HERE / "dist" / row["file"]).read_bytes()).hexdigest() == row["sha256"], f"Display copy checksum changed: {row['file']}")
     marks = load(HERE / "data/logos.json")["logos"]
     require(len({(r["program"], r["number"], r["kind"]) for r in marks}) == len(marks), "Duplicate logo identity")
     for mark in marks:

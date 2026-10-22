@@ -87,7 +87,8 @@ def main():
     result = {
         "title": "The REFINERY · NEI Robotics Top 10",
         "seasonPreview": load(HERE / "data/season-preview.json"),
-        "dnf": build_dnf(),
+        # The 166-school invitation list is most of the payload; the page loads it on demand.
+        "dnf": {"src": "dnf.json"},
         "matchHighlights": build_matches(),
         "hero": {"headline": "THE ONLY SPORT WHERE EVERYONE CAN GO PRO", "subhead": "Friday-night energy. Skills for a lifetime. Meet the students building their future in engineering, software, manufacturing and business.",
                  "attribution": "Career-focused campaign message from FIRST Global", "attributionUrl": "https://first.global/sport/",
@@ -111,7 +112,10 @@ def main():
                           "Recorded season entries can include registrations without matches. They are not a count of winning seasons.",
                           "No movement arrows or voting totals are shown because only one frozen ranking snapshot supports this edition."],
     }
+    result["displayAssets"] = {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]}
+                               for r in load(HERE / "data/display-assets.json")["assets"]}
     (HERE / "dist/data.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    (HERE / "dist/dnf.json").write_text(json.dumps(build_dnf(), ensure_ascii=False, separators=(",", ":")) + "\n")
     press = ["# The REFINERY — NEI Robotics Top 10", "", "## Segment concept", "",
              "Bring the energy of a college football rankings reveal to local student robotics: reveal the regional FRC Top 10, select a team, and introduce the students and adults behind the robot. FTC appears in its own feature segment.", "",
              "Hero line: **The only sport where everyone can go pro.** The career-focused campaign phrase is attributed to [FIRST Global](https://first.global/sport/). Engineering, software, manufacturing, design, and business skills give the line its meaning.", "",

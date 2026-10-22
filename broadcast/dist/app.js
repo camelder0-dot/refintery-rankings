@@ -81,7 +81,9 @@
   const schoolName = (team) => team.school || team.name;
   const identityBadge = (team, kind, compact = false) => {
     const logo = team.logos?.[kind];
-    return logo?.file ? `<span class="identity-badge${compact ? ' compact-badge' : ''}" title="${esc(logo.label)}"><span class="logo-tile${logo.background === 'dark' ? ' dark-logo' : ''}"><img src="${esc(logo.file)}" alt="${esc(logo.label)}" decoding="async"></span>${compact ? '' : `<span class="logo-caption">${kind === 'school' ? 'SCHOOL' : 'TEAM'}</span>`}</span>` : '';
+    // Small WebP copies are for display; the verified originals stay linked in the sources.
+    const shown = state.data.displayAssets?.[logo?.file];
+    return logo?.file ? `<span class="identity-badge${compact ? ' compact-badge' : ''}" title="${esc(logo.label)}"><span class="logo-tile${logo.background === 'dark' ? ' dark-logo' : ''}"><img src="${esc(shown?.file || logo.file)}"${shown ? ` width="${shown.width}" height="${shown.height}"` : ''} alt="${esc(logo.label)}" decoding="async"></span>${compact ? '' : `<span class="logo-caption">${kind === 'school' ? 'SCHOOL' : 'TEAM'}</span>`}</span>` : '';
   };
   const prioritizeSpotlight = (people, team) => [...people].sort((a, b) => Number(b.name === team.spotlight?.name) - Number(a.name === team.spotlight?.name));
   const studentVoices = (team) => {
@@ -332,14 +334,29 @@
     if (!Array.isArray(data.top10) || !data.top10.length || !data.edition || !data.scope || !data.ftc || !data.links) throw new Error('The broadcast dataset is incomplete.');
     state.data = data;
     renderSeasonPreview();
-    renderDnf();
     if (data.links.pressKit) $('press-kit-link').href = data.links.pressKit;
     if (data.links.repo) $('research-link').href = data.links.repo;
     readHash();
     setAutoCycle($('cycle-toggle').checked);
     if (/^#(?:board|ftc|team\/\d+)$/.test(location.hash)) $('broadcast').scrollIntoView({ behavior: 'auto', block: 'start' });
     if (location.hash === '#season-preview' && data.seasonPreview) $('season-preview').scrollIntoView({ behavior: 'auto', block: 'start' });
-    if (location.hash === '#dnf' && data.dnf) $('dnf').scrollIntoView({ behavior: 'auto', block: 'start' });
+    // The school directory is most of the data; fetch it when a visitor heads toward it.
+    const loadDnf = () => {
+      if (state.dnfRequested || !data.dnf?.src) return;
+      state.dnfRequested = true;
+      fetch(data.dnf.src, { cache: 'no-cache' }).then((response) => {
+        if (!response.ok) throw new Error(`School directory request returned ${response.status}.`);
+        return response.json();
+      }).then((dnf) => {
+        data.dnf = dnf;
+        renderDnf();
+        if (location.hash === '#dnf') $('dnf').scrollIntoView({ behavior: 'auto', block: 'start' });
+      }).catch((error) => console.warn('DNF directory:', error));
+    };
+    const approach = document.querySelector('.community-cta');
+    if (location.hash === '#dnf' || !approach || !('IntersectionObserver' in window)) loadDnf();
+    else new IntersectionObserver((entries, observer) => { if (entries.some((entry) => entry.isIntersecting)) { observer.disconnect(); loadDnf(); } }, { rootMargin: '1500px 0px' }).observe(approach);
+    window.addEventListener('hashchange', () => { if (location.hash === '#dnf') loadDnf(); });
   }).catch((error) => {
     console.warn('Broadcast dataset:', error);
     frame.innerHTML = '<div class="loading-state"><span class="screen-brand">THE REFINERY</span><h3>THE RUNDOWN IS TAKING A TIMEOUT.</h3><p>The research snapshot could not be loaded.<br>Refresh the page, or open the full research below.</p></div>';
