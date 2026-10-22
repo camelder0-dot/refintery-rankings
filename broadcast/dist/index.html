@@ -15,8 +15,8 @@
   <script>document.documentElement.classList.add('js');</script>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261022-redesign-6">
-  <script src="app.js?v=20261022-redesign-6" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-redesign-7">
+  <script src="app.js?v=20261022-redesign-7" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -62,18 +62,19 @@
           <div>
             <p class="kicker">2026 FRC season · final</p>
             <h2 id="standings-title">Standings</h2>
+            <p class="updated" id="standings-updated"></p>
             <p class="section-lede">Every Northeast Indiana team in the <i>FIRST</i> Robotics Competition. Tap a team for its season, awards, closest game and coverage.</p>
           </div>
           <div class="segmented" role="group" aria-label="Sort teams by">
-            <button type="button" data-sort="power" aria-pressed="true">Power ranking</button>
-            <button type="button" data-sort="district" aria-pressed="false">District standings</button>
+            <button type="button" data-sort="district" aria-pressed="true">District standings</button>
+            <button type="button" data-sort="power" aria-pressed="false">Power ranking</button>
           </div>
         </div>
         <details class="explainer">
           <summary>How are teams ranked?</summary>
           <div class="explainer-body">
+            <p><strong>District standings</strong> are the official order: teams earn FIRST Indiana district points for qualification wins, being picked for playoffs, playoff runs and awards. Points decide who advances to the state championship.</p>
             <p><strong>Power ranking</strong> sorts teams by their final 2026 <a href="https://www.statbotics.io/" target="_blank" rel="noopener">Statbotics</a> EPA (Expected Points Added): an estimate of how many points a robot adds to its alliance each match. Think of it like points per game.</p>
-            <p><strong>District standings</strong> sort teams by their 2026 FIRST Indiana district points, earned from qualification wins, alliance selection, playoff runs and awards. Points decide who advances to the state championship.</p>
             <p>Win-loss records count official matches only (district events, state and world championship). Matches are played in three-team alliances whose partners change every match, so a record reflects the team and its partners.</p>
           </div>
         </details>
@@ -191,6 +192,7 @@
         <div class="faq media-faq">
           <details><summary>In the news</summary><ul class="news-list" id="news-list"></ul></details>
           <details><summary>Where the numbers come from</summary><div id="sources-body"></div></details>
+          <details><summary>Who runs this site</summary><p>The REFINERY, a nonprofit robotics makerspace in Fort Wayne, built and maintains this page. The REFINERY and its affiliate BioNanomics are listed sponsors of FRC teams 4982 (Homestead), 8742 (Madison-Grant), 10172 (South Side), 10332 (Carroll) and 10434 (Northrop) and FTC team 22331 (Canterbury). Doug Horner of The REFINERY is a listed sponsor of 9431 (Snider), and FTC rookie team 36124 is based at The REFINERY. Sponsorships come from each team’s public listing on The Blue Alliance and FTCScout. Standings, records and ratings are taken as published by The Blue Alliance, Statbotics and FTCScout; no ranking is adjusted by hand.</p></details>
           <details><summary>Using names of students and coaches</summary><p>Team pages list people only with the exact role and date found in a public source. Rosters change every season; confirm current captains and coaches with the team before publishing.</p></details>
         </div>
       </div>
@@ -200,7 +202,7 @@
   <footer class="site-footer">
     <div class="wrap footer-inner">
       <img src="assets/refinery-logo-reversed.svg" alt="The REFINERY" width="124" height="32" loading="lazy">
-      <p>An independent look at Northeast Indiana robotics from <a href="https://refineryrobotics.org/" target="_blank" rel="noopener">The REFINERY</a>, a nonprofit robotics makerspace in Fort Wayne. Not affiliated with or endorsed by <i>FIRST</i>. Results: <a href="https://www.thebluealliance.com/" target="_blank" rel="noopener">The Blue Alliance</a>; ratings: <a href="https://www.statbotics.io/" target="_blank" rel="noopener">Statbotics</a> and <a href="https://ftcscout.org/" target="_blank" rel="noopener">FTCScout</a>.</p>
+      <p>Built by <a href="https://refineryrobotics.org/" target="_blank" rel="noopener">The REFINERY</a>, a nonprofit robotics makerspace in Fort Wayne. <strong>Disclosure:</strong> The REFINERY and its affiliate BioNanomics are listed sponsors of FRC teams 4982, 8742, 10172, 10332 and 10434 and FTC team 22331; Doug Horner of The REFINERY is a listed sponsor of 9431; and The REFINERY hosts FTC team 36124. Standings and results come only from public data. Not affiliated with or endorsed by <i>FIRST</i>. Results: <a href="https://www.thebluealliance.com/" target="_blank" rel="noopener">The Blue Alliance</a>; ratings: <a href="https://www.statbotics.io/" target="_blank" rel="noopener">Statbotics</a> and <a href="https://ftcscout.org/" target="_blank" rel="noopener">FTCScout</a>.</p>
       <p>Cover photo: Olympus Robotics (4982) fans, by The REFINERY. Headline adapted from <a href="https://first.global/sport/" target="_blank" rel="noopener"><i>FIRST</i> Global’s “Robotics Is a Sport”</a> campaign.</p>
       <p><a href="https://github.com/horner/refintery-rankings" target="_blank" rel="noopener">Source &amp; research on GitHub</a></p>
     </div>

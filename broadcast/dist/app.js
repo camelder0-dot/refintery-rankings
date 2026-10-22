@@ -2,7 +2,7 @@
 
 (() => {
   const $ = (id) => document.getElementById(id);
-  const state = { data: null, sort: 'power', dnfLimit: 24 };
+  const state = { data: null, sort: 'district', dnfLimit: 24 };
   const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const safeUrl = (value) => { try { const url = new URL(value, location.href); return ['https:', 'http:', 'mailto:'].includes(url.protocol) ? esc(url.href) : '#'; } catch { return '#'; } };
   const ext = (url, label, cls = '') => `<a${cls ? ` class="${cls}"` : ''} href="${safeUrl(url)}" target="_blank" rel="noopener">${esc(label)}</a>`;
@@ -20,6 +20,23 @@
   const utc = (iso) => { const { y, m, d } = parts(iso); return Date.UTC(y, m - 1, d); };
   const daysUntil = (iso) => Math.round((utc(iso) - utc(today())) / 86400000);
   const record = (r) => `${r.wins}-${r.losses}${r.ties ? `-${r.ties}` : ''}`;
+  const recordText = (text) => String(text || '').replace(/-0$/, '');
+  const ordinal = (n) => { const suffix = ['th', 'st', 'nd', 'rd'], v = n % 100; return `${n}${suffix[(v - 20) % 10] || suffix[v] || suffix[0]}`; };
+  // Plain-language playoff results. In the 8-alliance double-elimination bracket the round a team
+  // goes out in fixes its finish: round 2 = 7th–8th, round 3 = 5th–6th, round 4 = 4th, round 5 = 3rd.
+  const FINISH = { 2: 'Tied 7th (out in playoff round 2)', 3: 'Tied 5th (out in playoff round 3)', 4: '4th place', 5: '3rd place' };
+  const playoffResult = (p) => {
+    if (!p) return 'Not picked for playoffs';
+    if (p.result === 'Won event') return 'Won the event';
+    if (p.result === 'Finalist') return 'Runner-up (lost in the finals)';
+    const round = Number((p.result.match(/round (\d)/) || [])[1]);
+    return FINISH[round] || 'Reached playoffs';
+  };
+  const playoffRole = (p) => {
+    if (!p?.alliance) return '';
+    const seed = `#${p.alliance} alliance`;
+    return p.role === 'Captain' ? `Captain of the ${seed}` : p.role === 'Backup' ? `Backup robot for the ${seed}` : `${p.role.toLowerCase().replace(/^./, (c) => c.toUpperCase())} of the ${seed}`;
+  };
 
   // Small WebP copies are for display; the verified originals stay linked in the credits.
   const logo = (logos, number) => {
@@ -34,7 +51,7 @@
   function renderStats() {
     const s = state.data.seasonSummary;
     const ftcCount = state.data.ftc.teams.length + state.data.ftc.newTeams.length;
-    const stats = [[s.teams, 'FRC teams'], [s.eventTitles, 'Event titles in 2026'], [s.worldsTeams.length, 'World Championship teams'], [s.wins, 'Official match wins'], [ftcCount, 'FTC teams to follow']];
+    const stats = [[s.teams, 'FRC teams'], [s.eventTitles, 'Event titles in 2026'], [s.worldsTeams.length, 'World Championship teams'], [s.awards, 'Judged awards'], [ftcCount, 'FTC teams to follow']];
     $('stat-bar').innerHTML = stats.map(([value, label]) => `<div><dt>${esc(label)}</dt><dd data-count="${Number(value)}">${esc(num(value))}</dd></div>`).join('');
   }
 
@@ -44,9 +61,9 @@
     return `<details class="team" id="team-${t.number}">
       <summary class="team-row">
         <span class="rank">${rank}</span>
-        <span class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)} <span class="muted">· ${t.number}</span></strong><small>${esc(t.school)} · ${esc(t.city)}</small></span></span>
+        <span class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)} <span class="muted">· ${t.number}</span></strong><small>${esc(t.city)} · ${esc(t.school)}</small></span></span>
         <span class="stat r num">${esc(record(t.record))}<small>W-L</small></span>
-        <span class="stat r district num">${district}<small>${num(t.district.points)} pts</small></span>
+        <span class="stat r district num">${district}<small>${num(t.district.points)} points</small></span>
         <span class="stat r epa num">${num(t.epa, 1)}<small>EPA</small></span>
         <span class="honors">${t.badges.map((b) => `<span class="${honorClass(b)}">${esc(b)}</span>`).join('')}</span>
         <span class="chev" aria-hidden="true"></span>
@@ -56,11 +73,11 @@
   }
 
   function teamDetail(t) {
-    const events = t.events.map((e) => {
-      const result = !e.playoff ? 'Did not reach playoffs' : e.playoff.result.startsWith('Playoffs') ? 'Reached playoffs' : e.playoff.result;
-      const role = e.playoff?.role && e.playoff.alliance ? `${e.playoff.role}, Alliance ${e.playoff.alliance}` : '';
-      return `<tr class="${e.type === 'offseason' ? 'offseason' : ''}"><td>${ext(e.tbaUrl, e.shortName)}<br><small class="muted">${esc(dateRange(e.startDate, e.endDate))}${e.type === 'offseason' ? ' · offseason' : ''}</small></td><td class="num">#${e.qualRank}<br><small class="muted">${esc(e.qualRecord)}</small></td><td class="${result === 'Won event' ? 'won' : ''}">${esc(result)}${role ? `<br><small class="muted">${esc(role)}</small>` : ''}</td></tr>`;
-    }).join('');
+    const eventRow = (e) => `<tr class="${e.type === 'offseason' ? 'offseason' : ''}"><td>${ext(e.tbaUrl, e.shortName)}<br><small class="muted">${esc(dateRange(e.startDate, e.endDate))}</small></td><td>${ordinal(e.qualRank)}<br><small class="muted">${esc(recordText(e.qualRecord))} record</small></td><td class="${e.playoff?.result === 'Won event' ? 'won' : ''}">${esc(playoffResult(e.playoff))}${playoffRole(e.playoff) ? `<br><small class="muted">${esc(playoffRole(e.playoff))}</small>` : ''}</td></tr>`;
+    const head = '<thead><tr><th>Event</th><th>After qualifying</th><th>Playoffs</th></tr></thead>';
+    const official = t.events.filter((e) => e.type !== 'offseason');
+    const offseason = t.events.filter((e) => e.type === 'offseason');
+    const events = `<table class="events">${head}<tbody>${official.map(eventRow).join('')}</tbody></table>${offseason.length ? `<details><summary>Offseason events (${offseason.length})</summary><table class="events">${head}<tbody>${offseason.map(eventRow).join('')}</tbody></table></details>` : ''}`;
     const awards = t.awards.length ? `<h4>Awards</h4><ul class="award-list">${t.awards.map((a) => `<li>${esc(a.award)} <span>· ${esc(a.event)}</span></li>`).join('')}</ul>` : '';
     const m = t.closestMatch;
     const closest = m ? `<h4>Closest game</h4><div class="close-game"><div>${esc(m.eventName)} · ${esc(m.matchLabel)}</div><div class="scoreline"><span class="red">${m.redScore}</span><span class="muted">–</span><span class="blue">${m.blueScore}</span></div><div class="muted">${esc(m.margin)}-point ${esc(m.outcome.toLowerCase())} on the ${esc(m.teamAlliance.toLowerCase())} alliance</div><ul class="link-list">${m.videoUrl ? `<li>${ext(m.videoUrl, 'Watch replay', 'text-link')}</li>` : ''}<li>${ext(m.officialUrl, 'Official result', 'text-link')}</li></ul></div>` : '';
@@ -71,7 +88,7 @@
     const peopleHtml = people.length ? `<details><summary>People named in public sources (${people.length})</summary><ul class="people">${people.map((p) => `<li><strong>${esc(p.name)}</strong> · ${esc(p.role)}<br><small>${p.date ? `Source dated ${esc(shortDate(p.date))}` : 'Undated source'} · ${p.sourceUrls.slice(0, 2).map((u, i) => ext(u, `source ${i + 1}`)).join(' · ')}</small></li>`).join('')}</ul>${t.gaps.length ? `<p class="muted">${t.gaps.map(esc).join(' ')}</p>` : ''}</details>` : '';
     const facts = `<details><summary>Team facts</summary><ul class="people"><li>Rookie year ${t.rookieYear} · ${t.seasons} seasons through 2026</li><li>${esc(t.county)} County · ${esc(t.affiliationNote)}</li><li>Indiana EPA rank ${t.stateEpaRank} of ${t.stateEpaCount} · world ${num(t.worldEpaRank)} of ${num(t.worldEpaCount)}</li><li>District points ${num(t.district.points)} · Indiana district rank ${t.district.rank} of ${t.district.teamCount}</li></ul></details>`;
     const links = `<ul class="link-list"><li>${ext(t.links.tba, 'The Blue Alliance', 'text-link')}</li><li>${ext(t.links.statbotics, 'Statbotics', 'text-link')}</li><li>${ext(t.links.first, 'FIRST profile', 'text-link')}</li>${t.links.school ? `<li>${ext(t.links.school, 'School site', 'text-link')}</li>` : ''}</ul>`;
-    return `<div><h4>2026 season</h4><table class="events"><thead><tr><th>Event</th><th>Qual. rank</th><th>Result</th></tr></thead><tbody>${events}</tbody></table>${awards}${peopleHtml}${facts}</div><div>${closest}${fig}${news}<h4>Links</h4>${links}</div>`;
+    return `<div><h4>2026 season</h4>${events}${awards}${peopleHtml}${facts}</div><div>${closest}${fig}${news}<h4>Links</h4>${links}</div>`;
   }
 
   function renderStandings() {
@@ -81,8 +98,10 @@
       const body = el.querySelector('.team-detail');
       if (el.open && !body.innerHTML) body.innerHTML = teamDetail(state.data.standings.find((t) => t.number === Number(body.dataset.team)));
       if (el.open) history.replaceState(null, '', `#team/${body.dataset.team}`);
+      else if (location.hash === `#team/${body.dataset.team}`) history.replaceState(null, '', location.pathname + location.search);
     }));
     const s = state.data.seasonSummary;
+    $('standings-updated').textContent = `Final 2026 results · updated ${shortDate(s.updated)}`;
     $('standings-source').innerHTML = `Records, events and awards: ${esc(s.resultsSource)}. Ratings: ${esc(s.ratingsSource)}. District rank is among ${state.data.standings[0].district.teamCount} Indiana teams.`;
   }
 
@@ -92,9 +111,9 @@
     teams.filter((t) => t.titles.length).sort((a, b) => b.titles.length - a.titles.length).forEach((t) => {
       const year = 2026 - t.rookieYear + 1;
       const extra = t.worlds ? `, then reached the ${t.worlds}` : year <= 2 ? ` in just its ${year === 1 ? 'first' : 'second'} season` : '';
-      cards.push({ big: `${t.titles.length}×`, title: `${t.name} (${t.number})`, text: `Won the ${t.titles.join(' and ')} district event${t.titles.length > 1 ? 's' : ''}${extra || `, then finished #${t.district.rank} in Indiana district points`}.`, href: `#team/${t.number}` });
+      cards.push({ big: `${t.titles.length}×`, title: `${t.name} (${t.number})`, text: `Won the ${t.titles.join(' and ')} district event${t.titles.length > 1 ? 's' : ''}${extra}.`, href: `#team/${t.number}` });
     });
-    teams.filter((t) => t.worlds && !t.titles.length).forEach((t) => cards.push({ big: 'Worlds', title: `${t.name} (${t.number})`, text: `Qualified for the ${t.worlds} after finishing #${t.district.rank} in Indiana district points.`, href: `#team/${t.number}` }));
+    teams.filter((t) => t.worlds && !t.titles.length).forEach((t) => cards.push({ big: 'Worlds', title: `${t.name} (${t.number})`, text: `Earned a trip to the ${t.worlds} in Houston.`, href: `#team/${t.number}` }));
     const s = state.data.seasonSummary;
     cards.push({ big: s.awards, title: 'Judged awards', text: `Won by ${new Set(teams.filter((t) => t.awards.length).map((t) => t.number)).size} regional teams, from Innovation in Control to Rising All-Star.`, href: '#standings' });
     $('highlight-grid').innerHTML = cards.slice(0, 4).map((c) => `<a class="highlight" href="${esc(c.href)}"><span class="big">${esc(c.big)}</span><h3>${esc(c.title)}</h3><p>${esc(c.text)}</p></a>`).join('');
@@ -270,7 +289,7 @@
       const y = scrollY;
       header.classList.toggle('scrolled', y > 40);
       if (y < innerHeight * 0.9 || y < lastY - 6) header.classList.remove('tucked');
-      else if (y > lastY + 6 && !header.classList.contains('open')) header.classList.add('tucked');
+      else if (y > lastY + 6 && !header.classList.contains('open') && innerWidth > 760) header.classList.add('tucked');
       if (Math.abs(y - lastY) > 6) lastY = y;
       progress.style.transform = `scaleX(${Math.min(1, y / Math.max(1, document.documentElement.scrollHeight - innerHeight))})`;
       frame = false;

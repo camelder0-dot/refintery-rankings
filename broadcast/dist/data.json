@@ -3299,7 +3299,9 @@
       "badges": [
         "2× event winner",
         "World Championship",
-        "3 awards"
+        "Imagery Award",
+        "Innovation in Control Award",
+        "+1 more"
       ],
       "closestMatch": {
         "id": "2026inmis_sf11m1",
@@ -3589,7 +3591,8 @@
       "stateChampionship": true,
       "badges": [
         "World Championship",
-        "2 awards"
+        "Creativity Award",
+        "Innovation in Control Award"
       ],
       "closestMatch": {
         "id": "2026incol_qm24",
@@ -3790,7 +3793,7 @@
       "stateChampionship": true,
       "badges": [
         "State qualifier",
-        "1 award"
+        "Rising All-Star Award"
       ],
       "closestMatch": {
         "id": "2026incol_sf10m1",
@@ -5022,7 +5025,7 @@
       "worlds": null,
       "stateChampionship": false,
       "badges": [
-        "1 award"
+        "Judges' Award"
       ],
       "closestMatch": {
         "id": "2026inlaf_sf5m1",
@@ -5399,7 +5402,7 @@
       "worlds": null,
       "stateChampionship": false,
       "badges": [
-        "1 award"
+        "Rising All-Star Award"
       ],
       "closestMatch": {
         "id": "2026inlaf_qm27",
@@ -5548,7 +5551,7 @@
       "worlds": null,
       "stateChampionship": false,
       "badges": [
-        "1 award"
+        "FIRST Leadership Award semifinalist"
       ],
       "closestMatch": {
         "id": "2026inmis_qm71",
@@ -5879,6 +5882,7 @@
     ],
     "awards": 9,
     "wins": 222,
+    "updated": "2026-10-22",
     "resultsSource": "The Blue Alliance, captured Oct 22, 2026",
     "ratingsSource": "Statbotics EPA, final 2026 values (June 12, 2026 snapshot)"
   },

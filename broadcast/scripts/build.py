@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from build_dnf import build_dnf
 from build_matches import build_matches
 from pathlib import Path
@@ -24,6 +25,13 @@ def person(row, ftc=False):
         "season": row.get("season", "Evidence from the published research; see date and notes"),
         "dateBasis": row.get("evidence_date_basis", "Undated source" if not row.get("evidence_date") else "Source publication date; not an appointment date"),
     }
+
+
+def short_award(name):
+    """'Innovation in Control Award sponsored by nVent' -> 'Innovation in Control Award'."""
+    name = re.split(r" (?:sponsored by|in honor of|presented by) ", name)[0]
+    name = re.sub(r"^District Championship FIRST Leadership Award Semi-Finalist.*", "FIRST Leadership Award semifinalist", name)
+    return name
 
 
 def build_standings(frc, editorial, logos, matches):
@@ -55,8 +63,11 @@ def build_standings(frc, editorial, logos, matches):
             badges.append("State qualifier")
         awards = [{"award": a, "event": e["shortName"], "eventKey": e["key"]} for e in t["events"] for a in e["awards"]
                   if a not in ("District Event Winner", "District Event Finalist")]
-        if awards:
-            badges.append(f"{len(awards)} award" + ("s" if len(awards) > 1 else ""))
+        # Name the awards rather than counting them; two fit on a row, the rest become "+N".
+        names = [short_award(a["award"]) for a in awards]
+        badges.extend(names[:2])
+        if len(names) > 2:
+            badges.append(f"+{len(names) - 2} more")
         match = closest.get(number)
         rows.append({
             "number": number, "name": r["team_name"], "school": r["school_or_organization"], "city": r["city"],
@@ -84,6 +95,7 @@ def build_standings(frc, editorial, logos, matches):
         "stateTeams": [row["number"] for row in rows if row["stateChampionship"]],
         "awards": sum(len(row["awards"]) for row in rows),
         "wins": sum(row["record"]["wins"] for row in rows),
+        "updated": load(HERE / "data/tba/results-2026.json")["retrievedDate"],
         "resultsSource": "The Blue Alliance, captured Oct 22, 2026",
         "ratingsSource": "Statbotics EPA, final 2026 values (June 12, 2026 snapshot)",
     }
