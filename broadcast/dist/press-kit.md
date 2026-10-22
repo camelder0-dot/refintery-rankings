@@ -36,7 +36,7 @@ EPA is modeled scoring contribution, not a record of wins or an educational-qual
 
 ## Coming up: the 2026–27 coverage plan
 
-The FRC Top 10 below is a rewind of 2026 performance and our preseason baseline. Here is the proposed coverage road from fall events to BIOBUZZ, the live build, spring competition, and Houston.
+The FRC Top 10 is a rewind of 2026 performance and our preseason baseline. Here is the proposed coverage road from fall events to BIOBUZZ, the live build, spring competition, and Houston.
 
 Confirmed events retain organizer dates. Show dates and local build/practice windows are planning targets; times and watch links are still to come.
 

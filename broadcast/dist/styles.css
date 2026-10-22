@@ -2088,7 +2088,7 @@ body.presenting { overflow: hidden; }
 
 .logo-tile.dark-logo { background:#103b57; }
 
-/* The coming season sits above the preserved performance boards. */
+/* The coming season follows the preserved performance boards. */
 .hero-season-tag {
   display:inline-block;
   border-left:3px solid var(--lime);
