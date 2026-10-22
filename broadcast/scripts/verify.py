@@ -97,7 +97,7 @@ def main():
     dnf = load(HERE / "data/dnf.json")
     universe = load(HERE / "data/dnf-research/school-universe.json")
     require(data["dnf"] == {"src": "dnf.json"} and load(HERE / "dist/dnf.json") == dnf, "DNF directory did not reach the browser data")
-    groups = (dnf["schools"], dnf["excludedSchools"], dnf["reviewSchools"])
+    groups = (dnf["schools"], dnf["excludedSchools"], dnf["reviewSchools"], dnf["facilitySchools"])
     all_schools = [school for group in groups for school in group]
     require(len({school["id"] for school in all_schools}) == len(all_schools) == len(universe["schools"]), "DNF join duplicated or dropped a campus")
     require({school["id"] for school in all_schools} == {school["id"] for school in universe["schools"]}, "DNF universe join lost school identities")
@@ -120,13 +120,27 @@ def main():
         require(not invited_ids.intersection(positive.get("ncesIds", [])), f"Known team school incorrectly invited as DNF: {positive['schoolName']}")
     require(all(school["teamClassification"] == "no-school-affiliation-verified-in-roster-screen" for school in dnf["schools"]), "DNF treats a known affiliation as absence")
     require(all(school["teamClassification"] == "exclude-active/recent" for school in dnf["excludedSchools"]), "DNF existing-team classification changed")
+    facility_ids = {row["id"] for row in load(HERE / "data/dnf-research/facility-exclusions.json")["schools"]}
+    require({school["id"] for school in dnf["facilitySchools"]} == facility_ids and not invited_ids & facility_ids, "Secure or residential facility invited as DNF")
     require(dnf["counts"]["invited"] == len(dnf["schools"]) and dnf["counts"]["leadersNamed"] == sum(bool(school["leader"]) for school in dnf["schools"]), "DNF visible counts are incorrect")
     require("no school-affiliated FTC or FRC team verified" in dnf["qualification"] and "another robotics program" in dnf["qualification"], "DNF team-absence qualification lost")
     require(dnf["contactEmail"] == "info@refineryrobotics.org" and (HERE / "dist/dnf-methodology.md").is_file(), "DNF interest destination or evidence missing")
-    for name in ("index.html", "styles.css", "app.js", "press-kit.md", "assets/refinery-logo.svg", "assets/refinery-shop.jpeg"):
+    for name in ("index.html", "styles.css", "app.js", "press-kit.md", "assets/refinery-logo.svg", "assets/refinery-logo-reversed.svg", "assets/fonts/inter-latin-wght.woff2"):
         require((HERE / "dist" / name).is_file(), f"Missing static asset: {name}")
     for asset in load(HERE / "data/asset-manifest.json")["assets"]:
         require(hashlib.sha256((HERE / asset["file"]).read_bytes()).hexdigest() == asset["sha256"], "Official asset checksum changed")
+    results = {r["teamNumber"]: r for r in load(HERE / "data/tba/results-2026.json")["teams"]}
+    standings = data["standings"]
+    require([t["number"] for t in standings] == [r["team_number"] for r in regional], "Standings power order does not match EPA")
+    require(sorted(t["standingsRank"] for t in standings) == list(range(1, len(regional) + 1)), "District standings ranks are not 1..n")
+    for t in standings:
+        source = results[t["number"]]
+        require(t["record"] == source["officialRecord"] and t["district"] == source["district"] and t["events"] == source["events"], f"TBA results changed in the browser data: {t['number']}")
+        require(len(t["titles"]) == sum(1 for e in source["events"] if e["type"] != "offseason" and e["playoff"] and e["playoff"]["result"] == "Won event"), "Event titles miscounted")
+    require(data["seasonSummary"]["eventTitles"] == sum(len(t["titles"]) for t in standings), "Season title count is wrong")
+    for photo in data["photos"]:
+        require(hashlib.sha256((HERE / "dist" / photo["file"]).read_bytes()).hexdigest() == photo["sha256"] and photo["credit"], f"Photo missing or changed: {photo['file']}")
+    require(all(s["url"].startswith("https://") and s["date"] and s["outlet"] for s in data["news"]["stories"]), "News link missing source details")
     display = load(HERE / "data/display-assets.json")["assets"]
     require(data["displayAssets"] == {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]} for r in display}, "Display assets did not reach the browser data")
     for row in display:

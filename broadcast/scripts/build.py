@@ -26,6 +26,70 @@ def person(row, ftc=False):
     }
 
 
+def build_standings(frc, editorial, logos, matches):
+    """One row per Northeast Indiana FRC team: 2026 results from TBA, ratings from Statbotics."""
+    results = {r["teamNumber"]: r for r in load(HERE / "data/tba/results-2026.json")["teams"]}
+    # Kendallville (8431, 8432) and Fort Wayne (10411) sit outside the editorial Top 10 list.
+    counties = {8431: "Noble", 8432: "Noble", 10411: "Allen", **{r["team_number"]: r["county"] for r in editorial["top_10"]}}
+    photos = load(HERE / "data/photos.json")["photos"]
+    news = load(HERE / "data/news.json")["stories"]
+    closest = {r["number"]: r for r in matches["teams"] if r["program"] == "FRC"}
+    regional = sorted([r for r in frc["teams"] if r["scope_group"] == "northeast_indiana"],
+                      key=lambda r: (-r["rankings"]["epa_mean"], r["team_number"]))
+    rows = []
+    for power_rank, r in enumerate(regional, 1):
+        number, k, h, l = r["team_number"], r["rankings"], r["season_history"], r["leadership"]
+        t = results[number]
+        official = [e for e in t["events"] if e["type"] != "offseason"]
+        titles = [e for e in official if e["playoff"] and e["playoff"]["result"] == "Won event"]
+        worlds = next((e for e in official if e["type"] == "championship_division"), None)
+        state = next((e for e in official if e["type"] == "district_championship"), None)
+        badges = []
+        if titles:
+            badges.append(f"{len(titles)}× event winner" if len(titles) > 1 else "Event winner")
+        if any(e["playoff"] and e["playoff"]["result"] == "Finalist" for e in official):
+            badges.append("Event finalist")
+        if worlds:
+            badges.append("World Championship")
+        elif state:
+            badges.append("State qualifier")
+        awards = [{"award": a, "event": e["shortName"], "eventKey": e["key"]} for e in t["events"] for a in e["awards"]
+                  if a not in ("District Event Winner", "District Event Finalist")]
+        if awards:
+            badges.append(f"{len(awards)} award" + ("s" if len(awards) > 1 else ""))
+        match = closest.get(number)
+        rows.append({
+            "number": number, "name": r["team_name"], "school": r["school_or_organization"], "city": r["city"],
+            "county": counties[number], "affiliationNote": r["affiliation_notes"],
+            "logos": logos(number), "rookieYear": h["official_rookie_year"], "seasons": h["recorded_season_count"],
+            "powerRank": power_rank, "epa": k["epa_mean"], "epaStandardDeviation": k["epa_standard_deviation"],
+            "stateEpaRank": k["state_rank"], "stateEpaCount": k["state_team_count"], "worldEpaRank": k["world_rank"], "worldEpaCount": k["world_team_count"],
+            "record": t["officialRecord"], "district": t["district"], "events": t["events"], "awards": awards,
+            "titles": [e["shortName"] for e in titles], "worlds": worlds["shortName"] if worlds else None,
+            "stateChampionship": bool(state), "badges": badges,
+            "closestMatch": match.get("main") if match else None,
+            "students": [person(p) for p in l["students"]], "adults": [person(p) for p in l["adults"]],
+            "representatives": [person(p) for p in l["other_representatives"]], "gaps": l["gaps"],
+            "news": [s for s in news if f"frc{number}" in s["teams"]],
+            "photos": [p["id"] for p in photos if number in p["teams"]],
+            "links": {"tba": t["tbaUrl"], "statbotics": r["statbotics_url"], "first": r["first_team_url"], "school": r["school_url"]},
+        })
+    by_points = sorted(rows, key=lambda row: (row["district"]["rank"] or 999))
+    for i, row in enumerate(by_points, 1):
+        row["standingsRank"] = i
+    summary = {
+        "teams": len(rows),
+        "eventTitles": sum(len(row["titles"]) for row in rows),
+        "worldsTeams": [row["number"] for row in rows if row["worlds"]],
+        "stateTeams": [row["number"] for row in rows if row["stateChampionship"]],
+        "awards": sum(len(row["awards"]) for row in rows),
+        "wins": sum(row["record"]["wins"] for row in rows),
+        "resultsSource": "The Blue Alliance, captured Oct 22, 2026",
+        "ratingsSource": "Statbotics EPA, final 2026 values (June 12, 2026 snapshot)",
+    }
+    return rows, summary
+
+
 def main():
     frc = load(ROOT / "data/teams.json")
     ftc = load(ROOT / "ftc/data/teams.json")
@@ -112,6 +176,9 @@ def main():
                           "Recorded season entries can include registrations without matches. They are not a count of winning seasons.",
                           "No movement arrows or voting totals are shown because only one frozen ranking snapshot supports this edition."],
     }
+    result["standings"], result["seasonSummary"] = build_standings(frc, editorial, logos, result["matchHighlights"])
+    result["photos"] = load(HERE / "data/photos.json")["photos"]
+    result["news"] = load(HERE / "data/news.json")
     result["displayAssets"] = {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]}
                                for r in load(HERE / "data/display-assets.json")["assets"]}
     (HERE / "dist/data.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
