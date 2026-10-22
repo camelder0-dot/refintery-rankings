@@ -14,7 +14,7 @@ Serve the static files from the repository root:
 python3 -m http.server 8765 --directory broadcast/dist
 ```
 
-Open `http://localhost:8765`. Use the on-screen controls to select a team, switch between FRC and FTC, show presenter notes, enter fullscreen, and export a 1920 × 1080 graphic. Keyboard shortcuts are listed in the interface. Presenter notes belong with the announcer; the clean frame is intended for the audience.
+Open `http://localhost:8765`. Use the on-screen controls to select a team, switch between FRC and FTC, show presenter notes, enter fullscreen, and export a 1920 × 1080 graphic. Keyboard shortcuts are listed in the interface. Auto-cycle is on by default and advances FRC teams every 12 seconds; uncheck it to stop. It pauses while the page is hidden, on FTC features, and during PNG export. The controls also link directly to the GitHub source. Presenter notes belong with the announcer; the clean frame is intended for the audience.
 
 The [press kit](dist/press-kit.md) includes an opening script, team rundown, source qualifications, and a draft pitch. It does not send anything to a station.
 

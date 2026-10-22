@@ -109,6 +109,13 @@
     render();
   }
 
+  function setAutoCycle(enabled) {
+    clearInterval(state.cycle);
+    state.cycle = enabled && state.data ? setInterval(() => {
+      if (!document.hidden && !state.exporting && state.view !== 'ftc') selectTeam(state.selected + 1);
+    }, 12000) : null;
+  }
+
   function toggleNotes() {
     state.presenter = !state.presenter;
     $('notes-button').setAttribute('aria-pressed', String(state.presenter));
@@ -205,8 +212,7 @@
   $('fullscreen-button').addEventListener('click', toggleFullscreen);
   $('export-button').addEventListener('click', exportPng);
   $('cycle-toggle').addEventListener('change', (event) => {
-    clearInterval(state.cycle);
-    state.cycle = event.target.checked ? setInterval(() => { if (!document.hidden && state.data && state.view !== 'ftc') selectTeam(state.selected + 1); }, 12000) : null;
+    setAutoCycle(event.target.checked);
     if (event.target.checked) setStatus('Auto-cycle enabled: the selected FRC team changes every 12 seconds.');
     else setStatus('Auto-cycle stopped.');
   });
@@ -230,6 +236,7 @@
     if (data.links.pressKit) $('press-kit-link').href = data.links.pressKit;
     if (data.links.repo) $('research-link').href = data.links.repo;
     readHash();
+    setAutoCycle($('cycle-toggle').checked);
     if (/^#(?:board|ftc|team\/\d+)$/.test(location.hash)) $('broadcast').scrollIntoView({ behavior: 'auto', block: 'start' });
   }).catch((error) => {
     console.warn('Broadcast dataset:', error);
