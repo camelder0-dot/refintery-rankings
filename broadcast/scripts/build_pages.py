@@ -219,7 +219,7 @@ def page_shell(title, description, image, url, body, json_ld):
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="../../assets/refinery-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../../styles.css?v=20261022-redesign-11">
+  <link rel="stylesheet" href="../../styles.css?v=20261022-redesign-12">
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
 </head>
 <body>

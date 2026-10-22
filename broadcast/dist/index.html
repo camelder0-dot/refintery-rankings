@@ -19,8 +19,8 @@
   <script>document.documentElement.classList.add('js');</script>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261022-redesign-11">
-  <script src="app.js?v=20261022-redesign-11" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261022-redesign-12">
+  <script src="app.js?v=20261022-redesign-12" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -89,6 +89,34 @@
       </div>
     </section>
 
+    <section class="section section-tint" id="game" aria-labelledby="game-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">The 2026 game</p>
+            <h2 id="game-title">How a match works</h2>
+            <p class="section-lede"><i>FIRST</i> reveals a new game every January. In 2026 it was <strong>REBUILT</strong>: two <button type="button" class="term" data-term="alliance">alliances</button> of three robots score “fuel” into their hub, then climb the tower before time runs out.</p>
+          </div>
+        </div>
+        <div class="game-grid">
+          <ol class="beats">
+            <li><span class="beat-time">0:00–0:20</span><h3>Autonomous</h3><p>Robots run on their own code, with no drivers. They score fuel into their alliance’s hub, and some climb the tower for extra points.</p></li>
+            <li><span class="beat-time">0:20–2:40</span><h3>Driver control</h3><p>Students take the controls for 2 minutes 20 seconds. Fuel comes from the human player, the depot, or the middle of the field.</p></li>
+            <li><span class="beat-time">Shifts</span><h3>Hubs take turns</h3><p>Based on how autonomous went, the two hubs switch between active and inactive. While your hub is off, you collect fuel or play defense.</p></li>
+            <li><span class="beat-time">Endgame</span><h3>Climb the tower</h3><p>As time runs out, both hubs open up and robots climb the tower for points and ranking bonuses. The alliance with the most points wins.</p></li>
+          </ol>
+          <figure class="replay">
+            <button type="button" class="replay-play" id="replay-play" data-video="PXBqa2tUBqg" aria-label="Play the 2026 Mishawaka final, Finals 2">
+              <img src="assets/video/mishawaka-final.webp" width="480" height="270" alt="" loading="lazy">
+              <span class="play-icon" aria-hidden="true"></span>
+            </button>
+            <figcaption><strong>Watch: the 2026 Mishawaka title clincher.</strong> THRUST (1501) and CyBears (10434), with Kokomo’s CyberTooth (3940), beat the red alliance 184–91 to sweep the finals 2–0. <span class="muted">Video: FIRST Indiana Robotics · plays from YouTube.</span></figcaption>
+          </figure>
+        </div>
+        <p class="source-note">Game description from <i>FIRST</i>’s official <a href="https://www.firstinspires.org/hubfs/web/volunteer/frc/2026-rebuilt-game-overview.pdf" target="_blank" rel="noopener">REBUILT game overview</a>. The 2027 game will be revealed on January 9, 2027.</p>
+      </div>
+    </section>
+
     <section class="section section-dark" id="highlights" aria-labelledby="highlights-title">
       <div class="wrap">
         <div class="section-head">
@@ -145,7 +173,7 @@
         <h2 id="learn-title">The sport in 60 seconds</h2>
         <div class="faq">
           <details><summary>What are FRC and FTC?</summary><p>They’re two competition formats run by <i>FIRST</i>. <strong>FRC</strong> (<i>FIRST</i> Robotics Competition) is for grades 9–12 and uses industrial-size robots that can weigh more than 100 pounds. <strong>FTC</strong> (<i>FIRST</i> Tech Challenge) is for grades 7–12 with smaller robots. Each has its own game, season and championship. Schools choose a format; it isn’t assigned by enrollment like football classes.</p></details>
-          <details><summary>How does a match work?</summary><p>Two alliances (red and blue) of three FRC teams each play a match of about two and a half minutes that opens with an autonomous period, when robots run on code alone. Partners change every qualification match, then the top teams pick alliance partners for the playoffs.</p></details>
+          <details><summary>How does a match work?</summary><p>Two alliances, red and blue, of three FRC teams each. In 2026 a match lasted 2 minutes 40 seconds: 20 seconds of autonomous, when robots run on code alone, then 2 minutes 20 seconds with student drivers. Partners change every qualifying match; then the top teams pick partners for the playoffs. <a href="#game">See how the 2026 game worked</a>.</p></details>
           <details><summary>How does the season work?</summary><p>A new game is revealed in January (FRC) or September (FTC). FRC teams build a robot in weeks, play district events in March and April, and the best advance to the Indiana State Championship and the <i>FIRST</i> Championship in Houston.</p></details>
           <details><summary>What’s EPA?</summary><p>Expected Points Added, from Statbotics: the average points a robot is estimated to add to its alliance’s score. It’s a performance rating, like points per game, not a measure of everything a team does.</p></details>
           <details><summary>Is it only about the robot?</summary><p>No. Awards like Impact, Engineering Inspiration, Judges’ and Rising All-Star recognize outreach, design, business plans and student leadership. Many students go on to engineering, software and manufacturing careers.</p></details>

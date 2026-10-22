@@ -179,6 +179,7 @@ def write_press(result, dnf_count):
     media = f"""    <p class="kicker">For reporters</p>
     <h1>Logos &amp; photos</h1>
     <p>School and team marks belong to their schools and teams; they're shown here for identification in news coverage. Photos are from The REFINERY; credit "Photo: The REFINERY". For other uses, or for more photos of a team, email <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
+    <div class="contact"><strong>Have photos of your team?</strong><a href="mailto:{CONTACT}?subject=Team%20photos">{CONTACT}</a><span>Send action shots of your robot and team with the photographer's name and an OK to post. We're adding at least one photo for every team.</span></div>
     <h2>Photos</h2>
     <div class="grid photos">{photos}</div>
     <h2>Team and school logos</h2>

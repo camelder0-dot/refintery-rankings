@@ -76,7 +76,7 @@
 
   function teamDetail(t) {
     const eventRow = (e) => `<tr class="${e.type === 'offseason' ? 'offseason' : ''}"><td>${ext(e.tbaUrl, e.shortName)}<br><small class="muted">${esc(dateRange(e.startDate, e.endDate))}</small></td><td>${ordinal(e.qualRank)}<br><small class="muted">${esc(recordText(e.qualRecord))} record</small></td><td class="${e.playoff?.result === 'Won event' ? 'won' : ''}">${esc(playoffResult(e.playoff))}${playoffRole(e.playoff) ? `<br><small class="muted">${esc(playoffRole(e.playoff))}</small>` : ''}</td></tr>`;
-    const head = '<thead><tr><th>Event</th><th>After qualifying</th><th>Playoffs</th></tr></thead>';
+    const head = `<thead><tr><th>Event</th><th>${term('qualifying', 'After qualifying')}</th><th>${term('playoffs', 'Playoffs')}</th></tr></thead>`;
     const official = t.events.filter((e) => e.type !== 'offseason');
     const offseason = t.events.filter((e) => e.type === 'offseason');
     const events = `<table class="events">${head}<tbody>${official.map(eventRow).join('')}</tbody></table>${offseason.length ? `<details><summary>Offseason events (${offseason.length})</summary><table class="events">${head}<tbody>${offseason.map(eventRow).join('')}</tbody></table></details>` : ''}`;
@@ -96,7 +96,7 @@
 
   function renderStandings() {
     const teams = [...state.data.standings].sort((a, b) => state.sort === 'power' ? a.powerRank - b.powerRank : a.standingsRank - b.standingsRank);
-    $('standings-list').innerHTML = `<div class="standings-header" aria-hidden="true"><span>#</span><span>Team</span><span class="r">Record</span><span class="r">District</span><span class="r">EPA</span><span class="h-honors">2026 honors</span><span></span></div>${teams.map(standingsRow).join('')}`;
+    $('standings-list').innerHTML = `<div class="standings-header"><span>#</span><span>Team</span><span class="r">${term('record', 'Record')}</span><span class="r">${term('district', 'District')}</span><span class="r">${term('epa', 'EPA')}</span><span class="h-honors">2026 honors</span><span></span></div>${teams.map(standingsRow).join('')}`;
     $('standings-list').querySelectorAll('details.team').forEach((el) => el.addEventListener('toggle', () => {
       const body = el.querySelector('.team-detail');
       if (el.open && !body.innerHTML) body.innerHTML = teamDetail(state.data.standings.find((t) => t.number === Number(body.dataset.team)));
@@ -129,7 +129,7 @@
     const stories = (n) => news.stories.filter((s) => s.teams.includes(`ftc${n}`));
     const card = (t, rookie) => {
       const s = stories(t.number);
-      const stats = rookie ? '<p class="muted">Rookie team for 2026–27. First matches this season.</p>' : `<div class="card-stats"><div><strong>${num(t.opr, 1)}</strong><span>Best OPR, 2025–26</span></div><div><strong>${t.regionalRank}<small class="muted">/${t.regionalCount}</small></strong><span>Rank at Indiana events</span></div></div>`;
+      const stats = rookie ? '<p class="muted">Rookie team for 2026–27. First matches this season.</p>' : `<div class="card-stats"><div><strong>${num(t.opr, 1)}</strong><span>Best ${term('opr', 'OPR')}, 2025–26</span></div><div><strong>${t.regionalRank}<small class="muted">/${t.regionalCount}</small></strong><span>Rank at Indiana events</span></div></div>`;
       return `<article class="card"><span class="label ${rookie ? 'new' : 'ftc'}">${rookie ? 'New this season' : 'FTC'} · ${t.number}</span><div class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)}</strong><small>${esc(t.school)}${t.city ? ` · ${esc(t.city)}` : ''}</small></span></div>${stats}${s.length ? `<details><summary>In the news (${s.length})</summary><ul class="news-list">${s.map((x) => `<li>${ext(x.url, x.title)}<small>${esc(x.outlet)} · ${esc(shortDate(x.date))}</small></li>`).join('')}</ul></details>` : ''}${follow(t.teamLinks)}<p><a class="text-link page-link" href="team/${t.number}/">Team page</a></p><ul class="link-list"><li>${ext(`https://ftcscout.org/teams/${t.number}`, 'FTCScout', 'text-link')}</li>${t.profileUrl ? `<li>${ext(t.profileUrl, 'FIRST profile', 'text-link')}</li>` : ''}</ul></article>`;
     };
     $('ftc-grid').innerHTML = ftc.teams.map((t) => card(t, false)).join('') + ftc.newTeams.map((t) => card(t, true)).join('');
@@ -253,6 +253,53 @@
     if (el) { el.open = true; el.scrollIntoView({ block: 'start' }); }
   }
 
+  // Plain-language definitions behind the jargon. Tap a dotted-underlined term to see one.
+  const GLOSSARY = {
+    alliance: ['Alliance', 'Three teams playing together as red or blue. Partners change every qualifying match; playoff alliances stay together.'],
+    record: ['Record', 'Wins and losses in official matches: district events, the state championship and the world championship. A win is shared by the whole alliance.'],
+    district: ['District points', 'FIRST Indiana awards points at each district event for qualifying wins, being picked for playoffs, playoff wins and judged awards. The top teams by points go to the state championship.'],
+    epa: ['EPA', 'Expected Points Added, from Statbotics: about how many points a robot adds to its alliance’s score each match. Think points per game.'],
+    qualifying: ['Qualifying', 'The first part of an event: every team plays a dozen or more matches with random partners. The ranking after qualifying decides the playoff seeds.'],
+    playoffs: ['Playoffs', 'The top 8 teams each pick two partners (the #1 seed picks first). Alliances play a double-elimination bracket, so a team is out after two losses, and the last two alliances meet in a best-of-three final.'],
+    opr: ['OPR', 'Offensive Power Rating: an FTC estimate of the points a team adds per match, worked out from its alliances’ scores. Not comparable to FRC’s EPA.'],
+  };
+  const term = (key, label) => `<button type="button" class="term" data-term="${key}">${esc(label)}</button>`;
+  const tip = document.createElement('div');
+  tip.className = 'term-tip';
+  tip.id = 'term-tip';
+  tip.setAttribute('role', 'tooltip');
+  tip.hidden = true;
+  document.body.append(tip);
+  let tipFor = null;
+  const hideTip = () => { tip.hidden = true; tipFor?.setAttribute('aria-expanded', 'false'); tipFor = null; };
+  document.addEventListener('click', (event) => {
+    const button = event.target.closest('.term');
+    if (!button) { if (!event.target.closest('.term-tip')) hideTip(); return; }
+    event.preventDefault();
+    event.stopPropagation();
+    if (tipFor === button) { hideTip(); return; }
+    const [title, text] = GLOSSARY[button.dataset.term] || [];
+    if (!title) return;
+    hideTip();
+    tip.innerHTML = `<strong>${esc(title)}</strong>${esc(text)}`;
+    tip.hidden = false;
+    const box = button.getBoundingClientRect();
+    const left = Math.max(12, Math.min(box.left, innerWidth - tip.offsetWidth - 12));
+    tip.style.left = `${left + scrollX}px`;
+    tip.style.top = `${box.bottom + scrollY + 8}px`;
+    button.setAttribute('aria-expanded', 'true');
+    button.setAttribute('aria-describedby', 'term-tip');
+    tipFor = button;
+  }, true);
+  document.addEventListener('keydown', (event) => { if (event.key === 'Escape') hideTip(); });
+  addEventListener('resize', hideTip);
+
+  // The replay loads YouTube only when someone presses play.
+  $('replay-play')?.addEventListener('click', (event) => {
+    const button = event.currentTarget;
+    button.outerHTML = `<div class="replay-frame"><iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(button.dataset.video)}?autoplay=1&rel=0" title="2026 FIN District Mishawaka Event, Finals 2" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>`;
+  });
+
   // Motion: reveal blocks as they scroll in, count numbers up, drift the hero photo.
   const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
   // Items that arrive together stagger by their order in that batch, so a long list never lags.
@@ -313,6 +360,8 @@
     reveal('.card');
     reveal('.schedule li');
     reveal('.faq details');
+    reveal('.beats li');
+    reveal('.replay', 'reveal-img', false);
     reveal('.media-card');
     reveal('.dnf .hero-actions, .dnf-tools', 'reveal', false);
     rule('.standings', '5px', 'var(--navy)');
