@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "research_date": "2026-10-22",
-  "source_count": 146,
+  "source_count": 147,
   "note": "Source links and per-person access limitations are preserved. This catalog does not assert that every linked page is currently accessible or archived locally.",
   "sources": [
     {
@@ -1313,6 +1313,18 @@
       ],
       "teams": [
         11407
+      ]
+    },
+    {
+      "source_id": "S-ebb83da2ba",
+      "title": "21Alive: Snider world championship preparation; displayed publication April 12, 2024",
+      "url": "https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/",
+      "publisher_domain": "www.21alivenews.com",
+      "categories": [
+        "leadership"
+      ],
+      "teams": [
+        9431
       ]
     },
     {

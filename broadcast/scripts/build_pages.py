@@ -127,7 +127,7 @@ def people_details(people, gaps=()):
         sources = " · ".join(ext(url, f"source {i + 1}") for i, url in enumerate(p["sourceUrls"]))
         rows.append(f'<li><strong>{e(p["name"])}</strong> · {e(p["role"])}<br><small>{person_evidence(p)} · {sources}</small></li>')
     note = " ".join(gaps) or "Confirm current captains and coaches with the team before publishing."
-    return f'<details open><summary>Coaches &amp; student leaders ({len(people)})</summary><ul class="people">{"".join(rows)}</ul><p class="muted small">{e(note)}</p></details>'
+    return f'<details open><summary>Coaches, leaders &amp; supporters ({len(people)})</summary><ul class="people">{"".join(rows)}</ul><p class="muted small">{e(note)}</p></details>'
 
 
 def follow_label(link):

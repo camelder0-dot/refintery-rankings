@@ -1,6 +1,6 @@
 # Source catalog
 
-This catalog contains **146 unique source URLs** used for team identity, school affiliation, rankings, season history, geography, and leadership. It was assembled from the October 22, 2026 research and preservation work.
+This catalog contains **147 unique source URLs** used for team identity, school affiliation, rankings, season history, geography, and leadership. It was assembled from the October 22, 2026 research and preservation work.
 
 The per-person records contain evidence dates, exact roles, and access qualifications. Several social pages and professional profiles were available only through indexed public text. A link is not a claim that a complete local copy exists. The [linked-document manifest](../artifacts/source-manifests/documents.json) records hashes for the two principal PDFs.
 
@@ -108,6 +108,7 @@ The per-person records contain evidence dates, exact roles, and access qualifica
 | S-9d9e825189 | [wayne.fortwayneschools.org](https://wayne.fortwayneschools.org/) | school and team | 10411 |
 | S-8823a28ee4 | [wayne.fortwayneschools.org: contact us](https://wayne.fortwayneschools.org/contact-us) | geographic method, geography | 10411 |
 | S-ebd73ec110 | [Wilcox Newspapers: SHS robotics team receives recognition, March 27, 2026](https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/) | leadership | 11407 |
+| S-ebb83da2ba | [21Alive: Snider world championship preparation; displayed publication April 12, 2024](https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/) | leadership | 9431 |
 | S-98c8e0b348 | [www.camdenfrontier.org](https://www.camdenfrontier.org/) | geographic method, geography, school and team | 5559 |
 | S-8983bb4480 | [www.cityoffortwayne.in.gov: 1109/Contact Us](https://www.cityoffortwayne.in.gov/1109/Contact-Us) | geographic method | Method / scope |
 | S-970016fefa | [www.cityoffortwayne.org: publicworks/52 mayors office/neighborhoods/196 customer service.html](https://www.cityoffortwayne.org/publicworks/52-mayors-office/neighborhoods/196-customer-service.html) | geographic method | Method / scope |

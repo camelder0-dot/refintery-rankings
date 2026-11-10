@@ -1,9 +1,10 @@
 name: Refresh results and calendar
 
 # Pulls fresh results (The Blue Alliance) and events (FTCScout, The Blue Alliance), rebuilds and
-# verifies the site, then opens a pull request for review. Nothing is published until it is merged.
+# verifies the site, then commits straight to main and republishes. No pull request to approve:
+# the verify scripts are the gate, and a run that fails them changes nothing.
 # Needs the repository secret TBA_AUTH_KEY for FRC data; without it only the FTC calendar refreshes.
-# Setup and review steps: docs/tba-api.md
+# Setup: docs/tba-api.md
 
 on:
   workflow_dispatch:
@@ -13,7 +14,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  actions: write   # to start the Pages publish after the commit
 
 concurrency:
   group: refresh-data
@@ -62,7 +63,7 @@ jobs:
           python3 ftc/scripts/verify.py
           python3 broadcast/scripts/verify.py
           node --check broadcast/dist/app.js
-      - name: Open a pull request if anything changed
+      - name: Commit to main and republish if anything changed
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -70,20 +71,12 @@ jobs:
             echo "No changes."
             exit 0
           fi
-          branch="refresh/$(date -u +%Y-%m-%d)"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git switch -c "$branch"
           git add -A
           git commit -m "Refresh results and calendar ($(date -u +%Y-%m-%d))"
-          git push --force origin "$branch"
-          if [ -n "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
-            echo "A pull request for $branch is already open; the push above updated it."
-            exit 0
-          fi
-          # Fail loudly: a refresh nobody sees is the same as no refresh. If this fails with
-          # "GitHub Actions is not permitted to create or approve pull requests", turn that option on in
-          # Settings → Actions → General → Workflow permissions (docs/tba-api.md).
-          gh pr create --base main --head "$branch" \
-            --title "Refresh results and calendar ($(date -u +%Y-%m-%d))" \
-            --body "Automated refresh from The Blue Alliance and FTCScout. Review the data diff, then merge to publish. See docs/tba-api.md."
+          # Fails loudly if main moved during the run or is protected; nothing is half-published.
+          git push origin HEAD:main
+          # A push made with the workflow token does not start other workflows on its own,
+          # so start the Pages publish explicitly.
+          gh workflow run pages.yml --ref main

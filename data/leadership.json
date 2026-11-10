@@ -359,6 +359,18 @@
         ],
         "evidence_status": "qualified_indexed",
         "notes": "The REFINERY biography of Connor Rey identifies Mr. Todor as his coach during the founding period beginning in 2023. An indexed public event-host caption supplies John Todor and the coach/director title; its date and post permalink were not retrieved. Team-account references to Todor corroborate the connection, but a current 2026-27 appointment is not established."
+      },
+      {
+        "name": "Doug Horner",
+        "role": "Notable supporter and sponsor",
+        "evidence_date": "2024-04-12",
+        "date_precision": "day",
+        "source_urls": [
+          "https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/",
+          "https://refineryrobotics.org/about/"
+        ],
+        "evidence_status": "verified_dated",
+        "notes": "Founder of The REFINERY, which sponsors the team, and a Snider High School alumnus. He supports the program as a sponsor rather than as a coach or team member; 21Alive quoted him about the club in April 2024."
       }
     ],
     "students": [
