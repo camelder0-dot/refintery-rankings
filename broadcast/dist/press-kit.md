@@ -98,11 +98,11 @@ Final scores belong to alliances and include penalties. Partners and opponents c
 
 ### 1. Team THRUST · FRC 1501
 
-Huntington North High School / Huntington County 4-H · Huntington, Huntington County
+Huntington County 4-H Robotics · Huntington, Huntington County
 
 250 district points; Indiana district rank 6/68. Statbotics EPA 118.71.
 
-- No. 1 among Northeast Indiana teams; Huntington North High School / Huntington County 4-H in Huntington.
+- No. 1 among Northeast Indiana teams; Huntington County 4-H Robotics in Huntington.
 - 250 FIRST Indiana district points; #6 of 68 in Indiana. 2026 record 45-15-0 (The Blue Alliance).
 - 22 recorded FIRST season entries through 2026; official rookie year 2005.
 - Chris Elston — Lead Engineering Mentor. Self-reported, undated professional profile; current appointment not confirmed.
@@ -140,15 +140,13 @@ Homestead High School · Fort Wayne, Allen County
 - No. 3 among Northeast Indiana teams; Homestead High School in Fort Wayne.
 - 136 FIRST Indiana district points; #21 of 68 in Indiana. 2026 record 24-25-0 (The Blue Alliance).
 - 13 recorded FIRST season entries through 2026; official rookie year 2014.
-- Caleb Neely — Co-Business Manager and Outreach Director. Partner biography explicitly associates these roles with 2026; page undated.
+- Jake — Team captain, 2026–27. First name only; confirmed by the team’s assistant coach, Nov 10, 2026.
 
-- Jasroop — Named in the team captain / assistant captain announcement. Evidence: 2025-2026; qualified indexed. Official team account search-indexed caption pairs Jasroop and Jake with captain and assistant captain for 2025-2026, in that order. A full surname, stable post permalink, and independent confirmation of the individual title assignment were not retrieved. Do not silently convert the caption order into a verified individual appointment. Sources: https://www.instagram.com/4982_olympus_robotics/
-- Jake — Named in the team captain / assistant captain announcement. Evidence: 2025-2026; qualified indexed. Official team account search-indexed caption pairs Jasroop and Jake with captain and assistant captain for 2025-2026, in that order. Only the first name is verified. The individual assignment and a stable post permalink remain unverified. Sources: https://www.instagram.com/4982_olympus_robotics/
-- Caleb Neely — Co-Business Manager and Outreach Director. Evidence: 2026; verified undated. An undated official partner biography expressly associates these roles with 2026. This establishes student leadership but does not establish the team-captain role. Sources: https://refineryrobotics.org/about/
-- Matt Elder — Lead coach / mentor. Evidence: undated; self reported undated. Role appears on a public professional profile. No dated school appointment or current-season appointment was independently verified. Sources: https://www.linkedin.com/in/matt-elder-24b8b615a
-- Cameron Elder — Assistant coach. Evidence: undated; verified undated. The REFINERY biography expressly identifies him as assistant coach of Team 4982. It also identifies him as a graduate and former student captain, so he is not listed as a current student captain. Sources: https://refineryrobotics.org/about/
+- Jake — Team captain, 2026–27. Evidence: 2026-11-10; confirmed by team mentor. Olympus has a single team captain this season and no assistant captain. Surname not published here. Confirmed by Cameron Elder (Olympus assistant coach; Carroll mentor) on Nov 10, 2026. Sources: https://www.instagram.com/4982_olympus_robotics/
+- Matt Elder — Lead coach / mentor. Evidence: 2026-11-10; confirmed by team mentor. Lead coach and mentor. Confirmed by Cameron Elder (Olympus assistant coach; Carroll mentor) on Nov 10, 2026. Sources: https://www.linkedin.com/in/matt-elder-24b8b615a
+- Cameron Elder — Assistant coach. Evidence: 2026-11-10; confirmed by person. Assistant coach of Olympus Robotics and a former Olympus student captain. Also the former head coach of Carroll (10332), where he is now a mentor. Confirmed by Cameron Elder (Olympus assistant coach; Carroll mentor) on Nov 10, 2026. Sources: https://refineryrobotics.org/about/
 
-Evidence gaps: Captain and assistant-captain surnames and individual title assignments require confirmation. The captain announcement is indexed account content, with no retrieved individual post permalink. A 2026-27 student captain is not verified.
+Evidence gaps: Captain surname not published. Olympus has a student leadership board; its members are not listed individually here.
 
 - Closest finish: FIN District Lafayette Event, Match 8 (R2). Red 283–Blue 281 (2-point margin); 4982 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=awgnviexCt0) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/playoffs/8).
 
@@ -202,7 +200,6 @@ R. Nelson Snider High School · Fort Wayne, Allen County
 
 - Nick Sims — Team captain and driver, described retrospectively in interview. Evidence: 2026-10-02; verified dated retrospective. In PBS Fort Wayne The 260, Sims identifies his team-captain role and separately describes driving. The interview is retrospective and mentions college plans. The broadcast date does not verify a current 2026-27 captain appointment or define an exact term. Sources: https://video.wfwa.org/video/science-centrals-new-planetarium-snider-robotics-and-arena-dinner-theatre-4j2kgy/
 - John Todor — Founding-period coach; publicly identified coach/director. Evidence: undated; qualified indexed. The REFINERY biography of Connor Rey identifies Mr. Todor as his coach during the founding period beginning in 2023. An indexed public event-host caption supplies John Todor and the coach/director title; its date and post permalink were not retrieved. Team-account references to Todor corroborate the connection, but a current 2026-27 appointment is not established. Sources: https://refineryrobotics.org/about/ https://www.instagram.com/walnuthillcatering/ https://www.instagram.com/snider_robotics9431/
-- Doug Horner — Sponsor and adult team spokesperson. Evidence: 2024-04-12; verified historical. The 21Alive page displays publication on April 12, 2024 at 11:38 PM EDT, although its URL uses April 13. It describes his work with the club and quotes him about the program; The REFINERY biography corroborates rookie-year sponsorship. No formal head-coach appointment is asserted. Sources: https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/ https://refineryrobotics.org/about/
 - Nick Sims — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
 - Connor Rey — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
 
@@ -219,14 +216,13 @@ Carroll High School · Fort Wayne, Allen County
 - No. 7 among Northeast Indiana teams; Carroll High School in Fort Wayne.
 - 35 FIRST Indiana district points; #49 of 68 in Indiana. 2026 record 9-17-0 (The Blue Alliance).
 - 2 recorded FIRST season entries through 2026; official rookie year 2025.
-- Nieng Mang — 2025–26 team captain. School newspaper contributor biography attached to January 27, 2026 article; biography may be updated dynamically; current appointment not confirmed.
+- Nieng Mang — 2025–26 team captain. Captain in 2025–26 per a January 2026 school-newspaper bio; 2026–27 captain not confirmed.
 
-- Nieng Mang — Team captain; Carroll High School senior. Evidence: 2026-01-27; verified dated bio. The school newspaper contributor biography identifies Mang as captain and a senior. January 27, 2026 is the article date; the biography itself has no separate timestamp and may be updated dynamically. The evidence supports the 2025-26 school-year identification, not a current 2026-27 appointment. Sources: https://chargeronline.nacs.k12.in.us/12210/sports/from-worst-to-first-how-indianas-football-program-became-the-nations-best/
+- Nieng Mang — Team captain, 2025–26. Evidence: 2026-01-27; verified dated bio. A January 2026 Carroll school-newspaper bio names Mang as team captain and a senior. A senior that year would have graduated in spring 2026, so the 2026–27 captain still needs confirming with the team. Sources: https://chargeronline.nacs.k12.in.us/12210/sports/from-worst-to-first-how-indianas-football-program-became-the-nations-best/
 - Mady Stricker — Mentor. Evidence: 2026; qualified indexed. A FIRST Indiana 2026 indexed biography associates Stricker with mentoring Team 10332. The live board page was shorter at retrieval. This is mentor evidence and does not establish a head-coach role. Sources: https://www.firstindianarobotics.org/about-first-indiana-robotics/board-of-directors/
-- Cameron Elder — Former head coach. Evidence: undated; self reported historical. Public professional profile reports the Team 10332 head-coach tenure as April through October 2025. The profile itself is undated; this is a past appointment, not a current coach assignment. Sources: https://www.linkedin.com/in/camelder
-- Matt Arnold — Former assistant coach. Evidence: undated; self reported historical. Public professional profile reports an assistant-coach tenure from October 2024 through April 2025. The profile itself is undated; continued service is not established. Sources: https://www.linkedin.com/in/m4ttbit
+- Cameron Elder — Former head coach (2025); now a team mentor. Evidence: 2026-11-10; confirmed by person. Head coach from April to October 2025, and now a mentor with the team. Confirmed by Cameron Elder (Olympus assistant coach; Carroll mentor) on Nov 10, 2026. Carroll has had several head and assistant coaches since its 2025 rookie season. Sources: https://www.linkedin.com/in/camelder
 
-Evidence gaps: Current head coach not verified. Student captain for 2026-27 not verified. Mentor evidence for Mady Stricker is indexed official content rather than the full biography on the current live page.
+Evidence gaps: The current head coach is a Carroll High School teacher who is not yet named in a public source. The 2026–27 student captain is not confirmed.
 
 - Closest finish: FIN District Lafayette Event, Match 5 (R2). Red 144–Blue 143 (1-point margin); 10332 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=1yljTlNXDUM) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/playoffs/5).
 

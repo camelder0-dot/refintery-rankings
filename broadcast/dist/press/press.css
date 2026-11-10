@@ -55,3 +55,11 @@ footer.sheet { border-top: 1px solid var(--line); padding: 24px 0 40px; }
   a { color: inherit; text-decoration: none; }
   h2 { margin-top: 24px; }
 }
+.jump { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 18px 0 0; padding: 10px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); position: sticky; top: 0; background: #fff; z-index: 2; }
+.jump a { font-family: var(--display); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; text-decoration: none; }
+h2[id] { scroll-margin-top: 60px; }
+.latest h3 { font-size: 22px; margin: 14px 0 6px; }
+.latest ul { margin: 0; }
+.terms dt { font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: 18px; margin-top: 12px; }
+.terms dd { margin: 2px 0 0; }
+@media print { .jump { display: none; } }

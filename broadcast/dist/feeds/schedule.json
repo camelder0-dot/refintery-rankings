@@ -92,7 +92,7 @@
     "venue": "Westfield Middle School",
     "city": "Westfield",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "22331, 36124",
     "url": "https://ftcscout.org/events/2026/USINWEQ2"
   },
   {
@@ -128,7 +128,7 @@
     "venue": "Shoals Jr/Sr High School",
     "city": "Shoals",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "36124",
     "url": "https://ftcscout.org/events/2026/USINSHQ"
   },
   {
@@ -152,7 +152,7 @@
     "venue": "Avon High School",
     "city": "Avon",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "25638",
     "url": "https://ftcscout.org/events/2026/USINAVQ"
   },
   {
@@ -164,7 +164,7 @@
     "venue": "Penn High School",
     "city": "Mishawaka",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "22331, 25638",
     "url": "https://ftcscout.org/events/2026/USINMIQ"
   },
   {
@@ -180,6 +180,18 @@
     "url": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/"
   },
   {
+    "start_date": "2027-03-06",
+    "end_date": "2027-03-06",
+    "program": "FTC",
+    "type": "Championship",
+    "event": "FTC Championship · Indiana State Championship",
+    "venue": "University of Indianapolis Nicoson Hall",
+    "city": "Indianapolis",
+    "state": "IN",
+    "local_teams": "",
+    "url": "https://ftcscout.org/events/2026/USINCMP"
+  },
+  {
     "start_date": "2027-03-12",
     "end_date": "2027-03-14",
     "program": "FRC",
@@ -188,7 +200,7 @@
     "venue": "Penn High School",
     "city": "Mishawaka",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "1501, 4982, 9119, 9431, 10172",
     "url": "https://www.thebluealliance.com/event/2027inmis"
   },
   {
@@ -200,7 +212,7 @@
     "venue": "Silver Creek Senior High School",
     "city": "Sellersburg",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "1720, 8742, 10411, 10434",
     "url": "https://www.thebluealliance.com/event/2027insel"
   },
   {
@@ -212,7 +224,7 @@
     "venue": "Jefferson High School",
     "city": "Lafayette",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "10332",
     "url": "https://www.thebluealliance.com/event/2027inlaf"
   },
   {
@@ -224,7 +236,7 @@
     "venue": "Homestead High School",
     "city": "Fort Wayne",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "1501, 1720, 4982, 8103, 8431, 8432, 8742, 10172, 10332, 10411, 10434",
     "url": "https://www.thebluealliance.com/event/2027inftw"
   },
   {

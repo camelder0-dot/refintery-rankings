@@ -75,6 +75,7 @@ def build_standings(frc, editorial, logos, matches):
     news = load(HERE / "data/news.json")["stories"]
     team_links = {t["teamNumber"]: t["links"] for t in load(HERE / "data/team-links.json")["teams"]}
     closest = {r["number"]: r for r in matches["teams"] if r["program"] == "FRC"}
+    history = {h["teamNumber"]: h for h in load(HERE / "data/tba/history.json")["teams"]}
     regional = sorted([r for r in frc["teams"] if r["scope_group"] == "northeast_indiana"],
                       key=lambda r: (-r["rankings"]["epa_mean"], r["team_number"]))
     rows = []
@@ -118,6 +119,7 @@ def build_standings(frc, editorial, logos, matches):
             "photos": [p["id"] for p in photos if number in p["teams"]],
             "links": {"tba": t["tbaUrl"], "statbotics": r["statbotics_url"], "first": r["first_team_url"], "school": r["school_url"]},
             "teamLinks": team_links.get(number, []),
+            "history": all_time(history.get(number)),
         })
     by_points = sorted(rows, key=lambda row: (row["district"]["rank"] or 999))
     for i, row in enumerate(by_points, 1):
@@ -130,10 +132,72 @@ def build_standings(frc, editorial, logos, matches):
         "awards": sum(len(row["awards"]) for row in rows),
         "wins": sum(row["record"]["wins"] for row in rows),
         "updated": load(HERE / "data/tba/results-2026.json")["retrievedDate"],
-        "resultsSource": "The Blue Alliance, captured Oct 22, 2026",
+        "resultsSource": "The Blue Alliance, captured " + (lambda d: f"{d:%b} {d.day}, {d.year}")(date.fromisoformat(load(HERE / "data/tba/results-2026.json")["retrievedDate"])),
         "ratingsSource": "Statbotics EPA, final 2026 values (June 12, 2026 snapshot), shown as a secondary model rating",
     }
     return rows, summary
+
+
+def all_time(h):
+    """All-time Blue Alliance record for a team: blue banners and awards by season (played seasons only)."""
+    if not h:
+        return None
+    by_year = {}
+    for ev in h["events"]:
+        if ev["awards"] and ev["year"] <= 2026:
+            by_year.setdefault(ev["year"], []).extend({"award": a, "event": ev["event"]} for a in ev["awards"])
+    return {"tbaUrl": h["tbaUrl"], "banners": h["banners"], "bannerCount": len(h["banners"]), "awardCount": h["awardCount"],
+            "seasonsPlayed": h["seasonsPlayed"], "awardsByYear": [{"year": y, "awards": by_year[y]} for y in sorted(by_year, reverse=True)],
+            "registered": [{"year": e["year"], "eventKey": e["eventKey"], "event": e["event"]} for e in h["registered"]]}
+
+
+def ftc_all_time(h):
+    """FTC season-by-season record from FTCScout, trimmed to what the pages show."""
+    if not h:
+        return None
+    role = {"Captain": "Captain", "FirstPick": "1st pick", "SecondPick": "2nd pick"}
+    seasons = []
+    for season in sorted(h["seasons"], key=lambda x: x["season"], reverse=True):
+        played = [ev for ev in season["events"] if ev.get("finished") or ev.get("qualRank")]
+        if not played:
+            continue
+        rows = []
+        for ev in sorted(played, key=lambda ev: ev["startDate"]):
+            rec = ev.get("qualRecord")
+            po = ev.get("playoff")
+            rows.append({"name": ev["name"], "startDate": ev["startDate"], "endDate": ev["endDate"], "type": ev["type"], "url": ev["eventUrl"],
+                         "qualRank": ev.get("qualRank"), "qualRecord": f"{rec['wins']}-{rec['losses']}-{rec['ties']}" if rec else None,
+                         "npOpr": ev.get("npOpr"),
+                         "playoff": f"{role.get(po.get('allianceRole'), po.get('allianceRole') or 'Alliance')} · {po['wins']}-{po['losses']}" + (f"-{po['ties']}" if po.get('ties') else "") if po else None,
+                         "awards": [a["displayName"] for a in ev.get("awards", [])]})
+        tot = season["totals"]
+        seasons.append({"season": season["season"], "label": season.get("seasonLabel"), "name": season.get("seasonName"),
+                        "record": f"{tot['wins']}-{tot['losses']}-{tot['ties']}", "awards": tot["awards"], "bestNpOpr": tot.get("bestNpOpr"), "events": rows})
+    a = h["allTime"]
+    return {"url": h["ftcscoutUrl"], "rookieYear": h.get("rookieYear"), "seasonsPlayed": len(seasons), "events": a["totalEvents"],
+            "record": f"{a['wins']}-{a['losses']}-{a['ties']}", "awards": a["totalAwards"], "eventWins": a["eventWins"],
+            "inspireAwards": a["inspireAwards"], "seasons": seasons, "upcoming": h.get("upcoming", [])}
+
+
+def latest_results(standings, count=3):
+    """The most recent events any regional FRC team played, with each local team's finish, newest first."""
+    order = {"Won event": 0, "Finalist": 1}
+    events = {}
+    for t in standings:
+        for ev in t["events"]:
+            row = events.setdefault(ev["key"], {"key": ev["key"], "name": ev["name"], "shortName": ev["shortName"], "type": ev["type"],
+                                                "startDate": ev["startDate"], "endDate": ev["endDate"], "tbaUrl": ev["tbaUrl"], "teams": []})
+            result = ev["playoff"]["result"] if ev["playoff"] else "Did not reach playoffs"
+            if result.startswith("Eliminated in playoff round"):
+                result = "Playoffs, " + result.removeprefix("Eliminated in playoff ").replace("round", "round")
+            elif result.startswith("Playoffs"):
+                result = "Playoffs"
+            row["teams"].append({"number": t["number"], "name": t["name"], "school": t["school"], "qualRank": ev["qualRank"],
+                                 "result": result, "awards": [short_award(a) for a in ev["awards"] if a not in ("District Event Winner", "District Event Finalist")]})
+    recent = sorted(events.values(), key=lambda e: (e["endDate"], e["key"]), reverse=True)[:count]
+    for ev in recent:
+        ev["teams"].sort(key=lambda r: (order.get(r["result"], 2), r["qualRank"]))
+    return recent
 
 
 def main():
@@ -232,7 +296,11 @@ def main():
                           "Recorded season entries can include registrations without matches. They are not a count of winning seasons.",
                           "No movement arrows or voting totals are shown because only one frozen ranking snapshot supports this edition."],
     }
+    ftc_history = {t["teamNumber"]: t for t in load(HERE / "data/ftc/history.json")["teams"]}
+    for t in result["ftc"]["teams"] + result["ftc"]["newTeams"]:
+        t["history"] = ftc_all_time(ftc_history.get(t["number"]))
     result["standings"], result["seasonSummary"] = build_standings(frc, editorial, logos, result["matchHighlights"])
+    result["latestResults"] = latest_results(result["standings"])
     result["calendar"] = load(HERE / "data/calendar-2026-27.json")
     write_ics(result["calendar"])
     result["photos"] = load(HERE / "data/photos.json")["photos"]

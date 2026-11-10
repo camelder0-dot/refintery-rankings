@@ -71,6 +71,15 @@ def entrants(event, key, local):
             teams = [t["teamNumber"] for t in get(f"https://api.ftcscout.org/rest/v1/events/{FTC_SEASON}/{event['_code']}/teams")]
         elif event["program"] == "FRC" and key and event["source"] == "The Blue Alliance":
             teams = [int(k[3:]) for k in get(f"{TBA}/event/{event['id'][4:]}/teams/keys", {"X-TBA-Auth-Key": key})]
+        elif event["program"] == "FRC" and event["source"] == "The Blue Alliance":
+            # No key: fall back to the registrations shown on each local team's public TBA history page
+            # (scripts/capture_tba_history.py). That lists our teams only, not the full field.
+            history = ROOT / "broadcast/data/tba/history.json"
+            registered = json.loads(history.read_text(encoding="utf-8"))["teams"] if history.is_file() else []
+            mine = sorted(t["teamNumber"] for t in registered if any(r["eventKey"] == event["id"][4:] for r in t["registered"]))
+            if not mine:
+                return {"posted": False, "note": "No local teams registered yet on The Blue Alliance."}
+            return {"posted": True, "local": mine, "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."}
         else:
             return {"posted": False, "note": "Add a TBA key to check FRC entries." if event["program"] == "FRC" else "Not tracked."}
     except Exception as error:  # A missing list should never stop the calendar refresh.

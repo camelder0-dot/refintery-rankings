@@ -1,6 +1,6 @@
 # Source catalog
 
-This catalog contains **148 unique source URLs** used for team identity, school affiliation, rankings, season history, geography, and leadership. It was assembled from the October 22, 2026 research and preservation work.
+This catalog contains **146 unique source URLs** used for team identity, school affiliation, rankings, season history, geography, and leadership. It was assembled from the October 22, 2026 research and preservation work.
 
 The per-person records contain evidence dates, exact roles, and access qualifications. Several social pages and professional profiles were available only through indexed public text. A link is not a claim that a complete local copy exists. The [linked-document manifest](../artifacts/source-manifests/documents.json) records hashes for the two principal PDFs.
 
@@ -66,13 +66,13 @@ The per-person records contain evidence dates, exact roles, and access qualifica
 | S-c8ef4725d5 | [U.S. Census Bureau: geocoder result or method documentation](https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=7001+Coldwater+Road%2C+Fort+Wayne%2C+IN+46825&benchmark=Public_AR_Current&format=json) | geographic method, geography | 10434 |
 | S-4fcf5baeed | [U.S. Census Bureau: geocoder result or method documentation](https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=901+Garden+Street%2C+Kendallville%2C+IN+46755&benchmark=Public_AR_Current&format=json) | geographic method, geography | 8103, 8431, 8432 |
 | S-a50cf8904f | [U.S. Census Bureau: geocoder result or method documentation](https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=9100+Winchester+Road%2C+Fort+Wayne%2C+IN+46819&benchmark=Public_AR_Current&format=json) | geographic method, geography | 10411 |
-| S-2039de4f00 | [hnhs.hccsc.k12.in.us](https://hnhs.hccsc.k12.in.us/) | school and team | 1501 |
 | S-8b5a31fb68 | [hnhs.hccsc.k12.in.us: services/administration/main office](https://hnhs.hccsc.k12.in.us/services/administration/main-office) | geographic method, geography | 1501 |
 | S-fa8b49e950 | [homestead.sacs.k12.in.us](https://homestead.sacs.k12.in.us/) | school and team | 4982 |
 | S-068836fd15 | [homestead.sacs.k12.in.us: home](https://homestead.sacs.k12.in.us/home) | geographic method, geography | 4982 |
 | S-fd42e98c58 | [hs.eastnoble.net](https://hs.eastnoble.net/) | school and team | 8103, 8431, 8432 |
 | S-1d4217eb99 | [hs.eastnoble.net: page/contact us](https://hs.eastnoble.net/page/contact-us/) | geographic method, geography | 8103, 8431, 8432 |
 | S-ae56a072c2 | [Huntington North High School: Robotics club page](https://huntingtonnhs.ss13.sharpschool.com/get_involved/clubs/robotics) | geographic method, geography, school and team | 1501 |
+| S-c9d46714e4 | [huntingtonrobotics.org](https://huntingtonrobotics.org/) | school and team | 1501 |
 | S-af435a6c0b | [Huntington robotics: community participation FAQ](https://huntingtonrobotics.org/faq/) | geographic method, geography, school and team | 1501 |
 | S-4811631100 | [limaymca.net: contact us](https://limaymca.net/contact-us/) | geographic method, geography | 3777 |
 | S-880476608a | [mghs.mgusc.k12.in.us](https://mghs.mgusc.k12.in.us/) | school and team | 8742 |
@@ -108,7 +108,6 @@ The per-person records contain evidence dates, exact roles, and access qualifica
 | S-9d9e825189 | [wayne.fortwayneschools.org](https://wayne.fortwayneschools.org/) | school and team | 10411 |
 | S-8823a28ee4 | [wayne.fortwayneschools.org: contact us](https://wayne.fortwayneschools.org/contact-us) | geographic method, geography | 10411 |
 | S-ebd73ec110 | [Wilcox Newspapers: SHS robotics team receives recognition, March 27, 2026](https://wilcoxnewspapers.com/shs-robotics-team-receives-recognition-at-district-meet/) | leadership | 11407 |
-| S-ebb83da2ba | [21Alive: Snider world championship preparation; displayed publication April 12, 2024](https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/) | leadership | 9431 |
 | S-98c8e0b348 | [www.camdenfrontier.org](https://www.camdenfrontier.org/) | geographic method, geography, school and team | 5559 |
 | S-8983bb4480 | [www.cityoffortwayne.in.gov: 1109/Contact Us](https://www.cityoffortwayne.in.gov/1109/Contact-Us) | geographic method | Method / scope |
 | S-970016fefa | [www.cityoffortwayne.org: publicworks/52 mayors office/neighborhoods/196 customer service.html](https://www.cityoffortwayne.org/publicworks/52-mayors-office/neighborhoods/196-customer-service.html) | geographic method | Method / scope |
@@ -126,7 +125,6 @@ The per-person records contain evidence dates, exact roles, and access qualifica
 | S-7510d27efd | [www.linkedin.com: company/e3rc](https://www.linkedin.com/company/e3rc) | geographic method | Method / scope |
 | S-01bac52452 | [Cameron Elder: public professional profile and historical roles](https://www.linkedin.com/in/camelder) | leadership | 10332 |
 | S-04e10368b6 | [Chris Elston: public professional profile](https://www.linkedin.com/in/chriselston) | leadership | 1501 |
-| S-dcb83b6d86 | [Matt Arnold: public professional profile and historical role](https://www.linkedin.com/in/m4ttbit) | leadership | 10332 |
 | S-335b149918 | [Matt Elder: public professional profile](https://www.linkedin.com/in/matt-elder-24b8b615a) | leadership | 4982 |
 | S-a7612fc1db | [www.linkedin.com: posts/chriselston_this is my yearly first robotics plug to activity 7302732445911527424 p7cI](https://www.linkedin.com/posts/chriselston_this-is-my-yearly-first-robotics-plug-to-activity-7302732445911527424-p7cI) | leadership | 1501 |
 | S-e8e6451dda | [Purdue Fort Wayne: North Side robotics team boosted by PFW presence](https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence) | leadership | 9119 |
