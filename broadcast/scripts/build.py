@@ -6,6 +6,7 @@ import json
 import re
 from datetime import date, timedelta
 from build_dnf import build_dnf
+from build_feeds import write_feeds
 from build_matches import build_matches
 from build_pages import write_pages
 from build_press import write_press
@@ -130,7 +131,7 @@ def build_standings(frc, editorial, logos, matches):
         "wins": sum(row["record"]["wins"] for row in rows),
         "updated": load(HERE / "data/tba/results-2026.json")["retrievedDate"],
         "resultsSource": "The Blue Alliance, captured Oct 22, 2026",
-        "ratingsSource": "Statbotics EPA, final 2026 values (June 12, 2026 snapshot)",
+        "ratingsSource": "Statbotics EPA, final 2026 values (June 12, 2026 snapshot), shown as a secondary model rating",
     }
     return rows, summary
 
@@ -143,25 +144,32 @@ def main():
     def logos(number, program="frc"):
         return {r["kind"]: r for r in logo_rows if r["number"] == number and r["program"] == program}
     selected = {r["team_number"]: r for r in editorial["top_10"]}
+    results = {r["teamNumber"]: r for r in load(HERE / "data/tba/results-2026.json")["teams"]}
+    # One ranking everywhere: official FIRST Indiana district points, as reported by The Blue Alliance.
+    # EPA stays on every team as a secondary model rating; it no longer decides the order.
     regional = sorted([r for r in frc["teams"] if r["scope_group"] == "northeast_indiana"],
-                      key=lambda r: (-r["rankings"]["epa_mean"], r["team_number"]))
-    if [r["team_number"] for r in regional[:10]] != [r["team_number"] for r in editorial["top_10"]]:
-        raise ValueError("Editorial Top 10 no longer matches frozen EPA ordering")
+                      key=lambda r: (results[r["team_number"]]["district"]["rank"] or 999, r["team_number"]))
+    counties = {8431: "Noble", 8432: "Noble", 10411: "Allen", **{r["team_number"]: r["county"] for r in editorial["top_10"]}}
     teams = []
     for rank, r in enumerate(regional[:10], 1):
         number = r["team_number"]
-        e, k, h, l = selected[number], r["rankings"], r["season_history"], r["leadership"]
-        spotlight = e["spotlight"]
+        k, h, l = r["rankings"], r["season_history"], r["leadership"]
+        t = results[number]
+        spotlight = selected[number]["spotlight"] if number in selected else None
+        rec = t["officialRecord"]
         points = [
-            f"No. {rank} in this regional list; {r['school_or_organization']} in {r['city']}.",
-            f"2026 Statbotics EPA {k['epa_mean']:.2f}; Indiana rank {k['state_rank']} of {k['state_team_count']}. Snapshot June 12, 2026.",
+            f"No. {rank} among Northeast Indiana teams; {r['school_or_organization']} in {r['city']}.",
+            f"{t['district']['points']} FIRST Indiana district points; #{t['district']['rank']} of {t['district']['teamCount']} in Indiana. 2026 record {rec['wins']}-{rec['losses']}-{rec['ties']} (The Blue Alliance).",
             f"{h['recorded_season_count']} recorded FIRST season entries through 2026; official rookie year {h['official_rookie_year']}.",
-            f"{spotlight['name']} — {spotlight['role']}. {spotlight['qualification']}",
         ]
+        if spotlight:
+            points.append(f"{spotlight['name']} — {spotlight['role']}. {spotlight['qualification']}")
         teams.append({
             "rank": rank, "number": number, "name": r["team_name"],
             "logos": logos(number),
-            "school": r["school_or_organization"], "city": r["city"], "county": e["county"],
+            "school": r["school_or_organization"], "city": r["city"], "county": counties[number],
+            "districtPoints": t["district"]["points"], "districtRank": t["district"]["rank"], "districtCount": t["district"]["teamCount"],
+            "record": rec,
             "epa": k["epa_mean"], "epaStandardDeviation": k["epa_standard_deviation"],
             "stateRank": k["state_rank"], "stateCount": k["state_team_count"],
             "worldRank": k["world_rank"], "worldCount": k["world_team_count"],
@@ -206,7 +214,7 @@ def main():
                  "attribution": "Career-focused campaign message from FIRST Global", "attributionUrl": "https://first.global/sport/",
                  "image": "assets/refinery-shop.jpeg", "logo": "assets/refinery-logo.svg"},
         "edition": {"season": 2026, "label": "2026 FRC", "researchDate": "2026-10-22", "rankingsDate": "2026-06-12",
-                    "note": "2027 preseason baseline: a rewind of 2026 FRC performance, independently ordered by Statbotics EPA. Frozen June 12, 2026 values; research preserved October 22. This is not a voted poll or a live scoreboard."},
+                    "note": "The 2026 Top 10 is ordered by official FIRST Indiana district points, as reported by The Blue Alliance. Statbotics EPA appears alongside as a model rating; it does not set the order."},
         "scope": {"label": "The REFINERY region · 12 counties", "counties": editorial["counties"],
                   "cohortCount": len(regional), "note": editorial["scope_recommendation"]},
         "formatExplainer": {"headline": "Two formats. The same team spirit.",
@@ -220,7 +228,7 @@ def main():
                 "teams": features, "newTeams": [{"number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"], "note": r["notes"], "logos": logos(r["team_number"], "ftc"), "teamLinks": ftc_links.get(r["team_number"], [])} for r in ftc["current_season_only_teams"]]},
         "links": {"refinery": "https://refineryrobotics.org/", "about": "https://refineryrobotics.org/about/", "involved": "https://refineryrobotics.org/get-involved/", "repo": "https://github.com/horner/refintery-rankings", "pressKit": "press/"},
         "producerNotes": ["Use the documented title and evidence date; do not announce an unconfirmed current captain or head coach.",
-                          "The first two EPA values differ by 0.19 points, much less than their model uncertainty. A numbered ordering is not evidence of a meaningful performance gap.",
+                          "The Top 10 follows official district points. EPA values are a model estimate; the first two differ by 0.19 points, much less than their uncertainty.",
                           "Recorded season entries can include registrations without matches. They are not a count of winning seasons.",
                           "No movement arrows or voting totals are shown because only one frozen ranking snapshot supports this edition."],
     }
@@ -235,15 +243,16 @@ def main():
     dnf = build_dnf()
     (HERE / "dist/dnf.json").write_text(json.dumps(dnf, ensure_ascii=False, separators=(",", ":")) + "\n")
     write_press(result, len(dnf["schools"]))
+    write_feeds(result)
     write_pages(result, dnf)
     press = ["# The REFINERY — NEI Robotics Top 10", "", "## Segment concept", "",
-             "Bring the energy of a college football rankings reveal to local student robotics: reveal the regional FRC Top 10, select a team, and introduce the students and adults behind the robot. FTC appears in its own feature segment.", "",
+             "Bring the energy of a college football rankings reveal to local student robotics: reveal the regional FRC Top 10 by official district points, select a team, and introduce the students and adults behind the robot. FTC appears in its own feature segment.", "",
              "Hero line: **The only sport where everyone can go pro.** The career-focused campaign phrase is attributed to [FIRST Global](https://first.global/sport/). Engineering, software, manufacturing, design, and business skills give the line its meaning.", "",
-             "## Graphics", "", "- [Regional FRC Top 10](exports/nei-top10-2026.png) — 1920 × 1080 PNG", "- [North Side team spotlight](exports/team-spotlight-9119.png) — 1920 × 1080 PNG", "- [Separate FTC features](exports/ftc-features.png) — 1920 × 1080 PNG", "", "Use the interactive screen to select another team and export its graphic. Presenter notes are excluded from exports.", "",
-             "## Suggested opening", "", '“You know the football rankings. Here is another local team sport to follow: robotics. These students build the machine, write its code, scout the opposition, and work with other schools on the field. Our regional FRC Top 10 uses a dated Statbotics performance snapshot. Behind every number is a team and a story.”', "",
+             "## Graphics", "", "Open the [Top 10 display](top10.html) and use Save PNG for a current 1920 × 1080 graphic of any team. Live overlays and data feeds for graphics operators are listed at [feeds/](feeds/).", "",
+             "## Suggested opening", "", '“You know the football rankings. Here is another local team sport to follow: robotics. These students build the machine, write its code, scout the opposition, and work with other schools on the field. Our regional FRC Top 10 follows the official Indiana district points. Behind every number is a team and a story.”', "",
              "## Explain the divisions", "", result["formatExplainer"]["analogy"], "", result["formatExplainer"]["ftc"], "", result["formatExplainer"]["frc"], "", result["formatExplainer"]["note"], "",
-             "## Ranking and source line", "", "**2026 FRC · Statbotics EPA · Snapshot June 12, 2026.** Local ranks are computed within the 13 teams in The REFINERY's 12-county region found in the official FIRST Indiana district roster. Hometowns establish the county reference; workshops and student residences were not surveyed. The list is independent of FIRST and is not a voted poll or a live October scoreboard.", "",
-             "EPA is modeled scoring contribution, not a record of wins or an educational-quality score. The top two values are almost tied relative to their uncertainty. FTC OPR is separate. Retain dates on broadcast graphics and identify historical or undated leadership evidence accurately.", "",
+             "## Ranking and source line", "", "**2026 FRC · FIRST Indiana district points via The Blue Alliance.** Local ranks are computed within the 13 teams in The REFINERY's 12-county region found in the official FIRST Indiana district roster. Hometowns establish the county reference; workshops and student residences were not surveyed. The list is not a voted poll.", "",
+             "Statbotics EPA appears as a secondary model rating (June 12, 2026 snapshot). It is a modeled scoring contribution, not a record of wins, and is least reliable early in a season. FTC OPR is separate. Identify historical or undated leadership evidence accurately.", "",
              "## Coming up: the 2026–27 coverage plan", ""]
     preview = result["seasonPreview"]
     press.extend([preview["intro"], "", "Confirmed events retain organizer dates. Show dates and local build/practice windows are planning targets; times and watch links are still to come.", "", "| Date / window | Program | Teaser | Status | Details |", "|---|---|---|---|---|"])
@@ -258,7 +267,7 @@ def main():
     match_lookup = {(r["program"], r["number"]): r for r in result["matchHighlights"]["teams"]}
     for t in teams:
         press.extend([f"### {t['rank']}. {t['name']} · FRC {t['number']}", "", f"{t['school']} · {t['city']}, {t['county']} County", "",
-                      f"EPA {t['epa']:.2f}; Indiana {t['stateRank']}/{t['stateCount']}; world {t['worldRank']}/{t['worldCount']}.", "", *["- " + s for s in t["talkingPoints"]], ""])
+                      f"{t['districtPoints']} district points; Indiana district rank {t['districtRank']}/{t['districtCount']}. Statbotics EPA {t['epa']:.2f}.", "", *["- " + s for s in t["talkingPoints"]], ""])
         for category in ("students", "adults", "representatives"):
             for p in t[category]:
                 press.append(f"- {p['name']} — {p['role']}. Evidence: {p['date'] or 'undated'}; {p['status']}. {p['note']} Sources: " + " ".join(p["sourceUrls"]))

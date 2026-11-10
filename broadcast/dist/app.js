@@ -366,13 +366,18 @@
   const countUp = (el) => {
     const target = Number(el.dataset.count);
     if (calm || !Number.isFinite(target) || !('IntersectionObserver' in window)) { el.textContent = num(target); return; }
-    el.textContent = '0';
+    // The real number stays in the page until the count actually starts, so screenshots, background
+    // tabs and browser-source captures never show a row of zeros. A timer guarantees the final value
+    // even when the browser pauses animation frames.
+    el.textContent = num(target);
     new IntersectionObserver(([entry], observer) => {
       if (!entry.isIntersecting) return;
       observer.disconnect();
+      if (document.hidden) return;
       const start = performance.now(), duration = 1100;
       const tick = (now) => { const p = Math.min(1, (now - start) / duration); el.textContent = num(Math.round(target * (1 - Math.pow(1 - p, 3)))); if (p < 1) requestAnimationFrame(tick); };
       requestAnimationFrame(tick);
+      setTimeout(() => { el.textContent = num(target); }, duration + 200);
     }).observe(el);
   };
   const heroBg = document.querySelector('.hero-bg');

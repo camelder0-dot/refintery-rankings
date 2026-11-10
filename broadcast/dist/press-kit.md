@@ -2,21 +2,17 @@
 
 ## Segment concept
 
-Bring the energy of a college football rankings reveal to local student robotics: reveal the regional FRC Top 10, select a team, and introduce the students and adults behind the robot. FTC appears in its own feature segment.
+Bring the energy of a college football rankings reveal to local student robotics: reveal the regional FRC Top 10 by official district points, select a team, and introduce the students and adults behind the robot. FTC appears in its own feature segment.
 
 Hero line: **The only sport where everyone can go pro.** The career-focused campaign phrase is attributed to [FIRST Global](https://first.global/sport/). Engineering, software, manufacturing, design, and business skills give the line its meaning.
 
 ## Graphics
 
-- [Regional FRC Top 10](exports/nei-top10-2026.png) — 1920 × 1080 PNG
-- [North Side team spotlight](exports/team-spotlight-9119.png) — 1920 × 1080 PNG
-- [Separate FTC features](exports/ftc-features.png) — 1920 × 1080 PNG
-
-Use the interactive screen to select another team and export its graphic. Presenter notes are excluded from exports.
+Open the [Top 10 display](top10.html) and use Save PNG for a current 1920 × 1080 graphic of any team. Live overlays and data feeds for graphics operators are listed at [feeds/](feeds/).
 
 ## Suggested opening
 
-“You know the football rankings. Here is another local team sport to follow: robotics. These students build the machine, write its code, scout the opposition, and work with other schools on the field. Our regional FRC Top 10 uses a dated Statbotics performance snapshot. Behind every number is a team and a story.”
+“You know the football rankings. Here is another local team sport to follow: robotics. These students build the machine, write its code, scout the opposition, and work with other schools on the field. Our regional FRC Top 10 follows the official Indiana district points. Behind every number is a team and a story.”
 
 ## Explain the divisions
 
@@ -30,9 +26,9 @@ A large school can compete in FTC, a small school can compete in FRC, and a scho
 
 ## Ranking and source line
 
-**2026 FRC · Statbotics EPA · Snapshot June 12, 2026.** Local ranks are computed within the 13 teams in The REFINERY's 12-county region found in the official FIRST Indiana district roster. Hometowns establish the county reference; workshops and student residences were not surveyed. The list is independent of FIRST and is not a voted poll or a live October scoreboard.
+**2026 FRC · FIRST Indiana district points via The Blue Alliance.** Local ranks are computed within the 13 teams in The REFINERY's 12-county region found in the official FIRST Indiana district roster. Hometowns establish the county reference; workshops and student residences were not surveyed. The list is not a voted poll.
 
-EPA is modeled scoring contribution, not a record of wins or an educational-quality score. The top two values are almost tied relative to their uncertainty. FTC OPR is separate. Retain dates on broadcast graphics and identify historical or undated leadership evidence accurately.
+Statbotics EPA appears as a secondary model rating (June 12, 2026 snapshot). It is a modeled scoring contribution, not a record of wins, and is least reliable early in a season. FTC OPR is separate. Identify historical or undated leadership evidence accurately.
 
 ## Coming up: the 2026–27 coverage plan
 
@@ -104,10 +100,10 @@ Final scores belong to alliances and include penalties. Partners and opponents c
 
 Huntington North High School / Huntington County 4-H · Huntington, Huntington County
 
-EPA 118.71; Indiana 12/68; world 438/3724.
+250 district points; Indiana district rank 6/68. Statbotics EPA 118.71.
 
-- No. 1 in this regional list; Huntington North High School / Huntington County 4-H in Huntington.
-- 2026 Statbotics EPA 118.71; Indiana rank 12 of 68. Snapshot June 12, 2026.
+- No. 1 among Northeast Indiana teams; Huntington North High School / Huntington County 4-H in Huntington.
+- 250 FIRST Indiana district points; #6 of 68 in Indiana. 2026 record 45-15-0 (The Blue Alliance).
 - 22 recorded FIRST season entries through 2026; official rookie year 2005.
 - Chris Elston — Lead Engineering Mentor. Self-reported, undated professional profile; current appointment not confirmed.
 
@@ -121,10 +117,10 @@ Evidence gaps: Student team captain not verified. Current formally designated he
 
 East Central Indiana Robotics (community team) · Matthews, Grant County
 
-EPA 118.52; Indiana 13/68; world 440/3724.
+189 district points; Indiana district rank 11/68. Statbotics EPA 118.52.
 
-- No. 2 in this regional list; East Central Indiana Robotics (community team) in Matthews.
-- 2026 Statbotics EPA 118.52; Indiana rank 13 of 68. Snapshot June 12, 2026.
+- No. 2 among Northeast Indiana teams; East Central Indiana Robotics (community team) in Matthews.
+- 189 FIRST Indiana district points; #11 of 68 in Indiana. 2026 record 31-24-0 (The Blue Alliance).
 - 21 recorded FIRST season entries through 2026; official rookie year 2006.
 - Shawn VanNess — Team president. Official team season report, May 15, 2026.
 
@@ -135,54 +131,14 @@ Evidence gaps: Student team captain not verified. A separately designated head c
 
 - Closest finish: FIN District Columbus Event, Qualification 24. Red 108–Blue 105 (3-point margin); 1720 on Red, win. [Watch replay](https://www.youtube.com/watch?v=olAjzlBnZuU) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/24).
 
-### 3. Iron Legends · FRC 9119
-
-North Side High School · Fort Wayne, Allen County
-
-EPA 75.10; Indiana 22/68; world 868/3724.
-
-- No. 3 in this regional list; North Side High School in Fort Wayne.
-- 2026 Statbotics EPA 75.10; Indiana rank 22 of 68. Snapshot June 12, 2026.
-- 4 recorded FIRST season entries through 2026; official rookie year 2023.
-- Zen Gunawardhana — Student team representative. FWCS board presentation, February 9, 2026; representative, not a verified captain.
-
-- Dennis Fisher — Coach and North Side teacher. Evidence: 2025-01-23; verified historical. FWCS board minutes dated March 13, 2023 explicitly identify Fisher as coach of the Iron Legends. Purdue Fort Wayne reporting on January 23, 2025 corroborates his teaching and team-guidance role. A 2026-27 appointment was not verified. Sources: https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence https://resources.finalsite.net/images/v1685982230/fwcsk12inus/us2rusjsudqci2p1ltxv/03132023.pdf
-- Drew Clem — College mentor. Evidence: 2025-01-23; verified historical. Purdue Fort Wayne identifies Clem as an electrical engineering senior assisting the school robotics team. The role is mentor; he is not identified as lead coach or a high-school student captain. Sources: https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence
-- Zen Gunawardhana — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
-
-Evidence gaps: Current adult lead appointment not confirmed beyond the January 2025 reporting. Student team captain not verified; the February 2026 presentation identifies a representative.
-
-- Closest finish: FIN District Columbus Event, Match 10 (R3). Red 127–Blue 124 (3-point margin); 9119 on Red, win. [Watch replay](https://www.youtube.com/watch?v=BEO5rK8CBAs) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/playoffs/10).
-
-### 4. The Gold Standard · FRC 9431
-
-R. Nelson Snider High School · Fort Wayne, Allen County
-
-EPA 68.51; Indiana 24/68; world 984/3724.
-
-- No. 4 in this regional list; R. Nelson Snider High School in Fort Wayne.
-- 2026 Statbotics EPA 68.51; Indiana rank 24 of 68. Snapshot June 12, 2026.
-- 3 recorded FIRST season entries through 2026; official rookie year 2024.
-- Nick Sims — Recent team captain and driver. Retrospective PBS Fort Wayne interview aired October 2, 2026; current appointment not confirmed.
-
-- Nick Sims — Team captain and driver, described retrospectively in interview. Evidence: 2026-10-02; verified dated retrospective. In PBS Fort Wayne The 260, Sims identifies his team-captain role and separately describes driving. The interview is retrospective and mentions college plans. The broadcast date does not verify a current 2026-27 captain appointment or define an exact term. Sources: https://video.wfwa.org/video/science-centrals-new-planetarium-snider-robotics-and-arena-dinner-theatre-4j2kgy/
-- John Todor — Founding-period coach; publicly identified coach/director. Evidence: undated; qualified indexed. The REFINERY biography of Connor Rey identifies Mr. Todor as his coach during the founding period beginning in 2023. An indexed public event-host caption supplies John Todor and the coach/director title; its date and post permalink were not retrieved. Team-account references to Todor corroborate the connection, but a current 2026-27 appointment is not established. Sources: https://refineryrobotics.org/about/ https://www.instagram.com/walnuthillcatering/ https://www.instagram.com/snider_robotics9431/
-- Doug Horner — Sponsor and adult team spokesperson. Evidence: 2024-04-12; verified historical. The 21Alive page displays publication on April 12, 2024 at 11:38 PM EDT, although its URL uses April 13. It describes his work with the club and quotes him about the program; The REFINERY biography corroborates rookie-year sponsorship. No formal head-coach appointment is asserted. Sources: https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/ https://refineryrobotics.org/about/
-- Nick Sims — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
-- Connor Rey — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
-
-Evidence gaps: Current 2026-27 student captain not verified; Nick Sims is a documented recent captain. John Todor identification combines an undated primary partner biography with indexed public social content. A current formally designated adult lead was not independently confirmed.
-
-- Closest finish: FIN District Columbus Event, Qualification 24. Red 108–Blue 105 (3-point margin); 9431 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=olAjzlBnZuU) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/24).
-
-### 5. Olympus Robotics · FRC 4982
+### 3. Olympus Robotics · FRC 4982
 
 Homestead High School · Fort Wayne, Allen County
 
-EPA 58.80; Indiana 27/68; world 1147/3724.
+136 district points; Indiana district rank 21/68. Statbotics EPA 58.80.
 
-- No. 5 in this regional list; Homestead High School in Fort Wayne.
-- 2026 Statbotics EPA 58.80; Indiana rank 27 of 68. Snapshot June 12, 2026.
+- No. 3 among Northeast Indiana teams; Homestead High School in Fort Wayne.
+- 136 FIRST Indiana district points; #21 of 68 in Indiana. 2026 record 24-25-0 (The Blue Alliance).
 - 13 recorded FIRST season entries through 2026; official rookie year 2014.
 - Caleb Neely — Co-Business Manager and Outreach Director. Partner biography explicitly associates these roles with 2026; page undated.
 
@@ -196,14 +152,14 @@ Evidence gaps: Captain and assistant-captain surnames and individual title assig
 
 - Closest finish: FIN District Lafayette Event, Match 8 (R2). Red 283–Blue 281 (2-point margin); 4982 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=awgnviexCt0) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/playoffs/8).
 
-### 6. CyBears · FRC 10434
+### 4. CyBears · FRC 10434
 
 Northrop High School · Fort Wayne, Allen County
 
-EPA 35.84; Indiana 43/68; world 1931/3724.
+97 district points; Indiana district rank 28/68. Statbotics EPA 35.84.
 
-- No. 6 in this regional list; Northrop High School in Fort Wayne.
-- 2026 Statbotics EPA 35.84; Indiana rank 43 of 68. Snapshot June 12, 2026.
+- No. 4 among Northeast Indiana teams; Northrop High School in Fort Wayne.
+- 97 FIRST Indiana district points; #28 of 68 in Indiana. 2026 record 21-27-0 (The Blue Alliance).
 - 2 recorded FIRST season entries through 2026; official rookie year 2025.
 - Alfy Krider — Student team representative. FWCS board presentation, February 9, 2026; Northrop senior in March 2026 reporting; current student status not confirmed.
 
@@ -214,34 +170,54 @@ Evidence gaps: Coach Jacobs has only a partial public name and unverified curren
 
 - Closest finish: FIN District Mishawaka Event, Match 11 (R4). Red 218–Blue 221 (3-point margin); 10434 on Red, loss. [Watch replay](https://www.youtube.com/watch?v=VGFBklDAzrE) · [Official result](https://frc-events.firstinspires.org/2026/INMIS/playoffs/11).
 
-### 7. Knight Robotics · FRC 8103
+### 5. Iron Legends · FRC 9119
 
-East Noble High School · Kendallville, Noble County
+North Side High School · Fort Wayne, Allen County
 
-EPA 35.10; Indiana 45/68; world 1975/3724.
+89 district points; Indiana district rank 32/68. Statbotics EPA 75.10.
 
-- No. 7 in this regional list; East Noble High School in Kendallville.
-- 2026 Statbotics EPA 35.10; Indiana rank 45 of 68. Snapshot June 12, 2026.
-- 7 recorded FIRST season entries through 2026; official rookie year 2020.
-- Shawn Kimmel and Jo Smith — Coaches. KPC report, available republication May 11, 2024; current appointments not confirmed.
+- No. 5 among Northeast Indiana teams; North Side High School in Fort Wayne.
+- 89 FIRST Indiana district points; #32 of 68 in Indiana. 2026 record 21-21-0 (The Blue Alliance).
+- 4 recorded FIRST season entries through 2026; official rookie year 2023.
+- Zen Gunawardhana — Student team representative. FWCS board presentation, February 9, 2026; representative, not a verified captain.
 
-- Shawn Kimmel — Coach; engineering and physics teacher. Evidence: 2024-05-11; verified historical. KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html https://www.trine.edu/news/2019/east-noble-robotics.aspx
-- Jo Smith — Coach. Evidence: 2024-05-11; verified historical. Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
-- Collin Haynes — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
-- Tucker Martin — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
+- Dennis Fisher — Coach and North Side teacher. Evidence: 2025-01-23; verified historical. FWCS board minutes dated March 13, 2023 explicitly identify Fisher as coach of the Iron Legends. Purdue Fort Wayne reporting on January 23, 2025 corroborates his teaching and team-guidance role. A 2026-27 appointment was not verified. Sources: https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence https://resources.finalsite.net/images/v1685982230/fwcsk12inus/us2rusjsudqci2p1ltxv/03132023.pdf
+- Drew Clem — College mentor. Evidence: 2025-01-23; verified historical. Purdue Fort Wayne identifies Clem as an electrical engineering senior assisting the school robotics team. The role is mentor; he is not identified as lead coach or a high-school student captain. Sources: https://www.pfw.edu/news-center/north-side-robotics-team-boosted-pfw-presence
+- Zen Gunawardhana — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
 
-Evidence gaps: Current 2026-27 coaching assignments not confirmed by the historical article. Student team captain not verified. Team 8103 leadership evidence does not establish individual coaching assignments for teams 8431 or 8432.
+Evidence gaps: Current adult lead appointment not confirmed beyond the January 2025 reporting. Student team captain not verified; the February 2026 presentation identifies a representative.
 
-- Closest finish: FIN District Columbus Event, Qualification 17. Red 33–Blue 43 (10-point margin); 8103 on Red, loss. [Watch replay](https://www.youtube.com/watch?v=R6FT3SunVq4) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/17).
+- Closest finish: FIN District Columbus Event, Match 10 (R3). Red 127–Blue 124 (3-point margin); 9119 on Red, win. [Watch replay](https://www.youtube.com/watch?v=BEO5rK8CBAs) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/playoffs/10).
 
-### 8. Carroll Charger Robotics · FRC 10332
+### 6. The Gold Standard · FRC 9431
+
+R. Nelson Snider High School · Fort Wayne, Allen County
+
+84 district points; Indiana district rank 33/68. Statbotics EPA 68.51.
+
+- No. 6 among Northeast Indiana teams; R. Nelson Snider High School in Fort Wayne.
+- 84 FIRST Indiana district points; #33 of 68 in Indiana. 2026 record 21-20-0 (The Blue Alliance).
+- 3 recorded FIRST season entries through 2026; official rookie year 2024.
+- Nick Sims — Recent team captain and driver. Retrospective PBS Fort Wayne interview aired October 2, 2026; current appointment not confirmed.
+
+- Nick Sims — Team captain and driver, described retrospectively in interview. Evidence: 2026-10-02; verified dated retrospective. In PBS Fort Wayne The 260, Sims identifies his team-captain role and separately describes driving. The interview is retrospective and mentions college plans. The broadcast date does not verify a current 2026-27 captain appointment or define an exact term. Sources: https://video.wfwa.org/video/science-centrals-new-planetarium-snider-robotics-and-arena-dinner-theatre-4j2kgy/
+- John Todor — Founding-period coach; publicly identified coach/director. Evidence: undated; qualified indexed. The REFINERY biography of Connor Rey identifies Mr. Todor as his coach during the founding period beginning in 2023. An indexed public event-host caption supplies John Todor and the coach/director title; its date and post permalink were not retrieved. Team-account references to Todor corroborate the connection, but a current 2026-27 appointment is not established. Sources: https://refineryrobotics.org/about/ https://www.instagram.com/walnuthillcatering/ https://www.instagram.com/snider_robotics9431/
+- Doug Horner — Sponsor and adult team spokesperson. Evidence: 2024-04-12; verified historical. The 21Alive page displays publication on April 12, 2024 at 11:38 PM EDT, although its URL uses April 13. It describes his work with the club and quotes him about the program; The REFINERY biography corroborates rookie-year sponsorship. No formal head-coach appointment is asserted. Sources: https://www.21alivenews.com/2024/04/13/snider-robotics-club-prepares-compete-world-championship/ https://refineryrobotics.org/about/
+- Nick Sims — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
+- Connor Rey — Student team representative at FWCS board presentation. Evidence: 2026-02-09; verified dated. The district presentation identifies a team representative; it does not identify a captain. Sources: https://resources.finalsite.net/images/v1770749036/fwcsk12inus/v2dggvv52hkh9sfiqsme/2-9-26Presentation_Roboticshighschool.pdf
+
+Evidence gaps: Current 2026-27 student captain not verified; Nick Sims is a documented recent captain. John Todor identification combines an undated primary partner biography with indexed public social content. A current formally designated adult lead was not independently confirmed.
+
+- Closest finish: FIN District Columbus Event, Qualification 24. Red 108–Blue 105 (3-point margin); 9431 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=olAjzlBnZuU) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/24).
+
+### 7. Carroll Charger Robotics · FRC 10332
 
 Carroll High School · Fort Wayne, Allen County
 
-EPA 34.76; Indiana 46/68; world 1990/3724.
+35 district points; Indiana district rank 49/68. Statbotics EPA 34.76.
 
-- No. 8 in this regional list; Carroll High School in Fort Wayne.
-- 2026 Statbotics EPA 34.76; Indiana rank 46 of 68. Snapshot June 12, 2026.
+- No. 7 among Northeast Indiana teams; Carroll High School in Fort Wayne.
+- 35 FIRST Indiana district points; #49 of 68 in Indiana. 2026 record 9-17-0 (The Blue Alliance).
 - 2 recorded FIRST season entries through 2026; official rookie year 2025.
 - Nieng Mang — 2025–26 team captain. School newspaper contributor biography attached to January 27, 2026 article; biography may be updated dynamically; current appointment not confirmed.
 
@@ -254,32 +230,14 @@ Evidence gaps: Current head coach not verified. Student captain for 2026-27 not 
 
 - Closest finish: FIN District Lafayette Event, Match 5 (R2). Red 144–Blue 143 (1-point margin); 10332 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=1yljTlNXDUM) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/playoffs/5).
 
-### 9. Argyll Attack · FRC 8742
-
-Madison-Grant Jr./Sr. High School · Fairmount, Grant County
-
-EPA 29.46; Indiana 48/68; world 2279/3724.
-
-- No. 9 in this regional list; Madison-Grant Jr./Sr. High School in Fairmount.
-- 2026 Statbotics EPA 29.46; Indiana rank 48 of 68. Snapshot June 12, 2026.
-- 5 recorded FIRST season entries through 2026; official rookie year 2022.
-- Eric Cale — Robotics and chemistry teacher; team spokesperson. School-authored podcast dated April 7, 2026; formal head-coach appointment not established.
-
-- Eric Cale — Robotics and chemistry teacher; team spokesperson. Evidence: 2026-04-07; verified dated. School-authored podcast features Cale discussing his robotics team. The documented teacher and spokesperson roles do not establish a formal head-coach appointment. Sources: https://podcasts.apple.com/ma/podcast/eric-cale-and-robotics/id1773140582?i=1000760060708
-- Ava Stanley — Team spokesperson at Fairmount Town Council. Evidence: 2025-09-08; verified role status unknown. Official minutes identify the team spokesperson. The evidence date is the meeting date; upload timing is different. Student/adult status and captain status are not established. Sources: https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf
-
-Evidence gaps: Student team captain not verified. Ava Stanley cannot be classified as a student or adult from the cited evidence. A formal head-coach title for Eric Cale was not established.
-
-- Closest finish: FIN District Washington Event presented by Toyota IN & VU CARA, Qualification 11. Red 136–Blue 140 (4-point margin); 8742 on Blue, win. [Watch replay](https://www.youtube.com/watch?v=LQt0EpMBBN8) · [Official result](https://frc-events.firstinspires.org/2026/INWAS/qualifications/11).
-
-### 10. Apex Archers · FRC 10172
+### 8. Apex Archers · FRC 10172
 
 South Side High School · Fort Wayne, Allen County
 
-EPA 21.15; Indiana 55/68; world 2889/3724.
+28 district points; Indiana district rank 55/68. Statbotics EPA 21.15.
 
-- No. 10 in this regional list; South Side High School in Fort Wayne.
-- 2026 Statbotics EPA 21.15; Indiana rank 55 of 68. Snapshot June 12, 2026.
+- No. 8 among Northeast Indiana teams; South Side High School in Fort Wayne.
+- 28 FIRST Indiana district points; #55 of 68 in Indiana. 2026 record 7-17-0 (The Blue Alliance).
 - 2 recorded FIRST season entries through 2026; official rookie year 2025.
 - David Haruna — Student team representative. FWCS board presentation, February 9, 2026; representative, not a verified captain.
 
@@ -288,6 +246,41 @@ EPA 21.15; Indiana 55/68; world 2889/3724.
 Evidence gaps: Adult coach or designated adult team spokesperson not verified. Student team captain not verified; the February 2026 presentation identifies a representative.
 
 - Closest finish: FIN District Lafayette Event, Qualification 27. Red 108–Blue 102 (6-point margin); 10172 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=-vx3sFyHz3Y) · [Official result](https://frc-events.firstinspires.org/2026/INLAF/qualifications/27).
+
+### 9. Knight Robotics · FRC 8103
+
+East Noble High School · Kendallville, Noble County
+
+23 district points; Indiana district rank 57/68. Statbotics EPA 35.10.
+
+- No. 9 among Northeast Indiana teams; East Noble High School in Kendallville.
+- 23 FIRST Indiana district points; #57 of 68 in Indiana. 2026 record 10-17-0 (The Blue Alliance).
+- 7 recorded FIRST season entries through 2026; official rookie year 2020.
+- Shawn Kimmel and Jo Smith — Coaches. KPC report, available republication May 11, 2024; current appointments not confirmed.
+
+- Shawn Kimmel — Coach; engineering and physics teacher. Evidence: 2024-05-11; verified historical. KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html https://www.trine.edu/news/2019/east-noble-robotics.aspx
+- Jo Smith — Coach. Evidence: 2024-05-11; verified historical. Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
+- Collin Haynes — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
+- Tucker Martin — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
+
+Evidence gaps: Current 2026-27 coaching assignments not confirmed by the historical article. Student team captain not verified. Team 8103 leadership evidence does not establish individual coaching assignments for teams 8431 or 8432.
+
+- Closest finish: FIN District Columbus Event, Qualification 17. Red 33–Blue 43 (10-point margin); 8103 on Red, loss. [Watch replay](https://www.youtube.com/watch?v=R6FT3SunVq4) · [Official result](https://frc-events.firstinspires.org/2026/INCOL/qualifications/17).
+
+### 10. Robo-Knights · FRC 8431
+
+East Noble High School · Kendallville, Noble County
+
+20 district points; Indiana district rank 60/68. Statbotics EPA 17.19.
+
+- No. 10 among Northeast Indiana teams; East Noble High School in Kendallville.
+- 20 FIRST Indiana district points; #60 of 68 in Indiana. 2026 record 9-15-0 (The Blue Alliance).
+- 2 recorded FIRST season entries through 2026; official rookie year 2020.
+
+
+Evidence gaps: Individual adult coach or adult team spokesperson not verified. Student team captain not verified. The shared East Noble school program does not establish that the documented Team 8103 coaches also coach Team 8431.
+
+- Closest finish: FIN District Mishawaka Event, Qualification 71. Red 66–Blue 64 (2-point margin); 8431 on Blue, loss. [Watch replay](https://www.youtube.com/watch?v=rO4LP-jcGqk) · [Official result](https://frc-events.firstinspires.org/2026/INMIS/qualifications/71).
 
 ## FTC feature ideas
 

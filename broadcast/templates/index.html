@@ -20,7 +20,7 @@
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css?v=20261023-integrated-2">
-  <script src="app.js?v=20261023-integrated-2" defer></script>
+  <script src="app.js?v=20261110-district" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#standings">Skip to standings</a>
@@ -75,15 +75,15 @@
           </div>
           <div class="segmented" role="group" aria-label="Sort teams by">
             <button type="button" data-sort="district" aria-pressed="true">District standings</button>
-            <button type="button" data-sort="power" aria-pressed="false">Power ranking</button>
+            <button type="button" data-sort="power" aria-pressed="false">Sort by EPA</button>
           </div>
         </div>
-        <p class="source-note"><a class="text-link" href="top10.html">Open the 2026 EPA Top 10 display</a> for a full-screen ranking, team spotlights, replay previews, and downloadable graphics.</p>
+        <p class="source-note"><a class="text-link" href="top10.html">Open the Top 10 display</a>: the same district-points order on one big screen, with team spotlights and replay previews.</p>
         <details class="explainer">
           <summary>How are teams ranked?</summary>
           <div class="explainer-body">
             <p><strong>District standings</strong> are the official order: teams earn FIRST Indiana district points for qualification wins, being picked for playoffs, playoff runs and awards. Points decide who advances to the state championship.</p>
-            <p><strong>Power ranking</strong> sorts teams by their final 2026 <a href="https://www.statbotics.io/" target="_blank" rel="noopener">Statbotics</a> EPA (Expected Points Added): an estimate of how many points a robot adds to its alliance each match. Think of it like points per game.</p>
+            <p><strong>Sort by EPA</strong> reorders the list by their final 2026 <a href="https://www.statbotics.io/" target="_blank" rel="noopener">Statbotics</a> EPA (Expected Points Added): an estimate of how many points a robot adds to its alliance each match. Think of it like points per game. It is a model, so it can miss early in a season; the official order is always district points.</p>
             <p>Win-loss records count official matches only (district events, state and world championship). Matches are played in three-team alliances whose partners change every match, so a record reflects the team and its partners.</p>
           </div>
         </details>
@@ -231,6 +231,7 @@
           <a class="media-card" href="press/"><strong>Press kit</strong><span>Story ideas, key dates, team-by-team facts and who to call.</span></a>
           <a class="media-card" href="press/standings.html"><strong>Standings</strong><span>Printable 2026 standings, plus a <span class="nowrap">one-click CSV</span>.</span></a>
           <a class="media-card" href="press/media.html"><strong>Logos &amp; photos</strong><span>Download team marks and photos with credits.</span></a>
+          <a class="media-card" href="feeds/"><strong>Graphics feeds</strong><span>Live JSON/CSV feeds and 1920×1080 overlays for OBS, vMix and studio graphics.</span></a>
           <a class="media-card" href="mailto:celder@bionanomics.com?subject=Media%20request%3A%20Northeast%20Indiana%20robotics"><strong>Media contact</strong><span>celder@bionanomics.com · interviews, photos, team introductions</span></a>
         </div>
         <div class="faq media-faq">

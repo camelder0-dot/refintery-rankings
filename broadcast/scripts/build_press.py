@@ -60,6 +60,7 @@ def page(title, body, description):
   <meta name="description" content="{e(description)}">
   <link rel="icon" href="../assets/refinery-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="press.css">
+  <script src="../upcoming.js" defer></script>
 </head>
 <body>
   <header class="bar"><a href="../"><img src="../assets/refinery-logo-reversed.svg" alt="The REFINERY" width="124" height="32"></a>
@@ -114,12 +115,13 @@ def write_press(result, dnf_count):
     PRESS.mkdir(parents=True, exist_ok=True)
     teams = sorted(result["standings"], key=lambda t: t["standingsRank"])
     s, cal = result["seasonSummary"], result["calendar"]
-    upcoming = [x for x in cal["events"] if x["endDate"] >= cal["retrievedDate"]][:8]
+    # Everything not over at build time; upcoming.js hides events that end before the reader's date.
+    upcoming = [x for x in cal["events"] if x["endDate"] >= cal["retrievedDate"]]
 
     # Standings CSV
     buffer = io.StringIO()
     writer = csv.writer(buffer, lineterminator="\n")
-    writer.writerow(["district_standing", "power_ranking", "team_number", "team_name", "school_or_organization", "city", "county",
+    writer.writerow(["district_standing", "epa_rank", "team_number", "team_name", "school_or_organization", "city", "county",
                      "wins", "losses", "ties", "indiana_district_rank", "district_points", "epa_2026", "event_titles", "world_championship",
                      "awards", "website", "results_source", "ratings_source"])
     for t in teams:
@@ -144,7 +146,7 @@ def write_press(result, dnf_count):
     # Press kit
     stats = [(s["teams"], "FRC teams in the region"), (s["eventTitles"], "district event titles in 2026"), (len(s["worldsTeams"]), "World Championship teams"),
              (s["awards"], "judged awards"), (len(result["ftc"]["teams"]) + len(result["ftc"]["newTeams"]), "FTC teams to follow")]
-    dates = "".join(f"<li><strong>{date_range(x['startDate'], x['endDate'])}</strong> · {e(x['name'])} <span class='muted'>· {e(', '.join(v for v in (x['venue'], x['city']) if v))}</span></li>" for x in upcoming)
+    dates = "".join(f"<li data-end=\"{x['endDate']}\"><strong>{date_range(x['startDate'], x['endDate'])}</strong> · {e(x['name'])} <span class='muted'>· {e(', '.join(v for v in (x['venue'], x['city']) if v))}</span></li>" for x in upcoming)
     kit = f"""    <p class="kicker">Press kit · updated {nice_date(s['updated'])}</p>
     <h1>Northeast Indiana high school robotics</h1>
     <div class="contact"><strong>Media contact</strong><a href="mailto:{CONTACT}?subject=Media%20request%3A%20Northeast%20Indiana%20robotics">{CONTACT}</a><span>Interviews, photos, team introductions and event access.</span></div>
@@ -153,13 +155,13 @@ def write_press(result, dnf_count):
     <h2>Story ideas</h2>
     <ul class="stories">{storylines(result, dnf_count)}</ul>
     <h2>Coming up</h2>
-    <ul class="dates">{dates}</ul>
+    <ul class="dates" data-upcoming-limit="8">{dates}<li class="muted" data-upcoming-empty hidden>No events left on the calendar. Check back when the next season's dates post.</li></ul>
     <p><a href="../calendar.ics" download>Add every event to your calendar (.ics)</a> · <a href="../#schedule">Full calendar</a></p>
     <h2>Downloads</h2>
-    <ul class="downloads"><li><a href="standings.html">Printable standings</a> and <a href="../standings-2026.csv" download>standings CSV</a></li><li><a href="media.html">Team logos and photos</a> with credits</li><li><a href="../calendar.ics" download>Season calendar (.ics)</a></li><li>{link('https://github.com/horner/refintery-rankings', 'Full data, sources and methodology on GitHub')}</li></ul>
+    <ul class="downloads"><li><a href="standings.html">Printable standings</a> and <a href="../standings-2026.csv" download>standings CSV</a></li><li><a href="media.html">Team logos and photos</a> with credits</li><li><a href="../feeds/">Graphics feeds and overlays</a> (JSON, CSV, ticker text, 1920×1080 browser sources)</li><li><a href="../calendar.ics" download>Season calendar (.ics)</a></li><li>{link('https://github.com/horner/refintery-rankings', 'Full data, sources and methodology on GitHub')}</li></ul>
     <h2>How the sport works</h2>
     <p><strong>FRC</strong> (<i>FIRST</i> Robotics Competition) is for grades 9–12 and uses industrial-size robots; <strong>FTC</strong> (<i>FIRST</i> Tech Challenge) is for grades 7–12 with smaller robots. Matches pit a red alliance against a blue alliance, three FRC teams per side, and partners change every qualifying match. Top teams pick partners for the playoffs. Indiana FRC teams earn district points at two district events; the leaders advance to the state championship and the <i>FIRST</i> Championship in Houston.</p>
-    <p><strong>Rankings on this site:</strong> the standings follow official FIRST Indiana district points. The power ranking uses Statbotics EPA (Expected Points Added), an estimate of the points a robot adds to its alliance each match. FTC ratings (OPR) are separate and not comparable to EPA.</p>
+    <p><strong>Rankings on this site:</strong> the standings and the Top 10 both follow official FIRST Indiana district points, from The Blue Alliance. Statbotics EPA (Expected Points Added), a model estimate of the points a robot adds to its alliance each match, is shown alongside as a secondary rating; it is least reliable early in a season. FTC ratings (OPR) are separate and not comparable to EPA.</p>
     <h2>About The REFINERY</h2>
     <p>{e(ABOUT)} {link('https://refineryrobotics.org/', 'refineryrobotics.org')}</p>
     <h2>Team by team</h2>

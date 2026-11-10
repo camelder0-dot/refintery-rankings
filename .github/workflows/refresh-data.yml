@@ -27,17 +27,34 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
+      - name: Warn when The Blue Alliance key is missing
+        if: ${{ env.TBA_AUTH_KEY == '' }}
+        run: echo "::warning title=TBA_AUTH_KEY not set::FRC results and FRC events were NOT refreshed. Add the TBA_AUTH_KEY repository secret (docs/tba-api.md)."
       - name: Refresh calendar
-        run: python3 scripts/fetch_calendar.py
+        # The FTCScout and TBA APIs occasionally time out; retry before failing the run.
+        run: |
+          for attempt in 1 2 3; do
+            python3 scripts/fetch_calendar.py && exit 0
+            echo "Calendar fetch failed (attempt $attempt); retrying in 30 seconds."
+            sleep 30
+          done
+          exit 1
       - name: Refresh FRC results
         if: ${{ env.TBA_AUTH_KEY != '' }}
-        run: python3 scripts/fetch_tba.py --season 2026 --output broadcast/data/tba/results-2026.json
+        run: |
+          for attempt in 1 2 3; do
+            python3 scripts/fetch_tba.py --season 2026 --output broadcast/data/tba/results-2026.json && exit 0
+            echo "TBA fetch failed (attempt $attempt); retrying in 30 seconds."
+            sleep 30
+          done
+          exit 1
       - name: Rebuild and verify
         run: |
           python3 -m pip install --quiet pillow
           python3 scripts/build.py
           python3 ftc/scripts/build.py
           python3 broadcast/scripts/build.py
+          python3 broadcast/scripts/cache_thumbnails.py
           python3 broadcast/scripts/build_share_images.py
           python3 broadcast/scripts/build.py
           python3 scripts/verify.py --write-checksums
@@ -49,7 +66,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet; then
+          if [ -z "$(git status --porcelain)" ]; then
             echo "No changes."
             exit 0
           fi
@@ -60,7 +77,13 @@ jobs:
           git add -A
           git commit -m "Refresh results and calendar ($(date -u +%Y-%m-%d))"
           git push --force origin "$branch"
+          if [ -n "$(gh pr list --head "$branch" --state open --json number --jq '.[].number')" ]; then
+            echo "A pull request for $branch is already open; the push above updated it."
+            exit 0
+          fi
+          # Fail loudly: a refresh nobody sees is the same as no refresh. If this fails with
+          # "GitHub Actions is not permitted to create or approve pull requests", turn that option on in
+          # Settings → Actions → General → Workflow permissions (docs/tba-api.md).
           gh pr create --base main --head "$branch" \
             --title "Refresh results and calendar ($(date -u +%Y-%m-%d))" \
-            --body "Automated refresh from The Blue Alliance and FTCScout. Review the data diff, then merge to publish. See docs/tba-api.md." \
-            || echo "A pull request for $branch already exists."
+            --body "Automated refresh from The Blue Alliance and FTCScout. Review the data diff, then merge to publish. See docs/tba-api.md."

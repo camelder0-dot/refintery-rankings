@@ -285,6 +285,7 @@ def page_shell(title, description, image, url, body, json_ld):
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="../../assets/refinery-logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../../styles.css?v=20261023-integrated-2">
+  <script src="../../upcoming.js" defer></script>
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
 </head>
 <body>
@@ -321,7 +322,7 @@ def upcoming_for(number, result):
     rows = [ev for ev in result["calendar"]["events"] if ev.get("entrants", {}).get("posted") and number in ev["entrants"]["local"]]
     if not rows:
         return '<h2>Coming up</h2><p class="muted">Entry lists for 2026–27 events haven’t posted yet. <a href="../../#schedule">See the full calendar</a>.</p>'
-    return "<h2>Coming up</h2><ul class=\"news-list\">" + "".join(f"<li><strong>{span(ev['startDate'], ev['endDate'])}</strong> · {ext(ev['url'], ev['name'])}<small>{e(ev['venue'])} · {e(ev['city'])}</small></li>" for ev in rows) + "</ul>"
+    return "<h2>Coming up</h2><ul class=\"news-list\" data-upcoming-limit=\"99\">" + "".join(f"<li data-end=\"{ev['endDate']}\"><strong>{span(ev['startDate'], ev['endDate'])}</strong> · {ext(ev['url'], ev['name'])}<small>{e(ev['venue'])} · {e(ev['city'])}</small></li>" for ev in rows) + "<li class=\"muted\" data-upcoming-empty hidden>No upcoming events for this team. <a href=\"../../#schedule\">See the full calendar</a>.</li></ul>"
 
 
 def frc_page(t, result):
@@ -349,7 +350,7 @@ def frc_page(t, result):
     people_html = people_details(people, t.get("gaps", []))
     body = f"""{team_hero(t, 'FRC', stats, honors, display)}
     <section class="section team-body"><div class="wrap team-columns"><div>
-      {people_html}<h2>2026 season</h2>{events}{awards}{upcoming_for(t['number'], result)}{f'<p><a class="text-link" href="../../top10.html#team/{t["number"]}">View in the Top 10 display</a></p>' if t['powerRank'] <= 10 else ''}
+      {people_html}<h2>2026 season</h2>{events}{awards}{upcoming_for(t['number'], result)}{f'<p><a class="text-link" href="../../top10.html#team/{t["number"]}">View in the Top 10 display</a></p>' if t['standingsRank'] <= 10 else ''}
       <h2>Team facts</h2><ul class="people"><li>{e(t['school'])} · {e(t['city'])}, {e(t['county'])} County</li><li>{e(t['affiliationNote'])}</li><li>{t['seasons']} FIRST seasons through 2026 · rookie year {t['rookieYear']}</li><li>Indiana EPA rank {t['stateEpaRank']} of {t['stateEpaCount']} · world {t['worldEpaRank']:,} of {t['worldEpaCount']:,}</li></ul>
     </div><aside>{follow(t)}{closest}{figure}{news_list(t['news'])}
       <h2>Stats &amp; profiles</h2><ul class="link-list"><li>{ext(t['links']['tba'], 'The Blue Alliance', 'text-link')}</li><li>{ext(t['links']['statbotics'], 'Statbotics', 'text-link')}</li><li>{ext(t['links']['first'], 'FIRST profile', 'text-link')}</li>{f"<li>{ext(t['links']['school'], 'School site', 'text-link')}</li>" if t['links'].get('school') else ''}</ul>

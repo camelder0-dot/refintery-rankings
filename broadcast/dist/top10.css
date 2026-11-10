@@ -406,6 +406,12 @@ h1 em {
   text-transform: uppercase;
 }
 
+.stat-note {
+  color: #c6d5df;
+  font-size: 11px;
+  margin: -6px 0 12px;
+}
+
 .stat:first-child .stat-value {
   color: var(--mint);
 }
