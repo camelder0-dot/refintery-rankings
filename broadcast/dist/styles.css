@@ -68,7 +68,7 @@ p { margin: 0 0 1em; }
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%); transition: color .25s var(--ease); }
 .button::before { content: ''; position: absolute; inset: 0; z-index: -1; transform: scaleX(0); transform-origin: left; transition: transform .35s var(--ease); }
 .button:hover::before { transform: scaleX(1); }
-.button::after { content: '→'; font-family: var(--font); font-weight: 600; transition: transform .25s var(--ease); }
+.button::after { content: '→' / ''; font-family: var(--font); font-weight: 600; transition: transform .25s var(--ease); }
 .button:hover::after { transform: translateX(4px); }
 .button-primary { background: var(--green-fill); color: var(--ink); }
 .button-primary::before { background: var(--mint); }
@@ -78,8 +78,8 @@ p { margin: 0 0 1em; }
 .button-ghost:hover { color: var(--ink); }
 .text-link { white-space: nowrap; font-family: var(--display); font-weight: 700; font-size: 16px; letter-spacing: .06em; text-transform: uppercase; text-decoration: none; color: var(--green); display: inline-flex; gap: 6px; align-items: center; background: linear-gradient(currentColor, currentColor) 0 100% / 0 2px no-repeat; transition: background-size .3s var(--ease); padding-bottom: 2px; }
 .text-link:hover { background-size: 100% 2px; color: var(--navy); }
-.text-link::after { content: '↗'; font-family: var(--font); font-size: 14px; }
-.text-link.page-link::after { content: '→'; }
+.text-link::after { content: '↗' / ''; font-family: var(--font); font-size: 14px; }
+.text-link.page-link::after { content: '→' / ''; }
 .link-list .text-link { white-space: normal; }
 .text-link::after { flex: none; }
 
@@ -290,7 +290,7 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .date-block { display: grid; place-items: center; align-content: center; width: 84px; height: 84px; background: var(--navy); color: #fff; }
 .date-block .m { font-family: var(--display); font-size: 15px; font-weight: 700; letter-spacing: .12em; color: var(--mint); text-transform: uppercase; }
 .date-block .d { font-family: var(--display); font-size: 42px; font-weight: 800; font-variant-numeric: tabular-nums; line-height: 1; }
-.schedule h3 { font-family: var(--display); font-weight: 700; font-size: 26px; text-transform: uppercase; }
+.schedule h4 { margin: 0; font-family: var(--display); font-weight: 700; font-size: 26px; text-transform: uppercase; }
 .schedule p { margin: 4px 0 0; color: var(--muted); font-size: 14px; }
 /* Next-up card and the event-week strip */
 .next-event { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); background: var(--navy-deep); color: #fff; margin: 0 0 40px; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 22px), calc(100% - 22px) 100%, 0 100%); }
@@ -318,7 +318,7 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .this-week .tw-label { background: var(--ink); color: var(--mint); padding: 3px 10px; font-size: 15px; letter-spacing: .12em; }
 .this-week strong { font-weight: 800; font-size: 22px; }
 .this-week .tw-go { margin-left: auto; }
-.this-week .tw-go::after { content: ' →'; font-family: var(--font); }
+.this-week .tw-go::after { content: ' →' / ''; font-family: var(--font); }
 .this-week:hover { background: var(--mint); color: var(--ink); }
 .region-teams { border-left: 3px solid var(--green-fill); padding: 2px 0 2px 12px; margin: 10px 0 6px; }
 .region-teams .rt-label { display: block; font-family: var(--display); font-weight: 700; font-size: 14px; letter-spacing: .1em; text-transform: uppercase; color: var(--green); margin-bottom: 4px; }
@@ -330,7 +330,8 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .month { font-family: var(--display); font-weight: 800; font-size: 30px; text-transform: uppercase; margin: 36px 0 10px; }
 .schedule .label { display: block; margin-bottom: 4px; }
 .schedule .desc { color: var(--ink); max-width: 70ch; }
-.schedule > li.past { opacity: .55; }
+.schedule > li.past .date-block { background: #5b6b7a; }
+.schedule > li.past h3::before, .schedule > li.past h4::before { content: 'Past · '; color: var(--muted); font-size: .7em; letter-spacing: .06em; }
 .schedule .link-list { margin-top: 8px; }
 .button-ghost-dark { color: var(--ink); background: transparent; box-shadow: inset 0 0 0 2px var(--ink); }
 .button-ghost-dark::before { background: var(--ink); }
@@ -389,7 +390,7 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .media-card + .media-card { padding-left: 22px; }
 .media-card:last-child { border-right: 0; }
 .media-card strong { font-family: var(--display); font-weight: 700; font-size: 26px; text-transform: uppercase; display: flex; justify-content: space-between; gap: 8px; }
-.media-card strong::after { content: '↗'; font-family: var(--font); font-size: 18px; color: var(--green); transition: transform .25s var(--ease); }
+.media-card strong::after { content: '↗' / ''; font-family: var(--font); font-size: 18px; color: var(--green); transition: transform .25s var(--ease); }
 .media-card:hover strong::after { transform: translate(3px, -3px); }
 .media-card span { color: var(--muted); font-size: 14px; }
 .media-card:hover { color: var(--navy); }
@@ -550,7 +551,7 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
   .schedule > li { grid-template-columns: 64px minmax(0, 1fr); gap: 16px; }
   .date-block { width: 64px; height: 64px; }
   .date-block .d { font-size: 32px; }
-  .schedule h3 { font-size: 22px; }
+  .schedule h4 { font-size: 22px; }
   .dnf-head { grid-template-columns: 1fr; gap: 16px; }
   .dnf-count { text-align: left; }
   .dnf-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -588,9 +589,9 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
   .team-hero .profile-logos .logo { height: 52px; }
   .team-hero .profile-logos .team-identity, .team-hero .profile-logos .team-identity .logo { width: 36px; }
   .team-hero .profile-logos .team-identity .logo { height: 36px; }
-  .team-hero .profile-logos figcaption { font-size: 10px; }
+  .team-hero .profile-logos figcaption { font-size: 12px; }
   .team-hero h1 { font-size: clamp(24px, 7vw, 34px); }
-  .team-hero .eyebrow { font-size: 11px; }
+  .team-hero .eyebrow { font-size: 12px; }
   .team-hero .team-school { font-size: 13px; }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -609,7 +610,7 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .banners { list-style: none; padding: 0; margin: 0 0 12px; display: grid; grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 8px; }
 .banners li { background: #0b4f9c; color: #fff; text-align: center; padding: 12px 8px 18px; clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 88%, 0 100%); }
 .banners b { display: block; font-family: var(--display); font-size: 17px; text-transform: uppercase; letter-spacing: .03em; line-height: 1.05; }
-.banners small { display: block; font-size: 11px; line-height: 1.3; margin-top: 6px; opacity: .9; }
+.banners small { display: block; font-size: 12px; line-height: 1.3; margin-top: 6px; opacity: .9; }
 
 .card-history { font-size: 14px; margin: 8px 0 0; }
 .season-head { font-size: 20px; margin: 22px 0 8px; }
@@ -643,7 +644,7 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .news-card > a { font-weight: 700; color: var(--ink); text-decoration: none; line-height: 1.3; }
 .news-card > a:hover { color: var(--green); text-decoration: underline; }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
-.tag { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: #e9f4e3; color: var(--green); }
+.tag { font-size: 12px; font-weight: 700; padding: 2px 8px; border-radius: 999px; background: #e9f4e3; color: var(--green); }
 .tag-region { background: #e6eef5; color: var(--navy); }
 .more-news { margin-top: 14px; }
 .more-news > summary { cursor: pointer; font-weight: 700; color: var(--green); }
@@ -672,3 +673,21 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .glossary dd { margin: 4px 0 0; font-size: 15px; color: var(--ink); }
 #terms { scroll-margin-top: 90px; margin-top: 10px; }
 @media (max-width: 860px) { .media-groups, .glossary { grid-template-columns: 1fr; } }
+
+/* Keyboard focus: visible on every surface (audit, Nov 2026). Buttons use clip-path, which would
+   clip an outline, so focused buttons drop it. Light sections get the darker green; dark ones mint. */
+:focus-visible { outline-color: var(--green); }
+.section-dark :focus-visible, .dnf :focus-visible, .hero :focus-visible, .site-header :focus-visible, .site-footer :focus-visible,
+.media-contact :focus-visible, .next-event :focus-visible, .team-hero :focus-visible, .stat-band :focus-visible { outline-color: var(--mint); }
+.button:focus-visible, .site-nav .nav-cta:focus-visible { clip-path: none; outline: 3px solid currentColor; outline-offset: 3px; }
+.button-primary:focus-visible { outline-color: var(--ink); }
+.hero .button-primary:focus-visible, .dnf .button-primary:focus-visible, .media-contact .button-primary:focus-visible { outline-color: var(--white); }
+.site-header:focus-within { transform: none; }
+/* Small print stays readable. */
+.events small, .people small, .news-list small { font-size: 12px; }
+.person-note { margin-top: 4px; }
+.person-note > summary { cursor: pointer; font-size: 12px; color: var(--green); font-weight: 600; list-style: none; }
+.person-note > summary::-webkit-details-marker { display: none; }
+.person-note > summary::before { content: '+ ' / ''; }
+.person-note[open] > summary::before { content: '− ' / ''; }
+.person-note p { margin: 4px 0 0; font-size: 13px; color: var(--muted); }

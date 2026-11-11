@@ -81,9 +81,17 @@ def standings_rows(result):
 
 
 def schedule_rows(result):
+    # Finished FRC events have no entry list any more; list who actually played from the results.
+    played = {}
+    for t in result["standings"]:
+        for ev in t["events"]:
+            played.setdefault(ev["key"], []).append(t["number"])
     rows = []
     for e in result["calendar"]["events"]:
         entrants = e.get("entrants") or {}
+        key = e["id"].split("-", 1)[1] if e["id"].startswith("frc-") else None
+        if not entrants.get("posted") and key in played:
+            entrants = {"posted": True, "local": sorted(played[key])}
         rows.append({
             "start_date": e["startDate"], "end_date": e["endDate"], "program": e["program"], "type": e.get("type", ""),
             "event": e["name"], "venue": e.get("venue", ""), "city": e.get("city", ""), "state": e.get("state", ""),
@@ -108,7 +116,7 @@ def write_csv(path, rows):
     writer = csv.DictWriter(buffer, fieldnames=list(rows[0]), lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
-    path.write_text(buffer.getvalue(), encoding="utf-8")
+    path.write_text(buffer.getvalue(), encoding="utf-8", newline="\n")
 
 
 def write_feeds(result):
@@ -116,11 +124,11 @@ def write_feeds(result):
     standings = standings_rows(result)
     schedule = schedule_rows(result)
     dump = lambda rows: json.dumps(rows, ensure_ascii=False, indent=2) + "\n"
-    (FEEDS / "standings.json").write_text(dump(standings), encoding="utf-8")
+    (FEEDS / "standings.json").write_text(dump(standings), encoding="utf-8", newline="\n")
     write_csv(FEEDS / "standings.csv", standings)
-    (FEEDS / "top10.json").write_text(dump(standings[:10]), encoding="utf-8")
+    (FEEDS / "top10.json").write_text(dump(standings[:10]), encoding="utf-8", newline="\n")
     write_csv(FEEDS / "top10.csv", standings[:10])
-    (FEEDS / "schedule.json").write_text(dump(schedule), encoding="utf-8")
+    (FEEDS / "schedule.json").write_text(dump(schedule), encoding="utf-8", newline="\n")
     write_csv(FEEDS / "schedule.csv", schedule)
-    (FEEDS / "ticker.txt").write_text("\n".join(ticker_lines(standings)) + "\n", encoding="utf-8")
+    (FEEDS / "ticker.txt").write_text("\n".join(ticker_lines(standings)) + "\n", encoding="utf-8", newline="\n")
     return standings

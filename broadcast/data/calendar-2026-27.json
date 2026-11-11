@@ -1,6 +1,6 @@
 {
   "season": "2026–27",
-  "retrievedDate": "2026-11-10",
+  "retrievedDate": "2026-11-11",
   "sources": [
     "FTCScout events API",
     "The Blue Alliance (hand-checked; no API key set)",
@@ -273,7 +273,7 @@
       }
     },
     {
-      "id": "ftc-state-2027",
+      "id": "ftc-usincmp",
       "program": "FTC",
       "type": "Championship",
       "name": "FIRST Indiana FTC State Championship",
@@ -282,28 +282,8 @@
       "venue": "Nicoson Hall, University of Indianapolis",
       "city": "Indianapolis",
       "state": "IN",
-      "description": "Indiana's FTC state championship and the path to Houston.",
-      "url": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/",
-      "source": "FIRST Indiana Robotics",
-      "address": "",
-      "watch": [],
-      "entrants": {
-        "posted": false,
-        "note": "Not tracked."
-      }
-    },
-    {
-      "id": "ftc-usincmp",
-      "program": "FTC",
-      "type": "Championship",
-      "name": "FTC Championship · Indiana State Championship",
-      "startDate": "2027-03-06",
-      "endDate": "2027-03-06",
-      "venue": "University of Indianapolis Nicoson Hall",
-      "city": "Indianapolis",
-      "state": "IN",
       "address": "3957 Campus Wy",
-      "description": "",
+      "description": "Indiana's FTC state championship and the path to Houston.",
       "url": "https://ftcscout.org/events/2026/USINCMP",
       "watch": [],
       "source": "FTCScout",
@@ -338,7 +318,7 @@
           9431,
           10172
         ],
-        "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+        "note": "Local teams registered so far. The full entry list posts closer to the event."
       }
     },
     {
@@ -365,7 +345,7 @@
           10411,
           10434
         ],
-        "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+        "note": "Local teams registered so far. The full entry list posts closer to the event."
       }
     },
     {
@@ -389,7 +369,7 @@
         "local": [
           10332
         ],
-        "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+        "note": "Local teams registered so far. The full entry list posts closer to the event."
       }
     },
     {
@@ -423,7 +403,7 @@
           10411,
           10434
         ],
-        "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+        "note": "Local teams registered so far. The full entry list posts closer to the event."
       }
     },
     {
@@ -444,7 +424,7 @@
       "watch": [],
       "entrants": {
         "posted": false,
-        "note": "No local teams registered yet on The Blue Alliance."
+        "note": "No local teams have registered yet."
       }
     },
     {

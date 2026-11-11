@@ -28,6 +28,8 @@ def require(condition, message):
 
 def main():
     data = load(HERE / "dist/data.json")
+    site = load(HERE / "dist/site.json")
+    require(site and all(site[k] == data[k] for k in site), "site.json (home page data) is stale; rerun build.py")
     verify_matches(data)
     thumbnails = load(HERE / "data/video-thumbnails.json")["thumbnails"]
     require(data["videoThumbnails"] == {r["videoUrl"]: r for r in thumbnails}, "Video thumbnail join changed")

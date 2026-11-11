@@ -55,7 +55,7 @@ School-linked **2026 Statbotics rankings, recorded FIRST seasons, and public coa
 | [Team CSV](data/teams.csv) | One row per team; 17 rows with explicit source and qualification columns |
 | [Leadership CSV](data/leadership.csv) | One row per person-role record; 34 rows with dates, status, notes, and sources |
 | [Leadership findings](docs/leadership-findings.md) | Detailed source evidence, historical roles, captain/representative distinctions, and gaps |
-| [Source catalog](docs/sources.md) / [JSON](data/sources.json) | 147 unique source URLs |
+| [Source catalog](docs/sources.md) / [JSON](data/sources.json) | 146 unique source URLs |
 | [Methodology](docs/methodology.md) | Metric definitions, scope, dates, affiliations, and inclusion rules |
 | [Geographic verification](docs/geographic-scope.md) | Documented origin, source coordinates, distance calculations, and exclusions |
 | [Statbotics provenance](docs/statbotics-provenance.md) | Official cache, exact source fields, freshness limit, and reproduction instructions |

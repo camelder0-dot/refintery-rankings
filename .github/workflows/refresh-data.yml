@@ -31,6 +31,16 @@ jobs:
       - name: Warn when The Blue Alliance key is missing
         if: ${{ env.TBA_AUTH_KEY == '' }}
         run: echo "::warning title=TBA_AUTH_KEY not set::FRC results and FRC events were NOT refreshed. Add the TBA_AUTH_KEY repository secret (docs/tba-api.md)."
+      - name: Refresh all-time history and FTC seasons
+        # Public pages and APIs, no key needed: FRC blue banners, awards and 2027 registrations from
+        # The Blue Alliance team history pages; FTC events, records and awards from FTCScout.
+        run: |
+          for attempt in 1 2 3; do
+            python3 scripts/capture_tba_history.py 1501 1720 4982 10434 9119 9431 10332 10172 8103 8431 8742 10411 8432 && python3 scripts/capture_ftc_history.py && exit 0
+            echo "History fetch failed (attempt $attempt); retrying in 30 seconds."
+            sleep 30
+          done
+          exit 1
       - name: Refresh calendar
         # The FTCScout and TBA APIs occasionally time out; retry before failing the run.
         run: |
@@ -75,8 +85,13 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "Refresh results and calendar ($(date -u +%Y-%m-%d))"
-          # Fails loudly if main moved during the run or is protected; nothing is half-published.
-          git push origin HEAD:main
+          # If someone pushed to main during the run, replay this data commit on top and try again.
+          # A real conflict or a protected branch still fails loudly; nothing is half-published.
+          for attempt in 1 2 3; do
+            git push origin HEAD:main && break
+            [ "$attempt" = 3 ] && exit 1
+            git pull --rebase origin main
+          done
           # A push made with the workflow token does not start other workflows on its own,
           # so start the Pages publish explicitly.
           gh workflow run pages.yml --ref main

@@ -18,6 +18,7 @@
   <link rel="icon" href="assets/refinery-logo.svg" type="image/svg+xml">
   <script>document.documentElement.classList.add('js');</script>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/barlow-condensed-latin-800-italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css?v=20261110-media">
   <script src="app.js?v=20261110-district" defer></script>
@@ -45,7 +46,7 @@
   <main>
     <section class="hero" aria-labelledby="hero-title">
       <picture class="hero-bg">
-        <img src="assets/photos/fans-4982.webp" width="1280" height="720" fetchpriority="high" decoding="async" alt="">
+        <img src="assets/photos/fans-4982.webp" srcset="assets/photos/fans-4982-720.webp 720w, assets/photos/fans-4982.webp 1280w" sizes="100vw" width="1280" height="720" fetchpriority="high" decoding="async" alt="">
       </picture>
       <div class="wrap hero-content">
         <h1 id="hero-title"><span><span>The only sport</span></span><span><span>where every kid</span></span><span><span>can go pro.</span></span></h1>
@@ -88,7 +89,8 @@
             <p>Win-loss records count official matches only (district events, state and world championship). Matches are played in three-team alliances whose partners change every match, so a record reflects the team and its partners.</p>
           </div>
         </details>
-        <div class="standings" id="standings-list" aria-live="polite"><!--@standings--></div>
+        <p class="sr-only" role="status" id="sort-status"></p>
+        <div class="standings" id="standings-list"><!--@standings--></div>
         <p class="source-note" id="standings-source"><!--@standings-source--></p>
       </div>
     </section>
@@ -139,7 +141,7 @@
           </div>
         </div>
         <div class="highlight-grid" id="highlight-grid"><!--@highlights--></div>
-        <div class="gallery" id="gallery" aria-label="Photos from around the region"><!--@gallery--></div>
+        <div class="gallery" id="gallery" role="region" aria-label="Photos from around the region"><!--@gallery--></div>
       </div>
     </section>
 
@@ -173,7 +175,7 @@
           <div>
             <p class="kicker">The 2026 game</p>
             <h2 id="game-title">How a match works</h2>
-            <p class="section-lede"><i>FIRST</i> reveals a new game every January. In 2026 it was <strong>REBUILT</strong>: two <button type="button" class="term" data-term="alliance">alliances</button> of three robots score “fuel” into their hub, then climb the tower before time runs out.</p>
+            <p class="section-lede"><i>FIRST</i> reveals a new game every January. In 2026 it was <strong>REBUILT</strong>: two <button type="button" class="term" data-term="alliance" aria-expanded="false" aria-controls="term-tip">alliances</button> of three robots score “fuel” into their hub, then climb the tower before time runs out.</p>
           </div>
         </div>
         <div class="game-grid">
@@ -250,7 +252,7 @@
           </div>
         </div>
         <div class="fast-facts">
-          <div class="fast-facts-head"><h3>Fast facts</h3><button type="button" class="button button-ghost copy-button" data-copy="fast-facts-text">Copy</button></div>
+          <div class="fast-facts-head"><h3>Fast facts</h3><button type="button" class="button button-ghost copy-button" data-copy="fast-facts-text">Copy</button><span class="sr-only" role="status" id="copy-status"></span></div>
           <p id="fast-facts-text"><!--@fastfacts--></p>
         </div>
         <h3 class="col-title" id="terms">Terms to know</h3>
@@ -284,7 +286,7 @@
               <a class="button button-ghost" href="https://refineryrobotics.org/what-we-do/" target="_blank" rel="noopener">How The REFINERY helps</a>
             </div>
           </div>
-          <div class="dnf-count" id="dnf-count" aria-live="polite"><!--@dnf-count--></div>
+          <div class="dnf-count" id="dnf-count"><!--@dnf-count--></div>
         </div>
         <div class="dnf-tools">
           <label class="search"><span class="sr-only">Search schools</span><input id="dnf-search" type="search" placeholder="Search a school, town, district or county" autocomplete="off"></label>
@@ -292,7 +294,7 @@
           <label><span class="sr-only">School type</span><select id="dnf-sector"><option value="">All school types</option><option value="Public">Public</option><option value="Charter">Charter</option><option value="Private">Private</option></select></label>
           <label><span class="sr-only">Sort</span><select id="dnf-sort"><option value="distance">Nearest first</option><option value="name">A–Z</option></select></label>
         </div>
-        <p class="dnf-results" id="dnf-results"></p>
+        <p class="dnf-results" id="dnf-results" role="status"></p>
         <ul class="dnf-list" id="dnf-list"><!--@dnf--></ul>
         <button class="button button-ghost more" id="dnf-more" type="button" hidden>Show more schools</button>
         <details class="explainer dark-explainer" id="dnf-review" hidden>

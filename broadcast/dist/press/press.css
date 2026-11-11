@@ -63,3 +63,9 @@ h2[id] { scroll-margin-top: 60px; }
 .terms dt { font-family: var(--display); font-weight: 700; text-transform: uppercase; font-size: 18px; margin-top: 12px; }
 .terms dd { margin: 2px 0 0; }
 @media print { .jump { display: none; } }
+:focus-visible { outline: 3px solid var(--green); outline-offset: 2px; }
+.bar :focus-visible { outline-color: var(--mint); }
+.skip-link { position: absolute; left: 12px; top: -48px; z-index: 10; background: #fff; padding: 8px 14px; }
+.skip-link:focus { top: 12px; }
+html { scroll-padding-top: 60px; }
+.print-button { font: inherit; color: var(--green); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }

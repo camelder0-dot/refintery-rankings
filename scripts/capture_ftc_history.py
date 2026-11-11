@@ -273,8 +273,10 @@ def build_team(n: int, today: dt.date) -> dict:
                 upcoming.append(
                     {k: entry[k] for k in ("eventCode", "name", "startDate", "endDate", "type", "city", "state", "eventUrl")}
                 )
-        # Division events and their parent finals event count as one competition.
-        competitions = len({e["divisionOf"] or e["eventCode"] for e in events})
+        # Division events and their parent finals event count as one competition. Only events that
+        # have been played count; registrations for future events are listed under "upcoming".
+        played = [e for e in events if e.get("finished") or e.get("qualRank")]
+        competitions = len({e["divisionOf"] or e["eventCode"] for e in played})
         total_events += competitions
         qs = data.get("quickStats") or {}
         tot = qs.get("tot") or {}
@@ -286,7 +288,7 @@ def build_team(n: int, today: dt.date) -> dict:
                 "events": events,
                 "totals": {
                     "events": competitions,
-                    "eventEntries": len(events),
+                    "eventEntries": len(played),
                     "wins": sw,
                     "losses": sl,
                     "ties": st,
@@ -316,7 +318,7 @@ def build_team(n: int, today: dt.date) -> dict:
         "ftcscoutUrl": f"https://ftcscout.org/teams/{n}",
         "seasons": seasons_out,
         "allTime": {
-            "seasonsWithEvents": len(seasons_out),
+            "seasonsWithEvents": sum(1 for s in seasons_out if s["totals"]["events"]),
             "totalEvents": total_events,
             "totalEventEntries": sum(s["totals"]["eventEntries"] for s in seasons_out),
             "wins": sum(s["totals"]["wins"] for s in seasons_out),

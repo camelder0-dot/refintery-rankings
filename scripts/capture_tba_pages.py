@@ -11,7 +11,7 @@ NAMES = {"2026inmis": ("FIN District Mishawaka Event", "Mishawaka", "district", 
          "2026kylou": ("RiverBOaT Rumble", "RiverBOaT Rumble", "offseason", "2026-07-10", "2026-07-11", None),
          "2026iri": ("Indiana Robotics Invitational", "Indiana Robotics Invitational", "offseason", "2026-07-16", "2026-07-18", None),
          "2026inbbb": ("Boiler Bot Battle", "Boiler Bot Battle", "offseason", "2026-10-23", "2026-10-24", None),
-         "2026infor": ("Monster Match", "Monster Match", "offseason", "2026-10-30", "2026-10-31", None)}
+         "2026infor": ("Monster Match", "Monster Match", "offseason", "2026-10-31", "2026-10-31", None)}
 snap = json.loads(open(sys.argv[3], encoding="utf-8").read())["team_years"]
 snap = {r["team"]: r for r in snap}
 teams = []

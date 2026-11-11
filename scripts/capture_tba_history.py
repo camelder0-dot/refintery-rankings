@@ -28,6 +28,13 @@ def text(fragment):
     return html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", fragment))).strip()
 
 
+def last_played_season():
+    """The newest season with a results capture. Rows after it are registrations, not results.
+    (Using today's year would turn 2027 registrations into "played" seasons on Jan 1.)"""
+    seasons = [json.loads(f.read_text(encoding="utf-8"))["season"] for f in (ROOT / "broadcast/data/tba").glob("results-*.json")]
+    return max(seasons) if seasons else date.today().year
+
+
 def parse(raw):
     s = raw.decode("utf-8")
     table = re.search(r'<table[^>]*id="competition-list-table".*?<tbody>(.*?)</tbody>', s, flags=re.S)
@@ -54,6 +61,7 @@ def main():
     parser.add_argument("--pages", help="directory of saved {n}.html history pages")
     parser.add_argument("teams", nargs="+", type=int)
     args = parser.parse_args()
+    season = last_played_season()
     teams = []
     for n in args.teams:
         url = f"https://www.thebluealliance.com/team/{n}/history"
@@ -64,13 +72,13 @@ def main():
             with urllib.request.urlopen(request, timeout=60) as response:
                 raw = response.read()
         record = parse(raw)
-        played = [e for e in record["events"] if e["year"] <= date.today().year]
+        played = [e for e in record["events"] if e["year"] <= season]
         record.update({
             "teamNumber": n, "tbaUrl": url, "responseSha256": hashlib.sha256(raw).hexdigest(), "responseBytes": len(raw),
             "eventWins": sum(1 for e in played if any(a in ("District Event Winner", "Regional Winners", "District Championship Winner", "Championship Winner", "Championship Subdivision Winner", "Winner") or a.endswith(" Winner") and "Award" not in a for a in e["awards"])),
             "awardCount": sum(len(e["awards"]) for e in played),
             "seasonsPlayed": len({e["year"] for e in played}),
-            "registered": [e for e in record["events"] if e["year"] > date.today().year],
+            "registered": [e for e in record["events"] if e["year"] > season],
         })
         teams.append(record)
         print(n, f"{len(record['banners'])} banners, {record['eventWins']} event wins, {record['awardCount']} awards, {record['seasonsPlayed']} seasons", [e["eventKey"] for e in record["registered"]])

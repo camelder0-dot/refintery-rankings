@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "research_date": "2026-10-22",
-  "source_count": 147,
+  "source_count": 146,
   "note": "Source links and per-person access limitations are preserved. This catalog does not assert that every linked page is currently accessible or archived locally.",
   "sources": [
     {
@@ -1380,18 +1380,6 @@
         "geographic method"
       ],
       "teams": []
-    },
-    {
-      "source_id": "S-7b2f1b24b1",
-      "title": "Republished KPC News Sun report: East Noble coaches, May 2024",
-      "url": "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
-      "publisher_domain": "www.euvolution.com",
-      "categories": [
-        "leadership"
-      ],
-      "teams": [
-        8103
-      ]
     },
     {
       "source_id": "S-6bc3ec9e37",

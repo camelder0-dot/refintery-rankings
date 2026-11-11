@@ -8,7 +8,7 @@ from datetime import date, timedelta
 from build_dnf import build_dnf
 from build_feeds import write_feeds
 from build_matches import build_matches
-from build_pages import write_pages
+from build_pages import playoff_result, write_pages
 from build_press import write_press
 from pathlib import Path
 
@@ -57,6 +57,17 @@ def write_ics(calendar):
             raw = b" " + raw[cut:]
         folded.append(raw)
     (HERE / "dist/calendar.ics").write_bytes(b"\r\n".join(folded) + b"\r\n")
+
+
+def unique_links(links):
+    """Drop repeated accounts (same URL, ignoring case and trailing slash)."""
+    seen, out = set(), []
+    for link in links:
+        key = link["url"].lower().rstrip("/").replace("://www.", "://")
+        if key not in seen:
+            seen.add(key)
+            out.append(link)
+    return out
 
 
 def short_award(name):
@@ -118,7 +129,7 @@ def build_standings(frc, editorial, logos, matches):
             "news": [s for s in news if f"frc{number}" in s["teams"]],
             "photos": [p["id"] for p in photos if number in p["teams"]],
             "links": {"tba": t["tbaUrl"], "statbotics": r["statbotics_url"], "first": r["first_team_url"], "school": r["school_url"]},
-            "teamLinks": team_links.get(number, []),
+            "teamLinks": unique_links(team_links.get(number, [])),
             "history": all_time(history.get(number)),
         })
     by_points = sorted(rows, key=lambda row: (row["district"]["rank"] or 999))
@@ -187,16 +198,13 @@ def latest_results(standings, count=3):
         for ev in t["events"]:
             row = events.setdefault(ev["key"], {"key": ev["key"], "name": ev["name"], "shortName": ev["shortName"], "type": ev["type"],
                                                 "startDate": ev["startDate"], "endDate": ev["endDate"], "tbaUrl": ev["tbaUrl"], "teams": []})
-            result = ev["playoff"]["result"] if ev["playoff"] else "Did not reach playoffs"
-            if result.startswith("Eliminated in playoff round"):
-                result = "Playoffs, " + result.removeprefix("Eliminated in playoff ").replace("round", "round")
-            elif result.startswith("Playoffs"):
-                result = "Playoffs"
+            outcome = ev["playoff"]["result"] if ev["playoff"] else "Not picked"
+            # Same placement wording as the team pages ("Won the event", "3rd place", ...).
             row["teams"].append({"number": t["number"], "name": t["name"], "school": t["school"], "qualRank": ev["qualRank"],
-                                 "result": result, "awards": [short_award(a) for a in ev["awards"] if a not in ("District Event Winner", "District Event Finalist")]})
+                                 "outcome": outcome, "result": playoff_result(ev["playoff"]), "awards": [short_award(a) for a in ev["awards"] if a not in ("District Event Winner", "District Event Finalist")]})
     recent = sorted(events.values(), key=lambda e: (e["endDate"], e["key"]), reverse=True)[:count]
     for ev in recent:
-        ev["teams"].sort(key=lambda r: (order.get(r["result"], 2), r["qualRank"]))
+        ev["teams"].sort(key=lambda r: (order.get(r["outcome"], 2), r["qualRank"] or 999))
     return recent
 
 
@@ -265,7 +273,7 @@ def main():
             "adults": [person(p, True) for p in l["adult_leadership"]],
             "gaps": [l["gap"]], "sourceUrls": r["source_urls"],
             "profileUrl": r["first_team_url"], "qualification": k["qualification"],
-            "teamLinks": ftc_links.get(r["team_number"], []),
+            "teamLinks": unique_links(ftc_links.get(r["team_number"], [])),
         })
     result = {
         "title": "The REFINERY · NEI Robotics Top 10",
@@ -277,7 +285,7 @@ def main():
         "hero": {"headline": "THE ONLY SPORT WHERE EVERYONE CAN GO PRO", "subhead": "Friday-night energy. Skills for a lifetime. Meet the students building their future in engineering, software, manufacturing and business.",
                  "attribution": "Career-focused campaign message from FIRST Global", "attributionUrl": "https://first.global/sport/",
                  "image": "assets/refinery-shop.jpeg", "logo": "assets/refinery-logo.svg"},
-        "edition": {"season": 2026, "label": "2026 FRC", "researchDate": "2026-10-22", "rankingsDate": "2026-06-12",
+        "edition": {"season": 2026, "label": "2026 FRC", "researchDate": load(HERE / "data/tba/results-2026.json")["retrievedDate"], "rankingsDate": "2026-06-12",
                     "note": "The 2026 Top 10 is ordered by official FIRST Indiana district points, as reported by The Blue Alliance. Statbotics EPA appears alongside as a model rating; it does not set the order."},
         "scope": {"label": "The REFINERY region · 12 counties", "counties": editorial["counties"],
                   "cohortCount": len(regional), "note": editorial["scope_recommendation"]},
@@ -289,7 +297,7 @@ def main():
                             "sources": ["https://www.firstinspires.org/programs/ftc/", "https://www.firstinspires.org/programs/frc/"]},
         "top10": teams,
         "ftc": {"season": "2025–26 DECODE", "note": "Separate FTC features, using peak event non-penalty OPR captured October 22, 2026. USIN is an assigned event-region cohort, not a home-state rank. FTC OPR and FRC EPA are different models and games.",
-                "teams": features, "newTeams": [{"number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"], "note": r["notes"], "logos": logos(r["team_number"], "ftc"), "teamLinks": ftc_links.get(r["team_number"], [])} for r in ftc["current_season_only_teams"]]},
+                "teams": features, "newTeams": [{"number": r["team_number"], "name": r["team_name"], "school": r["school_or_organization"], "note": r["notes"], "logos": logos(r["team_number"], "ftc"), "teamLinks": unique_links(ftc_links.get(r["team_number"], []))} for r in ftc["current_season_only_teams"]]},
         "links": {"refinery": "https://refineryrobotics.org/", "about": "https://refineryrobotics.org/about/", "involved": "https://refineryrobotics.org/get-involved/", "repo": "https://github.com/horner/refintery-rankings", "pressKit": "press/"},
         "producerNotes": ["Use the documented title and evidence date; do not announce an unconfirmed current captain or head coach.",
                           "The Top 10 follows official district points. EPA values are a model estimate; the first two differ by 0.19 points, much less than their uncertainty.",
@@ -307,9 +315,13 @@ def main():
     result["news"] = load(HERE / "data/news.json")
     result["displayAssets"] = {r["source"]: {"file": r["file"], "width": r["width"], "height": r["height"]}
                                for r in load(HERE / "data/display-assets.json")["assets"]}
-    (HERE / "dist/data.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    (HERE / "dist/data.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    # The home page needs about two thirds of data.json; ship it a compact copy without the Top 10
+    # display, match library and coverage plan. data.json stays the full feed for top10.html and tools.
+    home_keys = ("standings", "seasonSummary", "latestResults", "ftc", "calendar", "news", "photos", "displayAssets", "videoThumbnails", "dnf", "hero", "links")
+    (HERE / "dist/site.json").write_text(json.dumps({k: result[k] for k in home_keys}, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8", newline="\n")
     dnf = build_dnf()
-    (HERE / "dist/dnf.json").write_text(json.dumps(dnf, ensure_ascii=False, separators=(",", ":")) + "\n")
+    (HERE / "dist/dnf.json").write_text(json.dumps(dnf, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8", newline="\n")
     write_press(result, len(dnf["schools"]))
     write_feeds(result)
     write_pages(result, dnf)
@@ -323,14 +335,25 @@ def main():
              "Statbotics EPA appears as a secondary model rating (June 12, 2026 snapshot). It is a modeled scoring contribution, not a record of wins, and is least reliable early in a season. FTC OPR is separate. Identify historical or undated leadership evidence accurately.", "",
              "## Coming up: the 2026–27 coverage plan", ""]
     preview = result["seasonPreview"]
-    press.extend([preview["intro"], "", "Confirmed events retain organizer dates. Show dates and local build/practice windows are planning targets; times and watch links are still to come.", "", "| Date / window | Program | Teaser | Status | Details |", "|---|---|---|---|---|"])
-    for item in preview["milestones"]:
+    # Doug's coverage plan stays as written in season-preview.json (verify.py checks it); the rundown
+    # shows only what is still ahead and puts finished offseason results first.
+    as_of = result["calendar"]["retrievedDate"]
+    as_of_text = (lambda d: f"{d:%B} {d.day}, {d.year}")(date.fromisoformat(as_of))
+    recent = [f"- **{ev['name']}** ({ev['endDate']}): " + "; ".join(f"{r['name']} ({r['number']}) {'won' if r['outcome'] == 'Won event' else r['result'].lower()}" for r in ev["teams"][:4]) for ev in result.get("latestResults", []) if ev["type"] == "offseason"]
+    press.extend(["### Recent results", "", *recent, ""] if recent else [])
+    press.extend(["The FRC Top 10 ranks the region's teams by official 2026 FIRST Indiana district points. Here is the coverage road ahead: BIOBUZZ, the live build, spring competition, and Houston.", "", "Confirmed events retain organizer dates. Show dates and local build/practice windows are planning targets; times and watch links are still to come.", "", "| Date / window | Program | Teaser | Status | Details |", "|---|---|---|---|---|"])
+    for item in (m for m in preview["milestones"] if m["endDate"] >= as_of):
+        item = {**item, "description": item["description"].replace("This weekend: ", ""), "note": item["note"].replace("checked Oct 22, 2026", f"checked {as_of_text}")}
         press.append(f"| {item['dateLabel']} | {item['program']} | {item['title']} | {item['status']} | {item['description']} {item['note']} [Source / details]({item['linkUrl']}) |")
     press.extend(["", "### Weekly show promise", "", preview["weeklyPromise"], "", "All episode dates below are **planned coverage**, rather than confirmed broadcasts.", "", "| Proposed date | Episode | Focus |", "|---|---|---|"])
-    for show in sorted(preview["shows"]["ftc"] + preview["shows"]["frc"], key=lambda r: (r["date"], r["title"])):
+    for show in sorted((x for x in preview["shows"]["ftc"] + preview["shows"]["frc"] if x["date"] >= as_of), key=lambda r: (r["date"], r["title"])):
         press.append(f"| {show['date']} | {show['title']} | {show['summary']} |")
-    press.extend(["", *["- " + note for note in preview["notes"]], "", "## Close games to watch", "",
-                  "All ten FRC Top 10 teams and both returning FTC features have a sourced closest-score match and verified replay. Select its profile to see the score and both alliances. A different closest playoff is linked as an alternative where available. FTC replays open at publisher-authored match chapters.", "",
+    stale = ("not yet published", "frozen 2026 EPA ordering", "Schedule checked")
+    notes = [n for n in preview["notes"] if not any(x in n for x in stale)]
+    notes += ["Local FTC entries: random() (22331) and R.Amp (36124) at Westfield 2 on Dec 6; see the calendar for every posted entry list.",
+              f"Schedule checked {as_of_text}. Local Week 0 and livestream details await organizer announcements."]
+    press.extend(["", *["- " + note for note in notes], "", "## Close games to watch", "",
+                  "Every Top 10 team has a sourced closest-score match and verified replay; the two returning FTC teams' replays are in the match library. Select its profile to see the score and both alliances. A different closest playoff is linked as an alternative where available. FTC replays open at publisher-authored match chapters.", "",
                   result["matchHighlights"]["scoreNote"], "", "[Complete match library and selection methodology](match-highlights.md)", "", "## Team rundown", ""])
     match_lookup = {(r["program"], r["number"]): r for r in result["matchHighlights"]["teams"]}
     for t in teams:
@@ -351,12 +374,12 @@ def main():
     press.extend(["", "## Draft pitch", "", "**Subject: A local Top 10 sports segment where students build the game**", "",
                   "The REFINERY's NEI Robotics Top 10 offers a visual way to introduce local robotics teams to sports viewers. The screen pairs a clearly dated FRC performance ranking with sourced student and adult roles, plus separate FTC features and an explanation for families new to robotics. It can support a studio rankings reveal, a school feature, or a conversation about careers and community support. The attached graphics and rundown provide a starting point; arrange interviews and confirm current-season roles directly with the school or team before introducing people as current leaders.", "",
                   "## Source and asset credits", "", "- Research and raw captures: https://github.com/horner/refintery-rankings", "- The REFINERY: https://refineryrobotics.org/", "- About / people / region: https://refineryrobotics.org/about/", "- Get involved: https://refineryrobotics.org/get-involved/", "- Hero campaign: https://first.global/sport/", "- Logo and practice-field photograph: The REFINERY website / BioNanomics REFINERY-site repository. The photo illustrates the shared practice facility, not an individual team profile.", "",
-                  "This is a prepared media package; no station, school, student, or coach was contacted as part of its creation."])
-    (HERE / "dist/press-kit.md").write_text("\n".join(press).rstrip() + "\n")
+                  "This is a prepared media package. Coaching and captain details for Carroll (10332) and Olympus (4982) were confirmed with a team mentor on November 10, 2026; no station or school was contacted."])
+    (HERE / "dist/press-kit.md").write_text("\n".join(press).rstrip() + "\n", encoding="utf-8", newline="\n")
     credits = ["# School and team logo sources", "", "Marks identify the named school or robotics team. Original proportions and colors are preserved. No endorsement or new license is asserted.", ""]
     for r in logo_rows:
         credits.extend([f"- {r['program'].upper()} {r['number']} / {r['kind']}: {r['label']}. {r['status']}. {r['note']} Source page: {r['pageUrl']}" + (f" Asset: {r['sourceUrl']}" if r.get("file") else "")])
-    (HERE / "dist/logo-credits.md").write_text("\n".join(credits) + "\n")
+    (HERE / "dist/logo-credits.md").write_text("\n".join(credits) + "\n", encoding="utf-8", newline="\n")
     print(f"Built broadcast data: {len(teams)} FRC teams, {len(features)} FTC features, one current-season watch.")
 
 

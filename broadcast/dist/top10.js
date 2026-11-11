@@ -46,6 +46,8 @@
     const logo = team.logos?.[kind];
     const file = logoFor(team, kind);
     const label = kind === 'school' ? 'School / organization' : 'Robotics team';
+    // No verified mark: keep the layout slot but show nothing rather than a "not verified" box.
+    if (!file) return `<figure class="identity-mark ${kind}-identity no-logo" aria-hidden="true"></figure>`;
     return `<figure class="identity-mark ${kind}-identity"><div class="mark-frame${logo?.background === 'dark' ? ' dark-logo' : ''}">${file ? `<img src="${esc(file)}" alt="${esc(logo?.label || `${kind === 'school' ? team.school : team.name} logo`)}" decoding="async">` : '<span>Logo not verified</span>'}</div><figcaption>${label}</figcaption></figure>`;
   }
   function peopleHtml(team) {
@@ -279,6 +281,10 @@
     if (event.target.closest('#cycle') && [' ', 'Enter'].includes(event.key)) return;
     stopCycle();
     if (!state.data || event.altKey || event.ctrlKey || event.metaKey) return;
+    // Left/Right always change team. Up/Down change team only inside the ranking list or in full
+    // screen, so they still scroll the page normally on a laptop or phone.
+    const vertical = ['ArrowUp', 'ArrowDown'].includes(event.key);
+    if (vertical && !document.fullscreenElement && !event.target.closest('#rankings')) return;
     if (['ArrowLeft', 'ArrowUp', 'ArrowRight', 'ArrowDown'].includes(event.key)) {
       event.preventDefault();
       selectTeam(state.selected + (['ArrowLeft', 'ArrowUp'].includes(event.key) ? -1 : 1));
@@ -287,7 +293,7 @@
   document.addEventListener('visibilitychange', () => { if (document.hidden) stopCycle(); });
   document.addEventListener('fullscreenchange', () => { $('fullscreen').innerHTML = document.fullscreenElement ? 'Exit full screen <span aria-hidden="true">⤢</span>' : 'Full screen <span aria-hidden="true">⤢</span>'; });
   window.addEventListener('hashchange', () => applyHash());
-  fetch('data.json').then((response) => {
+  fetch('data.json', { cache: 'no-cache' }).then((response) => {
     if (!response.ok) throw new Error(`Data request failed: ${response.status}`);
     return response.json();
   }).then((data) => {

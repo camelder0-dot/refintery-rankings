@@ -57,7 +57,7 @@ def main():
         cached.add(video_url)
         added += 1
         print(f"Cached {video_id} for FRC {row['number']}")
-    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print(f"Added {added} thumbnail(s).")
 
 

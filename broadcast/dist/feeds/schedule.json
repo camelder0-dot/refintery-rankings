@@ -56,7 +56,7 @@
     "venue": "Tippecanoe County Fairgrounds",
     "city": "Lafayette",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "1501, 1720, 8742, 10172, 10332",
     "url": "https://www.thebluealliance.com/event/2026inbbb"
   },
   {
@@ -68,7 +68,7 @@
     "venue": "Wayne High School",
     "city": "Fort Wayne",
     "state": "IN",
-    "local_teams": "",
+    "local_teams": "1501, 4982, 8103, 8432, 8742, 9431, 10332, 10411, 10434",
     "url": "https://refineryrobotics.org/programs-events/monster-match/"
   },
   {
@@ -174,18 +174,6 @@
     "type": "Championship",
     "event": "FIRST Indiana FTC State Championship",
     "venue": "Nicoson Hall, University of Indianapolis",
-    "city": "Indianapolis",
-    "state": "IN",
-    "local_teams": "",
-    "url": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/"
-  },
-  {
-    "start_date": "2027-03-06",
-    "end_date": "2027-03-06",
-    "program": "FTC",
-    "type": "Championship",
-    "event": "FTC Championship · Indiana State Championship",
-    "venue": "University of Indianapolis Nicoson Hall",
     "city": "Indianapolis",
     "state": "IN",
     "local_teams": "",

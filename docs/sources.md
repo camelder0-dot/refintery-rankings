@@ -1,6 +1,6 @@
 # Source catalog
 
-This catalog contains **147 unique source URLs** used for team identity, school affiliation, rankings, season history, geography, and leadership. It was assembled from the October 22, 2026 research and preservation work.
+This catalog contains **146 unique source URLs** used for team identity, school affiliation, rankings, season history, geography, and leadership. It was assembled from the October 22, 2026 research and preservation work.
 
 The per-person records contain evidence dates, exact roles, and access qualifications. Several social pages and professional profiles were available only through indexed public text. A link is not a claim that a complete local copy exists. The [linked-document manifest](../artifacts/source-manifests/documents.json) records hashes for the two principal PDFs.
 
@@ -114,7 +114,6 @@ The per-person records contain evidence dates, exact roles, and access qualifica
 | S-970016fefa | [www.cityoffortwayne.org: publicworks/52 mayors office/neighborhoods/196 customer service.html](https://www.cityoffortwayne.org/publicworks/52-mayors-office/neighborhoods/196-customer-service.html) | geographic method | Method / scope |
 | S-5ae7bca438 | [www.e3robotics.org: contact.html](https://www.e3robotics.org/contact.html) | geographic method | Method / scope |
 | S-788af9121a | [www.e3robotics.org: k 12 teams.html](https://www.e3robotics.org/k-12-teams.html) | geographic method | Method / scope |
-| S-7b2f1b24b1 | [Republished KPC News Sun report: East Noble coaches, May 2024](https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/) | leadership | 8103 |
 | S-6bc3ec9e37 | [Northrop Robotics: official team Facebook, indexed Coach Jacobs mention](https://www.facebook.com/NorthropRobotics/) | leadership | 10434 |
 | S-fd1c2fed27 | [FIRST Indiana: Board of Directors and mentor biographies](https://www.firstindianarobotics.org/about-first-indiana-robotics/board-of-directors/) | leadership | 10332 |
 | S-d04a4a13ac | [WLIO: Lima Bean City Bots prepare for Buckeye Regional, March 17, 2026](https://www.hometownstations.com/news/allen_county/lima-bean-city-bots-ready-robot-for-first-robotics-competition-buckeye-regional/article_e5d3d483-ada8-4a44-91a8-361777fc6b54.html) | leadership | 3777 |

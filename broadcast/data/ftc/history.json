@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "FTCScout public GraphQL API",
   "sourceUrl": "https://api.ftcscout.org/graphql",
-  "retrievedDate": "2026-11-10",
+  "retrievedDate": "2026-11-11",
   "method": "Queried FTCScout teamByNumber for each team and, per active season, its event participations (event info, qualification stats, awards) and matches (to derive playoff records); eventWins counts 'Winning Alliance' awards (captain/first/second pick) at top-level events, divisionWins counts division-level winning alliances, and inspireAwards counts 1st-place Inspire.",
   "teams": [
     {
@@ -889,8 +889,8 @@
             }
           ],
           "totals": {
-            "events": 2,
-            "eventEntries": 2,
+            "events": 0,
+            "eventEntries": 0,
             "wins": 0,
             "losses": 0,
             "ties": 0,
@@ -907,9 +907,9 @@
         }
       ],
       "allTime": {
-        "seasonsWithEvents": 5,
-        "totalEvents": 19,
-        "totalEventEntries": 20,
+        "seasonsWithEvents": 4,
+        "totalEvents": 17,
+        "totalEventEntries": 18,
         "wins": 43,
         "losses": 47,
         "ties": 0,
@@ -1416,8 +1416,8 @@
             }
           ],
           "totals": {
-            "events": 2,
-            "eventEntries": 2,
+            "events": 0,
+            "eventEntries": 0,
             "wins": 0,
             "losses": 0,
             "ties": 0,
@@ -1434,9 +1434,9 @@
         }
       ],
       "allTime": {
-        "seasonsWithEvents": 3,
-        "totalEvents": 7,
-        "totalEventEntries": 7,
+        "seasonsWithEvents": 2,
+        "totalEvents": 5,
+        "totalEventEntries": 5,
         "wins": 12,
         "losses": 13,
         "ties": 0,
@@ -1549,8 +1549,8 @@
             }
           ],
           "totals": {
-            "events": 2,
-            "eventEntries": 2,
+            "events": 0,
+            "eventEntries": 0,
             "wins": 0,
             "losses": 0,
             "ties": 0,
@@ -1567,9 +1567,9 @@
         }
       ],
       "allTime": {
-        "seasonsWithEvents": 1,
-        "totalEvents": 2,
-        "totalEventEntries": 2,
+        "seasonsWithEvents": 0,
+        "totalEvents": 0,
+        "totalEventEntries": 0,
         "wins": 0,
         "losses": 0,
         "ties": 0,

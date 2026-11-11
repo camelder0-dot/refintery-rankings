@@ -16,9 +16,10 @@
   </style>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="bar"><a href="../"><img src="../assets/refinery-logo-reversed.svg" alt="The REFINERY" width="124" height="32"></a>
     <nav><a href="../">Home</a><a href="../#standings">Standings</a><a href="../top10.html">Top 10</a><a href="./">Graphics feeds</a></nav></header>
-  <main class="sheet">
+  <main class="sheet" id="main">
     <p class="kicker">For graphics operators and streamers</p>
     <h1>Graphics feeds</h1>
     <p>Everything on this page is built from the same data as the site and updates whenever the site does. Point your graphics system at a feed, or add an overlay as a 1920×1080 browser source. No sign-up or key needed.</p>
@@ -31,7 +32,7 @@
         <tr><td><a href="standings.json">standings.json</a> · <a href="standings.csv">.csv</a></td><td>JSON array / CSV</td><td>All 13 Northeast Indiana FRC teams: rank, team, short name (≤ 20 characters), short school name, city, W-L-T, district points, Indiana rank, honors line, EPA, logo URLs, team page, updated date.</td></tr>
         <tr><td><a href="top10.json">top10.json</a> · <a href="top10.csv">.csv</a></td><td>JSON array / CSV</td><td>The first ten rows of the standings: the Top 10.</td></tr>
         <tr><td><a href="schedule.json">schedule.json</a> · <a href="schedule.csv">.csv</a></td><td>JSON array / CSV</td><td>Every 2026–27 FTC and FRC event: dates, venue, city, local teams entered (once posted), event link.</td></tr>
-        <tr><td><a href="ticker.txt">ticker.txt</a></td><td>Plain text</td><td>One line per team for a crawl or ticker, e.g. <code>#1 Team THRUST (1501, Huntington North HS) · 45-15 · 250 pts · Won Mishawaka, Lafayette · World Championship · 3 judged awards</code></td></tr>
+        <tr><td><a href="ticker.txt">ticker.txt</a></td><td>Plain text</td><td>One line per team for a crawl or ticker, e.g. <code>#1 Team THRUST (1501, Huntington County 4-H Robotics) · 45-15 · 250 pts · Won Mishawaka, Lafayette · World Championship · 3 judged awards</code></td></tr>
       </tbody>
     </table>
     <p class="small">Order and points: official FIRST Indiana district points, via The Blue Alliance. The <code>epa</code> column is EPA (Expected Points Added), Statbotics’ estimate of how many points a robot adds to its alliance’s score in an average match, like points per game. It is a secondary column and does not set the order. Absolute URL for any feed: <code>https://horner.github.io/refintery-rankings/feeds/standings.json</code></p>

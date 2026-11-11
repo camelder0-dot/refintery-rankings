@@ -91,6 +91,7 @@
     const mark = (url) => `<div class="mark">${url ? `<img src="${esc(local(url))}" alt="">` : ''}</div>`;
     const day = (iso) => iso ? new Date(`${iso}T12:00:00`).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) : '';
     let rows = [];
+    let crawlFrame = 0, crawlX = 0;
 
     // Scale the 1920×1080 stage to the window so it previews in any browser; at 1920×1080 it is 1:1.
     const fit = () => { const s = Math.min(innerWidth / 1920, innerHeight / 1080); stage.style.transform = `scale(${s})`; };
@@ -113,7 +114,8 @@
 
     function lowerThird() {
       const wanted = params.get('team');
-      const r = rows.find((x) => String(x.team_number) === wanted) || rows[0];
+      const r = rows.find((x) => String(x.team_number) === wanted);
+      if (!r) { safe.innerHTML = `<div class="message">No team ${esc(wanted || '')} in the standings. Add &amp;team= with a team number, e.g. &amp;team=1501.</div>`; return; }
       safe.innerHTML = `<section class="lower">
         <div class="badge"><div><b>${r.rank}</b><small>NE INDIANA</small></div></div>
         <div class="who">${mark(r.team_logo || r.school_logo)}<div style="min-width:0"><div class="name">${esc(r.team_name)} · ${r.team_number}</div><div class="sub">${esc(r.school_short)} · ${esc(r.city)}${r.honors ? ` · ${esc(r.honors)}` : ''}</div></div></div>
@@ -126,14 +128,15 @@
       safe.innerHTML = `<section class="ticker"><div class="tag">NE INDIANA ROBOTICS</div><div class="track"><div class="crawl" id="crawl">${items}${items}</div></div></section>`;
       const crawl = document.getElementById('crawl');
       const speed = Number(params.get('speed')) || 120; // pixels per second
-      let x = 0, last = performance.now();
+      const half = crawl.scrollWidth / 2; // the items are drawn twice; wrap after one copy
+      let last = performance.now();
+      cancelAnimationFrame(crawlFrame); // a data update restarts the crawl without stacking loops
       const step = (now) => {
-        x -= speed * (now - last) / 1000; last = now;
-        if (-x >= crawl.scrollWidth / 2) x += crawl.scrollWidth / 2;
-        crawl.style.transform = `translateX(${x}px)`;
-        requestAnimationFrame(step);
+        crawlX = (crawlX - speed * (now - last) / 1000) % half; last = now;
+        crawl.style.transform = `translateX(${crawlX}px)`;
+        crawlFrame = requestAnimationFrame(step);
       };
-      requestAnimationFrame(step);
+      crawlFrame = requestAnimationFrame(step);
     }
 
     function render() {
@@ -150,15 +153,14 @@
         const fresh = await response.json();
         const changed = JSON.stringify(fresh) !== JSON.stringify(rows);
         rows = fresh;
-        if (changed && view !== 'ticker') render();
-        else if (changed && !document.getElementById('crawl')) render();
+        if (changed) render();
       } catch (error) {
         if (!rows.length) safe.innerHTML = '<div class="message">Standings feed unavailable. Serve this folder over http(s).</div>';
       }
     }
     load();
     setInterval(load, 60000); // A browser source left open picks up a site update within a minute.
-    if (cycle > 0 && view !== 'lowerthird' && view !== 'ticker') setInterval(() => { page += 1; board(); }, cycle * 1000);
+    if (cycle > 0 && view !== 'lowerthird' && view !== 'ticker') setInterval(() => { if (!rows.length) return; page += 1; board(); }, cycle * 1000);
   })();
   </script>
 </body>

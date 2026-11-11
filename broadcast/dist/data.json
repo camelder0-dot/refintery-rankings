@@ -1852,7 +1852,7 @@
   "edition": {
     "season": 2026,
     "label": "2026 FRC",
-    "researchDate": "2026-10-22",
+    "researchDate": "2026-11-10",
     "rankingsDate": "2026-06-12",
     "note": "The 2026 Top 10 is ordered by official FIRST Indiana district points, as reported by The Blue Alliance. Statbotics EPA appears alongside as a model rating; it does not set the order."
   },
@@ -2869,7 +2869,6 @@
           "status": "verified historical",
           "note": "KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html",
             "https://www.trine.edu/news/2019/east-noble-robotics.aspx"
           ],
@@ -2883,7 +2882,6 @@
           "status": "verified historical",
           "note": "Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
           ],
           "season": "Evidence from the published research; see date and notes",
@@ -2896,7 +2894,6 @@
           "status": "verified historical",
           "note": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
           ],
           "season": "Evidence from the published research; see date and notes",
@@ -2909,7 +2906,6 @@
           "status": "verified historical",
           "note": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
           ],
           "season": "Evidence from the published research; see date and notes",
@@ -2937,7 +2933,6 @@
       "sourceUrls": [
         "https://frc-events.firstinspires.org/2026/team/8103",
         "https://refineryrobotics.org/about/",
-        "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
         "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html",
         "https://www.statbotics.io/team/8103/2026",
         "https://www.trine.edu/news/2019/east-noble-robotics.aspx"
@@ -3148,7 +3143,7 @@
           "url": "https://ftcscout.org/teams/22331",
           "rookieYear": 2022,
           "seasonsPlayed": 4,
-          "events": 19,
+          "events": 17,
           "record": "43-47-0",
           "awards": 17,
           "eventWins": 2,
@@ -3533,7 +3528,7 @@
           "url": "https://ftcscout.org/teams/25638",
           "rookieYear": 2024,
           "seasonsPlayed": 2,
-          "events": 7,
+          "events": 5,
           "record": "12-13-0",
           "awards": 1,
           "eventWins": 0,
@@ -3672,7 +3667,7 @@
           "url": "https://ftcscout.org/teams/36124",
           "rookieYear": 2026,
           "seasonsPlayed": 0,
-          "events": 2,
+          "events": 0,
           "record": "0-0-0",
           "awards": 0,
           "eventWins": 0,
@@ -3885,7 +3880,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 3,
@@ -5557,7 +5552,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 13,
@@ -5923,7 +5918,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 5,
@@ -6326,7 +6321,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 6,
@@ -6592,7 +6587,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 14,
@@ -6653,7 +6648,6 @@
           "status": "verified historical",
           "note": "KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html",
             "https://www.trine.edu/news/2019/east-noble-robotics.aspx"
           ],
@@ -6667,7 +6661,6 @@
           "status": "verified historical",
           "note": "Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
           ],
           "season": "Evidence from the published research; see date and notes",
@@ -6680,7 +6673,6 @@
           "status": "verified historical",
           "note": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
           ],
           "season": "Evidence from the published research; see date and notes",
@@ -6693,7 +6685,6 @@
           "status": "verified historical",
           "note": "Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted.",
           "sourceUrls": [
-            "https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/",
             "https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html"
           ],
           "season": "Evidence from the published research; see date and notes",
@@ -6932,7 +6923,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 9,
@@ -7218,7 +7209,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 7,
@@ -7871,7 +7862,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 17,
@@ -8092,7 +8083,7 @@
           "name": "Monster Match",
           "shortName": "Monster Match",
           "type": "offseason",
-          "startDate": "2026-10-30",
+          "startDate": "2026-10-31",
           "endDate": "2026-10-31",
           "week": null,
           "qualRank": 11,
@@ -8219,7 +8210,7 @@
       "name": "Monster Match",
       "shortName": "Monster Match",
       "type": "offseason",
-      "startDate": "2026-10-30",
+      "startDate": "2026-10-31",
       "endDate": "2026-10-31",
       "tbaUrl": "https://www.thebluealliance.com/event/2026infor",
       "teams": [
@@ -8228,7 +8219,8 @@
           "name": "Team THRUST",
           "school": "Huntington County 4-H Robotics",
           "qualRank": 3,
-          "result": "Finalist",
+          "outcome": "Finalist",
+          "result": "Runner-up (lost in the finals)",
           "awards": []
         },
         {
@@ -8236,7 +8228,8 @@
           "name": "Olympus Robotics",
           "school": "Homestead High School",
           "qualRank": 5,
-          "result": "Playoffs, round 4",
+          "outcome": "Eliminated in playoff round 4",
+          "result": "4th place",
           "awards": []
         },
         {
@@ -8244,7 +8237,8 @@
           "name": "CyBears",
           "school": "Northrop High School",
           "qualRank": 6,
-          "result": "Playoffs, round 5",
+          "outcome": "Eliminated in playoff round 5",
+          "result": "3rd place",
           "awards": []
         },
         {
@@ -8252,7 +8246,8 @@
           "name": "Argyll Attack",
           "school": "Madison-Grant Jr./Sr. High School",
           "qualRank": 7,
-          "result": "Playoffs, round 5",
+          "outcome": "Eliminated in playoff round 5",
+          "result": "3rd place",
           "awards": []
         },
         {
@@ -8260,7 +8255,8 @@
           "name": "Carroll Charger Robotics",
           "school": "Carroll High School",
           "qualRank": 9,
-          "result": "Playoffs, round 3",
+          "outcome": "Eliminated in playoff round 3",
+          "result": "Tied 5th (out in playoff round 3)",
           "awards": []
         },
         {
@@ -8268,7 +8264,8 @@
           "name": "Cyber Knights",
           "school": "East Noble High School",
           "qualRank": 11,
-          "result": "Playoffs, round 3",
+          "outcome": "Eliminated in playoff round 3",
+          "result": "Tied 5th (out in playoff round 3)",
           "awards": []
         },
         {
@@ -8276,7 +8273,8 @@
           "name": "The Gold Standard",
           "school": "R. Nelson Snider High School",
           "qualRank": 13,
-          "result": "Playoffs, round 5",
+          "outcome": "Eliminated in playoff round 5",
+          "result": "3rd place",
           "awards": []
         },
         {
@@ -8284,7 +8282,8 @@
           "name": "Knight Robotics",
           "school": "East Noble High School",
           "qualRank": 14,
-          "result": "Playoffs, round 4",
+          "outcome": "Eliminated in playoff round 4",
+          "result": "4th place",
           "awards": []
         },
         {
@@ -8292,7 +8291,8 @@
           "name": "G-Code Generals",
           "school": "Wayne High School",
           "qualRank": 17,
-          "result": "Playoffs, round 3",
+          "outcome": "Eliminated in playoff round 3",
+          "result": "Tied 5th (out in playoff round 3)",
           "awards": []
         }
       ]
@@ -8311,7 +8311,8 @@
           "name": "PhyXTGears",
           "school": "East Central Indiana Robotics (community team)",
           "qualRank": 1,
-          "result": "Won event",
+          "outcome": "Won event",
+          "result": "Won the event",
           "awards": []
         },
         {
@@ -8319,7 +8320,8 @@
           "name": "Carroll Charger Robotics",
           "school": "Carroll High School",
           "qualRank": 4,
-          "result": "Finalist",
+          "outcome": "Finalist",
+          "result": "Runner-up (lost in the finals)",
           "awards": []
         },
         {
@@ -8327,7 +8329,8 @@
           "name": "Team THRUST",
           "school": "Huntington County 4-H Robotics",
           "qualRank": 6,
-          "result": "Playoffs, round 5",
+          "outcome": "Eliminated in playoff round 5",
+          "result": "3rd place",
           "awards": []
         },
         {
@@ -8335,7 +8338,8 @@
           "name": "Argyll Attack",
           "school": "Madison-Grant Jr./Sr. High School",
           "qualRank": 17,
-          "result": "Playoffs, round 4",
+          "outcome": "Eliminated in playoff round 4",
+          "result": "4th place",
           "awards": []
         },
         {
@@ -8343,7 +8347,8 @@
           "name": "Apex Archers",
           "school": "South Side High School",
           "qualRank": 24,
-          "result": "Playoffs, round 3",
+          "outcome": "Eliminated in playoff round 3",
+          "result": "Tied 5th (out in playoff round 3)",
           "awards": []
         }
       ]
@@ -8362,7 +8367,8 @@
           "name": "PhyXTGears",
           "school": "East Central Indiana Robotics (community team)",
           "qualRank": 8,
-          "result": "Playoffs, round 2",
+          "outcome": "Eliminated in playoff round 2",
+          "result": "Tied 7th (out in playoff round 2)",
           "awards": []
         }
       ]
@@ -8370,7 +8376,7 @@
   ],
   "calendar": {
     "season": "2026–27",
-    "retrievedDate": "2026-11-10",
+    "retrievedDate": "2026-11-11",
     "sources": [
       "FTCScout events API",
       "The Blue Alliance (hand-checked; no API key set)",
@@ -8643,7 +8649,7 @@
         }
       },
       {
-        "id": "ftc-state-2027",
+        "id": "ftc-usincmp",
         "program": "FTC",
         "type": "Championship",
         "name": "FIRST Indiana FTC State Championship",
@@ -8652,28 +8658,8 @@
         "venue": "Nicoson Hall, University of Indianapolis",
         "city": "Indianapolis",
         "state": "IN",
-        "description": "Indiana's FTC state championship and the path to Houston.",
-        "url": "https://www.firstindianarobotics.org/event/ftc-state-championship-3/",
-        "source": "FIRST Indiana Robotics",
-        "address": "",
-        "watch": [],
-        "entrants": {
-          "posted": false,
-          "note": "Not tracked."
-        }
-      },
-      {
-        "id": "ftc-usincmp",
-        "program": "FTC",
-        "type": "Championship",
-        "name": "FTC Championship · Indiana State Championship",
-        "startDate": "2027-03-06",
-        "endDate": "2027-03-06",
-        "venue": "University of Indianapolis Nicoson Hall",
-        "city": "Indianapolis",
-        "state": "IN",
         "address": "3957 Campus Wy",
-        "description": "",
+        "description": "Indiana's FTC state championship and the path to Houston.",
         "url": "https://ftcscout.org/events/2026/USINCMP",
         "watch": [],
         "source": "FTCScout",
@@ -8708,7 +8694,7 @@
             9431,
             10172
           ],
-          "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+          "note": "Local teams registered so far. The full entry list posts closer to the event."
         }
       },
       {
@@ -8735,7 +8721,7 @@
             10411,
             10434
           ],
-          "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+          "note": "Local teams registered so far. The full entry list posts closer to the event."
         }
       },
       {
@@ -8759,7 +8745,7 @@
           "local": [
             10332
           ],
-          "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+          "note": "Local teams registered so far. The full entry list posts closer to the event."
         }
       },
       {
@@ -8793,7 +8779,7 @@
             10411,
             10434
           ],
-          "note": "Local teams registered on The Blue Alliance; the full field needs a TBA key."
+          "note": "Local teams registered so far. The full entry list posts closer to the event."
         }
       },
       {
@@ -8814,7 +8800,7 @@
         "watch": [],
         "entrants": {
           "posted": false,
-          "note": "No local teams registered yet on The Blue Alliance."
+          "note": "No local teams have registered yet."
         }
       },
       {

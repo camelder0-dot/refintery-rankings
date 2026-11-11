@@ -46,7 +46,7 @@
   const playoffRole = (p) => {
     if (!p?.alliance) return '';
     const seed = `#${p.alliance} alliance`;
-    return p.role === 'Captain' ? `Captain of the ${seed}` : p.role === 'Backup' ? `Backup robot for the ${seed}` : `${p.role.toLowerCase().replace(/^./, (c) => c.toUpperCase())} of the ${seed}`;
+    return p.role === 'Captain' ? `Captain of the ${seed}` : p.role === 'Backup' ? `Backup robot for the ${seed}` : `${p.role ? p.role.toLowerCase().replace(/^./, (c) => c.toUpperCase()) : 'Member'} of the ${seed}`;
   };
 
   // Small WebP copies are for display; the verified originals stay linked in the credits.
@@ -75,7 +75,7 @@
     const status = p.status || '';
     if (status.includes('confirmed')) return [`Confirmed with the team${p.date ? `, ${shortDate(p.date)}` : ''}`, p.note].filter(Boolean).map(esc).join(' · ');
     const how = [['historical', 'Past role'], ['retrospective', 'From a later interview'], ['indexed', 'From a search listing'], ['self reported', 'Self-reported online']].filter(([term]) => status.includes(term)).map(([, label]) => label);
-    return [p.date ? `As of ${shortDate(p.date)}` : 'Source has no date', ...how, p.note].filter(Boolean).map(esc).join(' · ');
+    return [p.date ? `As of ${shortDate(p.date)}` : 'Source has no date', ...how, 'Confirm current role with the team'].filter(Boolean).map(esc).join(' · ');
   };
   const handle = (url) => url.replace(/\/+$/, '').split('/').pop().replace(/^@/, '');
   const follow = (links) => links?.length ? `<ul class="link-list follow">${links.map((l) => `<li>${ext(l.url, l.type === 'Website' ? 'Team website' : ['Instagram', 'X', 'YouTube', 'TikTok'].includes(l.type) ? `${l.type} @${handle(l.url)}` : l.type, 'text-link')}</li>`).join('')}</ul>` : '';
@@ -100,8 +100,8 @@
       <summary class="team-row">
         <span class="rank">${rank}</span>
         <span class="identity">${standingsMark(t, 'school')}<span class="identity-copy"><strong class="school-name">${esc(t.school)}</strong><small class="team-secondary"><span class="team-name">${esc(t.name)}</span> <span class="team-number">· FRC ${t.number}</span></small><small class="school-city">${esc(t.city)}</small></span>${standingsMark(t, 'team')}</span>
-        <span class="stat r num">${esc(record(t.record))}<small>W-L</small></span>
-        <span class="stat r district num">${district}<small>${num(t.district.points)} points</small></span>
+        <span class="stat r num">${esc(record(t.record))}<span class="sr-only"> record, </span><small>W-L</small></span>
+        <span class="stat r district num">${district}<span class="sr-only">, </span><small>${num(t.district.points)} points</small></span>
         <span class="stat r epa num" title="EPA: Expected Points Added, Statbotics’ estimate of the points a robot adds to its alliance’s score per match">${num(t.epa, 1)}<small>EPA</small></span>
         <span class="honors">${t.badges.map((b) => `<span class="${honorClass(b)}">${esc(b)}</span>`).join('')}</span>
         <span class="chev" aria-hidden="true"></span>
@@ -118,14 +118,14 @@
     const events = `<table class="events">${head}<tbody>${official.map(eventRow).join('')}</tbody></table>${offseason.length ? `<details><summary>Offseason events (${offseason.length})</summary><table class="events">${head}<tbody>${offseason.map(eventRow).join('')}</tbody></table></details>` : ''}`;
     const awards = t.awards.length ? `<h4>Awards</h4><ul class="award-list">${t.awards.map((a) => `<li>${esc(a.award)} <span>· ${esc(a.event)}</span></li>`).join('')}</ul>` : '';
     const m = t.closestMatch;
-    const closest = m ? `<h4>Closest game</h4><div class="close-game">${replayThumbnail(m, t.name)}<div>${esc(m.eventName)} · ${esc(m.matchLabel)}</div><div class="scoreline"><span class="red">${m.redScore}</span><span class="muted">–</span><span class="blue">${m.blueScore}</span></div><div class="muted">${esc(m.margin)}-point ${esc(m.outcome.toLowerCase())} on the ${esc(m.teamAlliance.toLowerCase())} alliance</div><ul class="link-list">${m.videoUrl ? `<li>${ext(m.videoUrl, 'Watch replay', 'text-link')}</li>` : ''}<li>${ext(m.officialUrl, 'Official result', 'text-link')}</li></ul></div>` : '';
+    const closest = m ? `<h4>Closest game</h4><div class="close-game">${replayThumbnail(m, t.name)}<div>${esc(m.eventName)} · ${esc(m.matchLabel)}</div><div class="scoreline"><span class="red">${m.redScore}</span><span class="muted">–</span><span class="blue">${m.blueScore}</span></div><div class="muted">${esc(m.margin)}-point ${esc((m.outcome || '').toLowerCase())} on the ${esc(m.teamAlliance.toLowerCase())} alliance</div><ul class="link-list">${m.videoUrl ? `<li>${ext(m.videoUrl, 'Watch replay', 'text-link')}</li>` : ''}<li>${ext(m.officialUrl, 'Official result', 'text-link')}</li></ul></div>` : '';
     const h = t.history;
-    const allTime = h ? `<h4>All-time history</h4><div class="all-time"><div><strong>${num(h.bannerCount)}</strong><span>${term('banner', 'Blue banners')}</span></div><div><strong>${num(h.awardCount)}</strong><span>Awards</span></div><div><strong>${num(h.seasonsPlayed)}</strong><span>Seasons</span></div></div>${h.banners.length ? `<ul class="banners">${h.banners.map((b) => `<li><b>${esc(b.award)}</b><small>${esc(b.event)}</small></li>`).join('')}</ul>` : ''}${h.awardsByYear.length ? `<details><summary>Every award, by season (${h.awardCount})</summary><ul class="award-list">${h.awardsByYear.map((y) => y.awards.map((a) => `<li>${y.year} · ${esc(a.award)} <span>· ${esc(a.event)}</span></li>`).join('')).join('')}</ul></details>` : ''}<p class="muted small">From ${ext(h.tbaUrl, 'The Blue Alliance team history')}.</p>` : '';
+    const allTime = h ? `<h4>All-time history</h4><div class="all-time"><div><strong>${num(h.bannerCount)}</strong><span>${term('banner', 'Blue banners')}</span></div><div><strong>${num(h.awardCount)}</strong><span>Awards</span></div><div><strong>${num(h.seasonsPlayed)}</strong><span>Seasons</span></div></div>${h.banners?.length ? `<ul class="banners">${h.banners.map((b) => `<li><b>${esc(b.award)}</b><small>${esc(b.event)}</small></li>`).join('')}</ul>` : ''}${h.awardsByYear.length ? `<details><summary>Every award, by season (${h.awardCount})</summary><ul class="award-list">${h.awardsByYear.map((y) => y.awards.map((a) => `<li>${y.year} · ${esc(a.award)} <span>· ${esc(a.event)}</span></li>`).join('')).join('')}</ul></details>` : ''}<p class="muted small">From ${ext(h.tbaUrl, 'The Blue Alliance team history')}.</p>` : '';
     const pic = t.photos.map(photo).filter(Boolean)[0];
     const fig = pic ? `<figure class="team-photo"><img src="${esc(pic.file)}" alt="${esc(pic.caption)}" loading="lazy" width="${pic.width}" height="${pic.height}"><figcaption>${esc(pic.caption)} Photo: ${esc(pic.credit)}</figcaption></figure>` : '';
     const news = t.news.length ? `<h4>In the news</h4><ul class="news-list">${t.news.map((s) => `<li>${ext(s.url, s.title)}<small>${esc(s.outlet)} · ${esc(shortDate(s.date))}</small></li>`).join('')}</ul>` : '';
     const people = [...t.students, ...t.representatives, ...t.adults];
-    const peopleHtml = people.length ? `<details open><summary>Coaches, leaders &amp; supporters (${people.length})</summary><ul class="people">${people.map((p) => `<li><strong>${esc(p.name)}</strong> · ${esc(p.role)}<br><small>${personEvidence(p)} · ${p.sourceUrls.slice(0, 2).map((u, i) => ext(u, `source ${i + 1}`)).join(' · ')}</small></li>`).join('')}</ul>${t.gaps.length ? `<p class="muted">${t.gaps.map(esc).join(' ')}</p>` : ''}</details>` : '';
+    const peopleHtml = people.length ? `<details open><summary>Coaches, leaders &amp; supporters (${people.length})</summary><ul class="people">${people.map((p) => `<li><strong>${esc(p.name)}</strong> · ${esc(p.role)}<br><small>${personEvidence(p)} · ${(p.sourceUrls || []).slice(0, 2).map((u, i) => ext(u, `source ${i + 1}`)).join(' · ')}</small>${p.note && !(p.status || '').includes('confirmed') ? `<details class="person-note"><summary>Source notes</summary><p>${esc(p.note)}</p></details>` : ''}</li>`).join('')}</ul>${t.gaps.length ? `<p class="muted">${t.gaps.map(esc).join(' ')}</p>` : ''}</details>` : '';
     const facts = `<details><summary>Team facts</summary><ul class="people"><li>Rookie year ${t.rookieYear} · ${t.seasons} seasons through 2026</li><li>${esc(t.county)} County · ${esc(t.affiliationNote)}</li><li>Indiana EPA rank ${t.stateEpaRank} of ${t.stateEpaCount} · world ${num(t.worldEpaRank)} of ${num(t.worldEpaCount)}</li><li>District points ${num(t.district.points)} · Indiana district rank ${t.district.rank} of ${t.district.teamCount}</li></ul></details>`;
     const links = `<ul class="link-list"><li>${ext(t.links.tba, 'The Blue Alliance', 'text-link')}</li><li>${ext(t.links.statbotics, 'Statbotics', 'text-link')}</li><li>${ext(t.links.first, 'FIRST profile', 'text-link')}</li>${t.links.school ? `<li>${ext(t.links.school, 'School site', 'text-link')}</li>` : ''}</ul>`;
     const followHtml = t.teamLinks?.length ? `<h4>Follow the team</h4>${follow(t.teamLinks)}` : '';
@@ -168,8 +168,8 @@
     const card = (t, rookie) => {
       const s = stories(t.number);
       const h = t.history;
-      const next = h?.upcoming?.find((ev) => ev.endDate >= new Date().toISOString().slice(0, 10));
-      const allTime = h && h.events ? `<p class="card-history"><strong>All-time:</strong> ${num(h.events)} events · ${esc(h.record)} qualifying · ${num(h.awards)} awards${h.eventWins ? ` · ${num(h.eventWins)} event win${h.eventWins === 1 ? '' : 's'}` : ''}</p>` : '';
+      const next = h?.upcoming?.find((ev) => ev.endDate >= today());
+      const allTime = h && h.events ? `<p class="card-history"><strong>All-time:</strong> ${num(h.events)} event${h.events === 1 ? '' : 's'} · ${esc(h.record)} qualifying · ${num(h.awards)} award${h.awards === 1 ? '' : 's'}${h.eventWins ? ` · ${num(h.eventWins)} event win${h.eventWins === 1 ? '' : 's'}` : ''}</p>` : '';
       const nextHtml = next ? `<p class="card-history"><strong>Next:</strong> ${esc(shortDate(next.startDate))} · ${ext(next.eventUrl, next.name)}</p>` : '';
       const stats = rookie ? '<p class="muted">Rookie team for 2026–27. First matches this season.</p>' : `<div class="card-stats"><div><strong>${num(t.opr, 1)}</strong><span>Best ${term('opr', 'OPR')}, 2025–26</span></div><div><strong>${t.regionalRank}<small class="muted">/${t.regionalCount}</small></strong><span>Rank at Indiana events</span></div></div>`;
       return `<article class="card"><span class="label ${rookie ? 'new' : 'ftc'}">${rookie ? 'New this season' : 'FTC'} · ${t.number}</span><div class="identity">${logo(t.logos, t.number)}<span><strong>${esc(t.name)}</strong><small>${esc(t.school)}${t.city ? ` · ${esc(t.city)}` : ''}</small></span></div>${stats}${allTime}${nextHtml}${s.length ? `<details><summary>In the news (${s.length})</summary><ul class="news-list">${s.map((x) => `<li>${ext(x.url, x.title)}<small>${esc(x.outlet)} · ${esc(shortDate(x.date))}</small></li>`).join('')}</ul></details>` : ''}${follow(t.teamLinks)}<p><a class="text-link page-link" href="team/${t.number}/">Team page</a></p><ul class="link-list"><li>${ext(`https://ftcscout.org/teams/${t.number}`, 'FTCScout', 'text-link')}</li>${t.profileUrl ? `<li>${ext(t.profileUrl, 'FIRST profile', 'text-link')}</li>` : ''}</ul></article>`;
@@ -186,7 +186,7 @@
       const { m, d } = parts(e.startDate);
       const place = [e.venue, [e.city, e.state].filter(Boolean).join(', ')].filter(Boolean).join(' · ');
       const ftcOnly = e.program === 'FTC';
-      return `<li class="${e.endDate < now ? 'past' : ''}"><div class="date-block"><span class="m">${MONTHS[m - 1]}</span><span class="d">${d}</span></div><div><span class="label${ftcOnly ? ' ftc' : ''}">${esc(e.program)} · ${esc(e.type)}${e.week ? ` · Week ${e.week}` : ''}</span><h3>${esc(e.name)}</h3><p>${esc(dateRange(e.startDate, e.endDate))}${place ? ` · ${esc(place)}` : ''}</p>${e.description ? `<p class="desc">${esc(e.description)}</p>` : ''}${e.entrants ? `<div class="region-teams"><span class="rt-label">REFINERY-region teams</span>${regionTeams(e)}</div>` : ''}<ul class="link-list"><li>${ext(e.url, 'Event details', 'text-link')}</li><li>${ext(google(e), 'Google Calendar', 'text-link')}</li></ul></div></li>`;
+      return `<li class="${e.endDate < now ? 'past' : ''}"><div class="date-block"><span class="m">${MONTHS[m - 1]}</span><span class="d">${d}</span></div><div><span class="label${ftcOnly ? ' ftc' : ''}">${esc(e.program)} · ${esc(e.type)}${e.week ? ` · Week ${e.week}` : ''}</span><h4>${esc(e.name)}</h4><p>${esc(dateRange(e.startDate, e.endDate))}${place ? ` · ${esc(place)}` : ''}</p>${e.description ? `<p class="desc">${esc(e.description)}</p>` : ''}${e.entrants ? `<div class="region-teams"><span class="rt-label">REFINERY-region teams</span>${regionTeams(e)}</div>` : ''}<ul class="link-list"><li>${ext(e.url, 'Event details', 'text-link')}</li><li>${ext(google(e), 'Google Calendar', 'text-link')}</li></ul></div></li>`;
     };
     const draw = () => {
       const events = cal.events.filter((e) => (!state.program || e.program.includes(state.program)) && (state.showPast || e.endDate >= now));
@@ -219,9 +219,9 @@
         ? `<p class="${muted}">Teams qualify during the season. Region qualifiers will be listed here.</p>`
         : `<p class="${muted}">Entry list not posted yet. Region teams will be listed here when it is.</p>`;
     }
-    if (!entry.local.length) return `<p class="${muted}">${entry.count} teams entered; none from The REFINERY’s region yet.</p>`;
+    if (!entry.local.length) return `<p class="${muted}">${entry.count ? `${entry.count} teams entered; none from The REFINERY’s region yet.` : esc(entry.note || 'Entry list not posted yet.')}</p>`;
     const roster = new Map([...state.data.standings, ...state.data.ftc.teams, ...state.data.ftc.newTeams].map((t) => [t.number, t]));
-    return `<ul class="entered">${entry.local.map((n) => { const t = roster.get(n); return `<li>${t ? logo(t.logos, n) : ''}<span><strong>${t?.name ? (state.data.standings.some((s) => s.number === n) ? `<a href="team/${n}/">${esc(t.name)}</a>` : esc(t.name)) : `Team ${n}`}</strong><small>${n}${t?.school ? ` · ${esc(t.school)}` : ''}</small></span></li>`; }).join('')}</ul><p class="${muted}">${entry.count ? `${entry.local.length} of ${entry.count} teams entered are from The REFINERY’s region.` : esc(entry.note || '')}</p>`;
+    return `<ul class="entered">${entry.local.map((n) => { const t = roster.get(n); return `<li>${t ? logo(t.logos, n) : ''}<span><strong>${t?.name ? `<a href="team/${n}/">${esc(t.name)}</a>` : `Team ${n}`}</strong><small>${n}${t?.school ? ` · ${esc(t.school)}` : ''}</small></span></li>`; }).join('')}</ul><p class="${muted}">${entry.count ? `${entry.local.length} of ${entry.count} teams entered ${entry.local.length === 1 ? 'is' : 'are'} from The REFINERY’s region.` : esc(entry.note || '')}</p>`;
   }
 
   function renderNextEvent(e, google) {
@@ -314,7 +314,7 @@
     playoffs: ['Playoffs', 'The top 8 teams each pick two partners (the #1 seed picks first). Alliances play a double-elimination bracket, so a team is out after two losses, and the last two alliances meet in a best-of-three final.'],
     opr: ['OPR', 'Offensive Power Rating: an FTC estimate of the points a team adds per match, worked out from its alliances’ scores. Not comparable to FRC’s EPA.'],
   };
-  const term = (key, label) => `<button type="button" class="term" data-term="${key}">${esc(label)}</button>`;
+  const term = (key, label) => `<button type="button" class="term" data-term="${key}" aria-expanded="false" aria-controls="term-tip">${esc(label)}</button>`;
   const tip = document.createElement('div');
   tip.className = 'term-tip';
   tip.id = 'term-tip';
@@ -343,20 +343,32 @@
     tipFor = button;
   }, true);
   document.addEventListener('keydown', (event) => { if (event.key === 'Escape') hideTip(); });
+  document.addEventListener('focusout', (event) => { if (event.target.closest?.('.term') && !event.relatedTarget?.closest?.('.term, .term-tip')) hideTip(); });
   addEventListener('resize', hideTip);
 
   // Copy buttons (fast facts for reporters).
   document.querySelectorAll('[data-copy]').forEach((button) => button.addEventListener('click', async () => {
-    const text = $(button.dataset.copy)?.innerText || '';
-    try { await navigator.clipboard.writeText(text); button.textContent = 'Copied'; }
-    catch { const range = document.createRange(); range.selectNodeContents($(button.dataset.copy)); getSelection().removeAllRanges(); getSelection().addRange(range); button.textContent = 'Selected: press Ctrl+C'; }
-    setTimeout(() => { button.textContent = 'Copy'; }, 2500);
+    const source = $(button.dataset.copy);
+    const status = $('copy-status');
+    let message;
+    try { await navigator.clipboard.writeText(source?.innerText || ''); button.textContent = 'Copied'; message = 'Fast facts copied.'; }
+    catch {
+      const range = document.createRange(); range.selectNodeContents(source); getSelection().removeAllRanges(); getSelection().addRange(range);
+      button.textContent = /Mac/.test(navigator.platform) ? 'Selected: press ⌘C' : 'Selected: press Ctrl+C'; message = 'Text selected. Copy it with your keyboard.';
+    }
+    if (status) status.textContent = message;
+    clearTimeout(button.resetTimer);
+    button.resetTimer = setTimeout(() => { button.textContent = 'Copy'; if (status) status.textContent = ''; }, 2500);
   }));
 
   // The replay loads YouTube only when someone presses play.
   document.querySelectorAll('.replay-play[data-video]').forEach((play) => play.addEventListener('click', (event) => {
     const button = event.currentTarget;
-    button.outerHTML = `<div class="replay-frame"><iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(button.dataset.video)}?autoplay=1&rel=0" title="${esc(button.dataset.title || 'Match video')}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe></div>`;
+    const frame = document.createElement('div');
+    frame.className = 'replay-frame';
+    frame.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(button.dataset.video)}?autoplay=1&rel=0" title="${esc(button.dataset.title || 'Match video')}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;
+    button.replaceWith(frame);
+    frame.querySelector('iframe').focus();
   }));
 
   // Motion: reveal blocks as they scroll in, count numbers up, drift the hero photo.
@@ -468,10 +480,11 @@
     document.querySelectorAll('[data-sort]').forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
     renderStandings();
     document.querySelectorAll('#standings-list .team').forEach((el) => el.classList.add('reveal', 'in'));
+    if ($('sort-status')) $('sort-status').textContent = state.sort === 'power' ? 'Sorted by EPA.' : 'Sorted by official district standings.';
   }));
   addEventListener('hashchange', () => { openFromHash(); if (location.hash === '#dnf') loadDnf(); });
 
-  fetch('data.json', { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(`Data returned ${r.status}`); return r.json(); }).then((data) => {
+  fetch('site.json', { cache: 'no-cache' }).then((r) => { if (!r.ok) throw new Error(`Data returned ${r.status}`); return r.json(); }).then((data) => {
     state.data = data;
     renderStats();
     renderStandings();

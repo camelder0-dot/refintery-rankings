@@ -32,15 +32,18 @@ Statbotics EPA appears as a secondary model rating (June 12, 2026 snapshot). It 
 
 ## Coming up: the 2026–27 coverage plan
 
-The FRC Top 10 is a rewind of 2026 performance and our preseason baseline. Here is the proposed coverage road from fall events to BIOBUZZ, the live build, spring competition, and Houston.
+### Recent results
+
+- **Monster Match** (2026-10-31): Team THRUST (1501) runner-up (lost in the finals); Olympus Robotics (4982) 4th place; CyBears (10434) 3rd place; Argyll Attack (8742) 3rd place
+- **Boiler Bot Battle** (2026-10-24): PhyXTGears (1720) won; Carroll Charger Robotics (10332) runner-up (lost in the finals); Team THRUST (1501) 3rd place; Argyll Attack (8742) 4th place
+- **Indiana Robotics Invitational** (2026-07-18): PhyXTGears (1720) tied 7th (out in playoff round 2)
+
+The FRC Top 10 ranks the region's teams by official 2026 FIRST Indiana district points. Here is the coverage road ahead: BIOBUZZ, the live build, spring competition, and Houston.
 
 Confirmed events retain organizer dates. Show dates and local build/practice windows are planning targets; times and watch links are still to come.
 
 | Date / window | Program | Teaser | Status | Details |
 |---|---|---|---|---|
-| Oct 23–24, 2026 | FRC | Boiler Bot Battle | Confirmed event | This weekend: last season’s robots, fresh ideas, and a first look at the teams to watch. 2026 offseason competition; part of our 2027 preseason coverage. [Source / details](https://frc-events.firstinspires.org/2026/INLAF1) |
-| Oct 31, 2026 | FRC | Monster Match | Confirmed event | Robots, Halloween, and hometown energy. Bring the family for the competition and college and career fair. Competition 8:15 a.m.–6 p.m. ET; career fair 10 a.m.–2 p.m. Free spectator admission. [Source / details](https://refineryrobotics.org/programs-events/monster-match/) |
-| Nov 3, 2026 | Show | The preseason film room | Planned coverage | Our proposed November postgame show: what Boiler Bot Battle and Monster Match reveal, the highlights, and the people behind the robots.  [Source / details](https://refineryrobotics.org/programs-events/) |
 | Nov 17, 2026 | FTC | Three teams. One new chapter. | Planned coverage | Meet random(), Microchips & Guac, and rookie R.Amp Robotics from Amp Lab. BIOBUZZ is underway; Indiana’s first qualifiers are next.  [Source / details](https://ftc-events.firstinspires.org/2026/region/USIN) |
 | Dec 5–6, 2026 | FTC | Indiana FTC opening weekend | Confirmed event | Two Westfield qualifiers start Indiana’s listed competition calendar. We’ll follow results, student stories, and the regional teams as assignments are announced. Local team assignments are not yet published. This is FIRST’s Week 12 since kickoff, rather than official Week 1. [Source / details](https://ftc-events.firstinspires.org/2026/USINWEQ1) |
 | Within 72 hours of debut | FTC | Meet R.Amp after match one | Planned coverage | A rookie team’s first real test: the students, their robot, and what Amp Lab is learning through competition. Target Dec 8–9 only if R.Amp debuts on opening weekend; otherwise follow its first official match by 2–3 days. [Source / details](https://ftc-events.firstinspires.org/2026/team/36124) |
@@ -48,9 +51,9 @@ Confirmed events retain organizer dates. Show dates and local build/practice win
 | Late February 2027 | FRC | Week 0: the first full-field test | Target window | New robots meet the field before the standings start. We’ll preview readiness, early strategies, and the teams finding their rhythm. FIRST’s official FRC Week Zero is Feb 20. The local REFINERY scrimmage date is not yet announced. [Source / details](https://www.firstinspires.org/programs/calendar) |
 | Mar 3–7, 2027 | FRC | The new FRC season takes the field | Confirmed event | Week 1 starts the spring race. Our first proposed Monday show is March 8, with results, standings, highlights, and our next-week winner picks.  [Source / details](https://www.firstinspires.org/programs/calendar) |
 | Mar 6, 2027 | FTC | FTC: the Indiana state stage | Confirmed event | The postseason arrives for BIOBUZZ. Follow the state contenders and the teams earning the next step toward Houston. Proposed state review show: Mar 9. Date and venue are from FIRST Indiana’s listing. [Source / details](https://www.firstindianarobotics.org/event/ftc-state-championship-3/) |
-| Mar 12–14, 2027 | FRC | Indiana opens in Mishawaka | Confirmed event | The first FIRST Indiana district event of 2027. Last year, THRUST (1501) and CyBears (10434) won it together. Dates from The Blue Alliance, checked Oct 22, 2026. [Source / details](https://www.thebluealliance.com/event/2027inmis) |
-| Mar 19–21, 2027 | FRC | Week 3: Sellersburg | Confirmed event | A new stop on the Indiana district circuit. Dates from The Blue Alliance, checked Oct 22, 2026. [Source / details](https://www.thebluealliance.com/event/2027insel) |
-| Mar 25–27, 2027 | FRC | Week 4: Lafayette | Confirmed event | THRUST (1501) won Lafayette in 2026. Dates from The Blue Alliance, checked Oct 22, 2026. [Source / details](https://www.thebluealliance.com/event/2027inlaf) |
+| Mar 12–14, 2027 | FRC | Indiana opens in Mishawaka | Confirmed event | The first FIRST Indiana district event of 2027. Last year, THRUST (1501) and CyBears (10434) won it together. Dates from The Blue Alliance, checked November 11, 2026. [Source / details](https://www.thebluealliance.com/event/2027inmis) |
+| Mar 19–21, 2027 | FRC | Week 3: Sellersburg | Confirmed event | A new stop on the Indiana district circuit. Dates from The Blue Alliance, checked November 11, 2026. [Source / details](https://www.thebluealliance.com/event/2027insel) |
+| Mar 25–27, 2027 | FRC | Week 4: Lafayette | Confirmed event | THRUST (1501) won Lafayette in 2026. Dates from The Blue Alliance, checked November 11, 2026. [Source / details](https://www.thebluealliance.com/event/2027inlaf) |
 | Apr 1–3, 2027 | FRC | Home-field robotics | Confirmed event | The FIRST Indiana district circuit comes to Homestead. A local spotlight weekend, followed by our proposed April 5 show.  [Source / details](https://frc-events.firstinspires.org/2027/district/FIN) |
 | Apr 16–18, 2027 | FRC | FRC: the road runs through state | Confirmed event | Indiana’s district championship brings the season’s strongest stories together. We’ll break down the bracket, highlights, and Houston qualifiers. Proposed state recap: Monday, Apr 19. [Source / details](https://frc-events.firstinspires.org/2027/INCMP) |
 | Apr 26, 2027 | Show | Texas-bound: the Houston preview | Planned coverage | Meet the qualifiers, study the field, and make our picks before the biggest stage of the season.  [Source / details](https://www.firstinspires.org/programs/first-championship) |
@@ -82,13 +85,12 @@ All episode dates below are **planned coverage**, rather than confirmed broadcas
 
 - Confirmed event dates link to organizer calendars. Planned coverage dates are editorial targets; show times and watch links will follow.
 - FTC recaps target Tuesdays after Indiana qualifier weekends; FRC weekly shows target Mondays.
-- The three FTC features are the REFINERY-area programs. Their 2026–27 event assignments, including R.Amp’s debut, are not yet published.
-- Each team competes on its own assigned weekends. Future predictions are editorial picks; they remain separate from official standings and the frozen 2026 EPA ordering.
-- Schedule checked October 22, 2026. Local Week 0 and livestream details await organizer announcements.
+- Local FTC entries: random() (22331) and R.Amp (36124) at Westfield 2 on Dec 6; see the calendar for every posted entry list.
+- Schedule checked November 11, 2026. Local Week 0 and livestream details await organizer announcements.
 
 ## Close games to watch
 
-All ten FRC Top 10 teams and both returning FTC features have a sourced closest-score match and verified replay. Select its profile to see the score and both alliances. A different closest playoff is linked as an alternative where available. FTC replays open at publisher-authored match chapters.
+Every Top 10 team has a sourced closest-score match and verified replay; the two returning FTC teams' replays are in the match library. Select its profile to see the score and both alliances. A different closest playoff is linked as an alternative where available. FTC replays open at publisher-authored match chapters.
 
 Final scores belong to alliances and include penalties. Partners and opponents change; a close matchup does not establish a permanent rivalry.
 
@@ -255,10 +257,10 @@ East Noble High School · Kendallville, Noble County
 - 7 recorded FIRST season entries through 2026; official rookie year 2020.
 - Shawn Kimmel and Jo Smith — Coaches. KPC report, available republication May 11, 2024; current appointments not confirmed.
 
-- Shawn Kimmel — Coach; engineering and physics teacher. Evidence: 2024-05-11; verified historical. KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html https://www.trine.edu/news/2019/east-noble-robotics.aspx
-- Jo Smith — Coach. Evidence: 2024-05-11; verified historical. Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
-- Collin Haynes — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
-- Tucker Martin — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.euvolution.com/prometheism-transhumanism-posthumanism/robotics/en-robotics-team-demonstrates-real-world-learning-news-sun-kpcnews-com-kpcnews-com/ https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
+- Shawn Kimmel — Coach; engineering and physics teacher. Evidence: 2024-05-11; verified historical. KPC News Sun reporting, available in a republication dated May 11, 2024, explicitly identifies Team 8103 and its coaches. That date is the republication date. An older Trine University article corroborates his involvement in founding the program; its precise publication date is not used here. Sources: https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html https://www.trine.edu/news/2019/east-noble-robotics.aspx
+- Jo Smith — Coach. Evidence: 2024-05-11; verified historical. Named as a Team 8103 coach in the KPC News Sun report. Evidence date is the available republication date; continued appointment in 2026-27 is unverified. Sources: https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
+- Collin Haynes — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
+- Tucker Martin — Mentor. Evidence: 2024-05-11; verified historical. Named as a mentor, separately from the coaches. Evidence date is the republication date; no current head-coach or captain role is asserted. Sources: https://www.kpcnews.com/newssun/article_01fef033-f9cb-525e-82e8-676e717dee03.html
 
 Evidence gaps: Current 2026-27 coaching assignments not confirmed by the historical article. Student team captain not verified. Team 8103 leadership evidence does not establish individual coaching assignments for teams 8431 or 8432.
 
@@ -302,4 +304,4 @@ The REFINERY's NEI Robotics Top 10 offers a visual way to introduce local roboti
 - Hero campaign: https://first.global/sport/
 - Logo and practice-field photograph: The REFINERY website / BioNanomics REFINERY-site repository. The photo illustrates the shared practice facility, not an individual team profile.
 
-This is a prepared media package; no station, school, student, or coach was contacted as part of its creation.
+This is a prepared media package. Coaching and captain details for Carroll (10332) and Olympus (4982) were confirmed with a team mentor on November 10, 2026; no station or school was contacted.

@@ -114,8 +114,10 @@ def person_evidence(p):
         how = [("historical", "Past role"), ("retrospective", "From a later interview"), ("indexed", "From a search listing"), ("self reported", "Self-reported online")]
         parts = ["As of " + short(p["date"]) if p.get("date") else "Source has no date"]
         parts.extend(label for term, label in how if term in status)
-    if p.get("note"):
+    if p.get("note") and "confirmed" in status:
         parts.append(p["note"])
+    elif "confirmed" not in status:
+        parts.append("Confirm current role with the team")
     return e(" · ".join(parts))
 
 
@@ -125,7 +127,9 @@ def people_details(people, gaps=()):
     rows = []
     for p in people:
         sources = " · ".join(ext(url, f"source {i + 1}") for i, url in enumerate(p["sourceUrls"]))
-        rows.append(f'<li><strong>{e(p["name"])}</strong> · {e(p["role"])}<br><small>{person_evidence(p)} · {sources}</small></li>')
+        research = p.get("note") and "confirmed" not in p.get("status", "")
+        more = f'<details class="person-note"><summary>Source notes</summary><p>{e(p["note"])}</p></details>' if research else ""
+        rows.append(f'<li><strong>{e(p["name"])}</strong> · {e(p["role"])}<br><small>{person_evidence(p)} · {sources}</small>{more}</li>')
     note = " ".join(gaps) or "Confirm current captains and coaches with the team before publishing."
     return f'<details open><summary>Coaches, leaders &amp; supporters ({len(people)})</summary><ul class="people">{"".join(rows)}</ul><p class="muted small">{e(note)}</p></details>'
 
@@ -187,25 +191,35 @@ def ftc_cards(result):
         stats = '<p class="muted">Rookie team for 2026–27. First matches this season.</p>' if rookie else f'<div class="card-stats"><div><strong>{t["opr"]:.1f}</strong><span>Best OPR, 2025–26</span></div><div><strong>{t["regionalRank"]}<small class="muted">/{t["regionalCount"]}</small></strong><span>Rank at Indiana events</span></div></div>'
         h = t.get("history") or {}
         if h.get("events"):
-            stats += f'<p class="card-history"><strong>All-time:</strong> {h["events"]} events · {e(h["record"])} qualifying · {h["awards"]} awards' + (f' · {h["eventWins"]} event win{"s" if h["eventWins"] != 1 else ""}' if h["eventWins"] else "") + '</p>'
+            stats += f'<p class="card-history"><strong>All-time:</strong> {h["events"]} event{"s" if h["events"] != 1 else ""} · {e(h["record"])} qualifying · {h["awards"]} award{"s" if h["awards"] != 1 else ""}' + (f' · {h["eventWins"]} event win{"s" if h["eventWins"] != 1 else ""}' if h["eventWins"] else "") + '</p>'
         cards.append(f'<article class="card"><span class="label {"new" if rookie else "ftc"}">{"New this season" if rookie else "FTC"} · {t["number"]}</span><div class="identity">{logo(t["logos"], t["number"], display)}<span><strong>{e(t["name"])}</strong><small>{e(t["school"])}{" · " + e(t["city"]) if t.get("city") else ""}</small></span></div>{stats}<p><a class="text-link" href="team/{t["number"]}/">Team page</a></p></article>')
     return "".join(cards)
 
 
 def region_teams(event, result, prefix=""):
+    """Same wording as app.js entrants(): the note wins when the source supplied one."""
     entry = event.get("entrants")
     if not entry:
         return ""
     if not entry["posted"]:
-        text = ("Teams qualify during the season. Region qualifiers will be listed here." if event["type"] == "Championship"
-                else "Entry list not posted yet. Region teams will be listed here when it is.")
-        return f'<div class="region-teams"><span class="rt-label">REFINERY-region teams</span><p class="muted">{text}</p></div>'
+        if "registered" in (entry.get("note") or ""):
+            text = entry["note"]
+        else:
+            text = ("Teams qualify during the season. Region qualifiers will be listed here." if event["type"] == "Championship"
+                    else "Entry list not posted yet. Region teams will be listed here when it is.")
+        return f'<div class="region-teams"><span class="rt-label">REFINERY-region teams</span><p class="muted">{e(text)}</p></div>'
     roster = {t["number"]: t for t in result["standings"] + result["ftc"]["teams"] + result["ftc"]["newTeams"]}
     if not entry["local"]:
-        body = f'<p class="muted">{entry["count"]} teams entered; none from The REFINERY’s region yet.</p>'
+        body = f'<p class="muted">{e(str(entry["count"]) + " teams entered; none from The REFINERY’s region yet." if entry.get("count") else entry.get("note") or "Entry list not posted yet.")}</p>'
     else:
-        items = "".join(f'<li>{logo(roster[n]["logos"], n, result["displayAssets"], prefix) if n in roster else ""}<span><strong><a href="{prefix}team/{n}/">{e(roster[n]["name"]) if n in roster else f"Team {n}"}</a></strong><small>{n}</small></span></li>' for n in entry["local"])
-        body = f'<ul class="entered">{items}</ul><p class="muted">{(str(len(entry["local"])) + " of " + str(entry["count"]) + " teams entered are from The REFINERY’s region.") if entry.get("count") else e(entry.get("note", ""))}</p>'
+        def item(n):
+            t = roster.get(n)
+            name = f'<a href="{prefix}team/{n}/">{e(t["name"])}</a>' if t else f"Team {n}"
+            return f'<li>{logo(t["logos"], n, result["displayAssets"], prefix) if t else ""}<span><strong>{name}</strong><small>{n}{" · " + e(t["school"]) if t and t.get("school") else ""}</small></span></li>'
+        local = entry["local"]
+        count = entry.get("count")
+        summary = f'{len(local)} of {count} teams entered {"is" if len(local) == 1 else "are"} from The REFINERY’s region.' if count else entry.get("note", "")
+        body = f'<ul class="entered">{"".join(item(n) for n in local)}</ul><p class="muted">{e(summary)}</p>'
     return f'<div class="region-teams"><span class="rt-label">REFINERY-region teams</span>{body}</div>'
 
 
@@ -220,7 +234,7 @@ def calendar(result, today):
         for ev in events:
             d = date.fromisoformat(ev["startDate"])
             place = " · ".join(x for x in (ev["venue"], ", ".join(x for x in (ev["city"], ev["state"]) if x)) if x)
-            items.append(f'<li><div class="date-block"><span class="m">{d:%b}</span><span class="d">{d.day}</span></div><div><span class="label{" ftc" if ev["program"] == "FTC" else ""}">{e(ev["program"])} · {e(ev["type"])}{f" · Week {ev["week"]}" if ev.get("week") else ""}</span><h3>{e(ev["name"])}</h3><p>{span(ev["startDate"], ev["endDate"])}{" · " + e(place) if place else ""}</p>{f"<p class=\"desc\">{e(ev['description'])}</p>" if ev["description"] else ""}{region_teams(ev, result)}<ul class="link-list"><li>{ext(ev["url"], "Event details", "text-link")}</li></ul></div></li>')
+            items.append(f'<li><div class="date-block"><span class="m">{d:%b}</span><span class="d">{d.day}</span></div><div><span class="label{" ftc" if ev["program"] == "FTC" else ""}">{e(ev["program"])} · {e(ev["type"])}{f" · Week {ev["week"]}" if ev.get("week") else ""}</span><h4>{e(ev["name"])}</h4><p>{span(ev["startDate"], ev["endDate"])}{" · " + e(place) if place else ""}</p>{f"<p class=\"desc\">{e(ev['description'])}</p>" if ev["description"] else ""}{region_teams(ev, result)}<ul class="link-list"><li>{ext(ev["url"], "Event details", "text-link")}</li></ul></div></li>')
         html.append(f'<h3 class="month">{MONTHS[month - 1]} {year}</h3><ol class="schedule">{"".join(items)}</ol>')
     return "".join(html)
 
@@ -233,8 +247,9 @@ def school_leader(s, linked=False):
     return f'{e(leader["role"])}: {name} · {e(leader["evidenceLabel"])}'
 
 
-def dnf_list(dnf):
-    rows = sorted(dnf["schools"], key=lambda s: s["distanceMiles"])
+def dnf_list(dnf, limit=24):
+    # Same first page app.js shows (dnfLimit); the full list loads from dnf.json on demand.
+    rows = sorted(dnf["schools"], key=lambda s: s["distanceMiles"])[:limit]
     return "".join(f'<li><details class="school"><summary><span><strong>{e(s["name"])}</strong><small>{e(s["city"])}, {e(s["state"])} · {e(s["sector"])}</small><small class="school-leader">{school_leader(s)}</small></span><span class="miles">{s["distanceMiles"]:.1f}<small> mi</small></span></summary><div class="school-body"><p>{e(s["district"])}</p><p>{school_leader(s, True)}</p></div></details></li>' for s in rows)
 
 
@@ -258,7 +273,7 @@ def news(result, more=False):
 def latest(result):
     blocks = []
     for ev in result["latestResults"]:
-        rows = "".join(f'<li class="{"won" if r["result"] == "Won event" else ""}"><strong><a href="team/{r["number"]}/">{e(r["name"])}</a> <span class="muted">{r["number"]}</span></strong><span>{e(r["result"])}{" · " + e(", ".join(r["awards"])) if r["awards"] else ""}</span></li>' for r in ev["teams"])
+        rows = "".join(f'<li class="{"won" if r["outcome"] == "Won event" else ""}"><strong><a href="team/{r["number"]}/">{e(r["name"])}</a> <span class="muted">{r["number"]}</span></strong><span>{e(r["result"])}{" · " + e(", ".join(r["awards"])) if r["awards"] else ""}</span></li>' for r in ev["teams"])
         kind = "Offseason" if ev["type"] == "offseason" else "Official"
         blocks.append(f'<article class="result-card"><p class="news-meta">{kind} · {short(ev["endDate"])}</p><h4>{ext(ev["tbaUrl"], ev["name"])}</h4><ul class="result-list">{rows}</ul></article>')
     return "".join(blocks)
@@ -268,7 +283,7 @@ def fast_facts(result):
     s = result["seasonSummary"]
     top = sorted(result["standings"], key=lambda t: t["standingsRank"])[0]
     banners = sum((t.get("history") or {}).get("bannerCount", 0) for t in result["standings"])
-    return e(f"Northeast Indiana has {s['teams']} FIRST Robotics Competition (FRC) high-school teams and {len(result['ftc']['teams']) + len(result['ftc']['newTeams'])} FIRST Tech Challenge (FTC) teams to follow in The REFINERY's 12-county region. "
+    return e(f"Northeast Indiana has {s['teams']} FIRST Robotics Competition (FRC) teams for high-school students and {len(result['ftc']['teams']) + len(result['ftc']['newTeams'])} FIRST Tech Challenge (FTC) teams to follow in The REFINERY's 12-county region. "
              f"In 2026 they won {s['eventTitles']} district event titles and {s['awards']} judged awards, and {len(s['worldsTeams'])} teams reached the World Championship in Houston. "
              f"{top['name']} ({top['number']}) of {top['school'].split(' / ')[0]} led the region in official district points. "
              f"Together the region's FRC teams have earned {banners} blue banners. The 2027 FRC season starts with the game reveal on Jan. 9, 2027. "
@@ -296,7 +311,7 @@ def write_index(result, dnf):
         if marker not in page:
             raise ValueError(f"Template marker missing: {marker}")
         page = page.replace(marker, html)
-    (DIST / "index.html").write_text(page, encoding="utf-8")
+    (DIST / "index.html").write_text(page, encoding="utf-8", newline="\n")
 
 
 # ---------------------------------------------------------------- team pages
@@ -325,8 +340,9 @@ def page_shell(title, description, image, url, body, json_ld):
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="page-bar"><div class="wrap"><a class="brand" href="../../"><img src="../../assets/refinery-logo-reversed.svg" alt="The REFINERY" width="132" height="34"></a><a class="back" href="../../#standings">All standings</a></div></header>
-  <main>
+  <main id="main">
 {body}
   </main>
   <footer class="site-footer"><div class="wrap footer-inner"><p>Media contact: <a href="mailto:{CONTACT}">{CONTACT}</a> · <a href="../../press/">Press kit</a> · <a href="../../press/media.html">Logos &amp; photos</a></p><p>Built by <a href="https://refineryrobotics.org/" target="_blank" rel="noopener">The REFINERY</a>. Results: The Blue Alliance; ratings: Statbotics and FTCScout. Not affiliated with or endorsed by <i>FIRST</i>.</p></div></footer>
@@ -336,13 +352,14 @@ def page_shell(title, description, image, url, body, json_ld):
 
 
 def team_hero(t, program, stats, honors, display):
+    epa_note = '<p class="stat-def">EPA (Expected Points Added) is Statbotics’ estimate of how many points a robot adds to its alliance’s score in an average match, like points per game. District points are the official FIRST Indiana standings.</p>'
     return f"""    <section class="team-hero"><div class="wrap"><div class="team-hero-grid">{identity_logos(t, display, '../../', 'school')}<div class="team-hero-copy">
-      <p class="eyebrow">{program} {t['number']} · {e(t.get('city', ''))}</p>
+      <p class="eyebrow">{program} {t['number']}{' · ' + e(t['city']) if t.get('city') else ''}</p>
       <h1>{e(t.get('school') or t['name'])}</h1>
       <p class="team-school">{e(t['name'])} · {program} {t['number']}</p>
       {f'<p class="honors">{honors}</p>' if honors else ''}
     </div>{identity_logos(t, display, '../../', 'team')}</div>
-    <dl class="stat-bar">{''.join(f'<div><dt>{e(label)}</dt><dd>{e(value)}</dd></div>' for value, label in stats)}</dl><p class="stat-def">EPA (Expected Points Added) is Statbotics’ estimate of how many points a robot adds to its alliance’s score in an average match, like points per game. District points are the official FIRST Indiana standings.</p></div></section>"""
+    <dl class="stat-bar">{''.join(f'<div><dt>{e(label)}</dt><dd>{e(value)}</dd></div>' for value, label in stats)}</dl>{epa_note if program == "FRC" else ""}</div></section>"""
 
 
 def follow(t):
@@ -413,7 +430,7 @@ def ftc_page(t, result, rookie):
     stories = [s for s in result["news"]["stories"] if f"ftc{t['number']}" in s["teams"]]
     people = (t.get("students") or []) + (t.get("adults") or [])
     people_html = people_details(people, t.get("gaps", []))
-    note = e(t.get("note") or t.get("qualification") or "")
+    note = e(t.get("note") or "Best OPR is the team's top scoring estimate (Offensive Power Rating) at any 2025–26 event. The Indiana rank compares it with teams at Indiana events.")
     h = t.get("history")
     history_html = ""
     if h:
@@ -453,7 +470,7 @@ def write_team_pages(result):
                    "location": {"@type": "Place", "name": t.get("city", "")}, "sameAs": [l["url"] for l in t.get("teamLinks") or []]}
         folder = DIST / "team" / str(t["number"])
         folder.mkdir(parents=True, exist_ok=True)
-        (folder / "index.html").write_text(page_shell(f"{t['name']} · {program} {t['number']} · Northeast Indiana Robotics", description, image, url, body, json_ld), encoding="utf-8")
+        (folder / "index.html").write_text(page_shell(f"{t['name']} · {program} {t['number']} · Northeast Indiana Robotics", description, image, url, body, json_ld), encoding="utf-8", newline="\n")
     return len(entries)
 
 
