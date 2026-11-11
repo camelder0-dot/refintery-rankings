@@ -253,6 +253,30 @@ def dnf_list(dnf, limit=24):
     return "".join(f'<li><details class="school"><summary><span><strong>{e(s["name"])}</strong><small>{e(s["city"])}, {e(s["state"])} · {e(s["sector"])}</small><small class="school-leader">{school_leader(s)}</small></span><span class="miles">{s["distanceMiles"]:.1f}<small> mi</small></span></summary><div class="school-body"><p>{e(s["district"])}</p><p>{school_leader(s, True)}</p></div></details></li>' for s in rows)
 
 
+def podcast():
+    """The REFINERY's sports-show-style podcast. Until an episode is listed in data/podcast.json,
+    the player is a placeholder; the newest episode then becomes the featured video."""
+    show = json.loads((HERE / "data/podcast.json").read_text(encoding="utf-8"))
+    episodes = sorted(show["episodes"], key=lambda x: x["date"], reverse=True)
+    if episodes:
+        ep = episodes[0]
+        player = (f'<button type="button" class="replay-play" data-video="{e(ep["videoId"])}" data-title="{e(show["title"])}: {e(ep["title"])}" aria-label="Play episode {e(ep.get("number", ""))}: {e(ep["title"])}">'
+                  f'<img src="https://i.ytimg.com/vi/{e(ep["videoId"])}/hqdefault.jpg" width="480" height="360" alt="" loading="lazy"><span class="play-icon" aria-hidden="true"></span></button>'
+                  f'<figcaption><strong>Episode {e(ep.get("number", ""))}: {e(ep["title"])}</strong> {e(ep.get("summary", ""))} <span class="muted">{short(ep["date"])}</span></figcaption>')
+        more = "".join(f'<li>{ext("https://www.youtube.com/watch?v=" + x["videoId"], "Episode " + str(x.get("number", "")) + ": " + x["title"])}<small>{short(x["date"])}</small></li>' for x in episodes[1:])
+        archive = f'<h3 class="col-title">Past episodes</h3><ul class="news-list">{more}</ul>' if more else ""
+    else:
+        player = ('<div class="podcast-placeholder" role="img" aria-label="Video placeholder: the first episode is coming soon">'
+                  '<span class="play-icon" aria-hidden="true"></span><strong>Episode 1</strong><span>Coming soon</span></div>'
+                  '<figcaption><strong>First episode coming soon.</strong> <span class="muted">New episodes will play right here.</span></figcaption>')
+        archive = ""
+    topics = "".join(f"<li>{e(t)}</li>" for t in show["topics"])
+    return (f'<div class="podcast-grid"><figure class="replay podcast-player">{player}</figure>'
+            f'<div><h3 class="col-title">On the show</h3><ul class="podcast-topics">{topics}</ul>{archive}'
+            '<p class="source-note">Want a team on the show, or have a question for the hosts? '
+            '<a href="mailto:celder@bionanomics.com?subject=Podcast%3A%20Northeast%20Indiana%20robotics">Email the show</a>.</p></div></div>'), show
+
+
 NEWS_CARDS = 6
 
 
@@ -302,6 +326,7 @@ def write_index(result, dnf):
         "standings-source": f"Records, events and awards: {e(s['resultsSource'])}. Ratings: {e(s['ratingsSource'])}. District rank is among {result['standings'][0]['district']['teamCount']} Indiana teams.",
         "highlights": highlights(result), "gallery": gallery(result), "ftc": ftc_cards(result), "calendar": calendar(result, today),
         "dnf-count": f'<strong data-count="{len(dnf["schools"])}">{len(dnf["schools"])}</strong><span>schools without a team</span>',
+        "podcast": podcast()[0], "podcast-title": e(podcast()[1]["title"]), "podcast-tagline": e(podcast()[1]["tagline"]),
         "dnf": dnf_list(dnf), "news": news(result), "newsmore": news(result, more=True), "latest": latest(result), "fastfacts": fast_facts(result),
         "og-description": e(f"{s['teams']} FRC teams, {s['eventTitles']} event titles, {len(s['worldsTeams'])} World Championship teams. Records, results and stories from The REFINERY region."),
     }
@@ -335,7 +360,7 @@ def page_shell(title, description, image, url, body, json_ld):
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="../../assets/refinery-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../../styles.css?v=20261110-media">
+  <link rel="stylesheet" href="../../styles.css?v=20261111-podcast">
   <script src="../../upcoming.js" defer></script>
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
 </head>
