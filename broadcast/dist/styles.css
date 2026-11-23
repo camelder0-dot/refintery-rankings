@@ -704,3 +704,26 @@ details[open] > :not(summary) { animation: fade-up .45s var(--ease) both; }
 .podcast-topics li { padding: 10px 0 10px 18px; border-bottom: 1px solid var(--line); position: relative; }
 .podcast-topics li::before { content: ''; position: absolute; left: 0; top: 18px; width: 8px; height: 8px; background: var(--green-fill); }
 @media (max-width: 860px) { .podcast-grid { grid-template-columns: 1fr; gap: 24px; } }
+
+/* Headlines: each team's latest big result, then what the honors mean */
+.headline-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-top: 5px solid var(--green); }
+.headline-card { display: flex; flex-direction: column; gap: 6px; padding: 18px 20px 20px; color: var(--ink); text-decoration: none; background: var(--white); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: background .2s var(--ease); }
+.headline-card:nth-child(4n) { border-right: 0; }
+.headline-card:hover, .headline-card:focus-visible { background: var(--bg); }
+.headline-card .honors { margin: 4px 0 0; }
+.headline-card h3 { font-family: var(--display); font-weight: 700; font-size: 24px; line-height: 1.05; text-transform: uppercase; margin: 0; }
+.headline-card h3 .muted { font-size: 18px; }
+.headline-school { margin: 0; color: var(--muted); font-size: 14px; }
+.headline-text { margin: 4px 0 0; font-size: 15px; }
+.headline-best { margin: auto 0 0; padding-top: 10px; font-size: 13px; color: var(--muted); }
+.headline-best span { font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--green); margin-right: 4px; }
+.honors-explained { margin-top: 48px; }
+.honors-explained > .section-lede { margin: 0 0 8px; max-width: 78ch; }
+.honors-group { font-family: var(--display); font-size: 15px; letter-spacing: .08em; text-transform: uppercase; color: var(--green); margin: 22px 0 0; }
+.honors-guide { margin-top: 8px; }
+.honors-guide summary { font-size: 20px; padding: 14px 0; }
+.honors-guide details { scroll-margin-top: 90px; }
+.honors-guide details[open] { padding-bottom: 12px; }
+.honor-points, .honor-recent { color: var(--ink); }
+@media (max-width: 1020px) { .headline-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .headline-card:nth-child(4n) { border-right: 1px solid var(--line); } .headline-card:nth-child(2n) { border-right: 0; } }
+@media (max-width: 560px) { .headline-grid { grid-template-columns: 1fr; } .headline-card { border-right: 0 !important; padding: 16px 0; } }

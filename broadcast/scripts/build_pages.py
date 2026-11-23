@@ -8,6 +8,7 @@ engines see the results; app.js then redraws the same containers and adds sortin
 from __future__ import annotations
 
 import json
+import re
 from datetime import date
 from html import escape
 from pathlib import Path
@@ -20,6 +21,13 @@ CONTACT = "celder@bionanomics.com"
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
 # Double-elimination bracket: the round a team goes out in fixes its finish (8 alliances).
 FINISH = {2: "Tied 7th (out in playoff round 2)", 3: "Tied 5th (out in playoff round 3)", 4: "4th place", 5: "3rd place"}
+
+
+def short_award(name):
+    """'Innovation in Control Award sponsored by nVent' -> 'Innovation in Control Award'."""
+    name = re.split(r" (?:sponsored by|in honor of|presented by) ", name)[0]
+    name = re.sub(r"^District Championship FIRST Leadership Award Semi-Finalist.*", "FIRST Leadership Award semifinalist", name)
+    return name
 
 
 def e(value):
@@ -303,6 +311,89 @@ def latest(result):
     return "".join(blocks)
 
 
+# Event-level honors, biggest first. Each entry: (score, honor key, chip, sentence).
+def event_honors(ev):
+    p, where = ev["playoff"] or {}, ev["shortName"]
+    result, role, seed = p.get("result") or "", p.get("role") or "", p.get("alliance")
+    found = []
+    if result == "Won event":
+        found.append((100, "event-winner", "Won the event", f"Won {where}"))
+    if ev["type"] == "championship_division":
+        found.append((95, "world-championship", "World Championship", f"Competed at the {where}"))
+    if result == "Finalist":
+        found.append((80, "event-finalist", "Runner-up", f"Runner-up at {where}"))
+    for award in ev["awards"]:
+        if award not in ("District Event Winner", "District Event Finalist"):
+            name = short_award(award)
+            found.append((70, name, name, f"{name} at {where}"))
+    if ev["type"] == "district_championship":
+        found.append((60, "state-qualifier", "State qualifier", f"Competed at the {where}"))
+    digits = [int(c) for c in result if c.isdigit()]
+    if digits and digits[0] >= 4:
+        found.append((51 + digits[0], "playoff-finish", FINISH[digits[0]], f"{FINISH[digits[0]]} at {where}"))
+    if role == "Captain" and seed:
+        found.append((50, "alliance-captain", f"#{seed} alliance captain", f"Captain of the #{seed} alliance at {where}"))
+    elif "Pick" in role and seed:
+        found.append((40, "alliance-pick", "Drafted", f"Drafted by the #{seed} alliance at {where}"))
+    return sorted(found, key=lambda h: -h[0])
+
+
+def headline_cards(result):
+    """One card per FRC team: its biggest honor at its most recent event that had one."""
+    cards = []
+    for t in result["standings"]:
+        events = sorted(t["events"], key=lambda ev: ev["endDate"], reverse=True)
+        ev = next((ev for ev in events if event_honors(ev)), None)
+        if not ev:
+            continue
+        honors = event_honors(ev)
+        top = honors[0]
+        extra = [h[3].rsplit(" at ", 1)[0] for h in honors[1:2] if h[0] >= 50]
+        cards.append((ev["endDate"], top[0], t, ev, top, extra))
+    cards.sort(key=lambda c: (c[0], c[1]), reverse=True)
+    html = []
+    for end, score, t, ev, top, extra in cards:
+        kind = "Offseason" if ev["type"] == "offseason" else "Official"
+        cls = "trophy" if top[1] in ("event-winner", "event-finalist") else "worlds" if top[1] == "world-championship" else ""
+        sentence = top[3] + (f"; also {extra[0][0].lower()}{extra[0][1:]}" if extra else "") + "."
+        best = f'<p class="headline-best"><span>Season best</span> {e(t["badges"][0])}</p>' if t["badges"] else ""
+        html.append(f'<a class="headline-card" href="team/{t["number"]}/"><p class="news-meta">{kind} · {short(end)} · {e(ev["shortName"])}</p>'
+                    f'<p class="honors"><span class="{cls}">{e(top[2])}</span></p><h3>{e(t["name"])} <span class="muted">{t["number"]}</span></h3>'
+                    f'<p class="headline-school">{e(t["school"])}</p><p class="headline-text">{e(sentence)}</p>{best}</a>')
+    return "".join(html)
+
+
+def honors_guide(result):
+    """What each honor means, its 2026 district-point value, and who earned it most recently."""
+    guide = json.loads((HERE / "data/honors.json").read_text(encoding="utf-8"))
+    latest = {}
+    for t in result["standings"]:
+        for ev in t["events"]:
+            for score, key, chip, sentence in event_honors(ev):
+                row = latest.setdefault(key, {"date": "", "teams": [], "event": ev})
+                if ev["endDate"] > row["date"]:
+                    row.update(date=ev["endDate"], teams=[], event=ev)
+                if ev["endDate"] == row["date"] and ev["key"] == row["event"]["key"]:
+                    row["teams"].append(t)
+    blocks, group = [], None
+    for h in guide["honors"]:
+        if h["group"] != group:
+            group = h["group"]
+            blocks.append(f'<h4 class="honors-group">{e(group)}</h4>')
+        recent = latest.get(h["key"])
+        if recent:
+            ev = recent["event"]
+            who = ", ".join(f'<a href="team/{t["number"]}/">{e(t["name"])} ({t["number"]})</a>' for t in recent["teams"])
+            note = " Offseason event: no district points." if ev["type"] == "offseason" else ""
+            recent_html = f'<p class="honor-recent"><strong>Most recent:</strong> {who} at {ext(ev["tbaUrl"], ev["name"])}, {short(ev["endDate"])}.{note}</p>'
+        else:
+            recent_html = '<p class="honor-recent"><strong>Most recent:</strong> no Northeast Indiana team has earned this yet in 2026.</p>'
+        blocks.append(f'<details id="honor-{e(re.sub(r"[^a-z0-9]+", "-", h["key"].lower()).strip("-"))}"><summary>{e(h["label"])}</summary>'
+                      f'<p>{e(h["what"])}</p><p>{e(h["technical"])}</p><p class="honor-points"><strong>District points:</strong> {e(h["points"])}</p>'
+                      f'{recent_html}<p class="source-note">Source: {ext(guide["sources"][h["source"]], "FIRST")}</p></details>')
+    return f'<p class="section-lede">{e(guide["pointsIntro"])}</p><div class="faq honors-guide">{"".join(blocks)}</div>'
+
+
 def fast_facts(result):
     s = result["seasonSummary"]
     top = sorted(result["standings"], key=lambda t: t["standingsRank"])[0]
@@ -327,7 +418,7 @@ def write_index(result, dnf):
         "highlights": highlights(result), "gallery": gallery(result), "ftc": ftc_cards(result), "calendar": calendar(result, today),
         "dnf-count": f'<strong data-count="{len(dnf["schools"])}">{len(dnf["schools"])}</strong><span>schools without a team</span>',
         "podcast": podcast()[0], "podcast-title": e(podcast()[1]["title"]), "podcast-tagline": e(podcast()[1]["tagline"]),
-        "dnf": dnf_list(dnf), "news": news(result), "newsmore": news(result, more=True), "latest": latest(result), "fastfacts": fast_facts(result),
+        "dnf": dnf_list(dnf), "news": news(result), "newsmore": news(result, more=True), "latest": latest(result), "headlines": headline_cards(result), "honors-guide": honors_guide(result), "fastfacts": fast_facts(result),
         "og-description": e(f"{s['teams']} FRC teams, {s['eventTitles']} event titles, {len(s['worldsTeams'])} World Championship teams. Records, results and stories from The REFINERY region."),
     }
     page = (HERE / "templates/index.html").read_text(encoding="utf-8")
@@ -360,7 +451,7 @@ def page_shell(title, description, image, url, body, json_ld):
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="../../assets/refinery-logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="../../styles.css?v=20261111-podcast">
+  <link rel="stylesheet" href="../../styles.css?v=20261123-honors">
   <script src="../../upcoming.js" defer></script>
   <script type="application/ld+json">{json.dumps(json_ld, ensure_ascii=False)}</script>
 </head>

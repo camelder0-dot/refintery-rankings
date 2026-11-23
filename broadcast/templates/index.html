@@ -20,7 +20,7 @@
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/barlow-condensed-latin-800-italic.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/inter-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="styles.css?v=20261111-podcast">
+  <link rel="stylesheet" href="styles.css?v=20261123-honors">
   <script src="app.js?v=20261111-podcast" defer></script>
 </head>
 <body>
@@ -31,6 +31,7 @@
       <a class="brand" href="https://refineryrobotics.org/" target="_blank" rel="noopener"><img src="assets/refinery-logo-reversed.svg" alt="The REFINERY" width="148" height="38"></a>
       <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Menu</span><span aria-hidden="true"></span></button>
       <nav id="site-nav" class="site-nav" aria-label="Main">
+        <a href="#headlines">Headlines</a>
         <a href="#standings">Standings</a>
         <a href="#ftc">FTC</a>
         <a href="#news">News</a>
@@ -67,6 +68,23 @@
       </div>
     </section>
 
+    <section class="section" id="headlines" aria-labelledby="headlines-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Latest from the field</p>
+            <h2 id="headlines-title">Headlines</h2>
+            <p class="section-lede">Each team’s biggest result from its most recent competition, newest first. <a class="text-link page-link" href="#honors">What the honors mean</a>.</p>
+          </div>
+        </div>
+        <div class="headline-grid" id="headline-grid"><!--@headlines--></div>
+        <div class="honors-explained" id="honors">
+          <h3 class="col-title">What the honors mean</h3>
+          <!--@honors-guide-->
+        </div>
+      </div>
+    </section>
+
     <section class="section" id="standings" aria-labelledby="standings-title">
       <div class="wrap">
         <div class="section-head">
@@ -87,6 +105,7 @@
           <div class="explainer-body">
             <p><strong>District standings</strong> are the official order: teams earn FIRST Indiana district points for qualification wins, being picked for playoffs, playoff runs and awards. Points decide who advances to the state championship.</p>
             <p><strong>Sort by EPA</strong> reorders the list by their final 2026 <a href="https://www.statbotics.io/" target="_blank" rel="noopener">Statbotics</a> EPA (Expected Points Added): an estimate of how many points a robot adds to its alliance each match. Think of it like points per game. It is a model, so it can miss early in a season; the official order is always district points.</p>
+            <p>The <strong>2026 honors</strong> column lists event titles, advancement and judged awards. <a class="text-link page-link" href="#honors">See what each honor means and how many points it earns</a>.</p>
             <p>Win-loss records count official matches only (district events, state and world championship). Matches are played in three-team alliances whose partners change every match, so a record reflects the team and its partners.</p>
           </div>
         </details>

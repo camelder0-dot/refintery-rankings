@@ -3,12 +3,11 @@
 from __future__ import annotations
 
 import json
-import re
 from datetime import date, timedelta
 from build_dnf import build_dnf
 from build_feeds import write_feeds
 from build_matches import build_matches
-from build_pages import playoff_result, write_pages
+from build_pages import playoff_result, short_award, write_pages
 from build_press import write_press
 from pathlib import Path
 
@@ -68,13 +67,6 @@ def unique_links(links):
             seen.add(key)
             out.append(link)
     return out
-
-
-def short_award(name):
-    """'Innovation in Control Award sponsored by nVent' -> 'Innovation in Control Award'."""
-    name = re.split(r" (?:sponsored by|in honor of|presented by) ", name)[0]
-    name = re.sub(r"^District Championship FIRST Leadership Award Semi-Finalist.*", "FIRST Leadership Award semifinalist", name)
-    return name
 
 
 def build_standings(frc, editorial, logos, matches):
