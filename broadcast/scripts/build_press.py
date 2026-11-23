@@ -77,7 +77,7 @@ def page(title, body, description):
 
 def team_block(t):
     honors = [f"Won {', '.join(t['titles'])}" if t["titles"] else "", f"{t['worlds']}" if t["worlds"] else "",
-              "Indiana State Championship" if t["stateChampionship"] and not t["worlds"] else ""]
+              "Indiana State Championship qualifier" if t["stateChampionship"] and not t["worlds"] else ""]
     awards = "; ".join(f"{a['award']} ({a['event']})" for a in t["awards"])
     follow = " · ".join(link(x["url"], f"{x['type']} @{handle(x['url'])}" if x["type"] in ("Instagram", "X", "YouTube", "TikTok") else x["type"]) for x in t["teamLinks"])
     news = "".join(f"<li>{link(s['url'], s['title'])} <span class=\"muted\">{e(s['outlet'])}, {nice_date(s['date'])}</span></li>" for s in t["news"])
@@ -108,7 +108,7 @@ def storylines(result, dnf_count):
         top = [r for r in ev["teams"] if r["outcome"] in ("Won event", "Finalist")]
         if top:
             told = " and ".join(f"<strong>{e(r['name'])} ({r['number']})</strong> {'won' if r['outcome'] == 'Won event' else 'reached the finals at'}" for r in top)
-            lines.append(f"Offseason: {told} {e(ev['name'])} ({nice_date(ev['endDate'])}), an early look at the 2027 season.")
+            lines.append(f"Offseason: {told} {e(ev['name'])} ({nice_date(ev['endDate'])}), an offseason replay of the 2026 game, REBUILT.")
     lines.append(f"Regional teams won <strong>{s['awards']} judged awards</strong> in 2026, from Innovation in Control to Rising All-Star.")
     ftc = result["ftc"]
     names = [f"{e(t['school'])}'s {e(t['name'])} ({t['number']})" for t in ftc["teams"]]
