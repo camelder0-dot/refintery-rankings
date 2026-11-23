@@ -1,6 +1,6 @@
 {
   "research_date": "2026-10-22",
-  "scope_recommendation": "Northeast Indiana — The REFINERY 12-county region. A fresh screening of all 69 teams listed on the official 2026 FIRST Indiana district roster found 13 official hometowns within these counties; these match the existing Indiana research cohort. Geography uses official FIRST profile hometown, not workshop location or student residence.",
+  "scope_recommendation": "Northeast Indiana — The REFINERY 12-county region. A fresh screening of all 69 teams listed on the official 2026 FIRST Indiana district roster found 13 official hometowns within these counties. One of them, a community team, is not part of The REFINERY, so the cohort is 12 teams. Geography uses official FIRST profile hometown, not workshop location or student residence.",
   "counties": [
     "Adams",
     "Allen",
@@ -21,13 +21,13 @@
     "https://townofmatthews.com/",
     "https://frc-events.firstinspires.org/2026/district/FIN"
   ],
-  "geography_correction": "Matthews belongs to Grant County and is explicitly included in The REFINERY service-area list; do not remove Team 1720 on an incorrect Delaware County assumption.",
+  "geography_correction": "Team 1720 (Matthews, Grant County) has an official hometown inside the 12-county region but is not part of The REFINERY and does not want to be. It is excluded for that reason, not by geography; do not re-add it from the district roster screen.",
   "ranking_basis": {
     "season": 2026,
     "metric": "Statbotics Expected Points Added (EPA), descending",
     "source_last_modified_utc": "2026-06-12T02:51:19Z",
     "source_retrieved": "2026-10-22",
-    "cohort_count": 13,
+    "cohort_count": 12,
     "display_count": 10,
     "source": "https://storage.googleapis.com/site_v1/team_years/2026",
     "local_source": "data/teams.json",
@@ -99,59 +99,6 @@
     },
     {
       "rank": 2,
-      "team_number": 1720,
-      "team_name": "PhyXTGears",
-      "school_or_organization": "East Central Indiana Robotics (community team)",
-      "city": "Matthews",
-      "county": "Grant",
-      "epa_mean": 118.52,
-      "epa_sd": 22.26,
-      "indiana_epa_rank": 13,
-      "world_epa_rank": 440,
-      "official_profile": "https://frc-events.firstinspires.org/2026/team/1720",
-      "rating_profile": "https://www.statbotics.io/team/1720/2026",
-      "spotlight": {
-        "name": "Shawn VanNess",
-        "role": "Team president",
-        "qualification": "Official team season report, May 15, 2026.",
-        "other_people_note": "Student captain not verified."
-      },
-      "leadership_evidence": {
-        "team_number": 1720,
-        "adults": [
-          {
-            "name": "Shawn VanNess",
-            "role": "Team president",
-            "evidence_date": "2026-05-15",
-            "date_precision": "day",
-            "source_urls": [
-              "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-            ],
-            "evidence_status": "verified_dated",
-            "notes": "Official team season report names the president. Publication date is May 15, 2026; the page also displays a May 23 update."
-          },
-          {
-            "name": "Mike Koch",
-            "role": "Mechanical mentor and co-founder",
-            "evidence_date": "2026-05-15",
-            "date_precision": "day",
-            "source_urls": [
-              "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-            ],
-            "evidence_status": "verified_dated",
-            "notes": "Official team report supplies these roles; it does not identify him as head coach."
-          }
-        ],
-        "students": [],
-        "other_representatives": [],
-        "gaps": [
-          "Student team captain not verified.",
-          "A separately designated head coach is not established by the cited team report."
-        ]
-      }
-    },
-    {
-      "rank": 3,
       "team_number": 9119,
       "team_name": "Iron Legends",
       "school_or_organization": "North Side High School",
@@ -217,7 +164,7 @@
       }
     },
     {
-      "rank": 4,
+      "rank": 3,
       "team_number": 9431,
       "team_name": "The Gold Standard",
       "school_or_organization": "R. Nelson Snider High School",
@@ -309,7 +256,7 @@
       }
     },
     {
-      "rank": 5,
+      "rank": 4,
       "team_number": 4982,
       "team_name": "Olympus Robotics",
       "school_or_organization": "Homestead High School",
@@ -374,7 +321,7 @@
       }
     },
     {
-      "rank": 6,
+      "rank": 5,
       "team_number": 10434,
       "team_name": "CyBears",
       "school_or_organization": "Northrop High School",
@@ -430,7 +377,7 @@
       }
     },
     {
-      "rank": 7,
+      "rank": 6,
       "team_number": 8103,
       "team_name": "Knight Robotics",
       "school_or_organization": "East Noble High School",
@@ -507,7 +454,7 @@
       }
     },
     {
-      "rank": 8,
+      "rank": 7,
       "team_number": 10332,
       "team_name": "Carroll Charger Robotics",
       "school_or_organization": "Carroll High School",
@@ -572,7 +519,7 @@
       }
     },
     {
-      "rank": 9,
+      "rank": 8,
       "team_number": 8742,
       "team_name": "Argyll Attack",
       "school_or_organization": "Madison-Grant Jr./Sr. High School",
@@ -627,7 +574,7 @@
       }
     },
     {
-      "rank": 10,
+      "rank": 9,
       "team_number": 10172,
       "team_name": "Apex Archers",
       "school_or_organization": "South Side High School",

@@ -2,7 +2,7 @@
 
 ## Scope
 
-This compilation follows the original 17-team research roster: 13 Indiana FIRST Robotics Competition (FRC) teams and four nearby Michigan/Ohio teams in the Fort Wayne study area. The radius is 60 straight-line miles, not 60 driving miles. The [geographic verification](geographic-scope.md) documents the origin, official school or host addresses, geocoding, calculations, and boundary limitations.
+This compilation follows a 16-team research roster: 12 Indiana FIRST Robotics Competition (FRC) teams and four nearby Michigan/Ohio teams in the Fort Wayne study area. The radius is 60 straight-line miles, not 60 driving miles. The [geographic verification](geographic-scope.md) documents the origin, official school or host addresses, geocoding, calculations, and boundary limitations.
 
 The original request concerned Statbotics rankings, so this dataset covers FRC. It does not claim a census of FIRST Tech Challenge, FIRST LEGO League, other robotics programs, or historically inactive teams. Community teams are identified as community programs rather than assigned an exclusive high-school affiliation.
 
@@ -24,7 +24,7 @@ The official rookie year is stored separately. East Noble 8431 and 8432 both hav
 
 ## School affiliation
 
-The display name prioritizes the high school. FIRST season pages and school/team sources provide the team-number link. Huntington 1501 has a Huntington North connection and a county 4-H community program. PhyXTGears 1720 and Lima 3777 are community programs; their records do not imply exclusive enrollment from a single high school. The three East Noble teams share a school but retain distinct team numbers, season histories, rankings, and leadership gaps.
+The display name prioritizes the high school. FIRST season pages and school/team sources provide the team-number link. Huntington 1501 has a Huntington North connection and a county 4-H community program. Lima 3777 is a community program; its record does not imply exclusive enrollment from a single high school. The three East Noble teams share a school but retain distinct team numbers, season histories, rankings, and leadership gaps.
 
 ## Adult and student leadership
 

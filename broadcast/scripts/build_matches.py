@@ -197,8 +197,8 @@ def build_matches():
             "counts": {"eligible": research["eligibleMatchCount"], "playoff": research["eligiblePlayoffCount"]},
             "sourceUrl": row["first_team_url"], "main": main, "playoff": alternate(main, playoff),
         })
-    if len(teams) != 26:
-        raise ValueError("Expected all 17 FRC and 9 FTC teams")
+    if len(teams) != len(frc_roster) + len(ftc_roster):
+        raise ValueError("Expected every rostered FRC and FTC team")
     library = {
         "asOf": max(source["asOf"][:10] for source in (frc, ftc, frc_manifest, ftc_manifest)),
         "methodologyUrl": "match-highlights.md", "policy": POLICY,

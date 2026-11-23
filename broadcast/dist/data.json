@@ -438,84 +438,6 @@
       },
       {
         "program": "FRC",
-        "number": 1720,
-        "teamName": "PhyXTGears",
-        "season": 2026,
-        "seasonLabel": "2026 REBUILT",
-        "status": "played",
-        "note": "Closest final-score match in the preserved 2026 official season. A different closest playoff is linked separately.",
-        "counts": {
-          "eligible": 55,
-          "playoff": 9
-        },
-        "sourceUrl": "https://frc-events.firstinspires.org/2026/team/1720",
-        "main": {
-          "id": "2026incol_qm24",
-          "eventName": "FIN District Columbus Event",
-          "eventCode": "INCOL",
-          "eventStartDate": "2026-03-20",
-          "eventEndDate": "2026-03-22",
-          "dateLabel": "2026-03-20–2026-03-22 (event dates)",
-          "playedDate": null,
-          "phase": "Qualification",
-          "matchLabel": "Qualification 24",
-          "matchNumber": 24,
-          "redTeams": [
-            3559,
-            45,
-            1720
-          ],
-          "blueTeams": [
-            4982,
-            1018,
-            9431
-          ],
-          "redScore": 108,
-          "blueScore": 105,
-          "margin": 3,
-          "teamAlliance": "Red",
-          "outcome": "Win",
-          "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/24",
-          "videoUrl": "https://www.youtube.com/watch?v=olAjzlBnZuU",
-          "videoTitle": "Quals 24 | 2026 FIN Columbus FRC",
-          "videoPublisher": "FIRSTINRobotics",
-          "videoEvidence": "YouTube embed linked from exact TBA match result page"
-        },
-        "playoff": {
-          "id": "2026inwas_sf6m1",
-          "eventName": "FIN District Washington Event presented by Toyota IN & VU CARA",
-          "eventCode": "INWAS",
-          "eventStartDate": "2026-04-02",
-          "eventEndDate": "2026-04-04",
-          "dateLabel": "2026-04-02–2026-04-04 (event dates)",
-          "playedDate": null,
-          "phase": "Playoff",
-          "matchLabel": "Match 6 (R2)",
-          "matchNumber": 6,
-          "redTeams": [
-            9554,
-            7617,
-            1747
-          ],
-          "blueTeams": [
-            8742,
-            1720,
-            4485
-          ],
-          "redScore": 160,
-          "blueScore": 143,
-          "margin": 17,
-          "teamAlliance": "Blue",
-          "outcome": "Loss",
-          "officialUrl": "https://frc-events.firstinspires.org/2026/INWAS/playoffs/6",
-          "videoUrl": "https://www.youtube.com/watch?v=RENYGmhndg8",
-          "videoTitle": "Playoffs 6 | 2026 FIN Washington FRC",
-          "videoPublisher": "FIRSTINRobotics",
-          "videoEvidence": "YouTube embed linked from exact TBA match result page"
-        }
-      },
-      {
-        "program": "FRC",
         "number": 9119,
         "teamName": "Iron Legends",
         "season": 2026,
@@ -1872,8 +1794,8 @@
       "Wells",
       "Whitley"
     ],
-    "cohortCount": 13,
-    "note": "Northeast Indiana — The REFINERY 12-county region. A fresh screening of all 69 teams listed on the official 2026 FIRST Indiana district roster found 13 official hometowns within these counties; these match the existing Indiana research cohort. Geography uses official FIRST profile hometown, not workshop location or student residence."
+    "cohortCount": 12,
+    "note": "Northeast Indiana — The REFINERY 12-county region. A fresh screening of all 69 teams listed on the official 2026 FIRST Indiana district roster found 13 official hometowns within these counties. One of them, a community team, is not part of The REFINERY, so the cohort is 12 teams. Geography uses official FIRST profile hometown, not workshop location or student residence."
   },
   "formatExplainer": {
     "headline": "Two formats. The same team spirit.",
@@ -1976,112 +1898,6 @@
     },
     {
       "rank": 2,
-      "number": 1720,
-      "name": "PhyXTGears",
-      "logos": {
-        "school": {
-          "program": "frc",
-          "number": 1720,
-          "kind": "school",
-          "file": null,
-          "sourceUrl": null,
-          "pageUrl": "https://phyxtgears.org/",
-          "label": "East Central Indiana Robotics",
-          "status": "no-school",
-          "note": "Community team, not a single-school team; no school logo assigned. The robotics team logo identifies this organization.",
-          "retrievedDate": "2026-10-22"
-        },
-        "team": {
-          "program": "frc",
-          "number": 1720,
-          "kind": "team",
-          "file": "assets/logos/team-1720.png",
-          "sourceUrl": "https://frc-events.firstinspires.org/2026/team/1720#teamAvatar",
-          "pageUrl": "https://frc-events.firstinspires.org/2026/team/1720",
-          "label": "PhyXTGears logo",
-          "status": "verified",
-          "note": "Unmodified 40×40 team avatar embedded as PNG data in the official FIRST 2026 team profile. Suitable for small on-screen marks; not a high-resolution print master.",
-          "sha256": "439e41560078066aeb029f336783909e4a7030e560e9cfa77119c7d8673023da",
-          "retrievedDate": "2026-10-22",
-          "width": 40,
-          "height": 40
-        }
-      },
-      "school": "East Central Indiana Robotics (community team)",
-      "city": "Matthews",
-      "county": "Grant",
-      "districtPoints": 189,
-      "districtRank": 11,
-      "districtCount": 68,
-      "record": {
-        "wins": 31,
-        "losses": 24,
-        "ties": 0
-      },
-      "epa": 118.52,
-      "epaStandardDeviation": 22.26,
-      "stateRank": 13,
-      "stateCount": 68,
-      "worldRank": 440,
-      "worldCount": 3724,
-      "seasons": 21,
-      "rookieYear": 2006,
-      "students": [],
-      "adults": [
-        {
-          "name": "Shawn VanNess",
-          "role": "Team president",
-          "date": "2026-05-15",
-          "status": "verified dated",
-          "note": "Official team season report names the president. Publication date is May 15, 2026; the page also displays a May 23 update.",
-          "sourceUrls": [
-            "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-          ],
-          "season": "Evidence from the published research; see date and notes",
-          "dateBasis": "Source publication date; not an appointment date"
-        },
-        {
-          "name": "Mike Koch",
-          "role": "Mechanical mentor and co-founder",
-          "date": "2026-05-15",
-          "status": "verified dated",
-          "note": "Official team report supplies these roles; it does not identify him as head coach.",
-          "sourceUrls": [
-            "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-          ],
-          "season": "Evidence from the published research; see date and notes",
-          "dateBasis": "Source publication date; not an appointment date"
-        }
-      ],
-      "representatives": [],
-      "gaps": [
-        "Student team captain not verified.",
-        "A separately designated head coach is not established by the cited team report."
-      ],
-      "talkingPoints": [
-        "No. 2 among Northeast Indiana teams; East Central Indiana Robotics (community team) in Matthews.",
-        "189 FIRST Indiana district points; #11 of 68 in Indiana. 2026 record 31-24-0 (The Blue Alliance).",
-        "21 recorded FIRST season entries through 2026; official rookie year 2006.",
-        "Shawn VanNess — Team president. Official team season report, May 15, 2026."
-      ],
-      "spotlight": {
-        "name": "Shawn VanNess",
-        "role": "Team president",
-        "qualification": "Official team season report, May 15, 2026.",
-        "other_people_note": "Student captain not verified."
-      },
-      "sourceUrls": [
-        "https://frc-events.firstinspires.org/2026/team/1720",
-        "https://phyxtgears.org/",
-        "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/",
-        "https://www.statbotics.io/team/1720/2026"
-      ],
-      "profileUrl": "https://www.statbotics.io/team/1720/2026",
-      "schoolUrl": "https://phyxtgears.org/",
-      "affiliationNote": "Community team with no single exclusive high-school affiliation."
-    },
-    {
-      "rank": 3,
       "number": 4982,
       "name": "Olympus Robotics",
       "logos": {
@@ -2180,7 +1996,7 @@
         "Olympus has a student leadership board; its members are not listed individually here."
       ],
       "talkingPoints": [
-        "No. 3 among Northeast Indiana teams; Homestead High School in Fort Wayne.",
+        "No. 2 among Northeast Indiana teams; Homestead High School in Fort Wayne.",
         "136 FIRST Indiana district points; #21 of 68 in Indiana. 2026 record 24-25-0 (The Blue Alliance).",
         "13 recorded FIRST season entries through 2026; official rookie year 2014.",
         "Jake — Team captain, 2026–27. First name only; confirmed by the team’s assistant coach, Nov 10, 2026."
@@ -2203,7 +2019,7 @@
       "affiliationNote": "This is the Indiana Homestead program; homesteadrobotics.com describes a different school's program."
     },
     {
-      "rank": 4,
+      "rank": 3,
       "number": 10434,
       "name": "CyBears",
       "logos": {
@@ -2291,7 +2107,7 @@
         "Alfy Krider is documented as a representative and 2026 senior, not as a current 2026-27 captain."
       ],
       "talkingPoints": [
-        "No. 4 among Northeast Indiana teams; Northrop High School in Fort Wayne.",
+        "No. 3 among Northeast Indiana teams; Northrop High School in Fort Wayne.",
         "97 FIRST Indiana district points; #28 of 68 in Indiana. 2026 record 21-27-0 (The Blue Alliance).",
         "2 recorded FIRST season entries through 2026; official rookie year 2025.",
         "Alfy Krider — Student team representative. FWCS board presentation, February 9, 2026; Northrop senior in March 2026 reporting; current student status not confirmed."
@@ -2315,7 +2131,7 @@
       "affiliationNote": "Team formed in fall 2024; first official FRC season was 2025."
     },
     {
-      "rank": 5,
+      "rank": 4,
       "number": 9119,
       "name": "Iron Legends",
       "logos": {
@@ -2414,7 +2230,7 @@
         "Student team captain not verified; the February 2026 presentation identifies a representative."
       ],
       "talkingPoints": [
-        "No. 5 among Northeast Indiana teams; North Side High School in Fort Wayne.",
+        "No. 4 among Northeast Indiana teams; North Side High School in Fort Wayne.",
         "89 FIRST Indiana district points; #32 of 68 in Indiana. 2026 record 21-21-0 (The Blue Alliance).",
         "4 recorded FIRST season entries through 2026; official rookie year 2023.",
         "Zen Gunawardhana — Student team representative. FWCS board presentation, February 9, 2026; representative, not a verified captain."
@@ -2438,7 +2254,7 @@
       "affiliationNote": ""
     },
     {
-      "rank": 6,
+      "rank": 5,
       "number": 9431,
       "name": "The Gold Standard",
       "logos": {
@@ -2565,7 +2381,7 @@
         "A current formally designated adult lead was not independently confirmed."
       ],
       "talkingPoints": [
-        "No. 6 among Northeast Indiana teams; R. Nelson Snider High School in Fort Wayne.",
+        "No. 5 among Northeast Indiana teams; R. Nelson Snider High School in Fort Wayne.",
         "84 FIRST Indiana district points; #33 of 68 in Indiana. 2026 record 21-20-0 (The Blue Alliance).",
         "3 recorded FIRST season entries through 2026; official rookie year 2024.",
         "Nick Sims — Recent team captain and driver. Retrospective PBS Fort Wayne interview aired October 2, 2026; current appointment not confirmed."
@@ -2591,7 +2407,7 @@
       "affiliationNote": "Team formed in September 2023; first official FRC season was 2024."
     },
     {
-      "rank": 7,
+      "rank": 6,
       "number": 10332,
       "name": "Carroll Charger Robotics",
       "logos": {
@@ -2689,7 +2505,7 @@
         "The 2026–27 student captain is not confirmed."
       ],
       "talkingPoints": [
-        "No. 7 among Northeast Indiana teams; Carroll High School in Fort Wayne.",
+        "No. 6 among Northeast Indiana teams; Carroll High School in Fort Wayne.",
         "35 FIRST Indiana district points; #49 of 68 in Indiana. 2026 record 9-17-0 (The Blue Alliance).",
         "2 recorded FIRST season entries through 2026; official rookie year 2025.",
         "Nieng Mang — 2025–26 team captain. Captain in 2025–26 per a January 2026 school-newspaper bio; 2026–27 captain not confirmed."
@@ -2713,7 +2529,7 @@
       "affiliationNote": ""
     },
     {
-      "rank": 8,
+      "rank": 7,
       "number": 10172,
       "name": "Apex Archers",
       "logos": {
@@ -2786,7 +2602,7 @@
         "Student team captain not verified; the February 2026 presentation identifies a representative."
       ],
       "talkingPoints": [
-        "No. 8 among Northeast Indiana teams; South Side High School in Fort Wayne.",
+        "No. 7 among Northeast Indiana teams; South Side High School in Fort Wayne.",
         "28 FIRST Indiana district points; #55 of 68 in Indiana. 2026 record 7-17-0 (The Blue Alliance).",
         "2 recorded FIRST season entries through 2026; official rookie year 2025.",
         "David Haruna — Student team representative. FWCS board presentation, February 9, 2026; representative, not a verified captain."
@@ -2808,7 +2624,7 @@
       "affiliationNote": ""
     },
     {
-      "rank": 9,
+      "rank": 8,
       "number": 8103,
       "name": "Knight Robotics",
       "logos": {
@@ -2919,7 +2735,7 @@
         "Team 8103 leadership evidence does not establish individual coaching assignments for teams 8431 or 8432."
       ],
       "talkingPoints": [
-        "No. 9 among Northeast Indiana teams; East Noble High School in Kendallville.",
+        "No. 8 among Northeast Indiana teams; East Noble High School in Kendallville.",
         "23 FIRST Indiana district points; #57 of 68 in Indiana. 2026 record 10-17-0 (The Blue Alliance).",
         "7 recorded FIRST season entries through 2026; official rookie year 2020.",
         "Shawn Kimmel and Jo Smith — Coaches. KPC report, available republication May 11, 2024; current appointments not confirmed."
@@ -2942,7 +2758,7 @@
       "affiliationNote": "One of three East Noble teams."
     },
     {
-      "rank": 10,
+      "rank": 9,
       "number": 8431,
       "name": "Robo-Knights",
       "logos": {
@@ -2990,7 +2806,7 @@
         "The shared East Noble school program does not establish that the documented Team 8103 coaches also coach Team 8431."
       ],
       "talkingPoints": [
-        "No. 10 among Northeast Indiana teams; East Noble High School in Kendallville.",
+        "No. 9 among Northeast Indiana teams; East Noble High School in Kendallville.",
         "20 FIRST Indiana district points; #60 of 68 in Indiana. 2026 record 9-15-0 (The Blue Alliance).",
         "2 recorded FIRST season entries through 2026; official rookie year 2020."
       ],
@@ -3003,6 +2819,116 @@
       "profileUrl": "https://www.statbotics.io/team/8431/2026",
       "schoolUrl": "https://hs.eastnoble.net/",
       "affiliationNote": "Official rookie year is 2020; recorded season history through 2026 begins in 2025."
+    },
+    {
+      "rank": 10,
+      "number": 8742,
+      "name": "Argyll Attack",
+      "logos": {
+        "school": {
+          "program": "frc",
+          "number": 8742,
+          "kind": "school",
+          "file": "assets/logos/school-8742.png",
+          "sourceUrl": "https://files.smartsites.parentsquare.com/13014/header_logo_img_t4bgr633q66laefmojg.png",
+          "pageUrl": "https://mghs.mgusc.k12.in.us/",
+          "label": "Madison-Grant Jr./Sr. High School",
+          "status": "verified",
+          "note": "Official school homepage header logo, hosted by the school’s website provider; downloaded without alteration.",
+          "retrievedDate": "2026-10-22",
+          "sha256": "f4f56dd695a03a56047106246e639be53043b577f369e5d4e1e0ba84491304b0"
+        },
+        "team": {
+          "program": "frc",
+          "number": 8742,
+          "kind": "team",
+          "file": "assets/logos/team-8742.png",
+          "sourceUrl": "https://raw.githubusercontent.com/BioNanomics/REFINERY-site/main/src/assets/teams/frc-8742-argyll-attack.png",
+          "pageUrl": "https://github.com/BioNanomics/REFINERY-site/blob/main/src/content/teams/frc-8742-argyll-attack.mdx",
+          "label": "Argyll Attack logo",
+          "status": "verified",
+          "note": "Unmodified logo asset explicitly assigned to this team number in The REFINERY official website source. Used for identification; rights remain with the respective team/mark owner.",
+          "sha256": "dcc97b4f7d45d825d508735daf1e5dd546ebc878a333e6c0bf3b3e8d5d9f9177",
+          "retrievedDate": "2026-10-22",
+          "width": 256,
+          "height": 253
+        }
+      },
+      "school": "Madison-Grant Jr./Sr. High School",
+      "city": "Fairmount",
+      "county": "Grant",
+      "districtPoints": 19,
+      "districtRank": 61,
+      "districtCount": 68,
+      "record": {
+        "wins": 9,
+        "losses": 16,
+        "ties": 0
+      },
+      "epa": 29.46,
+      "epaStandardDeviation": 9.37,
+      "stateRank": 48,
+      "stateCount": 68,
+      "worldRank": 2279,
+      "worldCount": 3724,
+      "seasons": 5,
+      "rookieYear": 2022,
+      "students": [],
+      "adults": [
+        {
+          "name": "Eric Cale",
+          "role": "Robotics and chemistry teacher; team spokesperson",
+          "date": "2026-04-07",
+          "status": "verified dated",
+          "note": "School-authored podcast features Cale discussing his robotics team. The documented teacher and spokesperson roles do not establish a formal head-coach appointment.",
+          "sourceUrls": [
+            "https://podcasts.apple.com/ma/podcast/eric-cale-and-robotics/id1773140582?i=1000760060708"
+          ],
+          "season": "Evidence from the published research; see date and notes",
+          "dateBasis": "Source publication date; not an appointment date"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Ava Stanley",
+          "role": "Team spokesperson at Fairmount Town Council",
+          "date": "2025-09-08",
+          "status": "verified role status unknown",
+          "note": "Official minutes identify the team spokesperson. The evidence date is the meeting date; upload timing is different. Student/adult status and captain status are not established.",
+          "sourceUrls": [
+            "https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf"
+          ],
+          "season": "Evidence from the published research; see date and notes",
+          "dateBasis": "Source publication date; not an appointment date"
+        }
+      ],
+      "gaps": [
+        "Student team captain not verified.",
+        "Ava Stanley cannot be classified as a student or adult from the cited evidence.",
+        "A formal head-coach title for Eric Cale was not established."
+      ],
+      "talkingPoints": [
+        "No. 10 among Northeast Indiana teams; Madison-Grant Jr./Sr. High School in Fairmount.",
+        "19 FIRST Indiana district points; #61 of 68 in Indiana. 2026 record 9-16-0 (The Blue Alliance).",
+        "5 recorded FIRST season entries through 2026; official rookie year 2022.",
+        "Eric Cale — Robotics and chemistry teacher; team spokesperson. School-authored podcast dated April 7, 2026; formal head-coach appointment not established."
+      ],
+      "spotlight": {
+        "name": "Eric Cale",
+        "role": "Robotics and chemistry teacher; team spokesperson",
+        "qualification": "School-authored podcast dated April 7, 2026; formal head-coach appointment not established.",
+        "other_people_note": "Student captain not verified. Ava Stanley is a documented council spokesperson; student/adult status unknown."
+      },
+      "sourceUrls": [
+        "https://frc-events.firstinspires.org/2026/team/8742",
+        "https://podcasts.apple.com/ma/podcast/eric-cale-and-robotics/id1773140582?i=1000760060708",
+        "https://refineryrobotics.org/about/",
+        "https://static1.squarespace.com/static/5dc440cbaed3360b099cc5e8/t/68e97523a86b466f4093381a/1760130339609/Regular%2BMeeting%2BMinutes%2B09.08.2025.pdf",
+        "https://www.statbotics.io/team/8742/2026"
+      ],
+      "profileUrl": "https://www.statbotics.io/team/8742/2026",
+      "schoolUrl": "https://mghs.mgusc.k12.in.us/",
+      "affiliationNote": ""
     }
   ],
   "ftc": {
@@ -4544,591 +4470,6 @@
       "standingsRank": 1
     },
     {
-      "number": 1720,
-      "name": "PhyXTGears",
-      "school": "East Central Indiana Robotics (community team)",
-      "city": "Matthews",
-      "county": "Grant",
-      "affiliationNote": "Community team with no single exclusive high-school affiliation.",
-      "logos": {
-        "school": {
-          "program": "frc",
-          "number": 1720,
-          "kind": "school",
-          "file": null,
-          "sourceUrl": null,
-          "pageUrl": "https://phyxtgears.org/",
-          "label": "East Central Indiana Robotics",
-          "status": "no-school",
-          "note": "Community team, not a single-school team; no school logo assigned. The robotics team logo identifies this organization.",
-          "retrievedDate": "2026-10-22"
-        },
-        "team": {
-          "program": "frc",
-          "number": 1720,
-          "kind": "team",
-          "file": "assets/logos/team-1720.png",
-          "sourceUrl": "https://frc-events.firstinspires.org/2026/team/1720#teamAvatar",
-          "pageUrl": "https://frc-events.firstinspires.org/2026/team/1720",
-          "label": "PhyXTGears logo",
-          "status": "verified",
-          "note": "Unmodified 40×40 team avatar embedded as PNG data in the official FIRST 2026 team profile. Suitable for small on-screen marks; not a high-resolution print master.",
-          "sha256": "439e41560078066aeb029f336783909e4a7030e560e9cfa77119c7d8673023da",
-          "retrievedDate": "2026-10-22",
-          "width": 40,
-          "height": 40
-        }
-      },
-      "rookieYear": 2006,
-      "seasons": 21,
-      "powerRank": 2,
-      "epa": 118.52,
-      "epaStandardDeviation": 22.26,
-      "stateEpaRank": 13,
-      "stateEpaCount": 68,
-      "worldEpaRank": 440,
-      "worldEpaCount": 3724,
-      "record": {
-        "wins": 31,
-        "losses": 24,
-        "ties": 0
-      },
-      "district": {
-        "key": "2026fin",
-        "rank": 11,
-        "points": 189,
-        "teamCount": 68
-      },
-      "events": [
-        {
-          "key": "2026incol",
-          "name": "FIN District Columbus Event",
-          "shortName": "Columbus",
-          "type": "district",
-          "startDate": "2026-03-20",
-          "endDate": "2026-03-22",
-          "week": 3,
-          "qualRank": 10,
-          "qualRecord": "8-7-0",
-          "awards": [
-            "Creativity Award sponsored by Rockwell Automation"
-          ],
-          "playoff": {
-            "role": "1st Pick",
-            "alliance": 3,
-            "result": "Eliminated in playoff round 3",
-            "sourceText": "They competed in the playoffs as the 1st Pick of Alliance 3 and were eliminated in the Double Elimination Bracket (Round 3)."
-          },
-          "tbaUrl": "https://www.thebluealliance.com/event/2026incol"
-        },
-        {
-          "key": "2026inwas",
-          "name": "FIN District Washington Event",
-          "shortName": "Washington",
-          "type": "district",
-          "startDate": "2026-04-02",
-          "endDate": "2026-04-04",
-          "week": 5,
-          "qualRank": 9,
-          "qualRecord": "7-7-0",
-          "awards": [
-            "Innovation in Control Award sponsored by nVent"
-          ],
-          "playoff": {
-            "role": "Captain",
-            "alliance": 6,
-            "result": "Eliminated in playoff round 2",
-            "sourceText": "They competed in the playoffs as the Captain of Alliance 6 and were eliminated in the Double Elimination Bracket (Round 2)."
-          },
-          "tbaUrl": "https://www.thebluealliance.com/event/2026inwas"
-        },
-        {
-          "key": "2026incmp",
-          "name": "FIRST Indiana State Championship",
-          "shortName": "Indiana State Championship",
-          "type": "district_championship",
-          "startDate": "2026-04-17",
-          "endDate": "2026-04-19",
-          "week": 7,
-          "qualRank": 8,
-          "qualRecord": "9-7-0",
-          "awards": [],
-          "playoff": {
-            "role": "Captain",
-            "alliance": 6,
-            "result": "Eliminated in playoff round 5",
-            "sourceText": "They competed in the playoffs as the Captain of Alliance 6 and were eliminated in the Double Elimination Bracket (Round 5)."
-          },
-          "tbaUrl": "https://www.thebluealliance.com/event/2026incmp"
-        },
-        {
-          "key": "2026dal",
-          "name": "FIRST Championship · Daly Division",
-          "shortName": "World Championship (Daly)",
-          "type": "championship_division",
-          "startDate": "2026-04-29",
-          "endDate": "2026-05-02",
-          "week": null,
-          "qualRank": 23,
-          "qualRecord": "7-3-0",
-          "awards": [],
-          "playoff": null,
-          "tbaUrl": "https://www.thebluealliance.com/event/2026dal"
-        },
-        {
-          "key": "2026kylou",
-          "name": "RiverBOaT Rumble",
-          "shortName": "RiverBOaT Rumble",
-          "type": "offseason",
-          "startDate": "2026-07-10",
-          "endDate": "2026-07-11",
-          "week": null,
-          "qualRank": 1,
-          "qualRecord": "11-3-0",
-          "awards": [],
-          "playoff": {
-            "role": "Captain",
-            "alliance": 1,
-            "result": "Eliminated in playoff round 2",
-            "sourceText": "They competed in the playoffs as the Captain of Alliance 1 and were eliminated in the Double Elimination Bracket (Round 2)."
-          },
-          "tbaUrl": "https://www.thebluealliance.com/event/2026kylou"
-        },
-        {
-          "key": "2026iri",
-          "name": "Indiana Robotics Invitational",
-          "shortName": "Indiana Robotics Invitational",
-          "type": "offseason",
-          "startDate": "2026-07-16",
-          "endDate": "2026-07-18",
-          "week": null,
-          "qualRank": 8,
-          "qualRecord": "7-4-0",
-          "awards": [],
-          "playoff": {
-            "role": "Captain",
-            "alliance": 7,
-            "result": "Eliminated in playoff round 2",
-            "sourceText": "They competed in the playoffs as the Captain of Alliance 7 and were eliminated in the Double Elimination Bracket (Round 2)."
-          },
-          "tbaUrl": "https://www.thebluealliance.com/event/2026iri"
-        },
-        {
-          "key": "2026inbbb",
-          "name": "Boiler Bot Battle",
-          "shortName": "Boiler Bot Battle",
-          "type": "offseason",
-          "startDate": "2026-10-23",
-          "endDate": "2026-10-24",
-          "week": null,
-          "qualRank": 1,
-          "qualRecord": "11-0-0",
-          "awards": [],
-          "playoff": {
-            "role": "Captain",
-            "alliance": 1,
-            "result": "Won event",
-            "sourceText": "They competed in the playoffs as the Captain of Alliance 1 and won the event."
-          },
-          "tbaUrl": "https://www.thebluealliance.com/event/2026inbbb"
-        }
-      ],
-      "awards": [
-        {
-          "award": "Creativity Award sponsored by Rockwell Automation",
-          "event": "Columbus",
-          "eventKey": "2026incol"
-        },
-        {
-          "award": "Innovation in Control Award sponsored by nVent",
-          "event": "Washington",
-          "eventKey": "2026inwas"
-        }
-      ],
-      "titles": [],
-      "worlds": "World Championship (Daly)",
-      "stateChampionship": true,
-      "badges": [
-        "World Championship",
-        "Creativity Award",
-        "Innovation in Control Award"
-      ],
-      "closestMatch": {
-        "id": "2026incol_qm24",
-        "eventName": "FIN District Columbus Event",
-        "eventCode": "INCOL",
-        "eventStartDate": "2026-03-20",
-        "eventEndDate": "2026-03-22",
-        "dateLabel": "2026-03-20–2026-03-22 (event dates)",
-        "playedDate": null,
-        "phase": "Qualification",
-        "matchLabel": "Qualification 24",
-        "matchNumber": 24,
-        "redTeams": [
-          3559,
-          45,
-          1720
-        ],
-        "blueTeams": [
-          4982,
-          1018,
-          9431
-        ],
-        "redScore": 108,
-        "blueScore": 105,
-        "margin": 3,
-        "teamAlliance": "Red",
-        "outcome": "Win",
-        "officialUrl": "https://frc-events.firstinspires.org/2026/INCOL/qualifications/24",
-        "videoUrl": "https://www.youtube.com/watch?v=olAjzlBnZuU",
-        "videoTitle": "Quals 24 | 2026 FIN Columbus FRC",
-        "videoPublisher": "FIRSTINRobotics",
-        "videoEvidence": "YouTube embed linked from exact TBA match result page"
-      },
-      "students": [],
-      "adults": [
-        {
-          "name": "Shawn VanNess",
-          "role": "Team president",
-          "date": "2026-05-15",
-          "status": "verified dated",
-          "note": "Official team season report names the president. Publication date is May 15, 2026; the page also displays a May 23 update.",
-          "sourceUrls": [
-            "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-          ],
-          "season": "Evidence from the published research; see date and notes",
-          "dateBasis": "Source publication date; not an appointment date"
-        },
-        {
-          "name": "Mike Koch",
-          "role": "Mechanical mentor and co-founder",
-          "date": "2026-05-15",
-          "status": "verified dated",
-          "note": "Official team report supplies these roles; it does not identify him as head coach.",
-          "sourceUrls": [
-            "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-          ],
-          "season": "Evidence from the published research; see date and notes",
-          "dateBasis": "Source publication date; not an appointment date"
-        }
-      ],
-      "representatives": [],
-      "gaps": [
-        "Student team captain not verified.",
-        "A separately designated head coach is not established by the cited team report."
-      ],
-      "news": [],
-      "photos": [],
-      "links": {
-        "tba": "https://www.thebluealliance.com/team/1720/2026",
-        "statbotics": "https://www.statbotics.io/team/1720/2026",
-        "first": "https://frc-events.firstinspires.org/2026/team/1720",
-        "school": "https://phyxtgears.org/"
-      },
-      "teamLinks": [
-        {
-          "type": "Website",
-          "url": "https://phyxtgears.org",
-          "source": "The Blue Alliance",
-          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
-        },
-        {
-          "type": "Facebook",
-          "url": "https://www.facebook.com/frcteam1720",
-          "source": "The Blue Alliance",
-          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
-        },
-        {
-          "type": "Facebook",
-          "url": "https://www.facebook.com/phyxtgears",
-          "source": "The Blue Alliance",
-          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
-        },
-        {
-          "type": "X",
-          "url": "https://twitter.com/frcteam1720",
-          "source": "The Blue Alliance",
-          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
-        },
-        {
-          "type": "X",
-          "url": "https://twitter.com/team1720",
-          "source": "The Blue Alliance",
-          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
-        },
-        {
-          "type": "Instagram",
-          "url": "https://www.instagram.com/frcteam1720",
-          "source": "The Blue Alliance",
-          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
-        },
-        {
-          "type": "Instagram",
-          "url": "https://www.instagram.com/team1720",
-          "source": "The Blue Alliance",
-          "sourceUrl": "https://www.thebluealliance.com/team/1720/2026"
-        }
-      ],
-      "history": {
-        "tbaUrl": "https://www.thebluealliance.com/team/1720/history",
-        "banners": [
-          {
-            "award": "Winner",
-            "event": "2020 Bloomington District"
-          },
-          {
-            "award": "Woodie Flowers Finalist Award",
-            "event": "2019 Indiana District Championship"
-          },
-          {
-            "award": "Winner",
-            "event": "2016 Walker Warren District"
-          }
-        ],
-        "bannerCount": 3,
-        "awardCount": 37,
-        "seasonsPlayed": 21,
-        "awardsByYear": [
-          {
-            "year": 2026,
-            "awards": [
-              {
-                "award": "Innovation in Control Award sponsored by nVent",
-                "event": "FIN District Washington Event presented by Toyota IN & VU CARA"
-              },
-              {
-                "award": "Creativity Award sponsored by Rockwell Automation",
-                "event": "FIN District Columbus Event"
-              }
-            ]
-          },
-          {
-            "year": 2025,
-            "awards": [
-              {
-                "award": "District Championship Dean's List Semi-Finalist (Emmalene J)",
-                "event": "FIN District Washington Event presented by Toyota Indiana and Vincennes University"
-              },
-              {
-                "award": "Industrial Design Award sponsored by General Motors",
-                "event": "FIN District Washington Event presented by Toyota Indiana and Vincennes University"
-              },
-              {
-                "award": "Excellence in Engineering Award",
-                "event": "FIN District Kokomo Event"
-              }
-            ]
-          },
-          {
-            "year": 2024,
-            "awards": [
-              {
-                "award": "District Event Finalist",
-                "event": "FIN District Washington Event presented by Toyota Indiana and Vincennes University"
-              },
-              {
-                "award": "Gracious Professionalism Award",
-                "event": "FIN District Washington Event presented by Toyota Indiana and Vincennes University"
-              },
-              {
-                "award": "District Engineering Inspiration Award",
-                "event": "FIN District Columbus Event"
-              },
-              {
-                "award": "District Championship Dean's List Semi-Finalist (Roman H)",
-                "event": "FIN District Columbus Event"
-              }
-            ]
-          },
-          {
-            "year": 2023,
-            "awards": [
-              {
-                "award": "Gracious Professionalism Award",
-                "event": "FIN District Tippecanoe Event"
-              }
-            ]
-          },
-          {
-            "year": 2022,
-            "awards": [
-              {
-                "award": "Judges' Award",
-                "event": "FIRST Indiana State Championship"
-              },
-              {
-                "award": "Gracious Professionalism Award",
-                "event": "FIN District Kokomo Event presented by AndyMark"
-              }
-            ]
-          },
-          {
-            "year": 2020,
-            "awards": [
-              {
-                "award": "District Event Winner",
-                "event": "IN District Bloomington Event"
-              },
-              {
-                "award": "Excellence in Engineering Award sponsored by Delphi",
-                "event": "IN District Bloomington Event"
-              }
-            ]
-          },
-          {
-            "year": 2019,
-            "awards": [
-              {
-                "award": "Woodie Flowers Finalist Award (Mike Koch)",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "District Championship Finalist",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "Autonomous Award sponsored by Ford",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "District Event Finalist",
-                "event": "IN District Tippecanoe Event"
-              }
-            ]
-          },
-          {
-            "year": 2018,
-            "awards": [
-              {
-                "award": "Championship Subdivision Finalist",
-                "event": "Tesla Division"
-              },
-              {
-                "award": "District Championship Finalist",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "Industrial Design Award sponsored by General Motors",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "Industrial Design Award sponsored by General Motors",
-                "event": "IN District Tippecanoe Event"
-              }
-            ]
-          },
-          {
-            "year": 2017,
-            "awards": [
-              {
-                "award": "District Championship Finalist",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "Innovation in Control Award sponsored by Rockwell Automation",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "District Event Finalist",
-                "event": "IN District - Perry Meridian Event"
-              },
-              {
-                "award": "Innovation in Control Award sponsored by Rockwell Automation",
-                "event": "IN District - Perry Meridian Event"
-              },
-              {
-                "award": "Excellence in Engineering Award sponsored by Delphi",
-                "event": "IN District - St. Joseph Event"
-              }
-            ]
-          },
-          {
-            "year": 2016,
-            "awards": [
-              {
-                "award": "Innovation in Control Award sponsored by Rockwell Automation",
-                "event": "Indiana State Championship"
-              },
-              {
-                "award": "Judges' Award",
-                "event": "IN District - Perry Meridian Event"
-              },
-              {
-                "award": "District Event Winner",
-                "event": "IN District - Walker Warren Event"
-              },
-              {
-                "award": "Judges' Award",
-                "event": "IN District - Walker Warren Event"
-              }
-            ]
-          },
-          {
-            "year": 2015,
-            "awards": [
-              {
-                "award": "Creativity Award sponsored by Xerox",
-                "event": "Indiana FIRST District Championship"
-              },
-              {
-                "award": "Excellence in Engineering Award sponsored by Delphi",
-                "event": "IN District - Kokomo City of Firsts Event sponsored by AndyMark"
-              }
-            ]
-          },
-          {
-            "year": 2010,
-            "awards": [
-              {
-                "award": "Excellence in Design Award sponsored by Autodesk",
-                "event": "Boilermaker Regional"
-              }
-            ]
-          },
-          {
-            "year": 2009,
-            "awards": [
-              {
-                "award": "Autodesk Visualization Award",
-                "event": "Boilermaker Regional"
-              }
-            ]
-          },
-          {
-            "year": 2007,
-            "awards": [
-              {
-                "award": "Autodesk Visualization Award",
-                "event": "Boilermaker Regional"
-              }
-            ]
-          },
-          {
-            "year": 2006,
-            "awards": [
-              {
-                "award": "Highest Rookie Seed Award",
-                "event": "Boilermaker Regional"
-              }
-            ]
-          }
-        ],
-        "registered": [
-          {
-            "year": 2027,
-            "eventKey": "2027inftw",
-            "event": "FIN District Fort Wayne Event"
-          },
-          {
-            "year": 2027,
-            "eventKey": "2027insel",
-            "event": "FIN District Sellersburg Event"
-          }
-        ]
-      },
-      "standingsRank": 2
-    },
-    {
       "number": 9119,
       "name": "Iron Legends",
       "school": "North Side High School",
@@ -5167,7 +4508,7 @@
       },
       "rookieYear": 2023,
       "seasons": 4,
-      "powerRank": 3,
+      "powerRank": 2,
       "epa": 75.1,
       "epaStandardDeviation": 24.38,
       "stateEpaRank": 22,
@@ -5435,7 +4776,7 @@
           }
         ]
       },
-      "standingsRank": 5
+      "standingsRank": 4
     },
     {
       "number": 9431,
@@ -5476,7 +4817,7 @@
       },
       "rookieYear": 2024,
       "seasons": 3,
-      "powerRank": 4,
+      "powerRank": 3,
       "epa": 68.51,
       "epaStandardDeviation": 13.69,
       "stateEpaRank": 24,
@@ -5793,7 +5134,7 @@
           }
         ]
       },
-      "standingsRank": 6
+      "standingsRank": 5
     },
     {
       "number": 4982,
@@ -5835,7 +5176,7 @@
       },
       "rookieYear": 2014,
       "seasons": 13,
-      "powerRank": 5,
+      "powerRank": 4,
       "epa": 58.8,
       "epaStandardDeviation": 16.78,
       "stateEpaRank": 27,
@@ -6200,7 +5541,7 @@
           }
         ]
       },
-      "standingsRank": 3
+      "standingsRank": 2
     },
     {
       "number": 10434,
@@ -6241,7 +5582,7 @@
       },
       "rookieYear": 2025,
       "seasons": 2,
-      "powerRank": 6,
+      "powerRank": 5,
       "epa": 35.84,
       "epaStandardDeviation": 14.49,
       "stateEpaRank": 43,
@@ -6489,7 +5830,7 @@
           }
         ]
       },
-      "standingsRank": 4
+      "standingsRank": 3
     },
     {
       "number": 8103,
@@ -6530,7 +5871,7 @@
       },
       "rookieYear": 2020,
       "seasons": 7,
-      "powerRank": 7,
+      "powerRank": 6,
       "epa": 35.1,
       "epaStandardDeviation": 11.66,
       "stateEpaRank": 45,
@@ -6804,7 +6145,7 @@
           }
         ]
       },
-      "standingsRank": 9
+      "standingsRank": 8
     },
     {
       "number": 10332,
@@ -6845,7 +6186,7 @@
       },
       "rookieYear": 2025,
       "seasons": 2,
-      "powerRank": 8,
+      "powerRank": 7,
       "epa": 34.76,
       "epaStandardDeviation": 21.52,
       "stateEpaRank": 46,
@@ -7092,7 +6433,7 @@
           }
         ]
       },
-      "standingsRank": 7
+      "standingsRank": 6
     },
     {
       "number": 8742,
@@ -7133,7 +6474,7 @@
       },
       "rookieYear": 2022,
       "seasons": 5,
-      "powerRank": 9,
+      "powerRank": 8,
       "epa": 29.46,
       "epaStandardDeviation": 9.37,
       "stateEpaRank": 48,
@@ -7369,7 +6710,7 @@
           }
         ]
       },
-      "standingsRank": 11
+      "standingsRank": 10
     },
     {
       "number": 10172,
@@ -7410,7 +6751,7 @@
       },
       "rookieYear": 2025,
       "seasons": 2,
-      "powerRank": 10,
+      "powerRank": 9,
       "epa": 21.15,
       "epaStandardDeviation": 8.59,
       "stateEpaRank": 55,
@@ -7606,7 +6947,7 @@
           }
         ]
       },
-      "standingsRank": 8
+      "standingsRank": 7
     },
     {
       "number": 8431,
@@ -7634,7 +6975,7 @@
       },
       "rookieYear": 2020,
       "seasons": 2,
-      "powerRank": 11,
+      "powerRank": 10,
       "epa": 17.19,
       "epaStandardDeviation": 7.05,
       "stateEpaRank": 58,
@@ -7784,7 +7125,7 @@
           }
         ]
       },
-      "standingsRank": 10
+      "standingsRank": 9
     },
     {
       "number": 10411,
@@ -7810,7 +7151,7 @@
       },
       "rookieYear": 2025,
       "seasons": 2,
-      "powerRank": 12,
+      "powerRank": 11,
       "epa": 14.6,
       "epaStandardDeviation": 10.01,
       "stateEpaRank": 63,
@@ -8003,7 +7344,7 @@
           }
         ]
       },
-      "standingsRank": 12
+      "standingsRank": 11
     },
     {
       "number": 8432,
@@ -8031,7 +7372,7 @@
       },
       "rookieYear": 2020,
       "seasons": 1,
-      "powerRank": 13,
+      "powerRank": 12,
       "epa": 8.84,
       "epaStandardDeviation": 10.37,
       "stateEpaRank": 66,
@@ -8180,26 +7521,24 @@
           }
         ]
       },
-      "standingsRank": 13
+      "standingsRank": 12
     }
   ],
   "seasonSummary": {
-    "teams": 13,
+    "teams": 12,
     "eventTitles": 4,
     "worldsTeams": [
-      1501,
-      1720
+      1501
     ],
     "stateTeams": [
       1501,
-      1720,
       9119,
       9431,
       4982,
       10434
     ],
-    "awards": 9,
-    "wins": 222,
+    "awards": 7,
+    "wins": 191,
     "updated": "2026-11-10",
     "resultsSource": "The Blue Alliance, captured Nov 10, 2026",
     "ratingsSource": "Statbotics EPA, final 2026 values (June 12, 2026 snapshot), shown as a secondary model rating"
@@ -8307,15 +7646,6 @@
       "tbaUrl": "https://www.thebluealliance.com/event/2026inbbb",
       "teams": [
         {
-          "number": 1720,
-          "name": "PhyXTGears",
-          "school": "East Central Indiana Robotics (community team)",
-          "qualRank": 1,
-          "outcome": "Won event",
-          "result": "Won the event",
-          "awards": []
-        },
-        {
           "number": 10332,
           "name": "Carroll Charger Robotics",
           "school": "Carroll High School",
@@ -8354,21 +7684,21 @@
       ]
     },
     {
-      "key": "2026iri",
-      "name": "Indiana Robotics Invitational",
-      "shortName": "Indiana Robotics Invitational",
+      "key": "2026kylou",
+      "name": "RiverBOaT Rumble",
+      "shortName": "RiverBOaT Rumble",
       "type": "offseason",
-      "startDate": "2026-07-16",
-      "endDate": "2026-07-18",
-      "tbaUrl": "https://www.thebluealliance.com/event/2026iri",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-11",
+      "tbaUrl": "https://www.thebluealliance.com/event/2026kylou",
       "teams": [
         {
-          "number": 1720,
-          "name": "PhyXTGears",
-          "school": "East Central Indiana Robotics (community team)",
-          "qualRank": 8,
-          "outcome": "Eliminated in playoff round 2",
-          "result": "Tied 7th (out in playoff round 2)",
+          "number": 1501,
+          "name": "Team THRUST",
+          "school": "Huntington County 4-H Robotics",
+          "qualRank": 5,
+          "outcome": "Playoffs (final result not recorded on TBA)",
+          "result": "Reached playoffs",
           "awards": []
         }
       ]
@@ -8716,7 +8046,6 @@
         "entrants": {
           "posted": true,
           "local": [
-            1720,
             8742,
             10411,
             10434
@@ -8768,7 +8097,6 @@
           "posted": true,
           "local": [
             1501,
-            1720,
             4982,
             8103,
             8431,
@@ -9229,11 +8557,6 @@
       "file": "assets/display/team-10434.webp",
       "width": 256,
       "height": 239
-    },
-    "assets/logos/team-1720.png": {
-      "file": "assets/display/team-1720.webp",
-      "width": 40,
-      "height": 40
     },
     "assets/logos/team-22331.svg": {
       "file": "assets/display/team-22331.webp",

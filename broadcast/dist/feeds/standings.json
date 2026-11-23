@@ -26,31 +26,6 @@
   },
   {
     "rank": 2,
-    "team_number": 1720,
-    "team_name": "PhyXTGears",
-    "short_name": "PhyXTGears",
-    "school": "East Central Indiana Robotics (community team)",
-    "school_short": "East Central Indiana Robotics",
-    "city": "Matthews",
-    "county": "Grant",
-    "wins": 31,
-    "losses": 24,
-    "ties": 0,
-    "record": "31-24",
-    "district_points": 189,
-    "indiana_rank": 11,
-    "indiana_teams": 68,
-    "event_titles": 0,
-    "honors": "World Championship · 2 judged awards",
-    "epa": 118.5,
-    "team_logo": "https://horner.github.io/refintery-rankings/assets/logos/team-1720.png",
-    "school_logo": "",
-    "team_page": "https://horner.github.io/refintery-rankings/team/1720/",
-    "updated": "2026-11-10",
-    "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
-  },
-  {
-    "rank": 3,
     "team_number": 4982,
     "team_name": "Olympus Robotics",
     "short_name": "Olympus Robotics",
@@ -75,7 +50,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 4,
+    "rank": 3,
     "team_number": 10434,
     "team_name": "CyBears",
     "short_name": "CyBears",
@@ -100,7 +75,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 5,
+    "rank": 4,
     "team_number": 9119,
     "team_name": "Iron Legends",
     "short_name": "Iron Legends",
@@ -125,7 +100,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 6,
+    "rank": 5,
     "team_number": 9431,
     "team_name": "The Gold Standard",
     "short_name": "The Gold Standard",
@@ -150,7 +125,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 7,
+    "rank": 6,
     "team_number": 10332,
     "team_name": "Carroll Charger Robotics",
     "short_name": "Carroll Charger",
@@ -175,7 +150,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 8,
+    "rank": 7,
     "team_number": 10172,
     "team_name": "Apex Archers",
     "short_name": "Apex Archers",
@@ -200,7 +175,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 9,
+    "rank": 8,
     "team_number": 8103,
     "team_name": "Knight Robotics",
     "short_name": "Knight Robotics",
@@ -225,7 +200,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 10,
+    "rank": 9,
     "team_number": 8431,
     "team_name": "Robo-Knights",
     "short_name": "Robo-Knights",
@@ -250,7 +225,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 11,
+    "rank": 10,
     "team_number": 8742,
     "team_name": "Argyll Attack",
     "short_name": "Argyll Attack",
@@ -275,7 +250,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 12,
+    "rank": 11,
     "team_number": 10411,
     "team_name": "G-Code Generals",
     "short_name": "G-Code Generals",
@@ -300,7 +275,7 @@
     "source": "FIRST Indiana district points and records via The Blue Alliance; EPA via Statbotics"
   },
   {
-    "rank": 13,
+    "rank": 12,
     "team_number": 8432,
     "team_name": "Cyber Knights",
     "short_name": "Cyber Knights",

@@ -105,7 +105,7 @@
     if (!match || !state.data) return;
     const index = state.data.top10.findIndex((team) => String(team.number) === match[2]);
     if (index < 0) {
-      announce(`Team ${match[2]} is outside the Top 10. See the complete standings for all 13 teams.`);
+      announce(`Team ${match[2]} is outside the Top 10. See the complete standings for all ${state.data.standings?.length ?? ''} teams.`);
       return;
     }
     state.hashPrefix = match[1];

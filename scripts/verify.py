@@ -43,8 +43,8 @@ def main():
     records = load("data/teams.json")["teams"]
     baseline = {r["team_number"]: r for r in load("data/research-baseline.json")["teams"]}
     ids = {r["team_number"] for r in records}
-    require(len(records) == len(ids) == 17 and ids == set(baseline), "17 unique baseline teams required")
-    require(sum(r["state"] == "IN" for r in records) == 13, "Expected 13 Indiana teams")
+    require(len(records) == len(ids) == 16 and ids == set(baseline), "16 unique baseline teams required")
+    require(sum(r["state"] == "IN" for r in records) == 12, "Expected 12 Indiana teams")
     snap = ROOT / config["statbotics_snapshot_directory"]
     meta = json.loads((snap / "metadata.json").read_text(encoding="utf-8"))
     raw = (snap / "team-years-2026.json.zlib").read_bytes()
@@ -52,7 +52,7 @@ def main():
     full = json.loads(zlib.decompress(raw))
     original = {r["team"]: r for r in full["team_years"]}
     subset = json.loads((snap / "team-years-2026-subset.json").read_text(encoding="utf-8"))["team_years"]
-    require({r["team"] for r in subset} == ids, "Statbotics subset coverage mismatch")
+    require({r["team"] for r in subset} >= ids, "Statbotics subset is missing a rostered team")
     require(all(r == original[r["team"]] for r in subset), "Statbotics subset changed source rows")
     require(len(full["team_years"]) == 3724, "World denominator changed")
     for r in records:

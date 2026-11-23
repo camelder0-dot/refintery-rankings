@@ -23,39 +23,6 @@
     ]
   },
   {
-    "team_number": 1720,
-    "adults": [
-      {
-        "name": "Shawn VanNess",
-        "role": "Team president",
-        "evidence_date": "2026-05-15",
-        "date_precision": "day",
-        "source_urls": [
-          "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-        ],
-        "evidence_status": "verified_dated",
-        "notes": "Official team season report names the president. Publication date is May 15, 2026; the page also displays a May 23 update."
-      },
-      {
-        "name": "Mike Koch",
-        "role": "Mechanical mentor and co-founder",
-        "evidence_date": "2026-05-15",
-        "date_precision": "day",
-        "source_urls": [
-          "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/"
-        ],
-        "evidence_status": "verified_dated",
-        "notes": "Official team report supplies these roles; it does not identify him as head coach."
-      }
-    ],
-    "students": [],
-    "other_representatives": [],
-    "gaps": [
-      "Student team captain not verified.",
-      "A separately designated head coach is not established by the cited team report."
-    ]
-  },
-  {
     "team_number": 3777,
     "adults": [
       {

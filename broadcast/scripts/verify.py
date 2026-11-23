@@ -66,7 +66,8 @@ def main():
                       key=lambda r: (-r["rankings"]["epa_mean"], r["team_number"]))
     tba = {r["teamNumber"]: r for r in load(HERE / "data/tba/results-2026.json")["teams"]}
     by_district = sorted(regional, key=lambda r: (tba[r["team_number"]]["district"]["rank"] or 999, r["team_number"]))
-    require(len(regional) == 13 and len(data["top10"]) == 10, "Unexpected Top 10 population")
+    require(len(regional) == 12 and len(data["top10"]) == 10, "Unexpected Top 10 population")
+    require(1720 not in {r["team_number"] for r in regional}, "Team 1720 is not part of The REFINERY")
     require([r["number"] for r in data["top10"]] == [r["team_number"] for r in by_district[:10]], "Top 10 does not match official district-points order")
     for t in data["top10"]:
         d = tba[t["number"]]["district"]
@@ -184,7 +185,7 @@ def main():
     csv_rows = (HERE / "dist/standings-2026.csv").read_text(encoding="utf-8").strip().splitlines()
     require(len(csv_rows) == len(standings) + 1, "Standings CSV is missing teams")
     require(all(link["url"].startswith(("https://", "http://")) and link["source"] for t in standings for link in t["teamLinks"]), "Team link without a source")
-    require(all(t["logos"].get("team", {}).get("file") or t["logos"].get("school", {}).get("file") for t in standings if t["number"] != 1720) and standings, "A standings team has no logo")
+    require(all(t["logos"].get("team", {}).get("file") or t["logos"].get("school", {}).get("file") for t in standings) and standings, "A standings team has no logo")
     require(".md\"" not in (HERE / "dist/index.html").read_text(encoding="utf-8"), "The site links a raw Markdown file")
     cards = load(HERE / "data/share-images.json")["cards"]
     require(cards["home"]["fingerprint"] == fingerprint(home_facts(data)) and (HERE / "dist" / cards["home"]["file"]).is_file(), "Home share card is stale; rerun build_share_images.py")
@@ -220,7 +221,6 @@ def main():
         for team in teams:
             expected = {r["kind"]: r for r in marks if r["program"] == program and r["number"] == team["number"]}
             require(team["logos"] == expected, "Logo joined to the wrong team or program")
-    require(not data["top10"][1]["logos"]["school"].get("file"), "Community team incorrectly assigned a school mark")
     for file in (HERE / "dist").rglob("*"):
         if file.suffix not in {".html", ".css", ".js", ".md", ".json", ".svg"}:
             continue

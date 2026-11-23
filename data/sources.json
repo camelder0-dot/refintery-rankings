@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "research_date": "2026-10-22",
-  "source_count": 146,
+  "source_count": 139,
   "note": "Source links and per-person access limitations are preserved. This catalog does not assert that every linked page is currently accessible or archived locally.",
   "sources": [
     {
@@ -164,20 +164,6 @@
         "geographic method"
       ],
       "teams": []
-    },
-    {
-      "source_id": "S-f0abf80e10",
-      "title": "FIRST 2026 team page: 1720",
-      "url": "https://frc-events.firstinspires.org/2026/team/1720",
-      "publisher_domain": "frc-events.firstinspires.org",
-      "categories": [
-        "geographic method",
-        "geography",
-        "school and team"
-      ],
-      "teams": [
-        1720
-      ]
     },
     {
       "source_id": "S-b6852ece67",
@@ -389,18 +375,6 @@
       ],
       "teams": [
         1501
-      ]
-    },
-    {
-      "source_id": "S-77fdc41cf1",
-      "title": "FIRST team history: 1720",
-      "url": "https://frc-events.firstinspires.org/team/1720",
-      "publisher_domain": "frc-events.firstinspires.org",
-      "categories": [
-        "school and team"
-      ],
-      "teams": [
-        1720
       ]
     },
     {
@@ -1001,33 +975,6 @@
       ]
     },
     {
-      "source_id": "S-6ee167d98e",
-      "title": "phyxtgears.org",
-      "url": "https://phyxtgears.org/",
-      "publisher_domain": "phyxtgears.org",
-      "categories": [
-        "geographic method",
-        "geography",
-        "school and team"
-      ],
-      "teams": [
-        1720
-      ]
-    },
-    {
-      "source_id": "S-661b1d60f2",
-      "title": "PhyXTGears: 2026 season and world championship report",
-      "url": "https://phyxtgears.org/2026/05/15/local-robotics-team-celebrates-20th-season-with-world-championship-appearance/",
-      "publisher_domain": "phyxtgears.org",
-      "categories": [
-        "leadership",
-        "school and team"
-      ],
-      "teams": [
-        1720
-      ]
-    },
-    {
       "source_id": "S-3dfc1bd0a4",
       "title": "Madison-Grant Live Wire: Eric Cale and Robotics, April 7, 2026",
       "url": "https://podcasts.apple.com/ma/podcast/eric-cale-and-robotics/id1773140582?i=1000760060708",
@@ -1222,7 +1169,6 @@
       ],
       "teams": [
         1501,
-        1720,
         3777,
         4982,
         5559,
@@ -1238,32 +1184,6 @@
         10411,
         10434,
         11407
-      ]
-    },
-    {
-      "source_id": "S-842f7dd4f1",
-      "title": "tigerweb.geo.census.gov: tigerwebmain/Files/acs26/tigerweb_acs26_incplace_in.html",
-      "url": "https://tigerweb.geo.census.gov/tigerwebmain/Files/acs26/tigerweb_acs26_incplace_in.html",
-      "publisher_domain": "tigerweb.geo.census.gov",
-      "categories": [
-        "geographic method",
-        "geography"
-      ],
-      "teams": [
-        1720
-      ]
-    },
-    {
-      "source_id": "S-195d71a549",
-      "title": "townofmatthews.com: phyxtgears robotics team 1720",
-      "url": "https://townofmatthews.com/phyxtgears-robotics-team-1720/",
-      "publisher_domain": "townofmatthews.com",
-      "categories": [
-        "geographic method",
-        "geography"
-      ],
-      "teams": [
-        1720
       ]
     },
     {
@@ -1615,18 +1535,6 @@
       ],
       "teams": [
         1501
-      ]
-    },
-    {
-      "source_id": "S-6befec500f",
-      "title": "Statbotics 2026 profile: team 1720",
-      "url": "https://www.statbotics.io/team/1720/2026",
-      "publisher_domain": "www.statbotics.io",
-      "categories": [
-        "school and team"
-      ],
-      "teams": [
-        1720
       ]
     },
     {

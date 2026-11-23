@@ -36,7 +36,7 @@ jobs:
         # The Blue Alliance team history pages; FTC events, records and awards from FTCScout.
         run: |
           for attempt in 1 2 3; do
-            python3 scripts/capture_tba_history.py 1501 1720 4982 10434 9119 9431 10332 10172 8103 8431 8742 10411 8432 && python3 scripts/capture_ftc_history.py && exit 0
+            python3 scripts/capture_tba_history.py $(python3 -c "import json; print(*[t['team_number'] for t in json.load(open('data/roster.json'))['teams'] if t['scope_group'] == 'northeast_indiana'])") && python3 scripts/capture_ftc_history.py && exit 0
             echo "History fetch failed (attempt $attempt); retrying in 30 seconds."
             sleep 30
           done
